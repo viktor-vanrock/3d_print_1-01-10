@@ -308,20 +308,21 @@ export class AuthService {
     return { id: credential.id, username: credential.username };
   }
 
-  async listSessions(userId: UserIdType, currentSessionId: string | undefined): Promise<readonly { readonly id: string; readonly created_at: Date | string; readonly isCurrent: boolean }[]> {
-    const rows = await this.repository.getSessionsByUserId(userId);
-    return rows.map((row) => ({ id: row.id, created_at: row.created_at, isCurrent: row.id === currentSessionId }));
+  async listSessions(userId: UserIdType, currentSessionId: string): Promise<readonly { readonly id: string; readonly created_at: Date | string; readonly isCurrent: boolean }[]> {
+      const rows = await this.repository.list(userId, 100);
+      return rows.filter((row) => row.revokedAt === null && row.expiresAt.getTime() > Date.now())
+        .map((row) => ({ id: row.id, created_at: row.createdAt, isCurrent: row.id === currentSessionId }));
   }
 
   async deleteSession(userId: UserIdType, sessionId: string): Promise<void> {
-    const target = await this.repository.getSessionById(sessionId);
+    const target = await this.repository.findBrowserSession(sessionId);
     if (target === null) throw createAuthError(AUTH_ERRORS.SESSION_NOT_FOUND, "Сеанс не найден.", false, HttpStatus.NOT_FOUND);
-    if (target.user_id !== userId) throw createAuthError(AUTH_ERRORS.FORBIDDEN, "Нет доступа к этому сеансу.", false, HttpStatus.FORBIDDEN);
-    await this.repository.deleteSessionById(sessionId);
+  if (target.userId !== userId) throw createAuthError(AUTH_ERRORS.FORBIDDEN, "Нет доступа к этому сеансу.", false, HttpStatus.FORBIDDEN);
+    await this.repository.revoke(userId, sessionId, userId, "user_logout");
   }
 
-  async deleteOtherSessions(userId: UserIdType, currentSessionId: string | undefined): Promise<void> {
-    await this.repository.deleteAllSessionsByUserId(userId, currentSessionId);
+  async deleteOtherSessions(userId: UserIdType, currentSessionId: string): Promise<void> {
+    await this.repository.revokeOtherSessions(userId, currentSessionId);
   }
 
   auditFailure(provider: "plag_id" | "sber_id", reason: string): void {

@@ -52,9 +52,7 @@ export function ResearchScreen({
 }) {
   const swipe = useSectionSwipeNav(section, onSectionChange);
   const sound = useInteractionSound();
-  // Роль — прямо из сессии (`GET /auth/session`, MF-917), синхронно с первого рендера: не нужен
-  // отдельный `GET /me/role` и его состояние загрузки, `AuthGate` уже отдаёт нам полный `user`.
-  const isResearcher = user.role === "researcher" || user.capabilities?.includes("data.printers.manage") === true;
+  const isResearcher = user.capabilities?.includes("data.printers.manage") === true;
 
   // Дефолт сегмента при первом входе (§1.2): «Мой бренд» — бэкенд ещё не привязывает бренд к
   // ресёрчеру (нет колонки/эндпоинта, MF-839 п.3 воркстрим), поэтому дефолт всегда «С пробелами»

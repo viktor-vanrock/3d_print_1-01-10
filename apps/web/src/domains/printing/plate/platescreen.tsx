@@ -1,5 +1,5 @@
 import { Select, SegmentToggle, Button, StatusPill } from "@shared/ui";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { SessionUser } from "@shared/types";
 import { useActivation } from "@shared/lib";
 import { HomeHeader, type Section } from "@platform/nav";

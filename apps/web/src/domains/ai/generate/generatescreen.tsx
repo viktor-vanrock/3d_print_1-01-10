@@ -13,13 +13,16 @@ import { modelPath, navigate } from "../../../router.ts";
 import { relativeDate, trackActivation } from "@shared/lib";
 import {
   apiAssetUrl,
+  createGenerationErrorMessage,
   createCatalogDraft,
   createGeneration,
+  GENERATION_PROMPT_MAX_LENGTH,
   getGeneration,
   GENERATION_BRANCHES,
+  isTerminalGeneration,
   listGenerations,
+  subscribeGenerationEvents,
   uploadRudalleImage,
-  type CreateGenerationError,
   type CreatableGenerationBranch,
   type Generation,
   type GenerationBranch,
@@ -33,11 +36,7 @@ import "./generate.css";
   market/modelscene.ts; картинка для kzd/hueforge), история генераций пользователя.
 */
 
-const POLL_INTERVAL_MS = 2500;
 const HISTORY_PAGE_SIZE = 10;
-// apps/api/src/generations/contract.ts PROMPT_MAX_LENGTH — сервер источник истины, здесь только
-// для maxLength инпута и текста ошибки, если сервер не прислал limit явно.
-const PROMPT_MAX_LENGTH = 2000;
 
 const BRANCH_META: Record<CreatableGenerationBranch, { label: string; placeholder: string; icon: () => React.JSX.Element }> = {
   openscad: { label: "3D-модель", placeholder: "Что напечатаем?", icon: CubeIcon },
@@ -52,28 +51,6 @@ function branchMeta(branch: GenerationBranch) {
   return branch === "concepts"
     ? { label: "Ракурсы идеи", placeholder: "Что показать?", icon: ScanIcon }
     : BRANCH_META[branch];
-}
-
-function createErrorMessage(error: CreateGenerationError): string {
-  switch (error.code) {
-    case "PROMPT_REQUIRED":
-      return "Опишите, что сгенерировать";
-    case "PROMPT_TOO_LONG":
-      return `Слишком длинный запрос (максимум ${error.limit ?? PROMPT_MAX_LENGTH} символов)`;
-    case "PROMPT_NOT_ALLOWED":
-      return "Запрос отклонён модерацией — попробуйте переформулировать";
-    case "INVALID_PARAMS":
-    case "PARAMS_TOO_LARGE":
-      return "Некорректные дополнительные параметры";
-    case "RATE_LIMITED":
-      return `Лимит генераций ${error.scope === "hour" ? "в час" : "в сутки"} исчерпан${
-        error.limit ? ` (${error.limit})` : ""
-      } — попробуйте позже`;
-    case "INVALID_BRANCH":
-      return "Неизвестная ветка генерации";
-    default:
-      return "Не удалось отправить. Проверьте связь и попробуйте снова.";
-  }
 }
 
 function jobErrorText(generation: Generation): string {
@@ -98,6 +75,7 @@ export function GenerateScreen({
   const [prompt, setPrompt] = useState("");
   const [kandiMode, setKandiMode] = useState<"text" | "image">("text");
   const [imageFile, setImageFile] = useState<File | null>(null);
+  const [imagePreviewUrl, setImagePreviewUrl] = useState<string | undefined>(undefined);
   const [s3Key, setS3Key] = useState("");
   const [imageError, setImageError] = useState("");
   const [uploading, setUploading] = useState(false);
@@ -114,11 +92,19 @@ export function GenerateScreen({
   const [active, setActive] = useState<Generation | null>(null);
   const [history, setHistory] = useState<Generation[] | null>(null);
   const [historyPage, setHistoryPage] = useState(0);
-  const activeRef = useRef<Generation | null>(null);
   const generationOutcomeIds = useRef(new Set<string>());
   const fileInputRef = useRef<HTMLInputElement>(null);
-  activeRef.current = active;
   const swipe = useSectionSwipeNav(section, onSectionChange);
+
+  useEffect(() => {
+    if (!imageFile) {
+      setImagePreviewUrl(undefined);
+      return;
+    }
+    const url = URL.createObjectURL(imageFile);
+    setImagePreviewUrl(url);
+    return () => URL.revokeObjectURL(url);
+  }, [imageFile]);
 
   useEffect(() => {
     void listGenerations().then((generations) => {
@@ -147,31 +133,26 @@ export function GenerateScreen({
 
   // Поллинг статуса job'а, пока не done/error (паттерн market/model.tsx для конвертации моделей).
   useEffect(() => {
-    const current = activeRef.current;
-    if (!current || current.status === "done" || current.status === "error") return;
-    const interval = setInterval(() => {
-      void getGeneration(current.id).then((result) => {
-        if (result) setActive(result);
-      });
-    }, POLL_INTERVAL_MS);
-    return () => clearInterval(interval);
-  }, [active?.id, active?.status]);
+    if (!active || isTerminalGeneration(active)) return;
+    return subscribeGenerationEvents(active.id, { onGeneration: setActive });
+    // active.id — единственное, что должно перезапускать SSE-подписку.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [active?.id]);
 
   // Новая запись в истории по завершении job'а.
   useEffect(() => {
-    if (active?.status === "done" || active?.status === "error") {
+    if (active && isTerminalGeneration(active)) {
       void listGenerations().then((generations) => {
         setHistory(generations);
         setHistoryPage(0);
       });
     }
-  }, [active?.status]);
+  }, [active]);
 
   // Завершение фиксируем ровно раз для каждой генерации на этом экране: polling может
   // отдать тот же terminal-статус несколько раз, но воронке нужен первый наблюдаемый исход.
   useEffect(() => {
-    if (!active || (active.status !== "done" && active.status !== "error") || generationOutcomeIds.current.has(active.id)) return;
-    generationOutcomeIds.current.add(active.id);
+    if (!active || (active.status !== "done" && active.status !== "error") || generationOutcomeIds.current.has(active.id)) return;    generationOutcomeIds.current.add(active.id);
     trackActivation("generation_outcome", {
       generation_id: active.id,
       branch: active.branch,
@@ -183,9 +164,7 @@ export function GenerateScreen({
   const busy = submitting || active?.status === "queued" || active?.status === "running";
   const collapsed = active?.status === "done";
   const SelectedBranchIcon = BRANCH_META[branch].icon;
-  const submitLabel = active?.status === "error" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";
-  const isKandinsky = branch === "rudalle" || branch === "rudalle_image";
-  const historyPageCount = history ? Math.ceil(history.length / HISTORY_PAGE_SIZE) : 0;
+  const submitLabel = active?.status === "error" || active?.status === "timed_out" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";  const historyPageCount = history ? Math.ceil(history.length / HISTORY_PAGE_SIZE) : 0;
   const visibleHistory = history?.slice(
     historyPage * HISTORY_PAGE_SIZE,
     (historyPage + 1) * HISTORY_PAGE_SIZE,
@@ -284,7 +263,7 @@ export function GenerateScreen({
         });
         return;
       }
-      setInlineError(createErrorMessage(result.error));
+      setInlineError(createGenerationErrorMessage(result.error));
       return;
     }
     setActive(result.generation);
@@ -369,7 +348,7 @@ export function GenerateScreen({
                   <div className="generateImageLoading" role="status">Загружаем изображение…</div>
                 ) : imageFile ? (
                   <div className="generateImagePreview">
-                    <img src={URL.createObjectURL(imageFile)} alt="Выбранное изображение" />
+                  <img src={imagePreviewUrl} alt="Выбранное изображение" />
                     <div>
                       <strong>{imageFile.name}</strong>
                       <span>{(imageFile.size / (1_024 * 1_024)).toFixed(1)} МБ</span>
@@ -414,7 +393,7 @@ export function GenerateScreen({
                     onChange={(event) => setHint(event.target.value)}
                     placeholder="Необязательно: «сделай красным», «добавь крылья»..."
                     rows={2}
-                    maxLength={PROMPT_MAX_LENGTH}
+                    maxLength={GENERATION_PROMPT_MAX_LENGTH}
                     disabled={busy}
                   />
                 ) : null}
@@ -430,7 +409,7 @@ export function GenerateScreen({
                   placeholder={BRANCH_META[branch].placeholder}
                   aria-label={BRANCH_META[branch].placeholder}
                   readOnly={busy}
-                  maxLength={PROMPT_MAX_LENGTH}
+                  maxLength={GENERATION_PROMPT_MAX_LENGTH}
                 />
               ) : null}
               <button
@@ -455,7 +434,7 @@ export function GenerateScreen({
               </div>
             ) : null}
 
-            {active?.status === "error" ? (
+            {active?.status === "error" || active?.status === "timed_out" ? (
               <div className="generateStatusRow">
                 <StatusPill tone="danger">Не удалось</StatusPill>
                 <span className="generateErrorText">{jobErrorText(active)}</span>
@@ -564,8 +543,8 @@ export function GenerateScreen({
                 >
                   <HistoryThumb generation={row} />
                   <span className="generateHistoryPrompt">{row.prompt}</span>
-                  <StatusPill tone={row.status === "done" ? "ok" : row.status === "error" ? "danger" : "dim"} pulse={row.status === "running"}>
-                    {row.status === "done" ? "Готово" : row.status === "error" ? "Ошибка" : row.status === "running" ? "Идёт" : "В очереди"}
+                  <StatusPill tone={row.status === "done" ? "ok" : row.status === "error" || row.status === "timed_out" ? "danger" : "dim"} pulse={row.status === "running"}>
+                    {row.status === "done" ? "Готово" : row.status === "error" ? "Ошибка" : row.status === "timed_out" ? "Истекло время" : row.status === "running" ? "Идёт" : "В очереди"}
                   </StatusPill>
                   <span className="generateHistoryTime">{relativeDate(row.created_at)}</span>
                 </button>

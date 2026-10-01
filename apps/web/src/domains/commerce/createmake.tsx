@@ -57,6 +57,7 @@ export function CreateMakeFlow({
   const [issues, setIssues] = useState<IssueTag[]>([]);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
+  const [previews, setPreviews] = useState<ReadonlyArray<{ photo: File; url: string }>>([]);
 
   useEffect(() => {
     void Promise.all([listMachineOptions(), listMaterialOptions()]).then(([nextMachines, nextMaterials]) => {
@@ -65,13 +66,13 @@ export function CreateMakeFlow({
     });
   }, []);
 
-  const previews = useMemo(() => photos.map((photo) => ({ photo, url: URL.createObjectURL(photo) })), [photos]);
-  useEffect(
-    () => () => {
-      for (const preview of previews) URL.revokeObjectURL(preview.url);
-    },
-    [previews],
-  );
+  useEffect(() => {
+    const nextPreviews = photos.map((photo) => ({ photo, url: URL.createObjectURL(photo) }));
+    setPreviews(nextPreviews);
+    return () => {
+      for (const preview of nextPreviews) URL.revokeObjectURL(preview.url);
+    };
+  }, [photos]);
 
   function addPhotos(files: FileList | null) {
     if (!files) return;

@@ -269,6 +269,86 @@ export class ProfileRepository implements ProfileReadPort, ProfileAdminDirectory
     return (result.rowCount ?? 0) > 0;
   }
 
+  async listAdminDirectoryUsers(input: {
+    readonly status: "active" | "restricted" | "deleted" | null;
+    readonly query: string | null;
+    readonly after: { readonly createdAt: Date; readonly userId: UserIdType } | null;
+    readonly limit: number;
+  }): Promise<readonly AdminDirectoryUserRecord[]> {
+    const result = await this.pool.query<{
+      id: string;
+      username: string;
+      display_name: string | null;
+      status: "active" | "restricted" | "deleted";
+      administrative_state: "active" | "suspended" | "blocked";
+      created_at: Date;
+      updated_at: Date;
+    }>(
+      `select id,username,display_name,status,administrative_state,created_at,updated_at
+         from users
+        where id<>$1
+          and ($2::text is null or status=$2)
+          and ($3::text is null or id::text=$3 or strpos(lower(username),$3)>0 or strpos(lower(coalesce(display_name,'')),$3)>0)
+          and ($4::timestamptz is null or (created_at,id)<($4::timestamptz,$5::uuid))
+        order by created_at desc,id desc
+        limit $6`,
+      [SYSTEM_USER_ID, input.status, input.query, input.after?.createdAt ?? null, input.after?.userId ?? null, input.limit],
+    );
+    return result.rows.map((row) => ({
+      id: UserId(row.id),
+      username: row.username,
+      displayName: row.display_name,
+      status: row.status,
+      administrativeState: row.administrative_state,
+      createdAt: row.created_at,
+      updatedAt: row.updated_at,
+    }));
+  }
+
+  async findAdminDirectoryUser(userId: UserIdType): Promise<AdminDirectoryUserRecord | null> {
+    const row = (
+      await this.pool.query<{
+        id: string;
+        username: string;
+        display_name: string | null;
+        status: "active" | "restricted" | "deleted";
+        administrative_state: "active" | "suspended" | "blocked";
+        created_at: Date;
+        updated_at: Date;
+      }>(
+        `select id,username,display_name,status,administrative_state,created_at,updated_at from users where id=$1 and id<>$2`,
+        [userId, SYSTEM_USER_ID],
+      )
+    ).rows[0];
+    return row === undefined
+      ? null
+      : {
+          id: UserId(row.id), username: row.username, displayName: row.display_name, status: row.status, administrativeState: row.administrative_state,
+          createdAt: row.created_at, updatedAt: row.updated_at,
+        };
+  }
+
+  async lockState(tx: PoolClient, userId: UserIdType) {
+    const row = (await tx.query<{ id: string; username: string; status: "active" | "restricted" | "deleted"; administrative_state: "active" | "suspended" | "blocked"; session_version: number; created_at: Date; updated_at: Date }>(`select id,username,status,administrative_state,session_version,created_at,updated_at from users where id=$1 for update`, [userId])).rows[0];
+    return row === undefined ? null : { id: UserId(row.id), username: row.username, status: row.status, administrativeState: row.administrative_state, sessionVersion: row.session_version, createdAt: row.created_at, updatedAt: row.updated_at };
+  }
+  async readState(userId: UserIdType) {
+    const row = (await this.pool.query<{ status: "active" | "restricted" | "deleted"; administrative_state: "active" | "suspended" | "blocked"; session_version: number }>(
+      `select status,administrative_state,session_version from users where id=$1`, [userId],
+    )).rows[0];
+    return row === undefined ? null : { status: row.status, administrativeState: row.administrative_state, sessionVersion: row.session_version };
+  }
+  async setAdministrativeState(tx: PoolClient, input: { readonly userId: UserIdType; readonly state: "active" | "suspended" | "blocked"; readonly actorId: UserIdType; readonly reason: string }): Promise<void> {
+    await tx.query(`update users set administrative_state=$2,administrative_state_changed_at=now(),administrative_state_changed_by=$3,administrative_state_reason=$4,session_version=session_version+1,updated_at=now() where id=$1 and status<>'deleted'`, [input.userId, input.state, input.actorId, input.reason]);
+  }
+  async closeAccount(tx: PoolClient, input: { readonly userId: UserIdType; readonly actorId: UserIdType; readonly reason: string }): Promise<void> {
+    await tx.query(`update users set status='deleted',administrative_state='blocked',administrative_state_changed_at=now(),administrative_state_changed_by=$2,administrative_state_reason=$3,session_version=session_version+1,updated_at=now() where id=$1 and status<>'deleted'`, [input.userId, input.actorId, input.reason]);
+  }
+  async isProtectedSuperadmin(tx: PoolClient, userId: UserIdType): Promise<boolean> {
+    if (userId === SYSTEM_USER_ID) return true;
+    return (await tx.query(`select 1 from platform_superadmin_identity where identity_key='superadmin' and user_id=$1`, [userId])).rowCount === 1;
+  }
+  
   async createUserWithFreeHandle(seed: NewUserSeed): Promise<UserIdType> {
     const base = /^[a-z0-9](?:[a-z0-9.]{1,30}[a-z0-9])?$/.test(seed.handle) ? seed.handle : `user${Date.now()}`;
     for (let attempt = 0; attempt < 20; attempt += 1) {

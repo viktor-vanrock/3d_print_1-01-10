@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { SessionUser } from "@shared/types";
+import type { DataCapability, SessionUser } from "@shared/types";
 // eslint-disable-next-line boundaries/element-types -- легатное междоменное ребро (микроэтап 7.6): рантайм-зависимость, не тип/utility; развязка отложена до pages/DI-этапа. См. apps/web/MIGRATION.md.
 import { listAuthorFeed, type FeedPost } from "@domains/social";
 import { HomeHeader, type Section } from "@platform/nav";

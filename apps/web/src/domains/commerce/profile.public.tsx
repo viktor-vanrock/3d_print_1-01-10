@@ -1,14 +1,14 @@
+import type { SessionCapability, SessionUser } from "@shared/types";
 import { Select, SegmentToggle, Button, Card, CubeIcon, EmptyState, Eyebrow, Heading, IconButton } from "@shared/ui";
-import type { DataCapability, SessionUser } from "@shared/types";
 // eslint-disable-next-line boundaries/element-types -- легатное междоменное ребро (микроэтап 7.6): рантайм-зависимость, не тип/utility; развязка отложена до pages/DI-этапа. См. apps/web/MIGRATION.md.
 import { FeedPostCard, FeedPostCardSkeleton, type FeedPost } from "@domains/social";
 import { AvatarBubble, deterministicAvatarConfig } from "@shared/avatar";
-import { feedNewPath, feedPostPath, navigate } from "../../router.ts";
+import { feedPostPath, navigate } from "../../router.ts";
 import { ModelTile } from "./market.tsx";
 import type { MarketModel, UserProfile } from "./models.ts";
 import "./profile.layout.css";
 
-export type ProfileTab = "overview" | "projects" | "posts" | "workshop" | "data";
+export type ProfileTab = "overview" | "projects" | "posts" | "workshop" | "data" | "administration";
 
 const BADGE_LABELS: Record<string, string> = {
   verified: "Проверенный",
@@ -115,7 +115,7 @@ export function ProfileTabs({
 }: {
   value: ProfileTab;
   own: boolean;
-  capabilities: readonly DataCapability[];
+  capabilities: readonly SessionCapability[];
   onChange: (value: ProfileTab) => void;
 }) {
   const options: { value: ProfileTab; label: string }[] = [
@@ -124,6 +124,8 @@ export function ProfileTabs({
     { value: "posts", label: "Посты" },
   ];
   if (own) options.push({ value: "workshop", label: "Мастерская" });
+  if (own && capabilities.some((capability) => capability.startsWith("data."))) options.push({ value: "data", label: "Данные" });Add a comment on  line L127Add diff commentMarkdown input:  edit mode selected.WritePreviewHeadingBold(control b) control⌃ bBItalic(control i) control⌃ iIQuote(control shift right angle bracket) control⌃ shift⇧ right angle bracket>Code(control e) control⌃ eELink(control k) control⌃ kKUnordered list(control 8) control⌃ 88Numbered list(control shift ampersand) control⌃ shift⇧ ampersand&Task list(control shift l) control⌃ shift⇧ lLMentionReferenceSlash commandsMore itemsSaved repliesAdd FilesPaste, drop, or click to add filesCancelCommentStart a review
+  if (own && capabilities.includes("admin.portal.access")) options.push({ value: "administration", label: "Администрирование" });
   if (own && capabilities.length > 0) options.push({ value: "data", label: "Данные" });
   return (
     <>
@@ -238,7 +240,6 @@ export function ProfilePosts({
           <Eyebrow>Журнал мастерской</Eyebrow>
           <Heading size="md"><span id="profile-posts-heading">Посты</span></Heading>
         </div>
-        {own ? <Button variant="secondary" icon={<PlusIcon />} onClick={() => navigate(feedNewPath())}>Написать пост</Button> : null}
       </div>
       <div className="profilePostList">
         {posts === undefined ? (
@@ -250,7 +251,6 @@ export function ProfilePosts({
             icon={<ChatIcon />}
             title={own ? "Расскажите, что сделали" : "Постов пока нет"}
             sub={own ? "Фото, проект, модель или репозиторий — всё это можно показать сообществу." : undefined}
-            action={own ? <Button variant="secondary" icon={<PlusIcon />} onClick={() => navigate(feedNewPath())}>Написать пост</Button> : undefined}
           />
         ) : visible?.map((post) => (
           <FeedPostCard key={post.id} user={user} post={post} onOpen={() => navigate(feedPostPath(post.id))} />

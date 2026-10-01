@@ -12,6 +12,11 @@
   z-index: var(--z-toast);
 }
 
+/* В командном окне ГигаЧата (z-index: 80) уведомления должны быть видны поверх него. */
+body:has(.assistantCommandOverlay) .ovlHost {
+  z-index: 90;
+}
+
 /* --- Тосты: стек в правом верхнем углу, максимум 2 видимых (toaster.tsx) --- */
 .ovlToaster {
   position: fixed;
