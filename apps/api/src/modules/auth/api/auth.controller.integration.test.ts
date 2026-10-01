@@ -72,7 +72,7 @@ class TestProfileAuthPort implements ProfileAuthPort {
   async createUserWithFreeHandle(seed: NewUserSeed): Promise<UserIdType> {
     const result = await this.pool.query<{ id: string }>(`insert into users (username, display_name, avatar_url) values ($1, $2, $3) returning id`, [
       seed.handle,
-      seed.displayName,
+      seed.displayName ?? "",
       seed.avatarUrl,
     ]);
     return UserId(result.rows[0]!.id);
