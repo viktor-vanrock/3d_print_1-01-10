@@ -1,0 +1,273 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "entina.tina2",
+  "vendor": {
+    "slug": "entina",
+    "name": "ENTINA"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "TINA2",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 100,
+      "y": 120,
+      "z": 100
+    },
+    "heated_bed": false,
+    "max_accel_mms2": 3000,
+    "max_speed_mms": 200,
+    "profile_first_seen": "2023-07-07",
+    "summary": "Entina Tina2 Basic — это компактный настольный 3D-принтер, предназначенный для начинающих пользователей, простых домашних проектов и обучения под руководством родителей. Он оснащен автоматической калибровкой стола и поддерживает печать с TF-карты для упрощения начального процесса.",
+    "unique_features": [
+      "9-point auto bed leveling",
+      "TF card printing",
+      "Compact desktop design"
+    ],
+    "target_use": [
+      "simple home use",
+      "creative projects",
+      "parent-guided learning",
+      "home workspaces",
+      "classrooms",
+      "hobby areas"
+    ],
+    "limitations": [
+      "Compatible with PLA filament",
+      "For younger users, adult supervision is recommended because the nozzle and heated components become hot during operation"
+    ],
+    "price_usd": 179.0,
+    "connectivity": [
+      "TF card"
+    ],
+    "materials_supported": [
+      "PLA"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2.def.json#overrides.machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2.def.json#overrides.machine_max_feedrate_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Make your first 3D prints with a compact, beginner-friendly desktop printer. The Entina Tina2 Basic is designed for simple home use, creative projects, and parent-guided learning. Its automatic bed leveling helps reduce routine setup, while TF card printing gives you a straightforward way to start printing prepared files.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "✅ 9-point auto bed leveling helps simplify routine bed setup",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Create small models, creative projects, learning aids, and everyday prints with a printer designed to make the first-print process easier.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "✅ Compatible with PLA filament for accessible everyday printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Regular price $179.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "TF card printing gives you a straightforward way to start printing prepared files",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Compatible with PLA filament for accessible everyday printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/entina_tina2.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "entina-official",
+      "url": "https://entina3d.com/products/entina-mini-3d-printers-tina-2-basic",
+      "tier": "vendor",
+      "snapshot": "sha256:db06f26f5ed310fc2cb4e70769b94b061c913d86adbf3d7cdbb1dccbd95063d7",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "ENTINA"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 7,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "heated_bed",
+      "class": "heated_bed|vendor-vs-structural",
+      "values": [
+        {
+          "value": false,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

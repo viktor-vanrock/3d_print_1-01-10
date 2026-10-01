@@ -1,0 +1,213 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "phrozen.pla-high-speed",
+  "vendor": {
+    "slug": "phrozen",
+    "name": "Phrozen",
+    "website": "https://phrozen.com",
+    "origin": "TW"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "dbcab3ea-e0ca-4286-bda0-81e7f576b1ca",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1cc7de97-a5b3-468d-ba70-23f636ecfa55",
+      "confidence": 1.0,
+      "color_hex": "#6d8dfd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "8176f0be-0ef4-4a7c-bc16-0dbe7a7d7ee2",
+      "confidence": 1.0,
+      "color_hex": "#b2b8b8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "aad31bb7-1cb6-4170-95f5-fcf99d671cc7",
+      "confidence": 1.0,
+      "color_hex": "#67c993",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "81bdc11a-e089-4a08-be5a-b8a83962e005",
+      "confidence": 1.0,
+      "color_hex": "#f6a25c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4fa86122-51d8-489a-9494-1e948efe1f71",
+      "confidence": 1.0,
+      "color_hex": "#e96a43",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "40141662-a839-467e-bb10-49a350de5ff2",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "36f0ad6e-0a69-4cfb-8700-988dcd6599c2",
+      "confidence": 1.0,
+      "color_hex": "#efd00b",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/phrozen/PLA/pla_high_speed/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1ca96c99-485b-4e75-9fc9-e37def60149a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/phrozen/PLA/pla_high_speed/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

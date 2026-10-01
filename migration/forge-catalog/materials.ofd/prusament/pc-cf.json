@@ -1,0 +1,226 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.pc-cf",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PC-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "nozzle_temp_min_c": 275,
+      "nozzle_temp_max_c": 295,
+      "bed_temp_min_c": 100,
+      "bed_temp_max_c": 120,
+      "chamber_temp_c": 90,
+      "diameter_tolerance_mm": 0.04,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "9f93947a-7ecc-45a7-a7d3-67731def18a9",
+      "confidence": 1.0,
+      "color_hex": "#2b2b2b",
+      "weight_g": 800,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-800g-2/"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "9f93947a-7ecc-45a7-a7d3-67731def18a9",
+      "confidence": 1.0,
+      "color_hex": "#2b2b2b",
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-carbon-fiber-black-25g-sample/"
+    },
+    {
+      "color_name": "Blend Carbon Fiber Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bf7855be-577c-4e45-b594-cc4b889533d9",
+      "confidence": 1.0,
+      "color_hex": "#262727",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Blend Carbon Fiber Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bf7855be-577c-4e45-b594-cc4b889533d9",
+      "confidence": 1.0,
+      "color_hex": "#262727",
+      "weight_g": 800
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "chamber_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "chamber_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#chamber_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "879049ce-3ad1-464a-bcb4-5b47a88e1f4f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

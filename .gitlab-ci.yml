@@ -1,0 +1,298 @@
+include:
+  - project: "rndml-public/devops/job-templates"
+    file:
+      - '.nodejs-templates.yml'
+      - '.security-sast-sca.yml'
+      - '.security-container.yml'
+      - ".deploy.yml"
+  - ".deploy.yml"
+
+# Аналог .workflow.yml из job-templates. Шаблон подключить как есть нельзя:
+# в нём push-правило матчит только $CI_DEFAULT_BRANCH и "develop", а тут
+# default = dev, прод = main — пуш в main не создавал бы пайплайн вовсе.
+workflow:
+  auto_cancel:
+    on_new_commit: interruptible
+    on_job_failure: all
+  rules:
+    # Создание MR и новые коммиты в открытом MR.
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event"'
+    # Прямые коммиты и merge в dev/main.
+    - if: '$CI_PIPELINE_SOURCE == "push" && ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH == $PROD_BRANCH)'
+    # Ручной запуск для тех же веток.
+    - if: '$CI_PIPELINE_SOURCE == "web" && ($CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH || $CI_COMMIT_BRANCH == $PROD_BRANCH)'
+    - when: never
+
+# auto_cancel.on_new_commit работает только по interruptible-джобам.
+# Деплои помечены interruptible: false в .deploy.yml.
+default:
+  interruptible: true
+
+stages:
+  - prepare
+  - test
+  - reports
+  - pack
+  - container_test
+  - deploy
+
+variables:
+  DEV_API_URL: "/api"
+  PROD_API_URL: "/api"
+  PROD_BRANCH: "main"
+
+.rules:
+  dev:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  prod:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $PROD_BRANCH'
+    - if: $CI_COMMIT_BRANCH == $PROD_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "web"
+  # Push-части dev/prod без MR: сборки добавляют к ним своё MR-правило с changes.
+  dev_push:
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH
+  prod_push:
+    - if: $CI_COMMIT_BRANCH == $PROD_BRANCH
+    - if: $CI_PIPELINE_SOURCE == "web"
+  # Выкатка только по кнопке.
+  prod_deploy:
+    - if: $CI_PIPELINE_SOURCE == "merge_request_event"
+      when: never
+    - if: $CI_COMMIT_BRANCH == $PROD_BRANCH
+      when: manual
+      allow_failure: false
+    - if: $CI_PIPELINE_SOURCE == "web"
+      when: manual
+      allow_failure: false
+  # MR в dev и MR из dev. В MR-пайплайне CI_COMMIT_BRANCH пустой.
+  sast_sca_mr:
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && ($CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH || $CI_MERGE_REQUEST_SOURCE_BRANCH_NAME == $CI_DEFAULT_BRANCH)'
+
+sast:
+  rules:
+    - !reference [.security-sast-sca-rules, rules]
+    - !reference [.rules, sast_sca_mr]
+
+sca:
+  rules:
+    - !reference [.security-sast-sca-rules, rules]
+    - !reference [.rules, sast_sca_mr]
+
+# Что пересобирать в MR. Пути на уровне каталогов $PROJECT_NAME берётся
+# из variables джобы. Push в dev/main и ручной запуск собирают все образы —
+# деплой ссылается на образ новой версии.
+.changes:
+  node:
+    - .gitlab-ci.yml
+    - .dockerignore
+    - package.json
+    - pnpm-lock.yaml
+    - pnpm-workspace.yaml
+    - version.json
+    - scripts/**/*
+    - packages/config/**/*
+    - packages/contracts/**/*
+    - apps/$PROJECT_NAME/**/*
+  python:
+    - .gitlab-ci.yml
+    - .dockerignore
+    - packages/python/**/*
+    - apps/$PROJECT_NAME/**/*
+
+container-security:
+  # Правила, script и artifacts — из .security-container.yml. Локально только
+  # матрица образов: их семь, шаблон рассчитан на один. Цикл в script не годится —
+  # container-security.sh чистит каталог отчётов на каждом заходе.
+  needs:
+    - job: get_version
+      artifacts: true
+    - job: build_web
+      optional: true
+    - job: build_api
+      optional: true
+    - job: build_relay
+      optional: true
+    - job: build_search
+      optional: true
+    - job: build_mesh
+      optional: true
+    - job: build_giga
+      optional: true
+    - job: build_scout
+      optional: true
+    - job: build_prod_web
+      optional: true
+    - job: build_prod_api
+      optional: true
+    - job: build_prod_relay
+      optional: true
+    - job: build_prod_search
+      optional: true
+    - job: build_prod_mesh
+      optional: true
+    - job: build_prod_giga
+      optional: true
+    - job: build_prod_scout
+      optional: true
+  parallel:
+    matrix:
+      - IMAGE_NAME: [web, api, relay, search, mesh, giga, scout]
+  before_script:
+    # Заменяем шаблонный before_script целиком, поэтому повторяем и export:
+    # без него container-security.sh сканирует образ самого сканера.
+    - echo "${CI_REGISTRY}/${CI_PROJECT_PATH}/${IMAGE_NAME}:$(cat version.txt)" | tr '[:upper:]' '[:lower:]' > dockerimage
+    - export CLOUD_CONTAINER_SECURITY_IMAGE=$(cat dockerimage)
+    - echo "$CLOUD_CONTAINER_SECURITY_IMAGE"
+
+# prepare
+
+get_version:
+  extends: .getversion
+  stage: prepare
+  tags: [d-rndml-build]
+  before_script:
+    - version=$(node -p "const v=require('./version.json'); v.year + '.' + v.release + '.' + v.minor")
+  rules:
+    - !reference [.rules, dev]
+    - !reference [.rules, prod]
+
+# pack
+
+.build_image:
+  extends: .kaniko
+  stage: pack
+  tags: [d-rndml-build]
+  dependencies: [get_version]
+  needs: [get_version]
+  rules:
+    - !reference [.rules, dev_push]
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'
+      changes: !reference [.changes, node]
+  variables:
+    KANIKO_CACHE_ENABLED: "true"
+    DOCKER_ADDITION_ARGS_LIST: --cache-repo=${CI_REGISTRY}/${CI_PROJECT_PATH}/${PROJECT_NAME}/cache
+
+.build_python_image:
+  extends: .build_image
+  tags: [kube-stage]
+  resource_group: kaniko-kube-stage
+  rules:
+    - !reference [.rules, dev_push]
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $CI_DEFAULT_BRANCH'
+      changes: !reference [.changes, python]
+
+build_web:
+  extends: .build_image
+  variables:
+    PROJECT_NAME: web
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/web/Dockerfile
+    DOCKER_ADDITION_ARGS_LIST: >-
+      --cache-repo=${CI_REGISTRY}/${CI_PROJECT_PATH}/${PROJECT_NAME}/cache
+      --build-arg VITE_API_URL=$DEV_API_URL
+      --build-arg VITE_CLOSED_DEV=1
+      --build-arg VITE_DEV_BANNER=1
+
+build_api:
+  extends: .build_image
+  variables:
+    PROJECT_NAME: api
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/api/Dockerfile
+
+build_relay:
+  extends: .build_image
+  variables:
+    PROJECT_NAME: relay
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/relay/Dockerfile
+
+build_search:
+  extends: .build_python_image
+  variables:
+    PROJECT_NAME: search
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/search/Dockerfile
+
+build_mesh:
+  extends: .build_python_image
+  variables:
+    PROJECT_NAME: mesh
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/mesh/Dockerfile
+
+build_giga:
+  extends: .build_python_image
+  variables:
+    PROJECT_NAME: giga
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/giga/Dockerfile
+
+build_scout:
+  extends: .build_python_image
+  variables:
+    PROJECT_NAME: scout
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/scout/Dockerfile
+
+.build_image_prod:
+  extends: .kaniko
+  stage: pack
+  tags: [d-rndml-build]
+  dependencies: [get_version]
+  needs: [get_version]
+  rules:
+    - !reference [.rules, prod_push]
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $PROD_BRANCH'
+      changes: !reference [.changes, node]
+  variables:
+    KANIKO_CACHE_ENABLED: "true"
+    DOCKER_ADDITION_ARGS_LIST: --cache-repo=${CI_REGISTRY}/${CI_PROJECT_PATH}/${PROJECT_NAME}/cache
+
+.build_python_image_prod:
+  extends: .build_image_prod
+  tags: [kube-stage]
+  resource_group: kaniko-kube-stage
+  rules:
+    - !reference [.rules, prod_push]
+    - if: '$CI_PIPELINE_SOURCE == "merge_request_event" && $CI_MERGE_REQUEST_TARGET_BRANCH_NAME == $PROD_BRANCH'
+      changes: !reference [.changes, python]
+
+build_prod_web:
+  extends: .build_image_prod
+  variables:
+    PROJECT_NAME: web
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/web/Dockerfile
+    DOCKER_ADDITION_ARGS_LIST: >-
+      --cache-repo=${CI_REGISTRY}/${CI_PROJECT_PATH}/${PROJECT_NAME}/cache
+      --build-arg VITE_API_URL=$PROD_API_URL
+
+build_prod_api:
+  extends: .build_image_prod
+  variables:
+    PROJECT_NAME: api
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/api/Dockerfile
+
+build_prod_relay:
+  extends: .build_image_prod
+  variables:
+    PROJECT_NAME: relay
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/relay/Dockerfile
+
+build_prod_search:
+  extends: .build_python_image_prod
+  variables:
+    PROJECT_NAME: search
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/search/Dockerfile
+
+build_prod_mesh:
+  extends: .build_python_image_prod
+  variables:
+    PROJECT_NAME: mesh
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/mesh/Dockerfile
+
+build_prod_giga:
+  extends: .build_python_image_prod
+  variables:
+    PROJECT_NAME: giga
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/giga/Dockerfile
+
+build_prod_scout:
+  extends: .build_python_image_prod
+  variables:
+    PROJECT_NAME: scout
+    DOCKERFILE: ${CI_PROJECT_DIR}/apps/scout/Dockerfile

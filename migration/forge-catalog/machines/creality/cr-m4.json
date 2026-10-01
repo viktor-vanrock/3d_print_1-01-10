@@ -1,0 +1,1114 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.cr-m4",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "CR-M4",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 450,
+      "y": 450,
+      "z": 470
+    },
+    "heated_bed": true,
+    "kinematics": "cartesian",
+    "max_accel_mms2": 500,
+    "max_speed_mms": 120,
+    "nozzle_diameters": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2024-06-04",
+    "bed_surface": "PC Spring Steel",
+    "auto_leveling": "CR Touch 25-point Auto-leveling",
+    "screen_type": "4.3-in color screen",
+    "summary": "CR-M4 — это 3D-принтер большого формата с объемом печати 450x450x470 мм, позиционируемый как надежное решение для создания крупных моделей и мелкосерийного производства. Устройство оснащено промышленным блоком питания и системой управления несколькими принтерами для организации мини-фермы.",
+    "unique_features": [
+      "Объем печати 450x450x470mm",
+      "Двойные Y-оси на линейных направляющих",
+      "Двойные Z-оси с отдельными двигателями",
+      "Экструдер \"Sprite\" с двумя шестернями",
+      "Автовыравнивание CR Touch по 25 точкам",
+      "Управление несколькими принтерами (Print Farm)",
+      "Блок питания 800W"
+    ],
+    "target_use": [
+      "Life-size model",
+      "Small-batch production",
+      "Prototyping",
+      "Architectural model"
+    ],
+    "max_nozzle_temp_c": 300,
+    "extruder_type": "direct_drive",
+    "power_w": 800,
+    "price_usd": 1099.0,
+    "connectivity": [
+      "USB drive",
+      "USB-C cable",
+      "RJ45 cable",
+      "WiFi",
+      "USB-C"
+    ],
+    "materials_supported": [
+      "PLA",
+      "PA (nylon)",
+      "ABS",
+      "PLA-Wood",
+      "PLA-CF",
+      "TPU",
+      "PETG"
+    ],
+    "discontinued": true,
+    "release_status": "eol",
+    "max_bed_temp_c": 100,
+    "layer_height_max_mm": 0.35,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 655,
+      "d": 700,
+      "h": 865
+    },
+    "firmware_max_speed_mms": 500,
+    "filament_diameter_mm": 1.75,
+    "weight_kg": 22.5,
+    "price_rub": 149000,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "layer_height_min_mm": 0.05,
+    "noise_db": 50
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_crm4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/315/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_crm4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "extruder_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "materials_supported": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "discontinued": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/315/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "noise_db": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_crm4.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/315/orcaslicer/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Скорость печати | ≤120 мм/сек",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_crm4.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "PC Spring Steel Build Surface",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "CR Touch 25-point Auto-leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "A 4.3-in color screen features simple and responsive touch control",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "CR-M4 boasts a massive build volume of 450*450*470mm. It's a real workhorse to create big models with less or no post-processing or to batch-print more parts in one go.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "450*450*470mm Build Volume",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Wide Applications ‧ Life-size model ‧ Small-batch production ‧ Prototyping ‧ Architectural model",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "fully melt high-temp filament at 300 °C for fluent feeding.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "“Sprite” Dual-gear Direct Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "800W Industrial Control Power Supply",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "$1,099.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Able to print via USB drive, USB-C cable, RJ45 cable, or WiFi.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "print with PLA, PA (nylon), heat-resistant ABS, PLA-Wood, PLA-CF, flexible TPU, and PETG.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "нагревательный элемент мощностью 50 Вт, полностью расплавляющий высокотемпературные материалы до 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размер области построения | 450 × 450 × 470 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Мощность | 800 Ватт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Интерфейс подключения | LAN, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип материала | ABS, PLA, PETG, Flex, Nylon (Нейлон), TPU, другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура подогрева площадки | макс. 100 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура подогрева площадки | макс. 100 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя | 0,05-0,35 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размеры (без упаковки) | 655 × 700 × 865 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, XYZ 450x450x470 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла 0.4 мм (опцианально 0.6, 0.8 мм)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Способ отправки файлов на печать USB (Флеш-накопитель), USB (Кабель), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вес нетто (кг) 22.5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "149 000 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Температура экструдера, °C | 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "расширенной областью построения (450х450х470 мм)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Промышленный блок питания мощностью 800 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Нагреваемая алюминиевая платформа",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Толщина слоя, мкм | 50 - 350",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Бесшумная материнская плата (до 50 дБ)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура хотэнда | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Размер области построения | 450х450х470 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный), 0,6, 0,8 мм (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Номинальная мощность | 800 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Столик | подогреваемый гибкий с поликарбонатным адгезионным покрытием",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality CR-M4 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/315/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/315/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/creality_crm4.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_crm4.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "creality-official",
+      "url": "https://www.creality.com/products/cr-m4-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:44a995ccbc0d8dbb2718ef26ac0616b5e3e4a04ad1c9ce662094e1edca5ccbd3",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:12:32Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s5",
+      "source": "creality-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "tier": "vendor",
+      "snapshot": "sha256:a2f4968c64d43fda46932f1648314077fb732fe9661410b1a0020e081e4c73b6",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:55:35Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s6",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_cr_m4_nabor_dlya_sborki/",
+      "tier": "catalog",
+      "snapshot": "sha256:a2f4968c64d43fda46932f1648314077fb732fe9661410b1a0020e081e4c73b6",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:28:19Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s7",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-creality-cr-m4",
+      "tier": "catalog",
+      "snapshot": "sha256:77213d7910b6e22af59d691d764d5f73f2da81ef9081fd07848e24f1abd32734",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:29:09Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s8",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-creality3d-cr-m4-nabor-dlya-sborki/",
+      "tier": "catalog",
+      "snapshot": "sha256:5f8046fbade758070b8a935351ad0e7c9c547a5f7f33a6be63d39cabfa08eb53",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:31:39Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-cr-m4",
+      "tier": "community",
+      "snapshot": "sha256:3cc2563ffe163ffd21c5df4283a60644933c051bab0d58d0429f8276dd35c918",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:40:38Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 9,
+    "quality_score": 16,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.6,
+            0.8
+          ],
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

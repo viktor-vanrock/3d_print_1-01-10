@@ -1,0 +1,194 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "professional-lab.petg",
+  "vendor": {
+    "slug": "professional-lab",
+    "name": "Professional LAB",
+    "website": "https://print-imagine.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "dry_temp_c": 65,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fc1027dc-e3ea-4344-86ee-0ced9883866b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fc1027dc-e3ea-4344-86ee-0ced9883866b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fc1027dc-e3ea-4344-86ee-0ced9883866b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4e557a8b-af1e-4de3-a48c-e2a5f1e23f9a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "bb2aa7c9-fbf4-4352-b9b0-a8f7f564ffbc",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "20f51ab6-fa9a-4908-8b08-5a57a60b3497",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "8f06f756-2c8c-49aa-bfdb-23d7a14a7d0b",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "3e50085f-c215-4ba9-883f-4ba1347f0230",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "3e50085f-c215-4ba9-883f-4ba1347f0230",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "3e50085f-c215-4ba9-883f-4ba1347f0230",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b5ef4d31-12c7-4fbd-967d-3c16adbf8d11",
+      "confidence": 1.0,
+      "color_hex": "#ffff00",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PETG/petg/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "434ac35d-23f5-4a9d-b6e4-a8dcd1d3f855",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

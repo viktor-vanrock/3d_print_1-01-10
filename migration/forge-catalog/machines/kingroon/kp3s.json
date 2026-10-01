@@ -1,0 +1,496 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "kingroon.kp3s",
+  "vendor": {
+    "slug": "kingroon",
+    "name": "Kingroon"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "KP3S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 180,
+      "y": 180,
+      "z": 180
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.8,
+      1
+    ],
+    "profile_first_seen": "2021-07-30",
+    "bed_surface": "Flexible PEI Steel Platform",
+    "screen_type": "2.4-Inch Touchscreen",
+    "firmware": "Klipper",
+    "summary": "KINGROON KP3S V1 — высокоскоростной 3D-принтер с прошивкой Klipper, предназначенный для энтузиастов, хобби-пользователей и профессионалов, ищущих эффективность и качество печати. Устройство обеспечивает скорость печати до 500 мм/с и ускорение 10 000 мм/с², что позволяет печатать в 10 раз быстрее традиционных принтеров с прошивкой Marlin.",
+    "unique_features": [
+      "Прошивка Klipper на базе процессора Cortex-A7 1.2GHz",
+      "Максимальная скорость печати 500 мм/с и ускорение 10 000 мм/с²",
+      "Линейные направляющие по осям X и Y",
+      "Двухзубчатый экструдер BMG с передаточным числом 3:1",
+      "Встроенный блок питания",
+      "8 ГБ внутренней памяти для хранения моделей"
+    ],
+    "limitations": [
+      "Совместим только с филаментами PLA и PETG",
+      "Товар отсутствует в наличии (Sold Out)"
+    ],
+    "firmware_max_speed_mms": 200,
+    "firmware_max_accel_mms2": 1000,
+    "extruder_type": "direct_drive",
+    "price_usd": 348.99,
+    "materials_supported": [
+      "PLA",
+      "PETG",
+      "ABS-пластик",
+      "PLA-пластик",
+      "Flexible",
+      "HIPS",
+      "PA",
+      "Watson",
+      "SBS",
+      "TPU"
+    ],
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 350,
+      "d": 400,
+      "h": 400
+    },
+    "connectivity": [
+      "USB",
+      "Card Reader"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/kingroon_kp3s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/kingroon_kp3s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/223/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/kingroon_kp3s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/223/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/223/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "extruder_type": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "dimensions_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/kingroon_kp3s.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/kingroon_kp3s.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "acceleration up to 10,000mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "max speed of 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/223/cura/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/kingroon_kp3s.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flexible PEI Steel Platform",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "2.4-Inch Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Klipper Firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The KINGROON KP3S V1 is designed for speed and precision... Ideal for makers, hobbyists, and professionals seeking efficiency and quality.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Powered by a robust Cortex-A7 1.2GHz processor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Compatible with PLA and PETG filaments",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "3:1 BMG direct drive extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$348.99",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Compatible with PLA and PETG filaments",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область построения, мм: 180*180*180",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размеры, мм | 350*400*400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Интерфейсы | USB, Card Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/223/cura/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/223/cura/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/kingroon_kp3s.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/kingroon_kp3s.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "kingroon-official",
+      "url": "https://kingroon.com/products/kingroon-kp3s-v1-high-speed-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:41d86dccd4e2c404d1f6324b4b017ed62a277a4f1b913d4b401e1e6a44becae9",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:11:20Z",
+      "publisher": "Kingroon"
+    },
+    {
+      "source_id": "s4",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/kingroon-kp3s",
+      "tier": "community",
+      "snapshot": "sha256:4a072fabb40cc087e0f46f9b24deefc0097f901473f5e18dfd28e541616702d7",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:09:05Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 4,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 200,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 500,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|vendor-vs-structural",
+      "values": [
+        {
+          "value": 1000,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 10000,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|kingroon-official-vs-community",
+      "values": [
+        {
+          "value": 500,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 60,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prografen.pla-graphene-strong",
+  "vendor": {
+    "slug": "prografen",
+    "name": "Prografen",
+    "website": "https://prografen.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Graphene Strong",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "b996212e-ec60-4583-af7d-ee3047014b30",
+      "confidence": 1.0,
+      "color_hex": "#0c0c0e",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3203-Filament-Prografen-PLA-Graphene-Strong-1-75mm-Jet-Black-1kg.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prografen/PLA/graphene_strong/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prografen/PLA/graphene_strong/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prografen/PLA/graphene_strong/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prografen/PLA/graphene_strong/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prografen/PLA/graphene_strong/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prografen/PLA/graphene_strong/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c3a89120-978b-4dbe-91bb-a3881d33b513",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prografen/PLA/graphene_strong/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

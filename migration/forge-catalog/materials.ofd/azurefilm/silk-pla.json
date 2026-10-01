@@ -1,0 +1,223 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "azurefilm.silk-pla",
+  "vendor": {
+    "slug": "azurefilm",
+    "name": "AzureFilm",
+    "website": "https://www.azurefilm.com/",
+    "origin": "SL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Akvamarin",
+      "diameter_mm": 1.75,
+      "external_ref": "8134b746-8cff-4adc-9378-8d4dea6396a8",
+      "confidence": 1.0,
+      "color_hex": "#c5eece",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark copper",
+      "diameter_mm": 1.75,
+      "external_ref": "bc3c1c6e-803c-4f0a-870d-dbf023f8dcdb",
+      "confidence": 1.0,
+      "color_hex": "#90535a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flame orange",
+      "diameter_mm": 1.75,
+      "external_ref": "4f4e369b-675e-4cd8-8526-701394e48e5a",
+      "confidence": 1.0,
+      "color_hex": "#f3c053",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "9efb2787-da1a-4af5-b374-46dbb0c38395",
+      "confidence": 1.0,
+      "color_hex": "#fbe422",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jungle gold",
+      "diameter_mm": 1.75,
+      "external_ref": "4e2d66c7-b4a3-473b-b309-46f62ffd0252",
+      "confidence": 1.0,
+      "color_hex": "#b4c500",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime",
+      "diameter_mm": 1.75,
+      "external_ref": "9526cf1f-8352-4fd1-bad7-c9f15deb23df",
+      "confidence": 1.0,
+      "color_hex": "#cef157",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ocean blue",
+      "diameter_mm": 1.75,
+      "external_ref": "977fc94d-bdd5-49f3-8a4a-992b7c0e19f9",
+      "confidence": 1.0,
+      "color_hex": "#5b95e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Olive gold",
+      "diameter_mm": 1.75,
+      "external_ref": "b778a8ec-6bfa-4d6b-a991-317f46bcd82b",
+      "confidence": 1.0,
+      "color_hex": "#fff480",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "830c1db9-a529-4e82-9bf6-e22d11500efc",
+      "confidence": 1.0,
+      "color_hex": "#f088e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow Tropicana",
+      "diameter_mm": 1.75,
+      "external_ref": "767e653f-abee-4aae-8d72-b44149c7f5f3",
+      "confidence": 1.0,
+      "color_hex": "#d0a6a9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose",
+      "diameter_mm": 1.75,
+      "external_ref": "35256654-7a74-4469-a9ed-d7907d0d344c",
+      "confidence": 1.0,
+      "color_hex": "#d72830",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sand",
+      "diameter_mm": 1.75,
+      "external_ref": "9cc14b01-3ee2-41de-9b6f-ed50d46c0cba",
+      "confidence": 1.0,
+      "color_hex": "#d0a85e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "14240d1e-767f-4b74-9ec8-8e03b8442b2c",
+      "confidence": 1.0,
+      "color_hex": "#d6d6d6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sky blue",
+      "diameter_mm": 1.75,
+      "external_ref": "d2564c62-e7e6-4c0b-8efe-75403269a7fa",
+      "confidence": 1.0,
+      "color_hex": "#5acdec",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Turquoise blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6550b74d-bc46-4a45-8ed3-236fbba0c3d4",
+      "confidence": 1.0,
+      "color_hex": "#d3fdf2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "68f1583b-327f-4e5a-8094-6c13311bf1a8",
+      "confidence": 1.0,
+      "color_hex": "#e4e8e7",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "32a93073-b832-42b6-8d50-9b13b24d5a22",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

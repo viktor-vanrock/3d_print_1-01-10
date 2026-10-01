@@ -1,0 +1,189 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "tectonic-3d.aura-abs",
+  "vendor": {
+    "slug": "tectonic-3d",
+    "name": "Tectonic 3D",
+    "website": "https://tectonic3d.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Aura ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "4586e455-4bcf-4041-abeb-d0e85d3f0f24",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "EC Black (RAL9011)",
+      "diameter_mm": 1.75,
+      "external_ref": "a7df939f-cdb3-4a4b-a970-c977cc7058ad",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "EC Red (RAL3001)",
+      "diameter_mm": 1.75,
+      "external_ref": "2c422377-fa11-44e5-bdf4-4f9a16c0e826",
+      "confidence": 1.0,
+      "color_hex": "#ec0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "b17558ab-3a43-4403-88aa-9635f0c94332",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "8fe7937b-1a3e-48ee-ba74-8b9b57958899",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/ABS/aura_abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "87d46fa3-1eb3-4664-b4bf-a4a1b1188229",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/ABS/aura_abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

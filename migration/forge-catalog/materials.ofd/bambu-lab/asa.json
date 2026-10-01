@@ -1,0 +1,211 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.asa",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.05,
+      "nozzle_temp_min_c": 235,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aero White",
+      "diameter_mm": 1.75,
+      "external_ref": "8b92fc98-422b-421a-9d8e-f18b3372f4cd",
+      "confidence": 1.0,
+      "color_hex": "#f0ebe5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "723f3e66-7d24-491d-b7bf-9d04181cebec",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780817032"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1309dcc2-c277-4dde-8e38-de311dc08309",
+      "confidence": 1.0,
+      "color_hex": "#2140b4",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780784264"
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "b1019286-405e-405c-9713-97fa0157a4af",
+      "confidence": 1.0,
+      "color_hex": "#8a949e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780882568"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "449a16fd-764f-40c1-844c-5c538358263c",
+      "confidence": 1.0,
+      "color_hex": "#00a6a0",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780751496"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "db070595-5b69-4810-9e41-d34d1b53c09b",
+      "confidence": 1.0,
+      "color_hex": "#e02928",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780718728"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "268916a4-9873-47ed-9efd-46e7366e4b08",
+      "confidence": 1.0,
+      "color_hex": "#fffaf2",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/asa-abs/products/asa-filament?variant=41227780849800"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e3e4334e-4303-4924-9118-72b07e27ed48",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

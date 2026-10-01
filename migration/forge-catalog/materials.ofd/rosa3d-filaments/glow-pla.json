@@ -1,0 +1,186 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "rosa3d-filaments.glow-pla",
+  "vendor": {
+    "slug": "rosa3d-filaments",
+    "name": "ROSA3D Filaments",
+    "website": "https://rosa3d.pl",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Glow PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "glow"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ac1fba34-1857-4e1b-b9ca-e6b57eb8428a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ac1fba34-1857-4e1b-b9ca-e6b57eb8428a",
+      "confidence": 1.0,
+      "weight_g": 500
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "beb2d6d6-b669-4dfb-b980-43ac511a67ec",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/glow_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "3021bf94-8390-416f-8f02-e6b6c2d3bf1a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/glow_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

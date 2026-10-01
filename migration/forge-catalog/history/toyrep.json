@@ -1,0 +1,75 @@
+{
+ "slug": "history.toyrep",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/ToyREP_User_Manual",
+ "snapshot": "sha256:71e4fda364319f747dd098db9008bbe295138cb654dc0bc710d273f0ce449165",
+ "page_chars": 8986,
+ "fields": {
+  "firmware": "Marlin",
+  "summary": "ToyREP — это 3D-принтер, требующий самостоятельной сборки и калибровки, ориентированный на пользователей с базовыми знаниями прошивки Arduino. Документация предоставляет пошаговое руководство по настройке электроники, нагрева и моторов для безопасной эксплуатации устройства.",
+  "unique_features": [
+   "Использование электроники на базе Arduino Mega 2560 и RAMPS 1.4",
+   "Отсутствие нагреваемого стола (no heatbed)",
+   "Один экструдер",
+   "Использование моторов 28BYJ-48",
+   "Объем печати 100x100x100 мм"
+  ],
+  "limitations": [
+   "Требует базовых знаний Arduino firmware, редактирования и загрузки прошивки",
+   "Нет нагреваемого стола (no heatbed)",
+   "Только один экструдер (EXTRUDERS 1)",
+   "Только один термистор на экструдер (TEMP_SENSOR_BED 0)",
+   "Позиция домашней точки (homing position) находится за пределами области печати"
+  ],
+  "build_volume": {
+   "x": 100,
+   "y": 100,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 30,
+  "max_accel_mms2": 300,
+  "extruder_count": 1,
+  "power_w": 40,
+  "voltage_v": 12,
+  "heated_bed": false
+ },
+ "evidence": {
+  "firmware": "My favourite is Marlin.",
+  "summary": "On following page you will find step-by-step walkthrough for the calibration of the printer and hints for safe usage of this machine.",
+  "unique_features": "For Arduino Mega 2560 with Ramps 1.4 - one extruder and no heatbed",
+  "limitations": "one extruder and no heatbed",
+  "build_volume": "The build volume is 100x100x100mm.",
+  "max_speed_mms": "You will end up with something like 2200mm/min in X, 2000mm/min in Y, 21mm/min in Z and 250mm/min on extruder. Divide these numbers with 60 seconds and put them to firmware to prevent future failure. #define DEFAULT_MAX_FEEDRATE {30, 30, 0.35, 4.17}",
+  "max_accel_mms2": "#define DEFAULT_MAX_ACCELERATION {300, 300, 1, 17}",
+  "extruder_count": "For Arduino Mega 2560 with Ramps 1.4 - one extruder and no heatbed",
+  "power_w": "40W Heat cartridge have resistance 3.6 Ohm.",
+  "voltage_v": "Measure the voltage of your PSU under load an put it into equation instead of both 12.0V.",
+  "heated_bed": "For Arduino Mega 2560 with Ramps 1.4 - one extruder and no heatbed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Использование электроники на базе Arduino Mega 2560 и RAMPS 1.4",
+  "Отсутствие нагреваемого стола (no heatbed)",
+  "Один экструдер",
+  "Использование моторов 28BYJ-48",
+  "Объем печати 100x100x100 мм"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:53:46Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "ToyREP User Manual",
+ "maker": "",
+ "model": "ToyREP",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/ToyREP_User_Manual"
+}

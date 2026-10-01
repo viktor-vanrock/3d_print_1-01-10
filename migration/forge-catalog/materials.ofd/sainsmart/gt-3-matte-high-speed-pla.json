@@ -1,0 +1,197 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sainsmart.gt-3-matte-high-speed-pla",
+  "vendor": {
+    "slug": "sainsmart",
+    "name": "SainSmart",
+    "website": "https://sainsmart.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Gt 3 Matte PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "4484f6ff-6367-4c45-8302-acce1b99d144",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "7dc4d627-eba4-4aa4-bbe5-b2ffec32d110",
+      "confidence": 1.0,
+      "color_hex": "#9f9f9f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mint Green",
+      "diameter_mm": 1.75,
+      "external_ref": "e90d727d-5f9f-4fe5-9d40-9bcb6b829b30",
+      "confidence": 1.0,
+      "color_hex": "#98fbcb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose Red",
+      "diameter_mm": 1.75,
+      "external_ref": "ba41ace0-1909-4f78-8e08-3a01cdec164b",
+      "confidence": 1.0,
+      "color_hex": "#ff2c29",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Teal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "0cd346d6-e1a7-4762-a3f6-a03a5c45e39f",
+      "confidence": 1.0,
+      "color_hex": "#c6f3fd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "016263b2-c724-466f-ac25-e81464d6d48f",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0a3a030f-32f6-4065-8c32-6409c7a08f0b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PLA/gt_3_matte_high_speed_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

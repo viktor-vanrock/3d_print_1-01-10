@@ -1,0 +1,371 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "kingroon.klp1",
+  "vendor": {
+    "slug": "kingroon",
+    "name": "Kingroon"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "KLP1",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 230,
+      "y": 230,
+      "z": 210
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "Internet"
+    ],
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2024-08-27",
+    "firmware": "Klipper",
+    "summary": "Kingroon KLP1 — это высокоскоростной 3D-принтер с архитектурой Core XY, прошивкой Klipper и защитным корпусом. Устройство позиционируется для печати с высокой скоростью и отличным качеством, не требуя отдельного Raspberry Pi благодаря встроенной главной плате.",
+    "unique_features": [
+      "Встроенная главная плата с Klipper (Raspberry Pi не требуется)",
+      "Скорость печати 500 мм/с и ускорение 10000 мм/с²",
+      "Встроенный модуль ADXL345 для активной компенсации вибраций",
+      "Линейные направляющие по осям X и Y",
+      "Пропорция шестерен 5:1 (для модели 210) или 9.5:1 (для модели 230)",
+      "Полностью автоматическая калибровка стола (Auto Bed Leveling)",
+      "Удаленное управление через любой экран с подключением к интернету"
+    ],
+    "kinematics": "corexy",
+    "firmware_max_speed_mms": 500,
+    "firmware_max_accel_mms2": 10000,
+    "price_usd": 329,
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "PETG",
+      "TPU",
+      "wood",
+      "nylon"
+    ],
+    "enclosed": true,
+    "heated_bed": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "connectivity": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/473/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/473/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "kinematics": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/473/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "price_usd": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "kingroon-official",
+      "source_url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/473/orcaslicer/machine_profiles.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "10000mm/s² acceleration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Kingroon KLP1 has 500mm/s high-speed printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/473/orcaslicer/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Kingroon KLP1 - Klipper Firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Kingroon KLP1 is a high-speed Core XY 3D printer with Klipper firmware and a protective enclosure. With Klipper firmware features, Kingroon KLP1 let people print at high speed and with great quality.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "All-in-one Klipper Mainboard ... No Raspberry Pi is required.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Kingroon KLP1 is a high-speed Core XY 3D printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Regular price $329.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "including conventional materials like PLA , ABS, PETG, TPU, and wood but also high-temperature materials like nylon and CF.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Kingroon KLP1 is a high-speed Core XY 3D printer with Klipper firmware and a protective enclosure.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The auto bed leveling comes to Kingroon KLP1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Kingroon/machine/Kingroon KLP1 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/473/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/473/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "kingroon-official",
+      "url": "https://kingroon.com/products/kingroon-klp1-corexy-3d-printer-with-klipper-firmware",
+      "tier": "vendor",
+      "snapshot": "sha256:23b2e9c9b3f4fd1a46c274b05a19bac0a1012ed698f711222628af60635bbf76",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:05:15Z",
+      "publisher": "Kingroon"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 3,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 230,
+            "y": 230,
+            "z": 210
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 210,
+            "y": 210,
+            "z": 210,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "Internet"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

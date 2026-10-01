@@ -1,0 +1,197 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "extrudr.biofusion-silk-pla",
+  "vendor": {
+    "slug": "extrudr",
+    "name": "extrudr",
+    "website": "https://extrudr.com",
+    "origin": "AT"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "BioFusion Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Arctic White",
+      "diameter_mm": 1.75,
+      "external_ref": "28cfafed-1816-4db3-8de6-797e7fcb0648",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Epic Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "675fe526-b9a9-41c2-9316-2aef179f8b21",
+      "confidence": 1.0,
+      "color_hex": "#6000b0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Inca Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "383d360a-3339-448c-9de4-5f59c2467693",
+      "confidence": 1.0,
+      "color_hex": "#f6c500",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Quicksilver",
+      "diameter_mm": 1.75,
+      "external_ref": "0cd59707-68c0-4cb6-b13f-039a87202af0",
+      "confidence": 1.0,
+      "color_hex": "#a8b0bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Steampunk Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "74b57d24-afa1-456f-9c0e-15276543f20f",
+      "confidence": 1.0,
+      "color_hex": "#e87a27",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Venom Green",
+      "diameter_mm": 1.75,
+      "external_ref": "dcbcee24-9481-4e34-a55c-40c3b2170eac",
+      "confidence": 1.0,
+      "color_hex": "#91c500",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/PLA/biofusion_silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "166a4671-ee2a-4c94-8457-4e65b814619f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/PLA/biofusion_silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

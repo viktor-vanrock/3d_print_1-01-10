@@ -1,0 +1,215 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "peopoly.moai",
+  "vendor": {
+    "slug": "peopoly",
+    "name": "Peopoly"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Moai",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 130,
+      "y": 130,
+      "z": 180
+    },
+    "profile_first_seen": "2017-04-01",
+    "enclosed": true,
+    "summary": "Moai — это доступный лазерный SLA-принтер от Peopoly, предназначенный для тех, кто ищет высокодетализированную 3D-печать без высоких затрат. Устройство позиционируется как входная точка в лазерную SLA-печать, совместимая с существующим ПО и слайсерами для FDM.",
+    "unique_features": [
+      "70-микронное пятно лазера",
+      "Печать через G-Code",
+      "Совместимость с существующими FDM слайсерами и ПО",
+      "Полный доступ к настройкам экспозиции лазера"
+    ],
+    "target_use": [
+      "Исследования и разработка (researchers and developers)",
+      "Доступ к более дешевым смолам и специализированным смолам"
+    ],
+    "price_usd": 1200,
+    "release_year": 2017
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/peopoly_moai.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-peopoly-moai/",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/peopoly_moai.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "enclosed": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-peopoly-moai/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "summary": {
+      "source": "peopoly-official",
+      "source_url": "https://peopoly.net/products/moai",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "peopoly-official",
+      "source_url": "https://peopoly.net/products/moai",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "peopoly-official",
+      "source_url": "https://peopoly.net/products/moai",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "peopoly-official",
+      "source_url": "https://peopoly.net/products/moai",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_year": {
+      "source": "peopoly-official",
+      "source_url": "https://peopoly.net/products/moai",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/peopoly_moai.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/peopoly_moai.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Область построения 130х130х180 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Принтер имеет жесткую рамную конструкцию с закрытой камерой построения",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Introducing Moai, an affordable well to get into laser SLA printing.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "70-micron laser spot",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Perfect for researchers and developers",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Regular price $1,200.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_year": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "© 2017, Peopoly",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/peopoly_moai.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/peopoly_moai.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-peopoly-moai/",
+      "tier": "catalog",
+      "snapshot": "sha256:5861199142683ed54de1cc7316b84c96f2008bf9b181ebd6f8ca9cc8a5bdc1ab",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s3",
+      "source": "peopoly-official",
+      "url": "https://peopoly.net/products/moai",
+      "tier": "vendor",
+      "snapshot": "sha256:4175390fd1ae7e48da2927ccb85b41cbc77640976cace7893b9b20751c566e47",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:33:33Z",
+      "publisher": "Peopoly"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 3,
+    "quality_score": 4,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "verify"
+  }
+}

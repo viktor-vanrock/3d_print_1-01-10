@@ -1,0 +1,269 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.asa",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.07,
+      "nozzle_temp_min_c": 235,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0b7d9a2f-762e-49aa-b832-f51a8f7ee986",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "eca50bee-a218-4a8e-941f-7776323dfef3",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "7eb4ea4c-4940-4f91-9529-e011b9e3dfe2",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "47c9af86-ff59-4143-ab27-88f2c087448c",
+      "confidence": 1.0,
+      "color_hex": "#bbbcbc",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "93fedf88-257e-48fd-841c-e27a4aae6ab4",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Inox",
+      "diameter_mm": 1.75,
+      "external_ref": "9e17b5e5-25ba-4eb5-9572-b1dd4664e5e0",
+      "confidence": 1.0,
+      "color_hex": "#969aa3",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "881b12dd-fa57-4cc9-b1d6-7212f0a16a97",
+      "confidence": 1.0,
+      "color_hex": "#a7d500",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "ad16a07d-feaf-4eea-854d-74444a0cfaf7",
+      "confidence": 1.0,
+      "color_hex": "#faf8df",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Olive Green",
+      "diameter_mm": 1.75,
+      "external_ref": "adf86cc1-1915-448e-8cbb-3567cfa916d4",
+      "confidence": 1.0,
+      "color_hex": "#33401c",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Onyx",
+      "diameter_mm": 1.75,
+      "external_ref": "8fded230-60e4-4a7d-8f46-113948815ffa",
+      "confidence": 1.0,
+      "color_hex": "#262626",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "e8209f72-816f-4e0f-a425-6183d1dc9060",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4a1dc2fd-43be-49e8-a05f-fe723cd08c49",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Vertigo",
+      "diameter_mm": 1.75,
+      "external_ref": "163fc38a-3cbc-4aa5-8ce0-451a9391b094",
+      "confidence": 1.0,
+      "color_hex": "#282828",
+      "weight_g": 750
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "13bcbe64-2ea8-4311-95c1-2b15afe71dd8",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "7da3e960-a9ca-4642-b288-35d446e1bba3",
+      "confidence": 1.0,
+      "color_hex": "#ffd700",
+      "weight_g": 750
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "2895df26-0aab-4ebb-aa9a-d9cb22fed0d6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

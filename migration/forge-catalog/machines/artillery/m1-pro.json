@@ -1,0 +1,238 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "artillery.m1-pro",
+  "vendor": {
+    "slug": "artillery",
+    "name": "Artillery"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "M1 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 265,
+      "y": 283,
+      "z": 260
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker"
+    ],
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.2
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2025-08-23",
+    "firmware": "Klipper",
+    "summary": "Artillery Sidewinder X4 Plus — это 3D-принтер с увеличенным объемом печати, выпущенный после версии X4 Pro. Он позиционируется как надежная машина, работающая на прошивке Klipper для обеспечения высокой скорости и стабильности.",
+    "unique_features": [
+      "Прошивка Klipper",
+      "Полный контроль Klipper и root-доступ без заводских ограничений",
+      "Увеличенный объем печати",
+      "Отказ от постоянного стеклянного стола"
+    ],
+    "target_use": [
+      "Образование",
+      "Инженерные задачи",
+      "Декор и искусство"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware": {
+      "source": "artillery-official",
+      "source_url": "https://www.artillery3d.com/products/m1-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "artillery-official",
+      "source_url": "https://www.artillery3d.com/products/m1-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "artillery-official",
+      "source_url": "https://www.artillery3d.com/products/m1-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "artillery-official",
+      "source_url": "https://www.artillery3d.com/products/m1-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Artillery continues to update their machines with the new Klipper firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Artillery Sidewinder X4 Plus was released a few months after the X4 Pro version.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "this new X4 series comes with kipper and aows fiul kipper control and rootaccess without factory limitations",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "3d printing basic teaching... Education... Art of Living",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery M1 Pro 0.2 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "artillery-official",
+      "url": "https://www.artillery3d.com/products/m1-carbon",
+      "tier": "vendor",
+      "snapshot": "sha256:1a8d5b18c912f64feecc2687d85154055ebf66838b17309b0f1ebf7d9591bc7c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Artillery"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

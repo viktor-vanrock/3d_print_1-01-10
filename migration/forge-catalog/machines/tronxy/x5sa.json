@@ -1,0 +1,198 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "tronxy.x5sa",
+  "vendor": {
+    "slug": "tronxy",
+    "name": "Tronxy"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "X5SA",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 330,
+      "y": 330,
+      "z": 400
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2020-04-28",
+    "kinematics": "corexy",
+    "nozzle_diameters": [
+      0.4
+    ],
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 1
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_x5sa.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_x5sa.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_x5sa.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "kinematics": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "nozzle_diameters": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_x5sa.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_x5sa.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_x5sa.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "область печати 330*330*400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Тип coreXY",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр сопла, мм | 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/tronxy_x5sa.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_x5sa.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-x5sa",
+      "tier": "community",
+      "snapshot": "sha256:f8c7944d4557948323bb652446a8da9bade230544a3038e1a5e609422db5312c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true
+  }
+}

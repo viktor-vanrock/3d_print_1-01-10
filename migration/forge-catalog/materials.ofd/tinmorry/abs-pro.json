@@ -1,0 +1,181 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "tinmorry.abs-pro",
+  "vendor": {
+    "slug": "tinmorry",
+    "name": "TINMORRY",
+    "website": "https://tinmorry.com",
+    "origin": "CH"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS Pro",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "aa1f53d3-cd12-4452-8ecb-8d619e22a3d4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "c7a8383d-b311-47a6-a3dd-6a492258db33",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "50b8962b-afa8-4ad6-b1ea-e99b3519452f",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "c480f606-4ccb-4051-be82-c03de1c6b068",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tinmorry/ABS/abs_pro/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9eeabb6b-bf1d-414c-902c-61e5566c554f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tinmorry/ABS/abs_pro/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

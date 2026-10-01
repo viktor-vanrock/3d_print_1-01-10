@@ -1,0 +1,245 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "smart-materials-3d.petg",
+  "vendor": {
+    "slug": "smart-materials-3d",
+    "name": "SMART MATERIALS 3D",
+    "website": "https://smartmaterials3d.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Chlorophyll",
+      "diameter_mm": 1.75,
+      "external_ref": "2ad56ff3-78e4-49c0-9268-b71babc94ff1",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cobalt",
+      "diameter_mm": 1.75,
+      "external_ref": "9df753a8-032a-4fc5-b1e9-9b6d82b07ce0",
+      "confidence": 1.0,
+      "color_hex": "#1e2f5a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Default",
+      "diameter_mm": 1.75,
+      "external_ref": "bd5594a4-e755-48fe-b812-41b6afe06900",
+      "confidence": 1.0,
+      "color_hex": "#1e2f5a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fp Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "bf4b6a05-125c-4a4c-9cc5-f9c54baa683e",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ivory White",
+      "diameter_mm": 1.75,
+      "external_ref": "e1888ffb-3b6e-45b4-a8b7-451bcffbc5e7",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mdt",
+      "diameter_mm": 1.75,
+      "external_ref": "8b8bc103-9178-4559-93fc-9c5d32dbd6f2",
+      "confidence": 1.0,
+      "color_hex": "#9a9ba0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mdt Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "34335b91-8826-4f0e-93b4-322114fa0593",
+      "confidence": 1.0,
+      "color_hex": "#516580",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "5175ed40-b446-4a4e-a138-1fdf7f9f494e",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orinoco",
+      "diameter_mm": 1.75,
+      "external_ref": "3cae26c0-4cc3-479a-a6fc-a615fc77f412",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "PVA Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "9b001a31-b8fb-4691-aa81-4e5e30c8fc87",
+      "confidence": 1.0,
+      "color_hex": "#f1e6b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ruby",
+      "diameter_mm": 1.75,
+      "external_ref": "373afe79-9cff-4ef3-bbdd-1562efb3cc7c",
+      "confidence": 1.0,
+      "color_hex": "#c00000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "True black",
+      "diameter_mm": 1.75,
+      "external_ref": "c5e72fef-3bce-4adb-90f6-17b0a209170f",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "405fdd2b-9e24-4967-8dcc-6b2b2e85a9e0",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

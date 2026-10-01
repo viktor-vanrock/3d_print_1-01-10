@@ -1,0 +1,509 @@
+{
+  "legacy": {
+    "model_id": "8f14e45f-ceea-467e-a1a1-000000000001",
+    "title": "Подставка для телефона",
+    "snippet": "Готовая модель из каталога",
+    "score": 0.82,
+    "source_url": null
+  },
+  "v2": [
+    {
+      "evidence_id": "ev-model-1",
+      "entity_type": "model",
+      "entity_id": "8f14e45f-ceea-467e-a1a1-000000000001",
+      "title": "Подставка для телефона",
+      "snippet": "Готовая 3D-модель",
+      "canonical_url": "/models/8f14e45f-ceea-467e-a1a1-000000000001",
+      "facts": {
+        "kind": "model",
+        "format": "stl"
+      },
+      "source_refs": [
+        {
+          "label": "Каталог портала",
+          "url": null
+        }
+      ],
+      "source_published_at": null,
+      "observed_at": "2026-09-01T10:00:00Z",
+      "updated_at": "2026-09-02T11:00:00Z",
+      "price_updated_at": null,
+      "quality": "verified",
+      "missing_fields": []
+    },
+    {
+      "evidence_id": "ev-printer-1",
+      "entity_type": "printer",
+      "entity_id": "bambu-lab-p1s",
+      "title": "Bambu Lab P1S",
+      "snippet": "Закрытый CoreXY принтер",
+      "canonical_url": "/printers/bambu-lab-p1s",
+      "facts": {
+        "kind": "printer",
+        "brand": "Bambu Lab",
+        "model": "P1S",
+        "enclosed": true,
+        "build_volume_mm": {
+          "x": 256,
+          "y": 256,
+          "z": 256
+        },
+        "price_ru_rub": {
+          "amount": 89990,
+          "currency": "RUB"
+        },
+        "nozzle_hardened": true,
+        "supported_materials": [
+          "PLA",
+          "PETG",
+          "ABS"
+        ],
+        "unique_features": ["Закрытый корпус", "Автокалибровка"]
+      },
+      "source_refs": [
+        {
+          "label": "Карточка производителя",
+          "url": "https://example.com/p1s"
+        }
+      ],
+      "source_published_at": null,
+      "observed_at": "2026-07-01T08:00:00Z",
+      "updated_at": "2026-09-02T11:00:00Z",
+      "price_updated_at": "2026-07-01T08:00:00Z",
+      "freshness": "stale",
+      "freshness_reason": "price_ru_older_than_30_days",
+      "quality": "reported",
+      "missing_fields": [
+        "max_bed_temperature_c"
+      ]
+    },
+    {
+      "evidence_id": "ev-machine-1",
+      "entity_type": "machine",
+      "entity_id": "3a5e9c10-0000-4a11-8a11-000000000002",
+      "title": "Bambu Lab P1S technical profile",
+      "snippet": "Нормализованный профиль совместимости",
+      "canonical_url": null,
+      "facts": {
+        "kind": "machine",
+        "brand": "Bambu Lab",
+        "model": "P1S",
+        "active": true,
+        "direct_drive": true
+      },
+      "source_refs": [
+        {
+          "label": "Технический каталог",
+          "url": null
+        }
+      ],
+      "source_published_at": null,
+      "observed_at": "2026-08-15T09:00:00Z",
+      "updated_at": "2026-08-16T09:00:00Z",
+      "price_updated_at": null,
+      "quality": "verified",
+      "missing_fields": [
+        "nozzle_material"
+      ]
+    },
+    {
+      "evidence_id": "ev-owned-1",
+      "entity_type": "user_printer",
+      "entity_id": "3a5e9c10-0000-4a11-8a11-000000000003",
+      "title": "Мой основной принтер",
+      "snippet": "Приватная ссылка владельца без параметров подключения",
+      "canonical_url": null,
+      "facts": {
+        "kind": "user_printer",
+        "display_name": "Основной",
+        "primary": true,
+        "catalog_printer_id": "bambu-lab-p1s",
+        "machine_id": "3a5e9c10-0000-4a11-8a11-000000000002"
+      },
+      "source_refs": [],
+      "source_published_at": null,
+      "observed_at": "2026-09-03T12:00:00Z",
+      "updated_at": "2026-09-03T12:00:00Z",
+      "price_updated_at": null,
+      "quality": "verified",
+      "missing_fields": []
+    },
+    {
+      "evidence_id": "ev-material-1",
+      "entity_type": "material",
+      "entity_id": "pla-basic-black",
+      "title": "PLA Basic Black",
+      "snippet": "PLA, 1.75 мм",
+      "canonical_url": "/materials/pla-basic-black",
+      "facts": {
+        "kind": "material",
+        "brand": "Example",
+        "name": "PLA Basic",
+        "material_type": "PLA",
+        "color": "black",
+        "diameter_mm": 1.75,
+        "abrasive": false,
+        "price_ru_rub": {
+          "amount": 1990,
+          "currency": "RUB"
+        }
+      },
+      "source_refs": [
+        {
+          "label": "Каталог материала",
+          "url": "https://example.com/pla-basic"
+        }
+      ],
+      "source_published_at": null,
+      "observed_at": "2026-09-01T10:00:00Z",
+      "updated_at": "2026-09-01T10:00:00Z",
+      "price_updated_at": "2026-09-01T10:00:00Z",
+      "freshness": "fresh",
+      "freshness_reason": "price_ru_within_30_days",
+      "quality": "reported",
+      "missing_fields": []
+    },
+    {
+      "evidence_id": "ev-news-1",
+      "entity_type": "news",
+      "entity_id": "new-printer-release",
+      "title": "Вышел новый принтер",
+      "snippet": "Краткая сводка опубликованной новости",
+      "canonical_url": "/feed/new-printer-release",
+      "facts": {
+        "kind": "news",
+        "effective_published_at": "2026-09-01T07:00:00Z",
+        "topic": "printers"
+      },
+      "source_refs": [
+        {
+          "label": "Оригинальная публикация",
+          "url": "https://example.com/news/new-printer"
+        }
+      ],
+      "source_published_at": "2026-09-01T07:00:00Z",
+      "observed_at": "2026-09-01T08:00:00Z",
+      "updated_at": "2026-09-01T09:00:00Z",
+      "price_updated_at": null,
+      "freshness": "fresh",
+      "freshness_reason": "within_requested_news_range",
+      "quality": "reported",
+      "missing_fields": []
+    },
+    {
+      "evidence_id": "ev-comparison-1",
+      "entity_type": "comparison",
+      "entity_id": "comparison-p1s-k1",
+      "title": "P1S и K1",
+      "snippet": "Сравнение по фиксированным полям",
+      "canonical_url": null,
+      "facts": {
+        "kind": "comparison",
+        "printer_ids": [
+          "bambu-lab-p1s",
+          "creality-k1"
+        ],
+        "rows": [
+          {
+            "field": "identity",
+            "cells": [
+              {
+                "state": "different",
+                "normalized_value": "Bambu Lab P1S",
+                "display_value": "Bambu Lab P1S",
+                "unit": null
+              },
+              {
+                "state": "different",
+                "normalized_value": "Creality K1",
+                "display_value": "Creality K1",
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "release",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "price_ru_rub",
+            "cells": [
+              {
+                "state": "stale",
+                "normalized_value": 89990,
+                "display_value": "89 990 ₽",
+                "unit": "RUB",
+                "price_updated_at": "2026-07-01T08:00:00Z",
+                "freshness": "stale",
+                "freshness_reason": "price_ru_older_than_30_days"
+              },
+              {
+                "state": "different",
+                "normalized_value": 59990,
+                "display_value": "59 990 ₽",
+                "unit": "RUB",
+                "price_updated_at": "2026-09-01T08:00:00Z",
+                "freshness": "fresh",
+                "freshness_reason": "price_ru_within_30_days"
+              }
+            ]
+          },
+          {
+            "field": "price_msrp_usd",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "USD",
+                "price_updated_at": null,
+                "freshness": "unknown",
+                "freshness_reason": "price_msrp_has_no_observation_date"
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "USD",
+                "price_updated_at": null,
+                "freshness": "unknown",
+                "freshness_reason": "price_msrp_has_no_observation_date"
+              }
+            ]
+          },
+          {
+            "field": "print_type",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "kinematics",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "enclosed",
+            "cells": [
+              {
+                "state": "equal",
+                "normalized_value": true,
+                "display_value": "Да",
+                "unit": null
+              },
+              {
+                "state": "equal",
+                "normalized_value": true,
+                "display_value": "Да",
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "build_volume_mm",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "mm"
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "mm"
+              }
+            ]
+          },
+          {
+            "field": "max_hotend_temperature_c",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "C"
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "C"
+              }
+            ]
+          },
+          {
+            "field": "max_bed_temperature_c",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "C"
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": "C"
+              }
+            ]
+          },
+          {
+            "field": "nozzle",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "multimaterial_supported",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "supported_materials",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          },
+          {
+            "field": "portal_support",
+            "cells": [
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              },
+              {
+                "state": "missing",
+                "normalized_value": null,
+                "display_value": null,
+                "unit": null
+              }
+            ]
+          }
+        ]
+      },
+      "source_refs": [
+        {
+          "label": "Каталог портала",
+          "url": null
+        }
+      ],
+      "source_published_at": null,
+      "observed_at": "2026-09-01T10:00:00Z",
+      "updated_at": "2026-09-02T11:00:00Z",
+      "price_updated_at": null,
+      "quality": "verified",
+      "missing_fields": []
+    }
+  ],
+  "invalid_urls": [
+    "https://user:pass@example.com/a",
+    "https://example.com/a#private",
+    "https://example.com/a?token=secret",
+    "https://example.com/a?ACCESS_TOKEN=secret",
+    "https://example.com/a?api_key=secret",
+    "https://example.com/a?key=secret",
+    "https://example.com/a?signature=secret",
+    "https://example.com/a?auth=secret",
+    "https://example.com/a?password=secret",
+    "https://example.com/a?secret=secret",
+    "https://example.com/a?%74oken=secret",
+    "https://example.com/a\\b"
+  ],
+  "invalid_portal_urls": [
+    "https://example.com/a",
+    "//example.com/a",
+    "/%2fexample.com",
+    "/a\\b",
+    "/a?token=secret",
+    "/a#fragment"
+  ],
+  "invalid_timestamps": [
+    "2026-02-30T10:00:00Z",
+    "2025-02-29T10:00:00Z",
+    "2026-09-01",
+    "2026-09-01T10:00:00",
+    "2026-09-01T24:00:00Z",
+    "2026-09-01T10:00:00+03:99",
+    "0000-01-01T00:00:00Z"
+  ],
+  "valid_timestamps": [
+    "2024-02-29T10:00:00Z",
+    "2026-09-01T10:00:00.123456+03:00",
+    "2026-09-01T10:00:00-05:30"
+  ]
+}

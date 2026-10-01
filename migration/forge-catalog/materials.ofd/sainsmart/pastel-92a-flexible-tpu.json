@@ -1,0 +1,205 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sainsmart.pastel-92a-flexible-tpu",
+  "vendor": {
+    "slug": "sainsmart",
+    "name": "SainSmart",
+    "website": "https://sainsmart.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Pastel 92A Flexible TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "nozzle_temp_min_c": 210,
+      "nozzle_temp_max_c": 240,
+      "bed_temp_min_c": 30,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "cc6f637c-dd3e-46f6-899f-ea45a97ae9f8",
+      "confidence": 1.0,
+      "color_hex": "#6299df",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "83353e05-0727-4ad4-84e0-c3a360b0a180",
+      "confidence": 1.0,
+      "color_hex": "#69ebb6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "687e908f-2606-4a1f-adb4-fb88918c80d3",
+      "confidence": 1.0,
+      "color_hex": "#f09bb5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "e485c90f-38af-4e6b-acb5-2675ba967c89",
+      "confidence": 1.0,
+      "color_hex": "#8d65c7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e9f704ab-bdad-48f8-a3b7-7995ddae0365",
+      "confidence": 1.0,
+      "color_hex": "#f14147",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin",
+      "diameter_mm": 1.75,
+      "external_ref": "df2a8c30-d209-4f25-975d-16833c9aa431",
+      "confidence": 1.0,
+      "color_hex": "#fec8a4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b02bf8de-7b4c-4cf2-9067-533b127e2532",
+      "confidence": 1.0,
+      "color_hex": "#f8da8e",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "639d0f58-bad3-4acb-9b56-ede819851aa8",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/TPU/pastel_92a_flexible_tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

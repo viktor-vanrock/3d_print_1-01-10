@@ -1,0 +1,89 @@
+{
+ "slug": "history.almusyang-wolfy1-1",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Wolfy1.1",
+ "snapshot": "sha256:a836f2cb3e658fc5a217e9fe0583cc7ff4adace890c534a949601af7901389a7",
+ "page_chars": 1952,
+ "fields": {
+  "summary": "Wolfy1.1 — это первая открытая 3D-принтер-система из Китая, являющаяся улучшенной версией модели Wolfy. Устройство объединяет структуру оригинального Wolfy с более четкой компоновкой и совместимо с его 3D-печатными деталями.",
+  "unique_features": [
+   "Первый открытый 3D-принтер из Китая",
+   "Интеграция структуры оригинального Wolfy с более четкой компоновкой",
+   "Совместимость 3D-печатных деталей с оригинальной структурой Wolfy",
+   "Переработанная система скольжения с 3D-печатными компонентами",
+   "Оптимизированная архитектура алюминиевого профиля основания с точными отверстиями",
+   "Оптимизированная структура основной акриловой панели нижней части",
+   "Оптимизированная прокладка кабелей",
+   "Добавлен блок соединения платформы Y",
+   "Добавлен держатель филамента, устанавливаемый на корпус",
+   "Поддержка автономной печати с SD-карты",
+   "Готовность к печати по WiFi (будущее обновление)"
+  ],
+  "limitations": [
+   "Требуется материал диаметром 2.85 мм",
+   "Диаметр сопла 0.4 мм",
+   "Температура сопла: 170° - 240° C",
+   "Рабочая температура окружающей среды: 15° - 32° C",
+   "Температура хранения: 0° - 32° C",
+   "Входное напряжение: 220 В",
+   "Требования к питанию: 12 В пост. тока / 30 А"
+  ],
+  "max_nozzle_temp_c": 240,
+  "build_volume": {
+   "x": 180,
+   "y": 220,
+   "z": 240,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 150,
+  "max_travel_speed_mms": 300,
+  "positioning_accuracy_mm": 0.0125,
+  "nozzle_diameters": [
+   0.4
+  ],
+  "filament_diameter_mm": 2.85,
+  "voltage_v": 220
+ },
+ "evidence": {
+  "summary": "First OpenSource 3Dprinter From China.",
+  "unique_features": "First OpenSource 3Dprinter From China.",
+  "limitations": "Recommended filament diameter: 2.85 mm",
+  "max_nozzle_temp_c": "Operation nozzle temperature: 170° - 240° C",
+  "build_volume": "Build volume: 18 x 22 x 24 cm",
+  "max_speed_mms": "Print speed: 30 mm/s - 150 mm/s",
+  "max_travel_speed_mms": "Travel speed: 30 mm/s - 300 mm/s",
+  "positioning_accuracy_mm": "Position precision X Y Z: 12.5 / 12.5 / 5 micron",
+  "nozzle_diameters": "Nozzle diameter: 0.4 mm",
+  "filament_diameter_mm": "Recommended filament diameter: 2.85 mm",
+  "voltage_v": "AC input: 220 V"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Первый открытый 3D-принтер из Китая",
+  "Интеграция структуры оригинального Wolfy с более четкой компоновкой",
+  "Совместимость 3D-печатных деталей с оригинальной структурой Wolfy",
+  "Переработанная система скольжения с 3D-печатными компонентами",
+  "Оптимизированная архитектура алюминиевого профиля основания с точными отверстиями",
+  "Оптимизированная структура основной акриловой панели нижней части",
+  "Оптимизированная прокладка кабелей",
+  "Добавлен блок соединения платформы Y",
+  "Добавлен держатель филамента, устанавливаемый на корпус",
+  "Поддержка автономной печати с SD-карты",
+  "Готовность к печати по WiFi (будущее обновление)"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:58:50Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Wolfy1.1",
+ "maker": "AlmusYang",
+ "model": "Wolfy1.1",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Wolfy1.1"
+}

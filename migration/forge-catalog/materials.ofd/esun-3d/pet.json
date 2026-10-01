@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "esun-3d.pet",
+  "vendor": {
+    "slug": "esun-3d",
+    "name": "eSUN 3D",
+    "website": "https://esun3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pet",
+    "name": "PET"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PET",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.12,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "860ffc8c-e5d9-4244-a494-5253c6d0a8b8",
+      "confidence": 1.0,
+      "color_hex": "#e0dee0",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Solid Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f262ddbc-7f56-4aa2-bf36-3c976b508664",
+      "confidence": 1.0,
+      "color_hex": "#141416",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Solid Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "fa33b290-7f71-4b1f-a7e0-5a528271d86a",
+      "confidence": 1.0,
+      "color_hex": "#fda022",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Solid Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "ae917590-4628-4561-a611-32d249527e14",
+      "confidence": 1.0,
+      "color_hex": "#9a9997",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Solid White",
+      "diameter_mm": 1.75,
+      "external_ref": "b040c7b3-c1ed-4aac-85bb-ab8ec855c558",
+      "confidence": 1.0,
+      "color_hex": "#e4e3e7",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Transparent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "fc149cbc-c613-4882-986a-a583d556857d",
+      "confidence": 1.0,
+      "color_hex": "#1d1640",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Transparent Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "eb47cb9b-5fef-4098-aad2-932ae24b1f43",
+      "confidence": 1.0,
+      "color_hex": "#8f95ac",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    },
+    {
+      "color_name": "Transparent Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "84ed2a30-da3a-45b8-ab9f-873640d157d6",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "51b25243-c801-45f4-bde2-f37ca1067c6f",
+      "confidence": 1.0,
+      "color_hex": "#f77d50",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/pet"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PET/pet/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9ef43826-398f-41db-9cb7-1091e1eaf54f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PET/pet/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

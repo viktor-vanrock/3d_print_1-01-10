@@ -1,0 +1,807 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "elegoo.neptune-3-pro",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "Elegoo"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Neptune 3 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 225,
+      "y": 225,
+      "z": 280
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 500,
+    "max_speed_mms": 180,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2023-01-07",
+    "bed_surface": "PEI Magnetic Platform",
+    "auto_leveling": "Auto Bed Leveling",
+    "screen_type": "4.3'' Touch Screen",
+    "summary": "ELEGOO Neptune 3 Pro — это FDM 3D-принтер с объемом печати 225 x 225 x 280 мм³, оснащенный системой автоматической калибровки стола и мощным двухшестеренным экструдером. Устройство позиционируется как решение для тихой печати с использованием съемного сенсорного экрана и магнитной платформы PEI.",
+    "unique_features": [
+      "Auto Bed Leveling",
+      "Powerful Dual-Gear Extruder",
+      "Quiet Printing",
+      "Removable 4.3'' Touch Screen",
+      "PEI Magnetic Platform"
+    ],
+    "price_usd": 162.0,
+    "warranty_months": 12,
+    "max_nozzle_temp_c": 260,
+    "max_bed_temp_c": 100,
+    "kinematics": "cartesian",
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 455,
+      "d": 475,
+      "h": 515
+    },
+    "weight_kg": 8.1,
+    "price_rub": 34900,
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "PETG",
+      "TPU"
+    ],
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "firmware_max_speed_mms": 500,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "connectivity": [
+      "USB",
+      "SD Card"
+    ],
+    "extruder_type": "direct_drive",
+    "noise_db": 50
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_3pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_3pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "kinematics": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "noise_db": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/306/bambustudio/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_neptune_3pro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/306/bambustudio/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная скорость печати, мм/с 180",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/306/bambustudio/machine_profiles.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/306/bambustudio/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_neptune_3pro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PEI Magnetic Platform",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Auto Bed Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Removable 4.3'' Touch Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "ELEGOO Neptune 3 Pro FDM 3D Printer ... Print Volume 225 x 225 x 280 mm³ ... Auto Bed Leveling ... PEI Magnetic Platform ... Quiet Printing ... Powerful Dual-Gear Extruder ... Removable 4.3'' Touch Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Auto Bed Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$162.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "All Brand New Machines & Parts ... 12 months",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область печати, XYZ 225x225x280 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура экструдера, °С 260",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура платформы, °С 100",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "С портальной конструкцией",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Кол-во печатающих экструдеров (голов) 1 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Габариты товара ДxШxВ (см) 47,5х45,5х51,5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес нетто (кг) 8.1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "34 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Поддерживаемые материалы PLA, ABS, PETG, TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Область печати, мм | 225x225x280 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла | 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Печатная платформа с подогревом оснащена магнитной подложкой PEI",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя, мкм | 0.1 - 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя, мкм | 0.1 - 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейсы | USB (Кабель), SD Card",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область построения, мм | 225х225х280",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "отличается наличием директ-экструдера вместо боуденовской подачи филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Шумность | ~50 дБ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/306/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/306/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/elegoo_neptune_3pro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_3pro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "elegoo-official",
+      "url": "https://www.elegoo.com/products/elegoo-neptune-3-pro-fdm-3d-printer-225x225x280mm",
+      "tier": "vendor",
+      "snapshot": "sha256:55670d820b2d0abe4e4b6c62a1fe167e46cd2d655e942ace56b4a2d30bbf88d1",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Elegoo"
+    },
+    {
+      "source_id": "s4",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-3-pro",
+      "tier": "catalog",
+      "snapshot": "sha256:2bde4f8fe00e1aed2cf4750f2795b6c5f71508a98219831b097d5e8c7db246a1",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:21:29Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-3-pro/",
+      "tier": "catalog",
+      "snapshot": "sha256:ddd71f147667dac2b7bf37eae17593bf4d24ce11a4dff679715b1fc52ec6f23b",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-3-pro",
+      "tier": "community",
+      "snapshot": "sha256:91b10cd3c38a34c1328a5b6177505e7f68487d52bdb60c2368f422e3286dff40",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|structural-vs-structural|cura|spdb",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 225,
+            "y": 225,
+            "z": 280
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 235,
+            "y": 235,
+            "z": 280
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "power_w"
+    ],
+    "sources_count": 6,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

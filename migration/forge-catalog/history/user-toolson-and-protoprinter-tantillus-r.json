@@ -1,0 +1,77 @@
+{
+ "slug": "history.user-toolson-and-protoprinter-tantillus-r",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Tantillus_R",
+ "snapshot": "sha256:7f73285a7bc8c472428410bc9c4f5e6c9493e285c5d69b9fb045b234a27e8f3e",
+ "page_chars": 2502,
+ "fields": {
+  "summary": "Tantillus R — это компактный, портативный и точный 3D-принтер с карданной XY-головкой, созданный как дань уважения оригинальной модели 2012 года. Он спроектирован для легкой сборки, использования распространенных материалов и высокой энергоэффективности.",
+  "unique_features": [
+   "Привод на основе плетеной лески вместо ремней",
+   "Внутреннее крепление экструдера с боденом",
+   "Отсутствие алюминиевых профилей (лазерная резка акрила)",
+   "Встроенный Raspberry Pi с хост-программным обеспечением",
+   "Встроенный блок питания",
+   "Статическое охлаждение детали (фиксированные вентиляторы)"
+  ],
+  "limitations": [
+   "Область печати 100mm x 100mm x 100mm",
+   "Статическое охлаждение (вентиляторы фиксированы)",
+   "Версия с лазерной резкой имеет корпус из 5мм акрила"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 100,
+   "y": 100,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "extruder_type": "bowden",
+  "dimensions_mm": {
+   "w": 220,
+   "d": 220,
+   "h": 300
+  },
+  "enclosed": true,
+  "release_year": 2018
+ },
+ "evidence": {
+  "summary": "tiny, highly portable and precise 3D printer",
+  "unique_features": "Uses an interesting drive train: low cost braided fishing line instead of cheap quality belts",
+  "limitations": "Build Area: 100mm x 100mm x 100mm",
+  "kinematics": "Cartesian-XY-head",
+  "build_volume": "Build Area: 100mm x 100mm x 100mm",
+  "extruder_type": "Internally mounted extruder with bowden cable.",
+  "dimensions_mm": "Outer dimensions: Laser cut version 220mm x 220mm x 300mm",
+  "enclosed": "laser cut acrylic case (5mm)",
+  "release_year": "May 13, 2018 initial release of the Tantillus R"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Привод на основе плетеной лески вместо ремней",
+  "Внутреннее крепление экструдера с боденом",
+  "Отсутствие алюминиевых профилей (лазерная резка акрила)",
+  "Встроенный Raspberry Pi с хост-программным обеспечением",
+  "Встроенный блок питания",
+  "Статическое охлаждение детали (фиксированные вентиляторы)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "закрытый",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:56:47Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Tantillus R",
+ "maker": "User:Toolson and Protoprinter",
+ "model": "Tantillus R",
+ "first_year": 2018,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Tantillus_R"
+}

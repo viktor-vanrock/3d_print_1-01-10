@@ -1,0 +1,143 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.easy-abs",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "EASY ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.09,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "85b188d6-1081-484d-a665-1cc3abbcdd7f",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Burgundy Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "c4438e53-ebd6-460d-83ad-fc1d55f306f9",
+      "confidence": 1.0,
+      "color_hex": "#971b2f",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Light Green Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "bc66b1fa-dd01-4372-bec7-f3f3c4848427",
+      "confidence": 1.0,
+      "color_hex": "#a7d500",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Navy Blue Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "9d75332f-181a-4f63-88c0-a7c067eecf7d",
+      "confidence": 1.0,
+      "color_hex": "#10069f",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Orange Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "6d6211ec-70b9-43bb-8f7f-6df38033fe53",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Pure Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "7325ad6c-1981-4553-8ce6-d9282a8c9c67",
+      "confidence": 1.0,
+      "color_hex": "#f2f2f2",
+      "weight_g": 750
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/easy_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/easy_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/easy_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/easy_abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/easy_abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/easy_abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a5b99a45-8970-4c72-8ee8-4a165b506cfe",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/easy_abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

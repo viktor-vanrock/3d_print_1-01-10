@@ -1,0 +1,198 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "amolen.dual-color-matte-pla",
+  "vendor": {
+    "slug": "amolen",
+    "name": "Amolen",
+    "website": "https://amolen.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Dual Color Matte PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "d4ffe8f6-4269-4be6-ac1a-f8a73fcc8aef",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown White",
+      "diameter_mm": 1.75,
+      "external_ref": "3f4c7482-336f-4df3-8e87-b2c64ccf1151",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cyan Chartreuse",
+      "diameter_mm": 1.75,
+      "external_ref": "81c44af3-0530-4110-b679-17613c0914b3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "9f8cb81b-251f-437b-b90e-18be4d0cbdbc",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Peach Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "f98a2ee6-6bd4-422a-b180-619037d8e24d",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "f42ad0b9-284c-451b-9c3a-b53f2d760d37",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "5b817340-b094-4788-b607-41643101ccff",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/dual_color_matte_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6ad7b958-4516-4bfb-a61d-40684366599b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/dual_color_matte_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

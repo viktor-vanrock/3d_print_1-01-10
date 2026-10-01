@@ -1,0 +1,233 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.petg-cf",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "07ba78c2-07fc-447f-bdb0-b1e93b680875",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41065287811208"
+    },
+    {
+      "color_name": "Brick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c7d6e9c1-a698-4041-ab73-befdf5fb7e99",
+      "confidence": 1.0,
+      "color_hex": "#9f332a",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41230657978504"
+    },
+    {
+      "color_name": "Indigo Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "eb47207c-d1d3-4687-b37a-732d01210f71",
+      "confidence": 1.0,
+      "color_hex": "#324585",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41230658011272"
+    },
+    {
+      "color_name": "Malachite Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f06b6bc0-369b-4455-9196-95b6a08f3e45",
+      "confidence": 1.0,
+      "color_hex": "#16b08e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41230658044040"
+    },
+    {
+      "color_name": "Titan Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "b1569355-9b0d-4149-84eb-c69a83cd1baf",
+      "confidence": 1.0,
+      "color_hex": "#565656",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41392116465800"
+    },
+    {
+      "color_name": "Violet Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "86f62e90-e82e-4180-a7bf-c10dd3acb0a8",
+      "confidence": 1.0,
+      "color_hex": "#583061",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/petg/products/petg-cf?variant=41230657945736"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PETG/petg_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e138407c-8c30-446c-8e60-e264c82c784a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PETG/petg_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

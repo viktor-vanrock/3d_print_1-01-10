@@ -1,0 +1,130 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "professional-lab.pla-marble",
+  "vendor": {
+    "slug": "professional-lab",
+    "name": "Professional LAB",
+    "website": "https://print-imagine.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Marble",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "dry_temp_c": 50,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Brick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e717a307-b4a2-461f-979b-5b39d18a9ba1",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Concrete",
+      "diameter_mm": 1.75,
+      "external_ref": "e2912cd2-b7ca-4d75-a15b-1d2240ad04f4",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "43683b34-7c55-4210-8ff4-0b4e3df882de",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PLA/pla_marble/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PLA/pla_marble/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PLA/pla_marble/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PLA/pla_marble/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PLA/pla_marble/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PLA/pla_marble/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PLA/pla_marble/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/professional_lab/PLA/pla_marble/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "2c9d0be6-2d81-4706-9c37-c3c67f4bb12e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/professional_lab/PLA/pla_marble/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

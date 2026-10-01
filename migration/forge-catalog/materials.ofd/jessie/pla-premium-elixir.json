@@ -1,0 +1,123 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "jessie.pla-premium-elixir",
+  "vendor": {
+    "slug": "jessie",
+    "name": "Jessie",
+    "website": "https://www.printedsolid.com/",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Premium Elixir",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "dry_temp_c": 55,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Gold Rush",
+      "diameter_mm": 1.75,
+      "external_ref": "18b732d5-5074-4bdc-ab42-025676833cd0",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Ruby",
+      "diameter_mm": 1.75,
+      "external_ref": "82be371f-f56b-4bd7-9c5d-f2b11a4074d7",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jessie/PLA/premium_elixir/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jessie/PLA/premium_elixir/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jessie/PLA/premium_elixir/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jessie/PLA/premium_elixir/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jessie/PLA/premium_elixir/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jessie/PLA/premium_elixir/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jessie/PLA/premium_elixir/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jessie/PLA/premium_elixir/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e9f172c7-3b2c-46e0-822d-173f82bd514c",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jessie/PLA/premium_elixir/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

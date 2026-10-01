@@ -1,0 +1,205 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "devil-design.abs",
+  "vendor": {
+    "slug": "devil-design",
+    "name": "Devil Design",
+    "website": "https://devildesign.com",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "BLACK",
+      "diameter_mm": 1.75,
+      "external_ref": "888a37e2-520e-48f2-84b6-94bb2aace22b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "DARK GRAY",
+      "diameter_mm": 1.75,
+      "external_ref": "dd1bdc5c-a1ad-4f7e-88cc-a0fd7bd3420d",
+      "confidence": 1.0,
+      "color_hex": "#595959",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GRAY",
+      "diameter_mm": 1.75,
+      "external_ref": "94477759-b906-4b02-8314-7784db82c423",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "LIGHT GRAY",
+      "diameter_mm": 1.75,
+      "external_ref": "b95f4427-d0da-46e6-9002-e1001b9f7f66",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "NATURAL",
+      "diameter_mm": 1.75,
+      "external_ref": "92fa7fd1-4f1d-4560-b05f-31901fa56679",
+      "confidence": 1.0,
+      "color_hex": "#f9f3e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RED",
+      "diameter_mm": 1.75,
+      "external_ref": "1b9e1fae-8f41-48e5-95c1-66b22fffee9d",
+      "confidence": 1.0,
+      "color_hex": "#c01616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "WHITE",
+      "diameter_mm": 1.75,
+      "external_ref": "27dd88f7-b43b-47bb-9170-77e3e5e4ad0d",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/devil_design/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5970b53c-25db-4437-ae81-22f4a6c339e5",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/devil_design/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

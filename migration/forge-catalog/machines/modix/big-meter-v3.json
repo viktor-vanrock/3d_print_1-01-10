@@ -1,0 +1,159 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "modix.big-meter-v3",
+  "vendor": {
+    "slug": "modix",
+    "name": "Modix"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "BIG-METER V3",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 1000,
+      "y": 1000,
+      "z": 1000
+    },
+    "profile_first_seen": "2022-11-09",
+    "summary": "Это базовое обновление (Upgrade) для крупноформатного 3D-принтера Modix BIG-Meter, позволяющее перевести устройство с версии V3 на версию V4. Продукт предназначен для владельцев существующего оборудования Modix BIG-Meter для модернизации их станка.",
+    "unique_features": [
+      "Версия обновления V4",
+      "Базовый комплект (Basic)"
+    ],
+    "limitations": [
+      "Товар отсутствует на складе (Out of stock)"
+    ],
+    "price_usd": 2200.0
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/modix_v3_big_meter.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/modix_v3_big_meter.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "modix-official",
+      "source_url": "https://www.modix3d.com/product/big-meter-v3-to-v4-upgrade-basic/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "modix-official",
+      "source_url": "https://www.modix3d.com/product/big-meter-v3-to-v4-upgrade-basic/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "modix-official",
+      "source_url": "https://www.modix3d.com/product/big-meter-v3-to-v4-upgrade-basic/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "modix-official",
+      "source_url": "https://www.modix3d.com/product/big-meter-v3-to-v4-upgrade-basic/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/modix_v3_big_meter.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/modix_v3_big_meter.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "BIG-Meter V3 To V4 Upgrade – Basic",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "BIG-Meter V3 To V4 Upgrade – Basic",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Out of stock",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "2,200.00 $",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/modix_v3_big_meter.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/modix_v3_big_meter.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "modix-official",
+      "url": "https://www.modix3d.com/product/big-meter-v3-to-v4-upgrade-basic/",
+      "tier": "vendor",
+      "snapshot": "sha256:03145dad71ae15e1d1d952424dd320d75ff79a6e13b92955379b04275a25d30a",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Modix"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 4,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

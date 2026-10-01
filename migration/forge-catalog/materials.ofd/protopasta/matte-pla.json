@@ -1,0 +1,221 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "protopasta.matte-pla",
+  "vendor": {
+    "slug": "protopasta",
+    "name": "Protopasta",
+    "website": "https://protopasta.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Matte PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "a7fa04a1-1906-4323-9e48-1fcfd77426ad",
+      "confidence": 1.0,
+      "color_hex": "#0f0f0f",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "a7fa04a1-1906-4323-9e48-1fcfd77426ad",
+      "confidence": 1.0,
+      "color_hex": "#0f0f0f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black cMatte",
+      "diameter_mm": 1.75,
+      "external_ref": "3e710ed7-4dcf-4517-8ea9-8c1fdd35f650",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "dd5a87af-0156-4842-856d-604a088245ca",
+      "confidence": 1.0,
+      "color_hex": "#64676c",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "dd5a87af-0156-4842-856d-604a088245ca",
+      "confidence": 1.0,
+      "color_hex": "#64676c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray cMatte",
+      "diameter_mm": 1.75,
+      "external_ref": "fb130b0f-ba33-4bb4-84a5-604063382b5b",
+      "confidence": 1.0,
+      "color_hex": "#697272",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "9d12596b-1afc-4a68-aa33-f0a8b6c378b6",
+      "confidence": 1.0,
+      "color_hex": "#f4f4f4",
+      "weight_g": 500
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "9d12596b-1afc-4a68-aa33-f0a8b6c378b6",
+      "confidence": 1.0,
+      "color_hex": "#f4f4f4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White cMatte",
+      "diameter_mm": 1.75,
+      "external_ref": "479d538e-3bfa-4608-888b-a77b7fd4ac77",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/matte_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e9976e4d-f49d-4f55-88e0-71ec2f574ab6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/matte_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

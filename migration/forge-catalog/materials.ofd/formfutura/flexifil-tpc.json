@@ -1,0 +1,135 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "formfutura.flexifil-tpc",
+  "vendor": {
+    "slug": "formfutura",
+    "name": "FormFutura",
+    "website": "https://formfutura.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "tpc",
+    "name": "TPC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Flexifil Tpc",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "30D Black",
+      "diameter_mm": 1.75,
+      "external_ref": "dbd8dcb0-c437-4046-8b72-7bb08356e10a",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "30D White",
+      "diameter_mm": 1.75,
+      "external_ref": "3f1d012b-5b93-4b7b-8297-35dcfff36129",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "40D",
+      "diameter_mm": 1.75,
+      "external_ref": "7f89d0c8-c968-476d-bdf8-9a8aef05d01d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "40D Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6e31d6ef-a564-421f-85cc-f7c0768d5e3c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "40D White",
+      "diameter_mm": 1.75,
+      "external_ref": "88971539-20c2-4903-b4cd-20d87f31ccb7",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/TPC/flexifil_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/TPC/flexifil_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/TPC/flexifil_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/TPC/flexifil_tpc/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/TPC/flexifil_tpc/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/TPC/flexifil_tpc/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e793fb71-4716-4e02-b75a-e93c01f003e5",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/TPC/flexifil_tpc/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,560 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "epax.high-speed-pla",
+  "vendor": {
+    "slug": "epax",
+    "name": "EPAX",
+    "website": "https://epax.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "High Speed PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Apricot",
+      "diameter_mm": 1.75,
+      "external_ref": "44923839-5bfa-4e39-854a-8bbed315ad51",
+      "confidence": 1.0,
+      "color_hex": "#fbe9b8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Green",
+      "diameter_mm": 1.75,
+      "external_ref": "0426109a-40a8-4a7f-b607-f20ab6adead8",
+      "confidence": 1.0,
+      "color_hex": "#00935c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Red",
+      "diameter_mm": 1.75,
+      "external_ref": "7de5fb02-3f90-4d00-b3b4-08754f8a64af",
+      "confidence": 1.0,
+      "color_hex": "#c01616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "2c63df32-ee7a-4ae4-88ea-f0eb2849dd5c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3aecd667-22f7-44fb-ba4a-2168e8170630",
+      "confidence": 1.0,
+      "color_hex": "#4921c1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bone",
+      "diameter_mm": 1.75,
+      "external_ref": "3efb2c9c-4f39-407a-a00c-4755590dbb82",
+      "confidence": 1.0,
+      "color_hex": "#e3e0d3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "ba468618-2605-4961-b477-ff80ee029caa",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "df625043-8b40-4289-bb44-1574d00365d7",
+      "confidence": 1.0,
+      "color_hex": "#e31a1f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Citrus Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "ad196801-3bdd-4a08-a0c7-4662d943917d",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "82256ad5-f963-42ae-bcdf-6da54a2fb4b8",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cool White",
+      "diameter_mm": 1.75,
+      "external_ref": "9ab6eec9-2a9f-44ba-8217-e5375c7f869b",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cosmic Plum (Galaxy Shimmer)",
+      "diameter_mm": 1.75,
+      "external_ref": "1ebde2be-75b4-4deb-86c1-0456a49c3992",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Crystal Candy Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "2bbe263f-d427-4072-9f4f-16940a8062b1",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Crystal Icicle",
+      "diameter_mm": 1.75,
+      "external_ref": "890e9fab-7231-4d4d-ad37-f551513afe8c",
+      "confidence": 1.0,
+      "color_hex": "#acb1ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Crystal Spring",
+      "diameter_mm": 1.75,
+      "external_ref": "6ad85ea4-f121-477a-9718-7de2f65c4a30",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Crystal Sugarplum",
+      "diameter_mm": 1.75,
+      "external_ref": "23a99f3c-135f-4cb1-bd6c-d622c8c1b229",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Crystal Tropical Dream",
+      "diameter_mm": 1.75,
+      "external_ref": "b693def7-89b5-4cdb-a8be-4775d5c76bcc",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "7eb07f64-c2cb-4685-b11e-4f672898bc7b",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Chocolate Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "136b72b8-79da-45ac-aaae-70165a72a576",
+      "confidence": 1.0,
+      "color_hex": "#503529",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Deep Space (Galaxy Shimmer)",
+      "diameter_mm": 1.75,
+      "external_ref": "8af14140-ec78-4f12-867a-f07fee06067d",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fire Engine Red",
+      "diameter_mm": 1.75,
+      "external_ref": "519a2650-6b75-4a0c-886a-0f7e3980ee92",
+      "confidence": 1.0,
+      "color_hex": "#ca0230",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "aec6f012-4bec-4510-8690-4362a51aa454",
+      "confidence": 1.0,
+      "color_hex": "#4921c1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Green",
+      "diameter_mm": 1.75,
+      "external_ref": "d19f4883-e7ad-4c78-8b1e-06a595a7891c",
+      "confidence": 1.0,
+      "color_hex": "#70fa00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3802ec97-c885-498a-bc22-fb7bfb99e26e",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "4914e232-a1ff-4fd4-ae34-cd1c1d08044d",
+      "confidence": 1.0,
+      "color_hex": "#ff8133",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "16904b10-5b99-4c6e-97f7-4a04f7df55ee",
+      "confidence": 1.0,
+      "color_hex": "#7f068c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Red",
+      "diameter_mm": 1.75,
+      "external_ref": "282dc5ad-a4e2-47df-a806-58ab351c606b",
+      "confidence": 1.0,
+      "color_hex": "#c01616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glass Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "ec059580-6979-4270-ad04-15acef45a4f1",
+      "confidence": 1.0,
+      "color_hex": "#f8cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "98bc88e7-74d8-4d3e-8600-5c8aae308804",
+      "confidence": 1.0,
+      "color_hex": "#88899d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lavender",
+      "diameter_mm": 1.75,
+      "external_ref": "6de39f8a-239c-4c24-863c-769ae635b3f0",
+      "confidence": 1.0,
+      "color_hex": "#b894e2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "03938f48-3684-448f-8ada-df67b62e1b8f",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "f3d5749e-731d-4acb-8897-74e6c55ff1d0",
+      "confidence": 1.0,
+      "color_hex": "#ba8960",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Magenta (Hot Pink)",
+      "diameter_mm": 1.75,
+      "external_ref": "81fb0814-cee7-499b-b0c9-53b73123d342",
+      "confidence": 1.0,
+      "color_hex": "#ff00a2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "ea20a009-8fc3-48aa-b949-619417f50339",
+      "confidence": 1.0,
+      "color_hex": "#ecefed",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Military Green (Army Green)",
+      "diameter_mm": 1.75,
+      "external_ref": "d26c156c-a158-4d9b-9cf0-6451aa9e4d83",
+      "confidence": 1.0,
+      "color_hex": "#6e8451",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "5c00778a-d72e-45b5-a47d-219a32a590e9",
+      "confidence": 1.0,
+      "color_hex": "#dee2da",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Navy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4ac2a33d-3719-42d6-a721-3374bfda4696",
+      "confidence": 1.0,
+      "color_hex": "#3b3f6b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nebula Purple (Galaxy Shimmer)",
+      "diameter_mm": 1.75,
+      "external_ref": "01dcbb39-e462-4563-9837-3386721cf362",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neutral White",
+      "diameter_mm": 1.75,
+      "external_ref": "1f777441-ad88-464a-9204-0e490ec533c0",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "25d09ead-a1fa-4d5f-b47b-b0c4db0c7ef8",
+      "confidence": 1.0,
+      "color_hex": "#ff520e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Dawn",
+      "diameter_mm": 1.75,
+      "external_ref": "6cbe569a-a67e-4315-9828-04bc27bbd3ee",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pale Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "7e244d51-ca55-48b1-b70d-7c84b37e6b42",
+      "confidence": 1.0,
+      "color_hex": "#d7f988",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Mint",
+      "diameter_mm": 1.75,
+      "external_ref": "a2574dd3-3ce2-48f3-bdd2-cd83d4f29d13",
+      "confidence": 1.0,
+      "color_hex": "#00e1c5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d68e1e7a-f02d-4a00-a78c-5b6c98a40711",
+      "confidence": 1.0,
+      "color_hex": "#fbd1a7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pine Green",
+      "diameter_mm": 1.75,
+      "external_ref": "23a1d609-3fb5-42da-99bd-542907bb68a2",
+      "confidence": 1.0,
+      "color_hex": "#37823f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "bb0b698b-39fa-46e0-90fc-3c75212b1b63",
+      "confidence": 1.0,
+      "color_hex": "#f19dcd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink Ombré",
+      "diameter_mm": 1.75,
+      "external_ref": "ffe765a4-b216-488c-a1d2-551838cf3830",
+      "confidence": 1.0,
+      "color_hex": "#ff00a2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "7c9d662a-b13c-47e3-91e3-1cadcf970074",
+      "confidence": 1.0,
+      "color_hex": "#a000ca",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple Dusk",
+      "diameter_mm": 1.75,
+      "external_ref": "5419c836-0632-4e7a-824a-456eb62f7077",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple Peony (Galaxy Shimmer)",
+      "diameter_mm": 1.75,
+      "external_ref": "8aa4c0ba-6399-4196-855b-333aa1305f43",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Solar Flare (Galaxy Shimmer)",
+      "diameter_mm": 1.75,
+      "external_ref": "dcc89d25-e78a-47c2-b32f-d8de85e12198",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Warm White",
+      "diameter_mm": 1.75,
+      "external_ref": "4daf0a6f-a250-484e-8f6d-c598fb5f0a28",
+      "confidence": 1.0,
+      "color_hex": "#e5f1ea",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "abe22a92-aa39-47f8-991e-df19a1ad741f",
+      "confidence": 1.0,
+      "color_hex": "#e4ff33",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/high_speed_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "66dd30df-44c5-4df5-adbf-3dd528faf98e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/high_speed_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

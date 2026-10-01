@@ -1,0 +1,167 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "elegoo.pla-wood",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "ELEGOO",
+    "website": "https://elegoo.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Wood",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "dry_temp_c": 55,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "wood"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Oak/Light Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "48751d42-9a91-4e6d-8cd4-2fcd7d1b9a47",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rosewood",
+      "diameter_mm": 1.75,
+      "external_ref": "8fb5717f-36df-401e-a686-fb9011a9dad3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tan Birch",
+      "diameter_mm": 1.75,
+      "external_ref": "f6d019b9-dd5a-4739-9c08-386f57941157",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Teak",
+      "diameter_mm": 1.75,
+      "external_ref": "439a35cd-500f-47e0-b17d-6968c6d084df",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Walnut",
+      "diameter_mm": 1.75,
+      "external_ref": "1276c254-e2c1-42af-9a63-89d1d72f3fb5",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wood Filled",
+      "diameter_mm": 1.75,
+      "external_ref": "7ac64746-9909-422a-aa92-a9fb2c061d1a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_wood/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_wood/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_wood/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_wood/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_wood/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e19e34e6-41c8-4e55-be33-17d3c93b5ba7",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_wood/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

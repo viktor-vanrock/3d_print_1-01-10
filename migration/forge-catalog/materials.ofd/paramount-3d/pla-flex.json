@@ -1,0 +1,269 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "paramount-3d.pla-flex",
+  "vendor": {
+    "slug": "paramount-3d",
+    "name": "Paramount 3D",
+    "website": "https://paramount3d.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Flex",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Autobot Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "45af78fe-5c29-48a0-8199-b596d2909bb9",
+      "confidence": 1.0,
+      "color_hex": "#2941bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "80f7ff09-ab9b-413c-8184-ab1dcf5276cf",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "British Racing Green",
+      "diameter_mm": 1.75,
+      "external_ref": "2a22cf57-2668-490c-b54f-9eb456d66dc4",
+      "confidence": 1.0,
+      "color_hex": "#1e5a4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Enzo Red",
+      "diameter_mm": 1.75,
+      "external_ref": "31953068-2a39-42f2-8591-e674d5c16c35",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Graphite Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "97d4952b-5b2f-4781-8232-9d1269aff170",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Harajuku Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "d34cddd2-5aa7-4ae2-888c-d377707f31ac",
+      "confidence": 1.0,
+      "color_hex": "#fd64b3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iron Red",
+      "diameter_mm": 1.75,
+      "external_ref": "85c59086-f527-4191-ab20-71c18973ef19",
+      "confidence": 1.0,
+      "color_hex": "#932721",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Military Green",
+      "diameter_mm": 1.75,
+      "external_ref": "22a6570c-8e5d-47e1-baed-eba75bef5a44",
+      "confidence": 1.0,
+      "color_hex": "#829778",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Military Khaki",
+      "diameter_mm": 1.75,
+      "external_ref": "6f0feca8-5a3c-4629-b852-b94dca37fc75",
+      "confidence": 1.0,
+      "color_hex": "#ae9d7e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Prototype Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "48b8d532-8b4a-48c2-a676-f50cc102adcc",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin Dark Complexion",
+      "diameter_mm": 1.75,
+      "external_ref": "b2a23a14-6a6d-498c-82dd-5b44d9aa6494",
+      "confidence": 1.0,
+      "color_hex": "#c0894d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin Fair Complexion",
+      "diameter_mm": 1.75,
+      "external_ref": "b5d3837c-b2fa-4dea-8bdc-6060b2ed6070",
+      "confidence": 1.0,
+      "color_hex": "#f0ddc2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin Ivory",
+      "diameter_mm": 1.75,
+      "external_ref": "0bda4487-577a-4ac0-8b30-c169998e70fb",
+      "confidence": 1.0,
+      "color_hex": "#f1e6b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin Universal Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "701423e1-c573-4fe9-ac66-00caa9a06bf8",
+      "confidence": 1.0,
+      "color_hex": "#e9cb9b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7d71457d-2048-47b5-9a4a-691279fc9e19",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/paramount_3d/PLA/flex/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "12c07b86-359b-4404-b569-540fdbb85e58",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/paramount_3d/PLA/flex/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

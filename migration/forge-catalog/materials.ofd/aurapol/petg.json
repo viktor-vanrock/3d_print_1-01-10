@@ -1,0 +1,269 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "aurapol.petg",
+  "vendor": {
+    "slug": "aurapol",
+    "name": "AURAPOL",
+    "website": "https://aurapol.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bright Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "cfa89a95-a420-4b22-83a7-4ced9d4f961d",
+      "confidence": 1.0,
+      "color_hex": "#ff8e24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Copper brown",
+      "diameter_mm": 1.75,
+      "external_ref": "510c75b7-cae7-48d1-be56-b5e3d2739cfe",
+      "confidence": 1.0,
+      "color_hex": "#c06341",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Graphite black",
+      "diameter_mm": 1.75,
+      "external_ref": "dc545696-bbe4-4c2d-8e2a-f1cc7b09745d",
+      "confidence": 1.0,
+      "color_hex": "#1d1d1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Mint",
+      "diameter_mm": 1.75,
+      "external_ref": "f0dda0b6-b3a2-4fa2-9b54-a19d53a0506f",
+      "confidence": 1.0,
+      "color_hex": "#26a648",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Machine Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "695969aa-fd46-4a32-9809-4db284e709a0",
+      "confidence": 1.0,
+      "color_hex": "#5cadbf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "1ffbb2b0-b4ef-4623-a4b0-013f5b1d2f49",
+      "confidence": 1.0,
+      "color_hex": "#dee2da",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nuclear Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "00e4566c-42d5-4a0a-a6a1-dcaa3eb01a01",
+      "confidence": 1.0,
+      "color_hex": "#ff6600",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "PARK-SIDE",
+      "diameter_mm": 1.75,
+      "external_ref": "2bb96c33-a175-4683-ac27-a95a8c1259b7",
+      "confidence": 1.0,
+      "color_hex": "#364429",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Signal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "89e47992-70fd-41a8-ab49-a3979b7c91a3",
+      "confidence": 1.0,
+      "color_hex": "#346ce3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Signal Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "424ca912-44fc-47b3-bd74-7bc18c80efad",
+      "confidence": 1.0,
+      "color_hex": "#ded9d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "9f216dd3-308f-457a-bf1c-a9c21aa058d5",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sulfur Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6d27b331-8b20-4551-a706-ba70bc934f63",
+      "confidence": 1.0,
+      "color_hex": "#e4ff33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Red",
+      "diameter_mm": 1.75,
+      "external_ref": "928bece5-57e2-46c9-84a2-a96ae0387da1",
+      "confidence": 1.0,
+      "color_hex": "#e03f26",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ultramarine Blue Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "bb7fb506-ca03-4443-be65-a8dc9c40a3f8",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "6b392cf2-76c2-477e-8520-363865a36c49",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/aurapol/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "958270c1-547e-4e46-96f2-86931d46a5f5",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/aurapol/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

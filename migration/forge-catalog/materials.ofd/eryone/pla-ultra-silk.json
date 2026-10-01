@@ -1,0 +1,158 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.pla-ultra-silk",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Ultra Silk",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.32,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "4081c31c-0dc5-4b45-a8cf-4a10a28bcf14",
+      "confidence": 1.0,
+      "color_hex": "#555555",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "dfe0f613-0f4a-4946-9e4c-e1616df3b287",
+      "confidence": 1.0,
+      "color_hex": "#f2e767",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "3cbf42d1-3180-487e-a156-97d3edc5c72d",
+      "confidence": 1.0,
+      "color_hex": "#fa7d45",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Dark Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "5a48d2a2-afb1-4918-ada0-5ca078be44b8",
+      "confidence": 1.0,
+      "color_hex": "#9d6d60",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "9ab3411e-47a7-4755-b9c9-b60704100d2a",
+      "confidence": 1.0,
+      "color_hex": "#ffe880",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e6c7239e-57bb-4f08-8a3f-7ed555a80162",
+      "confidence": 1.0,
+      "color_hex": "#ff2131",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "3c0ae30a-58fe-4905-9d33-4dcd7bc8ef9b",
+      "confidence": 1.0,
+      "color_hex": "#84aabd",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-ultra-silk/products/advanced-silk-pla"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_ultra_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_ultra_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_ultra_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_ultra_silk/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_ultra_silk/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_ultra_silk/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9496f45d-9e28-4ffd-9d24-d4c1bc5f0224",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_ultra_silk/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.tpu-90a",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU 90A",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "aae826d5-88da-46d4-8978-37d8898aa942",
+      "confidence": 1.0,
+      "color_hex": "#898c94",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    },
+    {
+      "color_name": "Solid black",
+      "diameter_mm": 1.75,
+      "external_ref": "d5836f46-6681-4b56-a2ea-984112b6e334",
+      "confidence": 1.0,
+      "color_hex": "#1a1e21",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    },
+    {
+      "color_name": "Solid white",
+      "diameter_mm": 1.75,
+      "external_ref": "871baf1d-9d4f-4d77-ad1f-c52b6fa3d00e",
+      "confidence": 1.0,
+      "color_hex": "#dddce1",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    },
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "82b7c6c9-4622-4be0-9c53-ecc649459fbf",
+      "confidence": 1.0,
+      "color_hex": "#928f94",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    },
+    {
+      "color_name": "Transparent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "73c493f9-7f19-44a0-b697-5489f80e61c7",
+      "confidence": 1.0,
+      "color_hex": "#1140b2",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    },
+    {
+      "color_name": "Transparent Red",
+      "diameter_mm": 1.75,
+      "external_ref": "8a838d70-a4d1-4fa5-b3a2-6ec4bef8f610",
+      "confidence": 1.0,
+      "color_hex": "#d33740",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/tpu-90a/products/tpu-90a-flexible-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_90a/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_90a/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_90a/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f226f50d-8ad2-465d-bf14-39e8f6877257",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_90a/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

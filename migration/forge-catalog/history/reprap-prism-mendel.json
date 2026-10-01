@@ -1,0 +1,73 @@
+{
+ "slug": "history.reprap-prism-mendel",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Prism",
+ "snapshot": "sha256:f7babe1f5148fd0ddaa691e40f2898527475c6dd00b8d68e1af7a4e287ac1c53",
+ "page_chars": 10873,
+ "fields": {
+  "summary": "Prism — это эволюция дизайна Mendel с использованием экструдированного алюминиевого профиля, обеспечивающего высокую жесткость и точность без сложной калибровки. Конструкция предназначена для самостоятельной сборки (Reprap) и позиционируется как быстрое и недорогое обновление для существующих станков Mendel или как база для создания нового FFF/FDM принтера.",
+  "unique_features": [
+   "Рама из экструдированного алюминия (T-Slot), требующая практически нулевой калибровки",
+   "Маркированные углы (60 градусов) для обеспечения квадратности сборки без измерений",
+   "Упрощенная маршрутизация ремней и меньшее количество подшипников",
+   "Выведенные наружу треугольные элементы рамы, предотвращающие столкновения с экструдером",
+   "Проводка через T-образные пазы с использованием печатных клипс"
+  ],
+  "limitations": [
+   "Отсутствие места на верхушках Z-стержней для доступа инструментом при затяжке винтов",
+   "Отсутствие места для печати всей площади 300 мм по оси X текущими каретками/экструдерами",
+   "Ограниченная область печати по оси X размером с каретку, а не пространством между наклонными стойками",
+   "Некоторые детали (например, шкивы GT2) недоступны для печати на момент написания текста",
+   "Требует использования специфических крепежных элементов (T-Nuts, M3/M4 винты) и инструментов (шестигранные ключи M3, M4, M8)"
+  ],
+  "build_volume": {
+   "x": 250,
+   "y": 250,
+   "z": 200,
+   "shape": "rectangular"
+  },
+  "dimensions_mm": {
+   "w": 440,
+   "d": 440,
+   "h": 410
+  },
+  "weight_kg": 7,
+  "price_usd": 600,
+  "release_year": 2011
+ },
+ "evidence": {
+  "summary": "This extruded aluminum frame is an evolution of the original (Ed Sells) Mendel design.",
+  "unique_features": "Cabling is routed through the t-slot channels and held in place with printed clips",
+  "limitations": "There isn't room at the top of the z rods to get a tool in and tighten the screws",
+  "build_volume": "Max Potential Build Envelope | 250mm (W) x 250mm (L) x 200mm (H)",
+  "dimensions_mm": "Size | 440mm (W) x 440mm (L) x 410mm (H)",
+  "weight_kg": "Weight | ~7 kg",
+  "price_usd": "Cost to build | $600 US",
+  "release_year": "18:24, 27 December 2011"
+ },
+ "unconfirmed": [
+  "release_year"
+ ],
+ "unique_features": [
+  "Рама из экструдированного алюминия (T-Slot), требующая практически нулевой калибровки",
+  "Маркированные углы (60 градусов) для обеспечения квадратности сборки без измерений",
+  "Упрощенная маршрутизация ремней и меньшее количество подшипников",
+  "Выведенные наружу треугольные элементы рамы, предотвращающие столкновения с экструдером",
+  "Проводка через T-образные пазы с использованием печатных клипс"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T05:19:35Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Prism",
+ "maker": "Reprap",
+ "model": "Prism Mendel",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Prism"
+}

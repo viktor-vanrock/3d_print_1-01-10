@@ -1,0 +1,122 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "creality.hyper-rainbow-pla",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality",
+    "website": "https://www.creality.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Hyper Rainbow PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Spring Lake",
+      "diameter_mm": 1.75,
+      "external_ref": "9822ab52-c95d-4212-b076-9296b3dc7ac0",
+      "confidence": 1.0,
+      "color_hex": "#92cca8",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-rainbow-pla-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Wild Blossom-Long",
+      "diameter_mm": 1.75,
+      "external_ref": "6dee05da-cb1a-414b-bb64-878613973a3a",
+      "confidence": 1.0,
+      "color_hex": "#d7a7a8",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-rainbow-pla-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Wild Blossom-Short",
+      "diameter_mm": 1.75,
+      "external_ref": "43f05c49-f02f-46fc-927c-46f368bb004b",
+      "confidence": 1.0,
+      "color_hex": "#68b484",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-rainbow-pla-3d-printing-filament-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_rainbow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_rainbow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_rainbow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_rainbow_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_rainbow_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_rainbow_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c4cfda06-ed01-48aa-80b0-b3efc0408ba6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_rainbow_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

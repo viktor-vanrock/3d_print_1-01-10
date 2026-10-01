@@ -1,0 +1,1485 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "qidi.q2",
+  "vendor": {
+    "slug": "qidi",
+    "name": "QIDI"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Q2",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 270,
+      "y": 270,
+      "z": 256
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "2.4 GHz Wi-Fi",
+      "Ethernet",
+      "USB",
+      "WiFi"
+    ],
+    "kinematics": "corexy",
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 600,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2025-08-30",
+    "bed_surface": "Dual-Sided Textured PEI Plate",
+    "auto_leveling": "Hands-free Automatic Leveling（Loadcell Sensor Integrated into the Hotend）",
+    "screen_type": "4.3 Inch 480*272 Touch Screen",
+    "firmware": "Klipper",
+    "summary": "QIDI Q2 — это закрытый 3D-принтер начального уровня с металлической рамой и подогревом камеры, предназначенный для начинающих пользователей, хобби и семейного использования. Он позиционируется как устройство, обеспечивающее высокую точность и безопасность благодаря сертификации MET и системе фильтрации воздуха.",
+    "unique_features": [
+      "Сенсор автоматического выравнивания, интегрированный в сопло (Zero-offset)",
+      "Активный подогрев камеры до 65°C (2-е поколение)",
+      "ИИ-камера для обнаружения ошибок печати (Spaghetti detection)",
+      "Сопло из биметаллической закаленной стали с керамическим горлом",
+      "3-в-1 система фильтрации воздуха с сертификатом MET",
+      "Каркас CoreXY из цельного металла",
+      "Совместимость с системой мультиколорной печати QIDI BOX"
+    ],
+    "max_nozzle_temp_c": 370,
+    "max_bed_temp_c": 120,
+    "max_chamber_temp_c": 65,
+    "max_travel_speed_mms": 600,
+    "firmware_max_accel_mms2": 20000,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 402,
+      "d": 438,
+      "h": 494
+    },
+    "weight_kg": 18.1,
+    "enclosed": true,
+    "chamber_active": true,
+    "heated_bed": true,
+    "multimaterial_supported": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "warranty_months": 12,
+    "firmware_max_speed_mms": 600,
+    "extruder_count": 1,
+    "price_rub": 55900,
+    "voltage_v": 220,
+    "multimaterial_channels": 16,
+    "materials_supported": [
+      "PLA",
+      "PETG",
+      "ABS",
+      "ASA",
+      "TPU",
+      "GF- and CF-filled polymers"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/610/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/610/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_chamber_temp_c": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_travel_speed_mms": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/610/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "filament_diameter_mm": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "extruder_type": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "enclosed": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "multimaterial_supported": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/qidi-tech/q2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "qidi-official",
+      "source_url": "https://qidi3d.com/products/qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/610/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "extruder_count": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "voltage_v": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/qidi-tech/q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "multimaterial_channels": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/qidi-tech/q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/qidi-tech/q2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/610/orcaslicer/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Acceleration ≤20000mm/s^2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Speed of Tool Head 600mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/610/orcaslicer/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printing Plate Dual-Sided Textured PEI Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Automatic Leveling Hands-free Automatic Leveling（Loadcell Sensor Integrated into the Hotend）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Display Screen 4.3 Inch 480*272 Touch Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "since the QIDI Q2 runs on Klipper firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Redefining your first entry-level 3D printer ... Empower every creator in your family ... From precise prototypes to fun projects, the Q2 delivers easy, reliable 3D printing for beginners and hobbyists alike.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Zero-offset, Perfect first layer ... Second-Gen 65℃ active chamber heating ... Print Spaghetti detection AI camera ... Bimetal hardened steel nozzle ... 3-in-1 Air Filtration + MET-Certified ... CoreXY Full Metal Frame ... Compatible with QIDI BOX ( Multi-color )",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Print Head Temperature ≤ 370℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hot Bed Temperature ≤ 120℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Chamber Temperature(PTC Heater) 2nd Gen Up to 65° C Independent Chamber Heating",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Speed of Tool Head 600mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter 1.75mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Gear Direct Extruder Hardened Steel Gears",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer Dimensions 402*438*494 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Net Weight 18.1kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Enclosed 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Second-Gen active chamber heating reaches up to 65ºC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printing Platform Aluminum Substrate Heating Bed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Multi-Color Printing Compatible with QIDI BOX(Multi-color)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "AI camera Detection Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Detection Run Out Sensor(mounted above extruder)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Loss Recovery： Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Air filter Yes（3-in-1 Air Filter: G3 Pre-Filter + H12 HEPA + Coconut Shell Activated Carbon）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Warranty 1-Year Coverage",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура экструдера, °С 370",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура платформы, °С 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева рабочей камеры 65 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область печати, XYZ 270x270x256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная скорость печати, мм/с 600",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальное ускорение экструдера, мм/с² 20000",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла 0.4 мм （0.2/0.6/0.8 мм Опциональноl）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Габариты товара ДxШxВ (см) 40.2x43.8x49.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес нетто (кг) 18.1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Активная термокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "систему фильтрации воздуха",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Кол-во печатающих экструдеров (голов) 1 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "55 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "New Hotend System up to 370°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Heating bed temperature | ≤ 120 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Actively Heated Build Chamber: Up to 65°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Build volume: 270 x 270 x 256 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Max. speed: 600 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Maximum Acceleration: 20,000 mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Hotend | Multi-metal hotend with ceramic heating and 0.4 mm bi-metal nozzle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Device dimensions | 402 x 438 x 494 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Net weight | 18.1 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Print chamber made of flame-retardant materials",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Active heated print chamber",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "bi-metal hardened steel nozzle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Heated print bed: Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Supports multi-colour printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Integrated HD Camera",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Air filter | 3-in-1 filtration: G3 pre-filter + H12 HEPA + coconut shell activated carbon",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "voltage_v": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Power supply | 110 V / 220-240 V AC, 50/60 Hz",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_channels": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Supports multi-colour printing - print with up to 16 colours",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Supported filaments | PLA, ABS, ASA, PETG, TPU, PA, PC, GF- and CF-filled polymers, etc.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура хотэнда | 370°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная фоновая температура | 65°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размер области построения | 270х270х256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Габариты | 402х438х494 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Интерфейс | USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Рабочая камера | закрытая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная фоновая температура | 65°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Хотэнд | биметаллический",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Столик | подогреваемый с полиэфиримидным адгезионным покрытием",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вебкамера | с машинным зрением для отслеживания сбоев",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Функция сохранения при перебоях питания | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Фильтрация воздуха | G3, HEPA и активированный уголь",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Qidi/machine/Qidi Q2 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/610/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/610/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "qidi-official",
+      "url": "https://qidi3d.com/products/qidi-q2",
+      "tier": "vendor",
+      "snapshot": "sha256:870e77128887630a70563635d995fe65905caa2172f31067696a773569651994",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:01:14Z",
+      "publisher": "QIDI"
+    },
+    {
+      "source_id": "s4",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-qidi-q2",
+      "tier": "catalog",
+      "snapshot": "sha256:af9e30e8beecd0c034c6dd54c5a27340c36ed7df79cdb0799504c2782342c3d3",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:01:26Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s5",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/qidi-tech/q2",
+      "tier": "catalog",
+      "snapshot": "sha256:45ecc7df769383d9163d00876f4976fb0ff11e2356949ee5fd0b3c4c77b4585d",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:46:33Z",
+      "publisher": "3DJake"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/QIDI-Technology/qidi-q2",
+      "tier": "community",
+      "snapshot": "sha256:3f2ab1656abc0ea0b69e222dea895cbcdf8be474e4ea7ba303fd53a81feb3a1b",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:53:40Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "power_w"
+    ],
+    "sources_count": 6,
+    "quality_score": 14,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "2.4 GHz Wi-Fi",
+            "Ethernet",
+            "USB"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|qidi-official-vs-community",
+      "values": [
+        {
+          "value": 20000,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 20,
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

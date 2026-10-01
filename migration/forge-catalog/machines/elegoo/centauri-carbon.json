@@ -1,0 +1,1199 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "elegoo.centauri-carbon",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "Elegoo"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Centauri Carbon",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 256,
+      "y": 256,
+      "z": 256
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker"
+    ],
+    "heated_bed": true,
+    "kinematics": "corexy",
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2025-12-16",
+    "summary": "Elegoo Centauri Carbon — это FDM 3D-принтер с архитектурой CoreXY, предназначенный для быстрого прототипирования благодаря высокой скорости печати и автоматической калибровке. Устройство позиционируется как решение для широкого спектра материалов, позволяющее начать печать сразу после распаковки.",
+    "unique_features": [
+      "CoreXY архитектура",
+      "Скорость печати 500 мм/с",
+      "Ускорение 20,000 мм/с²",
+      "Полностью автоматическая калибровка",
+      "Встроенная камера для наблюдения за процессом печати",
+      "Готовность к печати сразу из коробки"
+    ],
+    "firmware_max_speed_mms": 500,
+    "firmware_max_accel_mms2": 20000,
+    "price_usd": 438.41,
+    "camera": true,
+    "warranty_months": 12,
+    "discontinued": true,
+    "release_status": "eol",
+    "bed_surface": "Двухсторонняя гибкая пластина",
+    "screen_type": "4,3-дюймовый емкостный сенсорный экран",
+    "max_nozzle_temp_c": 320,
+    "max_bed_temp_c": 110,
+    "max_flow_mm3s": 32,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "dimensions_mm": {
+      "w": 398,
+      "d": 404,
+      "h": 490
+    },
+    "weight_kg": 17.5,
+    "power_w": 1100,
+    "enclosed": true,
+    "filament_runout_sensor": true,
+    "air_filter": true,
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 1,
+    "price_rub": 38990,
+    "chamber_active": false,
+    "power_loss_recovery": true,
+    "positioning_accuracy_mm": 0.1,
+    "auto_leveling": "Automatic via 121 points",
+    "noise_db": 50,
+    "max_travel_speed_mms": 500,
+    "extruder_type": "direct_drive",
+    "materials_supported": [
+      "ПЛА",
+      "ПЭТГ",
+      "АБС",
+      "АСА",
+      "термопластичные полиуретаны",
+      "полиамиды",
+      "поликарбонат",
+      "угле- и стеклонаполненные композиты"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_centauri_carbon.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_centauri_carbon.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "price_usd": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "camera": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/centauri-carbon",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "discontinued": {
+      "source": "elegoo-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "elegoo-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "screen_type": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_nozzle_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_flow_mm3s": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "air_filter": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "positioning_accuracy_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "auto_leveling": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/elegoo/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "noise_db": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/elegoo/centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_travel_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/591/orcaslicer/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/591/orcaslicer/machine_profiles.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_centauri_carbon.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/591/orcaslicer/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "20,000 mm/s² Acceleration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "CoreXY with 500 mm/s Velocity",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/591/orcaslicer/machine_profiles.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/591/orcaslicer/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_centauri_carbon.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Elegoo Centauri Carbon | Best High-Speed CoreXY 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "CoreXY with 500 mm/s Velocity",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$438.41 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Chamber Camera Acts as Your Eyes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "All Brand New Machines & Parts ... 12 months",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 256x256x256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | 500 мм/с (макс.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | 20 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0.4 мм (в комплекте) 0.2/0.6/0.8/1.0 мм (опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "оснащен латунным соплом с наконечником из закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "мощная подогреваемая платформа",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Контроль с помощью камеры | Внутренняя камера обеспечивает мониторинг в режиме реального времени",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Двухсторонняя гибкая пластина",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Дисплей | 4,3-дюймовый емкостный сенсорный экран",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Рабочая температура экструдера | 320°С (макс.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева площадки | 110°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость подачи 32 мм³/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,1-0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,1-0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 398x404x490 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес (без упаковки) | 17.5 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Мощность | 1100 Вт при 220 В",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "превосходным охлаждением в полностью закрытой камере",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Встроенный воздушный фильтр - нано-минеральный кристаллический фильтр",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 500",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "ускорениях до 20 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4 мм (в комплекте) 0.2/0.6/0.8/1.0 мм (опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Кол-во печатающих экструдеров (голов) 1 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "38 990 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, мм | 256 × 256 × 256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость печати | 500 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "ускорении до 20 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | Сопло из закаленной латуни 0,4 мм (входит в комплект) 0.2/0.6/0.8/1.0 мм (опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "AC-нагреваемый стол",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Встроенная камера",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Точность | ±0,1 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Build volume: 256 x 256 x 256 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. speed | ≤ 500 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Acceleration | 20000 mm/s2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Nozzle | BiMetal (brass + steel), 0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Chamber camera | yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Levelling | Automatic via 121 points",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Quiet operation below 50 dB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Размер области построения | 256х256х256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "износостойкое сопло из закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Подогреваемый столик",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Вебкамера | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная скорость позиционирования | 500 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Экструдер | директ с двумя ведущими шестернями",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Расходные материалы | ПЛА, ПЭТГ, АБС, АСА, термопластичные полиуретаны, полиамиды, поликарбонат, угле- и стеклонаполненные композиты, и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/591/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/591/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/elegoo_centauri_carbon.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_centauri_carbon.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "elegoo-official",
+      "url": "https://www.elegoo.com/products/centauri-carbon",
+      "tier": "vendor",
+      "snapshot": "sha256:c72e02bc7e35be24f6da5e5a5076a262caab728e5ca61121ce43a6e29998d3ee",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:02:28Z",
+      "publisher": "Elegoo"
+    },
+    {
+      "source_id": "s4",
+      "source": "elegoo-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "tier": "vendor",
+      "snapshot": "sha256:686207f2b255109127881cc83a81e5594cf5e60c5c6a9fd852abfa1e14c7c770",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T12:54:03Z",
+      "publisher": "Elegoo"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/elegoo/3d_printer_elegoo_centauri_carbon/",
+      "tier": "catalog",
+      "snapshot": "sha256:686207f2b255109127881cc83a81e5594cf5e60c5c6a9fd852abfa1e14c7c770",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:38:50Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-elegoo-centauri-carbon",
+      "tier": "catalog",
+      "snapshot": "sha256:f2ee2253b270c60310c942fd023c101be9e2dece4dbbe929c1cf714846f427c8",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:05:53Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-elegoo-centauri-carbon/",
+      "tier": "catalog",
+      "snapshot": "sha256:f91f935636a81cac283b289ea6cee3bb586fd8533308078a50aa3d401d005102",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:35:34Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/elegoo/centauri-carbon",
+      "tier": "catalog",
+      "snapshot": "sha256:641f0a2c5f878b89e852b2261f3cbbf56a39ee5b4b22cd85c16674e35aa92e90",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:47:42Z",
+      "publisher": "3DJake"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-centauri-carbon",
+      "tier": "community",
+      "snapshot": "sha256:7c272b7155dd55b01cd5b3408d80884143f5916646be1c3509261501836ce86d",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:57:26Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|structural-vs-structural|cura|spdb",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 256,
+            "y": 256,
+            "z": 256
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 257,
+            "y": 257,
+            "z": 257
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|elegoo-official-vs-community",
+      "values": [
+        {
+          "value": 20000,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 20,
+          "source_id": "s9",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 9,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  }
+}

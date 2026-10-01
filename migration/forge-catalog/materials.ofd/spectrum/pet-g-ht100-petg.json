@@ -1,0 +1,205 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "spectrum.pet-g-ht100-petg",
+  "vendor": {
+    "slug": "spectrum",
+    "name": "Spectrum",
+    "website": "https://spectrumfilaments.com/en/brand/spectrum-filaments-en/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PET-G HT100 PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "4e89f27b-40b6-4741-871e-0e5f182bac80",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iron Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "68a07144-7a5d-4549-bb82-9230b93ad668",
+      "confidence": 1.0,
+      "color_hex": "#6a6c6e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Obsidian Black",
+      "diameter_mm": 1.75,
+      "external_ref": "019b9f75-a183-417e-9c94-cdd920a402f1",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pure White",
+      "diameter_mm": 1.75,
+      "external_ref": "975a444a-048c-45e4-9b9f-12565eba957c",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver Steel",
+      "diameter_mm": 1.75,
+      "external_ref": "dd638296-288c-43f2-adf1-e215f9d8740e",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Red",
+      "diameter_mm": 1.75,
+      "external_ref": "3ba588a0-fd0c-4409-b5af-349b315a5112",
+      "confidence": 1.0,
+      "color_hex": "#ec0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "d4c5da27-2878-4f4f-89a1-f51a4e196c28",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PETG/pet_g_ht100_petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "77ba3d27-2da9-4ed5-ba0c-aa3e915043c7",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PETG/pet_g_ht100_petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

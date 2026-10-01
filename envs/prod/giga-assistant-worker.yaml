@@ -1,0 +1,76 @@
+# Dedicated /giga assistant queue worker. Production is intentionally scale-zero.
+# Enabling it requires the environment gates and authorized staff canary runbook.
+
+replicaCount: 0
+
+image:
+  repository: registry.sberdevices.ru/rndml/additive-ai-portal/3d-ai-portal/giga
+  pullPolicy: IfNotPresent
+  command: ["/bin/sh"]
+  args:
+    - "-ec"
+    - ". /vault/secrets/config && python3 -m giga.assistant.preflight preflight && exec giga-assistant-worker"
+
+imagePullSecrets:
+  - name: gitlab-registry-secret
+
+serviceAccount:
+  create: false
+  name: vault
+
+podAnnotations:
+  vault.hashicorp.com/agent-inject: "true"
+  vault.hashicorp.com/agent-pre-populate-only: "true"
+  vault.hashicorp.com/agent-inject-secret-config: rndml/aiportal/giga
+  vault.hashicorp.com/role: p-rndml-aiportal
+  vault.hashicorp.com/agent-inject-template-config: |
+    {{- with secret "rndml/aiportal/giga" -}}
+    {{ range $k, $v := .Data.data }}export {{ $k }}='{{ $v }}'
+    {{ end }}{{- end -}}
+
+configMap:
+  enabled: true
+  config:
+    ASSISTANT_LIFECYCLE_ENABLED: "0"
+    ASSISTANT_PROVIDER: gigachat
+    GIGACHAT_ENVIRONMENT: prod
+    ASSISTANT_INTERNAL_API_ORIGIN: http://api
+    ASSISTANT_GIGACHAT_MODEL: GigaChat-3-Pro
+    ASSISTANT_GIGACHAT_EXPECTED_RESPONSE_MODEL: GigaChat-3-Pro:32.4.30.3
+    GIGACHAT_VERIFY_SSL_CERTS: "true"
+    ASSISTANT_POLL_INTERVAL_SECONDS: "5"
+    ASSISTANT_LEASE_SECONDS: "90"
+    ASSISTANT_HEARTBEAT_INTERVAL_SECONDS: "20"
+    ASSISTANT_SHUTDOWN_GRACE_SECONDS: "30"
+    ASSISTANT_MAX_ATTEMPTS: "3"
+    ASSISTANT_MAX_RESPONSE_TOKENS: "800"
+    PORTAL_QUEUE_METRICS_DIR: /tmp/giga-assistant-metrics
+
+securityContext: {}
+podSecurityContext: {}
+
+service:
+  enabled: false
+  ports: []
+
+ingress:
+  enabled: false
+
+livenessProbe:
+  exec:
+    command: ["python3", "-m", "giga.assistant.preflight", "health", "--max-metrics-age-seconds", "120"]
+  initialDelaySeconds: 30
+  periodSeconds: 20
+readinessProbe:
+  exec:
+    command: ["python3", "-m", "giga.assistant.preflight", "health", "--max-metrics-age-seconds", "90"]
+  initialDelaySeconds: 10
+  periodSeconds: 10
+
+resources:
+  requests:
+    cpu: 250m
+    memory: 512Mi
+  limits:
+    cpu: "1"
+    memory: 1Gi

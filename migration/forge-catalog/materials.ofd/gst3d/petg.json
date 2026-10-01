@@ -1,0 +1,176 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.petg",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d6e19972-ba68-47b7-872c-37ae91e41775",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-transluscent?variant=52132955816269"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d6e19972-ba68-47b7-872c-37ae91e41775",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3500,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52220099068237"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d6e19972-ba68-47b7-872c-37ae91e41775",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 5000,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52250600243533"
+    },
+    {
+      "color_name": "Crystal",
+      "diameter_mm": 1.75,
+      "external_ref": "968c1448-accb-4781-8444-a884e3172f3d",
+      "confidence": 1.0,
+      "color_hex": "#f5f1d9",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-transluscent?variant=52158185275725"
+    },
+    {
+      "color_name": "Crystal",
+      "diameter_mm": 1.75,
+      "external_ref": "968c1448-accb-4781-8444-a884e3172f3d",
+      "confidence": 1.0,
+      "color_hex": "#f5f1d9",
+      "weight_g": 3500,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52220099166541"
+    },
+    {
+      "color_name": "Crystal",
+      "diameter_mm": 1.75,
+      "external_ref": "968c1448-accb-4781-8444-a884e3172f3d",
+      "confidence": 1.0,
+      "color_hex": "#f5f1d9",
+      "weight_g": 5000,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52250600309069"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "49a9d6bf-25d7-4da6-9589-beac665c62f9",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-transluscent?variant=52158185341261"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "49a9d6bf-25d7-4da6-9589-beac665c62f9",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3500,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52220099101005"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "49a9d6bf-25d7-4da6-9589-beac665c62f9",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 5000,
+      "purchase_url": "https://gst3d.eu/products/petg-5kg-crystal?variant=52250600276301"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f5fe0267-f60b-454d-905d-c410726e90bd",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

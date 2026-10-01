@@ -1,0 +1,1322 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "anycubic.kobra-2",
+  "vendor": {
+    "slug": "anycubic",
+    "name": "Anycubic"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Kobra 2",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 250
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 3000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-07-10",
+    "bed_surface": "Magnetic Spring Steel",
+    "auto_leveling": "LeviQ 2.0",
+    "screen_type": "4.3-inch Colored LCD Touchscreen",
+    "summary": "Anycubic Kobra 2 — это FDM 3D-принтер, позиционируемый как устройство для быстрой печати с улучшенной системой экструзии и автоматической калибровкой. Он предназначен для энтузиастов, инженеров и художников, желающих превращать идеи в реальность.",
+    "unique_features": [
+      "LeviQ 2.0 система автоматического выравнивания с настраиваемым Z-Offset",
+      "Скорость печати до 300 мм/с и ускорение 3000 мм/с²",
+      "Новый прямой экструдер с мощностью до 60 Вт и двухзубчатой структурой",
+      "Вентилятор охлаждения с оптимизированным дизайном, достигающий 7000 об/мин",
+      "Динамическая структура с двойными металлическими шпинделями и подшипниками SG15",
+      "Двойной винт оси Z для снижения сопротивления при подъеме",
+      "4.3-дюймовый цветной сенсорный LCD-экран",
+      "Магнитная пружинная стальная платформа, устойчивая к царапинам",
+      "Датчик окончания филамента с функцией паузы и возобновления печати"
+    ],
+    "max_nozzle_temp_c": 260,
+    "max_bed_temp_c": 110,
+    "firmware_max_speed_mms": 300,
+    "firmware_max_accel_mms2": 2500,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 440,
+      "d": 435,
+      "h": 486
+    },
+    "weight_kg": 8.4,
+    "price_usd": 169,
+    "connectivity": [
+      "MicroSD Card",
+      "Card Reader"
+    ],
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "PETG",
+      "TPU"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "discontinued": true,
+    "release_status": "eol",
+    "layer_height_max_mm": 0.3,
+    "positioning_accuracy_mm": 0.0125,
+    "extruder_count": 1,
+    "power_w": 400,
+    "filament_diameter_mm": 1.75,
+    "price_rub": 36900,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false,
+    "layer_height_min_mm": 0.05
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anycubic_kobra2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anycubic_kobra2.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "extruder_type": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "materials_supported": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "discontinued": {
+      "source": "anycubic-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "anycubic-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "positioning_accuracy_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/anycubic_kobra2.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "3000mm/s² Accelerated Speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Printing Speed 300mm/s(Max.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/anycubic_kobra2.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Magnetic Spring Steel Build Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "LeviQ 2.0 Automatic Leveling System",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "4.3-inch Colored LCD Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Anycubic Kobra 2 - 6X Faster Auto-Levelling FDM 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "LeviQ 2.0 Automatic Leveling System... Z-Offset can be customed to cater to various printing needs.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Nozzle Temperature ≤500F/260℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Hotbed Temperature ≤230F/110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "New Direct Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Machine Dimensions 19.1x173x171in/ 486*440*435mm(HWD)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Machine Weight 8.4kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Sale price $169.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Data Input MicroSD Card",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Printing Material PLA/ABS/PETG/TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Filament Run-out Sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Power-Loss Recovery",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура нагрева стола | 110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размер области построения | 220x220x250 мм (12.1 л)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла (мм) | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размеры (без упаковки) | 486 х 440 х 435 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип материала | ABS, PLA, PETG, TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура нагрева стола | 110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Датчик окончания филамента | Датчик позволит не беспокоиться о случайном отключении питания...",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя | 0,05-0,3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Точность позиционирования по оси XY | 0.0125 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Энергопотребление | 400 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура экструдера, °С 260",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура платформы, °С 110",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, XYZ 250x220x220 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Габариты товара ДxШxВ (см) 48,6x44x43,5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вес нетто (кг) 8.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Поддерживаемые материалы PLA/ABS/PETG/TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "36 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Температура экструдера, °C | 260⁰С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Температура стола | до 110°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Диаметр сопла | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Габариты | 486 х 440 х 435 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Материалы | ABS, PLA, PETG, TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Температура стола | до 110°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Датчик окончания филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Толщина слоя, мкм | 50 мкм (min)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура хотэнда | 260℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура столика | 110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Область построения, мм | 220х220х250",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Размеры, мм | 486х440х435",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Материалы | ПЛА, АБС, ТПУ, ПЭТ-Г и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Функция сохранения | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Kobra 2 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/411/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/411/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/anycubic_kobra2.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anycubic_kobra2.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "anycubic-official",
+      "url": "https://store.anycubic.com/products/kobra-2",
+      "tier": "vendor",
+      "snapshot": "sha256:d7a48bc128f58283bce5d04d723eb82e2e8290e5956ae3b0e2f17c4683399e86",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:17:48Z",
+      "publisher": "Anycubic"
+    },
+    {
+      "source_id": "s5",
+      "source": "anycubic-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "tier": "vendor",
+      "snapshot": "sha256:1302c756fcf396ea969cd503c1f74c3b0d0000b9ead255f09f0157a2116e0931",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:57:02Z",
+      "publisher": "Anycubic"
+    },
+    {
+      "source_id": "s6",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_kobra_2/",
+      "tier": "catalog",
+      "snapshot": "sha256:1302c756fcf396ea969cd503c1f74c3b0d0000b9ead255f09f0157a2116e0931",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:42:12Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s7",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-anycubic-kobra-2",
+      "tier": "catalog",
+      "snapshot": "sha256:846d0d9c9be3014b1607b5f78ccf9373e1b813448950e0549ff6ceb5fd0d39f2",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:10:41Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s8",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-anycubic-kobra-2-nabor-dlya-sborki/",
+      "tier": "catalog",
+      "snapshot": "sha256:9275a912ea867b9d163435fc9df887ca33afe7d75ca9bfcc1b3e51ad9a51693a",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:37:15Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-kobra-2",
+      "tier": "community",
+      "snapshot": "sha256:318acc1c200e03bf666da4c806b5068a0db9685b6e2cd401a1dfad260180ee9e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:59:11Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics"
+    ],
+    "sources_count": 9,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 250
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 250,
+            "y": 220,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|vendor-vs-structural",
+      "values": [
+        {
+          "value": 2500,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 3000,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|anycubic-official-vs-catalog",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 250,
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|anycubic-official-vs-catalog",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 250,
+          "source_id": "s7",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|anycubic-official-vs-catalog",
+      "values": [
+        {
+          "value": 3000,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 2500,
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|anycubic-official-vs-community",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 250,
+          "source_id": "s9",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

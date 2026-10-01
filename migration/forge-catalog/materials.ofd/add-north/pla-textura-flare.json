@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "add-north.pla-textura-flare",
+  "vendor": {
+    "slug": "add-north",
+    "name": "Add-North",
+    "website": "https://addnorth.com/",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Textura Flare",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "dry_temp_c": 50,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "09bfddf2-24a3-42ee-ad59-94aae0f6ee72",
+      "confidence": 1.0,
+      "color_hex": "#1a2830",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/Textura%E2%84%A2%20Flare/Textura%E2%84%A2%20Flare%20-%201.75mm%20-%20750g%20-%20Galaxy%20Black"
+    },
+    {
+      "color_name": "Rocky Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "b44ad133-71c5-4c35-a724-ac788149eea7",
+      "confidence": 1.0,
+      "color_hex": "#7f8386",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/Textura%E2%84%A2%20Flare/Textura%E2%84%A2%20Flare%20-%201.75mm%20-%20750g%20-%20Rocky%20Grey"
+    },
+    {
+      "color_name": "Sparkling Green",
+      "diameter_mm": 1.75,
+      "external_ref": "831835e7-0092-470a-9ced-cb0b78bd9cd7",
+      "confidence": 1.0,
+      "color_hex": "#83eab3",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/Textura%E2%84%A2%20Flare/Textura%E2%84%A2%20Flare%20-%201.75mm%20-%20750g%20-%20Sparkling%20Green"
+    },
+    {
+      "color_name": "Twilight Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "5cdaaf94-b964-4dfe-a025-44b2599e05b8",
+      "confidence": 1.0,
+      "color_hex": "#0a437a",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/Textura%E2%84%A2%20Flare/Textura%E2%84%A2%20Flare%20-%201.75mm%20-%20750g%20-%20Twilight%20Blue"
+    },
+    {
+      "color_name": "Velvet Red",
+      "diameter_mm": 1.75,
+      "external_ref": "998d3ce1-2b2e-4fcf-951f-2ba6a7bd27c4",
+      "confidence": 1.0,
+      "color_hex": "#750851",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/Textura%E2%84%A2%20Flare/Textura%E2%84%A2%20Flare%20-%201.75mm%20-%20750g%20-%20Velvet%20Red"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/textura_flare/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/textura_flare/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/textura_flare/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/textura_flare/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/textura_flare/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/textura_flare/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/textura_flare/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/textura_flare/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c1b12519-2242-47e6-9a0b-be8fa5a5d021",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/textura_flare/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

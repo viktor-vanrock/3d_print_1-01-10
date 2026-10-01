@@ -1,0 +1,259 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "formfutura.high-precision-pet",
+  "vendor": {
+    "slug": "formfutura",
+    "name": "FormFutura",
+    "website": "https://formfutura.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "pet",
+    "name": "PET"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "High Precision PET",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.38,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "discontinued": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bright Red Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "5a93362c-661b-466f-8c81-1df18642367f",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "676e7af6-1636-4ed1-8000-de9e86451fc1",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iron Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "8ad49fa3-55b5-4789-af1b-037f26b18a4e",
+      "confidence": 1.0,
+      "color_hex": "#4c5051",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Leaf Green",
+      "diameter_mm": 1.75,
+      "external_ref": "8eaf14d9-114f-4279-88bc-05c05a53e20f",
+      "confidence": 1.0,
+      "color_hex": "#4e7642",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "SKy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3706fe1c-893f-41c5-af30-ff5e1cfed409",
+      "confidence": 1.0,
+      "color_hex": "#0378d0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Black",
+      "diameter_mm": 1.75,
+      "external_ref": "3a78c5e2-a5c7-4ecf-b961-2249d4702e21",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Red",
+      "diameter_mm": 1.75,
+      "external_ref": "7f65d8dd-104d-4873-bbb5-985f358dc402",
+      "confidence": 1.0,
+      "color_hex": "#e60000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic White",
+      "diameter_mm": 1.75,
+      "external_ref": "c54215da-06dc-490e-8cf7-315311f08728",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "43ac0b7a-6a2a-4ef7-b6fa-2328012fa085",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ultramarine Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "9e210661-2542-4e58-9f7e-2f6ef7145d29",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Aluminium",
+      "diameter_mm": 1.75,
+      "external_ref": "60d1c534-f72b-49d2-b5dc-05f3e83ac09c",
+      "confidence": 1.0,
+      "color_hex": "#acb1ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c98c2358-2624-4caf-a28d-b715bbb478ba",
+      "confidence": 1.0,
+      "color_hex": "#06b100",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "discontinued": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "discontinued": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#discontinued",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PET/high_precision_pet/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5fdfd492-c16e-46b5-9a3e-ac70500964fb",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PET/high_precision_pet/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

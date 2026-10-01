@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "22-network.silk-pla",
+  "vendor": {
+    "slug": "22-network",
+    "name": "22 Network",
+    "website": "https://22-network.com/",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 200,
+      "nozzle_temp_max_c": 220,
+      "bed_temp_min_c": 22,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "4f4acf39-5e20-4585-a381-54e50d690fc6",
+      "confidence": 1.0,
+      "color_hex": "#cd7f32",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Blue Green",
+      "diameter_mm": 1.75,
+      "external_ref": "d80de28a-ae32-432f-b720-1ce7f9e6a314",
+      "confidence": 1.0,
+      "color_hex": "#0000ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Purple Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "0a4c1aef-b4b2-4b8b-873d-a115bd02373b",
+      "confidence": 1.0,
+      "color_hex": "#800080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Red Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "73777a58-3e5f-49ed-a240-1c6215506aa5",
+      "confidence": 1.0,
+      "color_hex": "#cc0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "7a015ea6-e662-41e7-8a9f-beb09ddeec49",
+      "confidence": 1.0,
+      "color_hex": "#d4a017",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "783f6469-0c6a-40bc-b550-c71ace139531",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "af86aa86-aa71-4141-ba7c-15f7f962ca59",
+      "confidence": 1.0,
+      "color_hex": "#c0c0c0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Candy Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "d46df57e-7f35-4644-8513-80aa8dfe0f9e",
+      "confidence": 1.0,
+      "color_hex": "#ff69b4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Rose Red Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "0360fcd9-c9b1-4751-9721-6ee4a49e04ad",
+      "confidence": 1.0,
+      "color_hex": "#ff007f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Universe Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "df3e7315-8a94-43a5-8903-39f47a142ed7",
+      "confidence": 1.0,
+      "color_hex": "#4b0082",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/22_network/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ee69ac2a-604e-47ef-9ed0-61b982a7b092",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/22_network/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

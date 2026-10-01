@@ -1,0 +1,631 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.k2",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "K2",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 260,
+      "y": 260,
+      "z": 260
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker"
+    ],
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 600,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2026-03-09",
+    "screen_type": "4-дюймовый, сенсорный, цветной экран",
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 100,
+    "layer_height_min_mm": 0.05,
+    "layer_height_max_mm": 0.3,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 404,
+      "d": 436,
+      "h": 545
+    },
+    "weight_kg": 18.38,
+    "power_w": 1350,
+    "price_rub": 49999,
+    "materials_supported": [
+      "ABS",
+      "PLA",
+      "PETG",
+      "Carbon",
+      "PET"
+    ],
+    "enclosed": true,
+    "heated_bed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "firmware_max_speed_mms": 800,
+    "firmware_max_accel_mms2": 20000,
+    "bed_surface": "Съемная магнитная PEI пластина",
+    "firmware": "Klipper",
+    "max_flow_mm3s": 40,
+    "kinematics": "corexy",
+    "extruder_type": "direct_drive",
+    "power_loss_recovery": true,
+    "air_filter": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_nozzle_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "heated_bed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "bed_surface": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_flow_mm3s": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "kinematics": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "air_filter": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Ускорение | 20000 мм/с2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Скорость печати | 600 мм/с (макс.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Размер области построения | 260х260х260 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр сопла (мм) | 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Дисплей | 4-дюймовый, сенсорный, цветной экран",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Рабочая температура экструдера | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Температура подогрева площадки | 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Толщина слоя | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Толщина слоя | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Размеры (без упаковки) | 404х436х545 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Вес (без упаковки) | 18.38 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Мощность | 1350 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "49 999 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Тип материала | ABS, PLA, PETG, Carbon, PET",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Creality3D K2 – революционная модель 3D-принтера с закрытой камерой.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Температура подогрева площадки | 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Встроенная камера – дает возможность дистанционно отслеживать ход печати.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Современный экструдер – оборудован ... датчиком контроля филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область печати, мм | 260x260x260 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла | 0.4 мм (0.2/ 0.6/ 0.8 мм - опция)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Материал стола | Съемная магнитная PEI пластина",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "на базе прошивки Klipper",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "скорости потока 40 мм3/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Кинематика | CoreXY",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Директ экструдер Creality K2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Возобновление печати после отключения питания | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Воздушный фильтр | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 260х260х260 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Хотэнд | цельнометаллический с титановым термобарьером и соплом из закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 0.2 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/612/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/612/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality3d_k2/",
+      "tier": "catalog",
+      "snapshot": "sha256:808263fea5440b66f0ee9ff38b6fb8869a09dae95ed85731327947dfb0e46010",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s4",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-creality-k2/",
+      "tier": "catalog",
+      "snapshot": "sha256:5b3d9f0e1e53227e07915b56a2edadd5fae7991580122748e447377ef43a11c9",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2",
+      "tier": "community",
+      "snapshot": "sha256:36b5839d2d52e0cdd2479cb7cb4231a4200423d4e12aeb0f72faffe7a00564ce",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 5,
+    "quality_score": 11,
+    "ready_for_catalog": true
+  }
+}

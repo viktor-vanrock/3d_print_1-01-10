@@ -1,0 +1,236 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "winkle.silk-pla",
+  "vendor": {
+    "slug": "winkle",
+    "name": "Winkle",
+    "website": "https://winkle.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Antique Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "1d4fdc27-b258-41d6-abb7-d12d7cac61af",
+      "confidence": 1.0,
+      "color_hex": "#c06341",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Irish Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7fe6d083-5eac-4c27-bc3d-0d692508c1a1",
+      "confidence": 1.0,
+      "color_hex": "#3d9441",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "King Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "1efe514c-2891-4163-9696-339194f55e66",
+      "confidence": 1.0,
+      "color_hex": "#f4ac23",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Maria’s Smile",
+      "diameter_mm": 1.75,
+      "external_ref": "815db94a-944c-4e02-a1ee-7141525c6771",
+      "confidence": 1.0,
+      "color_hex": "#8ed9f9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mercury Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "5f19d76c-cd18-40d9-b4d9-856ece510d32",
+      "confidence": 1.0,
+      "color_hex": "#949597",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ruby Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "f9c71fc7-42e6-4801-9514-026014de5d3e",
+      "confidence": 1.0,
+      "color_hex": "#c60f3e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ruby Red",
+      "diameter_mm": 1.75,
+      "external_ref": "418e022d-8bb4-415b-80ab-58cb1d69bbae",
+      "confidence": 1.0,
+      "color_hex": "#f14147",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Snow White",
+      "diameter_mm": 1.75,
+      "external_ref": "b88e3934-3eeb-49fa-a019-bb8c1b721232",
+      "confidence": 1.0,
+      "color_hex": "#edf0f2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Steel Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "401ce53a-b97d-4c38-9a8a-febb0ce85a39",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tricolor Dubai Chocolate",
+      "diameter_mm": 1.75,
+      "external_ref": "93f8f409-d987-452d-a728-e4fd8e3739b8",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "d0b10f93-41fd-40f5-b4bf-0c0bb60481b7",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "89d5d08d-244e-4002-8abf-1405aa585335",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

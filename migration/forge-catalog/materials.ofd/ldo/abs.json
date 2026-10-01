@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "ldo.abs",
+  "vendor": {
+    "slug": "ldo",
+    "name": "LDO",
+    "website": "ldomotion.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.06,
+      "nozzle_temp_min_c": 250,
+      "nozzle_temp_max_c": 270,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6fa2d408-c0c3-4668-a9f5-853e142a6d25",
+      "confidence": 1.0,
+      "color_hex": "#2d2926",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Teal",
+      "diameter_mm": 1.75,
+      "external_ref": "66cde34c-23a4-4f11-a35e-897c3cbb5a8a",
+      "confidence": 1.0,
+      "color_hex": "#00677f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "LDO Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "055bf516-f620-440a-a9b7-d287e5e90fcc",
+      "confidence": 1.0,
+      "color_hex": "#0086d6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lemon Lime",
+      "diameter_mm": 1.75,
+      "external_ref": "97c9658d-9ad0-4bea-997c-3322873702b6",
+      "confidence": 1.0,
+      "color_hex": "#d6e865",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ec356911-61f4-4339-bb4c-484970546e05",
+      "confidence": 1.0,
+      "color_hex": "#6ad1e3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "7b9791b5-67df-418e-9b39-69f74fbbba29",
+      "confidence": 1.0,
+      "color_hex": "#5f259f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "a5ebd2f6-8178-49f4-8b70-cc701ea9d877",
+      "confidence": 1.0,
+      "color_hex": "#c8102e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Smoke Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "3f40c1a6-df65-4608-aeea-79eaf2c450a8",
+      "confidence": 1.0,
+      "color_hex": "#75787b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stardust Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "9fef8741-5f16-4b17-82f4-8435c13b013d",
+      "confidence": 1.0,
+      "color_hex": "#75787b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "728566fc-e8c1-40d8-8b74-515f60930145",
+      "confidence": 1.0,
+      "color_hex": "#f7f9ef",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ldo/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f27e57e1-80f7-4fe5-bb8d-d38e39fa0c69",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ldo/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

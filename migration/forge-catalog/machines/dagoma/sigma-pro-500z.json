@@ -1,0 +1,278 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "dagoma.sigma-pro-500z",
+  "vendor": {
+    "slug": "dagoma",
+    "name": "Dagoma"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Sigma Pro 500Z",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "round",
+      "x": 200,
+      "y": 200,
+      "z": 501
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2023-08-28",
+    "bed_surface": "BuildGrip, PEI texturé ou Résine Polyglass",
+    "auto_leveling": "FSR",
+    "screen_type": "écran tactile intégrant l'interface DARVIS",
+    "summary": "SIGMA PRO 500Z — профессиональный 3D-принтер с увеличенным объемом печати (200x500 мм), предназначенный для инженеров, архитекторов и промышленного производства. Устройство обеспечивает высокую точность благодаря технологии FSR и функции восстановления после отключения питания Power Panic.",
+    "unique_features": [
+      "Объем печати 200x500 мм",
+      "Технология FSR для автоматической калибровки",
+      "Функция Power Panic (восстановление после сбоя питания)",
+      "Сменные экструдеры (Standard, Haute Température, Bi-couleur)",
+      "Интерфейс DARVIS и поддержка Octoprint",
+      "Сменные платформы (BuildGrip, PEI, Résine Polyglass)"
+    ],
+    "target_use": [
+      "Промышленность",
+      "Архитектура",
+      "Инженерия",
+      "Медицина",
+      "Прототипирование",
+      "Серийное производство"
+    ],
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "Carte SD",
+      "Ethernet"
+    ],
+    "materials_supported": [
+      "PLA",
+      "ASA",
+      "PETG",
+      "ABS",
+      "Nylon (PA)",
+      "TPU (flexible)",
+      "TPE (flexible)"
+    ],
+    "power_loss_recovery": true,
+    "warranty_months": 24
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/dagoma_sigma_pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/dagoma_sigma_pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/dagoma_sigma_pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "dagoma-official",
+      "source_url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/dagoma_sigma_pro.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/dagoma_sigma_pro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/dagoma_sigma_pro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "plateaux interchangeables (surface BuildGrip, PEI texturé ou Résine Polyglass)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "La technologie FSR , idéale pour les impressions 3D de haute qualité, assure une calibration automatique de la tête d'impression",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "écran tactile intégrant l'interface DARVIS",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "SIGMA PRO 500Z : conçue pour les Professionnels, destinée à atteindre de nouveaux sommets en impression 3D",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Se démarquant par sa capacité d'impression verticale de 500 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Pour une application dans le domaine de l'industrie, de l'architecture, de l'ingénierie ou même du médical",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Transférez vos projets via Wi-Fi , USB , Carte SD ou Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "PLA, ASA, PETG, ABS, Nylon (PA), TPU (flexible), TPE (flexible), etc",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Fonction de reprise après coupure POWER PANIC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Oui, chaque SIGMA PRO 500Z est accompagnée d'une garantie constructeur de 2 ans.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/dagoma_sigma_pro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/dagoma_sigma_pro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "dagoma-official",
+      "url": "https://www.dagoma3d.com/sigma-pro-500z",
+      "tier": "vendor",
+      "snapshot": "sha256:73b1fff1e7ddd3f70bdd0b34c8c68af515ad7b9165d50b8118356dc4235bac72",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Dagoma"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

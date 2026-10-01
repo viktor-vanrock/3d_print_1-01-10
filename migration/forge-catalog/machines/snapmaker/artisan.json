@@ -1,0 +1,599 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "snapmaker.artisan",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Artisan",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 400,
+      "y": 400,
+      "z": 400
+    },
+    "max_accel_mms2": 5000,
+    "max_speed_mms": 180,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2024-05-18",
+    "screen_type": "7-дюймовый сенсорный экран",
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 110,
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 2,
+    "dimensions_mm": {
+      "w": 943,
+      "d": 665,
+      "h": 705
+    },
+    "weight_kg": 52.9,
+    "price_rub": 402500,
+    "connectivity": [
+      "Wi-Fi",
+      "USB"
+    ],
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "ASA",
+      "PETG",
+      "TPU",
+      "Breakaway PLA",
+      "PVA",
+      "HIPS",
+      "Nylon",
+      "Carbon Fiber Reinforced Nylon",
+      "Glass Fiber Reinforced Nylon"
+    ],
+    "enclosed": true,
+    "chamber_active": false,
+    "heated_bed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "firmware_max_speed_mms": 300,
+    "bed_surface": "Двухсторонняя стеклоструйная пленка PEI",
+    "max_travel_speed_mms": 180,
+    "layer_height_max_mm": 0.3,
+    "auto_leveling": "automatic bed levelling",
+    "extruder_type": "direct_drive"
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/526/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Snapmaker/snapmaker-artisan",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/snapmaker/artisan",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/526/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-snapmaker-artisan-3v1/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Snapmaker/snapmaker-artisan",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/526/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_nozzle_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "heated_bed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/526/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-snapmaker-artisan-3v1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_travel_speed_mms": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-snapmaker-artisan-3v1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Snapmaker/snapmaker-artisan",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "auto_leveling": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/snapmaker/artisan",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/snapmaker/artisan",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/526/orcaslicer/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/526/orcaslicer/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Максимальная скорость печати, мм/с 180",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/526/orcaslicer/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Область печати, XYZ 400x400x400 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр сопла 0.4 мм (0.2 мм, 0.6 мм, 0.8 мм)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "современный 7-дюймовый сенсорный экран",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Максимальная температура платформы, °С 110",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Кол-во печатающих экструдеров (голов) 2 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Габариты товара ДxШxВ (см) 66,5х94,3х70,5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Вес нетто (кг) 52.9",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "402 500 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Беспроводная сеть Wi-Fi Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Поддерживаемые материалы PLA, ABS, ASA, PETG, TPU, Breakaway PLA, PVA, HIPS, Nylon, Carbon Fiber Reinforced Nylon, Glass Fiber Reinforced Nylon",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла (стандартный): 0,4 мм Диаметр сопла (опциональный): 0,2 мм, 0,6 мм, 0,8 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Стол для печати: Двухсторонняя стеклоструйная пленка PEI",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная линейная скорость холостого перемещения: 180 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Область построения, мм | 400х400х400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный), 0,2, 0,6, 0,8 мм (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя, мм | 0,05-0,3",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Build volume [LxWxH]: 400 x 400 x 400 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Artisan features automatic bed levelling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Extruder type: Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Snapmaker/machine/Snapmaker Artisan (0.2 nozzle).json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/526/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/526/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-snapmaker-artisan-3v1",
+      "tier": "catalog",
+      "snapshot": "sha256:3c6a5d26da61ff1dc2fc7e24c6ce791cce5daa3e0c9172dd93db8868fd23422f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s4",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-snapmaker-artisan-3v1/",
+      "tier": "catalog",
+      "snapshot": "sha256:167cae90e5ee01bf389737a6cf74a9e21b4020122faf6fc2086744d892c0b656",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Snapmaker/snapmaker-artisan",
+      "tier": "community",
+      "snapshot": "sha256:88e0e051f4b15a68735f7ef9eb25c7f42a160afd51d3dbdda03803b86384b1b1",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    },
+    {
+      "source_id": "s6",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/snapmaker/artisan",
+      "tier": "catalog",
+      "snapshot": "sha256:f905582f44e4f117b46c1bad6e4df30002c67f05081c691acae302c42fc107fa",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DJake"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics",
+      "power_w"
+    ],
+    "sources_count": 6,
+    "quality_score": 10,
+    "ready_for_catalog": true
+  }
+}

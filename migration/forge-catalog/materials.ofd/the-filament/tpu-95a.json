@@ -1,0 +1,140 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "the-filament.tpu-95a",
+  "vendor": {
+    "slug": "the-filament",
+    "name": "The Filament",
+    "website": "https://spectrumfilaments.com/en/brand/the-filament-en/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU-95A",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "cdee30f7-c17d-48ec-a1e9-d141d3fa3fd8",
+      "confidence": 1.0,
+      "color_hex": "#30322f",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3289-The-Filament-TPU-95A-1-75mm-BLACK-1kg.html"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "23c3df16-bf4f-4a95-a269-57cfdbed4ece",
+      "confidence": 1.0,
+      "color_hex": "#0067ad",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3288-The-Filament-TPU-95A-1-75mm-BLUE-1kg.html"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "0f522ba4-4304-4fd0-b78a-808d8ce72826",
+      "confidence": 1.0,
+      "color_hex": "#009e58",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3287-The-Filament-TPU-95A-1-75mm-GREEN-1kg.html"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0fc26519-c917-4204-8393-7aa4edce19a2",
+      "confidence": 1.0,
+      "color_hex": "#ad2b37",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3286-The-Filament-TPU-95A-1-75mm-RED-1kg.html"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "e34cc10f-e311-44ac-a12f-7b4e8cb2aadf",
+      "confidence": 1.0,
+      "color_hex": "#e0e4e5",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3285-The-Filament-TPU-95A-1-75mm-WHITE-1kg.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/TPU/tpu_95a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/TPU/tpu_95a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/TPU/tpu_95a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/TPU/tpu_95a/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/TPU/tpu_95a/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/TPU/tpu_95a/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c07ced2d-90dc-498d-bae9-957d1b8f160e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/TPU/tpu_95a/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

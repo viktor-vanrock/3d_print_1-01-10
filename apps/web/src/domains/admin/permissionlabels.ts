@@ -1,0 +1,12 @@
+import type { AdminPermission } from "./api.ts";
+
+const LABELS: Readonly<Record<AdminPermission, string>> = {
+  "admin.portal.access":"Доступ к разделу «Администрирование»","admin.view_permission_catalog":"Просмотр каталога разрешений",
+  "user.view_any":"Просмотр пользователей","user.view_permissions":"Просмотр разрешений пользователей","user.view_sessions":"Просмотр браузерных сессий","user.manage_sessions":"Завершение браузерных сессий","user.suspend":"Приостановка аккаунта","user.block":"Блокировка аккаунта","user.restore":"Восстановление аккаунта","user.delete":"Необратимое закрытие аккаунта","user.export":"Экспорт метаданных аккаунта","user.edit_any":"Редактирование пользователей","user.deactivate":"Деактивация пользователей","user.grant_permission":"Выдача разрешений","user.revoke_permission":"Отзыв разрешений","user.assign_admin":"Назначение роли администратора","user.remove_admin_assignment":"Снятие роли администратора","user.revoke_all_admin_access":"Отзыв всего административного доступа",
+  "moderation.delete_content":"Удаление контента","moderation.ban_user":"Блокировка пользователей модерацией","moderation.view_reports":"Просмотр жалоб","moderation.resolve_report":"Рассмотрение жалоб","moderation.manage_sanctions":"Управление ограничениями","moderation.view_sanctions":"Просмотр ограничений","moderation.resolve_appeal":"Рассмотрение апелляций","moderation.manage_community_members":"Управление участниками сообществ",
+  "billing.manage_payouts":"Управление выплатами","audit.view_log":"Просмотр журнала действий","audit.export":"Экспорт журнала действий",
+  "catalog.publish_any":"Публикация материалов","catalog.unpublish_any":"Снятие материалов с публикации","catalog.edit_any":"Управление материалами","catalog.feature":"Продвижение записей каталога","catalog.review_candidates":"Проверка кандидатов каталога","catalog.review_vendor_claims":"Проверка заявок производителей","catalog.review_printer_reports":"Проверка отчётов о принтерах",
+  "feed.manage_news":"Управление новостями","feed.news_editor":"Редактор новостей","research.access":"Доступ к исследованиям","research.manage":"Управление исследованиями","research.manage_printers":"Управление принтерами","support.view_tickets":"Просмотр обращений поддержки","support.manage_devices":"Управление устройствами","support.view_device_incidents":"Просмотр инцидентов устройств","support.resolve_device_incidents":"Решение инцидентов устройств",
+};
+
+export function permissionLabel(permission: AdminPermission): string { return LABELS[permission]; }

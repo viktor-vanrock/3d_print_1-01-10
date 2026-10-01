@@ -1,0 +1,597 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "francofil.pla",
+  "vendor": {
+    "slug": "francofil",
+    "name": "Francofil",
+    "website": "https://francofil.com",
+    "origin": "FR"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Anthracite RAL 7016",
+      "diameter_mm": 1.75,
+      "external_ref": "c23dff4e-9e0b-4396-b2c9-988fffe7d58e",
+      "confidence": 1.0,
+      "color_hex": "#3f4647",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Anthracite Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "5b106b40-33a7-4ecf-9a85-7684676c2594",
+      "confidence": 1.0,
+      "color_hex": "#6d102e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Beer - Co-produced",
+      "diameter_mm": 1.75,
+      "external_ref": "0502b67f-ef33-4dfd-874c-e034f0b8852b",
+      "confidence": 1.0,
+      "color_hex": "#a54830",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "c8dc128a-9566-4d5e-b3b8-8338cdf3682d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Metal Glitter",
+      "diameter_mm": 1.75,
+      "external_ref": "4ccc86c4-d38e-4dab-8ffd-c8322c2e627e",
+      "confidence": 1.0,
+      "color_hex": "#232323",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black | PMUC Certified",
+      "diameter_mm": 1.75,
+      "external_ref": "c3ae865d-19ae-4e9f-9e0e-45442d8682ac",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Pastel - Le Glacier",
+      "diameter_mm": 1.75,
+      "external_ref": "c989283d-1c99-4fe8-baf3-1344049695e8",
+      "confidence": 1.0,
+      "color_hex": "#bed9eb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue A 110",
+      "diameter_mm": 1.75,
+      "external_ref": "8fae9385-f42a-48b9-b428-6033720fd99b",
+      "confidence": 1.0,
+      "color_hex": "#005da4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue RAL 5002",
+      "diameter_mm": 1.75,
+      "external_ref": "d312e0f7-7976-49ad-91c9-ca3c98a7101b",
+      "confidence": 1.0,
+      "color_hex": "#2941bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue RAL 5015",
+      "diameter_mm": 1.75,
+      "external_ref": "b4ccd8d0-1533-4c1e-abdd-27e306b7571d",
+      "confidence": 1.0,
+      "color_hex": "#0078bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bois - Co-produced",
+      "diameter_mm": 1.75,
+      "external_ref": "79edc447-dd8a-4be4-9c5a-8c671da9818d",
+      "confidence": 1.0,
+      "color_hex": "#dc9c43",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "5206cc8b-dc49-4269-b485-ee2362a87dad",
+      "confidence": 1.0,
+      "color_hex": "#b26e3e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Café - Coproduced",
+      "diameter_mm": 1.75,
+      "external_ref": "558ff9c4-938e-499a-b29a-4bbdf9227b20",
+      "confidence": 1.0,
+      "color_hex": "#3e2617",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "c961f406-59e6-416a-8ef8-ad49c37752dd",
+      "confidence": 1.0,
+      "color_hex": "#c06341",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fluorescent Yellow RAL 1026",
+      "diameter_mm": 1.75,
+      "external_ref": "d26c2f1d-b780-49df-81fc-18212867221c",
+      "confidence": 1.0,
+      "color_hex": "#fffc25",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "19639f53-b83b-484b-86a7-612b2cc4dceb",
+      "confidence": 1.0,
+      "color_hex": "#ce8d00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granite Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "75deb47c-4160-4301-aeb8-6a4a03e4c2da",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granite Red",
+      "diameter_mm": 1.75,
+      "external_ref": "3ddb24f5-858f-4de4-9e1c-9a09f7906291",
+      "confidence": 1.0,
+      "color_hex": "#cb4726",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granite Vanilla",
+      "diameter_mm": 1.75,
+      "external_ref": "dc532aed-9f81-44a9-86dc-0af19a824e90",
+      "confidence": 1.0,
+      "color_hex": "#f1e6b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granite White",
+      "diameter_mm": 1.75,
+      "external_ref": "9b16ffb7-47db-4321-acb3-14caf742ecfe",
+      "confidence": 1.0,
+      "color_hex": "#ecefed",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granite Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "4a6e0744-9a74-43a0-88df-529f7652d845",
+      "confidence": 1.0,
+      "color_hex": "#f2b70a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Iridescent Glitter",
+      "diameter_mm": 1.75,
+      "external_ref": "919ed691-473a-4d78-9258-08fab180288f",
+      "confidence": 1.0,
+      "color_hex": "#84d18b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green RAL 6000",
+      "diameter_mm": 1.75,
+      "external_ref": "1a924ac7-23f0-42ec-9a22-5af5d7f456c6",
+      "confidence": 1.0,
+      "color_hex": "#008059",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green RAL 6018",
+      "diameter_mm": 1.75,
+      "external_ref": "2b30c6f7-4639-4920-ba7e-f1e3b661c024",
+      "confidence": 1.0,
+      "color_hex": "#26a648",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green | PMUC Certified",
+      "diameter_mm": 1.75,
+      "external_ref": "50c90aa1-e698-48b9-b27d-b78377806eac",
+      "confidence": 1.0,
+      "color_hex": "#26a648",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey RAL 7000",
+      "diameter_mm": 1.75,
+      "external_ref": "3769c741-570a-4273-b8cf-ef4f2e047772",
+      "confidence": 1.0,
+      "color_hex": "#545f67",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey RAL 7001",
+      "diameter_mm": 1.75,
+      "external_ref": "a22df795-e47d-41f6-8cee-8abb121589b1",
+      "confidence": 1.0,
+      "color_hex": "#7d8eaa",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey RAL 7040",
+      "diameter_mm": 1.75,
+      "external_ref": "efc800bb-de1d-4462-b66e-4f5789afd24a",
+      "confidence": 1.0,
+      "color_hex": "#bdc8c8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mould - Co-product",
+      "diameter_mm": 1.75,
+      "external_ref": "41030e21-b69f-4d8b-9134-202672b0a94f",
+      "confidence": 1.0,
+      "color_hex": "#e3b899",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange RAL 2003",
+      "diameter_mm": 1.75,
+      "external_ref": "4d689f35-cbef-4905-b088-6c738f39d29a",
+      "confidence": 1.0,
+      "color_hex": "#f55928",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Oyster - Co-produced",
+      "diameter_mm": 1.75,
+      "external_ref": "a554577b-f52b-4269-b8a5-31c0778b0834",
+      "confidence": 1.0,
+      "color_hex": "#a88d5d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Pink - Cotton Candy",
+      "diameter_mm": 1.75,
+      "external_ref": "7f261060-4a75-41bf-9278-47c1623d9798",
+      "confidence": 1.0,
+      "color_hex": "#f9c9d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Violet - Lilac",
+      "diameter_mm": 1.75,
+      "external_ref": "033e4541-8f7c-41d1-845f-a1456b3bb093",
+      "confidence": 1.0,
+      "color_hex": "#d3c6ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Yellow - Lemon Meringue",
+      "diameter_mm": 1.75,
+      "external_ref": "3a70f481-a735-4237-ac33-7d77b609fee7",
+      "confidence": 1.0,
+      "color_hex": "#fce575",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Peacock Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6d46f317-b8ec-4e77-9a62-f1fb39a2b1ab",
+      "confidence": 1.0,
+      "color_hex": "#005da4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink - RAL 4003",
+      "diameter_mm": 1.75,
+      "external_ref": "12bd1d52-177e-4b81-ba60-53f207b0cf4c",
+      "confidence": 1.0,
+      "color_hex": "#ff5786",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pistachio Green - RAL 6019",
+      "diameter_mm": 1.75,
+      "external_ref": "e0409573-ce2b-4c21-91b9-65f3e0c848d0",
+      "confidence": 1.0,
+      "color_hex": "#98aa7a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red RAL 3020",
+      "diameter_mm": 1.75,
+      "external_ref": "511c1d9d-0fd8-4db9-a324-735103449edc",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red | PMUC Certified",
+      "diameter_mm": 1.75,
+      "external_ref": "6ce60be4-1842-436c-83ec-895825e41c68",
+      "confidence": 1.0,
+      "color_hex": "#ec0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Saint-Jacques - Coproduced",
+      "diameter_mm": 1.75,
+      "external_ref": "cf847e24-6b5d-43cd-93f3-294d6e826941",
+      "confidence": 1.0,
+      "color_hex": "#efe8d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "df8edb3a-b070-4c59-b506-bc7a9db6b922",
+      "confidence": 1.0,
+      "color_hex": "#848484",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "fb5bdb5a-b584-434d-9d9d-0092c28d04d8",
+      "confidence": 1.0,
+      "color_hex": "#c9c1c8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Slate - Coproduced",
+      "diameter_mm": 1.75,
+      "external_ref": "e6d71ad6-0e1a-4f92-8f24-5f0d271f9a24",
+      "confidence": 1.0,
+      "color_hex": "#232323",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Terre Battue - Coproduced",
+      "diameter_mm": 1.75,
+      "external_ref": "21e7fcbe-d6b5-432f-9ce9-af3be78a0907",
+      "confidence": 1.0,
+      "color_hex": "#a54830",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "31e46b49-4b74-4a33-8013-75b0ede2ad70",
+      "confidence": 1.0,
+      "color_hex": "#183681",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Green",
+      "diameter_mm": 1.75,
+      "external_ref": "1df5c191-8199-431c-a8ca-b7206d852f66",
+      "confidence": 1.0,
+      "color_hex": "#206233",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "aae57367-d8e4-4aab-a2f6-b5723ddab361",
+      "confidence": 1.0,
+      "color_hex": "#f55928",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Turquoise Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "e9851c50-ecce-42e3-a2a5-54c27916b8e1",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet Halloween",
+      "diameter_mm": 1.75,
+      "external_ref": "4e4aab5a-44cb-4fc1-9cdc-4bc3a52df1ce",
+      "confidence": 1.0,
+      "color_hex": "#b797db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet RAL 4009",
+      "diameter_mm": 1.75,
+      "external_ref": "0b3c3fcb-be2b-4fd6-9f3f-34d1c14f5aac",
+      "confidence": 1.0,
+      "color_hex": "#d48dbd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Virgin",
+      "diameter_mm": 1.75,
+      "external_ref": "d0af2e1b-fa7d-4911-a296-1610aadb86d4",
+      "confidence": 1.0,
+      "color_hex": "#fadca4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wheat - Co-product",
+      "diameter_mm": 1.75,
+      "external_ref": "bbbdd091-5d1d-44d9-a6e8-662fe1adf813",
+      "confidence": 1.0,
+      "color_hex": "#e6ba83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "3fe340b8-bf69-43c2-b89f-59ad373f0137",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White | PMUC Certified",
+      "diameter_mm": 1.75,
+      "external_ref": "ec45fda4-400a-4a5d-afcb-3c7b7d7a54ef",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow RAL 1018",
+      "diameter_mm": 1.75,
+      "external_ref": "3f450515-d946-4134-986f-d82c2a6e6354",
+      "confidence": 1.0,
+      "color_hex": "#f8cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "209fac02-ef08-4bd6-9ffa-ef6c3d984eb3",
+      "confidence": 1.0,
+      "color_hex": "#c7b91f",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/francofil/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1b0c5db8-a0cf-4edb-a61d-6181b607e3d8",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/francofil/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

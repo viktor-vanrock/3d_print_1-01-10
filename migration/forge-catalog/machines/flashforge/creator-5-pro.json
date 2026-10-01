@@ -1,0 +1,1316 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "flashforge.creator-5-pro",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FlashForge"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Creator 5 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 256,
+      "y": 256,
+      "z": 256
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "USB",
+      "WiFi"
+    ],
+    "kinematics": "corexy",
+    "max_accel_mms2": 30000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.4,
+      0.25,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2026-05-10",
+    "bed_surface": "PEI Flexible Steel Build Plate (Textured)",
+    "screen_type": "4-inch 800 × 480 Full-Color Touchscreen",
+    "summary": "Flashforge Creator 5 Pro — это флагманский закрытый 3D-принтер с четырьмя независимыми экструдерами, предназначенный для профессионального использования, включая создание прототипов, инженерных деталей и мелкосерийного производства. Он позиционируется как решение для печати инженерными пластиками (ABS, ASA, нейлон) благодаря активной камере нагрева и системе фильтрации воздуха.",
+    "unique_features": [
+      "4 независимых экструдера (4 Independent Toolheads)",
+      "Активный нагрев камеры до 65°C (Active Heated Chamber up to 65°C)",
+      "Система фильтрации HEPA 13 и активированный уголь (HEPA 13 Filter + Activated Carbon)",
+      "Встроенная камера Full HD для удаленного мониторинга (Built-in Full HD Camera)",
+      "Полностью автоматическая калибровка смещения экструдеров (Fully Automatic Multi-Toolhead Offset Calibration)",
+      "Функция Zero Purge Waste (нулевые отходы при смене материала)",
+      "Высокая скорость печати до 600 мм/с (High-Speed Performance 600 mm/s)"
+    ],
+    "limitations": [
+      "Отсутствует автоматическая подача филамента из нескольких катушек (Filament must be manually loaded into each toolhead)",
+      "Нейлон требует тщательной сушки перед печатью (nylon absorbs moisture quickly, it should be thoroughly dried before printing)",
+      "Требуется соблюдение зазоров: слева и сзади минимум 10 мм, справа 200 мм, спереди 500 мм"
+    ],
+    "target_use": [
+      "Профессиональные прототипы (multi-color prototypes)",
+      "Инженерные детали (engineering parts)",
+      "Функциональная оснастка (functional tooling)",
+      "Мелкосерийное производство (small-batch production)",
+      "Работа с инженерными пластиками (ABS, ASA, nylon, reinforced engineering materials)"
+    ],
+    "max_nozzle_temp_c": 320,
+    "max_bed_temp_c": 120,
+    "max_chamber_temp_c": 65,
+    "max_flow_mm3s": 32,
+    "firmware_max_speed_mms": 600,
+    "max_travel_speed_mms": 600,
+    "firmware_max_accel_mms2": 30000,
+    "extruder_count": 4,
+    "dimensions_mm": {
+      "w": 520,
+      "d": 443,
+      "h": 710
+    },
+    "weight_kg": 18,
+    "power_w": 1200,
+    "noise_db": 55,
+    "price_usd": 949,
+    "multimaterial_channels": 4,
+    "enclosed": true,
+    "chamber_active": true,
+    "heated_bed": true,
+    "multimaterial_supported": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "price_rub": 77900,
+    "in_stock_ru": false,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "materials_supported": [
+      "ABS",
+      "PLA",
+      "PETG",
+      "ASA",
+      "BVOH",
+      "Carbon",
+      "Flexible",
+      "Glassfiber",
+      "PVA",
+      "Silk",
+      "TPU",
+      "TPU-95A"
+    ],
+    "filament_diameter_mm": 1.75
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_chamber_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_flow_mm3s": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_travel_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "extruder_count": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "noise_db": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "multimaterial_channels": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "multimaterial_supported": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_rub": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Acceleration Max. 30,000 mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Print Speed Max. 300 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Build Plate PEI Flexible Steel Build Plate (Textured)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Display 4-inch 800 × 480 Full-Color Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The Flagship Enclosed 4-Toolhead 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "4 Independent Toolheads — True Multi-Color & Multi-Material",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The standard Creator 5 Pro configuration does not include an automatic multi-spool filament feeder. Filament must be manually loaded into each toolhead.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "multi-color prototypes, engineering parts, functional tooling, or small-batch production",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Extruder Temp 320 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Bed Temp Max. 120 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Active Chamber Heating Supported (Max 65 °C)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Maximum Flow Rate 32 mm³/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Travel Speed Max. 600 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Extruder Quantity 4 Independent Toolheads",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printer Size 520 × 443 × 710 mm（including filament tube and filament holders）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Weight Net: 18kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Input: 100~120V/200~240V AC ，50/60Hz 1200W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "reducing noise from 65 dB to 55 dB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $949.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_channels": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "4 Independent Toolheads",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Structure Enclosed Frame Design",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Active Chamber Heating Supported (Max 65 °C)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Bed Temp Max. 120 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "4 Independent Toolheads — True Multi-Color & Multi-Material",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Remote Monitoring ✓ (Built-in Full HD Camera, 1280*720 @ 30 fps)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Detection ✓ (Run-out Sensor)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Outage Recovery ✓",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Air Filtration HEPA13 Filter + Activated Carbon",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "77 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "максимальной температурой экструдера 320°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева рабочей камеры | макс. 65°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размер области построения | 256×256×256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Ускорение | 30 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла (мм) | 0.4 (опционально 0.25/0.6/0.8)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество экструдеров | 4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес (без упаковки) | 18.1 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "снижает уровень шума с 65 дБ до комфортных 55 дБ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Интерфейс подключения | USB, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Полностью закрытая камера",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Активный подогрев камеры",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "технологией FlashSwap, которая позволяет печатать разноцветные и многоматериальные модели",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Видеокамера (встроенная) | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "В принтер встроена система фильтрации высшего уровня... Установлен фильтр класса H13 HEPA",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0.1 – 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0.1 – 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип материала | ABS, PLA, PETG, ASA, BVOH, Carbon, Flexible, Glassfiber, PVA, Silk (Шелк), TPU, TPU-95A, другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура экструдера, °С 320",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура платформы, °С 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева рабочей камеры 65 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальный поток экструдера, мм³/с 32",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Область печати, XYZ 256 × 256 × 256",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальное ускорение экструдера, мм/с² 30000",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Кол-во печатающих экструдеров (голов) 4 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Беспроводная сеть Wi-Fi Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Активная термокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Фильтрацию частиц и запахов",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Creator 5 Pro 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "flashforge-official",
+      "url": "https://www.flashforge.com/products/flashforge-creator-5-pro",
+      "tier": "vendor",
+      "snapshot": "sha256:46c21a398b0aeec4615e8d213ece24f71229dcb210e6860e9f564949211e3748",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:10:31Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s3",
+      "source": "flashforge-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "tier": "vendor",
+      "snapshot": "sha256:89137a7c4fd7c35770a7e930a712763633c7d3ff07358300d8c70569705bb494",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:56:59Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s4",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_creator_5_pro/",
+      "tier": "catalog",
+      "snapshot": "sha256:89137a7c4fd7c35770a7e930a712763633c7d3ff07358300d8c70569705bb494",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:41:39Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s5",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-flashforge-creator-5-pro",
+      "tier": "catalog",
+      "snapshot": "sha256:b193d956d13bc1c0890b26070dd60971d95089ddae8fab1bd07c18d7e2a3fa49",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:10:04Z",
+      "publisher": "3D-DIY"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 5,
+    "quality_score": 12,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 600,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 300,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.25,
+            0.4,
+            0.6,
+            0.8
+          ],
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "USB",
+            "WiFi"
+          ],
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "weight_kg",
+      "class": "weight_kg|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": 18,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 22,
+          "source_id": "s5",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

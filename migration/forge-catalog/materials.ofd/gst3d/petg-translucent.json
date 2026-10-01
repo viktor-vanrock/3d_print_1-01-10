@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.petg-translucent",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG translucent",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "9a636c17-a78a-446c-8d9a-c641b9d9e15e",
+      "confidence": 1.0,
+      "color_hex": "#010464",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-technic-1?variant=52158463344973"
+    },
+    {
+      "color_name": "Green translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "9e23163f-3013-4fcc-860a-9f2491013d91",
+      "confidence": 1.0,
+      "color_hex": "#038f45",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-technic-1?variant=52158463410509"
+    },
+    {
+      "color_name": "Red translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "fe912f75-718c-46fc-9d60-a95b196830c7",
+      "confidence": 1.0,
+      "color_hex": "#d23c43",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-technic-1?variant=52158463541581"
+    },
+    {
+      "color_name": "Yellow translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "c3d9dab2-467b-4e4e-971f-4ea94974c0ff",
+      "confidence": 1.0,
+      "color_hex": "#d87c11",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/petg-technic-1?variant=52158463476045"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg_translucent/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg_translucent/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg_translucent/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg_translucent/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg_translucent/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PETG/petg_translucent/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1ea7bdc4-325a-44b1-a7f2-626ab5f997d5",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PETG/petg_translucent/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

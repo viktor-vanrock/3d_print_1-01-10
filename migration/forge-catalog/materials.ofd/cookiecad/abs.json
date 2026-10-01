@@ -1,0 +1,208 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "cookiecad.abs",
+  "vendor": {
+    "slug": "cookiecad",
+    "name": "Cookiecad",
+    "website": "https://cookiecad.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Dark Magic",
+      "diameter_mm": 1.75,
+      "external_ref": "3e1ef9c3-96c0-466b-baf4-d7b769033f83",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Apple Elixir",
+      "diameter_mm": 1.75,
+      "external_ref": "dfdbc625-70b2-496a-923a-17649ee48733",
+      "confidence": 1.0,
+      "color_hex": "#70fa00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mermaid",
+      "diameter_mm": 1.75,
+      "external_ref": "3d582421-05ac-4eb7-bd18-a9add37769ef",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pixie Dust",
+      "diameter_mm": 1.75,
+      "external_ref": "cfac6373-b7f2-4e5a-bd2c-5aca1cb14e11",
+      "confidence": 1.0,
+      "color_hex": "#ff00a2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sunrise Elixir",
+      "diameter_mm": 1.75,
+      "external_ref": "2cf22162-8430-4174-b2c0-e63e3b8d67b7",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sunset Elixir",
+      "diameter_mm": 1.75,
+      "external_ref": "e125b2c5-8c3e-4598-a510-1fcb66704c97",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Unicorn (pink → blue → purple)",
+      "diameter_mm": 1.75,
+      "external_ref": "4d59c5f3-4c86-4916-b6bf-9ad7e3203194",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Witches Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "192c2593-5021-4814-b99c-4a5f7f167f9e",
+      "confidence": 1.0,
+      "color_hex": "#6000b0",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/cookiecad/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "d2bea38f-c76f-4fa2-8657-f1178027ced1",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/cookiecad/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

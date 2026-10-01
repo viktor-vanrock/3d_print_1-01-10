@@ -1,0 +1,349 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "longer.lk1-pro",
+  "vendor": {
+    "slug": "longer",
+    "name": "Longer"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "LK1 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 400
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2021-01-20",
+    "screen_type": "4,3-дюймовый сенсорный ЖК",
+    "max_nozzle_temp_c": 250,
+    "max_speed_mms": 150,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "bowden",
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 470,
+      "d": 575,
+      "h": 610
+    },
+    "connectivity": [
+      "usb",
+      "cardreader"
+    ],
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "PETG"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk1pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk1pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk1pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_nozzle_temp_c": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "layer_height_min_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "layer_height_max_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "nozzle_diameters": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "dimensions_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_runout_sensor": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "power_loss_recovery": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk1pro.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk1pro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk1pro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Область построения, мм | 300х300х400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Дисплей | 4,3-дюймовый сенсорный ЖК",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Температура экструдера | до 250°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Скорость печати | 20-150 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя, мм | 0,1-0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя, мм | 0,1-0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр сопла, мм | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "печать осуществляется одним экструдером с боуденовской подачей материала",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Размеры, мм | 470х575х610",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Интерфейсы | usb, cardreader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Материалы | ABS-пластик PLA-пластик PETG",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Функция сохранения | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/longer_lk1pro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk1pro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk1-pro",
+      "tier": "community",
+      "snapshot": "sha256:cfef6bcc93fa8672bb219a1928e3f83922f693f4cb420532edf055ca34e8c423",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true
+  }
+}

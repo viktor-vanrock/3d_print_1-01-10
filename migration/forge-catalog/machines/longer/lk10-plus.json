@@ -1,0 +1,279 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "longer.lk10-plus",
+  "vendor": {
+    "slug": "longer",
+    "name": "Longer"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "LK10 Plus",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 320,
+      "y": 320,
+      "z": 400
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker"
+    ],
+    "nozzle_diameters": [
+      0.2
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2026-02-08",
+    "screen_type": "4.3″ Full-Color Touchscreen",
+    "firmware": "Klipper",
+    "summary": "LK10 Plus — это FDM 3D-принтер с увеличенным объемом печати 320 × 320 × 400 мм, позиционируемый как обновленная модель для реализации крупных проектов. Устройство оснащено высокоскоростной платой Klipper, прямым экструдером с высокой пропускной способностью и цветным сенсорным экраном.",
+    "unique_features": [
+      "Объем печати 320 × 320 × 400 мм",
+      "Скорость печати до 500 мм/с",
+      "Высокоточный экструдер с пропускной способностью до 25 мм³/с",
+      "Совместимость с гибкими филаментами",
+      "Переработанное сопло (hotend) и горловина для снижения риска засора",
+      "Плата Klipper High-Speed Board",
+      "4.3-дюймовый полноцветный сенсорный экран"
+    ],
+    "max_flow_mm3s": 25,
+    "max_speed_mms": 500,
+    "extruder_type": "direct_drive",
+    "price_usd": 419.99,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_flow_mm3s": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "4.3″ Full-Color Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Klipper High-Speed Board",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Newly Upgraded FDM 3D Printer... Build Volume: 320 × 320 × 400 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Up to 500 mm/s maximum speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "High-Flow Extruder: Supports up to 25 mm³/s for faster, consistent extrusion",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Up to 500 mm/s maximum speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Upgraded high-flow direct drive extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $419.99",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "12-Month Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/LONGER/machine/LONGER LK10 Plus (0.2 nozzle).json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "longer-official",
+      "url": "https://longer3d.com/products/lk10-plus-fdm-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:e0672bc3436df7cdbe059cab2cbe2d270de5b9fa114396cff541b4702e8e352e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Longer"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 7,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

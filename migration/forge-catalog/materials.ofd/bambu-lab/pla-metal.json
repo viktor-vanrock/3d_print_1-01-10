@@ -1,0 +1,170 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-metal",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Metal",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "metal"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Cobalt Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "36ca9a43-e491-464c-bb71-cb09594d0d0d",
+      "confidence": 1.0,
+      "color_hex": "#39699e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-metal?variant=41002951770248"
+    },
+    {
+      "color_name": "Copper Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "4cb8ae2e-ae66-4ec6-b8a6-e6bde5180590",
+      "confidence": 1.0,
+      "color_hex": "#aa6443",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-metal?variant=41150855577736"
+    },
+    {
+      "color_name": "Iridium Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "d1eb15ad-484d-400c-aaaf-d9d4f7e5e802",
+      "confidence": 1.0,
+      "color_hex": "#b39b84",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-metal?variant=41002951737480"
+    },
+    {
+      "color_name": "Iron Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "73a5370f-7e63-45f9-a5a3-3fdced778d4e",
+      "confidence": 1.0,
+      "color_hex": "#43403d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-metal?variant=41150855610504"
+    },
+    {
+      "color_name": "Oxide Green",
+      "diameter_mm": 1.75,
+      "external_ref": "591b4e87-d906-4914-8470-7de6b3510cf9",
+      "confidence": 1.0,
+      "color_hex": "#1d7c6a",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-metal?variant=41002960552072"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/metal/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/metal/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/metal/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "baa26184-1aa9-4c6e-ad4c-f9394dd80168",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/metal/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

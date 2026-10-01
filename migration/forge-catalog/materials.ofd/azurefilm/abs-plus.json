@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "azurefilm.abs-plus",
+  "vendor": {
+    "slug": "azurefilm",
+    "name": "AzureFilm",
+    "website": "https://www.azurefilm.com/",
+    "origin": "SL"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS Plus",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.13,
+      "nozzle_temp_min_c": 250,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 110,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "e39265c7-ccf1-4246-9827-92635875df8c",
+      "confidence": 1.0,
+      "color_hex": "#3f3f3f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "5abd77da-7c9d-4449-8757-e9638ac24281",
+      "confidence": 1.0,
+      "color_hex": "#457ab1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glitter Black",
+      "diameter_mm": 1.75,
+      "external_ref": "2359b41d-d723-4693-8b9f-047248dca2d0",
+      "confidence": 1.0,
+      "color_hex": "#3d3e39",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c5982ad8-35f5-4c78-975a-7c4e7b2fbf30",
+      "confidence": 1.0,
+      "color_hex": "#5ba96c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3b39bc11-7107-4f60-ae85-955e6018fb9e",
+      "confidence": 1.0,
+      "color_hex": "#979da4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nature",
+      "diameter_mm": 1.75,
+      "external_ref": "731f654b-7a2a-4537-b512-f371d8ea9bae",
+      "confidence": 1.0,
+      "color_hex": "#e4e3df",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "eb3ff49c-2036-4853-9004-53c48e70a3d3",
+      "confidence": 1.0,
+      "color_hex": "#de653d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "a073b017-319c-4eb1-b112-116e726a8abe",
+      "confidence": 1.0,
+      "color_hex": "#d94a41",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "faf5dd39-b648-47bd-b73f-699abc23c17c",
+      "confidence": 1.0,
+      "color_hex": "#e6e8e7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b0322a02-aa75-4614-a10d-34df0c1e7172",
+      "confidence": 1.0,
+      "color_hex": "#eed75b",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/ABS/plus/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5825caea-5970-4095-b0b4-6da6078fad71",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/ABS/plus/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

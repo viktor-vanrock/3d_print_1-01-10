@@ -1,0 +1,445 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "wanhao.duplicator-4s",
+  "vendor": {
+    "slug": "wanhao",
+    "name": "Wanhao"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Duplicator 4S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 225,
+      "y": 150,
+      "z": 150
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 9000,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "profile_first_seen": "2018-06-04",
+    "price_rub": 52900,
+    "in_stock_ru": false,
+    "max_nozzle_temp_c": 230,
+    "max_bed_temp_c": 120,
+    "max_speed_mms": 40,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.5,
+    "extruder_count": 2,
+    "dimensions_mm": {
+      "w": 320,
+      "d": 466,
+      "h": 382
+    },
+    "weight_kg": 12,
+    "materials_supported": [
+      "ABS",
+      "PLA",
+      "PETG",
+      "Flex",
+      "Nylon"
+    ],
+    "enclosed": true,
+    "filament_diameter_mm": 1.75,
+    "connectivity": [
+      "USB",
+      "Card Reader"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/wanhao_d4s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/wanhao_d4s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/wanhao/duplicator-4s",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/162/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/162/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-wanhao-duplicator-4s/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/wanhao_d4s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "price_rub": {
+      "source": "wanhao-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "wanhao-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/wanhao/duplicator-4s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/wanhao/duplicator-4s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/wanhao_d4s.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/wanhao_d4s.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/162/cura/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/162/cura/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/wanhao_d4s.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "52 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура нагрева стола | max 120 С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Рабочая температура экструдера | max 230 С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура нагрева стола | max 120 С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Скорость печати | 40 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0,1 мм -0,5 мм настраиваемая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0,1 мм -0,5 мм настраиваемая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество экструдеров | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размеры (без упаковки) | 320 × 466 × 382 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес (без упаковки) | 12 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип материала | ABS, PLA, PETG, Flex, Nylon (Нейлон), другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Закрытый корпус | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла | 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Интерфейсы | USB, Card Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/162/cura/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/162/cura/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/wanhao_d4s.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/wanhao_d4s.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "wanhao-official",
+      "url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "tier": "vendor",
+      "snapshot": "sha256:57bfc7d38126fe36fc70ca3fce0f2278f00621edb569814342c07b1c612156d4",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T22:04:25Z",
+      "publisher": "Wanhao"
+    },
+    {
+      "source_id": "s4",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/wanhao/3d-printer-wanhao-duplicator-4s/",
+      "tier": "catalog",
+      "snapshot": "sha256:57bfc7d38126fe36fc70ca3fce0f2278f00621edb569814342c07b1c612156d4",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-wanhao-duplicator-4s/",
+      "tier": "catalog",
+      "snapshot": "sha256:b3dcb2084d182126b2594b63d8ba5e87a2b527ff27215dda371a50d488c33120",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/wanhao/duplicator-4s",
+      "tier": "community",
+      "snapshot": "sha256:3f5b9d5ce044d398da1ae40a44d998d306f57c0ae76414db5d7afb734271a513",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics",
+      "power_w"
+    ],
+    "sources_count": 6,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polymaker.pva-polysupport-for-pla",
+  "vendor": {
+    "slug": "polymaker",
+    "name": "Polymaker",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pva",
+    "name": "PVA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PVA PolySupport for PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "f3729157-6543-482d-b187-a6b1e3dcd6a4",
+      "confidence": 1.0,
+      "color_hex": "#f6f1ec",
+      "weight_g": 750,
+      "purchase_url": "https://us.polymaker.com/products/polysupport-for-pla"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 2.85,
+      "external_ref": "f3729157-6543-482d-b187-a6b1e3dcd6a4",
+      "confidence": 1.0,
+      "color_hex": "#f6f1ec",
+      "weight_g": 750,
+      "purchase_url": "https://us.polymaker.com/products/polysupport-for-pla"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PVA/polysupport_for_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PVA/polysupport_for_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PVA/polysupport_for_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PVA/polysupport_for_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PVA/polysupport_for_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PVA/polysupport_for_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "4db219e5-b26e-4474-9583-3ebd19a802e7",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PVA/polysupport_for_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.abs-plus",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS PLUS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.03,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "c8099bd3-04a0-4901-9986-4b226b59c527",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "7abe2039-f9b4-402a-a883-30d348c51766",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "c5d3c4f7-b888-4590-9c66-01641a3f8d9c",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "0364e227-dfc2-400a-bd0f-3f8f5c22d4ae",
+      "confidence": 1.0,
+      "color_hex": "#bbbcbc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "a1b3ac3f-934d-4f13-ae5b-e3d46b22554a",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "e5ec477a-d7a1-4e95-a778-ecd9c98e406c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "f13f30b1-e3d6-473a-9821-3cac0ddbcbdf",
+      "confidence": 1.0,
+      "color_hex": "#ffd700",
+      "weight_g": 850
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/abs_plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/abs_plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/abs_plus/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/abs_plus/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/abs_plus/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/ABS/abs_plus/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ec19d165-bc4f-4b7b-94b8-da4803beea93",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/ABS/abs_plus/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

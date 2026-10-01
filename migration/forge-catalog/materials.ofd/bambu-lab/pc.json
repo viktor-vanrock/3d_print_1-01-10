@@ -1,0 +1,185 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pc",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PC",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "nozzle_temp_min_c": 260,
+      "nozzle_temp_max_c": 300,
+      "bed_temp_min_c": 100,
+      "bed_temp_max_c": 120,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "223c8f49-23af-495c-b252-b00fc4d5afdb",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/pc-filament?variant=41135409528968"
+    },
+    {
+      "color_name": "Clear Black",
+      "diameter_mm": 1.75,
+      "external_ref": "35675a2d-d11f-499e-9a77-e22e98a99b56",
+      "confidence": 1.0,
+      "color_hex": "#5a5061",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/pc-filament?variant=40741214617736"
+    },
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "5fe15740-66c6-434b-95a9-d63a520250db",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/pc-filament?variant=41135409496200"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "ff194d31-361a-47dd-92cd-20cd67559636",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/pc-filament?variant=40741214650504"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PC/pc/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a1396ab8-c441-4e57-bc34-6b4de1a4a781",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PC/pc/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

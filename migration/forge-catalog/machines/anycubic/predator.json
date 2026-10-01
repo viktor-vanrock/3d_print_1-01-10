@@ -1,0 +1,1054 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "anycubic.predator",
+  "vendor": {
+    "slug": "anycubic",
+    "name": "Anycubic"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Predator",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "round",
+      "x": 370,
+      "y": 370,
+      "z": 455
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 2000,
+    "max_speed_mms": 150,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2020-04-28",
+    "screen_type": "TFT Touch Screen",
+    "summary": "Anycubic Predator — это 3D-принтер с конструкцией Delta, предназначенный для энтузиастов и инженеров, которым требуется большая область печати. Устройство позиционируется как решение для создания крупных моделей с использованием различных материалов, включая гибкие пластики.",
+    "unique_features": [
+      "Конструкция Delta с тяжелой металлической рамой для минимизации вибраций",
+      "Автоматическая система выравнивания (Auto Leveller), сканирующая 37 точек",
+      "Функция восстановления печати после отключения питания",
+      "Датчик окончания филамента с автоматическим предупреждением",
+      "Цветной сенсорный TFT-экран",
+      "Печатающая головка Ultrabase Pro с улучшенной адгезией",
+      "Экструдер типа Flying Extruder, оптимизированный для гибких филаментов"
+    ],
+    "target_use": [
+      "Прототипирование и инженерные задачи благодаря большой области печати",
+      "Работа с гибкими материалами (TPU) и специфическими пластиками (Wood, HIPS)",
+      "Долгосрочные проекты печати благодаря функции восстановления после сбоя"
+    ],
+    "limitations": [
+      "Максимальная температура экструдера ограничена 250°C",
+      "Рабочая температура окружающей среды ограничена диапазоном 8°C - 40°C",
+      "Поддерживается только один экструдер (Single Extruder)",
+      "Передача данных по USB-кабелю доступна только для экспертных пользователей"
+    ],
+    "bed_surface": "Ultrabase",
+    "auto_leveling": "Semi Auto Leveling",
+    "firmware": "1. V1.4.0",
+    "max_nozzle_temp_c": 250,
+    "kinematics": "delta",
+    "firmware_max_speed_mms": 300,
+    "layer_height_min_mm": 0.05,
+    "layer_height_max_mm": 0.3,
+    "positioning_accuracy_mm": 0.0125,
+    "filament_diameter_mm": 1.75,
+    "weight_kg": 19.2,
+    "price_usd": 519,
+    "connectivity": [
+      "Memory card",
+      "Data cable",
+      "USB",
+      "Card Reader"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "max_travel_speed_mms": 100,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 580,
+      "d": 520,
+      "h": 1020
+    },
+    "voltage_v": 220,
+    "materials_supported": [
+      "ABS",
+      "PLA",
+      "Flex"
+    ],
+    "max_bed_temp_c": 100,
+    "extruder_type": "bowden",
+    "price_rub": 40920,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/predator.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/predator.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/108/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.6
+    },
+    "max_speed_mms": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/predator.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/108/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.6
+    },
+    "layer_height_min_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "positioning_accuracy_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_travel_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "voltage_v": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/predator.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/predator.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/108/orcaslicer/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Print Speed: 20~150mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/predator.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "TFT Touch Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Heavy duty DELTA structure... Big space for creation... Anycubic enables enthusiasts, engineers, and artists to turn their ideas into reality.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Solid metal construction: Heavy duty DELTA structure, minimum shaking during printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Supported Materials: PLA, ABS,TPU, HIPS, Wood",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Operational Extruder Temperature: max 250°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Ultrabase Pro",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Semi Auto Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Firmware 1. V1.4.0",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Operational Extruder Temperature: max 250°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Heavy duty DELTA structure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Layer Resolution: 0.05-0.3 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Layer Resolution: 0.05-0.3 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Positioning Accuracy: X/Y/Z 0.0125mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Nozzle/Filament Diameter: 0.4 mm/1.75mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Package Weight: 19.2kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Regular price $519.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Connectivity: Memory card; Data cable(expert users only)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Filament Sensor Auto warning if filament runs out or break.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Resume from accidently power loss: one click to continue",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Рабочая температура экструдера | макс. 250 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | 20-150 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,05-0,3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Стол для печати UltraBase Pro имеет подогрев.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интеллектуальный датчик предупреждает о поломке нити или о том, что нить заканчивается.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Если произойдет сбой электропитания сохранятся все настройки и положение экструдера за счет встроенной функции возобновления печати.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость перемещения экструдера* | 100 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 580х520х1020 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "voltage_v": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Электропитание | 110 V/ 220 V AC 50-60 Hz",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип материала | ABS, PLA, Flex, другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 150",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес нетто (кг) 19",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура платформы, °С 100",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип экструдера Bowden",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "40 920 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость печати | 20~150 мм/сек",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Устройство оснащено одним экструдером с соплом 0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Устройство оснащено ... датчиком окончания филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic Predator 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/108/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/108/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/predator.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/predator.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "anycubic-official",
+      "url": "https://store.anycubic.com/products/anycubic-predator-fdm-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:6a293b4d8fe2f2ea065434ccdb21eb3b691e3d2745a7f50efdf1a1d188774a2c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:08:59Z",
+      "publisher": "Anycubic"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/anycubic/3d_printer_anycubic_predator/",
+      "tier": "catalog",
+      "snapshot": "sha256:de91a405401446fdddca710c3fc6c9a3a3afe94981584729ee4d80aaf300d4dd",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:51:15Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-anycubic-predator",
+      "tier": "catalog",
+      "snapshot": "sha256:fdc71fe4b82987c7a7127c6f08756e761a00967b06dcb74e3106e3719e613cd8",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:22:50Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-predator",
+      "tier": "community",
+      "snapshot": "sha256:7ee0133d730173076a7c5b9589bc5ba2c9c4579d104e315a33c204b21f309e31",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:11:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|structural-vs-structural|cura|spdb",
+      "values": [
+        {
+          "value": 2000,
+          "source_id": "s2",
+          "kind": "spec"
+        },
+        {
+          "value": 800,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|structural-vs-structural|cura|spdb",
+      "values": [
+        {
+          "value": 150,
+          "source_id": "s3",
+          "kind": "spec"
+        },
+        {
+          "value": 300,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 150,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "power_w"
+    ],
+    "sources_count": 7,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

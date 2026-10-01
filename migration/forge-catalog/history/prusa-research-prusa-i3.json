@@ -1,0 +1,83 @@
+{
+ "slug": "history.prusa-research-prusa-i3",
+ "outcome": "staged",
+ "url": "https://en.wikipedia.org/wiki/Prusa_i3",
+ "snapshot": "sha256:29f9d3cb90bbfb615700f992ce2fa66c353ae15977629008d1f79f495f3d7382",
+ "page_chars": 15585,
+ "fields": {
+  "bed_surface": "polyetherimide",
+  "screen_type": "color touchscreen",
+  "firmware": "Marlin",
+  "summary": "Prusa i3 — это семейство FFF-принтеров, производимых чешской компанией Prusa Research под торговой маркой Original Prusa i3. Благодаря низкой стоимости и простоте сборки, эти принтеры стали популярными среди любителей, профессионалов и в образовательных целях.",
+  "unique_features": [
+   "Открытый исходный код и лицензия open source",
+   "Система автоматического выравнивания стола (от PINDA до load cell)",
+   "Датчик засора/отсутствия филамента",
+   "Сменные экструдеры (Nextruder, Bondtech)",
+   "Модульная конструкция с возможностью апгрейда",
+   "Поддержка многослойной печати (MMU2S/MMU3)"
+  ],
+  "target_use": [
+   "Образование",
+   "Хобби",
+   "Прототипирование",
+   "Производство деталей из инженерных пластиков (PETG, ASA, PC)"
+  ],
+  "kinematics": "cartesian",
+  "filament_diameter_mm": 1.75,
+  "voltage_v": 24,
+  "nozzle_hardened": true,
+  "heated_bed": true,
+  "multimaterial_supported": true,
+  "filament_runout_sensor": true,
+  "power_loss_recovery": true,
+  "release_year": 2015
+ },
+ "evidence": {
+  "bed_surface": "Other new features include a polyetherimide print surface",
+  "screen_type": "This model features a new version of their \"Nextruder\" extruder system first seen on the Prusa XL, no-adjustment load cell bed leveling, a modular replaceable all-metal hot end, a color touchscreen",
+  "firmware": "All Original Prusa products use Marlin 3D printing firmware.",
+  "summary": "The Prusa i3 is a family of fused filament fabrication 3D printers, manufactured by Czech company Prusa Research under the trademarked name Original Prusa i3.",
+  "unique_features": "The i3 series is released under an open source license",
+  "target_use": "made it popular in education and with hobbyists and professionals",
+  "kinematics": "A Cartesian mechanism permits placement of material anywhere in a cubic volume; this design has continued throughout development of the i3 series.",
+  "filament_diameter_mm": "he introduced the new i3 1.75 mm version in August 2015.",
+  "voltage_v": "Electrical components were updated to work with the new 24 volt power supply.",
+  "nozzle_hardened": "This model features a new version of their \"Nextruder\" extruder system first seen on the Prusa XL, no-adjustment load cell bed leveling, a modular replaceable all-metal hot end",
+  "heated_bed": "He adapted and simplified the RepRap Mendel design, reducing the time to print 3D plastic parts from 20 to 10 hours, changing to the use of two Z-axis motors to simplify the frame, and including 3D printed bushings in place of regular bearings. First announced in September 2010, the printer was dubbed Prusa Mendel by Průša himself.",
+  "multimaterial_supported": "In February 2019, Prusa i3 MK3S was released, along with the Multi Material Upgrade 2S (MMU2S), which allows selecting any of 5 different materials for printing together automatically.",
+  "filament_runout_sensor": "Ease-of-use features included a filament detector, allowing the printer to load filament when it is inserted, and to pause printing if the filament is jammed or runs out",
+  "power_loss_recovery": "Ease-of-use features included ... recovery after power outages.",
+  "release_year": "released as a commercial kit product in 2015"
+ },
+ "unconfirmed": [
+  "nozzle_hardened"
+ ],
+ "unique_features": [
+  "Открытый исходный код и лицензия open source",
+  "Система автоматического выравнивания стола (от PINDA до load cell)",
+  "Датчик засора/отсутствия филамента",
+  "Сменные экструдеры (Nextruder, Bondtech)",
+  "Модульная конструкция с возможностью апгрейда",
+  "Поддержка многослойной печати (MMU2S/MMU3)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "абразивы",
+  "мультиматериал"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-03T23:13:43Z",
+ "kind": "history",
+ "source": "Wikipedia en",
+ "title": "Prusa i3",
+ "maker": "Prusa Research",
+ "model": "Prusa i3",
+ "first_year": null,
+ "license": "CC BY-SA 4.0",
+ "tier": "community",
+ "key": "history:https://en.wikipedia.org/wiki/Prusa_i3"
+}

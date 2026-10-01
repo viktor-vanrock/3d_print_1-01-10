@@ -1,0 +1,127 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.hips",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "hips",
+    "name": "HIPS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "HIPS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "2d5243f5-bc9b-4e2a-bb56-81781be707ce",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "a5da28c0-c2a6-406c-b509-cf41938269e2",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "8d46308f-38b9-4cdb-bb17-24d30bec83dd",
+      "confidence": 1.0,
+      "color_hex": "#faf8df",
+      "weight_g": 850
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "495af382-5f1e-4ec3-b244-756dca9d3e16",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 850
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/HIPS/hips/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/HIPS/hips/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/HIPS/hips/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/HIPS/hips/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/HIPS/hips/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/HIPS/hips/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1fdf6916-2339-4b9b-b6fa-c2fe584234ff",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/HIPS/hips/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

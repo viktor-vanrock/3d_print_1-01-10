@@ -1,0 +1,245 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "3dxtech.petg",
+  "vendor": {
+    "slug": "3dxtech",
+    "name": "3DXTech",
+    "website": "https://3dxtech.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "ECOMAX® R- Black",
+      "diameter_mm": 1.75,
+      "external_ref": "24cb1bf6-9fc0-4f26-82bd-ea325ddb900e",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "ECOMAX® R- Blue Frost",
+      "diameter_mm": 1.75,
+      "external_ref": "499075b5-a8b9-416a-940b-59a930255c8e",
+      "confidence": 1.0,
+      "color_hex": "#6299df",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "ECOMAX® R- Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "483bb6f1-5399-4053-9f80-3516f469b9b0",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Filament",
+      "diameter_mm": 1.75,
+      "external_ref": "935c4b1c-56a6-49c1-bb56-f9797bdd85d0",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f87352a1-4349-429f-8076-b386428d2f51",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "2f8d35c9-998c-4e72-87f2-ed2fa6a60100",
+      "confidence": 1.0,
+      "color_hex": "#6a6c6e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "5e888cc1-f4b8-4415-9712-886cd46c6abb",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "9f91de1c-8ac7-40c7-b4d2-0d6b868a34b1",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Red",
+      "diameter_mm": 1.75,
+      "external_ref": "2aff38eb-f6e7-4fbb-b5b0-b66aa94c97a2",
+      "confidence": 1.0,
+      "color_hex": "#aa0101",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Reflex Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "0316eafc-f868-469d-9f8c-2d048d2b7b1c",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G White",
+      "diameter_mm": 1.75,
+      "external_ref": "f4fbb0cb-a786-4475-ad4a-aa9ffe1abb7e",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MAX-G Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6abbf313-db44-4d0e-8d99-af0e2185f453",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3dxtech/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8076df7b-f8c8-4a18-9b78-51163e27279d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3dxtech/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

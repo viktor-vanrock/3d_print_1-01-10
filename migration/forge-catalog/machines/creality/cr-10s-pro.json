@@ -1,0 +1,377 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.cr-10s-pro",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "CR-10S Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 400
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2019-07-02",
+    "summary": "CR-10S Pro V2 — это 3D-принтер от Creality, оснащенный системой автовыравнивания BL-touch, датчиком филамента и стабильной материнской платой с высокой точностью.",
+    "unique_features": [
+      "BL-touch",
+      "Filament Sensor",
+      "Stable and high precision motherboard"
+    ],
+    "price_usd": 626.0,
+    "filament_runout_sensor": true,
+    "bed_surface": "стекло",
+    "screen_type": "touchscreen",
+    "nozzle_diameters": [
+      0.4
+    ],
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "bowden",
+    "extruder_count": 1,
+    "weight_kg": 13.1,
+    "connectivity": [
+      "USB",
+      "Card Reader"
+    ],
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "PVA-пластик"
+    ],
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_cr10spro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_cr10spro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_cr10spro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-10s-pro-v2-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-10s-pro-v2-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-10s-pro-v2-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/cr-10s-pro-v2-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "bed_surface": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "nozzle_diameters": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "weight_kg": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "power_loss_recovery": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_cr10spro.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_cr10spro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_cr10spro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "CR-10S Pro V2 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "BL-touch",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "$626.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Область построения, мм: 300x300x400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "FILAMENT DETECTION As with the CR-10S that precedes it, the CR-10S Pro features filament runout detection",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "with a glass bed coated in an adhesive sticker.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "TOUCH SCREEN Gone is the dot matrix LCD of the CR-10S, replaced by a vivid touchscreen unit",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр сопла, мм | 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Paying heed to the Bowden extruder arrangement on the CR-10S",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Вес, кг | 13.1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Интерфейсы | USB, Card Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Материалы | ABS-пластик PLA-пластик PVA-пластик",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "RESUME PRINT FUNCTION ... The CR-10S Pro will be able to pick up printing from where it left off after a power cut.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/creality_cr10spro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_cr10spro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "creality-official",
+      "url": "https://www.creality.com/products/cr-10s-pro-v2-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:7797088fa2fe059713257a143af9bfc66d9318ac5dae04353712d7952e2c209d",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s3",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/creality-cr-10s-pro",
+      "tier": "community",
+      "snapshot": "sha256:cef11793895d1e8b8ac7f3be9146ba262c7c1a2996c1da7a592df93ba821bee2",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

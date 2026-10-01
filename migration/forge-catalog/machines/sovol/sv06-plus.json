@@ -1,0 +1,726 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "sovol.sv06-plus",
+  "vendor": {
+    "slug": "sovol",
+    "name": "Sovol"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "SV06 Plus",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 340
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 15000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-04-09",
+    "bed_surface": "Double-sided Textured PEI Plate",
+    "auto_leveling": "Full-auto leveling",
+    "screen_type": "4.3-inch Capacitive Screen",
+    "firmware": "Klipper",
+    "summary": "Sovol SV06 Plus ACE — это высокоскоростной 3D-принтер с открытым исходным кодом и автоматической калибровкой, предназначенный для создания детальных прототипов, сложных моделей и функциональных деталей благодаря большому рабочему объему.",
+    "unique_features": [
+      "Скорость печати до 500 мм/с",
+      "Двухосевая система на металлических подшипниках и направляющих",
+      "Автоматическая калибровка с адаптивным зондированием",
+      "Встроенная камера с функцией обнаружения дефектов (Obico)",
+      "Планетарная двухшестеренная экструзионная головка с передаточным числом 1:7.5",
+      "Прошивка Klipper (чип 3308)",
+      "Поддержка OTA-обновлений"
+    ],
+    "limitations": [
+      "Wi-Fi поддерживает только стандарт WPA2 (WPA3 не поддерживается)",
+      "Отсутствует функция восстановления после отключения питания",
+      "Для печати некоторыми нейлонами рекомендуется использование закрытой камеры",
+      "Вентиляторы могут работать шумно (на 100% мощности)"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 100,
+    "firmware_max_speed_mms": 140,
+    "firmware_max_accel_mms2": 1500,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 510,
+      "d": 575,
+      "h": 710
+    },
+    "power_w": 500,
+    "price_usd": 299,
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "MicroSD"
+    ],
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": false,
+    "filament_diameter_mm": 1.75,
+    "materials_supported": [
+      "ПЛА",
+      "ПЭТ-Г",
+      "термопластичный полиуретан"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/sovol_sv06_plus.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/sovol_sv06_plus.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "extruder_type": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "camera": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/sovol_sv06_plus.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max Acceleration 15000mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max Printing Speed 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/sovol_sv06_plus.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Build Plate Double-sided Textured PEI Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Full-auto leveling & Adaptive probing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Touch Screen 4.3-inch Capacitive Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Control System Klipper (3308 Chip)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Printing speed up to 500mm/s ... Build volume: 300*300*350mm³ ... Firmware & software open source ... Whether you're creating detailed prototypes, intricate models, or functional parts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Printing speed up to 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Wi-Fi: 2.4 GHz (WPA2 only, WPA3 not supported)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Hot End Temperature ≤300℃（572℉）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Hot Bed Temperature 100℃（212℉）",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "It uses an All-Metal Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Printer Size 510*575*710mm (Includes Screen and Filament Holder)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Power 500W/24V @100-240 VAC, 50/60Hz",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Sale price $299.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Connectivity Wi-Fi: 2.4 GHz (WPA2 only, WPA3 not supported)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Camera Default: 640*480P, Max: 1080*720P",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Filament Run Out Sensor Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Power Loss Recovery None",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура хотэнда | 300℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура столика | 100℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Материалы | ПЛА, ПЭТ-Г, термопластичный полиуретан и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol SV06 Plus 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/404/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/404/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/sovol_sv06_plus.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/sovol_sv06_plus.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "sovol-official",
+      "url": "https://www.sovol3d.com/products/sovol-sv06-plus-ace-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:c4c3f4cdf63c8ee83e5098686b398bc1e169ec312ad1e81af0b84d07744d8f27",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:03:44Z",
+      "publisher": "Sovol"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-sv06-plus",
+      "tier": "community",
+      "snapshot": "sha256:17db38fccda98acdb9e0d750128ed82f313b3ed6c1a7a386490039357697c4eb",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:00:05Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 5,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 300,
+            "y": 300,
+            "z": 340
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 300,
+            "y": 300,
+            "z": 350,
+            "shape": "rectangular"
+          },
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 140,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 500,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|vendor-vs-structural",
+      "values": [
+        {
+          "value": 1500,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 15000,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.4,
+            0.6,
+            0.8
+          ],
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "power_loss_recovery",
+      "class": "power_loss_recovery|sovol-official-vs-community",
+      "values": [
+        {
+          "value": false,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s5",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

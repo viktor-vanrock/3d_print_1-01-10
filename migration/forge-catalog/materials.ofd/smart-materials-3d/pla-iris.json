@@ -1,0 +1,189 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "smart-materials-3d.pla-iris",
+  "vendor": {
+    "slug": "smart-materials-3d",
+    "name": "SMART MATERIALS 3D",
+    "website": "https://smartmaterials3d.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Iris",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Alexandrite",
+      "diameter_mm": 1.75,
+      "external_ref": "98c001f0-f5f6-4325-8eef-9d6d9e0be2a3",
+      "confidence": 1.0,
+      "color_hex": "#6e8451",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Granate",
+      "diameter_mm": 1.75,
+      "external_ref": "a26a2524-8bdc-4120-aef2-df5ef2481b72",
+      "confidence": 1.0,
+      "color_hex": "#5d4546",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearl",
+      "diameter_mm": 1.75,
+      "external_ref": "81e35f36-cf4f-4868-97dc-0e4c687550a5",
+      "confidence": 1.0,
+      "color_hex": "#e3e0d3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tanzanite",
+      "diameter_mm": 1.75,
+      "external_ref": "e1a71944-2ba0-4107-8936-2ad0b3245211",
+      "confidence": 1.0,
+      "color_hex": "#395e65",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Topaz",
+      "diameter_mm": 1.75,
+      "external_ref": "c22528c6-39ca-4785-9b32-877e9ca7ceb1",
+      "confidence": 1.0,
+      "color_hex": "#144f3b",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/PLA/iris/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "03348efd-d524-4e14-980b-5590f5b80267",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/PLA/iris/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

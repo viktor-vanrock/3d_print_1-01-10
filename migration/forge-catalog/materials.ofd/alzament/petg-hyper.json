@@ -1,0 +1,143 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "alzament.petg-hyper",
+  "vendor": {
+    "slug": "alzament",
+    "name": "Alzament",
+    "website": "https://alzament.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG Hyper",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "19ed27a8-3f97-44f6-8aa6-ebb5e29abcc6",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-black-d12869964.htm"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ce823361-f567-48c6-a145-f48930a09b6a",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-blue-d12869966.htm"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "188e22d9-1e38-4ffc-9661-5f408644339b",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-gold-d12869969.htm#discussionPosts"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "b06ba143-f0df-4681-ae93-c4d82a4ded50",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-red-d12869965.htm"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "39211401-6894-493d-964a-34179064edd1",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-silver-d12869967.htm"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "9cb35fd3-52a9-4f92-8d75-8f70cea96872",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-petg-hyper-1-kg-white-d12869968.htm"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PETG/petg_hyper/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PETG/petg_hyper/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PETG/petg_hyper/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PETG/petg_hyper/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PETG/petg_hyper/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PETG/petg_hyper/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8c0c5a40-4abd-4b24-91e8-7fa7b087ab5a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PETG/petg_hyper/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

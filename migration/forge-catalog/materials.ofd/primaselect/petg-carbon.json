@@ -1,0 +1,122 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.petg-carbon",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG CARBON",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "174ce836-09e0-4fd0-9011-19149c4dfaa9",
+      "confidence": 1.0,
+      "color_hex": "#4caf50",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/401-carbon-filament/5323-primaselect-carbon-filament-500-g-armygroen/"
+    },
+    {
+      "color_name": "Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "faca44d0-cb69-4f71-a231-0d0d9cdfffc3",
+      "confidence": 1.0,
+      "color_hex": "#545454",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/401-carbon-filament/5322-primaselect-carbon-filament-500-g-moerkegraa/"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3f8e7ce3-9fdc-4379-8f7a-f0ad22780aff",
+      "confidence": 1.0,
+      "color_hex": "#9e9e9e",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/401-carbon-filament/5324-primaselect-carbon-filament-500-g-graa/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/carbon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/carbon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/carbon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/carbon/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/carbon/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/carbon/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9b5d7000-558d-48e7-9b73-ad4249eafe6f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/carbon/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

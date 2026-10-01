@@ -1,0 +1,975 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sunlu.pc-pcl",
+  "vendor": {
+    "slug": "sunlu",
+    "name": "SUNLU",
+    "website": "https://sunlu.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PCL",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "097ec44b-799c-4b44-bb8c-a1776cadfba2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 2.85,
+      "external_ref": "a07b04fc-2bb1-4b56-87ff-b9c3ef223243",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 2.85,
+      "external_ref": "95246c54-3df2-49a4-b6fb-021fc700bee7",
+      "confidence": 1.0,
+      "color_hex": "#65fdfd",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 2.85,
+      "external_ref": "b137dce4-edae-4941-856d-ed2e375c7c2b",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 2.85,
+      "external_ref": "d18dcba9-9a34-4d8b-9da6-469bbbaaf16f",
+      "confidence": 1.0,
+      "color_hex": "#ff8a00",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 2.85,
+      "external_ref": "ea2ed857-4310-4a0b-913e-a87af8c69717",
+      "confidence": 1.0,
+      "color_hex": "#ffc0cb",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 2.85,
+      "external_ref": "fe388dfe-453a-40e5-beb9-61a9b8aa466f",
+      "confidence": 1.0,
+      "color_hex": "#a54dcf",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 2.85,
+      "external_ref": "4c967290-d83b-4b48-9749-939aabb1a46e",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 250
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 500
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 250
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 500
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "94ef727f-ae97-4ce9-b840-30bc68928e4b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 5000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 250
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "9c4caf41-250c-4dea-85b2-fd8ebca7f27e",
+      "confidence": 1.0,
+      "color_hex": "#f8e600",
+      "weight_g": 3000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sunlu/PCL/pcl/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sunlu/PCL/pcl/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sunlu/PCL/pcl/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sunlu/PCL/pcl/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sunlu/PCL/pcl/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sunlu/PCL/pcl/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "7581c444-7968-4e84-9952-d5d4efee939b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sunlu/PCL/pcl/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "kingroon.pla",
+  "vendor": {
+    "slug": "kingroon",
+    "name": "Kingroon",
+    "website": "https://kingroon.com",
+    "origin": "CH"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Plus (+) Black",
+      "diameter_mm": 1.75,
+      "external_ref": "319fcd23-a732-4143-b3d9-d2788093bf9d",
+      "confidence": 1.0,
+      "color_hex": "#292824",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Plus (+) Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "85b3da61-7f09-4e31-9473-79fa6db1a504",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Plus (+) Red",
+      "diameter_mm": 1.75,
+      "external_ref": "708903b9-a90a-4c25-b703-2c341fdec1b3",
+      "confidence": 1.0,
+      "color_hex": "#ec0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Plus (+) Skin",
+      "diameter_mm": 1.75,
+      "external_ref": "01643495-efcf-4b2f-a173-69d301560212",
+      "confidence": 1.0,
+      "color_hex": "#dbc9ad",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Plus (+) White",
+      "diameter_mm": 1.75,
+      "external_ref": "dba2cb58-4919-42ff-8e1a-10dfdbe963f1",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Plus (+) Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "bd7af55c-cc4c-4594-badc-d31ceb7d685a",
+      "confidence": 1.0,
+      "color_hex": "#fadb24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "0ddbc8b1-e0af-4492-b080-0cf9da727dc9",
+      "confidence": 1.0,
+      "color_hex": "#dac7a0",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/kingroon/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a4216339-570e-46d4-9e18-172e77c25eb4",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/kingroon/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

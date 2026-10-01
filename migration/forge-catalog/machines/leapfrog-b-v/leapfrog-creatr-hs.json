@@ -1,0 +1,275 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "leapfrog-b-v.leapfrog-creatr-hs",
+  "vendor": {
+    "slug": "leapfrog-b-v",
+    "name": "Leapfrog B.V."
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Leapfrog Creatr HS",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 270,
+      "y": 280,
+      "z": 180
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2020-05-12",
+    "max_speed_mms": 300,
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 2,
+    "dimensions_mm": {
+      "w": 600,
+      "d": 500,
+      "h": 500
+    },
+    "weight_kg": 30,
+    "price_rub": 265000,
+    "connectivity": [
+      "USB"
+    ],
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "PVA-пластик",
+      "LAYBRICK",
+      "Нейлон"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/leapfrog_creatr_hs.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/leapfrog_creatr_hs.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/leapfrog_creatr_hs.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "dimensions_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "weight_kg": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "price_rub": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/leapfrog_creatr_hs.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/leapfrog_creatr_hs.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/leapfrog_creatr_hs.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Скорость печати | 30-300 мм/сек",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество печатающих головок | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Размеры, мм | 600x500x500",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Вес, кг | 30",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "265 000 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Интерфейсы | USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Материалы | ABS-пластик PLA-пластик PVA-пластик LAYBRICK Нейлон",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/leapfrog_creatr_hs.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/leapfrog_creatr_hs.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/leapfrog-bv/creatr-hs",
+      "tier": "community",
+      "snapshot": "sha256:df2e66835dfdf293f9a3a6869f2c2ae6c401138496e438945e1c44740a263e50",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:29:48Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|cura-definitions-vs-community",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 270,
+            "y": 280,
+            "z": 180
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 270,
+            "y": 260,
+            "z": 180,
+            "shape": "rectangular"
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

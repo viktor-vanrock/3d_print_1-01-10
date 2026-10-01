@@ -1,0 +1,135 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "alzament.pla-plus",
+  "vendor": {
+    "slug": "alzament",
+    "name": "Alzament",
+    "website": "https://alzament.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA+",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "dee2dc33-a863-4a86-bcfd-d2c6ea13ba35",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-1kg-black-d12717991.htm"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "bea537da-cc22-454f-ad52-6f39c72cb4bd",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-1kg-blue-d12718001.htm"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "fd853494-bf51-4cf9-991a-369cc2465d90",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-1kg-red-d12717990.htm"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "e99f2003-489a-454a-8382-e331cdde7186",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-1kg-white-d12717987.htm"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "8e2f4c3e-1305-40c6-8235-1b759fbc568e",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-1kg-yellow-d12717995.htm"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla+/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla+/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla+/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f0f9fcc8-74a9-4270-99e4-b1dbd22828dc",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla+/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "anet.et4",
+  "vendor": {
+    "slug": "anet",
+    "name": "Anet"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "ET4",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 250
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 500,
+    "max_speed_mms": 150,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "profile_first_seen": "2019-12-20",
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 440,
+      "d": 340,
+      "h": 480
+    },
+    "weight_kg": 7.2,
+    "connectivity": [
+      "USB"
+    ],
+    "materials_supported": [
+      "PLA-пластик"
+    ],
+    "filament_runout_sensor": true,
+    "firmware_max_speed_mms": 500
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anet3d_et4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anet3d_et4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/68/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/68/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anet3d_et4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "dimensions_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "weight_kg": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_runout_sensor": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/68/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/anet3d_et4.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/anet3d_et4.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/68/cura/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Скорость печати | 20-150 мм/сек.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/68/cura/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/anet3d_et4.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Максимальная область построения, мм | 220*220*250 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр сопла, мм | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Размеры, мм | 44,0*34,0*48,0 см",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Вес, кг | около 7.2кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Интерфейсы | USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Материалы | PLA-пластик",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "нити обнаружения",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/68/cura/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/68/cura/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/anet3d_et4.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/anet3d_et4.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/anet-et4",
+      "tier": "community",
+      "snapshot": "sha256:7a8593abcff0d86b5f1244828b3c54a771a54434687cf87a3e83294c18e53d43",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 10,
+    "ready_for_catalog": true
+  }
+}

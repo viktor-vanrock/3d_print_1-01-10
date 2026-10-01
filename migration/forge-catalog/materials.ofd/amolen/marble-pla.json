@@ -1,0 +1,215 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "amolen.marble-pla",
+  "vendor": {
+    "slug": "amolen",
+    "name": "Amolen",
+    "website": "https://amolen.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Marble PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Brick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "443a6f4f-42fd-4115-9632-af79ffc0efd8",
+      "confidence": 1.0,
+      "color_hex": "#ed2602",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cement Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "9e5d0039-f5a9-4238-bb3a-376512f4f547",
+      "confidence": 1.0,
+      "color_hex": "#5c5b59",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fossil Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "c24822d2-5874-4a20-b813-42789619cb0e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Schist",
+      "diameter_mm": 1.75,
+      "external_ref": "05be0e45-8208-4175-b552-339d15dacd16",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow Rock",
+      "diameter_mm": 1.75,
+      "external_ref": "0b8a8e53-ef9d-43cf-995f-d6cb730b150e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Limestone",
+      "diameter_mm": 1.75,
+      "external_ref": "114681f8-fe75-4ca5-bfd9-44d297a07a48",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sedimentary Rock",
+      "diameter_mm": 1.75,
+      "external_ref": "63133eba-1c02-4cde-87c6-a1d44acb0181",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "249f37ac-25fd-47e3-92b8-ea9582a5c3e3",
+      "confidence": 1.0,
+      "color_hex": "#82e3ec",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Feldspar Rock",
+      "diameter_mm": 1.75,
+      "external_ref": "1d1cbb56-3a0b-48b3-8ba7-dbc319122692",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/marble_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6353ba19-784b-4c3b-a8d3-875917b95301",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/marble_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

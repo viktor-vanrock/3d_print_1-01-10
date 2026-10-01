@@ -1,0 +1,54 @@
+{
+ "slug": "history.user-sam-schmitz-reprap-paul-bunyan",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Paul_Bunyan",
+ "snapshot": "sha256:70e309f3390fd472007ee11433235b2e057212a169fb8f947a6be06c0211e14b",
+ "page_chars": 4561,
+ "fields": {
+  "summary": "RepRap Paul Bunyan — это крупный и прочный 3D-принтер с рамой из северной американской фанеры, предназначенный для пользователей, ищущих замену более легким моделям RepRap и готовых потратить немного больше денег. Устройство позиционируется как решение для тех, кому важны скорость, точность и стабильность, а не портативность или компактность.",
+  "limitations": [
+   "Не подходит для тех, кто заботится о портативности (вес)",
+   "Не подходит для тех, кто заботится о компактности (размер)",
+   "Не подходит для тех, кто строго ограничен в бюджете и не готов потратить немного больше"
+  ],
+  "kinematics": "corexy",
+  "build_volume": {
+   "x": 280,
+   "y": 200,
+   "z": 250,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 200,
+  "enclosed": true,
+  "heated_bed": true
+ },
+ "evidence": {
+  "summary": "Large sturdy printer made from North American hardwood plywood",
+  "limitations": "I do not care about portability as the printer will very rarely move.",
+  "kinematics": "CoreXY axis",
+  "build_volume": "Print Size: 8\"x11\" (200mmx280mm) Print Height: 10\" (250mm)",
+  "max_speed_mms": "Max. Print Speed: 200mm/s (estimated)",
+  "enclosed": "Full enclosure temperature control",
+  "heated_bed": "AC powered heatbed"
+ },
+ "unconfirmed": [],
+ "unique_features": [],
+ "via_base_model": false,
+ "tags": [
+  "corexy",
+  "закрытый"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:30:05Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Paul Bunyan",
+ "maker": "User:Sam Schmitz",
+ "model": "RepRap Paul Bunyan",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Paul_Bunyan"
+}

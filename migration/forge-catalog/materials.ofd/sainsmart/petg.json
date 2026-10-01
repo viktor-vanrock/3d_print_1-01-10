@@ -1,0 +1,220 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sainsmart.petg",
+  "vendor": {
+    "slug": "sainsmart",
+    "name": "SainSmart",
+    "website": "https://sainsmart.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black -3",
+      "diameter_mm": 1.75,
+      "external_ref": "29ea8cc8-bba7-45ed-a2c9-38c67a5a3a58",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue -3",
+      "diameter_mm": 1.75,
+      "external_ref": "e2e5a269-a951-4953-afcc-35d90e02f853",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown -3",
+      "diameter_mm": 1.75,
+      "external_ref": "545539e4-2f87-489b-8826-1212031d4b9b",
+      "confidence": 1.0,
+      "color_hex": "#bb6d48",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Brown -3",
+      "diameter_mm": 1.75,
+      "external_ref": "dd1956c5-6d32-4b78-97f0-a12d4e59b515",
+      "confidence": 1.0,
+      "color_hex": "#7e4f4a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver -3",
+      "diameter_mm": 1.75,
+      "external_ref": "2a77495a-90ba-497a-9394-18aa434ad329",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Rainbow -3",
+      "diameter_mm": 1.75,
+      "external_ref": "8151af3b-5a0d-4fed-a401-8e302412eba2",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent -3",
+      "diameter_mm": 1.75,
+      "external_ref": "0d2e9495-b5c2-4bb9-b8d5-80d7102b624a",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet -3",
+      "diameter_mm": 1.75,
+      "external_ref": "009b33c8-4a12-457c-86f9-8269c5b4ffc6",
+      "confidence": 1.0,
+      "color_hex": "#e2d9f7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White -3",
+      "diameter_mm": 1.75,
+      "external_ref": "2183b1a9-00e2-4e4c-a2ab-76c7c9e94d94",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sainsmart/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "dd72ec1f-ac13-49f6-90c9-285288ee131c",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sainsmart/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

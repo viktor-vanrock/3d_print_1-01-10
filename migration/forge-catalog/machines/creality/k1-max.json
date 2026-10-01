@@ -1,0 +1,1162 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.k1-max",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "K1 Max",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 300
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "WiFi",
+      "RJ45 Ethernet",
+      "USB",
+      "Ethernet"
+    ],
+    "heated_bed": true,
+    "kinematics": "corexy",
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 600,
+    "nozzle_diameters": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-09-06",
+    "firmware": "Creality OS",
+    "summary": "K1 Max — это высокоскоростной 3D-принтер с большим объемом печати (300x300x300 мм), позиционируемый для быстрого прототипирования и проверки дизайна. Устройство сочетает высокую скорость печати с системами автоматического контроля качества и встроенной очисткой воздуха.",
+    "unique_features": [
+      "Скорость печати до 600 мм/с при ускорении 20000 мм/с²",
+      "Легкая печатающая голова весом 190 г",
+      "Керамический нагреватель, нагревающийся до 200°C за 40 секунд",
+      "Двухвентиляторное охлаждение модели",
+      "AI LiDAR для сканирования первого слоя с разрешением 1 мкм",
+      "AI камера для обнаружения ошибок печати (спагетти, мусор)",
+      "Встроенный воздушный фильтр для очистки воздуха",
+      "Двухъядерный процессор 1.2 ГГц с 8 ГБ ПЗУ",
+      "Жесткая рама из литого алюминиевого сплава"
+    ],
+    "target_use": [
+      "Быстрое прототипирование",
+      "Проверка дизайна",
+      "Массовое производство (при объединении нескольких принтеров)"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_flow_mm3s": 32,
+    "firmware_max_speed_mms": 800,
+    "firmware_max_accel_mms2": 20000,
+    "extruder_type": "direct_drive",
+    "price_usd": 899,
+    "camera": true,
+    "air_filter": true,
+    "price_rub": 69900,
+    "in_stock_ru": false,
+    "max_bed_temp_c": 120,
+    "filament_diameter_mm": 1.75,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 462,
+      "d": 435,
+      "h": 526
+    },
+    "weight_kg": 18,
+    "enclosed": true,
+    "chamber_active": false,
+    "multimaterial_supported": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.35,
+    "power_w": 1000,
+    "bed_surface": "полиэфиримидное покрытие",
+    "screen_type": "4,3-дюймовый цветной сенсорный",
+    "materials_supported": [
+      "АБС",
+      "АСА",
+      "ПЛА",
+      "ТПУ",
+      "ПЭТ-Г",
+      "полиамиды",
+      "поликарбонат",
+      "угленаполненные композиты"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_k1max.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/410/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_flow_mm3s": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.6
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "extruder_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "camera": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_rub": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality3d_k1_max_2025/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality3d_k1_max_2025/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "multimaterial_supported": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "bed_surface": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_k1max.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/410/bambustudio/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "based on 20000mm/s² acceleration.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "K1 Max reaches 600mm/s* in only 0.03s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "K1 Max adopts the smart Creality OS.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "K1 Max boasts a 300x300x300mm large build volume, great for rapid prototyping or design verification.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "K1 Max reaches 600mm/s* in only 0.03s based on 20000mm/s² acceleration.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "great for rapid prototyping or design verification.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Hotend with a titanium alloy heatbreak and a hardened steel nozzle, working well in up to 300℃.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max. 32mm³/s Flow",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Dual-gear direct extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "$899.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "K1 Max uses an AI camera to watch over spaghetti failure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "The built-in air filters will purify unhealthy compounds",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "69 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область печати, XYZ 300x300x300 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 600",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура платформы, °С 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Кол-во печатающих экструдеров (голов) 1 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Габариты товара ДxШxВ (см) 43,5x46,2x52,6",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес нетто (кг) 18",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Поддержка многоцветной печати",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура экструдера, °C | 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, мм | 300х300х300 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость печати | 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "благодаря ускорению 20000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "закалённым стальным соплом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Датчики деформации, встроенные в нагревательный стол",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "AI-камера следит за процессом в режиме реального времени",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "встроенные воздушные фильтры очищают воздух от вредных веществ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Толщина слоя, мкм | 0.1 - 0.35 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Толщина слоя, мкм | 0.1 - 0.35 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Электропитание | 100-120V~, 200-240V~, 50/60Hz, 1000W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Максимальная температура хотэнда | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Область построения, мм | 300х300х300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Максимальная скорость печати | 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Воздушный фильтр | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Столик | подогреваемый гибкий с полиэфиримидным покрытием",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Дисплей | 4,3-дюймовый цветной сенсорный",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Материалы | АБС, АСА, ПЛА, ТПУ, ПЭТ-Г, полиамиды, поликарбонат, угленаполненные композиты и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K1 Max (0.4 nozzle).json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/410/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/410/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/creality_k1max.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_k1max.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "creality-official",
+      "url": "https://www.creality.com/products/creality-k1-max-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:c7befb64006fb418cad0a2811729ce9060f700b282641b81d6afd145add046d0",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s5",
+      "source": "creality-official",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality3d_k1_max_2025/",
+      "tier": "vendor",
+      "snapshot": "sha256:6971d396b7c19b8e0ae553c75ad79dbd406164d8bdc12099e6e32a8c34f8e5f0",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:57:16Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-creality-k1-max",
+      "tier": "catalog",
+      "snapshot": "sha256:ea1c9f5d8a1cdd535ed458eae6d3f52313383b6abc92bfdc56b26f08be78dc0e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-creality-k1-max/",
+      "tier": "catalog",
+      "snapshot": "sha256:3e531dd8c0b101095f5d800627e6a08914fb07335654851f462686d06bc96ce9",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k1-max",
+      "tier": "community",
+      "snapshot": "sha256:22e3ec7f8e6cdd225228530b7437b7920d16c0aab26104b6963c84b895b9f135",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|structural-vs-structural|orca|spdb",
+      "values": [
+        {
+          "value": 1000,
+          "source_id": "s2",
+          "kind": "spec"
+        },
+        {
+          "value": 800,
+          "source_id": "s1",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|structural-vs-structural|orca|spdb",
+      "values": [
+        {
+          "value": false,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 800,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 600,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "WiFi",
+            "RJ45 Ethernet"
+          ],
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|vendor-vs-structural",
+      "values": [
+        {
+          "value": false,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 8,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  }
+}

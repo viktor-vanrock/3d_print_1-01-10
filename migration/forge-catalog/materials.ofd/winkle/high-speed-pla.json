@@ -1,0 +1,197 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "winkle.high-speed-pla",
+  "vendor": {
+    "slug": "winkle",
+    "name": "Winkle",
+    "website": "https://winkle.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "High Speed PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Ash Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "a7e21c04-b68b-41cf-8005-b76f60800ca0",
+      "confidence": 1.0,
+      "color_hex": "#9f9f9f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Canary Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "bfd92490-8c90-4b78-aaad-741907ad02b2",
+      "confidence": 1.0,
+      "color_hex": "#fadb24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Devil Red",
+      "diameter_mm": 1.75,
+      "external_ref": "ae1b82b9-0244-431f-9e56-4677d6d5e81c",
+      "confidence": 1.0,
+      "color_hex": "#bb2e33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glacier White",
+      "diameter_mm": 1.75,
+      "external_ref": "14718f61-b074-4389-afbc-1df819ff2252",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "68528065-b763-4486-b3bf-6297ef9b29e5",
+      "confidence": 1.0,
+      "color_hex": "#292824",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ae0b3aef-6302-4a14-a367-b44fecfe3f14",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PLA/high_speed_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ac4046f8-16c9-43ec-8567-821d2c5016b1",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PLA/high_speed_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

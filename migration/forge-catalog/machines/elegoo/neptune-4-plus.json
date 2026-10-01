@@ -1,0 +1,1082 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "elegoo.neptune-4-plus",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "Elegoo"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Neptune 4 Plus",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 320,
+      "y": 320,
+      "z": 385
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "Wi-Fi",
+      "WLAN",
+      "USB"
+    ],
+    "heated_bed": true,
+    "max_accel_mms2": 12000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-12-09",
+    "bed_surface": "PEI",
+    "auto_leveling": "121 (11 × 11) Points Auto Bed Leveling",
+    "summary": "ELEGOO Neptune 4 Plus — это FDM 3D-принтер с рабочим объемом 320 × 320 × 385 мм и максимальной скоростью печати 500 мм/с. Устройство оснащено соплом, поддерживающим температуру до 300 °C, и системой автоматической калибровки стола.",
+    "unique_features": [
+      "Рабочий объем 320 × 320 × 385 мм",
+      "Максимальная скорость 500 мм/с",
+      "Автоматическая калибровка стола по 121 точке",
+      "Высокотемпературное сопло 300 °C",
+      "Поддержка передачи данных по Wi-Fi/WLAN/USB",
+      "Версия Type-C с обновлениями OTA"
+    ],
+    "max_nozzle_temp_c": 300,
+    "firmware_max_speed_mms": 500,
+    "filament_diameter_mm": 1.75,
+    "price_usd": 369.0,
+    "materials_supported": [
+      "PLA",
+      "TPU",
+      "PETG",
+      "ABS",
+      "ASA",
+      "Nylon"
+    ],
+    "warranty_months": 12,
+    "price_rub": 34900,
+    "in_stock_ru": true,
+    "firmware": "Klipper",
+    "max_bed_temp_c": 100,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 578,
+      "d": 533,
+      "h": 640
+    },
+    "weight_kg": 14.4,
+    "filament_runout_sensor": true,
+    "firmware_max_accel_mms2": 7000,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false,
+    "power_loss_recovery": true,
+    "screen_type": "4.3-дюймовый сенсорный",
+    "extruder_type": "direct_drive",
+    "noise_db": 50
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_4plus.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_speed_mms": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_4plus.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "filament_diameter_mm": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "elegoo-official",
+      "source_url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_rub": {
+      "source": "elegoo-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "elegoo-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "screen_type": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/elegoo/neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "noise_db": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/467/bambustudio/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/467/bambustudio/machine_profiles.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_neptune_4plus.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | 12000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "500 mm/s Max Speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/467/bambustudio/machine_profiles.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/467/bambustudio/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/elegoo_neptune_4plus.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PEI Platform Plate/PEI Platform Kit/PEI Magnetic Platform Kit/Build Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "121 (11 × 11) Points Auto Bed Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "ELEGOO Neptune 4 Plus FDM 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "320 × 320 × 385 mm Build Volume",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "300 °C High-Temp Nozzle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PLA Filament 1.75mm Grey 10KG",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$369.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Support PLA/TPU/PETG/ABS/ASA/Nylon Filaments",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "All Brand New Machines & Parts ... 12 months",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "34 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Рабочая температура экструдера | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 320x320x385 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | 500 мм/с (макс.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейс подключения | USB, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип материала | ABS, PLA, PETG, Nylon (Нейлон), ASA, TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева площадки | 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Встроенная прошивка Klipper",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева площадки | 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 578x533x640 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес (без упаковки) | 14.4 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик окончания филамента | Есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область печати, XYZ 320x320x385 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 500",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Способ отправки файлов на печать USB (Кабель), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Поддерживаемые материалы PLA, ABS, TPU, PETG, Nylon",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура экструдера, °C | 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, мм | 320x320x385 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость печати | до 500 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Интерфейсы | USB (Кабель), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "4,3-дюймовым сенсорным экраном",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "High-Temp Nozzle Kit for temperatures up to 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Build volume 320 x 320 x 385 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. speed 500 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Interfaces: USB - Connection, WIFI - WLAN",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Heated print bed: Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура хотэнда | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Область построения, мм | 320х320х385",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Интерфейс | Wi-Fi, USB, WLAN",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Материалы | АБС, АСА, ПЛА, ТПУ, ПЭТГ, нейлон и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Шумность | менее 50 дБ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/467/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/467/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/elegoo_neptune_4plus.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/elegoo_neptune_4plus.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "elegoo-official",
+      "url": "https://www.elegoo.com/products/neptune-4-plus-fdm-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:50e9b9babf24d9f1e3b040f184d1fefcbcb353513285bef1f915441a51e6cb73",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:07:19Z",
+      "publisher": "Elegoo"
+    },
+    {
+      "source_id": "s4",
+      "source": "elegoo-official",
+      "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "tier": "vendor",
+      "snapshot": "sha256:fb182aa5648fa3b19765c8b90f6f42b7a65afc0a83b287186c89ebd4887d22df",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T11:02:49Z",
+      "publisher": "Elegoo"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/elegoo/3d_printer_elegoo_neptune_4_plus/",
+      "tier": "catalog",
+      "snapshot": "sha256:1495a64dc81f17db15e6d8db0151887085e67aeaf0610b1fb3689e51dd75ab63",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-elegoo-neptune-4-plus",
+      "tier": "catalog",
+      "snapshot": "sha256:698769b38fb5066a57ab740e47a5f5601ca096e320eed4c5e2851f3fbb851d66",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-elegoo-neptune-4-plus/",
+      "tier": "catalog",
+      "snapshot": "sha256:eb6dc1d6a54c9841bef77d8f8ce82486aa36642b899a94fdfd192a858580c28f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/elegoo/neptune-4-plus",
+      "tier": "catalog",
+      "snapshot": "sha256:403a43417ea7feeeff708dbb156010256dfaa5db119478e5e915e50349ee447c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DJake"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Elegoo/elegoo-neptune-4-plus",
+      "tier": "community",
+      "snapshot": "sha256:a9ef18439f4faeee647db1e7bbaa084a3f4e1daf716aa30ac17aca98ccab7c33",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|structural-vs-structural|cura|spdb",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 320,
+            "y": 320,
+            "z": 385
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 330,
+            "y": 330,
+            "z": 387
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "Wi-Fi",
+            "WLAN",
+            "USB"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics",
+      "power_w"
+    ],
+    "sources_count": 9,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  }
+}

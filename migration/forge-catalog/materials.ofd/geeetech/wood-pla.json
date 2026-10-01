@@ -1,0 +1,213 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "geeetech.wood-pla",
+  "vendor": {
+    "slug": "geeetech",
+    "name": "Geeetech",
+    "website": "https://geeetech.com",
+    "origin": "CH"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Wood",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 25,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "wood"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black Walnut",
+      "diameter_mm": 1.75,
+      "external_ref": "0005f079-4030-42f6-b42b-039c4abc87b7",
+      "confidence": 1.0,
+      "color_hex": "#5c4033",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ebony",
+      "diameter_mm": 1.75,
+      "external_ref": "4576936f-16bc-48be-bad0-875e315cd091",
+      "confidence": 1.0,
+      "color_hex": "#3b2f2f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Poplar",
+      "diameter_mm": 1.75,
+      "external_ref": "f546650a-c283-4e04-b5d2-f8e406bc16a3",
+      "confidence": 1.0,
+      "color_hex": "#e8d5b7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "4d7a9aa4-694a-4d09-be78-c2e1f968da6d",
+      "confidence": 1.0,
+      "color_hex": "#c4a882",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wood Ebony",
+      "diameter_mm": 1.75,
+      "external_ref": "fd4c9cd8-7f87-4d3d-a328-16ff630aab37",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wood Por",
+      "diameter_mm": 1.75,
+      "external_ref": "2af31dee-634a-4f17-b059-60a7344db3e8",
+      "confidence": 1.0,
+      "color_hex": "#efe8d8",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/wood_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "b8dceef9-5613-4e39-8629-a9293f0618a1",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/wood_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

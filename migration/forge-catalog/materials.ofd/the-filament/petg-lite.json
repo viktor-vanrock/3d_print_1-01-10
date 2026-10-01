@@ -1,0 +1,167 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "the-filament.petg-lite",
+  "vendor": {
+    "slug": "the-filament",
+    "name": "The Filament",
+    "website": "https://spectrumfilaments.com/en/brand/the-filament-en/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG Lite",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.29,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "9cd58472-44b6-4a69-b1d1-0651f8709369",
+      "confidence": 1.0,
+      "color_hex": "#191a1c",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3403-The-Filament-ReFill-PETG-Lite-1-75mm-BLACK-1kg.html"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6d85dd1d-7a75-4549-8725-e32f7a13447a",
+      "confidence": 1.0,
+      "color_hex": "#2fbce9",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3398-The-Filament-ReFill-PETG-Lite-1-75mm-BLUE-1kg.html"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f899153d-19b6-4620-935c-d2581fa40237",
+      "confidence": 1.0,
+      "color_hex": "#b1d743",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3401-The-Filament-ReFill-PETG-Lite-1-75mm-GREEN-1kg.html"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "b977e6f2-daf8-4f47-935e-134e2c2a1c60",
+      "confidence": 1.0,
+      "color_hex": "#575c5f",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3402-The-Filament-ReFill-PETG-Lite-1-75mm-GREY-1kg.html"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "5aca8ae6-95a0-4ce0-a55b-de9e399cd804",
+      "confidence": 1.0,
+      "color_hex": "#f44727",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3397-The-Filament-ReFill-PETG-Lite-1-75mm-RED-1kg.html"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "4ca42968-0b4a-4d67-9ea4-ba577929ca8d",
+      "confidence": 1.0,
+      "color_hex": "#c0cacb",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3399-The-Filament-ReFill-PETG-Lite-1-75mm-SILVER-1kg.html"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7fe96a9e-adf8-4cb8-9218-3c22e065508d",
+      "confidence": 1.0,
+      "color_hex": "#f3f3f1",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3396-The-Filament-ReFill-PETG-Lite-1-75mm-WHITE-1kg.html"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "e875abb9-411e-46a6-8a09-8f6d979114c3",
+      "confidence": 1.0,
+      "color_hex": "#f9da32",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3400-The-Filament-ReFill-PETG-Lite-1-75mm-YELLOW-1kg.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/PETG/petg_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/PETG/petg_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/PETG/petg_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/PETG/petg_lite/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/PETG/petg_lite/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/PETG/petg_lite/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8f53380a-7c62-4837-811d-41f0a44a1c89",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/PETG/petg_lite/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

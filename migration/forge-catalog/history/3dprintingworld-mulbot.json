@@ -1,0 +1,62 @@
+{
+ "slug": "history.3dprintingworld-mulbot",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Mulbot",
+ "snapshot": "sha256:c624f4c29bada1e6dc7e0d5d031d898889f4e725ff05d90d101bd0899d0f9e3a",
+ "page_chars": 2886,
+ "fields": {
+  "bed_surface": "Glass",
+  "summary": "Mulbot — это открытый 3D-принтер типа FFF, конструкция которого напечатана на самом себе (Mostly Printed Printer). Он предназначен для пользователей, желающих расширить концепцию RepRap, печатая не только корпус, но и механические компоненты, такие как подшипники и системы привода.",
+  "unique_features": [
+   "3D-печатные корпуса для шариковых подшипников с рециркуляцией",
+   "Полностью 3D-печатные кинематические системы (шестерни, направляющие, винты)",
+   "Отсутствие покупных подшипниковых узлов и систем привода",
+   "Использование шариков из нержавеющей стали G100 для снижения трения"
+  ],
+  "limitations": [
+   "Требует начального принтера (оригинальный Mulbot печатался на Original Prusa MK3)",
+   "Использует менее 2 кг филамента (ограничение по объему печати)",
+   "Не поддерживает репликацию (Replication: No)"
+  ],
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "bowden",
+  "power_w": 150,
+  "voltage_v": 12,
+  "heated_bed": true
+ },
+ "evidence": {
+  "bed_surface": "Print Surface: 8-1/2” Square Floating Glass Bed",
+  "summary": "The Mulbot is an open source Mostly Printed 3D printer that features a 3D printed frame, bearing blocks, and drive systems.",
+  "unique_features": "A mostly printed printer that utilizes 3D printed recirculating bearing ball housings and 3D printed kinematics for motion.",
+  "limitations": "The original Mulbot was printed on a Original Prusa MK3",
+  "filament_diameter_mm": "Capricorn XC 1.75 Bowden Tubing",
+  "extruder_type": "Capricorn XC 1.75 Bowden Tubing",
+  "power_w": "150W 12V Power Supply",
+  "voltage_v": "150W 12V Power Supply",
+  "heated_bed": "Print Surface: 8-1/2” Square Floating Glass Bed"
+ },
+ "unconfirmed": [
+  "heated_bed"
+ ],
+ "unique_features": [
+  "3D-печатные корпуса для шариковых подшипников с рециркуляцией",
+  "Полностью 3D-печатные кинематические системы (шестерни, направляющие, винты)",
+  "Отсутствие покупных подшипниковых узлов и систем привода",
+  "Использование шариков из нержавеющей стали G100 для снижения трения"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:57:18Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Mulbot",
+ "maker": "3DPrintingworld",
+ "model": "Mulbot",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Mulbot"
+}

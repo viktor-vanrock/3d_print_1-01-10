@@ -1,0 +1,288 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "amolen.glow-pla",
+  "vendor": {
+    "slug": "amolen",
+    "name": "Amolen",
+    "website": "https://amolen.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Glow PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "glow"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3e556818-865c-41cd-bda0-4410276bcea9",
+      "confidence": 1.0,
+      "color_hex": "#0022ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "d0d47903-37c4-44e9-846b-2a3e55e5db16",
+      "confidence": 1.0,
+      "color_hex": "#ae00ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Firefly Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "19269335-ef0e-4b0e-8032-fad4e686bf2a",
+      "confidence": 1.0,
+      "color_hex": "#0095ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Firefly Green",
+      "diameter_mm": 1.75,
+      "external_ref": "698ca0bc-d694-4427-98c1-0bfd9c625165",
+      "confidence": 1.0,
+      "color_hex": "#00cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "994ea693-bd29-4420-938b-07f6fdacf0ea",
+      "confidence": 1.0,
+      "color_hex": "#00cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "10c41000-7339-4c4e-afa8-44b607551cef",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "7ce79504-d2de-4533-b0ea-da8755b10406",
+      "confidence": 1.0,
+      "color_hex": "#ae00ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow 10M",
+      "diameter_mm": 1.75,
+      "external_ref": "c0bb3caa-ef74-4635-aa50-a4f4adf5d331",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow 10m -Neon Nightfall",
+      "diameter_mm": 1.75,
+      "external_ref": "bb39f6d3-e9c6-4e7f-94aa-2e9c6a222f07",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow 5m",
+      "diameter_mm": 1.75,
+      "external_ref": "5902eca9-e272-4255-a59f-b2219e68b067",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow Flux",
+      "diameter_mm": 1.75,
+      "external_ref": "7aac618b-de66-48d3-99d6-bd1d5cb50baa",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "9514c5e0-d807-4660-b50d-d3d0657b9684",
+      "confidence": 1.0,
+      "color_hex": "#ed2602",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Starry Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "44a66b44-e869-4ff1-99b2-431a05b68d5d",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Starry Sky Green",
+      "diameter_mm": 1.75,
+      "external_ref": "785869bd-d4e3-472c-94ac-988e13d4dbb1",
+      "confidence": 1.0,
+      "color_hex": "#00cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "3a29ca44-8f61-4284-ad96-38f2a72cc6b7",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "1528b741-9156-46c1-869f-60778df67306",
+      "confidence": 1.0,
+      "color_hex": "#ffbf00",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/glow_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9fbab6a7-ee50-4a84-97a8-49fb01a2b955",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/glow_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

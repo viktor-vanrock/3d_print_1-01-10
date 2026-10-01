@@ -1,0 +1,213 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "matterhackers.tpu",
+  "vendor": {
+    "slug": "matterhackers",
+    "name": "MatterHackers",
+    "website": "https://matterhackers.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "nozzle_temp_min_c": 210,
+      "nozzle_temp_max_c": 240,
+      "bed_temp_min_c": 30,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "b200bc28-bb8c-4089-b33e-03ac71e680bc",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "41b303a6-2b07-4f5a-a87c-0e5c5c10122c",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "f2da80e9-2508-4a3e-a87d-4dfa65bdaf8f",
+      "confidence": 1.0,
+      "color_hex": "#b6b9bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "04f28ea7-66a9-4b8f-90d8-31a15a628106",
+      "confidence": 1.0,
+      "color_hex": "#62e480",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "f4f7e39d-867e-4052-b69b-9dbfea484551",
+      "confidence": 1.0,
+      "color_hex": "#b8bab8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural Translucent Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "76b0f5ef-1eb8-4033-b7d2-e7b412e371eb",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "7e5119a8-3885-4eae-9e54-464c455e5238",
+      "confidence": 1.0,
+      "color_hex": "#ff2c29",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Series (Thermoplastic Polyurethane)",
+      "diameter_mm": 1.75,
+      "external_ref": "f4fc983b-4670-45c9-849b-594a22dafff0",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/TPU/tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8a555892-bfc1-4a2e-9d2b-b5b39e7442ac",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/TPU/tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primacreator.easyprint-pla",
+  "vendor": {
+    "slug": "primacreator",
+    "name": "PrimaCreator",
+    "website": "https://primacreator.com",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Easyprint PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "32c5685e-99cf-45af-b9f6-76bcfb4d123a",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "319429dc-b7d5-49ff-a7f0-43ecab20eb60",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "75a1d008-08ff-436c-8dda-8648dedabeac",
+      "confidence": 1.0,
+      "color_hex": "#8c7354",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "ff6a3dcf-30fe-4ec6-96b5-36c14d3ce6bc",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "6af577c8-d624-4844-b869-6a0a8df62c4b",
+      "confidence": 1.0,
+      "color_hex": "#e3b145",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "bb5b3574-a6f5-4633-bebe-abfa817197e1",
+      "confidence": 1.0,
+      "color_hex": "#11784f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "396bf403-916e-4505-9d15-ce0314ea5f8a",
+      "confidence": 1.0,
+      "color_hex": "#bcbfc2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "dafaec0f-1e9f-4d62-af95-56143f405c5f",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "67767152-e3ba-425f-aa8a-892069804ca3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "ab065f6b-bb2f-482f-a8ed-1233c88f6058",
+      "confidence": 1.0,
+      "color_hex": "#c00000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "86344787-a0c7-4b3b-b5ca-78c646d173a1",
+      "confidence": 1.0,
+      "color_hex": "#6f727e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "a7d91ef1-bb92-4b7b-aa2a-3b4db0929be3",
+      "confidence": 1.0,
+      "color_hex": "#efe8d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7124860a-d6c3-4880-a43f-47b2dd46921d",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/easyprint_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0c6457d6-5efd-4db7-89de-69dbad3cbfa9",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/easyprint_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

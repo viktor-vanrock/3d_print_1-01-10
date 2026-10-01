@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "l3d.petg",
+  "vendor": {
+    "slug": "l3d",
+    "name": "L3D",
+    "website": "https://shop.lab3d.dk",
+    "origin": "DK"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "dry_temp_c": 50,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "36149faa-22cd-444c-a275-d505252b76fd",
+      "confidence": 1.0,
+      "color_hex": "#a3a3a3",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.lab3d.dk/products/lab3d-filament-petg-grey-1-75mm-1kg"
+    },
+    {
+      "color_name": "Matt Black",
+      "diameter_mm": 1.75,
+      "external_ref": "097b8fb0-a9c9-46ee-8939-787c2b6ba976",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.lab3d.dk/products/lab3d-filament-petg-black-1-75mm-1kg"
+    },
+    {
+      "color_name": "Matt White",
+      "diameter_mm": 1.75,
+      "external_ref": "e4498c13-24e7-482f-9b74-6fca1e751746",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.lab3d.dk/products/lab3d-filament-petg-white-1-75mm-1kg"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d5766f39-c619-4228-9ab1-8c7073b61bd4",
+      "confidence": 1.0,
+      "color_hex": "#ff810a",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.lab3d.dk/products/lab3d-filament-petg-orange-1-75mm-1kg"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "7af8193f-3ad8-4111-aec4-b8cd7dcb11ed",
+      "confidence": 1.0,
+      "color_hex": "#ffee00",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.lab3d.dk/products/lab3d-filament-petg-yellow-1-75mm-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/l3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/l3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/l3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/l3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/l3d/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/l3d/PETG/petg/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/l3d/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/l3d/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e04df465-a003-41c4-89bb-3142d94c8d78",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/l3d/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

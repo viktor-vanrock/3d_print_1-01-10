@@ -1,0 +1,1525 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "flashforge.guider-3-ultra",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FlashForge"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Guider 3 Ultra",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 330,
+      "z": 600
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "USB",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2024-03-20",
+    "bed_surface": "Flexible Steel Plate Platform",
+    "auto_leveling": "Full-auto one-click leveling",
+    "screen_type": "7 Inch Touch LCD screen",
+    "summary": "Flashforge Guider 3 Ultra — это закрытый 3D-принтер с системой Core-XY и двумя экструдерами, предназначенный для печати крупных деталей (до 600 мм в высоту) и сложных моделей с растворимыми поддержками. Устройство позиционируется как решение для профессионалов и энтузиастов, требующих высокой точности и стабильности.",
+    "unique_features": [
+      "Core-XY структура с металлическими компонентами",
+      "Два экструдера для печати растворимыми поддержками",
+      "Полностью автоматическая калибровка стола без участия пользователя",
+      "Система HEPA 13 для фильтрации воздуха",
+      "Двойные шариковые винты по оси Z",
+      "Восстановление печати после отключения питания",
+      "Удаленное наблюдение через камеру"
+    ],
+    "limitations": [
+      "При использовании двух экструдеров объем печати уменьшается до 300 × 330 × 600 мм",
+      "Стекло для печати не предусмотрено (используется гибкая стальная пластина)",
+      "Отсутствует интеллектуальный датчик двери",
+      "Требуется вытяжка (упоминается система фильтрации, но не как встроенная вытяжка для всех материалов)"
+    ],
+    "max_nozzle_temp_c": 350,
+    "max_bed_temp_c": 120,
+    "kinematics": "corexy",
+    "firmware_max_speed_mms": 600,
+    "max_travel_speed_mms": 500,
+    "firmware_max_accel_mms2": 20000,
+    "layer_height_min_mm": 0.05,
+    "layer_height_max_mm": 0.4,
+    "positioning_accuracy_mm": 0.011,
+    "extruder_count": 2,
+    "dimensions_mm": {
+      "w": 635,
+      "d": 550,
+      "h": 1070
+    },
+    "weight_kg": 70,
+    "power_w": 850,
+    "price_usd": 2399.0,
+    "enclosed": true,
+    "heated_bed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "warranty_months": 12,
+    "discontinued": true,
+    "release_status": "eol",
+    "filament_diameter_mm": 1.75,
+    "price_rub": 619000,
+    "chamber_active": false,
+    "materials_supported": [
+      "ПЛА",
+      "ПЭТГ",
+      "АБС",
+      "АСА",
+      "поликарбонат",
+      "ударопрочный полистирол",
+      "полиамиды (нейлоны)",
+      "угле- и стеклонаполненные композиты"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_travel_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "layer_height_min_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "layer_height_max_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "positioning_accuracy_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "extruder_count": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "discontinued": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Acceleration 20000 mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing speed 10–500 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Magnetic Printing bed Flexible Steel Plate Platform",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Auxiliary leveling Full-auto one-click leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Touch LCD screen 7 Inch",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Flashforge Guider 3 Ultra Refurbished 3D Printer... Core-XY structure ensures rigidity and precision for stable, accurate prints... Dual extruders simplify complex models with soluble supports",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Core-XY structure, with its metal components, provides high rigidity... Dual extruders simplify complex models with soluble supports... Hands-free fully automatic bed leveling and calibration... HEPA 13 Air Filtration System... Dual Z-axis ball screws ensure precision... Power Loss Recovery... Remote camera watching",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Build size... Dual extruders: 300 × 330 × 600 mm... Glass printing bed: ×... Intelligent door sensor: ×",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max extruder temperature 350℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Heating bed setting support 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Core-XY structure ensures rigidity and precision for stable, accurate prints",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max travel speed 500 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer thickness 0.05~0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer thickness 0.05~0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Position precision X/Y-axis: 0.011 mm; Z-axis: 0.0025 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Extruder Quantity 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Device size 635 × 550 × 1070 mm (excluding the protruding width of the filament box)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Net weight 70 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power supply AC 100–240 V, 50/60 Hz, 850 W MAX",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $2,399.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Close design √",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Heating bed setting support 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Remote camera watching √",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament running out reminding √",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Continue last printing when power off √",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Air filter net √",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "1-year warranty on printers, 3-months on extruder parts... Flashforge offers a 1-year limited warranty for its 3D printers",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "температура сопла может достигать 350°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | до 120 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размер области построения | Один экструдер: 330 x 330 x 600 мм, двойной экструдер: 300 x 330 x 600 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Скорость печати | до 500 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Ускорение | 20000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0.05 ~ 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0.05 ~ 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Точность позиционирования по оси XY | 0.011 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла (мм) | 0.4 (0.6/0.8)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество экструдеров | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размеры (без упаковки) | 635х550х1070 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес (без упаковки) | 70 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Мощность | 850 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | до 120 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Встроенная HD-камера | Благодаря встроенной HD-камере, можно производить мониторинг печати в реальном времени.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Датчик окончания филамента | Автоматический датчик окончания филамента позволяет контролировать количество нити.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Защита от отключения электроэнергии | При внезапной потере питания, 3D-принтер возобновит печать с момента остановки сразу же после устранения проблемы.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Воздушный фильтр HEPA-фильтр | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура экструдера, °С 350",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура платформы, °С 120",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Область печати, XYZ 330x330x600 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная скорость печати, мм/с 500",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла 0.4 мм, доступны варианты 0.6 и 0.8 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Кол-во печатающих экструдеров (голов) 2 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Габариты товара ДxШxВ (см) 63,5x55x107",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес нетто (кг) 70",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "подключением через Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "619 000 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура хотэнда | 350°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура столика | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размер области построения | 330х330х600 мм (одним экструдером)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя | 0,05-0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный), 0,6 и 0,8 мм (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Количество экструдеров | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Габариты | 635х550х1070 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес | 70 кг (нетто)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Питание | 100-240 В AC, 50-60 Гц, 850 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Интерфейс | USB, Wi-Fi, Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Рабочий объем полностью закрыт для термостабилизации",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура столика | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вебкамера | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Функция сохранения | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Фильтрация воздуха | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Расходные материалы | ПЛА, ПЭТГ, АБС, АСА, поликарбонат, ударопрочный полистирол, полиамиды (нейлоны), угле- и стеклонаполненные композиты, и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Guider 3 Ultra 0.4 Nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "flashforge-official",
+      "url": "https://www.flashforge.com/products/flashforge-guider-3-ultra-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:c9ccd15e7017e77ae44c8aea11f1d49d772cff791cc589ba38888aaf4567199f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s3",
+      "source": "flashforge-official",
+      "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+      "tier": "vendor",
+      "snapshot": "sha256:3de8f0625e30729b3693eaa891497db618f29ce936ff1ec65f522c20ec64e083",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T15:15:01Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s4",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/promyshlennye/3d_printer_flashforge_guider_3_ultra/",
+      "tier": "catalog",
+      "snapshot": "sha256:3de8f0625e30729b3693eaa891497db618f29ce936ff1ec65f522c20ec64e083",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s5",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-flashforge-guider-3-ultra",
+      "tier": "catalog",
+      "snapshot": "sha256:7dd6559c9ebb1fa14a3066386bda8cb0aff984e69eaeafa5fb7c3b60d61c786c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-guider-3-ultra",
+      "tier": "community",
+      "snapshot": "sha256:c345a0abc3408647eef350ce04b8685ab959a695231be9dcffac25bbdeb233e8",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 6,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 300,
+            "y": 330,
+            "z": 600
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 330,
+            "y": 330,
+            "z": 600,
+            "shape": "rectangular"
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 600,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 500,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.4,
+            0.6,
+            0.8
+          ],
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "USB",
+            "Ethernet",
+            "Wi-Fi"
+          ],
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

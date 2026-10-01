@@ -1,0 +1,89 @@
+{
+ "slug": "history.mendel-parts-com-reprap-orca-v0-2",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Orca",
+ "snapshot": "sha256:5eb6a3661944b2c90704463cb873c75bf94e8012e6831a0c9468ad65ebfb5f22",
+ "page_chars": 25851,
+ "fields": {
+  "firmware": "Marlin",
+  "summary": "RepRap Orca v0.2 — это дешевый, легкий, но прочный 3D-принтер, разработанный mendel-parts.com. Он оптимизирован для печати филаментом 1.75 мм и позиционируется как устройство, которое можно легко собрать за один день и которое способно печатать собственные детали для сборки новых станков.",
+  "unique_features": [
+   "Комбинация лазерной резки и 3D-печати в конструкции",
+   "Оптимизация под филамент 1.75 мм",
+   "Упрощенная и быстрая сборка (4-16 часов)",
+   "Небольшие и простые пластиковые детали (общий вес 350 г)",
+   "Короткие стержни (макс. 400 мм) и ремни",
+   "Открытая рама с высокой доступностью узлов",
+   "Плавная ось Z с движением вниз против гравитации",
+   "Совместимость экструдера и хотэнда с Mendel (plug-n-play с GEN6)"
+  ],
+  "limitations": [
+   "Требуется лазерный резак для изготовления лазерных деталей",
+   "Много файлов находятся в бета-версии и могут иметь странные допуски",
+   "Стандартная версия v0.2 использует обычную электронику GEN6 без сенсорного экрана (экран доступен позже)",
+   "Не указаны точные значения стоимости, материала, точности и скорости"
+  ],
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 130,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.35
+  ],
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "direct_drive",
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ],
+  "enclosed": false,
+  "heated_bed": true,
+  "release_year": 2011
+ },
+ "evidence": {
+  "firmware": "Following the instructions in the README, open the Marlin.pde file from the Arduino IDE",
+  "summary": "RepRap Orca is the latest 3D printer in development by http://mendel-parts.com and well in short: Cheap, not too heavy, but still robust 3D printer, easy to transport (grab it on the front X-bar at the sides..) and optimized for 1.75mm filament.",
+  "unique_features": "optimized for 1.75mm filament.",
+  "limitations": "(A laser cutter is necessary for the lasercut parts.)",
+  "build_volume": "Printing Size: 8\"x8\"x5\" or 20cm x 20cm x 13cm",
+  "nozzle_diameters": "1x Mendel-Parts hotend v9 for 1.75mm with .35mm nozzle",
+  "filament_diameter_mm": "optimized for 1.75mm filament",
+  "extruder_type": "M4 brass insert piece with centerhole drilled out to 5.0/5.1mm for direct drive extruder",
+  "connectivity": "1x USB A-B cable",
+  "materials_supported": "1x min. 60W 12-18V power supply for PLA heated bed or min. 90W 12-22V for PLA & ABS heated bed",
+  "enclosed": "Very open frame",
+  "heated_bed": "Heated bed parts",
+  "release_year": "Version 0.2, May 2011 a prototype serie of 12pc has been made/build and in June production start of first 100pc v0.2"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Комбинация лазерной резки и 3D-печати в конструкции",
+  "Оптимизация под филамент 1.75 мм",
+  "Упрощенная и быстрая сборка (4-16 часов)",
+  "Небольшие и простые пластиковые детали (общий вес 350 г)",
+  "Короткие стержни (макс. 400 мм) и ремни",
+  "Открытая рама с высокой доступностью узлов",
+  "Плавная ось Z с движением вниз против гравитации",
+  "Совместимость экструдера и хотэнда с Mendel (plug-n-play с GEN6)"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T05:05:41Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Orca",
+ "maker": "mendel-parts.com",
+ "model": "RepRap Orca v0.2",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Orca"
+}

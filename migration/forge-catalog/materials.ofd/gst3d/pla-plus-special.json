@@ -1,0 +1,176 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.pla-plus-special",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA+ Special",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aquamarine",
+      "diameter_mm": 1.75,
+      "external_ref": "3c64e2e6-e773-4881-a633-332a0c25aabc",
+      "confidence": 1.0,
+      "color_hex": "#46725b",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Firefly",
+      "diameter_mm": 1.75,
+      "external_ref": "691950f9-7876-46d5-ad0b-9894c772ba44",
+      "confidence": 1.0,
+      "color_hex": "#98e65f",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Fluor green",
+      "diameter_mm": 1.75,
+      "external_ref": "83b4ba46-6dfc-427b-84de-979908b5f79b",
+      "confidence": 1.0,
+      "color_hex": "#71f08c",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Fluor Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "b48d5087-4093-4678-9425-f254a16f6f02",
+      "confidence": 1.0,
+      "color_hex": "#ff985b",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Fluor yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "ab48a78e-f0b2-4458-bcab-9a32279452eb",
+      "confidence": 1.0,
+      "color_hex": "#c9ea55",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Ice Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6669fdd4-a965-4914-8d55-7afd46511247",
+      "confidence": 1.0,
+      "color_hex": "#2d6e8c",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "098634f6-b10a-4be2-ad77-4c0dea802595",
+      "confidence": 1.0,
+      "color_hex": "#eeeff3",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Mellow yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "23a5d9b7-f123-44c5-b63c-39dc51c20e87",
+      "confidence": 1.0,
+      "color_hex": "#fbf4a9",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    },
+    {
+      "color_name": "Mustard",
+      "diameter_mm": 1.75,
+      "external_ref": "23cf8c34-4f88-4117-8127-ee37f22bc1b4",
+      "confidence": 1.0,
+      "color_hex": "#594e15",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-special-fluorescent-orange"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_special/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_special/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_special/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "d1de7b48-a878-43bb-9e6c-f1355677b15c",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_special/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

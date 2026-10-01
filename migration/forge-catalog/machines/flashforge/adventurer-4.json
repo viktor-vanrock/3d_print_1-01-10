@@ -1,0 +1,710 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "flashforge.adventurer-4",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FlashForge"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Adventurer 4",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 200,
+      "z": 250
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 9000,
+    "nozzle_diameters": [
+      0.3,
+      0.4,
+      0.6
+    ],
+    "profile_first_seen": "2023-05-26",
+    "discontinued": true,
+    "release_status": "eol",
+    "bed_surface": "гибкая платформа с нагревом",
+    "auto_leveling": "Автоматическая калибровка",
+    "screen_type": "Дисплей сенсорный 4,3 дюйма",
+    "max_nozzle_temp_c": 265,
+    "max_bed_temp_c": 110,
+    "max_speed_mms": 150,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 500,
+      "d": 470,
+      "h": 540
+    },
+    "weight_kg": 26,
+    "power_w": 320,
+    "connectivity": [
+      "Wi-Fi",
+      "Ethernet",
+      "USB"
+    ],
+    "enclosed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "filament_diameter_mm": 1.75,
+    "noise_db": 45,
+    "price_rub": 68900,
+    "chamber_active": false,
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "PETG",
+      "TPU"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/flashforge_adventurer4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-adventurer-4",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/flashforge_adventurer4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-adventurer-4",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-4/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/505/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/505/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-adventurer-4",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-4/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/flashforge_adventurer4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "discontinued": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "auto_leveling": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "screen_type": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_nozzle_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "air_filter": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "noise_db": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-adventurer-4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/flashforge_adventurer4.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/flashforge_adventurer4.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/505/cura/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/505/cura/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/flashforge_adventurer4.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла (мм) | 0.4 (0.6/0.3 мм опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | Макс. 110 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Гибкая платформа с нагревом до 110 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Автоматическая калибровка",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Дисплей | Дисплей сенсорный 4,3 дюйма",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Рабочая температура экструдера | до 265 ℃ / 240 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Температура подогрева площадки | Макс. 110 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Скорость печати | 10-150 мм/сек",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0,1 – 0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Толщина слоя | 0,1 – 0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размеры (без упаковки) | 500*470*540 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес (в упаковке) | 26 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Источник питания | 100-240 В переменного тока / 24 В постоянного тока / 13,3 А 320 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Интерфейс подключения | Ethernet, USB, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Adventurer 4, также известный как AD4, имеет полностью закрытую область построения",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Встроенная HD-камера для мониторинга (только для Adventurer 4)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Датчик окончания филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Принтер сам запускает печать после перебоев питания",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Воздушный фильтр HEPA-фильтр | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Уровень шума всего 45 децибел",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "68 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область построения, мм | 220х200х250",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла, мм | 0,4 (стандартный), 0,3 и 0,6 (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Материалы | ABS-пластик PLA-пластик PETG TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Возможность выбора сопел диаметром 0,3 (опционально) / 0,4 (по умолчанию) / 0,6 (опционально) мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Гибкая платформа с нагревом до 110 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/505/cura/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/505/cura/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/flashforge_adventurer4.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/flashforge_adventurer4.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "flashforge-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "tier": "vendor",
+      "snapshot": "sha256:03749d5def8639460cc5625a4ccb68a145995fa6d928a5cd0098344a9eb7bc46",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T16:51:03Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s4",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/flashforge/3d_printer_flashforge_adventurer_4/",
+      "tier": "catalog",
+      "snapshot": "sha256:03749d5def8639460cc5625a4ccb68a145995fa6d928a5cd0098344a9eb7bc46",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:15:18Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s5",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-4",
+      "tier": "catalog",
+      "snapshot": "sha256:1fce69ac0a116b0f965fafceb2b7cdfc4b9361f914c321c44d13c4179e25e2bc",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:15:56Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/jinhua-flashforge-technology-co-ltd/flashforge-adventurer-4",
+      "tier": "community",
+      "snapshot": "sha256:7f756370679fee0852ac4f730489556f4cdd0b7fe116e8ec24c11836db15bb40",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:18:22Z",
+      "publisher": "3DToday"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-4/",
+      "tier": "catalog",
+      "snapshot": "sha256:47f730153cc480bafdfb88c1b01f970a42a6e4afaabf284d5fb81dd75fdb7a9e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:22:25Z",
+      "publisher": "3DVision"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics"
+    ],
+    "sources_count": 7,
+    "quality_score": 9,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|cura-definitions-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 200,
+            "z": 250
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 200,
+            "y": 200,
+            "z": 250,
+            "shape": "rectangular"
+          },
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

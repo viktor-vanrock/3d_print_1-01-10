@@ -1,0 +1,1542 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "bambulab.a1",
+  "vendor": {
+    "slug": "bambulab",
+    "name": "Bambu Lab"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "A1",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 256,
+      "y": 256,
+      "z": 256
+    },
+    "kinematics": "cartesian",
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2023-12-19",
+    "bed_surface": "PEI",
+    "summary": "Bambu Lab A1 — это односопловой 3D-принтер с автоматической калибровкой и объемом печати 256³ мм, предназначенный для начинающих пользователей и энтузиастов, которым нужен простой старт без ручной настройки. В версии Combo он поддерживает многоцветную печать через систему AMS lite, что расширяет творческие возможности для создания цветных прототипов и моделей.",
+    "unique_features": [
+      "Полностью автоматическая калибровка (Z-offset, уровень стола, вибрации, давление сопла) без ручной настройки",
+      "Система многоцветной печати AMS lite с RFID-синхронизацией для автоматического подбора настроек",
+      "Активное управление потоком (Active Flow Control) для гладких поверхностей и острых краев",
+      "Активное шумоподавление двигателей (Active Motor Noise Canceling)",
+      "Низкий уровень шума 49 дБ",
+      "Поддержка MakerWorld для печати в один клик",
+      "Обновленный кабель нагревательного стола с усилением Kevlar",
+      "Соответствие стандартам кибербезопасности EU RED и ETSI EN 303 645"
+    ],
+    "whats_in_box": [
+      "Bambu Lab A1",
+      "Очистное сопло (Purge Wiper)",
+      "Держатель катушки (Spool Holder)",
+      "Нержавеющее стальное сопло (предустановлено)",
+      "1 трубка PTFE",
+      "Образцы филамента Bambu Filament (20 г, случайный цвет)",
+      "Печатная платформа (Build Plate)",
+      "В версии Combo: корпус AMS lite, подставка AMS lite, 4 держателя для катушек AMS lite, трубки PTFE"
+    ],
+    "target_use": [
+      "Начинающие пользователи (\"Print Like A PRO From Your Very First Use\")",
+      "Создание цветных моделей и прототипов (многоцветная печать)",
+      "Печать крупных объектов за один проход (например, шлема)",
+      "Образовательные цели и хобби (MakerWorld интеграция)"
+    ],
+    "limitations": [
+      "Открытая конструкция: риск снижения прочности слоев и деформации (warping) при печати крупными моделями из высокотемпературных пластиков (ABS, ASA, PC, PA) с высокой плотностью заполнения",
+      "Рекомендуется не использовать закрытый корпус (enclosure) для A1",
+      "Поддерживается только один модуль AMS lite (максимум 4 цвета)",
+      "Для подключения AMS требуется отдельный аксессуар AMS HUB (SA013)",
+      "При печати абразивными филаментами (CF, GF) стандартное нержавеющее сопло быстро изнашивается, требуется замена на закаленную сталь",
+      "Камера мониторинга имеет низкую частоту кадров (Low Frame Rate Camera)"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 100,
+    "firmware_max_speed_mms": 500,
+    "firmware_max_accel_mms2": 12000,
+    "dimensions_mm": {
+      "w": 465,
+      "d": 410,
+      "h": 430
+    },
+    "weight_kg": 8.3,
+    "noise_db": 49,
+    "price_usd": 399,
+    "multimaterial_channels": 4,
+    "connectivity": [
+      "Bambu Cloud Service",
+      "LAN",
+      "WiFi",
+      "Bambu-Bus",
+      "Micro SD Card"
+    ],
+    "enclosed": false,
+    "chamber_active": false,
+    "heated_bed": true,
+    "multimaterial_supported": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "warranty_months": 24,
+    "price_rub": 27999,
+    "in_stock_ru": true,
+    "screen_type": "3,5-дюймовый сенсорный экран IPS 320*240",
+    "extruder_count": 1,
+    "materials_supported": [
+      "PLA",
+      "PETG",
+      "PVA",
+      "TPU"
+    ],
+    "filament_diameter_mm": 1.75,
+    "max_flow_mm3s": 28,
+    "power_w": 1300,
+    "extruder_type": "direct_drive"
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/476/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/476/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "dimensions_mm": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "noise_db": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "multimaterial_channels": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "enclosed": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "multimaterial_supported": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/a1",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_rub": {
+      "source": "bambulab-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "bambulab-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_flow_mm3s": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_type": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/bambu-lab/a1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/476/bambustudio/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Acceleration of Tool Head | 10000mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Speed of Tool Head | 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Build Plate | Bambu Textured PEI Plate (Included)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The Ultimate Single-Nozzle 3D Printer! ... Full-Auto Calibration: Absolutely no manual tuning. ... A1 handles various calibrations all by itself. ... Seamless Multi-Color Printing (Combo Version): Experience limitless creativity with AMS-powered material handling.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Full-Auto Calibration: Absolutely no manual tuning. ... Seamless Multi-Color Printing (Combo Version): Experience limitless creativity with AMS-powered material handling. ... 49dB Whisper-Quiet Operation ... Best-In-Class Print Quality ... One-Click MakerWorld Integration ... Active Flow Control - Smooth surfaces, sharp edges ... Active Motor Noise Canceling ... The upgraded heatbed cable features Kevlar reinforcement ... Cybersecurity compliant with EU RED Article 3.3(d)(e) and ETSI EN 303 645 V2.1.1:2020.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Bambu Lab A1 ... Purge Wiper ... Spool Holder ... Stainless Steel Nozzle（pre-installed） ... PTFE Tube*1 ... Bambu Filament Samples-20g(Random Color) ... Build Plate ... A1 Combo Add-ons ... AMS lite Body ... AMS lite Stand ... AMS lite Rotary Spool Holder (x4) ... PTFE Tubes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "A Colorful Gateway to 3D Printing ... Print Like A PRO From Your Very First Use ... Start printing with a few clicks on your phone ... Print a helmet in 1-piece ... The AMS lite has been recognized as the most reliable multi-color 3D printing solution.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "When printing filaments containing hard particles (CF, GF, etc.) ... it is necessary to replace the nozzle with hardened steel ... Due to the A1's open-frame design and lower chamber temperature, there is a risk of reduced interlayer strength and increased warping for large-sized models ... We don't recommend enclosing the A1. ... The A1 can only support one AMS lite, which means it can print with a maximum of 4 colors. ... To connect the A1 printer to the AMS/ AMS 2 Pro/ AMS HT, an AMS HUB (SA013) accessory is needed. ... Chamber Monitoring Camera: Low Frame Rate Camera (Up to 1080P)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Hot End Temperature | 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Build Plate Temperature | 100°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Physical Dimensions | A1 : 465*410*430 mm³",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Net weight 8.3 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "49dB Whisper-Quiet Operation",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$399.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_channels": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The A1 can only support one AMS lite, which means it can print with a maximum of 4 colors.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "connect your A1 to any device you prefer through Bambu Cloud Service, but you can also do so through LAN-only mode.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Due to the A1's open-frame design",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Due to the A1's open-frame design and lower chamber temperature",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Heatbed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Seamless Multi-Color Printing (Combo Version): Experience limitless creativity with AMS-powered material handling.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Chamber Monitoring Camera | Low Frame Rate Camera (Up to 1080P)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Run Out Sensor | Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Loss Recover | Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "2-Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "27 999 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 256х256х256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | 500 мм/с (макс.)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | 10000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0,4 мм (в комплекте) 0,2 мм, 0,6 мм, 0,8 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 465х410х430 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес (без упаковки) | 8.3 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "3D принтер Bambu Lab A1 – уникальный 3D-принтер с возможностью многоцветной печати",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Встроенная камера позволяет записывать таймлапс-видео. | Видеокамера (встроенная) | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Дисплей | 3,5-дюймовый сенсорный экран IPS 320*240",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип материала | PLA, PETG, PVA, TPU",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура платформы, °С 100",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область печати, XYZ 256x256x256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 500",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Ускорение: до 10 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес нетто (кг) 8.3",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура экструдера, °C | до 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура стола | до 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, мм | 256х256х256 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость печати | до 500 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Ускорение | до 10000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | 0.4 мм (0.2/ 0.6/ 0.8 мм - опция)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вес нетто | 8.3 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Конструкция корпуса | Открытая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура стола | до 100°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вебкамера | да (Low Rate Camera 1080P)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Датчик наличия филамента | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Возобновление печати после отключения питания | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Скорость потока | до 28 мм³/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Электропитание | 100-240 VAC, 50/60 Hz (мощность 1300 Вт@220В)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. printing temperature | 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. heating bed temperature | 100°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Build volume [LxWxH]: 256 x 256 x 256 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. print speed | 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Max. acceleration | 10 000 mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Nozzle | 0.4mm, stainless steel",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Device size | 465x410x430mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Net weight | 8.3kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Heated chamber: No",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Heated print bed: Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Camera | Low rate camera with up to 1080 pixels",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Sensors | Filament sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Sensors | Recovery from power outage",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Extruder type: Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab A1 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/476/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/476/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "bambulab-official",
+      "url": "https://us.store.bambulab.com/products/a1",
+      "tier": "vendor",
+      "snapshot": "sha256:c14908e44f4c14871b010393a762b83a285c38bbe277e08e5f44db5903e12bd4",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:27:13Z",
+      "publisher": "Bambu Lab"
+    },
+    {
+      "source_id": "s4",
+      "source": "bambulab-official",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "tier": "vendor",
+      "snapshot": "sha256:9774a2dea7b2c38bfdd4499420692596fca146dcb9e7137a51a55c6f4ed96f0c",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:57:06Z",
+      "publisher": "Bambu Lab"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_a1/",
+      "tier": "catalog",
+      "snapshot": "sha256:a9c51a60458f9de62799791c2bbab83258aae5251913d4c1a961b2175c48445b",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:55:36Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-a1",
+      "tier": "catalog",
+      "snapshot": "sha256:66ea38b6a56afdf57ef12b07fef43937758fd281ea0f692fa8f09a982a7c7ac0",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:11:36Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-bambu-lab-a1/",
+      "tier": "catalog",
+      "snapshot": "sha256:ec793584805aeb8bbdbfb1e9ff25a0aba2a19bacd3e9a5c228a0ef42946db77a",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:37:55Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/bambu-lab/a1",
+      "tier": "catalog",
+      "snapshot": "sha256:42848fb589e7f2875b650ea0b31af906624b80004516807ddfabc0b251b47b36",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:48:41Z",
+      "publisher": "3DJake"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 8,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|vendor-vs-structural",
+      "values": [
+        {
+          "value": 12000,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 10000,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|vendor-vs-structural",
+      "values": [
+        {
+          "value": true,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": false,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "dimensions_mm",
+      "class": "dimensions_mm|bambulab-official-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "w": 465,
+            "d": 410,
+            "h": 430
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "w": 410,
+            "d": 385,
+            "h": 430
+          },
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "dimensions_mm",
+      "class": "dimensions_mm|bambulab-official-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "w": 465,
+            "d": 410,
+            "h": 430
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "w": 385,
+            "d": 410,
+            "h": 430
+          },
+          "source_id": "s7",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|bambulab-official-vs-catalog",
+      "values": [
+        {
+          "value": false,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s7",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "formfutura.pc-biofil-wood",
+  "vendor": {
+    "slug": "formfutura",
+    "name": "FormFutura",
+    "website": "https://formfutura.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "BioFil - Wood",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.26,
+      "nozzle_temp_min_c": 180,
+      "nozzle_temp_max_c": 200,
+      "bed_temp_min_c": 40,
+      "bed_temp_max_c": 50,
+      "min_nozzle_diameter_mm": 0.8,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "wood"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "f33ed7e8-59ce-4d76-a0f1-fd0d4ed5afec",
+      "confidence": 1.0,
+      "color_hex": "#404040",
+      "weight_g": 500,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Black Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "f33ed7e8-59ce-4d76-a0f1-fd0d4ed5afec",
+      "confidence": 1.0,
+      "color_hex": "#404040",
+      "weight_g": 2000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Brown Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "49ded524-d20f-4a1f-9ebf-7334e3481e1b",
+      "confidence": 1.0,
+      "color_hex": "#ae875b",
+      "weight_g": 1000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Brown Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "49ded524-d20f-4a1f-9ebf-7334e3481e1b",
+      "confidence": 1.0,
+      "color_hex": "#ae875b",
+      "weight_g": 2000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "67373313-984a-489d-8be9-3b350060a1e9",
+      "confidence": 1.0,
+      "color_hex": "#ffe09e",
+      "weight_g": 500,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "67373313-984a-489d-8be9-3b350060a1e9",
+      "confidence": 1.0,
+      "color_hex": "#ffe09e",
+      "weight_g": 2000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Ochre Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "5e010e76-b8a5-4825-9f27-484240df4eb8",
+      "confidence": 1.0,
+      "color_hex": "#78582b",
+      "weight_g": 500,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "Ochre Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "5e010e76-b8a5-4825-9f27-484240df4eb8",
+      "confidence": 1.0,
+      "color_hex": "#78582b",
+      "weight_g": 2000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "White Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "52f1c0c1-0484-452a-bf0a-0ded967bc836",
+      "confidence": 1.0,
+      "color_hex": "#ffffe5",
+      "weight_g": 500,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    },
+    {
+      "color_name": "White Washed",
+      "diameter_mm": 1.75,
+      "external_ref": "52f1c0c1-0484-452a-bf0a-0ded967bc836",
+      "confidence": 1.0,
+      "color_hex": "#ffffe5",
+      "weight_g": 2000,
+      "purchase_url": "https://www.formfutura.com/biofil-wood"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "min_nozzle_diameter_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "min_nozzle_diameter_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#min_nozzle_diameter",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PCL/biofil_wood/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c55f9ab6-757d-48f3-9f4d-a62bb27c230b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PCL/biofil_wood/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

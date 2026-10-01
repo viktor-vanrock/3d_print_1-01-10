@@ -1,0 +1,158 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "the-filament.asa",
+  "vendor": {
+    "slug": "the-filament",
+    "name": "The Filament",
+    "website": "https://spectrumfilaments.com/en/brand/the-filament-en/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.07,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Grass Green",
+      "diameter_mm": 1.75,
+      "external_ref": "8cbc963d-b907-493b-a4ce-52c9ba734fa9",
+      "confidence": 1.0,
+      "color_hex": "#0fad72",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3332-The-Filament-ReFill-ASA-1-75mm-GRASS-GREEN-1kg.html"
+    },
+    {
+      "color_name": "Midnight Black",
+      "diameter_mm": 1.75,
+      "external_ref": "180a9eb5-bdec-4efd-9463-e1f41da6ce26",
+      "confidence": 1.0,
+      "color_hex": "#575958",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3335-The-Filament-ReFill-ASA-1-75mm-MIDNIGHT-BLACK-1kg.html"
+    },
+    {
+      "color_name": "Midnight Black",
+      "diameter_mm": 1.75,
+      "external_ref": "180a9eb5-bdec-4efd-9463-e1f41da6ce26",
+      "confidence": 1.0,
+      "color_hex": "#575958",
+      "weight_g": 3000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3260-The-Filament-ASA-1-75mm-MIDNIGHT-BLACK-3kg.html"
+    },
+    {
+      "color_name": "Pure Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c7e1efa4-5ea8-4a7a-8cef-1a72765125dc",
+      "confidence": 1.0,
+      "color_hex": "#df2e3e",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3331-The-Filament-ReFill-ASA-1-75mm-PURE-RED-1kg.html"
+    },
+    {
+      "color_name": "Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4bc1ec12-ff57-4c3d-bded-4f40bab495c5",
+      "confidence": 1.0,
+      "color_hex": "#0666a0",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3333-The-Filament-ReFill-ASA-1-75mm-SKY-BLUE-1kg.html"
+    },
+    {
+      "color_name": "Slate Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "a684e609-376b-4d56-8925-abfd0fa47aa6",
+      "confidence": 1.0,
+      "color_hex": "#555a60",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3334-The-Filament-ReFill-ASA-1-75mm-SLATE-GREY-1kg.html"
+    },
+    {
+      "color_name": "Traffic White",
+      "diameter_mm": 1.75,
+      "external_ref": "e079cc19-baca-4d53-bce5-b63564bdc9d3",
+      "confidence": 1.0,
+      "color_hex": "#f1f0eb",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-3330-The-Filament-ReFill-ASA-1-75mm-TRAFFIC-WHITE-1kg.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/the_filament/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ebfc9aee-6282-4812-be4b-3cecac744f58",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/the_filament/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

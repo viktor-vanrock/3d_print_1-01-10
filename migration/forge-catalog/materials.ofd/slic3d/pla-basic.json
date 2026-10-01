@@ -1,0 +1,253 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "slic3d.pla-basic",
+  "vendor": {
+    "slug": "slic3d",
+    "name": "Slic3D",
+    "website": "https://www.jaycar.co.nz/3d-printing/filament-3d-printing/3d-printer-filament/c/10AC?brand=SLIC3D",
+    "origin": "NZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Basic",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 35,
+      "bed_temp_max_c": 65,
+      "dry_temp_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Apple Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b315e061-1e80-4210-913b-a31d7a02ac4e",
+      "confidence": 1.0,
+      "color_hex": "#c8fd77",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-apple-green-1-75mm-1kg-filament/p/TL6481"
+    },
+    {
+      "color_name": "Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "eb6cdb59-6db9-4885-ab03-9cb8f30ece5f",
+      "confidence": 1.0,
+      "color_hex": "#f6e2c4",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-beige-1-75mm-1kg-filament/p/TL6479"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "a999e718-9751-4395-ac5b-2089310c146b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-black-1-75mm-1kg-filament/p/TL6473"
+    },
+    {
+      "color_name": "Cocoa Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "be5429e4-3075-4314-9d1e-9ad678f64408",
+      "confidence": 1.0,
+      "color_hex": "#322f2f",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-cocoa-brown-1-75mm-1kg-filament/p/TL6477"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "ad75cb20-04c8-478b-9af1-af6af143375e",
+      "confidence": 1.0,
+      "color_hex": "#00ff44",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-green-1-75mm-1kg-filament/p/TL6480"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "e9b87e6a-1a7f-46b5-9e5c-5fe8b90c39cf",
+      "confidence": 1.0,
+      "color_hex": "#666666",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-grey-1-75mm-1kg-filament/p/TL6475"
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "8094b748-e397-4976-ab25-4d683813b2cf",
+      "confidence": 1.0,
+      "color_hex": "#ffb0d8",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-pink-1-75mm-1kg-filament/p/TL6482"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c04dede8-c321-4bba-b756-0b58a915d49e",
+      "confidence": 1.0,
+      "color_hex": "#c80000",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-red-1-75mm-1kg-filament/p/TL6476"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "bc5a17e3-35af-4ebd-bf90-94e81f3c09a7",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-white-1-75mm-1kg-filament/p/TL6474"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b920ef2b-8e1f-41bf-8308-b76d0e473007",
+      "confidence": 1.0,
+      "color_hex": "#ffff00",
+      "weight_g": 1000,
+      "purchase_url": "https://www.jaycar.co.nz/slic3d-pla-spool-less-yellow-1-75mm-1kg-filament/p/TL6478"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/slic3d/PLA/pla_basic/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "32827cb9-a4e2-478d-8b4c-f760a7ed9d0d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/slic3d/PLA/pla_basic/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

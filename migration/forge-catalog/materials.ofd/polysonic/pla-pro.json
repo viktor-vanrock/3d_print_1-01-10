@@ -1,0 +1,185 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polysonic.pla-pro",
+  "vendor": {
+    "slug": "polysonic",
+    "name": "PolySonic",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Pro",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f787c609-3826-4b26-b0dc-01540e121d77",
+      "confidence": 1.0,
+      "color_hex": "#080a0d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "5d33fef9-0b24-49ae-8fec-1279e1db2a0a",
+      "confidence": 1.0,
+      "color_hex": "#003287",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "db233366-eacb-42d8-a56b-fa2e45cd9230",
+      "confidence": 1.0,
+      "color_hex": "#2d9e59",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "f79f3c80-57c8-461d-8512-342e12f93d0d",
+      "confidence": 1.0,
+      "color_hex": "#959fa1",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "736ceb34-3803-4c8b-af45-748cf4b66438",
+      "confidence": 1.0,
+      "color_hex": "#f97429",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Polymaker Teal",
+      "diameter_mm": 1.75,
+      "external_ref": "4f13d31f-f5ee-4f3b-9756-2be5b59d1e37",
+      "confidence": 1.0,
+      "color_hex": "#50dae4",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "3fabf3b8-b84c-46aa-9b47-6f51ca1e7320",
+      "confidence": 1.0,
+      "color_hex": "#6c5bb1",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c5a090aa-28d4-46d7-9e1d-127a4f074fdc",
+      "confidence": 1.0,
+      "color_hex": "#e20010",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "aaf9ba23-9de6-472b-9d1d-c4f2edfc3299",
+      "confidence": 1.0,
+      "color_hex": "#e2dedb",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "a69ce419-acda-4b03-a10b-d2ad6234f840",
+      "confidence": 1.0,
+      "color_hex": "#f4c032",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polysonic-pla-pro"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polysonic/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polysonic/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polysonic/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polysonic/PLA/pla_pro/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polysonic/PLA/pla_pro/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polysonic/PLA/pla_pro/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "03129d09-79b7-4718-901d-f58bb8a9b9be",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polysonic/PLA/pla_pro/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

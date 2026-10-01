@@ -1,0 +1,221 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "atomic-filament.asa",
+  "vendor": {
+    "slug": "atomic-filament",
+    "name": "Atomic Filament",
+    "website": "https://atomicfilament.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.07,
+      "nozzle_temp_min_c": 235,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "42d36d0b-7e61-4b70-96e0-7fd90e2ac5b0",
+      "confidence": 1.0,
+      "color_hex": "#8e8d71",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "60cb746c-1604-49c3-9b17-e3ef148da639",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cool Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "2f7a6391-7c81-49e7-b194-86d33af1d999",
+      "confidence": 1.0,
+      "color_hex": "#26272b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "99bf4408-63d3-4a48-9c8d-8193008b5901",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Green UV Reactive Opaque",
+      "diameter_mm": 1.75,
+      "external_ref": "2bc93c06-17fb-486c-8eea-a5ea79928841",
+      "confidence": 1.0,
+      "color_hex": "#01e041",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "524f6e9e-1c37-4422-9eed-2daf7d3d44be",
+      "confidence": 1.0,
+      "color_hex": "#f78e0e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "8672b434-2c18-489e-8b9c-3db617dec0bd",
+      "confidence": 1.0,
+      "color_hex": "#eeea44",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "f8a702fb-9b29-485c-8834-54cc18e68a78",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "d9980dcb-54bb-4701-84e7-05c8146cb64c",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f4",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ed149509-3d20-4bd7-8ea6-bd8f371ed50f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

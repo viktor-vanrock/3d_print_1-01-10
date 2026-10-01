@@ -1,0 +1,381 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "print-with-smile.petg",
+  "vendor": {
+    "slug": "print-with-smile",
+    "name": "Print With Smile",
+    "website": "https://printwithsmile.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Anthracite",
+      "diameter_mm": 1.75,
+      "external_ref": "f5d64615-5299-4c4e-998f-a18ef2fc159c",
+      "confidence": 1.0,
+      "color_hex": "#3f4647",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Lagoon",
+      "diameter_mm": 1.75,
+      "external_ref": "956aa15f-5c74-42e4-a149-e6dad88b5c9f",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bright Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "19a2f6db-af92-4298-9438-54cbbd0917c7",
+      "confidence": 1.0,
+      "color_hex": "#ffb031",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chocolade BROWN",
+      "diameter_mm": 1.75,
+      "external_ref": "eab18453-88b8-42e3-8fe8-0ac2e249bc7b",
+      "confidence": 1.0,
+      "color_hex": "#4f3638",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cobalt BLUE",
+      "diameter_mm": 1.75,
+      "external_ref": "1b2a3cee-1958-41bd-a7f8-7b629f5512d8",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "CYAN Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "acce10a0-ad0b-457f-9acf-b186035dddeb",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GOLD Shine",
+      "diameter_mm": 1.75,
+      "external_ref": "4dc4ace5-0839-4b83-b988-14e45d17881d",
+      "confidence": 1.0,
+      "color_hex": "#f4ac23",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GREEN",
+      "diameter_mm": 1.75,
+      "external_ref": "87a7718d-4957-4874-b5ce-9bae722c03d5",
+      "confidence": 1.0,
+      "color_hex": "#089a45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GREEN Bottle",
+      "diameter_mm": 1.75,
+      "external_ref": "4695d0ef-30e9-49fc-8da0-e6836ac48fb7",
+      "confidence": 1.0,
+      "color_hex": "#1e5a4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GREEN Field",
+      "diameter_mm": 1.75,
+      "external_ref": "ff2d4e55-5c3d-4d10-b811-302047c566b5",
+      "confidence": 1.0,
+      "color_hex": "#7fe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "GREY",
+      "diameter_mm": 1.75,
+      "external_ref": "858a7d50-fd3b-44d9-bdd2-2e7a7477a883",
+      "confidence": 1.0,
+      "color_hex": "#6a6c6e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "37e3fe24-6302-487a-be5d-41d2e74f96c7",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MARBLE",
+      "diameter_mm": 1.75,
+      "external_ref": "2b21b766-a0ee-4a11-8b12-ea1e4a459982",
+      "confidence": 1.0,
+      "color_hex": "#e9d1c1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic BLUE",
+      "diameter_mm": 1.75,
+      "external_ref": "9d2a5555-c1c9-408f-ba60-d54d54cc8cbc",
+      "confidence": 1.0,
+      "color_hex": "#2c3294",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "23f7e63c-1bf3-4013-81ad-e635734d451d",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon RED",
+      "diameter_mm": 1.75,
+      "external_ref": "79622aee-965f-4eec-8726-8f773cb1c47f",
+      "confidence": 1.0,
+      "color_hex": "#cb4726",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon YELLOW",
+      "diameter_mm": 1.75,
+      "external_ref": "b2797ced-5a7f-4637-b732-2b80f428d9ec",
+      "confidence": 1.0,
+      "color_hex": "#e4ff33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "ee243a6f-a1ad-456b-8a9c-9264ec873c25",
+      "confidence": 1.0,
+      "color_hex": "#cb4726",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Glass",
+      "diameter_mm": 1.75,
+      "external_ref": "208fea7c-3f07-4408-bd71-71cc2db82817",
+      "confidence": 1.0,
+      "color_hex": "#ff5f2e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Raspberry PINK",
+      "diameter_mm": 1.75,
+      "external_ref": "75ebd28d-04dc-4f67-a9fa-e57942b7d284",
+      "confidence": 1.0,
+      "color_hex": "#eb0075",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RED",
+      "diameter_mm": 1.75,
+      "external_ref": "3523f9f6-8c37-42e2-bdf6-0200a4117773",
+      "confidence": 1.0,
+      "color_hex": "#e60000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rubin RED",
+      "diameter_mm": 1.75,
+      "external_ref": "6714218c-86cc-4b4e-aa9a-81018f8c6b56",
+      "confidence": 1.0,
+      "color_hex": "#f14147",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Satine Black",
+      "diameter_mm": 1.75,
+      "external_ref": "611e8c43-9752-4aac-a8b9-e01354d9bec4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Satine white",
+      "diameter_mm": 1.75,
+      "external_ref": "17733adb-d67c-4295-a0ac-02dff0250e1e",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver Shine",
+      "diameter_mm": 1.75,
+      "external_ref": "cf259976-742c-431d-b541-24c1ad8e1342",
+      "confidence": 1.0,
+      "color_hex": "#88899d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "V0 WHITE",
+      "diameter_mm": 1.75,
+      "external_ref": "539f9401-1d98-41ff-9fe4-2160cc2b3762",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet Glass",
+      "diameter_mm": 1.75,
+      "external_ref": "56434299-b55e-4575-8356-2d283a7340b2",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "a300fb24-ada1-4301-9d25-19d4afa3ba33",
+      "confidence": 1.0,
+      "color_hex": "#e8bd00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Glass",
+      "diameter_mm": 1.75,
+      "external_ref": "9e71b6b6-30b7-4ab6-b9d7-17057b1a83ee",
+      "confidence": 1.0,
+      "color_hex": "#f2de00",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/print_with_smile/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "bb5da02f-bfd2-4747-a837-21cd9f2df881",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/print_with_smile/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-aero",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Aero",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "dc4d9b4f-99aa-44a3-af21-07fdfd41cf27",
+      "confidence": 1.0,
+      "color_hex": "#cdcdcb",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-aero?variant=42742670524552"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "233f9cf0-12c1-4747-9c72-dc80843c264f",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-aero?variant=41238296625288"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/aero/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/aero/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/aero/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/aero/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/aero/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/aero/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0df310a8-2aa4-4a57-8bfa-e63b4a873e73",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/aero/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

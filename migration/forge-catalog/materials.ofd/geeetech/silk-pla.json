@@ -1,0 +1,341 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "geeetech.silk-pla",
+  "vendor": {
+    "slug": "geeetech",
+    "name": "Geeetech",
+    "website": "https://geeetech.com",
+    "origin": "CH"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 200,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Dual Color Black Red",
+      "diameter_mm": 1.75,
+      "external_ref": "dbdfc7ad-026f-4b0f-b0bf-2acd0649cc59",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Blue Green",
+      "diameter_mm": 1.75,
+      "external_ref": "3519207e-4139-4c04-8cf8-db42d8a286e1",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Gold Black",
+      "diameter_mm": 1.75,
+      "external_ref": "7e01833f-4948-456a-9e95-e0e05c42e9b6",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Gold Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "d2db5242-292b-4664-823a-cf30a0fed6e3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Gold Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "d3101307-9f9d-4d98-ad4a-7cee978cce24",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Gold Red",
+      "diameter_mm": 1.75,
+      "external_ref": "590b2dc9-adf1-4901-8a21-1db139bdd238",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Gold Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "42799df7-df24-46ce-90be-f01be7c35d94",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Green Red",
+      "diameter_mm": 1.75,
+      "external_ref": "9d1c0f55-8ce9-4527-aaa9-7d05beaed859",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Color Red Black",
+      "diameter_mm": 1.75,
+      "external_ref": "2650e6eb-03e8-47f7-84fc-bc58e4b8482a",
+      "confidence": 1.0,
+      "color_hex": "#971c1c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "17a1d311-f3e8-4ca7-aac1-01ef57f099e1",
+      "confidence": 1.0,
+      "color_hex": "#e3b145",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7e8a487b-5e90-498a-a1ab-784c73d3f6fb",
+      "confidence": 1.0,
+      "color_hex": "#9aed51",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bf3c92c2-d0ec-4ea1-8ff7-ab84462463c8",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "5622c2f6-3a23-4052-9354-ce548488cf14",
+      "confidence": 1.0,
+      "color_hex": "#c66547",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Pink (Magenta)",
+      "diameter_mm": 1.75,
+      "external_ref": "eb95cb0a-60bb-40e5-b04c-739600a65c95",
+      "confidence": 1.0,
+      "color_hex": "#f2306e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "8e9b7cb6-d85c-46ca-ab94-a4f8e2fe7389",
+      "confidence": 1.0,
+      "color_hex": "#8846ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3e761d4d-9323-4b2d-88d6-48de675c126b",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "25811f57-63ef-492c-9f1b-e76a300d5c18",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic White",
+      "diameter_mm": 1.75,
+      "external_ref": "9bb7c6e6-8065-4ba0-ba39-3bc334f4a633",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "bf811377-040f-43dc-af46-3e14cc777d96",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Color Blue Purple Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0407b307-eea7-4e71-9487-16f170de668a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Color Purple Gold Black",
+      "diameter_mm": 1.75,
+      "external_ref": "c80d0ad7-a11b-4081-a70f-86b8b3c550c4",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Color Red Gold Black",
+      "diameter_mm": 1.75,
+      "external_ref": "c2d67a15-248c-4f74-af3c-bacfee6c5b63",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri Color Red Gold Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "4463c0b1-bc19-4e70-9c29-24c2819bc5b9",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri-Color Gold Silver Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "b924e771-d0be-406d-bb5b-9f125ee24a3f",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri-Color Orange Blue Green",
+      "diameter_mm": 1.75,
+      "external_ref": "d6dd6fc0-a13f-4549-8216-0be5d3cb7cdd",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tri-Color Red Yellow Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "3b456260-8caf-44fa-ae24-65800604392b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/geeetech/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e442d70a-8aaf-499a-b1a2-084c6a784c6a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/geeetech/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

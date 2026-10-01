@@ -1,0 +1,84 @@
+{
+ "slug": "history.romscraj-portabee",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Printkbot",
+ "snapshot": "sha256:1b0e956a3f9247086fd51a2d87e2e0224606d43f2dc544f2c9643a512600ac16",
+ "page_chars": 87311,
+ "fields": {
+  "firmware": "gen6.d",
+  "summary": "Portabee — это портативный 3D-принтер, вариант Printrbot, разработанный для упаковки в сумку для ноутбука. Он предназначен для пользователей, которым важна мобильность устройства, и использует стандартную электронику Gen6.d.",
+  "unique_features": [
+   "Возможность упаковки в сумку для ноутбука",
+   "Съемная ось Y (подвижная платформа)",
+   "Прямой привод (direct-drive) экструдер на базе шестерен Уэйда",
+   "Защита от столкновений: резьбовые стержни оси Z вылетают из муфт при ударе хот-энда в стол",
+   "Поворотный разъем для платы электроники"
+  ],
+  "limitations": [
+   "Низкая стабильность из-за съемной оси Y и конструкции \"two sticks\"",
+   "Недостаточная мощность нагревательного стола (макс. ~58°C из-за блока питания 120W)",
+   "Ограниченная скорость печати (рекомендуется до 40 мм/с)",
+   "Экструдер может проскальзывать при высокой скорости ретракции (100 мм/с)",
+   "Современные нагревательные столы шириной более 150 мм не подходят",
+   "Старая плата управления Gen6.d, с которой сложно использовать современное прошивочное обеспечение"
+  ],
+  "build_volume": {
+   "x": 120,
+   "y": 120,
+   "z": 120,
+   "shape": "rectangular"
+  },
+  "max_travel_speed_mms": 128,
+  "nozzle_diameters": [
+   0.5
+  ],
+  "filament_diameter_mm": 3.0,
+  "extruder_type": "direct_drive",
+  "power_w": 120,
+  "price_usd": 699,
+  "connectivity": [
+   "SD card"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "firmware": "uses default gen6.d electronics",
+  "summary": "Printrbot variant that could be packed in a laptop bag",
+  "unique_features": "Portability of the Portabee is accomplished by a detachable Y-axis assembly",
+  "limitations": "Because the Y-axis is easily detachable for portability, the Y-axis may suffer from unwanted movement over time.",
+  "build_volume": "The build area is 120mm x 120mm x 120mm.",
+  "max_travel_speed_mms": "travel_speed = 128",
+  "nozzle_diameters": "nozzle_diameter = 0.5",
+  "filament_diameter_mm": "filament_diameter = 3.0",
+  "extruder_type": "The extruder is a direct-drive extruder based on the Wade's geared extruder design",
+  "power_w": "The 12V, 10A (120W) power supply provided with the Portabee",
+  "price_usd": "USD 699 assembled",
+  "connectivity": "allows direct SD card printing",
+  "heated_bed": "It has a 3mm FR4 matte black heated longbed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Возможность упаковки в сумку для ноутбука",
+  "Съемная ось Y (подвижная платформа)",
+  "Прямой привод (direct-drive) экструдер на базе шестерен Уэйда",
+  "Защита от столкновений: резьбовые стержни оси Z вылетают из муфт при ударе хот-энда в стол",
+  "Поворотный разъем для платы электроники"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T05:17:02Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Printkbot",
+ "maker": "romscraj",
+ "model": "Portabee",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Printkbot"
+}

@@ -1,0 +1,251 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.pvb",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pvb",
+    "name": "PVB"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PVB",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.1,
+      "nozzle_temp_min_c": 205,
+      "nozzle_temp_max_c": 225,
+      "bed_temp_min_c": 60,
+      "bed_temp_max_c": 80,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bright Green",
+      "diameter_mm": 1.75,
+      "external_ref": "0a94ddbf-9622-43cf-a079-865617e8d741",
+      "confidence": 1.0,
+      "color_hex": "#51cc00",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Bright Green Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "52c47cac-763f-4516-b632-6425d48226ec",
+      "confidence": 1.0,
+      "color_hex": "#d3de5f",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-bright-green-transparent-500g/"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "dc082614-ba2e-4f91-8a4e-5c0d2f5d506b",
+      "confidence": 1.0,
+      "color_hex": "#2941bd",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Dark Blue Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "78be0328-a2c5-4da2-9efd-74b9b7662c2e",
+      "confidence": 1.0,
+      "color_hex": "#0061c0",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-dark-blue-transparent-500g/"
+    },
+    {
+      "color_name": "Light Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "0767db4e-215c-494d-b1d0-a46681493558",
+      "confidence": 1.0,
+      "color_hex": "#f6fb38",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Light Yellow Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "6524e2d1-024f-4cf3-90be-4521027746ad",
+      "confidence": 1.0,
+      "color_hex": "#f3dd3b",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-light-yellow-transparent-500g/"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "8a91c9be-cbfc-4ea8-ba23-9fb00a078d6d",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Natural Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "8af366b2-3a5e-4fee-9175-b08021d881ae",
+      "confidence": 1.0,
+      "color_hex": "#e3e4df",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-natural-transparent-500g/"
+    },
+    {
+      "color_name": "Prusa Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "5a82db2b-847c-414b-aa0b-bdb7c4ead5ab",
+      "confidence": 1.0,
+      "color_hex": "#ff6600",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Prusa Orange Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "1d06b8c0-87e2-42fb-9121-de05f3a47e87",
+      "confidence": 1.0,
+      "color_hex": "#fd8c13",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-prusa-orange-transparent-500g/"
+    },
+    {
+      "color_name": "Smoky Black",
+      "diameter_mm": 1.75,
+      "external_ref": "b12531e7-f62d-4c10-bc11-299e0f1c4160",
+      "confidence": 1.0,
+      "color_hex": "#7b7b7b",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Smoky Black Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "5dc03969-7d7b-420e-98b1-7b9dbcaefcfa",
+      "confidence": 1.0,
+      "color_hex": "#bdbfbc",
+      "weight_g": 500,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pvb-smoky-black-transparent-500g/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PVB/pvb/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a2c31941-5b46-4176-a6e1-f0c21d67cab2",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PVB/pvb/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

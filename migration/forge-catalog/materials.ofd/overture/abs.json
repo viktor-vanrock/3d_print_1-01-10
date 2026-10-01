@@ -1,0 +1,253 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "overture.abs",
+  "vendor": {
+    "slug": "overture",
+    "name": "Overture",
+    "website": "https://overture3d.com/",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bcc0412f-8a61-43ac-a23b-abd1c8ae4103",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "273a4148-b450-46c4-9ccf-efd822ba9f8f",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Red",
+      "diameter_mm": 1.75,
+      "external_ref": "d8eb80f5-1f8a-4afb-910b-113eedc9f0a1",
+      "confidence": 1.0,
+      "color_hex": "#de1619",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Diamond Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "e84c0f1b-6626-48c6-b6eb-a9cc626dddd9",
+      "confidence": 1.0,
+      "color_hex": "#697272",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Diamond Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "aaf6f399-e9ee-4198-8aef-a66c09369d74",
+      "confidence": 1.0,
+      "color_hex": "#ff8133",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Diamond Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "b65accac-a240-4050-9e59-82f9cb1516be",
+      "confidence": 1.0,
+      "color_hex": "#8873c7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "b45c7717-2e14-465e-a875-5c1fdb1546ef",
+      "confidence": 1.0,
+      "color_hex": "#94a7b7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "fb7db5c1-b46a-4814-8eb0-03d3f1815376",
+      "confidence": 1.0,
+      "color_hex": "#3d9441",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "898d6183-af21-4a60-b0fd-1caa07abd73a",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "23127add-1c6d-43a8-a612-bc71a4c83c26",
+      "confidence": 1.0,
+      "color_hex": "#8d65c7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Slate Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "1ad5d83b-985b-4c0d-ba0d-62853ab710c2",
+      "confidence": 1.0,
+      "color_hex": "#7d8eaa",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7b32d6a6-42c9-4177-9849-c9b224608db6",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "0d0d2ce0-3f8b-4c58-8f56-bb43e51bd21d",
+      "confidence": 1.0,
+      "color_hex": "#eeea44",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "d5077fab-86bf-4204-b18e-5f3bacbbec1d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,277 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.pc-pctg",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PCTG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f598b94c-c2a3-4b5c-90e6-95b2ab90ff5a",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "fae7fdf7-c302-444f-b28a-07a6c186a9eb",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Burgundy Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "4dd1dc21-df55-41f2-8593-56c8dede2169",
+      "confidence": 1.0,
+      "color_hex": "#971b2f",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "dff895e1-add2-48a7-9c57-423a53abe25c",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "bcdf4a5b-5f5a-45ac-8589-b9296cae1b60",
+      "confidence": 1.0,
+      "color_hex": "#bbbcbc",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "2203d316-dbcb-49af-8350-b23dee907416",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Inox",
+      "diameter_mm": 1.75,
+      "external_ref": "9d574bf9-0cc9-4c46-8e31-fa32219e3a0c",
+      "confidence": 1.0,
+      "color_hex": "#969aa3",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Light Green Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "c0649239-139a-4664-b482-3ac4dfbd6e59",
+      "confidence": 1.0,
+      "color_hex": "#a7d500",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Navy Blue Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "e3037bb8-eea2-47da-a783-363515397157",
+      "confidence": 1.0,
+      "color_hex": "#10069f",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Onyx",
+      "diameter_mm": 1.75,
+      "external_ref": "9d935b5b-b26e-40f6-b530-8741bd45e7f7",
+      "confidence": 1.0,
+      "color_hex": "#262626",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "afb66748-b236-4934-8555-6fb19720e53f",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Orange Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "38dd665f-9010-4f2f-8343-9ff5d95f9b1b",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Pure Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "9b73bd8f-52cc-4aa5-a08e-df017012919e",
+      "confidence": 1.0,
+      "color_hex": "#f2f2f2",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c6a10de1-d68a-474e-a172-373e93c1b694",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 750
+    },
+    {
+      "color_name": "Vertigo",
+      "diameter_mm": 1.75,
+      "external_ref": "1b916564-9d67-4239-bf45-aebd25fd659a",
+      "confidence": 1.0,
+      "color_hex": "#282828",
+      "weight_g": 750
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "918cb65b-3cca-4fcf-9d5d-fae355a50f3f",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PCTG/pctg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5bcf8dc7-c206-4aea-907c-20dbda39d5cd",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PCTG/pctg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

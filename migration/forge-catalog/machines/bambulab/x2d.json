@@ -1,0 +1,1465 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "bambulab.x2d",
+  "vendor": {
+    "slug": "bambulab",
+    "name": "Bambu Lab"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "X2D",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 256,
+      "y": 256,
+      "z": 261
+    },
+    "kinematics": "corexy",
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 1000,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2026-05-09",
+    "bed_surface": "Textured PEI",
+    "summary": "Bambu Lab X2D — это бюджетный 3D-принтер с двойным экструдером, предназначенный для упрощения многоцветной печати и легкой удаления поддержек. Он позиционируется как устройство для дома и офиса, способное работать с инженерными пластиками благодаря активной камере и сервоприводу экструдера.",
+    "unique_features": [
+      "Dual-Nozzle 3D Printing",
+      "300 °C Nozzle & 65 °C Active Chamber Heating",
+      "Closed-Loop Servo Motor Extruder",
+      "Full Filament Path AI Detection",
+      "Dual-intake cooling",
+      "Adaptive Calibration",
+      "AI Monitoring",
+      "Certified Emissions"
+    ],
+    "whats_in_box": [
+      "X2D",
+      "Textured PEI Build Plate",
+      "External Exhaust Fan Bundle",
+      "Accessory Box",
+      "Spool holder"
+    ],
+    "target_use": [
+      "Multi-material made simple",
+      "Engineering filaments like ABS, ASA, and nylon",
+      "Designed for your home",
+      "Safe for your living room",
+      "Quiet enough for overnight prints"
+    ],
+    "limitations": [
+      "To connect more than two AMS (including AMS 2 Pro, AMS HT), a 4-in-1 PTFE Adapter (FAZ013-N) is needed",
+      "Voltage Range: 100 – 120 V",
+      "Suitable for overnight printing when the printer is placed in a separate room from the sleeping area"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_chamber_temp_c": 65,
+    "noise_db": 50,
+    "price_usd": 915,
+    "enclosed": true,
+    "chamber_active": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "air_filter": true,
+    "warranty_months": 24,
+    "price_rub": 88999,
+    "in_stock_ru": true,
+    "screen_type": "5 дюймов, 1280×720",
+    "max_bed_temp_c": 120,
+    "extruder_count": 2,
+    "dimensions_mm": {
+      "w": 392,
+      "d": 406,
+      "h": 478
+    },
+    "weight_kg": 16.25,
+    "power_w": 1600,
+    "connectivity": [
+      "Компьютер",
+      "Мобильные устройства"
+    ],
+    "materials_supported": [
+      "ABS",
+      "PLA",
+      "PETG",
+      "ASA",
+      "Carbon",
+      "Flexible",
+      "Glassfiber",
+      "PET",
+      "TPU",
+      "PVA"
+    ],
+    "heated_bed": true,
+    "firmware_max_speed_mms": 1000,
+    "firmware_max_accel_mms2": 20000,
+    "max_flow_mm3s": 65,
+    "filament_diameter_mm": 1.75,
+    "power_loss_recovery": true,
+    "multimaterial_channels": 16,
+    "auto_leveling": "автоматическая с построением карты высот"
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/672/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_speed_mms": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/672/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_chamber_temp_c": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "noise_db": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/bambu-lab/x2d",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "bambulab-official",
+      "source_url": "https://us.store.bambulab.com/products/x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_rub": {
+      "source": "bambulab-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "bambulab-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "heated_bed": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/672/bambustudio/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_flow_mm3s": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "multimaterial_channels": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "auto_leveling": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/672/bambustudio/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | 20 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | 1000 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/672/bambustudio/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Textured PEI Build Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Dual-nozzle printing, made accessible. Meet Bambu Lab X2D.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Dual-Nozzle 3D Printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "X2D",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Multi-material made simple.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "To connect more than two AMS (including AMS 2 Pro, AMS HT), a 4-in-1 PTFE Adapter (FAZ013-N) is needed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "300 °C Nozzle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "65 °C Active Chamber Heating",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "keep X2D below 50 dB under typical conditions",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "$915.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Closed-Loop Servo Motor Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "65 °C Active Chamber Heating",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "AI Camera keeps an eye on your prints.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Full Filament Path AI Detection",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "X2D runs a three-stage filtration system every time it prints.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "2-Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "88 999 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева рабочей камеры | 65°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | Печать основным соплом: 256×256×260 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0.4 (опционально 0.2 мм, 0.4 мм, 0.6 мм, 0.8 мм)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Низкий уровень шума | Активное шумоподавление двигателей и оптимизированная аэродинамика воздуховодов удерживают уровень шума ниже 50 дБ.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Активный нагрев камеры",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Активный нагрев камеры",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Видеокамера (встроенная) | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Трехступенчатая фильтрация воздуха | Система включает предфильтр G3, H12 HEPA-фильтр и слой активированного угля.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Дисплей | 5 дюймов, 1280×720",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева площадки | макс. 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 392×406×478 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес (без упаковки) | 16.25 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Мощность | 1600 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейс подключения | Компьютер, Мобильные устройства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Тип материала | ABS, PLA, PETG, ASA, Carbon, Flexible, Glassfiber, PET, TPU, другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева площадки | макс. 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура подогрева рабочей камеры 65 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область печати, XYZ 256*256*260",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Тип корпуса Закрытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальный поток экструдера, мм³/с 65",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Температура экструдера, °C | до 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура камеры построения | до 65°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати, мм | 256x256x260 мм (общая)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | 0.4 мм (0.2/ 0.6/ 0.8 мм - опция)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "уровень шума Bambu Lab X2D в штатных режимах работы не превышает 50 дБ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Конструкция корпуса | Закрытая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура камеры построения | до 65°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Сопло | закаленная сталь",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Система мониторинга | Live View Camera (1080p)/ Nozzle Camera (1080p)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Датчик наличия филамента | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Система фильтрации | Grade G3/ HEPA/ угольный фильтр",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_channels": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "позволяет комбинировать в работе до 16 цветов или разных типов пластика",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "With a maximum nozzle temperature of up to 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Build volume: 256 x 256 x 260 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "0.4 mm nozzle made of hardened steel",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "The fully enclosed design with active chamber heating",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Active chamber heating",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "0.4 mm nozzle made of hardened steel",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Chamber Camera | 1920 x 1080 pixels",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "3-stage air filtration: G3 Pre-filter + H12 HEPA filter + Activated Carbon",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура хотэндов | 300°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура рабочей камеры | 65°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Размер области построения | 256х256х260 мм (основным экструдером)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Диаметр сопел | 0,4 мм (стандартный), 0,2, 0,6, 0,8 мм (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Рабочая камера | термостатированная",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Рабочая камера | термостатированная",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Сопло | закаленная сталь",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Разрешение видеокамеры общего плана | 1920х1080",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Система очистки воздуха | комбинированная с фильтром грубой очистки (G3), HEPA-фильтром и активированным углем",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Калибровка | автоматическая с построением карты высот",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/BBL/machine/Bambu Lab X2D 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/672/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/672/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "bambulab-official",
+      "url": "https://us.store.bambulab.com/products/x2d",
+      "tier": "vendor",
+      "snapshot": "sha256:a8e840d5fa9375e8e626e267a08b4be0ac321bd2f1789733981096583018c917",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:25:46Z",
+      "publisher": "Bambu Lab"
+    },
+    {
+      "source_id": "s4",
+      "source": "bambulab-official",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "tier": "vendor",
+      "snapshot": "sha256:4927c2edd74caf6127bc3077989e1590fc6d9036c867420b28e1c28fb7913708",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T10:56:28Z",
+      "publisher": "Bambu Lab"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_bambu_lab_x2d/",
+      "tier": "catalog",
+      "snapshot": "sha256:4927c2edd74caf6127bc3077989e1590fc6d9036c867420b28e1c28fb7913708",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:54:14Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-bambu-lab-x2d-eu-versiya",
+      "tier": "catalog",
+      "snapshot": "sha256:41b79c2c8f4c5a5af634be77323027e42731473d15f03413b40e0e98f8d18031",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-bambu-lab-x2d-eu/",
+      "tier": "catalog",
+      "snapshot": "sha256:b254ed0477ca6818cdf6f1fa57179110421ba77ad37d9a67e32eb606a1ebdd4e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/bambu-lab/x2d",
+      "tier": "catalog",
+      "snapshot": "sha256:abdfce71d6396864f6cecfae2e00e696f44c5308b885390232b11e9442a3d00d",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DJake"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/BambuLab/bambu-lab-x2d",
+      "tier": "community",
+      "snapshot": "sha256:654fddb34a99c34c57c3f45b95817e65b21b4a2ee0625eb8cefdbdbf8e8ce130",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 9,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 256,
+            "y": 256,
+            "z": 261
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 256,
+            "y": 256,
+            "z": 260,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

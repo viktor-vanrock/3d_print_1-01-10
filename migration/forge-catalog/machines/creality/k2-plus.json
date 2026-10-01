@@ -1,0 +1,1703 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.k2-plus",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "K2 Plus",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 350,
+      "y": 350,
+      "z": 350
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "USB Drive",
+      "Ethernet",
+      "WiFi"
+    ],
+    "max_accel_mms2": 30000,
+    "max_speed_mms": 600,
+    "nozzle_diameters": [
+      0.2,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2024-10-03",
+    "bed_surface": "Flexible build plate",
+    "auto_leveling": "Full-auto Leveling",
+    "screen_type": "4.3\" color touch screen",
+    "firmware": "Creality OS",
+    "summary": "K2 Plus Combo — это настольный 3D-принтер большого формата с объемом печати 350×350×350 мм, предназначенный для профессионалов и хобби-энтузиастов. Он оснащен системой подачи CFS для печати до 16 цветов, активно нагреваемой камерой для инженерных пластиков и двойными ИИ-камерами для контроля качества.",
+    "unique_features": [
+      "Система подачи CFSx4 (до 16 цветов)",
+      "Шаговые сервомоторы FOC (FOC step-servo motors)",
+      "Двойные ИИ-камеры (Dual AI Cameras)",
+      "Активно нагреваемая камера (Actively Heated Chamber)",
+      "Система активного натяжения ремней (Active Belt Tensioning)",
+      "Экструдер нового поколения с автоматическим резчиком нити",
+      "Датчик уровня на основе тензодатчика (Strain Gauge for Leveling)"
+    ],
+    "target_use": [
+      "Профессиональное применение (Professional Applications)",
+      "Печать инженерными пластиками (ASA, PPA, PET-CF, PA-CF)",
+      "Многослойная цветная печать (Multicolor 3D Printing)",
+      "Прототипирование и создание крупных объектов"
+    ],
+    "limitations": [
+      "Не совместим с гибким TPU (Not compatible with flexible TPU)",
+      "Не совместим с влажным BVOH/PVA (Not compatible with damp BVOH/PVA)",
+      "Не совместим с помятыми картонными катушками (Not compatible with warped cardboard spools)",
+      "Для 16 цветов необходимо докупить три дополнительных блока CFS (K2 Plus Combo includes only one CFS unit. For 16 colors, you need to buy three additional CFS units)"
+    ],
+    "whats_in_box": [
+      "Принтер K2 Plus",
+      "Блок CFS (Creality Filament System)",
+      "RFID-филамент (500 г) x 4"
+    ],
+    "max_nozzle_temp_c": 350,
+    "max_bed_temp_c": 120,
+    "max_chamber_temp_c": 60,
+    "max_flow_mm3s": 40,
+    "firmware_max_speed_mms": 800,
+    "firmware_max_accel_mms2": 30000,
+    "layer_height_min_mm": 0.05,
+    "layer_height_max_mm": 0.3,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 495,
+      "d": 515,
+      "h": 640
+    },
+    "weight_kg": 35,
+    "power_w": 1200,
+    "noise_db": 45,
+    "enclosed": true,
+    "chamber_active": true,
+    "multimaterial_supported": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "price_rub": 104999,
+    "in_stock_ru": true,
+    "kinematics": "corexy",
+    "positioning_accuracy_mm": 0.1,
+    "extruder_count": 1
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_chamber_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_flow_mm3s": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "layer_height_min_mm": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "layer_height_max_mm": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_diameter_mm": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "noise_db": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "enclosed": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "multimaterial_supported": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_rub": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "kinematics": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "positioning_accuracy_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Acceleration ≤ 30000 mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printing Speed ≤ 600 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Build Plate Flexible build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Leveling Mode Full-auto Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Display Screen 4.3\" color touch screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Creality OS Profoundly Evolved",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Supreme experience in desktop 3D printing for pros and hobbyists.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "CFSx4 delivering up to 16 colors",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Excellent for Professional Applications",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "*Not compatible with flexible TPU, damp BVOH/PVA, or warped cardboard spools.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "RFID filament (500g) *4 are included in the box of K2 Plus.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Nozzle Temperature ≤ 350 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Heatbed Temperature ≤ 120 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Chamber Temperature ≤ 60 ℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "40mm³/s High-flow Hotend",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Height 0.05-0.3 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Height 0.05-0.3 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter 1.75 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Dual-gear direct drive extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "K2 Plus Dimensions 495 × 515 × 640mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "K2 Plus Net Weight 35 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Rated Power 1200W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Noise Level at 300 mm/s ≤ 45 dB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "snug enclosure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Active Chamber Heater Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "CFS Compatibility Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "AI Camera for Monitoring Standard",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Tangle Detection Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Loss Recovery Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Air Purifier Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "104 999 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева рабочей камеры | ≤60℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "скорость потока ABS при температуре 280℃ достигает 40 мм³/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Его область построения составляет 350x350x350 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Скорость печати | ≤ 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | ≤ 30000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0.4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 495х515х640 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Вес (без упаковки) | 35 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Мощность | 1200 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "уровень шума при работе K2 Plus составляет всего 45 дБ",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейс подключения | Ethernet, USB накопитель, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "герметичному корпусу",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура подогрева рабочей камеры | ≤60℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Высокотемпературное сопло с наконечником из закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Камера с искусственным интеллектом | На рабочей поверхности Creality K2 Plus расположена камера",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик филамента | Усовершенствованный датчик филамента расположен практически возле сопла",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура экструдера, °C | до 350℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура стола | до 120℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная температура камеры построения | до 60℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "поддерживая впечатляющую скорость потока до 40 мм³/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Область печати, мм | 350x350x350 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Скорость печати | до 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Ускорение | до 30000 мм/сек",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя, мкм | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя, мкм | 0.05-0.3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла | 0.4 мм (0.2/ 0.6/ 0.8 мм - опция)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Габариты | 495x515x640 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес нетто | 35 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Электропитание | 100-240V~ AC 50/60Hz (мощность 1200 Вт)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Интерфейсы | USB/ Ethernet/ WiFi (2.4G, 5G)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Конструкция корпуса | Закрытая",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активный подогрев камеры до 60℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Высокотемпературное сопло с наконечником из закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вебкамера | да (1080P @30fps)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Датчик наличия филамента | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Возобновление печати после отключения питания | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Воздушный фильтр | да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Кинематика | CoreXY",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Точность | 100±0.1 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура хотэнда | 350°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура столика | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура рабочей камеры | 60°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Размер области построения | 350х350х350 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная скорость печати | 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Габариты | 495х515х640 мм (без CFS)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вес | 35 кг (нетто)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Номинальная мощность | 1200 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Интерфейс | USB, Wi-Fi, Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Рабочая камера | термостатированная",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "прогрев закрытой камеры до 60°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "сопла выполнены из износостойкой закаленной стали",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "системой автоматической смены филамента Creality Filament System (CFS)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вебкамеры | две с машинным зрением",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Функция сохранения | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Воздушный фильтр | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality K2 Plus 0.2 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/551/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/551/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "creality-official",
+      "url": "https://www.creality.com/products/creality-k2-plus-cfs-combo",
+      "tier": "vendor",
+      "snapshot": "sha256:3a245f131fbbf03c5a7aed60601495601150a4c3e0dee9bb0523c47ae84f4f99",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s4",
+      "source": "creality-official",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+      "tier": "vendor",
+      "snapshot": "sha256:2121b7ae7a20f288849579c8b8b8a3b2d67e02b9cd47da5dd891f6a2ee091449",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T11:01:46Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_creality_k2_plus/",
+      "tier": "catalog",
+      "snapshot": "sha256:2121b7ae7a20f288849579c8b8b8a3b2d67e02b9cd47da5dd891f6a2ee091449",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-creality-k2-plus/",
+      "tier": "catalog",
+      "snapshot": "sha256:aadf0d4ad0a3d3e1cdb448ced155c33bb52baf3a1a749767e306b13b8caca53a",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-k2-plus",
+      "tier": "community",
+      "snapshot": "sha256:04752d099defe60690e1997a06024fd2247990e5318603f9420f856765c748d1",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "heated_bed"
+    ],
+    "sources_count": 7,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 800,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 600,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.2,
+            0.4,
+            0.6,
+            0.8
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "USB Drive",
+            "Ethernet",
+            "WiFi"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

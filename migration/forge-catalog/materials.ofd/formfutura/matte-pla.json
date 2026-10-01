@@ -1,0 +1,261 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "formfutura.matte-pla",
+  "vendor": {
+    "slug": "formfutura",
+    "name": "FormFutura",
+    "website": "https://formfutura.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Matte PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "EasyFil e",
+      "diameter_mm": 1.75,
+      "external_ref": "f66dcca1-cc62-43c3-be69-205a3b2f9111",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "EasyFil e Lemon Cream",
+      "diameter_mm": 1.75,
+      "external_ref": "a11c902b-24d8-4187-a23f-1856c1849b84",
+      "confidence": 1.0,
+      "color_hex": "#d8cf8c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Aircraft Grey Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "e0dafef2-7f86-43e3-b780-5fffbb3c9a49",
+      "confidence": 1.0,
+      "color_hex": "#8c9099",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Blue Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "2a111257-2a90-4f9a-94b7-8a67bab09bac",
+      "confidence": 1.0,
+      "color_hex": "#23668c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Dark Green Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "fbbd3622-fc19-4f89-b8cb-638baf559e9d",
+      "confidence": 1.0,
+      "color_hex": "#757d65",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Desert Sand Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "f6e37bfb-53ce-4241-afda-b9ea03547678",
+      "confidence": 1.0,
+      "color_hex": "#aa6500",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Earth Red Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "60a0b0b3-ffcf-4ed4-9a97-595bb4435041",
+      "confidence": 1.0,
+      "color_hex": "#98282f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Gunmetal Grey Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "e41e6f4c-9441-4c9f-b511-9b715876439a",
+      "confidence": 1.0,
+      "color_hex": "#828e88",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Olive Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "56025347-6d82-442f-8c98-e73cab6f9309",
+      "confidence": 1.0,
+      "color_hex": "#737254",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Purple Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "cf2c6205-6c84-4653-b96c-39e1130bac97",
+      "confidence": 1.0,
+      "color_hex": "#9d7185",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Stealth Black",
+      "diameter_mm": 1.75,
+      "external_ref": "25b4facb-9499-4a8a-a909-4fe373f110f7",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Stealth White",
+      "diameter_mm": 1.75,
+      "external_ref": "02faeef1-16ba-4b72-a076-8d2e35d3c75d",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matt Urban Grey Camouflage",
+      "diameter_mm": 1.75,
+      "external_ref": "0e34a9bf-1700-4784-bf0d-fde25ad7494a",
+      "confidence": 1.0,
+      "color_hex": "#acb1ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Volcano",
+      "diameter_mm": 1.75,
+      "external_ref": "c9ce3c25-b792-48ba-874e-be41a5e21928",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/PLA/matte_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "7dcb978c-3964-42c0-a0a9-ed949e43970e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/PLA/matte_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

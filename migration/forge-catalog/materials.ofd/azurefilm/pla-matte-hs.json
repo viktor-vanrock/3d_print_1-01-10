@@ -1,0 +1,188 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "azurefilm.pla-matte-hs",
+  "vendor": {
+    "slug": "azurefilm",
+    "name": "AzureFilm",
+    "website": "https://www.azurefilm.com/",
+    "origin": "SL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Matte HS PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.35,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "0d97a298-ef9e-4b41-9d93-463195946254",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "35fe9b54-997f-4fc9-8229-b4c56b1f0254",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a4e4c3a7-baff-4819-8c0a-af60e347eb74",
+      "confidence": 1.0,
+      "color_hex": "#2b8da7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bordeaux",
+      "diameter_mm": 1.75,
+      "external_ref": "d56b9f59-fc96-4fbd-9599-863fb9f58ed5",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Coral",
+      "diameter_mm": 1.75,
+      "external_ref": "3d7ff312-7fd8-4af8-8ba0-2115d7e4367e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Creamstone",
+      "diameter_mm": 1.75,
+      "external_ref": "67907e2e-8f84-443a-87e5-94300b3b07ca",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime",
+      "diameter_mm": 1.75,
+      "external_ref": "01efc19c-0b5c-43ae-a961-231cd0b21180",
+      "confidence": 1.0,
+      "color_hex": "#8cb712",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mint",
+      "diameter_mm": 1.75,
+      "external_ref": "66fa6d39-e5f2-42e8-b6c6-55223f261414",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mist Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "83d7c244-3abe-438c-a186-18cfdfaaf4b7",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Off-White",
+      "diameter_mm": 1.75,
+      "external_ref": "6dc6fb0a-bf62-41cd-8e50-3d35bc511635",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rosy",
+      "diameter_mm": 1.75,
+      "external_ref": "b897dae2-4a71-4d73-811c-75cd88766331",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sage",
+      "diameter_mm": 1.75,
+      "external_ref": "dc21271f-b979-40ae-a4d3-8177c11422ef",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "eff6c5bb-da8b-4420-96c0-00681777cae3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/pla_matte_hs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/pla_matte_hs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/pla_matte_hs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/pla_matte_hs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/pla_matte_hs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/PLA/pla_matte_hs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "cc3fe921-4874-4a70-a181-0054baf834ac",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/PLA/pla_matte_hs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

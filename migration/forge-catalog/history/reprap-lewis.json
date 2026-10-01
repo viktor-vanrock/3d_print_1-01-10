@@ -1,0 +1,82 @@
+{
+ "slug": "history.reprap-lewis",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Lewis",
+ "snapshot": "sha256:09775753b7d74a5e4e119985694c521e85fa9f8a54e5fb60fc37809a6ce5b96d",
+ "page_chars": 2995,
+ "fields": {
+  "summary": "Lewis — это 3D-принтер на базе RepRap, разработанный с акцентом на высокую воспроизводимость и доступную документацию. Он позиционируется как устройство для самостоятельной сборки и массового тиражирования, соответствующее требованиям Gada Prize.",
+  "unique_features": [
+   "Комплектующие для полной механической сборки помещаются в небольшую коробку USPS (220x135x41 мм)",
+   "Высокая способность к репликации (high replication ability)",
+   "Доступная документация, хранящаяся на wiki RepRap"
+  ],
+  "target_use": [
+   "Самостоятельная сборка и репликация (RepRap)",
+   "Участие в конкурсе Gada Prize"
+  ],
+  "limitations": [
+   "Статус: Experimental (Экспериментальный)",
+   "Технология: FFF (Fused Filament Fabrication)/термопластичная экструзия (ограничено термопластами)",
+   "Минимальный размер детали: 2 мм",
+   "Толщина слоя: 0.3 мм",
+   "Скорость печати: 15.0 см³ в час для твердого заполнения (на примере PLA)"
+  ],
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 140,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 725,
+  "positioning_accuracy_mm": 0.1,
+  "nozzle_diameters": [
+   0.5
+  ],
+  "extruder_count": 1,
+  "dimensions_mm": {
+   "w": 500,
+   "d": 400,
+   "h": 360
+  },
+  "weight_kg": 7.0,
+  "release_year": 2012
+ },
+ "evidence": {
+  "summary": "The primary design goals are accessible documentation and high replication ability. All working documentation and recommendations are stored on the RepRap wiki.",
+  "unique_features": "Complete mechanical assembly can fit into a small flat rate USPS box (about 220mm x 135mm x 41mm)",
+  "target_use": "This is an entry into the Gada Prize.",
+  "limitations": "Release status: Experimental",
+  "build_volume": "Build Envelope | 200 mm (W) x 200 mm (D) x 140 mm (H)",
+  "max_speed_mms": "Maximum X and Y axis speed of 725mm/s",
+  "positioning_accuracy_mm": "0.1 mm positioning accuracy",
+  "nozzle_diameters": "Diameter of nozzle 0.5 mm",
+  "extruder_count": "Initial positioning system with support for 1 extruder.",
+  "dimensions_mm": "Size | 500 mm (W) x 400 mm (D) x 360 mm (H)",
+  "weight_kg": "Weight | 7.0 kg",
+  "release_year": "0.10 (2012/xx/xx)"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Комплектующие для полной механической сборки помещаются в небольшую коробку USPS (220x135x41 мм)",
+  "Высокая способность к репликации (high replication ability)",
+  "Доступная документация, хранящаяся на wiki RepRap"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "скоростной"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T04:19:07Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Lewis",
+ "maker": "RepRap",
+ "model": "Lewis",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Lewis"
+}

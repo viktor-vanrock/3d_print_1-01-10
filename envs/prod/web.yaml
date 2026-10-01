@@ -1,0 +1,64 @@
+# web — статика SPA за nginx. Секретов нет, Vault не нужен.
+
+replicaCount: 2
+
+strategy:
+  type: RollingUpdate
+  rollingUpdate:
+    maxSurge: 1
+    maxUnavailable: 0
+
+image:
+  repository: registry.sberdevices.ru/rndml/additive-ai-portal/3d-ai-portal/web
+  pullPolicy: IfNotPresent
+
+imagePullSecrets:
+  - name: gitlab-registry-secret
+
+serviceAccount:
+  create: false
+  name: ""
+
+securityContext: {}
+podSecurityContext: {}
+
+service:
+  enabled: true
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: 8080
+
+# OpenShift Route после helm: web-p-rndml-aiportal.apps.advosp.sberdevices.ru
+ingress:
+  enabled: true
+  openshift: true
+  route:
+    path: "/"
+    annotations:
+      haproxy.router.openshift.io/rewrite-target: /
+      openshift.io/host.generated: "true"
+
+livenessProbe:
+  httpGet:
+    path: /healthz
+    port: http
+readinessProbe:
+  httpGet:
+    path: /healthz
+    port: http
+
+# При 2 репликах PDB не даёт drain'у ноды снять обе сразу.
+podDisruptionBudget:
+  enabled: true
+  maxUnavailable: 1
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 128Mi
+  limits:
+    cpu: "1"
+    memory: 512Mi

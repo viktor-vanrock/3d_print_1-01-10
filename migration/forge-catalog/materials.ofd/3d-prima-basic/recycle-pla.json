@@ -1,0 +1,121 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "3d-prima-basic.recycle-pla",
+  "vendor": {
+    "slug": "3d-prima-basic",
+    "name": "3D Prima Basic",
+    "website": "https://www.3dprima.com/"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Recycle PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "86d98937-92a2-45e3-92e7-c4fc09e13767",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/6283-basic-recycle-pla-filament-1-kg-sort/"
+    },
+    {
+      "color_name": "Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "4cced0c1-ebed-418c-87c3-78b90605360f",
+      "confidence": 1.0,
+      "color_hex": "#545454",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/6284-basic-recycle-pla-filament-1-kg-moerkegraa/"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "565ae20b-1277-4cd8-9c28-4827fb9fe210",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/6282-basic-recycle-pla-filament-1-kg-hvid/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3d_prima_basic/PLA/recycle_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3d_prima_basic/PLA/recycle_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3d_prima_basic/PLA/recycle_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3d_prima_basic/PLA/recycle_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3d_prima_basic/PLA/recycle_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3d_prima_basic/PLA/recycle_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "dd120cf1-846b-44fe-a555-153688ca5f5f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3d_prima_basic/PLA/recycle_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,295 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "longer.lk5",
+  "vendor": {
+    "slug": "longer",
+    "name": "Longer"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "LK5",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 400
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2021-01-20",
+    "screen_type": "4.3-inch full-color touch screen",
+    "unique_features": [
+      "Большой размер зоны печати 300x300x400 мм",
+      "Обновленный комплект из двух вентиляторов охлаждения (dual blower kit)",
+      "Полностью металлический интегрированный дизайн с двойной шпилькой (dual tie rod)",
+      "Открытая материнская плата с тремя наборами чипов TMC2208",
+      "90% предварительной сборки",
+      "4.3-дюймовый полноцветный сенсорный экран",
+      "Карборундовое стеклянное рабочее поле",
+      "Функция возобновления печати и защита от окончания филамента"
+    ],
+    "whats_in_box": [
+      "Card Reard x 1",
+      "TF Card x 1",
+      "Scraper x 1",
+      "Tool Set x 1",
+      "Power Cord x 1",
+      "Test PLA x 1",
+      "Filament Sensor x 1",
+      "Screws Set x 1"
+    ],
+    "limitations": [
+      "В комплекте не поставляется USB-кабель для подключения к компьютеру (требуется специальный разъем)",
+      "Инструкции в бумажном виде и на TF-карте описаны как недостаточно подробные для новичков",
+      "Требуется ручная калибровка стола (manual leveling)",
+      "Вентиляторы описываются как достаточно громкие (loud enough)",
+      "Драйверы шаговых двигателей не являются абсолютно бесшумными (not as quiet)",
+      "Отсутствует подогрев камеры (пользователи используют внешний корпус для поддержания температуры)"
+    ],
+    "bed_surface": "Carborundum glass",
+    "summary": "Longer LK5 PRO — это FDM 3D-принтер с металлическим корпусом и большой областью печати 300x300x400 мм, позиционируемый как устройство для начинающих и энтузиастов благодаря высокой степени заводской сборки (90%) и тихой работе. Он предназначен для создания прототипов, деталей для ремонта и хобби-проектов из стандартных пластиков, таких как PLA.",
+    "target_use": [
+      "Прототипирование",
+      "Изготовление деталей для ремонта бытовой техники",
+      "Хобби и создание фигурок",
+      "Образование и обучение начинающих"
+    ],
+    "price_usd": 279.99,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk5.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk5.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk5.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk5.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk5.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk5.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "4.3-inch full-color touch screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Large building size of 300*300*400mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Parts List in Package Manual x 1 Card Reard x 1 TF Card x 1 Scraper x 1 Tool Set x 1 Power Cord x 1 Test PLA x 1 Filament Sensor x 1 Screws Set x 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "you do not recieve a USB cable with this machine and the website doesn't sell them either... it takes a special end that you got with old flip phones",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Carborundum glass platform",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Longer LK5 PRO FDM 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "for my job in repairs, it is amazing and can give me parts I need to fix appliances",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $279.99",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Sensor x 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Resume printing & run out protection",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "12-Month Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/longer_lk5.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk5.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "longer-official",
+      "url": "https://longer3d.com/products/lk5-pro-fdm-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:6fcff94cd5d1c23c113c361c8bdc863066ee6f21af9f580dc2c5dcfc28a0ab4b",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Longer"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

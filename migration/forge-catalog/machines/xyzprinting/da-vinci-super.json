@@ -1,0 +1,352 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "xyzprinting.da-vinci-super",
+  "vendor": {
+    "slug": "xyzprinting",
+    "name": "XYZprinting"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "da Vinci Super",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 300
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2021-08-09",
+    "screen_type": "5\" сенсорный LCD",
+    "firmware": "XYZmaker Suite",
+    "max_nozzle_temp_c": 260,
+    "max_travel_speed_mms": 180,
+    "layer_height_min_mm": 0.02,
+    "layer_height_max_mm": 0.4,
+    "positioning_accuracy_mm": 0.0125,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 604,
+      "d": 605,
+      "h": 733
+    },
+    "weight_kg": 35.5,
+    "power_w": 450,
+    "connectivity": [
+      "USB",
+      "WiFi"
+    ],
+    "materials_supported": [
+      "PLA",
+      "Antibacterial PLA",
+      "ABS",
+      "Tough PLA",
+      "PETG",
+      "TPE",
+      "TPU",
+      "Nylon",
+      "HIPS",
+      "Wood PLA",
+      "Premium Metallic PLA",
+      "XYZ Carbon Fiber"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/xyzprinting_da_vinci_super.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/xyzprinting_da_vinci_super.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/xyzprinting_da_vinci_super.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_nozzle_temp_c": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_travel_speed_mms": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "positioning_accuracy_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "nozzle_diameters": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "materials_supported": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/xyzprinting_da_vinci_super.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/xyzprinting_da_vinci_super.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/xyzprinting_da_vinci_super.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Дисплей | 5\" сенсорный LCD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Программное обеспечение | XYZmaker Suite",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Температура экструдера, °C | 260",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Скорость перемещения | 180 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя, мкм | 20, 400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя, мкм | 20, 400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Точность позиционирования по оси XY | 12.5 микрон",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр сопла | 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Габариты | 604 x 605 x 733 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Вес нетто | 35.5 кг",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Электропитание | 100 ~ 240 В 450 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Интерфейсы | USB-накопитель, кабель USB 2.0, WiFi 802.11 b/g/n",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Материалы | PLA / Antibacterial PLA / ABS / Tough PLA / PETG / TPE / TPU / Nylon / HIPS / Wood PLA / *Premium Metallic PLA / *XYZ Carbon Fiber",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "датчик окончания филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "автоматическое возобновление печати в случае внезапного отключения электроэнергии",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/xyzprinting_da_vinci_super.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/xyzprinting_da_vinci_super.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-xyzprinting-da-vinci-super/",
+      "tier": "catalog",
+      "snapshot": "sha256:fef664ba753bc99387cbcb60a743f38a8c7617590e513f5ea7a92c352aead949",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DVision"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "price_rub"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true
+  }
+}

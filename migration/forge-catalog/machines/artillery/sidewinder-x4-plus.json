@@ -1,0 +1,507 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "artillery.sidewinder-x4-plus",
+  "vendor": {
+    "slug": "artillery",
+    "name": "Artillery"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Sidewinder X4 Plus",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 310,
+      "z": 400
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "WiFi",
+      "USB Drive"
+    ],
+    "max_accel_mms2": 6000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2024-07-11",
+    "bed_surface": "Dual Sided Textured Magnetic PEI Plate",
+    "auto_leveling": "36-point automatic leveling",
+    "screen_type": "4.3 inch Touchscreen",
+    "firmware": "Klipper",
+    "summary": "Artillery Sidewinder X4 Plus — это FDM 3D-принтер с большим объемом печати 300x300x400 мм, предназначенный для домашнего и школьного использования, а также для создания прототипов. Устройство оснащено высокоскоростным процессором Klipper, металлическими линейными направляющими и способностью печатать материалами с температурой до 300°C.",
+    "unique_features": [
+      "Процессор ARM 64-bit с частотой 1.5GHz",
+      "Скорость печати до 500 мм/с и ускорение 12,000 мм/с²",
+      "Металлические линейные направляющие на осях X и Y",
+      "Двухмоторная система с двойной осью Z",
+      "Вентиляторы охлаждения с оборотами 8000 rpm",
+      "Автоматическая калибровка стола (36 или 121 точка)",
+      "Управление через WiFi и предварительный просмотр срезов",
+      "Поставляется на 95% собранным"
+    ],
+    "target_use": [
+      "DIY Home Printing",
+      "School Printing",
+      "Прототипирование",
+      "Работа с инженерными пластиками (ABS, Nylon, Carbon)"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 100,
+    "firmware_max_speed_mms": 500,
+    "positioning_accuracy_mm": 0.1,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 510,
+      "d": 490,
+      "h": 680
+    },
+    "weight_kg": 15.5,
+    "power_w": 450,
+    "power_loss_recovery": true,
+    "warranty_months": 12,
+    "heated_bed": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_speed_mms": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "positioning_accuracy_mm": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "artillery-official",
+      "source_url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Printing Speed 500mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Build Surface Dual Sided Textured Magnetic PEI Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Auto Bed Leveling - 36-point automatic leveling for precision",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Display Screen 4.3 inch Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Artillery Sidewinder SW-X4 Plus 3D Printer Klipper Firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Artillery Sidewinder X4 Plus 3D Printer ... 300*300*400mm, 500mm/s Print Speed, 300℃ High-temp Printing, XY-Metal Linear Guide Rail, Auto Levelling, 8000 rpm Efficient Cooling Fans",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Powerful Klipper Mainboard - High-performance ARM 64-bit processor with a 1.5GHz main frequency and quad-core architecture.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Ideal for DIY Home and School Printing with FDM Technology.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "All-Metal Hotend - Capable of reaching 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hotbed Temp ≤100°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printing Accuracy ±0.1mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter 1.75mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder All Metal Dual Gear Direct Drive",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Product Dimensions 510*490*680mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Net Weight 15.5 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Rated Voltage 450W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Resume Printing Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Artillery Official Warranty — 15-Day Return & Refund , 1-Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hotbed Temp ≤100°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Artillery/machine/Artillery Sidewinder X4 Plus 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/530/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/530/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "artillery-official",
+      "url": "https://eu.artillery3d.com/products/sidewinder-x4-plus?shpxid=4ebda42b-252d-48eb-bf93-bc4bef5f30f4",
+      "tier": "vendor",
+      "snapshot": "sha256:88f4219b45c948e6eb0dcf7a52c6e3d16bb13c7be87fe840a031affb3424d25e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Artillery"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 300,
+            "y": 310,
+            "z": 400
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 300,
+            "y": 300,
+            "z": 400,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "WiFi",
+            "USB Drive"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "alzament.pla-chameleon",
+  "vendor": {
+    "slug": "alzament",
+    "name": "Alzament",
+    "website": "https://alzament.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Chameleon",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Burning Titanium",
+      "diameter_mm": 1.75,
+      "external_ref": "a07ba9a4-e648-4ece-9828-43d39343b317",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-chameleon-1-kg-burning-titanium-d12869952.htm"
+    },
+    {
+      "color_name": "Nebula Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "cf1b534e-f35d-4ee4-b337-fe8675498dac",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-pla-chameleon-1-kg-nebula-purple-d12869951.htm"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla_chameleon/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla_chameleon/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/PLA/pla_chameleon/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "384607fc-fbf2-4009-bfc0-4808431305f3",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/PLA/pla_chameleon/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

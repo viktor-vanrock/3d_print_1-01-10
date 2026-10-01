@@ -1,0 +1,245 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "nobufil.x-industrial-abs",
+  "vendor": {
+    "slug": "nobufil",
+    "name": "Nobufil",
+    "website": "https://nobufil.com",
+    "origin": "AT"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "X Industrial ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "3092da42-9731-4375-9d3f-5140c51c3e46",
+      "confidence": 1.0,
+      "color_hex": "#eadac2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6702bcf2-5d1b-4dea-9fd6-34d9997a2341",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "d1c4bc72-5a69-4bde-bf6a-9b78be14cb73",
+      "confidence": 1.0,
+      "color_hex": "#6e4325",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "74d38809-8ace-498a-9580-194de78f472e",
+      "confidence": 1.0,
+      "color_hex": "#9fa4a8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "84b86647-c0e6-4ab9-b2b7-9c2fdb6aa5b9",
+      "confidence": 1.0,
+      "color_hex": "#1e5a4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "6fcb624f-a08e-45be-a761-4b1f36385dbc",
+      "confidence": 1.0,
+      "color_hex": "#06b100",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "917a44d7-d95a-4e5a-8549-03736a8e7fa6",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "bb4df196-6f89-4604-a195-9b541a6123f4",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "adbe314a-7fbd-47c5-a893-ae687d78e39d",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Teal",
+      "diameter_mm": 1.75,
+      "external_ref": "d402cab6-b033-4910-b1ca-1f23aff4addd",
+      "confidence": 1.0,
+      "color_hex": "#0079a7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "a8d42931-52aa-405e-b881-1a2c05fc244e",
+      "confidence": 1.0,
+      "color_hex": "#67d8bc",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "a5cf740e-12c5-4052-acff-f7d2f48add35",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/ABS/x_industrial_abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "2b98ef55-e035-41fe-9c1c-354354b5c595",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/ABS/x_industrial_abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

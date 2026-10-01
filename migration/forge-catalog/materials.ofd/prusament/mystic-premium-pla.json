@@ -1,0 +1,113 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.mystic-premium-pla",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Mystic Premium PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "e78fc84c-1f5d-404b-b8fb-96b659de5f6b",
+      "confidence": 1.0,
+      "color_hex": "#482e31",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-premium-pla-mystic-brown-1kg-2/"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "8db4cd4d-6603-43e2-81dc-c9475353a629",
+      "confidence": 1.0,
+      "color_hex": "#555846",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-premium-pla-mystic-green-1kg-2/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/mystic_premium_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/mystic_premium_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/mystic_premium_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/mystic_premium_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/mystic_premium_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/mystic_premium_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c7248182-cd85-4f67-a0b6-d442062e5a9b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/mystic_premium_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

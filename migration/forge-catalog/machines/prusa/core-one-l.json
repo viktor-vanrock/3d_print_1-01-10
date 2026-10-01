@@ -1,0 +1,1094 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "prusa.core-one-l",
+  "vendor": {
+    "slug": "prusa",
+    "name": "Prusa"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "CORE One L",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 331
+    },
+    "kinematics": "corexy",
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 350,
+    "nozzle_diameters": [
+      0.4,
+      0.5,
+      0.6,
+      0.8
+    ],
+    "profile_first_seen": "2026-01-22",
+    "bed_surface": "Magnetic heatbed with removable dual-sided PEI spring steel sheets",
+    "auto_leveling": "Fully automatic, Mesh Bed Leveling exclusively on the print area via high-precision Load Cell sensor",
+    "summary": "Prusa CORE One L+ — это крупноформатный 3D-принтер с объемом печати 29,7 литра и активной конвекционной камерой, нагреваемой до 60°C. Он предназначен для производства функциональных деталей, прототипирования и работы с инженерными пластиками в условиях мастерских и бизнеса.",
+    "unique_features": [
+      "Активная конвекционная камера (до 60°C)",
+      "Весь алюминиевый нагреваемый стол (AC Heatbed) с двойным контуром",
+      "Стальной экзоскелет",
+      "Интегрированный очиститель сопла",
+      "Режим печати гибкими материалами (Flex loading mode)",
+      "Печать нависаний до 75° без поддержек",
+      "Возможность работы в полностью офлайн-режиме (Critical Infrastructure Edition)",
+      "Сменная система инструментов INDX (апгрейд)"
+    ],
+    "target_use": [
+      "Производство и R&D",
+      "Автомобильная промышленность",
+      "Медицина",
+      "Образование",
+      "Архитектура и дизайн",
+      "Кинематограф (реквизит, косплей)",
+      "Критическая инфраструктура (офлайн-режим)"
+    ],
+    "limitations": [
+      "Для печати ASA и других материалов, выделяющих ультрадисперсные частицы и пары, требуется опциональная система фильтрации или подключение к HVAC",
+      "Печатные столы являются расходными материалами и не покрываются гарантией (кроме дефектов при доставке)",
+      "Косметические повреждения не покрываются гарантией"
+    ],
+    "max_nozzle_temp_c": 290,
+    "max_bed_temp_c": 120,
+    "max_chamber_temp_c": 60,
+    "max_travel_speed_mms": 500,
+    "layer_height_min_mm": 0.05,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 469,
+      "d": 521,
+      "h": 635
+    },
+    "weight_kg": 21.9,
+    "connectivity": [
+      "Ethernet",
+      "NFC receiver",
+      "Wi-Fi",
+      "USB",
+      "WIFI - WLAN"
+    ],
+    "enclosed": true,
+    "chamber_active": true,
+    "nozzle_hardened": true,
+    "heated_bed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "screen_type": "3.5-inch 65K colour display, touch control",
+    "firmware": "Open source software and firmware",
+    "power_w": 240,
+    "layer_height_max_mm": 0.3,
+    "extruder_count": 1,
+    "materials_supported": [
+      "АБС",
+      "АСА",
+      "ПЛА",
+      "ПЭТГ",
+      "полистирол",
+      "полиамиды",
+      "полипропилен",
+      "поликарбонат",
+      "термопластичные полиуретаны"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/664/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/664/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/664/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/664/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_chamber_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_travel_speed_mms": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "enclosed": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "chamber_active": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3djake-catalog",
+          "url": "https://www.3djake.com/prusa/core-one-l",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/prusa/core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/prusa/core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_w": {
+      "source": "3djake-catalog",
+      "source_url": "https://www.3djake.com/prusa/core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/664/orcaslicer/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/664/orcaslicer/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/664/orcaslicer/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/664/orcaslicer/machine_profiles.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Print Surface Magnetic heatbed with removable dual-sided PEI spring steel sheets",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "First Layer Calibration Fully automatic, Mesh Bed Leveling exclusively on the print area via high-precision Load Cell sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The Prusa CORE One L is the larger sibling of the proven Prusa CORE One with DOUBLE the print volume! ... adding a 60°C heated chamber for warping-free printing.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The integrated nozzle wiper cleans filament from the nozzle before printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "3D Printing for Manufacturing and R&D Automotive Industry Healthcare Education and Academic Research Architects and Designers Film Industry Critical Infrastructure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The optional Advanced Filtration System is useful when you print materials such as ASA and other materials that produce an increased number of ultra-fine particles and fumes during printing.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Nozzle Temperature 290 °C / 554 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Heatbed Temperature 120 °C / 248 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Chamber Temperature 60 °C / 140 °F (Active Convection Chamber)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "travel speeds reaching 500 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Height 0.05 - 0.30 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter 1.75 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder System Nextruder Direct Drive with planetary gear system (10:1 ratio)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer Dimensions & Weight 21.9 kg (48.3 lbs), 469 × 521 × 635 mm (18.5 × 20.5 × 25 inches)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer Dimensions & Weight 21.9 kg (48.3 lbs)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Connectivity Ethernet, NFC receiver, Wi-Fi (physically removable module for high-security offline setups)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Fully Enclosed CoreXY Architecture",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Active Chamber with Smart Temperature Management",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "0.4mm Prusa Hardened Nozzle (Nickle‑plated)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Heatbed Temperature 120 °C / 248 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "1080p Night Vision Camera Detachable - monitor prints and make timelapses",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Built-in Sensors 2x Filament Sensors",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max. printing temperature | 290 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max. heated bed temperature | 120 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Max. chamber temperature | 60 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Build volume [LxWxH]: 300 x 300 x 330 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "High-flow Prusa nozzle brass CHT, 0.4 mm Abrasion-resistant nozzle, 0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Device dimensions | 469 x 521 x 635 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Device weight | 21.9 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "closed chamber",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Active chamber heating up to 60°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "1 x Abrasive-Resistant nozzle 0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Heated print bed: Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "1080 pixel camera",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Sensors | 2 x filament sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Device display | 3.5-inch 65K colour display, touch control",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Open source software and firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Power supply | 240 W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура хотэнда | 290°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура столика | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура термокамеры | 60°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 300х300х330 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла | 0,4 мм (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Габариты | 469х521х635 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Закрытая камера прогревается до 60°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Термокамера | активная",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "износостойким соплом для 3D-печати композиционными материалами с волоконными армирующими наполнителями",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Максимальная температура столика | 120°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчики филамента | 2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,05-0,3 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Расходные материалы | АБС, АСА, ПЛА, ПЭТГ, полистирол, полиамиды, полипропилен, поликарбонат, термопластичные полиуретаны, и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One L 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/664/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/664/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "prusa-official",
+      "url": "https://www.prusa3d.com/product/prusa-core-one-l/",
+      "tier": "vendor",
+      "snapshot": "sha256:6931e907acbe8019fba377477d480a3c0d3001ae89c91768c3ef2d5dc64d9357",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Prusa"
+    },
+    {
+      "source_id": "s4",
+      "source": "3djake-catalog",
+      "url": "https://www.3djake.com/prusa/core-one-l",
+      "tier": "catalog",
+      "snapshot": "sha256:e882fbad965d5697bfec5b4d8ebc10f6e0944070903910f696ee11300c7a9fc0",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DJake"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/prusa-research/original-prusa-core-one-l",
+      "tier": "community",
+      "snapshot": "sha256:678d9610fc10ff2b052e6ac1c08b2f8685f925ae83412d32379b0cf2297af81d",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:58:42Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "price_rub"
+    ],
+    "sources_count": 5,
+    "quality_score": 12,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 300,
+            "y": 300,
+            "z": 331
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 300,
+            "y": 300,
+            "z": 330,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

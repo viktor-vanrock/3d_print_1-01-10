@@ -1,0 +1,112 @@
+# api — Nest-бэкенд. Одна реплика и Recreate: миграции dbmate в команде старта
+# и RWO-том git-репозиториев нельзя делить на два пода.
+
+replicaCount: 1
+
+strategy:
+  type: Recreate
+
+image:
+  repository: registry.sberdevices.ru/rndml/additive-ai-portal/3d-ai-portal/api
+  pullPolicy: IfNotPresent
+  command: ["/bin/sh"]
+  args:
+    - "-c"
+    - ". /vault/secrets/config && exec node dist/nest/main.js"
+
+# INCOMPATIBLE_MIGRATION_REQUIRES_SCALE_TO_ZERO: pre-upgrade hook выполняется до
+# Recreate и сам не останавливает старый pod. Для несовместимой миграции сначала
+# выполнить deploy/portal.openshift-api-stop-for-migration.sh p-rndml-aiportal;
+# см. docs/infra/prod.md.
+migration:
+  enabled: true
+  command: ["/bin/sh"]
+  args:
+    - "-c"
+    - ". /vault/secrets/config && dbmate --migrations-dir db/migrations --schema-file db/schema.sql --no-dump-schema up"
+
+imagePullSecrets:
+  - name: gitlab-registry-secret
+
+serviceAccount:
+  create: false
+  name: vault
+
+podAnnotations:
+  vault.hashicorp.com/agent-inject: "true"
+  vault.hashicorp.com/agent-pre-populate-only: "true"
+  vault.hashicorp.com/agent-inject-secret-config: rndml/aiportal/api
+  vault.hashicorp.com/role: p-rndml-aiportal
+  vault.hashicorp.com/agent-inject-template-config: |
+    {{- with secret "rndml/aiportal/api" -}}
+    {{ range $k, $v := .Data.data }}export {{ $k }}='{{ $v }}'
+    {{ end }}{{- end -}}
+
+configMap:
+  enabled: true
+  config:
+    NODE_ENV: production
+    PORT: "3002"
+    CLOSED_DEV: "0"
+    WEB_APP_URL: https://materialize.sberdevices.ru
+    WEB_BASE_URL: https://materialize.sberdevices.ru
+    API_PUBLIC_URL: https://materialize.sberdevices.ru/api
+    CORS_ALLOWED_ORIGINS: https://materialize.sberdevices.ru
+    COOKIE_DOMAIN: materialize.sberdevices.ru
+    MESH_HTTP_URL: http://mesh:3101
+    GIGA_HTTP_URL: http://giga:3102
+    GIT_REPOS_DIR: /srv/git/repos
+    AUTH_DEV_BYPASS: "0"
+    S3_REGION: ru-moscow-1
+    S3_BUCKET_MODELS: p-rndml-aiportal
+    S3_BUCKET_AUTH: p-rndml-aiportal
+    S3_BUCKET_GENERATIONS: p-rndml-aiportal
+    S3_BUCKET_PRINTERS_RESEARCH: p-rndml-aiportal
+
+securityContext: {}
+podSecurityContext: {}
+
+service:
+  enabled: true
+  type: ClusterIP
+  ports:
+    - name: http
+      port: 80
+      protocol: TCP
+      targetPort: 3002
+
+ingress:
+  enabled: true
+  openshift: true
+  route:
+    path: "/"
+    annotations:
+      haproxy.router.openshift.io/rewrite-target: /
+      openshift.io/host.generated: "true"
+
+livenessProbe:
+  httpGet:
+    path: /health
+    port: http
+  initialDelaySeconds: 30
+readinessProbe:
+  httpGet:
+    path: /health
+    port: http
+  initialDelaySeconds: 10
+
+volumes:
+  - name: git-repos
+    persistentVolumeClaim:
+      claimName: aiportal-api-git-repos
+volumeMounts:
+  - name: git-repos
+    mountPath: /srv/git/repos
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 1Gi
+  limits:
+    cpu: "2"
+    memory: 2Gi

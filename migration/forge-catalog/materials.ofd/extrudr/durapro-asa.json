@@ -1,0 +1,245 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "extrudr.durapro-asa",
+  "vendor": {
+    "slug": "extrudr",
+    "name": "extrudr",
+    "website": "https://extrudr.com",
+    "origin": "AT"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "DuraPro ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.07,
+      "nozzle_temp_min_c": 235,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Anthracite",
+      "diameter_mm": 1.75,
+      "external_ref": "ab0bfe05-6cb0-46aa-8734-aed0efc868b8",
+      "confidence": 1.0,
+      "color_hex": "#26272b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6adc2c30-4e2b-4d55-b66d-ecd383507232",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "f807f569-c1f7-4036-a06a-820713b4d58b",
+      "confidence": 1.0,
+      "color_hex": "#c9d0d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Emerald Green",
+      "diameter_mm": 1.75,
+      "external_ref": "ce38e693-8305-483d-b6d6-7a04a6ebced8",
+      "confidence": 1.0,
+      "color_hex": "#317c2e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic",
+      "diameter_mm": 1.75,
+      "external_ref": "bb6e5090-8423-489b-b07f-9e79522dbde9",
+      "confidence": 1.0,
+      "color_hex": "#45444a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nature",
+      "diameter_mm": 1.75,
+      "external_ref": "a58c61d0-1f0a-46de-9ba0-ce411e0f32b3",
+      "confidence": 1.0,
+      "color_hex": "#efe8d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Green",
+      "diameter_mm": 1.75,
+      "external_ref": "aa8c5b7c-27b1-42ef-8568-fa3466ac413e",
+      "confidence": 1.0,
+      "color_hex": "#69ee00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "9c97710e-bc28-44b4-85bd-0effb9630a61",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "db4894d8-836f-4ccc-a2c7-7563402a9ff5",
+      "confidence": 1.0,
+      "color_hex": "#fffb00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0877df98-da09-43cc-ace8-7f33b88177d1",
+      "confidence": 1.0,
+      "color_hex": "#d33d3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "236314b3-e4f1-4a3e-b395-aeec06082261",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "f990df67-3d42-4eb5-a6a7-4fb72507fd3c",
+      "confidence": 1.0,
+      "color_hex": "#fadb24",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/extrudr/ASA/durapro_asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f5b5e0ff-a6ca-4dc2-96bc-91f8279d218a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/extrudr/ASA/durapro_asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

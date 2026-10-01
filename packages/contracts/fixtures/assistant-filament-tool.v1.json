@@ -1,0 +1,27 @@
+{
+  "args": { "material_type": "pla" },
+  "result": {
+  "resolution": "resolved",
+  "evidence": [{
+    "evidence_id": "material:00000000-0000-4000-8000-000000000071",
+    "entity_type": "material",
+    "entity_id": "00000000-0000-4000-8000-000000000071",
+    "title": "Test PLA",
+    "snippet": "PLA; Диаметр: 1.75 мм",
+    "canonical_url": "/materials/00000000-0000-4000-8000-000000000071",
+    "facts": {
+      "kind": "material", "brand": "Test", "name": "PLA", "material_type": "pla",
+      "color": null, "diameter_mm": 1.75, "abrasive": false,
+      "compatibility": "insufficient_data", "compatibility_reasons": [],
+      "ranking_criterion": "compatibility_state,constraints_satisfied_desc,name_asc,id_asc"
+    },
+    "source_refs": [{ "label": "Каталог портала (manual)", "url": null }],
+    "source_published_at": null,
+    "observed_at": "2026-09-01T00:00:00.000Z",
+    "updated_at": "2026-09-02T00:00:00.000Z",
+    "price_updated_at": null,
+    "quality": "reported",
+    "missing_fields": ["confirmed_machine", "machine.max_hotend_temp_c", "machine.filament_dia_mm"]
+  }]
+  }
+}

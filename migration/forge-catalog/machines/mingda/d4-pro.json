@@ -1,0 +1,343 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "mingda.d4-pro",
+  "vendor": {
+    "slug": "mingda",
+    "name": "Mingda"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "D4 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 420,
+      "y": 420,
+      "z": 400
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2021-03-16",
+    "bed_surface": "гибкий",
+    "screen_type": "3,5-дюймовый цветной сенсорный",
+    "max_nozzle_temp_c": 275,
+    "max_bed_temp_c": 110,
+    "max_speed_mms": 60,
+    "max_travel_speed_mms": 200,
+    "layer_height_max_mm": 0.3,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "extruder_count": 1,
+    "connectivity": [
+      "usb",
+      "card reader"
+    ],
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "HIPS",
+      "PETG"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/mingda_d4pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/mingda_d4pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/mingda_d4pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_nozzle_temp_c": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_bed_temp_c": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "max_travel_speed_mms": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "layer_height_max_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_diameter_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_runout_sensor": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "power_loss_recovery": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/mingda_d4pro.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/mingda_d4pro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/mingda_d4pro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Область построения, мм: 420х420х400",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "подогреваемая платформа оснащена съемным гибким столиком",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Дисплей | 3,5-дюймовый цветной сенсорный",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Температура экструдера | до 275°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Температура платформы | до 110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Скорость печати | 20-60 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Скорость позиционирования | до 200 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя, мм | 0,05-0,3",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "один экструдер с директ-подачей филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Интерфейсы | usb, card reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Материалы | ABS-пластик PLA-пластик HIPS PETG",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Функция сохранения печати | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/mingda_d4pro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/mingda_d4pro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Mingda/mingda-d4-pro",
+      "tier": "community",
+      "snapshot": "sha256:07c354f49e70ffdbd10ffab976c8c789f2ee6431701bb9bfb2e75163d598f647",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true
+  }
+}

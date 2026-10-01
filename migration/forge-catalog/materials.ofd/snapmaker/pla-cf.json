@@ -1,0 +1,284 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "snapmaker.pla-cf",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker",
+    "website": "https://snapmaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.29,
+      "nozzle_temp_min_c": 200,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 35,
+      "bed_temp_max_c": 70,
+      "chamber_temp_c": 25,
+      "dry_temp_c": 55,
+      "min_nozzle_diameter_mm": 0.4,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "9b2fc595-ea0e-46a4-886b-8fe06218e2cf",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Chestnut Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "a6e4834d-2cfd-40b9-8652-6d64988e89fa",
+      "confidence": 1.0,
+      "color_hex": "#9b7c56",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Denim Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ee89ac52-9f0d-4092-93dc-8c434f470348",
+      "confidence": 1.0,
+      "color_hex": "#49799d",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Graphite Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "04119eb9-5e04-4f3d-bd1b-8c1b71fbcef2",
+      "confidence": 1.0,
+      "color_hex": "#54555b",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Matcha Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c4a9d7c7-5748-4327-a07f-200909b361d0",
+      "confidence": 1.0,
+      "color_hex": "#6f8653",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Violet Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "32806ed6-e36a-459c-af09-4aa8d6db8e78",
+      "confidence": 1.0,
+      "color_hex": "#725e7c",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    },
+    {
+      "color_name": "Wine Red",
+      "diameter_mm": 1.75,
+      "external_ref": "1a327718-7d3a-4f71-bc95-38b1ca3ca40b",
+      "confidence": 1.0,
+      "color_hex": "#823f2e",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/pla-cf-filament-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "chamber_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "min_nozzle_diameter_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "chamber_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#chamber_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "min_nozzle_diameter_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#min_nozzle_diameter",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/pla_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "be5595d0-1505-4733-82a1-743f76bd7c4d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/pla_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

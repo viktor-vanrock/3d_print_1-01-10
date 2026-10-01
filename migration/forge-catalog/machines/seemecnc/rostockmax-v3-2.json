@@ -1,0 +1,412 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "seemecnc.rostockmax-v3-2",
+  "vendor": {
+    "slug": "seemecnc",
+    "name": "SeeMeCNC"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "RostockMAX v3.2",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 270,
+      "y": 270,
+      "z": 385
+    },
+    "kinematics": "delta",
+    "max_accel_mms2": 5000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2026-05-30",
+    "bed_surface": "borocillicate glass",
+    "auto_leveling": "Auto bed leveling through SE300* probe",
+    "screen_type": "Touchscreen Controller with SD Card Reader",
+    "summary": "RostockMAX v3.2 — это полностью собранный дельта-принтер от SeeMeCNC, обновленный для 2018 года, оснащенный 32-битным контроллером Duet Wifi и новым хотендом SE300. Устройство позиционируется как тихое и точное решение, подходящее для использования в офисе, а также для корпоративных, государственных и образовательных учреждений.",
+    "unique_features": [
+      "32-битный контроллер Duet Wifi с управлением через браузер",
+      "Хотенд SE300 с тройными вентиляторами и новой термопарой",
+      "Уникальная конструкция линейного движения Cheapskate",
+      "Экструдер EZR Struder, приводимый в движение шаговым двигателем на 0,9 градуса",
+      "Автоматическое выравнивание стола через зонд SE300",
+      "Высокая скорость перемещения до 300 мм/с"
+    ],
+    "limitations": [
+      "Товар снят с производства (discontinued)",
+      "Все цветовые варианты и версии с сенсорным экраном распроданы (Sold Out)",
+      "Wi-Fi управление требует USB для первоначальной настройки",
+      "Для подключения к безопасным сетям Wi-Fi в учреждениях рекомендуется использовать SD-карту вместо прямого подключения"
+    ],
+    "max_nozzle_temp_c": 280,
+    "max_bed_temp_c": 100,
+    "max_travel_speed_mms": 300,
+    "layer_height_min_mm": 0.08,
+    "dimensions_mm": {
+      "w": 430,
+      "d": 410,
+      "h": 910
+    },
+    "power_w": 350,
+    "connectivity": [
+      "WiFi",
+      "USB"
+    ],
+    "heated_bed": true,
+    "release_year": 2018
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_travel_speed_mms": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_year": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Heated Bed with borocillicate glass build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Auto bed leveling through SE300* probe",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Touchscreen Controller with SD Card Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The multiple award winning SeeMeCNC RostockMAX Delta series updated for 2018! The RostockMAX v3.2 features a 32 bit Duet Wifi controller and our new SeeMeCNC SE300 hotend.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "32 bit WiFi Duet Controller",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "This product has been discontinued.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Hotend Temp 280C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Maximum Onyx Heated Bed Temp 100C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Travel Speed 300mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Minimum Capable Layer Height with 0.5mm nozzle of 0.08mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printer overall size without spool 430mmW x 410mmL x 910mmH",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Requirements 110v or 220v (input power selectable) @ 350 watts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "WiFi Control, USB required for setup",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Heated Bed with borocillicate glass build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_year": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "updated for 2018!",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_RostockMAX_v3.2_0_4mm.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "seemecnc-official",
+      "url": "https://www.seemecnc.com/products/rostockmax-v3-2-white-rtp-fully-assembled",
+      "tier": "vendor",
+      "snapshot": "sha256:5665a529708ea54149d97cc9b97d8ce4deac244dbd1f39b484d253753a5934a6",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:18:29Z",
+      "publisher": "SeeMeCNC"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|vendor-vs-structural",
+      "values": [
+        {
+          "value": false,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

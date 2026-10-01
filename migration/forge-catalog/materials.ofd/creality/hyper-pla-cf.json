@@ -1,0 +1,170 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "creality.hyper-pla-cf",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality",
+    "website": "https://www.creality.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Hyper PLA-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "b7254469-cf07-42be-ab18-e278fa0a37e2",
+      "confidence": 1.0,
+      "color_hex": "#47494b",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-pla-cf"
+    },
+    {
+      "color_name": "Dark Green",
+      "diameter_mm": 1.75,
+      "external_ref": "5886a4ad-ba39-4221-97f1-aae91d4361e0",
+      "confidence": 1.0,
+      "color_hex": "#3a4e53",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-pla-cf"
+    },
+    {
+      "color_name": "Greyish Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "7cf804aa-bb6b-4f67-b1c3-d05cf038b1ec",
+      "confidence": 1.0,
+      "color_hex": "#4a4846",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-pla-cf"
+    },
+    {
+      "color_name": "Ochre",
+      "diameter_mm": 1.75,
+      "external_ref": "04d7a606-e12f-478c-ac0a-900c0bae30c2",
+      "confidence": 1.0,
+      "color_hex": "#4d352a",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-pla-cf"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "29aac376-32d9-44de-9961-2f9a337631fb",
+      "confidence": 1.0,
+      "color_hex": "#645e83",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-pla-cf"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_pla_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_pla_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PLA/hyper_pla_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "bac540d1-5248-44fc-a71c-f61b2e54cf12",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PLA/hyper_pla_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

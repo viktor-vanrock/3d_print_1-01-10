@@ -1,0 +1,474 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "longer.lk4-x",
+  "vendor": {
+    "slug": "longer",
+    "name": "Longer"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "LK4 X",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 250
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2023-02-04",
+    "bed_surface": "PEI Flexible Steel",
+    "screen_type": "4.3 inch full-color touch screen",
+    "firmware": "open-source firmware",
+    "summary": "Longer LK4 X — это FDM 3D-принтер с рабочей областью 220x220x250 мм, предназначенный для ежедневного использования благодаря низкой энергопотреблению и простоте сборки. Устройство позиционируется как надежное решение с автоматическим выравниванием и поддержкой различных материалов.",
+    "unique_features": [
+      "Прямой двухзубчатый экструдер с передаточным отношением 5:1",
+      "Автоматическое выравнивание по 16 точкам",
+      "32-битная открытая бесшумная материнская плата с чипами TMC2208",
+      "Полноцветный сенсорный экран 4.3 дюйма",
+      "Двойной вентилятор обдува",
+      "Улучшенная тефлоновая трубка",
+      "Ручные натяжители ремней по осям X/Y",
+      "Функция восстановления печати и защиты от окончания филамента"
+    ],
+    "whats_in_box": [
+      "Принтер (95% предварительно собран)",
+      "5 метров PLA филамента"
+    ],
+    "target_use": [
+      "Ежедневное использование",
+      "Печать из PLA, TPU, ABS, PETG и Wood"
+    ],
+    "limitations": [
+      "Отсутствует в наличии (Out of stock)",
+      "Гарантия на сопло составляет 3 месяца (ноzzle assembly warranty for 3 months)"
+    ],
+    "max_nozzle_temp_c": 250,
+    "max_bed_temp_c": 100,
+    "max_speed_mms": 180,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "positioning_accuracy_mm": 0.1,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 485,
+      "d": 465,
+      "h": 615
+    },
+    "weight_kg": 9.78,
+    "power_w": 320,
+    "price_usd": 279.99,
+    "connectivity": [
+      "TF card",
+      "USB"
+    ],
+    "materials_supported": [
+      "PLA",
+      "TPU",
+      "ABS",
+      "PETG",
+      "Wood"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4x.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4x.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4x.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "positioning_accuracy_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4x.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4x.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4x.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Hot bed | PEI Flexible Steel",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Longer LK4 X with a 4.3 inch full-color touch screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "With open-source firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Longer LK4 X FDM 3D Printer... A building size of 8.66\"*8.66\"*9.84\" (220x220x250mm) is sufficient for daily use, and lower power consumption reduces energy using.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Longer LK4 X features a direct dual-gear extruder with a 5:1 reduction ratio",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Yes, we will send 5 meters of PLA filament to you together with the printer.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "compatible with PLA, TPU, ABS, PETG,and Wood... sufficient for daily use",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Out of stock",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Nozzle Temperature | ≤250°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Hot bed Temperature | ≤100°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing speed | ≤180mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer thickness | 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer thickness | 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing accuracy | ±0.1mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Direct drive extruder | Direct drive extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printer Dimension | 485*465*615mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Gross Weight | 9.78KG",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Rated power | 320W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $279.99",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Connection method | TF card or USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Support filaments | PLA/TPU/ABS/ PETG/Wood",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Detector | Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Resume Printing | Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "One-Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/longer_lk4x.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4x.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "longer-official",
+      "url": "https://longer3d.com/products/lk4-x-fdm-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:2331501d26ecdf0735930e5cd4d303dd280e8901a935ec676f01852c13ce9dcf",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Longer"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "price_rub"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

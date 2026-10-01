@@ -1,0 +1,76 @@
+{
+ "slug": "history.riki200",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Riki200",
+ "snapshot": "sha256:c638682b18be5f218d7cd603f63877d32f4a2fb6ab31b92a31a25d441228ca3f",
+ "page_chars": 7150,
+ "fields": {
+  "summary": "Riki200 — это экспериментальный высокоскоростной и высокоточный Cartesian 3D-принтер с алюминиевой рамой, предназначенный для создания быстрых, точных и доступных портативных устройств. Он позиционируется как машина, которую можно собрать без специализированных инструментов, обеспечивая полную жесткость конструкции.",
+  "unique_features": [
+   "Пружинная система кинематики в стиле Ultimaker-2 с шкивами, удваивающая точность и уменьшающая растяжение ремня",
+   "Сменные кинематические оси X и Y с различными передаточными числами шкивов (2.5:1 или 1:1)",
+   "Три ходовых винта и двойные направляющие для гарантированной абсолютной жесткости",
+   "Гибкий привод Flex3Drive с червячной передачей 40:1 и приводом MK8",
+   "Низкая масса движущихся частей благодаря стационарным двигателям",
+   "Линейные направляющие для исключения люфта"
+  ],
+  "limitations": [
+   "Необходимо наличие другого 3D-принтера для печати деталей (или доступ к чужому)",
+   "Требуется вытяжка/пайка (упоминается паяльник и пайка в инструментах)",
+   "Сложная сборка: более 300 гаек, болтов и винтов M3"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 220,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 400,
+  "layer_height_min_mm": 0.05,
+  "filament_diameter_mm": 3.0,
+  "power_w": 350,
+  "voltage_v": 24,
+  "heated_bed": true
+ },
+ "evidence": {
+  "summary": "The Riki200 is a high-accuracy high-speed experimental Cartesian 3D printer that uses 2020 aluminum extrusion frame.",
+  "unique_features": "Ultimaker-2 style pulley-enhanced kinematics for both X and Y, doubling the accuracy and halving belt stretch.",
+  "limitations": "Another 3D printer capable of 0.20mm layer height (your own or use someone else's)",
+  "kinematics": "Cartesian 3D printer",
+  "build_volume": "200x200x220mm print area",
+  "max_speed_mms": "Capable of 0.05mm layer height and 400 mm/s printing",
+  "layer_height_min_mm": "Capable of 0.05mm layer height",
+  "filament_diameter_mm": "E3Dv6 3.0mm Bowden hot-end",
+  "power_w": "24v low-profile 350W PSU",
+  "voltage_v": "24v low-profile 350W PSU",
+  "heated_bed": "200x200x220mm build area with heated bed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Пружинная система кинематики в стиле Ultimaker-2 с шкивами, удваивающая точность и уменьшающая растяжение ремня",
+  "Сменные кинематические оси X и Y с различными передаточными числами шкивов (2.5:1 или 1:1)",
+  "Три ходовых винта и двойные направляющие для гарантированной абсолютной жесткости",
+  "Гибкий привод Flex3Drive с червячной передачей 40:1 и приводом MK8",
+  "Низкая масса движущихся частей благодаря стационарным двигателям",
+  "Линейные направляющие для исключения люфта"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "скоростной"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:33:33Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Riki200",
+ "maker": "",
+ "model": "Riki200",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Riki200"
+}

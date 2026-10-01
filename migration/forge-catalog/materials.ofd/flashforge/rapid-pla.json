@@ -1,0 +1,409 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "flashforge.rapid-pla",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FLASHFORGE",
+    "website": "https://www.flashforge.com/"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Rapid PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Abyssal Red",
+      "diameter_mm": 1.75,
+      "external_ref": "a9f20c15-a4d6-4247-a34d-0096f4887f2d",
+      "confidence": 1.0,
+      "color_hex": "#751a39",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "eeba3e53-7ad2-41ec-8d16-8951a1794439",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Green",
+      "diameter_mm": 1.75,
+      "external_ref": "aba2dfa7-8d53-4a7b-8b0e-b1c54cb3b7d7",
+      "confidence": 1.0,
+      "color_hex": "#1d7c6a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "a8bbb8b3-6c6f-4280-aded-30d3960014c4",
+      "confidence": 1.0,
+      "color_hex": "#8846ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aurora Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e360eed2-bf36-45dd-890d-af38b93d25b8",
+      "confidence": 1.0,
+      "color_hex": "#98282f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "8ad15e1a-6bb6-43ea-9ba2-a621f0e1d17c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue To Pink Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "6841ef44-84e7-4f48-970a-fedfcd4773a6",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Burnt Titanium",
+      "diameter_mm": 1.75,
+      "external_ref": "c24d743c-455d-401d-85fc-38e688ceeca6",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Burnt Titanium To Abyssal Red Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "1aa26ec4-b0b2-4dd0-bc65-cd50b63e1134",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chocolate Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "f4d3e6da-f7c2-4d73-8406-22e4e69d9798",
+      "confidence": 1.0,
+      "color_hex": "#503529",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gradient Rainbow Candy",
+      "diameter_mm": 1.75,
+      "external_ref": "eafd2a63-4b79-4cbf-8542-c6cb81f6bb3e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gradient Rainbow Corals",
+      "diameter_mm": 1.75,
+      "external_ref": "91e0cab5-33bd-4ce2-8257-c19166e1ef72",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gradient Summer Reverie",
+      "diameter_mm": 1.75,
+      "external_ref": "fb6e0a0d-5b00-4c7b-8673-7518db5e1b3a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gradient Thistle Purple Ethereal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "dbbdbd8f-22df-4b08-b82a-db9e1d2b150e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gradient Yellow Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ba85cf8b-39d2-4b28-9d7e-0bd1fde581ce",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ice Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "8a73800c-8367-4316-8cb0-7f4df5e5cbb1",
+      "confidence": 1.0,
+      "color_hex": "#5fbcdd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iron Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "4b43d2a9-d35c-4844-9a3b-8a806602ef9b",
+      "confidence": 1.0,
+      "color_hex": "#94a7b7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "580193d5-8110-4aa9-af87-4e05d0a99686",
+      "confidence": 1.0,
+      "color_hex": "#c37c4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "3ef28d99-5cb8-433d-9689-3c3140c8dbd7",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "145c87c5-a173-49d7-b711-28424e208fd1",
+      "confidence": 1.0,
+      "color_hex": "#727376",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble Black",
+      "diameter_mm": 1.75,
+      "external_ref": "51b01df2-2a32-4832-b756-32acc51c5bba",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4c6c9115-3abb-4647-8411-f1effe25bf46",
+      "confidence": 1.0,
+      "color_hex": "#bfdfef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble Red",
+      "diameter_mm": 1.75,
+      "external_ref": "333a87a9-8b62-4832-9491-53f77680b20f",
+      "confidence": 1.0,
+      "color_hex": "#ece0ea",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "5ad2bac1-d309-42d9-8e09-bf5aa6b47137",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nero Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b8ed8dcc-0eef-4493-bba7-92feedec796d",
+      "confidence": 1.0,
+      "color_hex": "#fffb00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "8d667bd6-5b69-4d50-900d-85aee0f95905",
+      "confidence": 1.0,
+      "color_hex": "#e03f26",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearl Gentian Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "7fa0c398-0f63-4409-a586-925a01bc42b1",
+      "confidence": 1.0,
+      "color_hex": "#0078bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink White Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "20ddd2de-d366-4f7a-9570-e8d599ab9d49",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "119ffc44-f787-48e1-b69a-19d7e1478665",
+      "confidence": 1.0,
+      "color_hex": "#6000b0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow Candy",
+      "diameter_mm": 1.75,
+      "external_ref": "caaa2bca-d193-411e-a723-a8b82bf6a2b3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ruby Red",
+      "diameter_mm": 1.75,
+      "external_ref": "d3ec753e-783b-40af-b2cf-f0d1ed4cf11a",
+      "confidence": 1.0,
+      "color_hex": "#98282f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "770fd1d4-b62b-4529-8f1e-70ffee63ca78",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "e3db6b17-f4bc-4d94-83b5-a8f0c6980813",
+      "confidence": 1.0,
+      "color_hex": "#f3c102",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow To Pink Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "de052f60-bf55-4d28-88d4-0333f6d0a256",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "30020292-ed15-4c21-968c-7cb4be698e5d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

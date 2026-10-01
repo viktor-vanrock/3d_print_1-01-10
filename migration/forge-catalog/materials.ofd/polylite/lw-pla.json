@@ -1,0 +1,167 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polylite.lw-pla",
+  "vendor": {
+    "slug": "polylite",
+    "name": "PolyLite",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "LW-PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 0.9,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "48c1d0bd-4b23-45a3-b038-3829e448f025",
+      "confidence": 1.0,
+      "color_hex": "#4c4e56",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Bright Green",
+      "diameter_mm": 1.75,
+      "external_ref": "eb43f99c-d3e4-4608-9c7a-010afc2ed89f",
+      "confidence": 1.0,
+      "color_hex": "#d0ed03",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Bright Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "51ad493c-89ce-43ea-92f6-1e2168c593c1",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Bright Red",
+      "diameter_mm": 1.75,
+      "external_ref": "ea2ca123-3809-468a-8ae5-27a3c4c7df09",
+      "confidence": 1.0,
+      "color_hex": "#e81313",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Bright Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "b5f048c4-9b57-46b9-b53e-0281733ee043",
+      "confidence": 1.0,
+      "color_hex": "#fad61b",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "de5d488a-e4ed-46ad-8835-b30bd7b54166",
+      "confidence": 1.0,
+      "color_hex": "#a2aaad",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "74cf78ce-f1fc-4f88-bbde-bf8468a70165",
+      "confidence": 1.0,
+      "color_hex": "#e1dccd",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    },
+    {
+      "color_name": "Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "c9b6562c-0133-4a10-a265-c3eb85528052",
+      "confidence": 1.0,
+      "color_hex": "#d2a273",
+      "weight_g": 800,
+      "purchase_url": "https://us.polymaker.com/products/polylite-lw-pla"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/lw_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/lw_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/lw_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/lw_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/lw_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/lw_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0de731fc-b7f0-4a0d-b771-ca39a690d973",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/lw_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

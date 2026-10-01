@@ -1,0 +1,85 @@
+{
+ "slug": "history.benjamin-rockhold-griffin-nicoll-cupcakestrap",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Cupcake",
+ "snapshot": "sha256:6ac864d7a5250647a1175116cc23be1e468d72d4648466214a3647d935aa1088",
+ "page_chars": 24316,
+ "fields": {
+  "firmware": "RepRap Generation 3 / Repsnapper / Printrun / ReplicatorG",
+  "summary": "CupCakeStrap — это самодельный 3D-принтер (RepStrap), созданный на базе дизайна Makerbot CupCake с целью значительного снижения стоимости. Проект позиционируется как учебное пособие и источник вдохновения для энтузиастов, желающих собрать функциональный аппарат из доступных компонентов, включая переработанные детали.",
+  "unique_features": [
+   "Самостоятельное изготовление шкивов из акрила и скрепление слоев растворителем",
+   "Использование латунных трубок вместо линейных подшипников (brass brushing)",
+   "Самодельная нагреваемая платформа с нихромовой проволокой",
+   "Использование деталей от списанного принтера и компьютера (PSU, ремни)",
+   "Модификация корпуса для установки более длинных моторов"
+  ],
+  "limitations": [
+   "Проект описывается как 'ever-in-progress build' (всегда в процессе доработки) и 'not intended as a final machine' (не предназначен как конечный продукт)",
+   "Содержит 'kludge and improv hackery' (самоделки и хакинг)",
+   "Использование дешевых компонентов (латунные трубки вместо подшипников) требует избыточного крутящего момента моторов для компенсации трения",
+   "Акрил платформы может деформироваться от тепла при длительной эксплуатации",
+   "Электроника имеет историю нестабильности и поломок (взрыв конденсатора, дым от регуляторов)"
+  ],
+  "max_nozzle_temp_c": 275,
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 100,
+   "y": 100,
+   "z": 110,
+   "shape": "rectangular"
+  },
+  "max_accel_mms2": 750,
+  "power_w": 72,
+  "price_usd": 278,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "ABS",
+   "PLA"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "firmware": "With this configuration, consistent results have been obtained with Repsnapper and the excellent Printrun , while Replicatorg has proven less stable",
+  "summary": "The Pirated CupCake, or \"CupCakeStrap\" is the high-school Senior Project of Benjamin Rockhold and Griffin Nicoll. It is a CupCake made from as close to scratch as possible... The CupCakeStrap is different from normal CupCakes in that it has been modified to reduce the price of some important parts, and it is not intended as a final machine.",
+  "unique_features": "To produce pulleys for zero cost... lazzored them out of thin acrylic, and fused the layers together with an acrylic solvent.",
+  "limitations": "This is an ever-in-progress build... It is not meant as a tutorial or even a rough guide... It is not intended as a final machine.",
+  "max_nozzle_temp_c": "#define MAXTEMP 275",
+  "kinematics": "Categories | wood RepStrap , Cartesian-Z-head , LaserCut",
+  "build_volume": "const int X_MAX_LENGTH = 100;\nconst int Y_MAX_LENGTH = 100;\nconst int Z_MAX_LENGTH = 110;",
+  "max_accel_mms2": "long max_acceleration_units_per_sq_second = 750; // Max acceleration in mm/s^2 for printing moves",
+  "power_w": "This provides for a very convenient max. current draw of 6 Amperes (72W @12V)",
+  "price_usd": "Total ~ $278",
+  "connectivity": "A USB to TTL cable to interface with it",
+  "materials_supported": "Once finally printing in ABS... yellow pla",
+  "heated_bed": "Heated Build Plate"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Самостоятельное изготовление шкивов из акрила и скрепление слоев растворителем",
+  "Использование латунных трубок вместо линейных подшипников (brass brushing)",
+  "Самодельная нагреваемая платформа с нихромовой проволокой",
+  "Использование деталей от списанного принтера и компьютера (PSU, ремни)",
+  "Модификация корпуса для установки более длинных моторов"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T03:31:58Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Cupcake",
+ "maker": "Benjamin Rockhold, Griffin Nicoll",
+ "model": "CupCakeStrap",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Cupcake"
+}

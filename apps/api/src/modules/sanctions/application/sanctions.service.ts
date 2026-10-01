@@ -1,0 +1,142 @@
+import { Inject, Injectable, Optional } from "@nestjs/common";
+import type { Pool } from "pg";
+import { DATABASE_POOL } from "../../../nest/database/database.constants.ts";
+import type { UserId } from "../../_kernel/brandedIds.ts";
+import { DEVICE_SANCTIONS_PORT, type DeviceSanctionsPort } from "../../devices/public/index.ts";
+import { PROFILE_SANCTIONS_PORT, type ProfileSanctionsPort } from "../../profile/public/index.ts";
+import { OUTBOX_PORT, type OutboxPort } from "../../projects/public/index.ts";
+import { PUBLICAPI_SANCTIONS_PORT, type PublicApiSanctionsPort } from "../../publicapi/public/index.ts";
+import {
+  SanctionActorNotStaffError,
+  SanctionAlreadyActiveError,
+  SanctionIdempotencyConflictError,
+  SanctionNotActiveError,
+  SanctionTargetIsBootstrapAdminError,
+  SanctionTargetNotFoundError,
+} from "../domain/sanction.errors.ts";
+import { assertCanCreate, computeIdempotencyHash } from "../domain/sanction-policy.ts";
+import type { Sanction } from "../domain/sanctions.ts";
+import { SanctionsRepository } from "../infrastructure/sanctions.repository.ts";
+import { AUDIT_LOG_PORT, type AuditLogPort } from "../../audit/public/index.ts";
+import { randomUUID } from "node:crypto";
+import type { CancelSanctionCommand, CreateSanctionCommand, CreateSanctionResult, SanctionRecord, SanctionsPort } from "../public/index.ts";
+import { SanctionsAuthorizationService } from "./sanctions-authorization.service.ts";
+
+function recordOf(sanction: Sanction): SanctionRecord {
+  const { idempotencyKey: _key, idempotencyPayloadHash: _hash, ...record } = sanction;
+  return record;
+}
+
+function isUniqueViolation(error: unknown): boolean {
+  return typeof error === "object" && error !== null && "code" in error && error.code === "23505";
+}
+
+@Injectable()
+export class SanctionsService implements SanctionsPort {
+  constructor(
+    @Inject(DATABASE_POOL) private readonly pool: Pool,
+    private readonly repository: SanctionsRepository,
+    @Inject(PROFILE_SANCTIONS_PORT) private readonly profiles: ProfileSanctionsPort,
+    @Inject(DEVICE_SANCTIONS_PORT) private readonly devices: DeviceSanctionsPort,
+    @Inject(PUBLICAPI_SANCTIONS_PORT) private readonly publicApi: PublicApiSanctionsPort,
+    @Inject(OUTBOX_PORT) private readonly outbox: OutboxPort,
+    private readonly authorization: SanctionsAuthorizationService,
+    @Optional() @Inject(AUDIT_LOG_PORT) private readonly audit?: AuditLogPort,
+  ) {}
+
+  async create(input: CreateSanctionCommand): Promise<CreateSanctionResult> {
+    const policyInput = { userId: input.targetId, type: input.type, reasonCode: input.reasonCode, endsAt: input.endsAt, actorId: input.actorId };
+    assertCanCreate(policyInput);
+    const hash = computeIdempotencyHash(policyInput);
+    const tx = await this.pool.connect();
+    try {
+      await tx.query("begin");
+      const existing = await this.repository.findByIdempotencyKey(tx, input.idempotencyKey);
+      if (existing !== null) {
+        if (existing.idempotencyPayloadHash.equals(hash)) {
+          await tx.query("rollback");
+          return { sanction: recordOf(existing), cascade: null, reused: true };
+        }
+        throw new SanctionIdempotencyConflictError();
+      }
+      const target = await this.profiles.loadSanctionTargetForUpdate(tx, { targetId: input.targetId });
+      if (target === null || target.status === "deleted") throw new SanctionTargetNotFoundError();
+      if (!(await this.authorization.canManageSanctions(input.actorId))) throw new SanctionActorNotStaffError();
+      const isSuperadmin = await this.profiles.isSuperadmin(tx, { userId: input.targetId });
+      if (isSuperadmin) throw new SanctionTargetIsBootstrapAdminError();
+      let sanction: Sanction;
+      try {
+        sanction = await this.repository.insertSanction(tx, {
+          userId: input.targetId, type: input.type, state: "active", reasonCode: input.reasonCode, reasonNote: input.reasonNote,
+          evidenceUrl: input.evidenceUrl, startsAt: new Date(), endsAt: input.endsAt, createdBy: input.actorId, cancelledAt: null,
+          cancelledBy: null, cancelReason: null, idempotencyKey: input.idempotencyKey, idempotencyPayloadHash: hash,
+        });
+      } catch (error) {
+        if (isUniqueViolation(error)) throw new SanctionAlreadyActiveError();
+        throw error;
+      }
+      const profile = await this.profiles.restrictForSanction(tx, { userId: input.targetId });
+      const devices = await this.devices.revokeCredentialsForSanction(tx, { ownerId: input.targetId, actorId: input.actorId });
+      const publicApi = await this.publicApi.revokeCredentialsForSanction(tx, { ownerId: input.targetId });
+      const outbox = await this.outbox.enqueue(tx, {
+        aggregateType: "Sanction", aggregateId: sanction.id, eventType: "sanction.relay_close.v1", eventVersion: 1,
+        payload: { sanction_id: sanction.id, user_id: input.targetId, agent_ids: devices.agentIds, reason: "owner_sanctioned" },
+      });
+      await this.audit?.record({ schema_version: 1, id: randomUUID(), actor_user_id: input.actorId, actor_type: "user", subject_type: "sanction", subject_id: sanction.id, action: "sanction.created", before_state: null, after_state: { type: sanction.type, reason: sanction.reasonCode, expires_at: sanction.endsAt?.toISOString() ?? null }, reason: input.reasonNote, correlation_id: randomUUID(), causation_id: null, idempotency_key: `sanction.created:${sanction.id}`, occurred_at: new Date(), legal_hold: false }, tx);
+      await tx.query("commit");
+      return {
+        sanction: recordOf(sanction), reused: false,
+        cascade: { sessionVersion: profile.sessionVersion, agentIds: devices.agentIds, agentsRevoked: devices.agentsRevoked, enrollCodesRevoked: devices.enrollCodesRevoked, apiKeysRevoked: publicApi.apiKeysRevoked, userApiKeysRevoked: publicApi.userApiKeysRevoked, outboxEventId: outbox.id },
+      };
+    } catch (error) {
+      await tx.query("rollback").catch(() => undefined);
+      throw error;
+    } finally {
+      tx.release();
+    }
+  }
+
+  async cancel(input: CancelSanctionCommand): Promise<SanctionRecord> {
+    if (input.cancelReason.trim() === "") throw new Error("cancel reason must not be empty");
+    const tx = await this.pool.connect();
+    try {
+      await tx.query("begin");
+      if (!(await this.authorization.canManageSanctions(input.actorId))) throw new SanctionActorNotStaffError();
+      const existing = await this.repository.findByIdForUpdate(tx, input.sanctionId);
+      if (existing === null || existing.state !== "active") throw new SanctionNotActiveError();
+      const cancelled = await this.repository.cancelSanction(tx, input.sanctionId, { actorId: input.actorId, reason: input.cancelReason });
+      if (cancelled === null) throw new SanctionNotActiveError();
+      if (await this.repository.countOtherActiveByUser(tx, { userId: cancelled.userId, excludingId: cancelled.id }) === 0) {
+        await this.profiles.activateAfterSanctionExpiry(tx, { userId: cancelled.userId });
+      }
+      await this.audit?.record({ schema_version: 1, id: randomUUID(), actor_user_id: input.actorId, actor_type: "user", subject_type: "sanction", subject_id: cancelled.id, action: "sanction.cancelled", before_state: { type: cancelled.type, reason: cancelled.reasonCode }, after_state: { cancelled_by: input.actorId, cancelled_at: cancelled.cancelledAt?.toISOString() ?? null }, reason: input.cancelReason, correlation_id: randomUUID(), causation_id: null, idempotency_key: `sanction.cancelled:${cancelled.id}`, occurred_at: new Date(), legal_hold: false }, tx);
+      await tx.query("commit");
+      return recordOf(cancelled);
+    } catch (error) {
+      await tx.query("rollback").catch(() => undefined);
+      throw error;
+    } finally {
+      tx.release();
+    }
+  }
+
+  async activeForUser(input: { readonly requesterId: UserId; readonly userId: UserId }): Promise<{ readonly sanctions: readonly SanctionRecord[]; readonly requesterIsStaff: boolean }> {
+    return this.readForUser(input, true);
+  }
+
+  async historyForUser(input: { readonly requesterId: UserId; readonly userId: UserId }): Promise<{ readonly sanctions: readonly SanctionRecord[]; readonly requesterIsStaff: boolean }> {
+    return this.readForUser(input, false);
+  }
+
+  private async readForUser(input: { readonly requesterId: UserId; readonly userId: UserId }, active: boolean): Promise<{ readonly sanctions: readonly SanctionRecord[]; readonly requesterIsStaff: boolean }> {
+    const tx = await this.pool.connect();
+    try {
+      await tx.query("begin");
+      if (!(await this.authorization.canViewUserSanctions(input.requesterId, input.userId))) throw new SanctionActorNotStaffError();
+      const requesterIsStaff = await this.authorization.canViewReports(input.requesterId);
+      const sanctions = active ? [await this.repository.findActiveByUserId(tx, input.userId)].filter((value): value is Sanction => value !== null) : await this.repository.listHistoryForUser(input.userId);
+      await tx.query("commit");
+      return { sanctions: sanctions.map(recordOf), requesterIsStaff };
+    } catch (error) { await tx.query("rollback").catch(() => undefined); throw error; } finally { tx.release(); }
+  }
+}

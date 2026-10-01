@@ -1,0 +1,265 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "geeetech.m1s",
+  "vendor": {
+    "slug": "geeetech",
+    "name": "Geeetech"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "M1S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 105,
+      "y": 105,
+      "z": 95
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2025-06-07",
+    "auto_leveling": "Fully Automatic 16-Point Leveling",
+    "screen_type": "2.4\" color LCD",
+    "summary": "Geeetech M1S — это высокоскоростной мини-принтер с прямым экструдером, позиционируемый как идеальное устройство для начинающих пользователей и детей. Он поддерживает печать со скоростью до 250 мм/с и управляется через мобильное приложение по Wi-Fi.",
+    "unique_features": [
+      "Прямой экструдер с металлическими шестернями и передаточным числом 5:1",
+      "Скорость печати до 250 мм/с с использованием алгоритмов Input shaping и pressure advance",
+      "Подключение по Wi-Fi и управление через приложение Geeetech",
+      "Полностью автоматическая 16-точечная калибровка стола с датчиком давления",
+      "Датчик окончания филамента и автоматическая очистка сопла",
+      "Экран 2.4 дюйма с цветным дисплеем"
+    ],
+    "target_use": [
+      "Обучение начинающих",
+      "Печать детских игрушек",
+      "Творчество для всех уровней подготовки"
+    ],
+    "max_speed_mms": 250,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "connectivity": [
+      "WiFi",
+      "Bluetooth"
+    ],
+    "filament_runout_sensor": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/geeetech_M1S.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/geeetech_M1S.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/geeetech_M1S.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "auto_leveling": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "geeetech-official",
+      "source_url": "https://www.geeetech.com/products/m1s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/geeetech_M1S.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/geeetech_M1S.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/geeetech_M1S.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Fully Automatic 16-Point Leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "2.4\" color LCD screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "GEEETECH M1S High-Speed Mini 3D Printer for Kids & Beginners",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "5:1 ratio dual-drive metal gear Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "a kid's toy factoy",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Up to 250mm/s print speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "GEEETECH PLA 3D Printer Filament 1.75mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "5:1 ratio dual-drive metal gear Direct Drive Extruder",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Small 3D Printer with WiFi & Bluetooth",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "It offers a 2.4\" color LCD screen, a filament runout sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/geeetech_M1S.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/geeetech_M1S.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "geeetech-official",
+      "url": "https://www.geeetech.com/products/m1s",
+      "tier": "vendor",
+      "snapshot": "sha256:fae9aec93a9185776daea45d3ea35e4bfeb3760394cdbc02f3f5473c5441fccf",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:09:45Z",
+      "publisher": "Geeetech"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

@@ -1,0 +1,74 @@
+{
+ "slug": "history.seemecnc-rostock-max",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Rostock_MAX",
+ "snapshot": "sha256:8f29cc15fdb2b109da7b132902af1fe522b924df46101b87d170a8941cf46cb3",
+ "page_chars": 34081,
+ "fields": {
+  "firmware": "Marlin",
+  "unique_features": [
+   "Дельта-робот конструкция",
+   "Каркас из Т-образного профиля (T-Slot) и лазерно-вырезанного акрила или меламиновой фанеры",
+   "Возможность печати напрямую с SD-карты",
+   "Поддержка электроники RAMBo и RAMPS 1.4",
+   "Использование 15-зубчатых алюминиевых шестерен для увеличения крутящего момента"
+  ],
+  "limitations": [
+   "Для печати PLA требуется вентилятор, обдувающий верхнюю часть хотэнда, чтобы избежать засора",
+   "Инструкции и фотографии на странице относятся преимущественно к оригинальной версии кампании Indiegogo, так как с момента релиза было добавлено много обновлений",
+   "Термисторы требуют изоляции (например, тефлоновой лентой) для защиты от высоких температур"
+  ],
+  "kinematics": "delta",
+  "max_travel_speed_mms": 200,
+  "power_w": 450,
+  "connectivity": [
+   "SD card",
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ],
+  "heated_bed": true,
+  "release_year": 2013
+ },
+ "evidence": {
+  "firmware": "It is Marlin RC2",
+  "unique_features": "It features T-Slot extrusion for the linear motion ( cheapskate ) and laser cut acrylic OR melamine framework.",
+  "limitations": "If you want to print with PLA, you will need a small fan blowing across the upper section of the Hot End to keep it from getting a PLA plug.",
+  "kinematics": "Rostock MAX is a delta robot 3D printer",
+  "max_travel_speed_mms": "200mm/sec travel speed",
+  "power_w": "450W ATX PSU is used to run all electronics",
+  "connectivity": "Rostock MAX is now capable of printing directly from an SD card",
+  "materials_supported": "The fan is used with PLA",
+  "heated_bed": "The third connector is for the heated bed",
+  "release_year": "Updated as of 1/9/2013"
+ },
+ "unconfirmed": [
+  "release_year"
+ ],
+ "unique_features": [
+  "Дельта-робот конструкция",
+  "Каркас из Т-образного профиля (T-Slot) и лазерно-вырезанного акрила или меламиновой фанеры",
+  "Возможность печати напрямую с SD-карты",
+  "Поддержка электроники RAMBo и RAMPS 1.4",
+  "Использование 15-зубчатых алюминиевых шестерен для увеличения крутящего момента"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "delta"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T05:40:24Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Rostock MAX",
+ "maker": "SeeMeCNC",
+ "model": "Rostock MAX",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Rostock_MAX"
+}

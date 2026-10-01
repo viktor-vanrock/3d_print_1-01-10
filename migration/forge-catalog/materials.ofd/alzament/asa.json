@@ -1,0 +1,143 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "alzament.asa",
+  "vendor": {
+    "slug": "alzament",
+    "name": "Alzament",
+    "website": "https://alzament.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.05,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "641dc793-6e4c-433b-af2a-1431b85f3582",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-black-d13015320.htm"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "29857962-1cde-4ad1-b1a1-a9f9db0cf965",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-blue-d13015347.htm"
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "f17e4bba-0879-45ef-b44c-82d5773f4635",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-grey-d13015323.htm"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "80d437ab-695f-4878-836d-54452528fada",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-green-d13015324.htm"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e1d88c07-3dfd-4ab0-aa81-361700d99921",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-red-d13015327.htm"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "e64a8f8c-d319-462c-89b5-f0faa6f226e9",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.alza.cz/alzament-asa-1-kg-white-d13015321.htm"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/alzament/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c1764cee-add4-407e-9526-2443c28bad7d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/alzament/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

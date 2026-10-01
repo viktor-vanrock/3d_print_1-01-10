@@ -1,0 +1,103 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "inland.pla-mystic-silk",
+  "vendor": {
+    "slug": "inland",
+    "name": "Inland",
+    "website": "https://www.microcenter.com/search/search_results.aspx?fq=category:Filaments+%26+Resins|754,brand:Inland,Diameter:1.75mm&rpp=96&sortby=pricelow&myStore=true",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Mystic Silk",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Gold Green Black",
+      "diameter_mm": 1.75,
+      "external_ref": "b59d819c-333d-4a6c-9dd6-a8652c8e3acc",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/670190/inland-175mm-pla-silky-3d-printer-filament-triple-color-10-kg-(22-lbs)-spool-mystic-(black-gold-green)"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_mystic_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_mystic_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_mystic_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_mystic_silk/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_mystic_silk/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_mystic_silk/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "4bd5c220-ed17-495c-824f-d630300200fa",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_mystic_silk/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

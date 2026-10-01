@@ -1,0 +1,44 @@
+{
+  "name": "portal.ru",
+  "private": true,
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=22.0.0"
+  },
+  "scripts": {
+    "dev": "turbo run dev --parallel",
+    "dev:relay": "pnpm --filter @portal/relay run dev",
+    "build": "turbo run build",
+    "build:relay": "pnpm --filter @portal/relay... run build",
+    "start:relay": "pnpm --filter @portal/relay run start",
+    "check:relay-deploy": "node apps/relay/deploy/check-active-config.mjs",
+    "check:no-go-relay-residue": "node apps/relay/deploy/check-no-go-relay-residue.mjs",
+    "boundaries": "pnpm --filter @portal/api boundaries",
+    "check:pre-commit": "pnpm lint && pnpm typecheck && pnpm boundaries",
+    "lint": "turbo run lint --filter=!@portal/web",
+    "test": "turbo run test",
+    "typecheck": "turbo run typecheck",
+    "prepare": "node scripts/install-git-hooks.mjs",
+    "version.bump": "node scripts/version.mjs"
+  },
+  "devDependencies": {
+    "turbo": "^2.3.0"
+  },
+  "pnpm": {
+    "overrides": {
+      "fast-uri": "3.1.7",
+      "brace-expansion@1": "1.1.18",
+      "brace-expansion@2": "2.1.4",
+      "brace-expansion@5": "5.0.9",
+      "browserslist": "4.28.9",
+      "@redocly/openapi-core>js-yaml": "4.3.0",
+      "js-yaml": "5.4.1",
+      "@redocly/openapi-core@1.34.18>js-yaml": "4.3.2",
+      "multer": "2.3.0",
+      "nanoid@3": "3.3.18",
+      "postcss": "8.5.28",
+      "qs": "6.16.0",
+      "undici@7": "7.29.1"
+    }
+  }
+}

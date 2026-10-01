@@ -1,0 +1,914 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "sovol.zero",
+  "vendor": {
+    "slug": "sovol",
+    "name": "Sovol"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Zero",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 152.4,
+      "y": 152.4,
+      "z": 152.4
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "max_accel_mms2": 40000,
+    "max_speed_mms": 1200,
+    "nozzle_diameters": [
+      0.4,
+      0.2,
+      0.6,
+      0.8,
+      1.0
+    ],
+    "profile_first_seen": "2025-04-16",
+    "bed_surface": "Double-Sided PEI Steel Plate",
+    "auto_leveling": "Inductive sensor + force sensor",
+    "firmware": "Klipper",
+    "summary": "Sovol Zero — это компактный 3D-принтер с кинематикой CoreXY, позиционируемый как самый быстрый в мире (до 1200 мм/с), предназначенный для пользователей, ценящих высокую скорость, точность и возможность печати инженерными пластиками. Устройство поставляется в полностью собранном виде с закрытым корпусом, что обеспечивает стабильность печати и безопасность.",
+    "unique_features": [
+      "Кинематика CoreXY с максимальной скоростью печати 1200 мм/с и ускорением 40000 мм/с²",
+      "Система автовыравнивания 3.0, сочетающая вихретоковый датчик (eddy current) и датчик давления (pressure sensing)",
+      "Полностью линейные направляющие по осям XYZ (XYZ Full Linear Rails)",
+      "Открытое программное обеспечение (Open Source)",
+      "Встроенная камера для мониторинга и интеграции с Obico",
+      "Система фильтрации воздуха для удаления VOC и частиц",
+      "Технологии Klipper: Input Shaping, Pressure Advance, Adaptive Area Detection",
+      "Закрытый корпус с стеклянной дверцей и функцией мониторинга температуры камеры"
+    ],
+    "whats_in_box": [
+      "Полностью собранный принтер",
+      "Держатель для филамента",
+      "Экран",
+      "Сигнальный приемник",
+      "Датчик филамента",
+      "Сопла 0.4 мм (латунь и твердая сталь)",
+      "Рулон филамента для тестирования"
+    ],
+    "target_use": [
+      "Печать высокотемпературными и инженерными пластиками (PA, PC, ABS, ASA, PETG-CF, TPU-LW)",
+      "Создание функциональных деталей и прототипов",
+      "Организация небольших печатных ферм (small print farm) благодаря компактности и надежности",
+      "Домашнее использование и хобби-проектирование"
+    ],
+    "limitations": [
+      "Wi-Fi поддерживает только стандарт безопасности WPA2 (WPA3 не поддерживается)",
+      "Комплектные профили слайсера ограничены (в отзывах упоминается отсутствие профилей для максимальной скорости)",
+      "Вихретоковый датчик не совместим с моделью SV08 (на момент текста находится в разработке)"
+    ],
+    "max_nozzle_temp_c": 350,
+    "max_bed_temp_c": 120,
+    "max_flow_mm3s": 50,
+    "kinematics": "corexy",
+    "firmware_max_speed_mms": 1200,
+    "firmware_max_accel_mms2": 40000,
+    "filament_diameter_mm": 1.75,
+    "dimensions_mm": {
+      "w": 345,
+      "d": 420,
+      "h": 475
+    },
+    "power_w": 150,
+    "price_usd": 389.0,
+    "enclosed": true,
+    "nozzle_hardened": true,
+    "heated_bed": true,
+    "camera": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": true,
+    "screen_type": "5-дюймовый сенсорный",
+    "extruder_type": "direct_drive",
+    "extruder_count": 1,
+    "materials_supported": [
+      "ПЛА",
+      "ПЭТ-Г",
+      "термопластичный полиуретан"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_flow_mm3s": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "filament_diameter_mm": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_hardened": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "camera": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "air_filter": {
+      "source": "sovol-official",
+      "source_url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Acceleration 40000mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Printing Speed 1200mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Build Plate Double-Sided PEI Steel Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Auto Leveling Inductive sensor + force sensor",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The Klipper firmware combined with the small and very rigid coreXY motion control system",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The World's Fastest CoreXY 3D Printer... Faster & More Accurate & Easier to Use... Ready to Use with Complete Machine Delivery",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Unleash your creativity with the unprecedented 1200mm/s printing speed!",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "it includes the complete printer installed (Filament holder, screen, signal receiver, filament sensor...), 0.4mm*2 nozzles, and a roll of filament for testing the printer.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Reach up to 350°C with ease—perfectly handling PA, PC, and other high-performance materials",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Wi-Fi: 2.4 GHz (WPA2 only, WPA3 not supported)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Nozzle Temperature ≤350℃(662℉)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hot Bed Temperature ≤120℃(248℉)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Flow Rate ≤50mm³/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Ultimate CoreXY Kinematics",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter 1.75mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer Size 345*420*475mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Supply 150W/24V",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Sale price $389.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Yes, Zero will be shipped as a complete machine, including the enclosure and glass door.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_hardened": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hardened steel: 0.4mm (Include), 0.2mm， 0.6mm, 0.8mm. 1.0mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hot Bed Temperature ≤120℃(248℉)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Camera Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Sensor Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Loss Recovery Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Air Filtration System The Zero's air filtration system effectively filters VOCs, particles, and other emissions produced during printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура хотэнда | 350℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура столика | 120℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная производительность | 50 мм^3/c",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область построения, мм | 152,4х152,4х152,5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальные ускорения | 40 м/с^2",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр сопла, мм | 0,4 мм (стандартный), 0,2, 0,6, 0,8 мм (опциональные)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Размеры, мм | 345х420х475",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Блок питания | 150 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Интерфейс | Wi-Fi, Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вебкамера | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Датчик филамента | есть",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Дисплей | 5-дюймовый сенсорный",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип экструдера | планетарный редукторный директ с передаточным числом 1:7,5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Материалы | ПЛА, ПЭТ-Г, термопластичный полиуретан и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Sovol/machine/Sovol Zero 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/594/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/594/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "sovol-official",
+      "url": "https://www.sovol3d.com/products/sovol-zero-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:4f0299d07095c929f7e4401ddcec6c78c7f34c75954bdb05d4f4a4dc62460e1e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Sovol"
+    },
+    {
+      "source_id": "s4",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/sovol3d/sovol-zero",
+      "tier": "community",
+      "snapshot": "sha256:6d6fe29c3303accf922441aa7f075256c067e8ff73a416ae896502a7f26065d6",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 4,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 152.4,
+            "y": 152.4,
+            "z": 152.4
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 152.4,
+            "y": 152.4,
+            "z": 152.5,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.2,
+            0.4,
+            0.6,
+            0.8,
+            1.0
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "Ethernet",
+            "Wi-Fi"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,413 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "overture.silk-pla",
+  "vendor": {
+    "slug": "overture",
+    "name": "Overture",
+    "website": "https://overture3d.com/",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "26fd97ea-0325-453f-a318-12a9270182f8",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Caramel",
+      "diameter_mm": 1.75,
+      "external_ref": "5de34113-093c-4401-bc70-f81b17b091e9",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Christmas Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4bfd1794-3396-4935-b316-dd90a5e7797c",
+      "confidence": 1.0,
+      "color_hex": "#d33d3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chrome Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "d762237e-6c7e-444e-a10b-bdfc42646fbb",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "24cc8f63-5c20-4052-b321-b9f81dedd30a",
+      "confidence": 1.0,
+      "color_hex": "#c06341",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Copper Shore",
+      "diameter_mm": 1.75,
+      "external_ref": "5ce7428e-208c-4b70-abe1-c59eb1d51e0b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Blue-Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "c5ec4f02-7a61-4ba2-8558-08c01e0f010b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Blue-Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "3f14ae9d-6503-4a12-86e5-44606f345b76",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Gold-Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "4fa7dcf8-ae12-495e-86d8-963533c0c8f3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Green-Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "20c139e7-8c7c-4ac4-87b3-cf96ba385927",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Green-Magenta",
+      "diameter_mm": 1.75,
+      "external_ref": "1fec97d4-1d8f-4ee8-a17d-4d1986915e36",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Green-Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "b3485714-81f1-4b7c-9469-a19789c01879",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Magenta-Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "9bf08a53-65bc-443a-8a19-4a5585147070",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Purple-Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "4daf9ab7-36ac-47e7-b327-58b7c71e7271",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dual Colors Red-Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "e0b5996a-39d9-41d1-a9d5-fdab331f452a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Evergreen Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "d7173e41-2dcc-47dd-bec4-54cec9e4697e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fresh Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0d57167f-af27-4180-b19c-67eb31ce20be",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glacier Flash",
+      "diameter_mm": 1.75,
+      "external_ref": "c0b744f2-4b36-4ab1-84dc-3ed22a56a82f",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "d4577bde-04cb-4c37-b2d1-9174a9839da8",
+      "confidence": 1.0,
+      "color_hex": "#f9e352",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Golden Ember",
+      "diameter_mm": 1.75,
+      "external_ref": "454222ee-cf0a-4d25-b460-8e14b2159d84",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "eeb3de23-9a39-454b-b3b4-134ae04a60e3",
+      "confidence": 1.0,
+      "color_hex": "#91a0b6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "15de2c12-6b68-4959-9303-2c20ecc98757",
+      "confidence": 1.0,
+      "color_hex": "#018e63",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lettuce Tomato",
+      "diameter_mm": 1.75,
+      "external_ref": "2210f8a7-ff96-4935-932a-3f874642f4f9",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime Surge",
+      "diameter_mm": 1.75,
+      "external_ref": "14f301ba-ae63-415a-8e93-0b871801c01a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon green",
+      "diameter_mm": 1.75,
+      "external_ref": "023da49b-e1d5-4f72-8f7e-3c8f6b4bdfcd",
+      "confidence": 1.0,
+      "color_hex": "#69ee00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Parakeet",
+      "diameter_mm": 1.75,
+      "external_ref": "06dc32a7-f155-4822-8a42-4008a3bdf19a",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Periwinkle",
+      "diameter_mm": 1.75,
+      "external_ref": "1533d4c7-8db8-4aea-8d7a-52023ce17107",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Punch Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "addbc677-c0e4-4f75-928b-444f0f91a428",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "d2cd0f0f-caa8-4f64-afb0-d0aaf124ec79",
+      "confidence": 1.0,
+      "color_hex": "#7769bc",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple Chrome",
+      "diameter_mm": 1.75,
+      "external_ref": "15354a2c-d459-4f09-a9ab-7e10f2b46d09",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "d7f1843c-80a4-4754-a3a4-fb296191e833",
+      "confidence": 1.0,
+      "color_hex": "#fc496d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "c1c56f32-f930-43f1-85d1-6025ef3bf389",
+      "confidence": 1.0,
+      "color_hex": "#aabccf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tiger Eye",
+      "diameter_mm": 1.75,
+      "external_ref": "5f58b58a-477f-4a2b-8ec9-607abf1dcd2c",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tropic",
+      "diameter_mm": 1.75,
+      "external_ref": "059efb20-41ad-4732-b4c8-7f75df82892b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vaporwave",
+      "diameter_mm": 1.75,
+      "external_ref": "537854df-408c-483c-b278-2a8492b4d88c",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "bfa22fc1-02f6-4088-9b28-51a415bc284c",
+      "confidence": 1.0,
+      "color_hex": "#ddd4ca",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "b303de02-6698-4742-ba7c-f86c4f7084dd",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

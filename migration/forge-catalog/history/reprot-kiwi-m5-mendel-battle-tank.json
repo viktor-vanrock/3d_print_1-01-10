@@ -1,0 +1,94 @@
+{
+ "slug": "history.reprot-kiwi-m5-mendel-battle-tank",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Kiwi-M5_Mendel_Battle_Tank",
+ "snapshot": "sha256:9e3567df4670d2331b2a2fc3388f448d7f32b9c17ef107514ac3dac79d289611",
+ "page_chars": 32885,
+ "fields": {
+  "bed_surface": "aluminum",
+  "firmware": "Reprap 20110207 / Arduino Firmware 22",
+  "summary": "Mendel M5 Battle Tank — это самодельный 3D-принтер на базе Reprap, построенный из 10-мм поликарбоната для повышенной прочности и жесткости. Устройство позиционируется как инженерный проект, способный печатать пластиковые объекты, включая использование PLA-пластика.",
+  "unique_features": [
+   "Каркас из 10-мм поликарбоната (материал пуленепробиваемых стекол)",
+   "Два шаговых двигателя для оси Z с функцией автосинхронизации",
+   "Встроенный детектор дыма (пожарный извещатель)",
+   "Прямой привод экструдера (Direct Drive)",
+   "Раздельные блоки питания для основной платы и нагреваемой платформы",
+   "Экранирование кабелей шаговых двигателей фольгой"
+  ],
+  "limitations": [
+   "Рабочая область: 200x200x100 мм",
+   "Поликарбонат не рекомендуется резать лазером из-за токсичных паров",
+   "Поликарбонат — дорогой материал",
+   "Требует ручной обработки деталей (пиление, сверление, фрезеровка)",
+   "Отсутствует подогрев камеры",
+   "Требуется вытяжка (упоминается подключение шланга пылесоса)"
+  ],
+  "max_bed_temp_c": 150,
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.4
+  ],
+  "filament_diameter_mm": 3,
+  "extruder_count": 1,
+  "weight_kg": 25,
+  "voltage_v": 230,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA Plastic"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "bed_surface": "The heated bed is a 200 mm x 200 mm - 4 mm thick aluminum plate",
+  "firmware": "Reprap Software = Version 20110207 --------------------- Arduino Firmware setup/loading = Version 22",
+  "summary": "This Reprap based 3D printing machine is capable of printing plastic objects.",
+  "unique_features": "Built with bullet resistant material.",
+  "limitations": "Target area (Print) - X axis 200mm - Y axis 200mm - Z axis 100mm.",
+  "max_bed_temp_c": "The 16 (15 ohm) resistors plus a sensor have been glued with thermal glue (Fisher Elektronik WLK5 Adhesive rated at 150C )",
+  "build_volume": "Target area (Print) - X axis 200mm - Y axis 200mm - Z axis 100mm.",
+  "nozzle_diameters": "0.4 mm diameter howitzer extruder barrel.",
+  "filament_diameter_mm": "Loaded and armed with 100 metres of 3mm diameter filament ammunition (PLA Plastic).",
+  "extruder_count": "1 - Extruder.",
+  "weight_kg": "Massive all-up weight of 25 Kg.",
+  "voltage_v": "The mains power (230 Volt AC) is connected to the machine",
+  "connectivity": "extended the USB cable conection socket",
+  "materials_supported": "Loaded and armed with 100 metres of 3mm diameter filament ammunition (PLA Plastic).",
+  "heated_bed": "Heated Bed [ edit ] The heated bed is a 200 mm x 200 mm - 4 mm thick aluminum plate"
+ },
+ "unconfirmed": [
+  "max_bed_temp_c"
+ ],
+ "unique_features": [
+  "Каркас из 10-мм поликарбоната (материал пуленепробиваемых стекол)",
+  "Два шаговых двигателя для оси Z с функцией автосинхронизации",
+  "Встроенный детектор дыма (пожарный извещатель)",
+  "Прямой привод экструдера (Direct Drive)",
+  "Раздельные блоки питания для основной платы и нагреваемой платформы",
+  "Экранирование кабелей шаговых двигателей фольгой"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "горячий-стол"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T04:09:48Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Kiwi-M5 Mendel Battle Tank",
+ "maker": "RepRot",
+ "model": "Kiwi_M5_Mendel_Battle_Tank",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Kiwi-M5_Mendel_Battle_Tank"
+}

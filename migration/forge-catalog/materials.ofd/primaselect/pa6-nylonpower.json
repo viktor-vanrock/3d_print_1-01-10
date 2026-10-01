@@ -1,0 +1,104 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.pa6-nylonpower",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "pa6",
+    "name": "PA6"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PA6 NylonPower",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Carbon Fibre Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "6a6c1bee-0551-454a-9c65-01482c092038",
+      "confidence": 1.0,
+      "color_hex": "#232323",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/408-diverse-filament/5826-primaselect-nylonpower-carbon-fibre-500-g/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PA6/nylonpower/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PA6/nylonpower/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PA6/nylonpower/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PA6/nylonpower/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PA6/nylonpower/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PA6/nylonpower/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "4c89059d-c3b8-4fd8-9142-304216052c40",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PA6/nylonpower/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

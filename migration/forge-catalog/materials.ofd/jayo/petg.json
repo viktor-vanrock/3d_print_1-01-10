@@ -1,0 +1,261 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "jayo.petg",
+  "vendor": {
+    "slug": "jayo",
+    "name": "JAYO",
+    "website": "https://jayo3d.com/",
+    "origin": "HK"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0d3ca2a3-668c-41e0-9b47-f07fd57996b6",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6b11dbba-7404-40e4-a901-6e95f5097bf6",
+      "confidence": 1.0,
+      "color_hex": "#0000ff",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Cherry Red",
+      "diameter_mm": 1.75,
+      "external_ref": "37b52e80-2064-491c-82af-25d67cbe7ce1",
+      "confidence": 1.0,
+      "color_hex": "#cd001a",
+      "weight_g": 110
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "8cd7c7a9-8e96-4336-b2dc-d53a9a6f128f",
+      "confidence": 1.0,
+      "color_hex": "#1adafb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "9afe9566-14c1-42cb-83c3-4cf2edb03de1",
+      "confidence": 1.0,
+      "color_hex": "#1fd44c",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Lemon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "937713d0-512b-4ee5-9145-37bfaa01b363",
+      "confidence": 1.0,
+      "color_hex": "#f7ef4f",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Mint Green",
+      "diameter_mm": 1.75,
+      "external_ref": "eea52a9a-aed5-4ae1-be87-6aec46ab7c91",
+      "confidence": 1.0,
+      "color_hex": "#22f4d3",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "1a2a18d3-4475-46b9-b69e-2cb2d1135825",
+      "confidence": 1.0,
+      "color_hex": "#ff8f41",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "e355bdd3-82bc-496e-931b-2a3cda4b75de",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Sakura Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "3c7702cc-be74-42f6-b85a-38c2d1770b8c",
+      "confidence": 1.0,
+      "color_hex": "#ffb7c5",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "20095ae8-0d7e-4753-aea4-f296ff8fc21d",
+      "confidence": 1.0,
+      "color_hex": "#a8b0bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1dbf817a-2120-4436-a847-48b5b2abcdc4",
+      "confidence": 1.0,
+      "color_hex": "#87ceeb",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "e890176e-c7d4-4bf4-b4e6-8468f67e8258",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1100
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "82e97912-f97f-42e7-968b-251b9911fc12",
+      "confidence": 1.0,
+      "color_hex": "#fed600",
+      "weight_g": 1100
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/jayo/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "593fe3d2-9099-4114-a410-967087f5bbb3",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/jayo/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

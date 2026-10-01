@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.tpu",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Apple green",
+      "diameter_mm": 1.75,
+      "external_ref": "18c7a49a-715a-4919-a76a-ff7e91e1b46b",
+      "confidence": 1.0,
+      "color_hex": "#66a947",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467704653"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bdc7772e-181d-411b-a30a-4a0fe7dae05a",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467639117"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "dcfddb7a-e0de-4515-9252-d9309f1123ba",
+      "confidence": 1.0,
+      "color_hex": "#005bd3",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467442509"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "10cd43b0-5272-4a22-9ba6-7cedeab60b90",
+      "confidence": 1.0,
+      "color_hex": "#f61f1f",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467508045"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "963c3393-219e-43cb-b156-57479e295e81",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467770189"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "dbb1b8fc-977e-4f46-a881-92bbee845796",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/tpu-red?variant=52215467573581"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/TPU/tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/TPU/tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/TPU/tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/TPU/tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "af700e35-4944-4f2b-b2df-c9df203fb701",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/TPU/tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

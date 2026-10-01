@@ -1,0 +1,63 @@
+{
+ "slug": "history.user-sublime-tantillus",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Tantillus",
+ "snapshot": "sha256:d9505e2259ee7a7ed69bf337e41cc97402d5996e1a5ff773b8c105fe9649ad85",
+ "page_chars": 11183,
+ "fields": {
+  "summary": "Tantillus — это портативный, компактный и самовоспроизводящийся 3D-принтер с XY-головкой, предназначенный для печати собственных деталей из PLA или ABS. Устройство позиционируется как проект с открытым исходным кодом, использующий широко доступные компоненты и альтернативные системы привода.",
+  "limitations": [
+   "ABS-версия сложна в печати из-за коробления (warping) и растрескивания",
+   "Не рекомендуется использовать сопло крупнее 0.5 мм для печати корпуса",
+   "Двойная экструзия не реализована (отмечено как будущая разработка)",
+   "Интерфейсный щиток пока припаян напрямую (hardwired), кастомный щиток не предусмотрен"
+  ],
+  "build_volume": {
+   "x": 100,
+   "y": 100,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "extruder_type": "bowden",
+  "dimensions_mm": {
+   "w": 225,
+   "d": 225,
+   "h": 300
+  },
+  "power_w": 90,
+  "voltage_v": 15,
+  "enclosed": true
+ },
+ "evidence": {
+  "summary": "The portable self replicating compact printer.",
+  "limitations": "Beta 0.1 printed in ABS was unsuccessful due to ABS warping... prone to warping and cracking in ABS.",
+  "build_volume": "Build Area: 100mm x 100mm x 100mm",
+  "extruder_type": "Internally mounted extruder with bowden cable.",
+  "dimensions_mm": "Outer dimensions: Printed version 225mm x 225mm x 300mm",
+  "power_w": "1 - 90 watt power supply",
+  "voltage_v": "15v @ 5/6A",
+  "enclosed": "Fully printed case."
+ },
+ "unconfirmed": [
+  "enclosed"
+ ],
+ "unique_features": [],
+ "via_base_model": false,
+ "tags": [
+  "закрытый",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:55:30Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Tantillus",
+ "maker": "User:Sublime",
+ "model": "Tantillus",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Tantillus"
+}

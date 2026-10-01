@@ -1,0 +1,61 @@
+{
+ "slug": "history.wolfy",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Wolfy",
+ "snapshot": "sha256:04c6aa16c7724322d0274af05bd71eed858498714a5e0c08d11efadddb1b431d",
+ "page_chars": 2214,
+ "fields": {
+  "summary": "Wolfy — это первый открытый (OpenSource) 3D-принтер из Китая, созданный на базе дизайна Ultimaker и Reprap i3. Он позиционируется как устройство для самостоятельной сборки с использованием акрила и стандартных крепежных элементов, что делает процесс создания принтера простым.",
+  "unique_features": [
+   "Открытый исходный код (OpenSource)",
+   "Конструкция на базе Cartesian-XZ-head",
+   "Использование акрила и стандартных деталей (国标)",
+   "Возможность самостоятельной сборки и модификации (например, замена экструдера на 3D-печатный)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 150,
+   "y": 220,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.4
+  ],
+  "voltage_v": 12,
+  "release_year": 2014
+ },
+ "evidence": {
+  "summary": "First OpenSource 3Dprinter From China.",
+  "unique_features": "First OpenSource 3Dprinter From China.",
+  "kinematics": "Categories | Wolfy , Cartesian-XZ-head",
+  "build_volume": "【构建尺寸】-Build Envelope：150mm x 220mm x 100mm",
+  "nozzle_diameters": "【喷头直径】-0.4mm Hotend",
+  "voltage_v": "【输出电源】-12V 30A Power Supply",
+  "release_year": "-2014年10月29日 更新 Wolfy1.1 版"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Открытый исходный код (OpenSource)",
+  "Конструкция на базе Cartesian-XZ-head",
+  "Использование акрила и стандартных деталей (国标)",
+  "Возможность самостоятельной сборки и модификации (например, замена экструдера на 3D-печатный)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:57:39Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Wolfy",
+ "maker": "",
+ "model": "Wolfy",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Wolfy"
+}

@@ -1,0 +1,269 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "nobufil.pc-pctg",
+  "vendor": {
+    "slug": "nobufil",
+    "name": "Nobufil",
+    "website": "https://nobufil.com",
+    "origin": "AT"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PCTG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aluminum Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "da5984b2-318a-41b9-bc32-2a73b384e09c",
+      "confidence": 1.0,
+      "color_hex": "#bfc3c2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d93e9526-61e9-48f7-b7de-f1cf8e6417c6",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "d99e70e7-09e8-41f4-b4f2-05f8fb9e63fc",
+      "confidence": 1.0,
+      "color_hex": "#09048e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Green",
+      "diameter_mm": 1.75,
+      "external_ref": "ca5412bc-c033-4233-b36c-4018cb812288",
+      "confidence": 1.0,
+      "color_hex": "#15817b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "73f955bd-280c-471a-9752-31a1443c8f31",
+      "confidence": 1.0,
+      "color_hex": "#b7293e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "763a8a31-7ec6-48cb-af40-f7f951a7c46b",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f716c85e-127f-448d-8111-35d7d74b31ef",
+      "confidence": 1.0,
+      "color_hex": "#509f45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Neon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "d11b1a82-ed6e-49e8-92ea-04367ae2af40",
+      "confidence": 1.0,
+      "color_hex": "#e4ff33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "b9816a67-97e4-4488-b292-30606d11f6c2",
+      "confidence": 1.0,
+      "color_hex": "#ff5f2e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Teal",
+      "diameter_mm": 1.75,
+      "external_ref": "8d4f3db7-e901-4a7b-be40-f6461c022557",
+      "confidence": 1.0,
+      "color_hex": "#0079a7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Industrial Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "ec4db191-fa1c-499b-ac9d-b9e4c0fab910",
+      "confidence": 1.0,
+      "color_hex": "#32a584",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime Green",
+      "diameter_mm": 1.75,
+      "external_ref": "415d364f-ed14-4d30-93a6-78a9f4ee7ee4",
+      "confidence": 1.0,
+      "color_hex": "#9fec41",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "1cd32616-c729-4370-831b-8225ba607a1e",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stainless Steel",
+      "diameter_mm": 1.75,
+      "external_ref": "09bec721-fb11-49ad-bf2f-bf986bde6ecb",
+      "confidence": 1.0,
+      "color_hex": "#545f67",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "13422054-0a73-4ffc-9bb5-a65a299d1024",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/nobufil/PCTG/pctg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "d47bc51f-e348-4663-a69f-557d60b2946f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/nobufil/PCTG/pctg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

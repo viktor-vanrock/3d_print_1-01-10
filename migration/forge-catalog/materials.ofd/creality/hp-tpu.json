@@ -1,0 +1,113 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "creality.hp-tpu",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality",
+    "website": "https://www.creality.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "HP-TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "f1c69218-c758-4187-a095-b5e9cf4451d9",
+      "confidence": 1.0,
+      "color_hex": "#d9dad1",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hp-tpu-fdm-3d-printer-filament-1-75mm-1kg"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "c64aa7f7-8293-4c8b-bd8c-037408758e66",
+      "confidence": 1.0,
+      "color_hex": "#dae0e6",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hp-tpu-fdm-3d-printer-filament-1-75mm-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/TPU/hp_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/TPU/hp_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/TPU/hp_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/TPU/hp_tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/TPU/hp_tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/TPU/hp_tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "79b7ab02-75dc-4875-826c-b015a674b394",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/TPU/hp_tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

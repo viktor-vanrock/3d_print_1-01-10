@@ -1,0 +1,256 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "epax.silk-pla",
+  "vendor": {
+    "slug": "epax",
+    "name": "EPAX",
+    "website": "https://epax.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bayou (Blue / Green / Rose Gold)",
+      "diameter_mm": 1.75,
+      "external_ref": "a5168984-f21d-428c-98b1-4fa4b08a0ffe",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Lagoon (Aqua Blue / Green)",
+      "diameter_mm": 1.75,
+      "external_ref": "767f508a-f3dd-4754-a6b6-2fb2471ca9ff",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Coral Sunrise (Coral Pink / Gold)",
+      "diameter_mm": 1.75,
+      "external_ref": "f49f35c6-f269-4bdd-9108-ba02782bb6b3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "2a500c4d-e8cd-4b89-9c9d-2870c65c7a50",
+      "confidence": 1.0,
+      "color_hex": "#f6c500",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mermaid (Blue / Purple / Lime Green)",
+      "diameter_mm": 1.75,
+      "external_ref": "d2ab6a2d-1a12-4710-b2fc-1ebb7988a15e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mystic Forest (Blue / Green / Purple)",
+      "diameter_mm": 1.75,
+      "external_ref": "5b71f501-eed5-4fc3-bb95-d83a9a90a74b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Patina (Green / Purple / Copper)",
+      "diameter_mm": 1.75,
+      "external_ref": "ec0866aa-455a-41eb-a2c3-ff254cb69303",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Peacock (Light Maroon / Blue / Green)",
+      "diameter_mm": 1.75,
+      "external_ref": "611126ca-a0c0-4491-bc05-390f181bb11c",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Prism (Pink / Blue / Gold)",
+      "diameter_mm": 1.75,
+      "external_ref": "20942a3d-bf2d-418a-be90-681330962a49",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Regal Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "524dbc98-dc7b-44f1-b949-6b2aa47840e2",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Harvest (Gold / Copper / Purple)",
+      "diameter_mm": 1.75,
+      "external_ref": "e7752061-c9f1-44e8-9f68-53978129803d",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "66e711b5-5457-410b-bdd2-6ae00b167a83",
+      "confidence": 1.0,
+      "color_hex": "#a8b0bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tarnished Copper (Gunmetal Gray / Copper)",
+      "diameter_mm": 1.75,
+      "external_ref": "f2d5debe-a398-4734-8d70-b099059f20d7",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Techno (Fuchsia / Blue)",
+      "diameter_mm": 1.75,
+      "external_ref": "dd051dcf-87c3-4463-9066-5283762d30b4",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Treasure (Gold / Silver / Copper)",
+      "diameter_mm": 1.75,
+      "external_ref": "7ff5a67b-cb3f-40c5-ab17-22d021f8dd0b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/epax/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "aeb176fd-6891-4fa9-844e-22cc07e4de27",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/epax/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

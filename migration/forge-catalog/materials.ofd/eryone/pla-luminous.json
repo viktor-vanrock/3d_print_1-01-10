@@ -1,0 +1,158 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.pla-luminous",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Luminous",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "209d18ce-6077-4484-9921-6819838df9c9",
+      "confidence": 1.0,
+      "color_hex": "#85eff9",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "firefly green",
+      "diameter_mm": 1.75,
+      "external_ref": "0f30eeb9-cd3b-4249-8226-2268f81b3205",
+      "confidence": 1.0,
+      "color_hex": "#00c07d",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "1d3c22f7-82b5-4c92-ad5b-571bc454a404",
+      "confidence": 1.0,
+      "color_hex": "#89f4be",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "Orange-red",
+      "diameter_mm": 1.75,
+      "external_ref": "f706001f-0f05-4fe5-8b5c-094c51afcd6a",
+      "confidence": 1.0,
+      "color_hex": "#feb1a0",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "Orange-yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "aca45484-f7eb-4173-85e1-3d9d2f2bfe26",
+      "confidence": 1.0,
+      "color_hex": "#ffc796",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "92385b84-a92b-45b5-955a-c9cb4b8931b7",
+      "confidence": 1.0,
+      "color_hex": "#c6adff",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    },
+    {
+      "color_name": "Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "cf3563e8-c8e8-4f9f-8b1d-900fc45c5b9b",
+      "confidence": 1.0,
+      "color_hex": "#ade9fe",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/glow-in-dark-pla/products/glow-in-the-dark-pla"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_luminous/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_luminous/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_luminous/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_luminous/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_luminous/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_luminous/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8d5015f7-2bc4-4769-8dbc-10e536bbaa34",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_luminous/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

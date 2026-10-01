@@ -1,0 +1,159 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-basic-gradient",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Basic Gradient",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Arctic Whisper",
+      "diameter_mm": 1.75,
+      "external_ref": "76da786e-49e6-4416-a526-4e75c6dcc392",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=41215835570312"
+    },
+    {
+      "color_name": "Blueberry Bubblegum",
+      "diameter_mm": 1.75,
+      "external_ref": "10cbc6ba-f88b-42a7-b1e5-3e22c18773cb",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=43158301212808"
+    },
+    {
+      "color_name": "Cotton Candy Cloud",
+      "diameter_mm": 1.75,
+      "external_ref": "5e544a93-9730-455a-b847-f189e08b743f",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=43158301180040"
+    },
+    {
+      "color_name": "Dusk Glare",
+      "diameter_mm": 1.75,
+      "external_ref": "169b737c-3890-4881-8d34-584c3fcf0775",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=43176275312776"
+    },
+    {
+      "color_name": "Mint Lime",
+      "diameter_mm": 1.75,
+      "external_ref": "a6707371-50af-44ae-a45e-df8b113e5600",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=43158301245576"
+    },
+    {
+      "color_name": "Ocean to Meadow",
+      "diameter_mm": 1.75,
+      "external_ref": "e1216c32-f166-44d0-a0cc-c74b5f5317ab",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=41215835635848"
+    },
+    {
+      "color_name": "Pink Citrus",
+      "diameter_mm": 1.75,
+      "external_ref": "e182aaab-5ded-4b02-bbae-b4b2e42d087b",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=43158301278344"
+    },
+    {
+      "color_name": "Solar Breeze",
+      "diameter_mm": 1.75,
+      "external_ref": "192a0dc3-5504-4e45-91f6-ed280f79ca26",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-basic-gradient?variant=41215835603080"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/basic_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/basic_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/basic_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/basic_gradient/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/basic_gradient/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/basic_gradient/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6f0e9872-64bb-4bcc-9934-96e7d92ba08d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/basic_gradient/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

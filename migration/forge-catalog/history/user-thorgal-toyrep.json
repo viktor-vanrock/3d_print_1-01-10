@@ -1,0 +1,98 @@
+{
+ "slug": "history.user-thorgal-toyrep",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/ToyREP",
+ "snapshot": "sha256:b34e8db05796b3a89e1e0ab71ef2d3fae6e6ebbb994c9e9ac869fd21c7e40e23",
+ "page_chars": 9699,
+ "fields": {
+  "bed_surface": "polyacrylate",
+  "summary": "ToyREP — это крошечный и недорогой FFF 3D-принтер, разработанный преимущественно в качестве технологического демонстратора или детской игрушки. Он использует шаговые двигатели 28BYJ-48 и предназначен для демонстрации технологии, а не для быстрого прототипирования.",
+  "unique_features": [
+   "Использование шаговых двигателей 28BYJ-48 с редуктором 1:64",
+   "Самовоспроизводимая конструкция (self replicable)",
+   "Низкое энергопотребление (15W-20W при печати)",
+   "Высокое отношение шагов на мм из-за редуктора и микрошага"
+  ],
+  "target_use": [
+   "Технологический демонстратор (technology demonstrator)",
+   "Детская игрушка (child's toy)",
+   "Обучение и тестирование двигателей 28BYJ-48"
+  ],
+  "limitations": [
+   "Низкая скорость печати (10-12.5 мм/с по X и Y)",
+   "Высокая скорость вызывает перегрев и возможное повреждение двигателей",
+   "Точность не была основной целью при проектировании",
+   "Наличие люфта в редукторе и резьбовом стержне",
+   "Хрупкие внутренние шестерни редуктора, повреждаемые статической нагрузкой",
+   "Ограниченная скорость вращения вала (~15 об/мин) из-за риска перегрева",
+   "Холодное печатное ложе (cold bed)",
+   "Отсутствие подогреваемой платформы (на момент написания текста)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 100,
+   "y": 100,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.4
+  ],
+  "filament_diameter_mm": 1.75,
+  "dimensions_mm": {
+   "w": 255,
+   "d": 245,
+   "h": 295
+  },
+  "power_w": 40,
+  "voltage_v": 12,
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ],
+  "release_year": 2015
+ },
+ "evidence": {
+  "bed_surface": "with a cold bed made of polyacrylate",
+  "summary": "ToyREP is a tiny and inexpensive FFD 3D printer designed mostly as a technology demonstrator or child's toy.",
+  "unique_features": "This printer is mostly conceptual, designed to utilize 28BYJ-48 stepper motor",
+  "target_use": "Right now it is usable as very cheap technology demonstrator of FFD technology or a Toy",
+  "limitations": "Right now the printer can do 10-12.5mm/s in X and Y axis and 0.25 mm in Z axis safely.",
+  "kinematics": "Printer inspired by Prusa i3 Y-frame",
+  "build_volume": "The print volume is 100x100x100mm",
+  "nozzle_diameters": "Hotend have 0.4mm nozzle",
+  "filament_diameter_mm": "for 1.75 PLA or ABS filament",
+  "dimensions_mm": "The external dimensions of the ToyREP are 255x245x295mm",
+  "power_w": "Power consumption is currently ca 40W when heating hotend",
+  "voltage_v": "It is designed to use 12V 40W PSU",
+  "materials_supported": "for 1.75 PLA or ABS filament",
+  "release_year": "ToyREP was released in July 2015."
+ },
+ "unconfirmed": [
+  "kinematics"
+ ],
+ "unique_features": [
+  "Использование шаговых двигателей 28BYJ-48 с редуктором 1:64",
+  "Самовоспроизводимая конструкция (self replicable)",
+  "Низкое энергопотребление (15W-20W при печати)",
+  "Высокое отношение шагов на мм из-за редуктора и микрошага"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:51:31Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "ToyREP",
+ "maker": "User:Thorgal",
+ "model": "ToyREP",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/ToyREP"
+}

@@ -1,0 +1,216 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "weefun.tina2s",
+  "vendor": {
+    "slug": "weefun",
+    "name": "WEEFUN"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "TINA2S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 100,
+      "y": 110,
+      "z": 100
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 3000,
+    "max_speed_mms": 200,
+    "profile_first_seen": "2023-04-19",
+    "summary": "Tina2 3D Printer — компактный и легкий принтер размером 210*210*290 мм, вес которого составляет всего 3 кг, что делает его портативным и занимающим мало места. Устройство позиционируется как решение для домашнего использования, позволяющее реализовывать идеи детей и создавать игрушки.",
+    "unique_features": [
+      "Компактный размер (210*210*290 мм)",
+      "Легкий вес (3 кг)",
+      "Портативность (сравним с iPad Pro)"
+    ],
+    "target_use": [
+      "Домашнее использование",
+      "Образование (развитие пространственного мышления у детей)",
+      "Создание игрушек и прототипов"
+    ],
+    "kinematics": "idex",
+    "price_usd": 699.0
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "weefun-official",
+      "source_url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "weefun-official",
+      "source_url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "weefun-official",
+      "source_url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "kinematics": {
+      "source": "weefun-official",
+      "source_url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "weefun-official",
+      "source_url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/weefun_tina2s.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/weefun_tina2s.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/weefun_tina2s.def.json#overrides.machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/weefun_tina2s.def.json#overrides.machine_max_feedrate_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/weefun_tina2s.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Small machine size 210*210*290mm,similar with an iPad Pro which is portable 3kg lightweight which takes very small space",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Mini Size Lightweight",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "All the innovative ideas from your kids will be realized through 3D printing. Enhance 3D spatial perception and imagination by touching 3D models. Print each part and assemble them to make your own toys.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "X40 IDEX 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Regular price $699.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/weefun_tina2s.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/weefun_tina2s.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "weefun-official",
+      "url": "https://weefun3d.com/products/weefun-newest-tina2-s-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:388b29bca975d5ee282c133d0e5ed0e7bb7bdf5e0abf491b600d744ee1f7f67f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "WEEFUN"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 7,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

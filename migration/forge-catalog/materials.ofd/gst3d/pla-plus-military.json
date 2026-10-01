@@ -1,0 +1,140 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.pla-plus-military",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA+ Military",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army green",
+      "diameter_mm": 1.75,
+      "external_ref": "0fc3bbde-5dc1-4696-985b-9b0a3a685c7c",
+      "confidence": 1.0,
+      "color_hex": "#066346",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-military-army-green"
+    },
+    {
+      "color_name": "Khaki",
+      "diameter_mm": 1.75,
+      "external_ref": "53cf3bd6-2db3-4435-9e2c-bb625402d8c9",
+      "confidence": 1.0,
+      "color_hex": "#cd9a14",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-military-army-green"
+    },
+    {
+      "color_name": "Light Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "7289b5e2-918d-45b7-8ac3-1b320075d048",
+      "confidence": 1.0,
+      "color_hex": "#9c7d52",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-military-army-green"
+    },
+    {
+      "color_name": "Ocre",
+      "diameter_mm": 1.75,
+      "external_ref": "73f72227-d5a2-48ca-a1dc-514725b0ae1a",
+      "confidence": 1.0,
+      "color_hex": "#b78031",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-military-army-green"
+    },
+    {
+      "color_name": "Olive green",
+      "diameter_mm": 1.75,
+      "external_ref": "759bde64-5c36-41f6-bb2d-2df0b750ae21",
+      "confidence": 1.0,
+      "color_hex": "#05aa3d",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-military-army-green"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_military/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_military/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_military/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_military/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_military/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/pla+_military/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "75ae1c63-30f1-432a-9084-1831a8476d87",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/pla+_military/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

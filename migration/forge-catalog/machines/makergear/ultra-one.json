@@ -1,0 +1,136 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "makergear.ultra-one",
+  "vendor": {
+    "slug": "makergear",
+    "name": "MakerGear"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Ultra One",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 406,
+      "y": 355,
+      "z": 350
+    },
+    "nozzle_diameters": [
+      0.25,
+      0.35,
+      0.5,
+      0.75
+    ],
+    "summary": "Это тяжелая роликовая тележка (карт) для 3D-принтера MakerGear Ultra One, предназначенная для эргономичной работы и удобной транспортировки оборудования. Конструкция включает выдвижной ящик для инструментов и шкафчик для хранения филамента.",
+    "unique_features": [
+      "5-дюймовые колесные опоры с блокировкой",
+      "Выдвижной ящик для инструментов",
+      "Шкафчик для хранения филамента",
+      "Крепежные площадки для ножек принтера"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/455/prusaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/455/prusaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "summary": {
+      "source": "makergear-official",
+      "source_url": "https://makergear.com/products/ultra-one-cart",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "makergear-official",
+      "source_url": "https://makergear.com/products/ultra-one-cart",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/455/prusaslicer/machine_profiles.json#bed_shape",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/455/prusaslicer/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Get the most out of your Ultra One 3D Printer with this heavy duty rolling cart. The attractive design holds your printer at the perfect height for ergonomic operating.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "5\" Locking Casters",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/455/prusaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/455/prusaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "makergear-official",
+      "url": "https://makergear.com/products/ultra-one-cart",
+      "tier": "vendor",
+      "snapshot": "sha256:8101071f0bb48aadb6a99e8374f2a0e4f19339f606c0bf0277db9a317edbb9db",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "MakerGear"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 4,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

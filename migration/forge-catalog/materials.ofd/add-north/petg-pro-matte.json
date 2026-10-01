@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "add-north.petg-pro-matte",
+  "vendor": {
+    "slug": "add-north",
+    "name": "Add-North",
+    "website": "https://addnorth.com/",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG PRO Matte",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "dry_temp_c": 65,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6fc7f2b8-115d-42f9-adbb-0e6866c3f433",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PETG%20PRO%20Matte/PETG%20PRO%20Matte%20-%201.75mm%20-%20750g%20-%20Black"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6fc7f2b8-115d-42f9-adbb-0e6866c3f433",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 2300,
+      "purchase_url": "https://addnorth.com/product/PETG%20PRO%20Matte/PETG%20PRO%20Matte%20-%201.75mm%20-%202300g%20-%20Black"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "6fc7f2b8-115d-42f9-adbb-0e6866c3f433",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PETG%20PRO%20Matte/PETG%20PRO%20Matte%20-%202.85mm%20-%20750g%20-%20Black"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "c64d5ac8-ce3a-4119-95d3-177389a2c1ce",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PETG%20PRO%20Matte/PETG%20PRO%20Matte%20-%201.75mm%20-%20750g%20-%20White"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "c64d5ac8-ce3a-4119-95d3-177389a2c1ce",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 2300,
+      "purchase_url": "https://addnorth.com/product/PETG%20PRO%20Matte/PETG%20PRO%20Matte%20-%201.75mm%20-%202300g%20-%20White"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PETG/petg_pro_matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PETG/petg_pro_matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PETG/petg_pro_matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PETG/petg_pro_matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PETG/petg_pro_matte/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PETG/petg_pro_matte/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PETG/petg_pro_matte/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PETG/petg_pro_matte/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "3b566d45-c655-4524-82a2-c2aaf53ba280",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PETG/petg_pro_matte/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

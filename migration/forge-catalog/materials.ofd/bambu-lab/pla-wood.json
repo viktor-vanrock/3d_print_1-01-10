@@ -1,0 +1,165 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-wood",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Wood",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "wood"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black Walnut",
+      "diameter_mm": 1.75,
+      "external_ref": "d52cc264-267d-48a6-b47e-deae1eafbc98",
+      "confidence": 1.0,
+      "color_hex": "#4f3f24",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075831955592"
+    },
+    {
+      "color_name": "Classic Birch",
+      "diameter_mm": 1.75,
+      "external_ref": "9af03c46-451c-49da-a3e7-d43ad057c321",
+      "confidence": 1.0,
+      "color_hex": "#918669",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075832053896"
+    },
+    {
+      "color_name": "Clay Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "da0e9f6b-ffcb-400e-8b80-17f04b264b6a",
+      "confidence": 1.0,
+      "color_hex": "#995f11",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075832021128"
+    },
+    {
+      "color_name": "Ochre Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "d7f8dfe2-3c3c-47b7-9259-bb513cec51ea",
+      "confidence": 1.0,
+      "color_hex": "#c98935",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075832119432"
+    },
+    {
+      "color_name": "Rosewood",
+      "diameter_mm": 1.75,
+      "external_ref": "d60ffdc7-fa97-4be1-b06f-7605cc33c12d",
+      "confidence": 1.0,
+      "color_hex": "#4c241c",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075831988360"
+    },
+    {
+      "color_name": "White Oak",
+      "diameter_mm": 1.75,
+      "external_ref": "1abde481-bc94-4244-a8dc-4b27d3eca950",
+      "confidence": 1.0,
+      "color_hex": "#d6cca3",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-wood?variant=43075832086664"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/wood/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/wood/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/wood/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/wood/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/wood/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "319f5b08-f625-4b28-8291-29989caf3735",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/wood/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

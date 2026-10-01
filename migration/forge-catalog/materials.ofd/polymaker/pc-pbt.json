@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polymaker.pc-pbt",
+  "vendor": {
+    "slug": "polymaker",
+    "name": "Polymaker",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PC-PBT",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0efaa60e-0238-4f32-b308-5465d571b624",
+      "confidence": 1.0,
+      "color_hex": "#101820",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polymaker-pc-pbt"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "0efaa60e-0238-4f32-b308-5465d571b624",
+      "confidence": 1.0,
+      "color_hex": "#101820",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polymaker-pc-pbt"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "0a237afa-5914-461c-98ac-2f571bba9717",
+      "confidence": 1.0,
+      "color_hex": "#eadac2",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polymaker-pc-pbt"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 2.85,
+      "external_ref": "0a237afa-5914-461c-98ac-2f571bba9717",
+      "confidence": 1.0,
+      "color_hex": "#eadac2",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polymaker-pc-pbt"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PC/pc_pbt/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PC/pc_pbt/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PC/pc_pbt/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PC/pc_pbt/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PC/pc_pbt/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polymaker/PC/pc_pbt/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "39a5e011-27a9-41c9-a7f1-b617936d7c82",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polymaker/PC/pc_pbt/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,89 @@
+{
+ "slug": "history.yesrap-yesrap",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Yesrap",
+ "snapshot": "sha256:b65e7c89cbdf22b6f0966efcb0e9abd46e26225808e20e3cb4173661a2a2bcac",
+ "page_chars": 12889,
+ "fields": {
+  "bed_surface": "玻璃",
+  "firmware": "Marlin",
+  "summary": "YesRap — это 3D-принтер с открытой архитектурой, предназначенный для самостоятельной сборки из комплекта деталей. Он позиционируется как устройство с простой конструкцией и низкой стоимостью, где вся техническая поддержка осуществляется через Wiki.",
+  "unique_features": [
+   "Конструкция из алюминиевых профилей 2020 (T-Slot)",
+   "Возможность быстрой сборки и разборки для избежания транспортировки целого устройства",
+   "Использование контроллера Sanguinololu 1.3a и прошивки Marlin",
+   "Наличие SD-карты для автономной печати (автозапуск auto0.g/init.g)"
+  ],
+  "limitations": [
+   "Рабочая область 195x195x170 мм",
+   "Шум 80 дБ",
+   "Требует нагрева до 220°C для ABS и 180°C для PLA",
+   "Необходима вытяжка (упоминается в контексте требований к среде, хотя прямо 'нужна вытяжка' не сказано, но есть ограничение по влажности и температуре)",
+   "Зависимость от Wiki для поддержки",
+   "Пластиковые детали (K11, K12) могут ломаться при транспортировке, поэтому конструкция изменена"
+  ],
+  "build_volume": {
+   "x": 195,
+   "y": 195,
+   "z": 170,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.3
+  ],
+  "dimensions_mm": {
+   "w": 490,
+   "d": 380,
+   "h": 460
+  },
+  "weight_kg": 9.7,
+  "voltage_v": 240,
+  "noise_db": 80,
+  "connectivity": [
+   "SD卡"
+  ],
+  "materials_supported": [
+   "ABS",
+   "PLA"
+  ]
+ },
+ "evidence": {
+  "bed_surface": "玻璃板贴膜朝上",
+  "firmware": "Firmware: Marlin",
+  "summary": "1 结构简单,低成本 2 快速组装和拆卸,避免整机运输 3 所有技术支持,都在wiki完成.",
+  "unique_features": "框架采用20系列 T-Slot profile",
+  "limitations": "打印域:195mm*195mm*170mm",
+  "build_volume": "打印域:195mm*195mm*170mm",
+  "nozzle_diameters": "喷头: 默认安装0.3mm",
+  "dimensions_mm": "外尺寸: 490mm*380mm*460mm",
+  "weight_kg": "产品重量 9.7 千克",
+  "voltage_v": "100 到 240VAC",
+  "noise_db": "工作噪音80DB",
+  "connectivity": "SD卡座: 有",
+  "materials_supported": "模型材料 ABS/PLA"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Конструкция из алюминиевых профилей 2020 (T-Slot)",
+  "Возможность быстрой сборки и разборки для избежания транспортировки целого устройства",
+  "Использование контроллера Sanguinololu 1.3a и прошивки Marlin",
+  "Наличие SD-карты для автономной печати (автозапуск auto0.g/init.g)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T06:24:22Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Yesrap",
+ "maker": "YesRap",
+ "model": "YesRap",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Yesrap"
+}

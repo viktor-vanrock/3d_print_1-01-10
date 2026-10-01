@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "add-north.pa12-adura",
+  "vendor": {
+    "slug": "add-north",
+    "name": "Add-North",
+    "website": "https://addnorth.com/",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "pa12",
+    "name": "PA12"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PA12 Adura",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.1,
+      "dry_temp_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "698ff360-5bff-48f7-b431-1d46987d671d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/Adura%E2%84%A2/Adura%E2%84%A2%20-%201.75mm%20-%20500g%20-%20Black"
+    },
+    {
+      "color_name": "Cold White",
+      "diameter_mm": 1.75,
+      "external_ref": "55f48113-b949-4589-b8f6-254051879edb",
+      "confidence": 1.0,
+      "color_hex": "#e3e4ed",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/Adura%E2%84%A2/Adura%E2%84%A2%20-%201.75mm%20-%20500g%20-%20Cold%20White"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "5605bd11-7a42-4906-aecd-fc7f410c7ba1",
+      "confidence": 1.0,
+      "color_hex": "#808080",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/Adura%E2%84%A2/Adura%E2%84%A2%20-%201.75mm%20-%20500g%20-%20Grey"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "2463a95c-39ea-41ff-ba4b-3002420120f6",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/Adura%E2%84%A2/Adura%E2%84%A2%20-%201.75mm%20-%20500g%20-%20Red"
+    },
+    {
+      "color_name": "Traffic Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "c657b419-640c-46eb-9631-d4207473c198",
+      "confidence": 1.0,
+      "color_hex": "#005b8a",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/Adura%E2%84%A2/Adura%E2%84%A2%20-%201.75mm%20-%20500g%20-%20Traffic%20Blue"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PA12/adura/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PA12/adura/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PA12/adura/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PA12/adura/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PA12/adura/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PA12/adura/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PA12/adura/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PA12/adura/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8495bcf3-f3c7-4412-af36-b7269698d7d1",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PA12/adura/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

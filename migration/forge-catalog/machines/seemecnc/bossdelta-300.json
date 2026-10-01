@@ -1,0 +1,475 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "seemecnc.bossdelta-300",
+  "vendor": {
+    "slug": "seemecnc",
+    "name": "SeeMeCNC"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "BOSSdelta 300",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 300,
+      "y": 300,
+      "z": 495
+    },
+    "kinematics": "delta",
+    "max_accel_mms2": 5000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.4,
+      0.5
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2026-05-30",
+    "bed_surface": "310mm Borosilicate Glass",
+    "auto_leveling": "Probe Auto Leveling Calibration",
+    "screen_type": "Touchscreen",
+    "firmware": "SeeMeCNC supplied firmware",
+    "summary": "BOSSdelta™ 300 — это полностью собранный десктопный 3D-принтер с дельта-конфигурацией, предназначенный для коммерческого использования, серьезных энтузиастов и домашних предприятий. Он позиционируется как профессиональное устройство, обеспечивающее точную и надежную печать благодаря собственной системе линейного движения eSlide и контроллеру Duet3D.",
+    "unique_features": [
+      "Собственная система линейного движения eSlide™",
+      "Горячий узел SE300 со встроенным датчиком усилия (strain gauge probe)",
+      "Двухэкструдерная печать (Dual Extrusion)",
+      "Углеродные волокна в составе кареток (Carbon Fiber Arms)",
+      "Контроллер 32-битный Duet3D с выбором Wi-Fi или Ethernet",
+      "Автоматическое выравнивание стола (Probe Auto Leveling)"
+    ],
+    "limitations": [
+      "Не совместим с напряжением 220V (только 110VAC)",
+      "Модели Wi-Fi ограничены длиной SSID и пароля в 19 символов",
+      "Международная доставка недоступна (только 48 штатов США)",
+      "Не требуется и не поддерживается установка стороннего ПО или прошивки"
+    ],
+    "max_nozzle_temp_c": 280,
+    "max_bed_temp_c": 110,
+    "max_travel_speed_mms": 250,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "bowden",
+    "power_w": 350,
+    "voltage_v": 110,
+    "connectivity": [
+      "Wi-Fi",
+      "Ethernet"
+    ],
+    "materials_supported": [
+      "PLA",
+      "CF-PETG",
+      "ABS",
+      "PETG",
+      "HIPS",
+      "Semi-Flexible TPUs"
+    ],
+    "enclosed": true,
+    "heated_bed": true,
+    "filament_runout_sensor": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_travel_speed_mms": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "voltage_v": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "310mm Borosilicate Glass Build Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Probe Auto Leveling Calibration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "We support only SeeMeCNC supplied firmware and software.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The BOSSdelta™ 300 Desktop 3D printer is fully assembled... This printer is a prosumer desktop 3D printer best suited for commercial users, but still within the reach for serious enthusiast or home businesses.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The eSlide™ linear motion design is developed and manufactured by SeeMeCNC!",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Requirements 110VAC @ 350 watts (not 220V compatible)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Hotend Temp 280C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Heated Bed Temp 110C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Max Travel Speed 250mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament: 1.75mm PLA, CF-PETG, ABS, PETG, HIPS, Semi-Flexible TPUs",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Bowden Hotend",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Requirements 110VAC @ 350 watts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "voltage_v": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Requirements 110VAC @ 350 watts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Network Wi-Fi Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament: 1.75mm PLA, CF-PETG, ABS, PETG, HIPS, Semi-Flexible TPUs",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Powder-Coated Sheet Metal Enclosure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "350W Industrial Heated Bed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Runout Switch",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta_300_0_4mm.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "seemecnc-official",
+      "url": "https://www.seemecnc.com/products/bossdelta-300-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:5deaa09dcc90637d35ee2a9cc7f9cf572e1727666ed80ad16f809734e75f3f4e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:30:52Z",
+      "publisher": "SeeMeCNC"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.5
+          ],
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

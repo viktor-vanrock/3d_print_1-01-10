@@ -1,0 +1,237 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "recreus.filaflex-tpu",
+  "vendor": {
+    "slug": "recreus",
+    "name": "Recreus",
+    "website": "https://recreus.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Filaflex TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "nozzle_temp_min_c": 210,
+      "nozzle_temp_max_c": 240,
+      "bed_temp_min_c": 30,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Foamy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "a3ec0326-af6c-4c87-887e-a1568e53eb60",
+      "confidence": 1.0,
+      "color_hex": "#545252",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Denim",
+      "diameter_mm": 1.75,
+      "external_ref": "2b190a90-0cb3-486a-a081-8aa356c0f8d7",
+      "confidence": 1.0,
+      "color_hex": "#033877",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Footwearology Edition Azure",
+      "diameter_mm": 1.75,
+      "external_ref": "90ecbfb8-2931-4b5f-a0cf-414a60a0c765",
+      "confidence": 1.0,
+      "color_hex": "#d3f1e9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Footwearology Edition Dusk",
+      "diameter_mm": 1.75,
+      "external_ref": "c24c96e8-6834-4de4-aaf0-1b662c87d7ef",
+      "confidence": 1.0,
+      "color_hex": "#cebbcf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Footwearology Edition Lavender",
+      "diameter_mm": 1.75,
+      "external_ref": "32b6103f-8f5b-49e4-8983-d2b9aebbf780",
+      "confidence": 1.0,
+      "color_hex": "#dabcc8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Footwearology Edition Mint",
+      "diameter_mm": 1.75,
+      "external_ref": "7bfe8b74-02aa-4c56-85be-0ff82de066ff",
+      "confidence": 1.0,
+      "color_hex": "#c5d5c1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Footwearology Edition Oat",
+      "diameter_mm": 1.75,
+      "external_ref": "f0b9268a-922d-4667-b214-8ffaca26eea0",
+      "confidence": 1.0,
+      "color_hex": "#f1e6b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "3366668f-b249-4606-99af-a299a46200d6",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Nude",
+      "diameter_mm": 1.75,
+      "external_ref": "81862404-94fe-40ff-9838-826cd6d5ab32",
+      "confidence": 1.0,
+      "color_hex": "#fec8a4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Foamy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "1194bf64-4881-45e4-bc52-e64fa19741e2",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purifier",
+      "diameter_mm": 1.75,
+      "external_ref": "6dc2fa4d-71c7-4669-8f20-61d984526ddd",
+      "confidence": 1.0,
+      "color_hex": "#ded9d4",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/recreus/TPU/filaflex_tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "fac3b209-e3ff-49ba-bca0-0ab765725e0e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/recreus/TPU/filaflex_tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

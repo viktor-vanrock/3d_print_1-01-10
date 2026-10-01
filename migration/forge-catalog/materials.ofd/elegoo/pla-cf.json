@@ -1,0 +1,224 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "elegoo.pla-cf",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "ELEGOO",
+    "website": "https://elegoo.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "08d9e2bf-7ae4-4ff7-9a46-47da55036f82",
+      "confidence": 1.0,
+      "color_hex": "#0c0908",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-cf-filament-1-75mm-black-1kg"
+    },
+    {
+      "color_name": "carbon fiber blue",
+      "diameter_mm": 1.75,
+      "external_ref": "7e09cfae-9ab2-484b-8be3-a2f91cf9cc93",
+      "confidence": 1.0,
+      "color_hex": "#0000ff",
+      "weight_g": 1000,
+      "purchase_url": "https://elegoo.com/products/pla-cf-filament-1-75mm-black-1kg?variant=52698750484661"
+    },
+    {
+      "color_name": "carbon fiber green",
+      "diameter_mm": 1.75,
+      "external_ref": "e93d57cc-63ec-4ec1-bfc3-44f2964e2f6b",
+      "confidence": 1.0,
+      "color_hex": "#008000",
+      "weight_g": 1000,
+      "purchase_url": "https://elegoo.com/products/pla-cf-filament-1-75mm-black-1kg?variant=52698750517429"
+    },
+    {
+      "color_name": "carbon fiber purple",
+      "diameter_mm": 1.75,
+      "external_ref": "60613a30-7192-4a72-8490-a9a86d52c3ae",
+      "confidence": 1.0,
+      "color_hex": "#8000ff",
+      "weight_g": 1000,
+      "purchase_url": "https://elegoo.com/products/pla-cf-filament-1-75mm-black-1kg?variant=52698750550197"
+    },
+    {
+      "color_name": "carbon fiber red",
+      "diameter_mm": 1.75,
+      "external_ref": "fe3e1206-bd47-402b-a48c-e8518f3da1ef",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 1000,
+      "purchase_url": "https://elegoo.com/products/pla-cf-filament-1-75mm-black-1kg?variant=52698750550197"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "69dca9cc-cf85-40f0-985d-2abd6678281b",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

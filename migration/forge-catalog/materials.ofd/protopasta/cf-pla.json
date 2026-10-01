@@ -1,0 +1,299 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "protopasta.cf-pla",
+  "vendor": {
+    "slug": "protopasta",
+    "name": "Protopasta",
+    "website": "https://protopasta.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "be22fa90-b7ad-433a-b7e6-0f5a37a8915b",
+      "confidence": 1.0,
+      "color_hex": "#0f0f0f",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "be22fa90-b7ad-433a-b7e6-0f5a37a8915b",
+      "confidence": 1.0,
+      "color_hex": "#0f0f0f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "be22fa90-b7ad-433a-b7e6-0f5a37a8915b",
+      "confidence": 1.0,
+      "color_hex": "#0f0f0f",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Black Carbon Fiber Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "947f9388-f549-455c-97fc-a85c050364be",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark",
+      "diameter_mm": 1.75,
+      "external_ref": "85880c4a-35b6-4b3a-b906-be19cb4be9e7",
+      "confidence": 1.0,
+      "color_hex": "#4e555b",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Dark",
+      "diameter_mm": 1.75,
+      "external_ref": "85880c4a-35b6-4b3a-b906-be19cb4be9e7",
+      "confidence": 1.0,
+      "color_hex": "#4e555b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark",
+      "diameter_mm": 1.75,
+      "external_ref": "85880c4a-35b6-4b3a-b906-be19cb4be9e7",
+      "confidence": 1.0,
+      "color_hex": "#4e555b",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Dark Gray Carbon Fiber Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "71926d34-0bcb-4043-b9bc-4932661e5a4d",
+      "confidence": 1.0,
+      "color_hex": "#394658",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light",
+      "diameter_mm": 1.75,
+      "external_ref": "2a5f961e-7bad-4bd8-a54d-d1e6c0427ca8",
+      "confidence": 1.0,
+      "color_hex": "#afbdc6",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Light",
+      "diameter_mm": 1.75,
+      "external_ref": "2a5f961e-7bad-4bd8-a54d-d1e6c0427ca8",
+      "confidence": 1.0,
+      "color_hex": "#afbdc6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light",
+      "diameter_mm": 1.75,
+      "external_ref": "2a5f961e-7bad-4bd8-a54d-d1e6c0427ca8",
+      "confidence": 1.0,
+      "color_hex": "#afbdc6",
+      "weight_g": 3000
+    },
+    {
+      "color_name": "Light Gray Carbon Fiber Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a10954ff-5877-4aa7-900f-72edc408d430",
+      "confidence": 1.0,
+      "color_hex": "#bac4c4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Carbon Fiber",
+      "diameter_mm": 1.75,
+      "external_ref": "847b5674-41a8-4fb2-9a34-dcf294c5e3e0",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Static Dissipative Carbon Fiber",
+      "diameter_mm": 1.75,
+      "external_ref": "f92f0053-01e7-44fd-b67d-9bb8b43811be",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "The Original Carbon Fiber Composite",
+      "diameter_mm": 1.75,
+      "external_ref": "5350a4d5-bc9a-4656-a672-cab73c78c675",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/cf_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e941c7c7-59ef-4a96-aaed-20bc69ae1792",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/cf_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

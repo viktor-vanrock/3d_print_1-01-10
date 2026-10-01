@@ -1,0 +1,632 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "longer.lk4",
+  "vendor": {
+    "slug": "longer",
+    "name": "Longer"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "LK4",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 250
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2021-01-20",
+    "screen_type": "2.8” Colorful Touch Screen",
+    "firmware": "201110_LK4_FW_V2.20",
+    "unique_features": [
+      "Датчик филамента (Filament Detector)",
+      "Функция восстановления печати (Resume Printing)",
+      "Быстрый нагрев стола (до 100°C за 4 минуты)",
+      "Цветной сенсорный экран 2.8 дюйма",
+      "Алюминиевая рама нового дизайна"
+    ],
+    "whats_in_box": [
+      "Принтер",
+      "Около 197 футов (около 60 метров) филамента PLA 1.75 мм"
+    ],
+    "target_use": [
+      "Домашнее использование",
+      "Образование",
+      "Создание прототипов и хобби-моделей"
+    ],
+    "max_nozzle_temp_c": 250,
+    "max_speed_mms": 180,
+    "layer_height_min_mm": 0.1,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "filament_diameter_mm": 1.75,
+    "dimensions_mm": {
+      "w": 425,
+      "d": 402,
+      "h": 505
+    },
+    "weight_kg": 7.8,
+    "price_usd": 199.0,
+    "connectivity": [
+      "TF Card",
+      "USB Cable",
+      "cardreader"
+    ],
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "Wood",
+      "ABS-пластик",
+      "PLA-пластик",
+      "PETG"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "warranty_months": 12,
+    "layer_height_max_mm": 0.4,
+    "extruder_type": "bowden",
+    "extruder_count": 1
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_diameter_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "weight_kg": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "materials_supported": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "warranty_months": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "longer-official",
+      "source_url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+          "quote_source_id": "s3",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "extruder_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/longer_lk4.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "2.8” Colorful Touch Screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Firmware Download 201110_LK4_FW_V2.20 (Latest)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Detector: Yes... Resume Printing: Yes... 2.8” Colorful Touch Screen... Fast Heating Hotbed... heating speed is fast (up to 100 ℃ in 4 minutes)... New Aluminum Frame Design",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "plus it comes with about 197inches 1.75mm pla filaments",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "make what you create and imagine into a reality... More Dependable... One-Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing Temperature | 190-250℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing Speed | ≦180mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer | 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Nozzle Diameter | 0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing Material | 1.75mm PLA/ABS/Wood",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printer Dimension | 425*402*505mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Net Weight | 7.8KGS",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Sale price $199.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Connection | TF Card or USB Cable",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Printing Material | 1.75mm PLA/ABS/Wood",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Detector | Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Resume Printing | ...when there's an unexpected power outage or surge, will remember the last recorded position",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "12-Month Warranty... We are providing 12 months warranty for printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Layer | 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Температура экструдера | до 250°С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Область построения, мм: 220х220х250 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Толщина слоя, мм | 0,1-0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Толщина слоя, мм | 0,1-0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр сопла, мм | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Диаметр нити, мм | 1.75",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Размеры, мм | 425х402х505",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s3": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "На случаи внепланового отключения электропитания предусмотрена функция сохранения и возобновления печати.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Печать осуществляется одним экструдером с боуденовской подачей филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/longer_lk4.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/longer_lk4.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "longer-official",
+      "url": "https://longer3d.com/products/longer-lk4-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:840d894444c50ffcfd4cf445c352ed4b93741dd3caa4a71be53b18079d1eb9cf",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:24:39Z",
+      "publisher": "Longer"
+    },
+    {
+      "source_id": "s3",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/Longer/longer-lk4",
+      "tier": "community",
+      "snapshot": "sha256:e896c1459d507611a822c829a9af706f1f685002d17f7a36b7a8c3d015e3ef13",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:14:05Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|longer-official-vs-community",
+      "values": [
+        {
+          "value": 180,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 150,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,162 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "anycubic.asa",
+  "vendor": {
+    "slug": "anycubic",
+    "name": "Anycubic",
+    "website": "https://www.anycubic.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.07,
+      "dry_temp_c": 85,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "a4872347-1653-40ba-9b7b-a9ec657ae748",
+      "confidence": 1.0,
+      "color_hex": "#4e5e28",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "77895ac0-f845-4a4d-9d86-b119b4a4b9b1",
+      "confidence": 1.0,
+      "color_hex": "#212721",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/asa-filament?variant=44831291375805"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "445d7ac1-e151-4dfd-b4ea-c83e78250a25",
+      "confidence": 1.0,
+      "color_hex": "#0047bb",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/asa-filament?variant=44912951656637"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "413f6174-0709-4ec1-8b61-5a3b01b2915c",
+      "confidence": 1.0,
+      "color_hex": "#75787b",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/asa-filament?variant=44831291310269"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "39b8d872-6eb5-4b94-869b-e05abd49ba14",
+      "confidence": 1.0,
+      "color_hex": "#ba0c2f",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/asa-filament?variant=45174451503266"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7fecf3f2-cd56-43bd-825d-e63ab306bdf6",
+      "confidence": 1.0,
+      "color_hex": "#f1f0ed",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/asa-filament?variant=44831291343037"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/ASA/asa/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c2a6fc5c-63b2-488b-a404-09fcdb812eed",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,90 @@
+{
+ "slug": "history.tripodmaker-tripodmaker",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Tripodmaker",
+ "snapshot": "sha256:2aac693df2b3068b18b25e776039434e2a4e8c9f991b238402ee6c9d0bc6cf75",
+ "page_chars": 6933,
+ "fields": {
+  "bed_surface": "elliptic",
+  "auto_leveling": "full automatic",
+  "firmware": "Repetier",
+  "summary": "Tripodmaker — это FDM-принтер с круглой областью печати, позиционируемый как устройство для печати триподов и других деталей. Производство и поддержка модели прекращены с 31 декабря 2017 года, на сайте реализуется остаток старой партии.",
+  "unique_features": [
+   "Круглая область печати (Ø 25 cm x 42 cm)",
+   "Полностью автоматическая калибровка стола с возможной ручной корректировкой винтами",
+   "Насадка из полного металла с температурой до 295°C",
+   "Эллиптическая форма печатной платформы",
+   "Наличие индуктивного датчика в моделях Black Edition"
+  ],
+  "limitations": [
+   "Производство и поддержка прекращены (End of life)",
+   "Отсутствие гарантии (No warranty)",
+   "Отсутствие технической поддержки (No support)",
+   "Отсутствие сервисного обслуживания (No service)",
+   "Стоимость доставки не включена в цену (No shipping price included)"
+  ],
+  "max_nozzle_temp_c": 295,
+  "max_bed_temp_c": 100,
+  "layer_height_min_mm": 0.075,
+  "layer_height_max_mm": 0.3,
+  "positioning_accuracy_mm": 0.1,
+  "dimensions_mm": {
+   "w": 420,
+   "d": 530,
+   "h": 1010
+  },
+  "voltage_v": 264,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA",
+   "PETG",
+   "HIPS",
+   "ABS",
+   "Polycarbonate"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "bed_surface": "Build plate shape: elliptic",
+  "auto_leveling": "bed leveling | full automatic; with possible screw assist",
+  "firmware": "Gcode flavor: Repetier",
+  "summary": "As of December 31st 2017 - Tripodmaker ended their production and support.",
+  "unique_features": "print area | Ø 25 cm x 42 cm",
+  "limitations": "No support",
+  "max_nozzle_temp_c": "nozzle | Ø 0.4 mm; full metal - up to 295°C",
+  "max_bed_temp_c": "heated bed | up to 100°C",
+  "layer_height_min_mm": "layer thickness / resolution | 75 micron - 300 micron",
+  "layer_height_max_mm": "layer thickness / resolution | 75 micron - 300 micron",
+  "positioning_accuracy_mm": "machine tolerance | 0.1 mm",
+  "dimensions_mm": "dimensions of printer | 42 cm x 53 cm x 101 cm",
+  "voltage_v": "power | 88 - 264 V; 47 - 63 Hz; 5A",
+  "connectivity": "Cable Connectivity check – in case you have trouble with the USB connection of your printer.pdf",
+  "materials_supported": "plastics | PLA; PETG; HIPS; ABS; Polycarbonate",
+  "heated_bed": "heated bed | up to 100°C"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Круглая область печати (Ø 25 cm x 42 cm)",
+  "Полностью автоматическая калибровка стола с возможной ручной корректировкой винтами",
+  "Насадка из полного металла с температурой до 295°C",
+  "Эллиптическая форма печатной платформы",
+  "Наличие индуктивного датчика в моделях Black Edition"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T01:01:57Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Tripodmaker",
+ "maker": "Tripodmaker",
+ "model": "Tripodmaker",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Tripodmaker"
+}

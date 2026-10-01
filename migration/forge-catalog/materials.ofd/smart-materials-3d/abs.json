@@ -1,0 +1,253 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "smart-materials-3d.abs",
+  "vendor": {
+    "slug": "smart-materials-3d",
+    "name": "SMART MATERIALS 3D",
+    "website": "https://smartmaterials3d.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Antracite",
+      "diameter_mm": 1.75,
+      "external_ref": "8c19ec93-edaf-4873-a016-aaa14e21b137",
+      "confidence": 1.0,
+      "color_hex": "#26272b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chlorophyll",
+      "diameter_mm": 1.75,
+      "external_ref": "a5814f5d-9b0d-4355-bc27-b0964b6dd973",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cobalt",
+      "diameter_mm": 1.75,
+      "external_ref": "86e75bed-f53b-4590-aef7-e7dfd970f5c7",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fp Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "1f31d948-698d-4839-816b-85932b9347c5",
+      "confidence": 1.0,
+      "color_hex": "#eadac2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ivory White",
+      "diameter_mm": 1.75,
+      "external_ref": "6ae9114f-89c7-49f7-aeee-d09bdef6dcaa",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Medical Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "42356f4c-b379-4b19-93e0-ff1a6f75e821",
+      "confidence": 1.0,
+      "color_hex": "#f1e6b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "86793e2a-3f5f-4648-af45-7c8f06e57c25",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orinoco",
+      "diameter_mm": 1.75,
+      "external_ref": "c3faed17-4866-496c-87a8-6263341116cf",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ruby",
+      "diameter_mm": 1.75,
+      "external_ref": "38730d5a-4525-4102-b4e0-cf500946eac1",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sapphire",
+      "diameter_mm": 1.75,
+      "external_ref": "efcb6315-fc5a-47e0-8bcd-7e9f9991e00d",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "d54b952e-f968-4316-9b5b-536be0360992",
+      "confidence": 1.0,
+      "color_hex": "#818184",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sunset",
+      "diameter_mm": 1.75,
+      "external_ref": "26b77428-e483-4e43-b6e5-9f1c21396e77",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "True black",
+      "diameter_mm": 1.75,
+      "external_ref": "949ff92b-3790-499b-8f69-699f63d1436a",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/smart_materials_3d/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a11824d2-2b9d-43ff-94c6-d9986e0533fb",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/smart_materials_3d/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

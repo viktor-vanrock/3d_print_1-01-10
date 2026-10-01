@@ -1,0 +1,1364 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "flashforge.adventurer-5m",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FlashForge"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Adventurer 5M",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 220
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "Wi-Fi",
+      "Ethernet",
+      "USB"
+    ],
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 600,
+    "nozzle_diameters": [
+      0.25,
+      0.4,
+      0.6,
+      0.8,
+      0.3
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2024-04-22",
+    "bed_surface": "PEI",
+    "screen_type": "touch",
+    "summary": "Flashforge Adventurer 5M — это настольный 3D-принтер начального уровня с открытой конструкцией, позиционируемый как оптимальный выбор для новичков благодаря быстрой сборке и простоте использования. Устройство обеспечивает высокую скорость печати до 600 мм/с и поддерживает работу с различными материалами, включая гибкие и композитные нити.",
+    "unique_features": [
+      "Система автоматического выравнивания и управления датумом (ADM)",
+      "Быстросъемные сопла с возможностью замены за 3 секунды",
+      "Прямой привод (Direct-Drive) с нагревом до 280°C",
+      "Технология компенсации вибраций для снижения эффекта «звона»",
+      "Датчик окончания филамента",
+      "Восстановление печати после отключения питания",
+      "95% заводская сборка"
+    ],
+    "target_use": [
+      "Начинающие пользователи (Beginner-friendly)",
+      "Хобби и домашнее использование",
+      "Малый бизнес (small printing side business)",
+      "Изготовление электронных корпусов"
+    ],
+    "limitations": [
+      "Несовместимость с филаментами серии ABS (*Please note that ABS series Filaments is not compatible with the AD5M.)",
+      "Открытая конструкция (Shell: Open)",
+      "Отсутствие встроенной системы фильтрации воздуха (Air Filtration: /)",
+      "Для печати ABS/ASA требуется приобретение отдельного корпуса (Enclosure kit sold separately)"
+    ],
+    "max_bed_temp_c": 100,
+    "max_travel_speed_mms": 600,
+    "firmware_max_accel_mms2": 20000,
+    "extruder_type": "direct_drive",
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 363,
+      "d": 402,
+      "h": 448
+    },
+    "power_w": 350,
+    "price_usd": 299,
+    "materials_supported": [
+      "PLA",
+      "PETG",
+      "TPU",
+      "PLA-CF",
+      "PETG-CF",
+      "CF",
+      "Flexible"
+    ],
+    "enclosed": false,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": false,
+    "warranty_months": 12,
+    "price_rub": 31900,
+    "in_stock_ru": true,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "camera": false,
+    "filament_diameter_mm": 1.75,
+    "weight_kg": 11,
+    "chamber_active": false,
+    "max_flow_mm3s": 32,
+    "kinematics": "corexy"
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/521/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/521/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/521/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_travel_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/521/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "extruder_type": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_count": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "dimensions_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "union"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "enclosed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_rub": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "in_stock_ru": {
+      "source": "flashforge-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "max_flow_mm3s": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "kinematics": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/521/orcaslicer/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/521/orcaslicer/machine_profiles.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "20000mm/s² : Max Acceleration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/521/orcaslicer/machine_profiles.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PEI Print Bed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "4.3-Inch Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flashforge Adventurer 5M 3D Printer, 600mm/s High Speed, Beginner-friendly",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The AD5M features an advanced Automatic Datum Management (ADM) system for real-time adjustments and auto-leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Beginner-friendly",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "*Please note that ABS series Filaments is not compatible with the AD5M.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Platform Temperature 100ºC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max travel speed: 600mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Direct-Drive Nozzle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Direct drive; Qty: 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "363*402*448mm (including the display screen,excluding the spool holder)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Supply AC100~120/200~240V，50/60Hz，350W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Sale price $299.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "supports a wide range of filaments, including flexible and carbon fiber composites... TPU/PLA-CF/PETG-CF",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Shell Open",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Runout Sensor A high-sensitivity filament detectionsensor immediately alerts you whenthe filament runs out",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "With AD5M’s power-loss recovery, your print resumes exactly where it left off after an outage",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Air Filtration /",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flashforge offers a 1-year limited warranty for its 3D printers",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "31 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "in_stock_ru": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размер области построения | 220х220х220 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Ускорение | Макс. 20000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла (мм) | 0.4мм/0.6мм/0.8мм/0.25мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Размеры (без упаковки) | 363х376х413 мм (без экрана и держателя филамента) 363х402х448 мм (с экраном и держателем катушки)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Мощность | 350 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейс подключения | Ethernet, USB, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Восстановление печати | При отключении электропитания, 3D-принтер восстановит работу после устранения неполадок с момента отключения.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,1~0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя | 0,1~0,4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Камера | Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Максимальная скорость печати, мм/с 600",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "FF5M рассчитан на высокоскоростную печать — до 600 мм/с с ускорением до 20 000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Кол-во печатающих экструдеров (голов) 1 шт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Габариты товара ДxШxВ (см) 36,3х40,2х44,8",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Способ отправки файлов на печать USB (Флешка), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Вес нетто (кг) 11",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Область печати составляет 220*220*220 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная скорость до 600 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "ускорение до 20000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла | Картриджи 0.4/0.6 мм (Опционально 0.8/0.25 мм)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Габариты | 363*402*448 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Электропитание | AC 100~120 / 200~240V，50/60Hz，350W",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Передавать файлы на принтер можно через Wi-Fi, Ethernet или USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Материалы | PLA/PETG/TPU (0.4 мм сопло) PLA-CF/PETG-CF (0.6 мм сопло)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "напоминание об окончании филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "восстановление после потери питания",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_flow_mm3s": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальный поток пластика составляет 32 мм3/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Кинематика Core XY",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_accel_mms2@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Ускорение Макс. 20000 мм/с²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Количество головок 1 шт.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Габариты товара 363х376х413 мм (без экрана и держателя филамента) 363х402х448 мм (с экраном и держателем катушки)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Интерфейс подключения USB (Флеш-накопитель), USB (Кабель), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Контроль наличия пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Система возобновления печати Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/Flashforge Adventurer 5M 0.25 Nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/521/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/521/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "flashforge-official",
+      "url": "https://www.flashforge.com/products/adventurer-5m-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:6bb752b3a0ff117aa6e657d574d8e641b1b86902759f6524f48f3f3d8217edf7",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:19:55Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s4",
+      "source": "flashforge-official",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "tier": "vendor",
+      "snapshot": "sha256:757d09a0ad839b9fcd85fbd62f348f382e668ff60a39ec6c469894c03c6314b8",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T11:01:50Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s5",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/3d_printer_flashforge_adventurer_5m/",
+      "tier": "catalog",
+      "snapshot": "sha256:8276420749c643a3e31ef92dcc795b0d72554a35dfe99aef442167fc593c9461",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:45:28Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s6",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-flashforge-adventurer-5m",
+      "tier": "catalog",
+      "snapshot": "sha256:f8fb725432f70123c327109334bea044ecb04f34955e547588c40eaae2610b9e",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:16:10Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s7",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-flashforge-adventurer-5m/",
+      "tier": "catalog",
+      "snapshot": "sha256:6e2264b15a24930ef3482c1b89f1109be68f31450a399303550555b697c583dc",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:40:33Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s8",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/flashforge-adventurer-5m",
+      "tier": "community",
+      "snapshot": "sha256:e6881f4d84c174c427181de4183594c3f96338d2ac1c435f0d010e3aae1e5139",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:03:59Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "heated_bed",
+      "max_nozzle_temp_c"
+    ],
+    "sources_count": 8,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  },
+  "conflicts": [
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "Wi-Fi",
+            "Ethernet",
+            "USB"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_bed_temp_c",
+      "class": "max_bed_temp_c|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": 100,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 110,
+          "source_id": "s5",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_bed_temp_c",
+      "class": "max_bed_temp_c|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": 100,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 110,
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 200,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_nozzle_temp_c",
+      "class": "max_nozzle_temp_c|flashforge-official-vs-community",
+      "values": [
+        {
+          "value": 280,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 265,
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_bed_temp_c",
+      "class": "max_bed_temp_c|flashforge-official-vs-community",
+      "values": [
+        {
+          "value": 100,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 110,
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|flashforge-official-vs-community",
+      "values": [
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 200,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "air_filter",
+      "class": "air_filter|flashforge-official-vs-community",
+      "values": [
+        {
+          "value": false,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

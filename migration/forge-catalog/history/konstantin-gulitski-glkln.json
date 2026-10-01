@@ -1,0 +1,106 @@
+{
+ "slug": "history.konstantin-gulitski-glkln",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/GLKLN",
+ "snapshot": "sha256:e179457f06449239a12d5e3e17f5a983450f7c21eab6bc67e8a5545d82d4febe",
+ "page_chars": 6579,
+ "fields": {
+  "screen_type": "2004 LCD Display RepRapDiscount Smart Controller",
+  "firmware": "Marlin",
+  "summary": "GLKLN — это 3D-принтер кубической конструкции с системой подачи XYZ, разработанный для широкого круга инженеров. Его ключевая особенность заключается в том, что большинство деталей изготовлены из пластика и могут быть напечатаны на одном экструдере без использования поддержек, что соответствует концепции RepRap.",
+  "unique_features": [
+   "Кубическая конструкция, где вертикальные углы служат осями Z для горячего стола",
+   "Почти все детали конструкции изготовлены из пластика",
+   "Возможность печати всех пластиковых деталей одним хотендом без поддержек",
+   "Два фиксированных экструдера (2 в 2 вых)",
+   "Возможность увеличения рабочей зоны стола до 240x290 мм и оси Z до 350 мм"
+  ],
+  "limitations": [
+   "Держатель филамента находится в стадии разработки и должен быть добавлен в будущем",
+   "Вентиляционная система для хотендов запланирована к разработке",
+   "Держатели роликов филамента запланированы к разработке"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 240,
+   "y": 290,
+   "z": 310,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 200,
+  "layer_height_min_mm": 0.1,
+  "layer_height_max_mm": 0.4,
+  "positioning_accuracy_mm": 0.1,
+  "nozzle_diameters": [
+   0.1,
+   0.2,
+   0.3,
+   0.4
+  ],
+  "filament_diameter_mm": 1.75,
+  "dimensions_mm": {
+   "w": 528,
+   "d": 541,
+   "h": 433
+  },
+  "weight_kg": 18,
+  "power_w": 300,
+  "voltage_v": 12,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA",
+   "ABS",
+   "others"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "screen_type": "The 2004 LCD Display RepRapDiscount Smart Controller is used for autonomy printer control.",
+  "firmware": "Firmware | Marlin",
+  "summary": "The main idea of this printer is to create a new design of a 3D printer with a cubic cartesian scheme which includes as many as possible parts from plastic. I.e. it supports the RepRap concept to create some kind of easy reproducible 3d printer to make it more achievable for a wide engineer society.",
+  "unique_features": "Four vertical cornels of cubic construction are the Z-axes of the hotbed.",
+  "limitations": "Several parts planned to be developed such as a cable holder, filament roller holders, ventilation system for hotends.",
+  "kinematics": "Configuration | XYZ Cartesian drive using stepper motors",
+  "build_volume": "Working volume (max) | 240mm (X) x 290mm (Y) x 310mm (Z)",
+  "max_speed_mms": "Max Speed | 200 mm/s (depending on the object to be printed)",
+  "layer_height_min_mm": "Layer thickness | Adjustable 0.1mm, 0.2mm, 0.3mm, 0.4mm",
+  "layer_height_max_mm": "Layer thickness | Adjustable 0.1mm, 0.2mm, 0.3mm, 0.4mm",
+  "positioning_accuracy_mm": "Positioning accuracy | XY 0.1 mm",
+  "nozzle_diameters": "Hotend nozzle size | 0.1mm, 0.2mm, 0.3mm, 0.4mm",
+  "filament_diameter_mm": "Filament | 1.75mm",
+  "dimensions_mm": "Exterior dimensions | 528 mm wide x 541 mm deep x 433 mm high",
+  "weight_kg": "Weight | about 18 Kg",
+  "power_w": "Power supply | 25A/12V DC, 300W",
+  "voltage_v": "Power supply | 25A/12V DC, 300W",
+  "connectivity": "Computer interface | USB",
+  "materials_supported": "Working materials | PLA, ABS, others",
+  "heated_bed": "Heated Bed | HotBed is Aluminium 220mm x 220mm x 3mm."
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Кубическая конструкция, где вертикальные углы служат осями Z для горячего стола",
+  "Почти все детали конструкции изготовлены из пластика",
+  "Возможность печати всех пластиковых деталей одним хотендом без поддержек",
+  "Два фиксированных экструдера (2 в 2 вых)",
+  "Возможность увеличения рабочей зоны стола до 240x290 мм и оси Z до 350 мм"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:56:41Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "GLKLN",
+ "maker": "Konstantin Gulitski",
+ "model": "GLKLN",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/GLKLN"
+}

@@ -1,0 +1,1130 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "creality.ender-5-s1",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Ender-5 S1",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 300
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 2000,
+    "max_speed_mms": 250,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-05-07",
+    "bed_surface": "PC spring steel sheet",
+    "auto_leveling": "CR Touch",
+    "screen_type": "4.3-inch touch screen",
+    "summary": "Ender-5 S1 — это 3D-принтер с классической картesianской структурой и металлической рамой, предназначенный для быстрой печати моделей с высокой точностью. Устройство позиционируется как решение для работы как с обычными, так и с высокотемпературными инженерными пластиками благодаря нагреву до 300°C.",
+    "unique_features": [
+      "Скорость печати до 250 мм/с и ускорение 2000 мм/с²",
+      "Прямой экструдер 'Sprite' с усилием 80N для гибких филаментов",
+      "Титановый теплоизолятор (Heatbreak) для температур до 300°C",
+      "Система охлаждения 'Urus' с вентилятором 5015",
+      "Автоматическая калибровка CR Touch с точностью 0.01 мм",
+      "Стол из пружинной стали с матовым PC-покрытием"
+    ],
+    "target_use": [
+      "Печать из инженерных пластиков (ABS, PC, ASA, HIPS)",
+      "Печать гибкими материалами (TPU)",
+      "Быстрое создание моделей с высокой детализацией"
+    ],
+    "max_nozzle_temp_c": 300,
+    "kinematics": "cartesian",
+    "firmware_max_speed_mms": 500,
+    "firmware_max_accel_mms2": 500,
+    "extruder_type": "direct_drive",
+    "power_w": 350,
+    "price_usd": 559.0,
+    "discontinued": true,
+    "release_status": "eol",
+    "max_bed_temp_c": 110,
+    "layer_height_max_mm": 0.35,
+    "extruder_count": 1,
+    "dimensions_mm": {
+      "w": 425,
+      "d": 460,
+      "h": 570
+    },
+    "filament_runout_sensor": true,
+    "filament_diameter_mm": 1.75,
+    "weight_kg": 12.1,
+    "price_rub": 51900,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": false,
+    "power_loss_recovery": true,
+    "layer_height_min_mm": 0.05,
+    "connectivity": [
+      "USB-C",
+      "Wi-Fi"
+    ],
+    "materials_supported": [
+      "ABS",
+      "ASA",
+      "PLA",
+      "TPU",
+      "PET-G",
+      "поликарбонат",
+      "ударопрочный полистирол"
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.6
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_ender5s1.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.9
+    },
+    "bed_surface": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "auto_leveling": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+          "quote_source_id": "s8",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+          "quote_source_id": "s7",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "extruder_type": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "power_w": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "cvetmir3d-catalog",
+          "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+          "quote_source_id": "s6",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+          "quote_source_id": "s9",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "price_usd": {
+      "source": "creality-official",
+      "source_url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "discontinued": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "release_status": {
+      "source": "creality-official",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_max_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "extruder_count": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_runout_sensor": {
+      "source": "cvetmir3d-catalog",
+      "source_url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "power_loss_recovery": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "layer_height_min_mm": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s3",
+      "found_by": "host",
+      "ref": "resources/definitions/creality_ender5s1.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Upgraded motion system for 2000 mm / s ² acceleration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "up to 250 mm / s (5 times) printing speed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "The PC spring steel sheet has two notches and a magnetic base for quick installation.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Level the bed quickly by CR Touch auto-leveling and auxiliary leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "4.3-inch touch screen featuring a wide viewing angle",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "An all-metal cube frame goes with the classic Cartesian structure.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "The all-metal \"Sprite\" direct extruder features dual gears of a 1:3.5 gear ratio. It delivers a powerful and uniform 80N extrusion force.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "A whole new world opens, as a variety of heat-resistant engineering plastic filaments are brought into the game.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Able to tame up to 300℃.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "An all-metal cube frame goes with the classic Cartesian structure.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "The all-metal \"Sprite\" direct extruder features dual gears",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Encased 350W power adapter.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "$559.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "discontinued": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "release_status": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Снят с производства",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "выдерживая температуру до 300 С",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Модернизированная система движения с максимальной скоростью печати до 250 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Диаметр сопла (мм) | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Макс. потребляемая мощность | 350 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s6": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура подогрева площадки | ≤110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Температура подогрева площадки | ≤110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Толщина слоя | 0,05-0,35 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Количество экструдеров | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Размеры (без упаковки) | 425х460х570 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s6",
+      "quote": "Датчик окончания филамента | Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная температура экструдера, °С 300",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Максимальная скорость печати, мм/с 250",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр сопла 0.4 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s7": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Вес нетто (кг) 12.1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "51 900 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Видеокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s7",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Скорость построения достигает 250 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Диаметр сопла | 0,4",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s8": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Температура стола | ≤110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s8",
+      "quote": "Толщина печатаемого слоя может варьироваться от 0.05",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная температура хотэнда | 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Максимальная скорость печати | 250 мм/с",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Диаметр сопла, мм | 0,4 (стандартный)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Номинальная мощность | 350 Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s9": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Интерфейс | SD, USB-С, Wi-Fi (опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s9",
+      "quote": "Материалы | АБС, АСА, ПЛА, ТПУ, ПЭТ-Г, поликарбонат, ударопрочный полистирол и другие",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Creality/machine/Creality Ender-5 S1 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/290/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/290/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/creality_ender5s1.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/creality_ender5s1.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s4",
+      "source": "creality-official",
+      "url": "https://www.creality.com/products/ender-5-s1-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:f8c715b2cdee5a1c38f56a5859d693a4a174ac790d8b95c61f5bccef79406699",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:05:47Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s5",
+      "source": "creality-official",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "tier": "vendor",
+      "snapshot": "sha256:118892913fab5f70d89f6f93efe39cc4be4b1d9d8a0ecbf8a3f5bb8717ea51c8",
+      "transport": "https",
+      "retrieved_at": "2026-09-02T11:02:05Z",
+      "publisher": "Creality"
+    },
+    {
+      "source_id": "s6",
+      "source": "cvetmir3d-catalog",
+      "url": "https://cvetmir3d.ru/3d-printery/domashnie/creality3d/3d_printer_creality_ender_5_s1/",
+      "tier": "catalog",
+      "snapshot": "sha256:118892913fab5f70d89f6f93efe39cc4be4b1d9d8a0ecbf8a3f5bb8717ea51c8",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:48:36Z",
+      "publisher": "Cvetmir3D"
+    },
+    {
+      "source_id": "s7",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-creality-ender-5-s1",
+      "tier": "catalog",
+      "snapshot": "sha256:0f1c1d6e914700121ab7e3635eda521a0c96c2bb98821fe5806e6ee36d70f38f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:18:14Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s8",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-creality3d-ender-5-s1-nabor-dlya-sborki/",
+      "tier": "catalog",
+      "snapshot": "sha256:e49eaac9ca0c69745c0b0cb3c4e9b71de15aa055dd87097988ff4e853eaca16c",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:42:16Z",
+      "publisher": "3DVision"
+    },
+    {
+      "source_id": "s9",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/creality-3d/creality-ender-5-s1",
+      "tier": "community",
+      "snapshot": "sha256:27534416b60d84adbac04f4fbdb609457edf4812f9b001618b324ffb369a2156",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:05:31Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|structural-vs-structural|cura|orca",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 300
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 225,
+            "y": 225,
+            "z": 305
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 500,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 250,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_accel_mms2",
+      "class": "max_accel_mms2|vendor-vs-structural",
+      "values": [
+        {
+          "value": 500,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 2000,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|orcaslicer-profiles-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 300
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 280,
+            "shape": "rectangular"
+          },
+          "source_id": "s6",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|orcaslicer-profiles-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 300
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 280,
+            "shape": "rectangular"
+          },
+          "source_id": "s7",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|orcaslicer-profiles-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 300
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 280,
+            "shape": "rectangular"
+          },
+          "source_id": "s8",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|orcaslicer-profiles-vs-community",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 220,
+            "y": 220,
+            "z": 300
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 280,
+            "shape": "rectangular"
+          },
+          "source_id": "s9",
+          "kind": "spec"
+        }
+      ]
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [],
+    "sources_count": 9,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": null
+  }
+}

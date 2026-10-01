@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "ninjatek.ninjaflex-tpu",
+  "vendor": {
+    "slug": "ninjatek",
+    "name": "NinjaTek",
+    "website": "https://ninjatek.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "NinjaFlex TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "nozzle_temp_min_c": 210,
+      "nozzle_temp_max_c": 240,
+      "bed_temp_min_c": 30,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Fire Red",
+      "diameter_mm": 1.75,
+      "external_ref": "28b96a79-f051-46b0-9cc2-5754a6193ff9",
+      "confidence": 1.0,
+      "color_hex": "#d33d3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flamingo Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "88635fed-5544-4a7a-a752-5b67a64fb0db",
+      "confidence": 1.0,
+      "color_hex": "#f06e92",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grass Green",
+      "diameter_mm": 1.75,
+      "external_ref": "6c1a0513-fd94-45c2-9da2-9f199f8f670b",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lava Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "84e6f23c-8f78-4a3a-8e8a-053798e661b4",
+      "confidence": 1.0,
+      "color_hex": "#ff7a33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Midnight Black",
+      "diameter_mm": 1.75,
+      "external_ref": "8628762c-2cf7-4d48-ad77-826297f26595",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sapphire Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "8a285b62-d6aa-4d7f-8b71-9a5b2a4d6007",
+      "confidence": 1.0,
+      "color_hex": "#0022ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Snow White",
+      "diameter_mm": 1.75,
+      "external_ref": "636e2368-377c-4a24-87ff-2c23ad0ce656",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Steel Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "15578570-af2c-4106-a979-347dc22d4be8",
+      "confidence": 1.0,
+      "color_hex": "#afaeab",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sun Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6018f579-7f1c-4f55-9d7c-e2824736a711",
+      "confidence": 1.0,
+      "color_hex": "#ffe15b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Water Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "97bfb4c4-cc09-44e4-86d0-def5363b3437",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ninjatek/TPU/ninjaflex_tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "e47f9d0b-e6b3-4b7d-ad5e-a67e93d04560",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ninjatek/TPU/ninjaflex_tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

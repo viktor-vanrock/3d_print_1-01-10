@@ -1,0 +1,526 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "tronxy.xy-2-pro",
+  "vendor": {
+    "slug": "tronxy",
+    "name": "Tronxy"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "XY-2 Pro",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 255,
+      "y": 255,
+      "z": 260
+    },
+    "heated_bed": true,
+    "profile_first_seen": "2020-04-28",
+    "screen_type": "сенсорный",
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "positioning_accuracy_mm": 0.0125,
+    "nozzle_diameters": [
+      0.2,
+      0.3,
+      0.4
+    ],
+    "extruder_count": 1,
+    "power_w": 360,
+    "connectivity": [
+      "USB",
+      "Card Reader",
+      "USB Port",
+      "TF Card"
+    ],
+    "materials_supported": [
+      "ABS-пластик",
+      "PLA-пластик",
+      "PVA-пластик",
+      "HIPS",
+      "PC-пластик",
+      "PETG",
+      "Wood",
+      "PVC",
+      "PLA",
+      "ABS"
+    ],
+    "filament_runout_sensor": true,
+    "bed_surface": "lattice glass",
+    "firmware": "Malin Firmware",
+    "summary": "XY-2 PRO — это FDM 3D-принтер от Tronxy с объемом печати 255x255x260 мм, предназначенный для печати из PLA, ABS и PETG. Устройство позиционируется как тихое и компактное решение для дома, офиса или школы, поддерживающее прошивку Marlin и функцию лазерной гравировки.",
+    "unique_features": [
+      "Bowden Drive Extrusion (легкая печатающая голова для высокой скорости)",
+      "Ultra-Quiet Stepper Motor Drive Mainboard (уровень шума менее 50 дБ)",
+      "Support Malin Firmware (открытый исходный код)",
+      "FPC Cord Design (гибкие шлейсы с усилением)",
+      "V-guide Rail (направляющие V-образного типа)",
+      "Filament run-out Detection (датчик окончания филамента)",
+      "Resume Printing Function (восстановление печати после сбоя питания)",
+      "Support Extended TR Sensor (датчик для нечерных материалов на нагретом столе)",
+      "Support Extended Laser Engraving (возможность лазерной гравировки)",
+      "Dual Hotend Cooling Fans (два вентилятора охлаждения хотэнда)"
+    ],
+    "whats_in_box": [
+      "Semi-Assembled Kit (полукомплект, сборка занимает около 2 часов)"
+    ],
+    "target_use": [
+      "Дом, компания (офис), школа",
+      "DIY гравировка по дереву, бумаге, коже",
+      "Прототипирование и создание моделей из инженерных пластиков (PLA, ABS, PETG)"
+    ],
+    "max_nozzle_temp_c": 275,
+    "max_bed_temp_c": 120,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "bowden",
+    "dimensions_mm": {
+      "w": 512,
+      "d": 452,
+      "h": 477
+    },
+    "weight_kg": 8.5,
+    "noise_db": 50,
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_xy2pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_xy2pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+          "quote_source_id": "s2",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_xy2pro.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "screen_type": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "layer_height_min_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "layer_height_max_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "positioning_accuracy_mm": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "nozzle_diameters": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "extruder_count": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "power_w": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "connectivity": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "materials_supported": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "filament_runout_sensor": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "bed_surface": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "noise_db": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "tronxy-official",
+      "source_url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_xy2pro.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_xy2pro.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/tronxy_xy2pro.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "build_volume@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Область построения, мм: до 255 х 255 х 260 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s2": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Платформа | С подогревом",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Управление: 3,5«сенсорный дисплей",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя: 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Толщина слоя: 0.1-0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Точность позиционирования: 0.0125mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Диаметр сопла: 0,2 мм, 0,3 мм, 0,4 мм на выбор",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Количество печатающих головок | 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Блок питания: 24 B, 360Вт",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Интерфейсы | USB, Card Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Материалы | ABS-пластик PLA-пластик PVA-пластик HIPS PC-пластик PETG Wood PVC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Опции: датчик филамента",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Equipped lattice glass makes it easy for you to remove the models",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Support Malin Firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "XY-2 PRO FDM 3D Printer... 255*255*260mm... For PLA,ABS,PETG... Bring you a comfortable environment whether at home, company, or school.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Bowden Drive Extrusion... Ultra-Quiet Stepper Motor Drive Mainboard... Support Malin Firmware... FPC Cord Design... V-guide Rail with High Standard Stable to Print... Filament run-out Detection... Resume Printing Function... Support Extended TR Sensor... Support Extended Laser Engraving... Dual Hotend Cooling Fans",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Semi-Assembled Kit... It comes with several assembled parts that only take 2 hours to complete",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Bring you a comfortable environment whether at home, company, or school... Laser engraving brings you more DIY fun. It is capable of engraving on wood, paper, leather, etc.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Max Temperature | Max 275ºC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Heated Bed Max Temperature | Max 120ºC",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Diameter | 1.75mm ± 0.05 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Bowden Drive Extrusion",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "3D Printer Dimensions | 512*452*477(mm)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Net Weight | ≈8.5KG",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The silent motherboard ensures smooth running movement under 50db",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Resume Printing Function | 3D Printer supports resume printing from the last recorded extruder position after suffering unexpected power outages",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/tronxy_xy2pro.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/tronxy_xy2pro.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/homemade/tronxy-xy-2-pro",
+      "tier": "community",
+      "snapshot": "sha256:0a6c239703d560c7309534a3f0f5e0bd2d3486ba856f8d4b0906c59dce8a53ab",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "3DToday"
+    },
+    {
+      "source_id": "s3",
+      "source": "tronxy-official",
+      "url": "https://www.tronxy.com/product/xy-2-pro-fdm-3d-printer/",
+      "tier": "vendor",
+      "snapshot": "sha256:d3df53b6b1c8d236f32755d6711c03d8c600cacda139aff689ef1da683fab228",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:01Z",
+      "publisher": "Tronxy"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 5,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "verify"
+  }
+}

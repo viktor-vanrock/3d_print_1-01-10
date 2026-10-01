@@ -1,0 +1,140 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.pc-blend",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pc",
+    "name": "PC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PC Blend",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0079a15d-2de9-425e-838e-fd643a51f689",
+      "confidence": 1.0,
+      "color_hex": "#24292a",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-jet-black-970g/"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "7321e814-ff64-4074-9f5f-19e90a50934b",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-natural-970g/"
+    },
+    {
+      "color_name": "Prusa Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d7e4b8c6-4bd3-444f-b20a-a001eb42e87f",
+      "confidence": 1.0,
+      "color_hex": "#ea5e1a",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-prusa-orange-970g/"
+    },
+    {
+      "color_name": "Prusa Pro Green",
+      "diameter_mm": 1.75,
+      "external_ref": "20928ed6-7c7f-4011-bf5b-8577dddcee49",
+      "confidence": 1.0,
+      "color_hex": "#26bfa3",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-prusa-pro-green-970g/"
+    },
+    {
+      "color_name": "Urban Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "0c634e4c-0412-4029-bfb6-fac50f1fc164",
+      "confidence": 1.0,
+      "color_hex": "#999596",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pc-blend-urban-grey-970g/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_blend/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_blend/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_blend/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_blend/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_blend/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PC/pc_blend/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "92a21a8d-0991-4533-8281-32c623161d27",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PC/pc_blend/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

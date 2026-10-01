@@ -1,0 +1,122 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "panchroma.celestial-pla",
+  "vendor": {
+    "slug": "panchroma",
+    "name": "Panchroma",
+    "website": "https://polymaker.com/panchroma/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Celestial PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ff4a51c4-9a42-471f-b61d-5638d8a07b40",
+      "confidence": 1.0,
+      "color_hex": "#80def4",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-celestial"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "15840321-d3e2-44a5-ae06-1aae7c176af7",
+      "confidence": 1.0,
+      "color_hex": "#83e3d6",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-celestial"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "c699f083-204a-4508-8054-27a901cf11db",
+      "confidence": 1.0,
+      "color_hex": "#a58ccd",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-celestial"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/celestial_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/celestial_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/celestial_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/celestial_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/celestial_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/celestial_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f9012705-61eb-4bfb-85e5-1f913d45d901",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/celestial_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

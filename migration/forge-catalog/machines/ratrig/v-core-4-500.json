@@ -1,0 +1,412 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "ratrig.v-core-4-500",
+  "vendor": {
+    "slug": "ratrig",
+    "name": "Ratrig"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "V-Core 4 500",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 500,
+      "y": 500,
+      "z": 500
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker"
+    ],
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 400,
+    "nozzle_diameters": [
+      0.4,
+      0.5,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2024-06-16",
+    "firmware": "RatOS 2.1",
+    "summary": "Rat Rig V-Core 4.1 — это крупноформатный открытый кит CoreXY 3D-принтера, предназначенный для пользователей, желающих адаптировать и расширять оборудование под свои нужды. Аппарат поддерживает объемы печати до 500x500x500 мм и предлагает прогрессивный путь модернизации от одноканальной системы до гибридной и IDEX.",
+    "unique_features": [
+      "Прогрессивный путь модернизации: от стандартной конфигурации к Hybrid и IDEX без перестройки рамы",
+      "Стальная X-ось и полностью металлический скелетный экструдер (toolhead)",
+      "Высокоточный датчик автокалибровки Z Beacon",
+      "Полностью металлическая система движения на стальных линейных направляющих по всем осям",
+      "Поддержка IDEX-режимов: копирование и зеркалирование для удвоения производительности или печати двумя материалами"
+    ],
+    "whats_in_box": [
+      "Все структурные, механические и кинематические компоненты",
+      "Электроника (опционально, в комплекте с опцией 'Yes — Add electronics')",
+      "Готовые кабели без необходимости обжима",
+      "Стальная базовая пластина и корпус электроники (входят в универсальную раму)",
+      "Концевые выключатели"
+    ],
+    "target_use": [
+      "Печать инженерными пластиками (ABS, ASA, PC, Nylon, PA, PETG-CF, PAHT-CF и др.)",
+      "Массовое производство мелких деталей (режим IDEX Copy/Mirror)",
+      "Многоцветная печать (режим IDEX с двумя материалами)",
+      "Проектирование и прототипирование благодаря открытой архитектуре и наличию CAD-файлов"
+    ],
+    "limitations": [
+      "Панели ограждения не входят в комплект поставки",
+      "Требуется отдельная система вентиляции или фильтрации для работы с выделяющими пары материалами (ABS, ASA, PC, Nylon)",
+      "Лицензия Creative Commons Attribution-NonCommercial-ShareAlike 4.0 (запрещает коммерческое использование модификаций)"
+    ],
+    "max_nozzle_temp_c": 350,
+    "max_bed_temp_c": 120,
+    "kinematics": "corexy",
+    "enclosed": false,
+    "heated_bed": true,
+    "multimaterial_supported": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "connectivity": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/557/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/557/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "firmware": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "kinematics": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "multimaterial_supported": {
+      "source": "ratrig-official",
+      "source_url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/557/orcaslicer/machine_profiles.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/557/orcaslicer/machine_profiles.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "unlocking smoother, more reliable performance with RatOS 2.1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "V-Core 4.1 is a large-format, open CoreXY 3D printer kit designed to grow with you. With build volumes up to 500×500×500mm, a fully open and customizable architecture, and a progressive upgrade path — from single tool to Hybrid and IDEX — it's a platform you can adapt, expand, and make your own.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Easily upgrade standard into Hybrid and then Hybrid into IDEX - Conversion between modes is just a matter of adding a few parts, no frame rebuild is necessary.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Includes all structural, mechanical, and motion components.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Carbon filtration for ABS, ASA, PC, Nylon and other fume-emitting materials.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "NOTE: Enclosing panels are not included.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Nozzle Temperature | 350ºc",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Heatbed Temperature | 120ºc",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "V-Core 4.1 ▪ CoreXY 3D Printer Kit",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "NOTE: Enclosing panels are not included.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Heatbed Temperature | 120ºc",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "IDEX - Print with 2 materials and double your output for 2 parts at once or for multi-material parts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Ratrig/machine/RatRig V-Core 4 500 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/557/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/557/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "ratrig-official",
+      "url": "https://ratrig.com/products/rat-rig-v-core-4-1",
+      "tier": "vendor",
+      "snapshot": "sha256:0efe4ceeb8ee5d241187b5ba01efdd81f0d33faf9a8b374f07ede2e8f05ae0cb",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Ratrig"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 3,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4,
+            0.5,
+            0.6,
+            0.8
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.4,
+            0.6
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_hardened",
+      "class": "nozzle_hardened|vendor-vs-structural",
+      "values": [
+        {
+          "value": false,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": true,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

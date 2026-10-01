@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "panchroma.luminous-pla",
+  "vendor": {
+    "slug": "panchroma",
+    "name": "Panchroma",
+    "website": "https://polymaker.com/panchroma/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Luminous PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.17,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4300aa40-fbc5-48dd-b50f-ac69c2d7b2c2",
+      "confidence": 1.0,
+      "color_hex": "#5fa7c2",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c37c7c97-cae1-4a36-aa88-56c07b69f671",
+      "confidence": 1.0,
+      "color_hex": "#beea8b",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "6c2e9896-0d2d-40f7-9501-33b24a1d3bac",
+      "confidence": 1.0,
+      "color_hex": "#febe5f",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "93916b1a-96ca-4d02-bfe1-4df9066ac576",
+      "confidence": 1.0,
+      "color_hex": "#fd9176",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    },
+    {
+      "color_name": "Rainbow (nighcore magic filament)",
+      "diameter_mm": 1.75,
+      "external_ref": "aef6e0b0-44d5-468c-97b1-fb04017690ac",
+      "confidence": 1.0,
+      "color_hex": "#9a8d7d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "fd4ab4a5-e383-4110-bb11-551facf3e71d",
+      "confidence": 1.0,
+      "color_hex": "#eddc48",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-luminous"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/luminous_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/luminous_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/luminous_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/luminous_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/luminous_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/luminous_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c8e6bc6a-7312-4677-823a-604687a862f1",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/luminous_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

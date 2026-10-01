@@ -1,0 +1,103 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "inland.pla-chameleon",
+  "vendor": {
+    "slug": "inland",
+    "name": "Inland",
+    "website": "https://www.microcenter.com/search/search_results.aspx?fq=category:Filaments+%26+Resins|754,brand:Inland,Diameter:1.75mm&rpp=96&sortby=pricelow&myStore=true",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Chameleon",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "b9e31e91-e1ec-4056-a874-09beb26bce87",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/660570/inland-shimmer-175mm-gray-pla-3d-printer-filament-1kg-spool-(22-lbs)?sp=82"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_chameleon/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_chameleon/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_chameleon/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_chameleon/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8b01fa7c-ac44-4ce0-8b91-1ffdff3d84a4",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_chameleon/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,221 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polar-filament.petg",
+  "vendor": {
+    "slug": "polar-filament",
+    "name": "Polar Filament",
+    "website": "https://polarfilament.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Candy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "5b451562-6b79-420f-b958-52d6c4375c97",
+      "confidence": 1.0,
+      "color_hex": "#de1619",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Classic Black",
+      "diameter_mm": 1.75,
+      "external_ref": "c367134b-3f92-4654-8464-38d0f2926609",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural (Clear)",
+      "diameter_mm": 1.75,
+      "external_ref": "786f0460-34f9-492b-9ed3-6f785b12362b",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Polar White",
+      "diameter_mm": 1.75,
+      "external_ref": "6503bdc4-824d-4162-ae33-c54f7ab485fc",
+      "confidence": 1.0,
+      "color_hex": "#f0ebe5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purplex",
+      "diameter_mm": 1.75,
+      "external_ref": "f38a05d8-ba2c-46ab-9887-a92d1e40e4c2",
+      "confidence": 1.0,
+      "color_hex": "#6c47b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Regulation Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "26121c29-ddf7-4bfe-85c1-75d4251db31b",
+      "confidence": 1.0,
+      "color_hex": "#91a0b6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "814c01ed-155e-4c2b-914f-99d683af40bf",
+      "confidence": 1.0,
+      "color_hex": "#436176",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sunshine Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "9a998e76-8486-4641-9a92-5f303004ec7d",
+      "confidence": 1.0,
+      "color_hex": "#efdc4c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vivid Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "c9204e79-d626-4be4-bde0-78e1fd00ba67",
+      "confidence": 1.0,
+      "color_hex": "#ff5f2e",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polar_filament/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "35c160b1-e0d2-4be4-852d-49fcd9103c4f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polar_filament/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.impact-pla",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Impact PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "5d288d7e-ced2-4872-b79c-e024ff08ad5c",
+      "confidence": 1.0,
+      "color_hex": "#404720",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "5b841af8-af4c-4c63-b9c4-f1c61af0bf7c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "0810f1fb-bdfc-4237-9597-dc6b70ed5765",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "880f4eb9-c77f-4492-a9e5-499ccfc36188",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "0e37f719-2ca1-4948-83ae-a0badcdadb6e",
+      "confidence": 1.0,
+      "color_hex": "#bbbcbc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "51800113-b4cc-4949-ae9e-afbf81e9b47a",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Khaki",
+      "diameter_mm": 1.75,
+      "external_ref": "85d15d3b-9d0a-4847-a2b5-7b42772cd704",
+      "confidence": 1.0,
+      "color_hex": "#6f673a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "2cff64e5-c069-4a18-9c03-11f4ff412d36",
+      "confidence": 1.0,
+      "color_hex": "#a7d500",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Olive Green",
+      "diameter_mm": 1.75,
+      "external_ref": "d72f02e9-31db-4253-bf29-0e9da4d6e6b0",
+      "confidence": 1.0,
+      "color_hex": "#606935",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Onyx",
+      "diameter_mm": 1.75,
+      "external_ref": "318f2625-b8e9-438b-a012-58d6c1998c0b",
+      "confidence": 1.0,
+      "color_hex": "#262626",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d2ac7545-3634-4804-819f-b8db495522cf",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "046a322d-c614-4190-8ba9-6e438c079e0b",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Vertigo",
+      "diameter_mm": 1.75,
+      "external_ref": "0bff7343-7841-46f4-b86c-7fcdd4af8614",
+      "confidence": 1.0,
+      "color_hex": "#282828",
+      "weight_g": 850
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "f14662b8-4ffd-4b85-b798-323e0d33ff0a",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "1d4df2aa-5188-4f54-83c1-77270997cef9",
+      "confidence": 1.0,
+      "color_hex": "#ffd700",
+      "weight_g": 850
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/impact_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/impact_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/impact_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/impact_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/impact_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/impact_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9c80b78c-c9e7-475f-a29b-0b4554f7c846",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/impact_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

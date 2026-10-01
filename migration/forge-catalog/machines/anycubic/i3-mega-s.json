@@ -1,0 +1,501 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "anycubic.i3-mega-s",
+  "vendor": {
+    "slug": "anycubic",
+    "name": "Anycubic"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "i3 Mega S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 210,
+      "y": 210,
+      "z": 205
+    },
+    "max_accel_mms2": 3000,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2023-05-14",
+    "bed_surface": "Ultrabase",
+    "screen_type": "Sensitive Touch Screen",
+    "firmware": "1. i3 Mega S V1.1.5",
+    "summary": "Anycubic i3 Mega S — это FDM 3D-принтер с металлической рамой и сенсорным экраном, предназначенный для профессионального использования и повседневных задач. Устройство позиционируется как простое в сборке и надежное решение для печати из различных материалов, включая гибкие пластики.",
+    "unique_features": [
+      "Полностью металлическая жесткая рама для снижения вибраций",
+      "Высококачественный экструдер Titan для гибких филаментов",
+      "Подвесной держатель катушки",
+      "Датчик филамента",
+      "Сенсорный экран с поддержкой нескольких языков",
+      "Функция авто-возобновления печати после отключения питания",
+      "Платформа Ultrabase с хорошим сцеплением при нагреве и легким удалением деталей при остывании"
+    ],
+    "target_use": [
+      "Профессиональное использование",
+      "Повседневные задачи",
+      "Печать гибкими материалами (TPU)",
+      "Инженерные и бытовые детали"
+    ],
+    "limitations": [
+      "Принтер распродан (Sold out)",
+      "Производитель рекомендует обновиться до модели Anycubic Kobra",
+      "USB-порт доступен только для опытных пользователей (expert users only)"
+    ],
+    "whats_in_box": [
+      "Plier (pliers)",
+      "Scraper",
+      "Tool set",
+      "Card reader",
+      "SD card",
+      "Power cord",
+      "USB cable",
+      "Screw(M5)*10"
+    ],
+    "layer_height_min_mm": 0.05,
+    "positioning_accuracy_mm": 0.0125,
+    "weight_kg": 16.5,
+    "price_usd": 279,
+    "connectivity": [
+      "SD Card",
+      "USB Port"
+    ],
+    "materials_supported": [
+      "TPU",
+      "PLA",
+      "ABS",
+      "HIPS",
+      "Wood"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "kinematics": "cartesian",
+    "price_rub": 25900
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "positioning_accuracy_mm": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dtoday-community",
+          "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "anycubic-official",
+      "source_url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "kinematics": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    },
+    "price_rub": {
+      "source": "3dtoday-community",
+      "source_url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.6
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Ultrabase for excellent adhesion and easy parts removal",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Sensitive Touch Screen Full color, multi-language, user friendly UI.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Firmware 1. i3 Mega S V1.1.5",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "A simpler, smarter and more practical philosophy has been applied to create high-quality 3D printers to meet professional and daily life needs.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Full Rigid Solid metal frame construction and superior stability",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "meet professional and daily life needs",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Sorry, This product is sold out.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Plier Scraper Tool set Card reader SD card User manual Power cord USB cable Screw(M5)*10",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "High quality, accurate printing with layer resolution down to 50 microns",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "positioning_accuracy_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Positioning Accuracy: X/Y 0.0125mm Z 0.002mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Package Weight: 16.5kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Regular price $279.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Connectivity SD Card, USB Port (expert users only)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Supported Print Materials: TPU, PLA, ABS, HIPS, Wood",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Sensor Provides better printing experience of flexible.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Auto Resume Print from Power Outage",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Область построения, мм: 210х210х205",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "оснащен датчиком филамента для автоматической приостановки печати в случае нехватки расходного материала",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "ANYCUBIC i3 Mega S",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "от 25 900 руб.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Anycubic/machine/Anycubic i3 Mega S 0.4 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/46/bambustudio/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/46/bambustudio/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "anycubic-official",
+      "url": "https://store.anycubic.com/products/anycubic-i3-mega-s",
+      "tier": "vendor",
+      "snapshot": "sha256:1b49d949a23f92548d3173ee967525a884720d766481b993aa9ff3f5a1c1b8c8",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Anycubic"
+    },
+    {
+      "source_id": "s4",
+      "source": "3dtoday-community",
+      "url": "https://3dtoday.ru/3d-printers/anycubic/anycubic-i3-mega-s",
+      "tier": "community",
+      "snapshot": "sha256:bd0b57ede4020d57dccbf1953cfd6103f4b59011f95eb4715657d94fe5dc263f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T14:07:04Z",
+      "publisher": "3DToday"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w"
+    ],
+    "sources_count": 4,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

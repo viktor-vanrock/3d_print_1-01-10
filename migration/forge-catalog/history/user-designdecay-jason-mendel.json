@@ -1,0 +1,72 @@
+{
+ "slug": "history.user-designdecay-jason-mendel",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Jason_Mendel",
+ "snapshot": "sha256:1565647486c6187de81cbb03d383cd2354b89846795c30e5457aec52adde7ed4",
+ "page_chars": 2975,
+ "fields": {
+  "summary": "Jason Mendel — это модификация (форк) 3D-принтера Prusa i3, созданная для увеличения площади печати и улучшения документации процесса сборки. Устройство позиционируется как проект с более строгими стандартами, не требующий дорогостоящего оборудования для изготовления.",
+  "unique_features": [
+   "Увеличенная площадь печати",
+   "Строгие спецификации",
+   "Улучшенная документация",
+   "Возможность изготовления без дорогого оборудования",
+   "Двигатели оси Z подключены последовательно к одному драйверу",
+   "Использование деревянной рамы толщиной 12 мм"
+  ],
+  "limitations": [
+   "Требуется подогреваемая платформа для печати ABS во избежание значительной деформации (warping)",
+   "Рекомендуется использование синей ленты M3 на столе"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 305,
+   "y": 305,
+   "z": 270,
+   "shape": "rectangular"
+  },
+  "extruder_type": "direct_drive",
+  "materials_supported": [
+   "ABS",
+   "PLA",
+   "Nylon"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "summary": "The Jason Mendel is a fork of the Prusa i3. Initial variations are an attempt to increase the build area and provide better documentation on the actual build process. It also sets forth a more specific standard then the original i3.",
+  "unique_features": "Increased Build Area",
+  "limitations": "The Jason Mendel includes a Heated Bed which allows for the use of materials such as ABS which can experience significant warping if printing on a cold platform.",
+  "kinematics": "Cartesian-XZ-head",
+  "build_volume": "Printing Size | 305 x 305 x 270",
+  "extruder_type": "Greg's Geared Extruder with an E3D Direct Feed Hotend",
+  "materials_supported": "The Jason Mendel is capable of printing ABS , PLA and Nylon",
+  "heated_bed": "The Jason Mendel includes a Heated Bed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Увеличенная площадь печати",
+  "Строгие спецификации",
+  "Улучшенная документация",
+  "Возможность изготовления без дорогого оборудования",
+  "Двигатели оси Z подключены последовательно к одному драйверу",
+  "Использование деревянной рамы толщиной 12 мм"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:20:26Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Jason Mendel",
+ "maker": "User:DesignDecay",
+ "model": "Jason Mendel",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Jason_Mendel"
+}

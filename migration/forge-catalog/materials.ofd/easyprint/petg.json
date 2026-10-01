@@ -1,0 +1,194 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "easyprint.petg",
+  "vendor": {
+    "slug": "easyprint",
+    "name": "EasyPrint",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "a03e7ed5-63a0-4c19-a75d-f63908437b09",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6162-easyprint-petg-filament-3-kg-sort/"
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "590a9704-1c9c-4793-a9de-23259a670851",
+      "confidence": 1.0,
+      "color_hex": "#fcfde7",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5195-easyprint-petg-filament-1-kg-klar/"
+    },
+    {
+      "color_name": "Solid Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4ef7d0ff-43cd-40b5-b333-53afa5a37d87",
+      "confidence": 1.0,
+      "color_hex": "#2664f5",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5191-easyprint-petg-filament-1-kg-blaa/"
+    },
+    {
+      "color_name": "Solid Red",
+      "diameter_mm": 1.75,
+      "external_ref": "43e16630-4440-45b8-87e8-b2ba87c121fa",
+      "confidence": 1.0,
+      "color_hex": "#d50000",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5190-easyprint-petg-filament-1-kg-roed/"
+    },
+    {
+      "color_name": "Solid Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "36d8d303-6909-405e-b5b0-89b402410f07",
+      "confidence": 1.0,
+      "color_hex": "#b0bbc0",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5192-easyprint-petg-filament-1-kg-soelvfarvet/"
+    },
+    {
+      "color_name": "Solid White",
+      "diameter_mm": 1.75,
+      "external_ref": "57a2b95f-1e5e-4c3e-9e2a-36f4fd4e9706",
+      "confidence": 1.0,
+      "color_hex": "#fdfeff",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5189-easyprint-petg-filament-1-kg-hvid/"
+    },
+    {
+      "color_name": "Transparent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "513e5842-7674-4b0f-99d7-083dc679f04c",
+      "confidence": 1.0,
+      "color_hex": "#527df3",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5196-easyprint-petg-filament-1-kg-transparent-blaa/"
+    },
+    {
+      "color_name": "Transparent Green",
+      "diameter_mm": 1.75,
+      "external_ref": "db888ab5-68d5-4412-8795-0172decb33b9",
+      "confidence": 1.0,
+      "color_hex": "#4caf50",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5197-easyprint-petg-filament-1-kg-transparent-groen/"
+    },
+    {
+      "color_name": "Transparent Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "637cddd5-4063-480e-9cc2-c622e5f8dc0a",
+      "confidence": 1.0,
+      "color_hex": "#ce5e9a",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5198-easyprint-petg-filament-1-kg-transparent-lilla/"
+    },
+    {
+      "color_name": "Transparent Rose",
+      "diameter_mm": 1.75,
+      "external_ref": "2a205cf7-8446-448a-81ad-68118b90cac2",
+      "confidence": 1.0,
+      "color_hex": "#df8f9b",
+      "weight_g": 1000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5193-easyprint-petg-filament-1-kg-transparent-rose/"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "1c1946e8-6650-4da0-b715-cd7106a481dd",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3000,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6161-easyprint-petg-filament-3-kg-hvid/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/easyprint/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/easyprint/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/easyprint/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/easyprint/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/easyprint/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/easyprint/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9546b086-8db8-4025-bf07-d005b872c477",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/easyprint/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

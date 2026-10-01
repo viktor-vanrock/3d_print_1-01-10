@@ -1,0 +1,197 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "ambrosia.abs-matte",
+  "vendor": {
+    "slug": "ambrosia",
+    "name": "Ambrosia",
+    "website": "https://west3d.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS Matte",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.03,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 265,
+      "bed_temp_min_c": 75,
+      "bed_temp_max_c": 115,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "09b5397b-e187-4ec6-baab-ffc00eeda745",
+      "confidence": 1.0,
+      "color_hex": "#25282a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "British Racing Green",
+      "diameter_mm": 1.75,
+      "external_ref": "89793357-e013-4cdb-b737-12ce73d52978",
+      "confidence": 1.0,
+      "color_hex": "#2d6467",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galactic Black",
+      "diameter_mm": 1.75,
+      "external_ref": "06045d5e-b1c6-4a56-9fd0-468c132b164d",
+      "confidence": 1.0,
+      "color_hex": "#454546",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey Abyss",
+      "diameter_mm": 1.75,
+      "external_ref": "b1e93137-142d-4782-afa9-3d14afa8e01e",
+      "confidence": 1.0,
+      "color_hex": "#4b4747",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Hot Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "06b51007-6e9d-4849-990a-52f20e3eba8c",
+      "confidence": 1.0,
+      "color_hex": "#fa008a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Voron Red",
+      "diameter_mm": 1.75,
+      "external_ref": "a5637d28-aa04-4808-85c0-5316eca1fc26",
+      "confidence": 1.0,
+      "color_hex": "#a12336",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ambrosia/ABS/matte/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a1189c69-af03-41c6-b38f-eabf61a6abbb",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ambrosia/ABS/matte/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

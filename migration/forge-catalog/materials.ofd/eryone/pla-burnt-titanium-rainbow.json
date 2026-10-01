@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.pla-burnt-titanium-rainbow",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Burnt Titanium Rainbow",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Constellation (Rose Red & Flash Black)",
+      "diameter_mm": 1.75,
+      "external_ref": "a13208c0-bf0c-4855-9bb6-894c6b3d7c76",
+      "confidence": 1.0,
+      "color_hex": "#693537",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    },
+    {
+      "color_name": "Fantasy Glaze",
+      "diameter_mm": 1.75,
+      "external_ref": "e04cb9e4-d389-4e91-ba0d-41ca6c9527bd",
+      "confidence": 1.0,
+      "color_hex": "#433f70",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    },
+    {
+      "color_name": "Galaxy (Green & Blue & Rose Red)",
+      "diameter_mm": 1.75,
+      "external_ref": "645fb6db-43b9-4d9d-b709-2e10787e43d4",
+      "confidence": 1.0,
+      "color_hex": "#68575d",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    },
+    {
+      "color_name": "Interstellar (Blue & Flash Black)",
+      "diameter_mm": 1.75,
+      "external_ref": "349b1538-67f4-4276-ad55-131d13dfdd2c",
+      "confidence": 1.0,
+      "color_hex": "#3d403f",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    },
+    {
+      "color_name": "Nebula (Dark Gold & Green & Blue-Purple)",
+      "diameter_mm": 1.75,
+      "external_ref": "27c58208-2d6e-4fe2-93a1-3362894b6fcb",
+      "confidence": 1.0,
+      "color_hex": "#352729",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    },
+    {
+      "color_name": "Wormhole (Green & Flashing Black)",
+      "diameter_mm": 1.75,
+      "external_ref": "1c5a30ca-ce22-4d96-b71f-2910211897af",
+      "confidence": 1.0,
+      "color_hex": "#2b2c27",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-burnt-titanium-one-color/products/pla-burnt-titanium-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "04f010cf-2c5a-4542-bd0f-03bef76c913f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_burnt_titanium_rainbow/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

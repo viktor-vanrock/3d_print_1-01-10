@@ -1,0 +1,250 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "flashforge.rapid-glow-pla",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FLASHFORGE",
+    "website": "https://www.flashforge.com/"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Rapid Glow PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "glow"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Dark Green",
+      "diameter_mm": 1.75,
+      "external_ref": "bc30b20f-ce37-4228-b941-acdf5c4ae9f3",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "2a930156-7140-474f-b53d-09fab08f6a92",
+      "confidence": 1.0,
+      "color_hex": "#8a68b5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Red",
+      "diameter_mm": 1.75,
+      "external_ref": "d5ac3721-059c-4df3-8fef-1944c796d69c",
+      "confidence": 1.0,
+      "color_hex": "#f47d59",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "2873abbb-eb00-4817-a590-f15ac721551e",
+      "confidence": 1.0,
+      "color_hex": "#eeea44",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "5363a4af-d0b2-449c-802c-0411bf698f32",
+      "confidence": 1.0,
+      "color_hex": "#82e3ec",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b4fc0ab7-d65a-4383-bc15-113a0a025d07",
+      "confidence": 1.0,
+      "color_hex": "#83e665",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Melody",
+      "diameter_mm": 1.75,
+      "external_ref": "cdc4cd31-4a5e-4167-831f-268cb835affc",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "c3984c80-3acb-4887-942b-8db49efe9430",
+      "confidence": 1.0,
+      "color_hex": "#ae96d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4fd085af-dcaf-4280-9b65-2bfd47767690",
+      "confidence": 1.0,
+      "color_hex": "#f7a7a1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "d1c8a39f-b036-4df2-b4ba-24b49164fe9c",
+      "confidence": 1.0,
+      "color_hex": "#f5e457",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow Melody",
+      "diameter_mm": 1.75,
+      "external_ref": "c4fc2f91-4b70-46f2-a4b7-045684d6653b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/rapid_glow_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "4ea65815-aab9-42ab-9f9d-901f71091388",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/rapid_glow_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.abs-plus",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS+",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.05,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "eb8727c6-9467-4cd5-894c-8d9090d019df",
+      "confidence": 1.0,
+      "color_hex": "#0a0b08",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "79a0a2ec-b07f-4493-9a1f-69777a7c8f5d",
+      "confidence": 1.0,
+      "color_hex": "#4f76e2",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "183a8ebf-fa78-4add-a270-1af5afee46a2",
+      "confidence": 1.0,
+      "color_hex": "#1d8d60",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "1f368f21-252b-4814-92b3-dc50de80bb88",
+      "confidence": 1.0,
+      "color_hex": "#535353",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "1f549ae3-6c1a-4bf7-a9e6-56add3ee8f64",
+      "confidence": 1.0,
+      "color_hex": "#c81c22",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "05c5e586-6e9a-4289-9b96-c9bd1265c597",
+      "confidence": 1.0,
+      "color_hex": "#dddddf",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/abs-1/products/abs-plus-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ABS/abs+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ABS/abs+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ABS/abs+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ABS/abs+/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ABS/abs+/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ABS/abs+/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "3c8c099e-1886-4dbe-bee3-16ee7d3820ba",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ABS/abs+/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

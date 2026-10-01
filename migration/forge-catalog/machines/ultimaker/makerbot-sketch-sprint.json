@@ -1,0 +1,468 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "ultimaker.makerbot-sketch-sprint",
+  "vendor": {
+    "slug": "ultimaker",
+    "name": "UltiMaker"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "MakerBot Sketch Sprint",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 221.5,
+      "y": 221.5,
+      "z": 220.4
+    },
+    "heated_bed": true,
+    "max_speed_mms": 300,
+    "profile_first_seen": "2024-10-03",
+    "bed_surface": "Flexible steel build plate",
+    "auto_leveling": "25 point automatic mesh leveling",
+    "screen_type": "Color touchscreen",
+    "summary": "MakerBot Sketch Sprint — это быстрый и простой в использовании FDM-принтер, позиционируемый как самое быстрое устройство для печати PLA-материалами от производителя. Он предназначен для безопасной интеграции 3D-печати в рабочие процессы, особенно в образовательной среде и офисах, благодаря закрытой конструкции и системе фильтрации.",
+    "unique_features": [
+      "Скорость печати до 300 мм/с",
+      "Полностью закрытая конструкция с функцией блокировки безопасности",
+      "Активная система фильтрации воздуха (HEPA и угольный фильтры)",
+      "Встроенная камера для мониторинга и создания таймлапсов",
+      "Подогреваемая магнитная съемная платформа с возможностью нагрева до 110 °C",
+      "Автоматическая калибровка сетки из 25 точек",
+      "Интеграция с ПО UltiMaker Cura Cloud и Digital Factory",
+      "Блокировка по PIN-коду для ограничения доступа пользователей",
+      "Ссылка для отправки заданий на печать"
+    ],
+    "target_use": [
+      "Образование (школы, университеты)",
+      "Офисная среда",
+      "Студии",
+      "Создание быстрых прототипов",
+      "Инженерные задачи с использованием PLA и Tough PLA"
+    ],
+    "limitations": [
+      "Поддерживает только материалы PLA и Tough PLA",
+      "Один экструдер (одноструйная печать)",
+      "Диаметр сопла фиксирован 0.4 мм (в комплекте два таких сопла)",
+      "Требуется использование вытяжки/фильтрации для безопасной работы в помещении (хотя фильтр встроен, это требование для закрытой камеры)"
+    ],
+    "max_nozzle_temp_c": 280,
+    "max_bed_temp_c": 110,
+    "firmware_max_speed_mms": 600,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 452,
+      "d": 400,
+      "h": 466
+    },
+    "weight_kg": 16,
+    "materials_supported": [
+      "PLA",
+      "Tough PLA"
+    ],
+    "enclosed": true,
+    "chamber_active": true,
+    "camera": true,
+    "air_filter": true,
+    "nozzle_diameters": [
+      0.4
+    ]
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_sketch_sprint.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_sketch_sprint.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_sketch_sprint.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_sketch_sprint.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "filament_diameter_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "chamber_active": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "camera": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "air_filter": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_sketch_sprint.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_sketch_sprint.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "reaching speeds of 300 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_sketch_sprint.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Flexible steel build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "25 point automatic mesh leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Color touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "With fast print speeds, easy-to-use features, and extensive training support, the MakerBot Sketch Sprint empowers users to seamlessly integrate 3D printing into their workflows.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "reaching speeds of 300 mm/s without sacrificing quality",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "giving teachers peace of mind as students explore the world of 3D printing.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The Sketch Sprint printer uses PLA and Tough PLA",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "max 280° C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Able to reach 110 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "1.75 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Direct drive single extrusion",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "452mm (W) x 400mm (D) x 466mm (H)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "16kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "uses PLA and Tough PLA",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Designed with a fully enclosed structure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Active air filter on the enclosed chamber",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "On board camera",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Active filtration with HEPA and carbon filters",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/ultimaker_sketch_sprint.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_sketch_sprint.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "ultimaker-official",
+      "url": "https://ultimaker.com/3d-printers/sketch-series/makerbot-sketch-sprint/",
+      "tier": "vendor",
+      "snapshot": "sha256:27b3c0c4dd99799188c0d01ed77ed256bb3d8ec0cc9e8c76ee63cedbd9f143cc",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "UltiMaker"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 2,
+    "quality_score": 6,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 221.5,
+            "y": 221.5,
+            "z": 220.4
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 600,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 300,
+          "source_id": "s2",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

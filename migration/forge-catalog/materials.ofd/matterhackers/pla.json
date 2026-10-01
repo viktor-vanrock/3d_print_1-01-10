@@ -1,0 +1,629 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "matterhackers.pla",
+  "vendor": {
+    "slug": "matterhackers",
+    "name": "MatterHackers",
+    "website": "https://matterhackers.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "c73bd692-34cb-49c0-8a83-fdf175d254bc",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Series",
+      "diameter_mm": 1.75,
+      "external_ref": "cf5ed394-4fa0-4ec2-b900-63794be327df",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7f5605d9-e047-42dc-b839-3432aeadb4cb",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "84791d96-2c95-46e3-945b-bcd97213c72d",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "dd85236f-e2b6-4437-bc55-233f804c77fe",
+      "confidence": 1.0,
+      "color_hex": "#6e4325",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown Series",
+      "diameter_mm": 1.75,
+      "external_ref": "85aaa449-d753-43b1-ae4c-7cd3e82a0785",
+      "confidence": 1.0,
+      "color_hex": "#7e472a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Burgundy Series",
+      "diameter_mm": 1.75,
+      "external_ref": "b1f15c60-da9e-4df6-860a-ffbd2210f4c2",
+      "confidence": 1.0,
+      "color_hex": "#aa0101",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Burnt Orange Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8a3e2bc8-9ab1-4aa3-a020-b1feb5a44a76",
+      "confidence": 1.0,
+      "color_hex": "#e03f26",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Caribbean Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "66071f0c-a04f-407d-a7e6-a61b0cf6d4c4",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Electric Magenta Series",
+      "diameter_mm": 1.75,
+      "external_ref": "4169ed50-eeb2-4fc2-8ed1-a0b5f513b1d9",
+      "confidence": 1.0,
+      "color_hex": "#f2306e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Electric Orange Series",
+      "diameter_mm": 1.75,
+      "external_ref": "76ec66af-7d3d-4531-9200-68bf432f8027",
+      "confidence": 1.0,
+      "color_hex": "#e03f26",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Electric Pink Series",
+      "diameter_mm": 1.75,
+      "external_ref": "a00067a7-7a91-4e08-b3f6-60ff7f7043f7",
+      "confidence": 1.0,
+      "color_hex": "#ff00a2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Electric Yellow Series",
+      "diameter_mm": 1.75,
+      "external_ref": "e1393d9b-18a8-49ac-a1e4-690592c98fb3",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Emerald Dream Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8b135a66-5e3b-4351-ad97-521c48a984ae",
+      "confidence": 1.0,
+      "color_hex": "#06924d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Firefly Green Series",
+      "diameter_mm": 1.75,
+      "external_ref": "814b9d2d-6378-46c2-86c9-54fc3f08108d",
+      "confidence": 1.0,
+      "color_hex": "#c6f666",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Forest Green MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "0c271b46-b62e-4803-b703-e4868cc8d2bc",
+      "confidence": 1.0,
+      "color_hex": "#11784f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "e85a586a-e99d-462b-b757-d2cb1eebe2c7",
+      "confidence": 1.0,
+      "color_hex": "#ffcb47",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7436757c-bdc7-4252-a68a-e5c6701276a4",
+      "confidence": 1.0,
+      "color_hex": "#a78403",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray Series",
+      "diameter_mm": 1.75,
+      "external_ref": "04402936-3ce3-41ef-9204-0439ae2d70e3",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "6fb254c6-9b10-4726-8f13-08e68f8ea74e",
+      "confidence": 1.0,
+      "color_hex": "#668c80",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green Series",
+      "diameter_mm": 1.75,
+      "external_ref": "d3cd4538-4ac9-41e0-b0e9-f2fe1ea03d56",
+      "confidence": 1.0,
+      "color_hex": "#089a45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "140ced08-bcb8-446c-817c-9135c3cdf31a",
+      "confidence": 1.0,
+      "color_hex": "#88899d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jet Gray Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7749f77d-dfff-41da-a10f-59460e7d8f65",
+      "confidence": 1.0,
+      "color_hex": "#55657c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Blue MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "a3c70dbd-e8b4-4f2a-94fd-7568891be085",
+      "confidence": 1.0,
+      "color_hex": "#1adafb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "1541bfb4-fcbe-45ef-9572-87c757e9a331",
+      "confidence": 1.0,
+      "color_hex": "#1adafb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lilac Pastel Series",
+      "diameter_mm": 1.75,
+      "external_ref": "1d931757-c7c6-4c53-ba27-3e43dc862856",
+      "confidence": 1.0,
+      "color_hex": "#c7bcf8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime Green MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "2cae6643-54eb-4990-9034-4e4c1db9041a",
+      "confidence": 1.0,
+      "color_hex": "#9aed51",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lime Green Series",
+      "diameter_mm": 1.75,
+      "external_ref": "e68be855-1a91-4500-ba29-2770e9b2e6e8",
+      "confidence": 1.0,
+      "color_hex": "#00cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Magenta MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7374b892-607c-425d-89f9-69b63523a773",
+      "confidence": 1.0,
+      "color_hex": "#c80181",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Magenta Series",
+      "diameter_mm": 1.75,
+      "external_ref": "1cbbe050-9e6d-43ca-a937-3724e99ff6a8",
+      "confidence": 1.0,
+      "color_hex": "#e34a94",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Merlot Red Series",
+      "diameter_mm": 1.75,
+      "external_ref": "11dce935-9b96-48ef-a6f7-808ecb2d7c6c",
+      "confidence": 1.0,
+      "color_hex": "#8a2d40",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Midnight Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7953fc67-c6a7-4dbb-8062-461380d34433",
+      "confidence": 1.0,
+      "color_hex": "#1e2f5a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "b6582b02-d8f6-48b4-bf1b-a43b502cb3d0",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural Translucent Series",
+      "diameter_mm": 1.75,
+      "external_ref": "9bc6e875-e364-478c-b44a-c81a9865de04",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "a4001e18-e96d-4a5f-82cc-f6b0aacd0793",
+      "confidence": 1.0,
+      "color_hex": "#ff7a33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Series",
+      "diameter_mm": 1.75,
+      "external_ref": "a44256ca-6568-44d0-b309-dc153e35a1dc",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Paper White Series",
+      "diameter_mm": 1.75,
+      "external_ref": "9ae60d7c-df80-4eba-aa69-d39451cee12e",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Parthenon Gray Marble Series",
+      "diameter_mm": 1.75,
+      "external_ref": "86c96ea6-429e-41f6-9176-14f064a044b0",
+      "confidence": 1.0,
+      "color_hex": "#edf0f2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "1aae729b-eb2e-48ce-81f6-772651b14e84",
+      "confidence": 1.0,
+      "color_hex": "#ff72b6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "84eea639-1bef-41a7-8109-8ad7065faf92",
+      "confidence": 1.0,
+      "color_hex": "#7142a3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple Series",
+      "diameter_mm": 1.75,
+      "external_ref": "30ea722e-f338-43b8-9e79-83839ca9a2fc",
+      "confidence": 1.0,
+      "color_hex": "#6802bc",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "fefcd12e-655c-4b99-b3cb-73b1df2d2c4f",
+      "confidence": 1.0,
+      "color_hex": "#e03f26",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Series",
+      "diameter_mm": 1.75,
+      "external_ref": "179e866a-8344-4a94-9508-e36f7ef80d22",
+      "confidence": 1.0,
+      "color_hex": "#f00c00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8c2dc40f-b1e8-4ae5-9b42-356c8b71b3b6",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "b8d3e12d-6abd-4f08-b24e-fa20dee74f7a",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "3e7a2810-244c-4b45-9422-c3fdd49d15b8",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver Series",
+      "diameter_mm": 1.75,
+      "external_ref": "39c45285-c7b2-4fe5-9a2d-6b9e853e52b9",
+      "confidence": 1.0,
+      "color_hex": "#c9d0d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Solar Flare Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8ea7bf79-8244-43b2-b082-d2332d40d3ec",
+      "confidence": 1.0,
+      "color_hex": "#f27e81",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tan MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "2c208287-ac26-4afe-8c6e-cd79b3494c82",
+      "confidence": 1.0,
+      "color_hex": "#e6ba83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tan Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8218995f-8a43-4d4b-9112-a4b903d37870",
+      "confidence": 1.0,
+      "color_hex": "#f0ddc2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Teal Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "268a4895-6a5b-4c3c-89af-39c79718a8f4",
+      "confidence": 1.0,
+      "color_hex": "#3292b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Terracotta Red Series",
+      "diameter_mm": 1.75,
+      "external_ref": "e078d970-cf1c-42e7-a16b-3149816333a9",
+      "confidence": 1.0,
+      "color_hex": "#df3303",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "4ae84c99-f2ec-476f-b436-279acf41acb7",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Ice Blue Series",
+      "diameter_mm": 1.75,
+      "external_ref": "2f669524-40c9-4d58-a790-d65112c15488",
+      "confidence": 1.0,
+      "color_hex": "#6299df",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Red Series",
+      "diameter_mm": 1.75,
+      "external_ref": "7795b582-b791-4254-904d-f70bbd1f5d2d",
+      "confidence": 1.0,
+      "color_hex": "#ed1536",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Violet Series",
+      "diameter_mm": 1.75,
+      "external_ref": "8a3e7560-6987-4d55-94c0-891c9111cd16",
+      "confidence": 1.0,
+      "color_hex": "#f300ea",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "c277102d-32c0-4b9b-842c-ef36379a7fe3",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Series",
+      "diameter_mm": 1.75,
+      "external_ref": "a39ad45f-0b65-4ca3-82e2-2a543068e158",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow MH Build Series",
+      "diameter_mm": 1.75,
+      "external_ref": "9f4a8030-1322-4529-9d8f-31507303c0da",
+      "confidence": 1.0,
+      "color_hex": "#fffb00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Series",
+      "diameter_mm": 1.75,
+      "external_ref": "86f13d95-439a-4051-84b9-a792d78e279b",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/matterhackers/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "59471adb-ec63-46c6-8f80-d400153e3732",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/matterhackers/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

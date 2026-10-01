@@ -1,0 +1,136 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.pla-metal",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA METAL",
+    "source": "import",
+    "specs": {
+      "diameter_tolerance_mm": 0.05,
+      "fillers": [
+        "metal"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "dfe4f9cb-aa1b-4283-b12e-8d230b2cbea6",
+      "confidence": 1.0,
+      "color_hex": "#cd7f32",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/396-metal-filament/5050-primaselect-metal-filament-750-g-bronze/"
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "3da14bfe-3d81-455d-8651-6cba14120388",
+      "confidence": 1.0,
+      "color_hex": "#dd8343",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/396-metal-filament/5051-primaselect-metal-filament-750-g-kobber/"
+    }
+  ],
+  "field_provenance": {
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/metal/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/metal/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1a6d8bed-e94b-4e9d-9017-a083aa7b27b7",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/metal/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "suspicious": [
+      {
+        "field": "density_g_cm3",
+        "value": 7.23,
+        "why": "вне физического диапазона 0.6..5.0"
+      }
+    ],
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

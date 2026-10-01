@@ -1,0 +1,99 @@
+{
+ "slug": "history.aleph-objects-inc-lulzbot-prusa-mendel",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/LulzBot/AssembledPrusaMendel",
+ "snapshot": "sha256:5f78fcf53e9815063d35635ecacf1ab1e22452f3dd7e6cfa31795821ff026b37",
+ "page_chars": 3753,
+ "fields": {
+  "bed_surface": "Borosilicate glass print surface",
+  "firmware": "Sprinter",
+  "summary": "Lulzbot Prusa Mendel — это собранная версия 3D-принтера RepRap Prusa Mendel, предназначенная для печати деталей из ABS и PLA пластика. Устройство поставляется полностью собранным со всем необходимым оборудованием и электроникой, что позволяет быстро начать работу.",
+  "unique_features": [
+   "Поставляется в собранном виде (assembled)",
+   "Использует хотенд Budaschnozzle 1.0.1",
+   "Поддерживает печать собственными деталями для апгрейда",
+   "Нагреваемая печатная платформа (PCB Heated Print Bed)",
+   "Стеклянная поверхность из боросиликатного стекла"
+  ],
+  "whats_in_box": [
+   "Собранный принтер со всем необходимым оборудованием и электроникой",
+   "Насадка 0.5 мм (установлена)",
+   "Электроника: RAMPS 1.4, Arduino MEGA 2560",
+   "Шаговые двигатели NEMA 17",
+   "Блок питания 12V, 300W",
+   "Кабель питания типа US",
+   "Нагреваемая печатная платформа со стеклянной поверхностью",
+   "Кабель USB длиной 6 футов",
+   "5 метров образцового ABS пластика (не входит в комплект б/у принтера)"
+  ],
+  "target_use": [
+   "Печать 3D-деталей из ABS и PLA пластика",
+   "Создание собственных апгрейдов и дополнений для принтера"
+  ],
+  "limitations": [
+   "По умолчанию настроен на филамент диаметром 3 мм",
+   "Для работы с филаментом 1.75 мм требуется замена внутренней PTFE-трубки в хотенде",
+   "5 метров ABS пластика не входят в комплект б/у принтера"
+  ],
+  "build_volume": {
+   "x": 180,
+   "y": 175,
+   "z": 100,
+   "shape": "rectangular"
+  },
+  "nozzle_diameters": [
+   0.5
+  ],
+  "filament_diameter_mm": 3,
+  "power_w": 300,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "ABS",
+   "PLA"
+  ],
+  "heated_bed": true
+ },
+ "evidence": {
+  "bed_surface": "Borosilicate glass print surface, 3mm thick",
+  "firmware": "Shipped with Sprinter firmware",
+  "summary": "The Lulzbot Prusa Mendel is an assembled 3D printer including all of the needed hardware and electronics to print ABS and PLA plastic 3D parts.",
+  "unique_features": "The Lulzbot Prusa Mendel is an assembled 3D printer",
+  "whats_in_box": "The Lulzbot Prusa Mendel is an assembled 3D printer including all of the needed hardware and electronics",
+  "target_use": "print ABS and PLA plastic 3D parts",
+  "limitations": "Default setup is for 3mm plastic filament.",
+  "build_volume": "Print area: 180mm x 175mm x 100mm",
+  "nozzle_diameters": "Installed with 0.5mm nozzle.",
+  "filament_diameter_mm": "Default setup is for 3mm plastic filament.",
+  "power_w": "12V switching power supply, 300W, 25A, 110 or 220 AC capable",
+  "connectivity": "6 feet USB cable",
+  "materials_supported": "print ABS and PLA plastic 3D parts",
+  "heated_bed": "PCB Heated Print Bed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Поставляется в собранном виде (assembled)",
+  "Использует хотенд Budaschnozzle 1.0.1",
+  "Поддерживает печать собственными деталями для апгрейда",
+  "Нагреваемая печатная платформа (PCB Heated Print Bed)",
+  "Стеклянная поверхность из боросиликатного стекла"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T01:00:12Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "LulzBot/AssembledPrusaMendel",
+ "maker": "Aleph Objects, Inc.",
+ "model": "Lulzbot Prusa Mendel",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/LulzBot/AssembledPrusaMendel"
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.pla-matte-high-speed",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Matte High Speed",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d3f4b772-4fc3-4132-975a-592c47a72afa",
+      "confidence": 1.0,
+      "color_hex": "#2d3134",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    },
+    {
+      "color_name": "Ice Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "35d0fb4b-5e5e-4272-bc1a-1c39de6024be",
+      "confidence": 1.0,
+      "color_hex": "#b4ddeb",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    },
+    {
+      "color_name": "Light gray",
+      "diameter_mm": 1.75,
+      "external_ref": "c8524be0-c05c-4f9a-a1d4-42fb8170df9a",
+      "confidence": 1.0,
+      "color_hex": "#b7b8b1",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    },
+    {
+      "color_name": "Navy blue",
+      "diameter_mm": 1.75,
+      "external_ref": "e00becb6-0bb3-4ca9-b70d-968646040cdf",
+      "confidence": 1.0,
+      "color_hex": "#2c3c58",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    },
+    {
+      "color_name": "Olive green",
+      "diameter_mm": 1.75,
+      "external_ref": "358c89e8-b0f2-4067-9aff-ca93de116f56",
+      "confidence": 1.0,
+      "color_hex": "#4a523d",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "f8ead5d5-74c0-49f9-aa8f-55710edcc654",
+      "confidence": 1.0,
+      "color_hex": "#e3e4df",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/pla-matte-high-speed-one-color/products/high-speed-matte-pla-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_high_speed/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_high_speed/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_high_speed/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6a2493d3-9012-4d15-b9ec-c14091e841f3",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_high_speed/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

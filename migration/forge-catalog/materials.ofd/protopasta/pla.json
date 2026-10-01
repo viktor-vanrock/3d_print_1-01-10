@@ -1,0 +1,878 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "protopasta.pla",
+  "vendor": {
+    "slug": "protopasta",
+    "name": "Protopasta",
+    "website": "https://protopasta.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Amber Alchemy HT",
+      "diameter_mm": 1.75,
+      "external_ref": "b2e1b9ce-723a-473d-90d3-fb3f0115759e",
+      "confidence": 1.0,
+      "color_hex": "#be6730",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Amethyst Aria Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "47d69b96-4ccd-46ce-b0f8-6a2c8bd38eb5",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Amie's Blood of My Enemies HT",
+      "diameter_mm": 1.75,
+      "external_ref": "f6335367-b8db-4c44-b3f4-144efad7b89d",
+      "confidence": 1.0,
+      "color_hex": "#ad0028",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aqua Ice Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "476a1c49-5451-4369-adeb-9e7c9a66050e",
+      "confidence": 1.0,
+      "color_hex": "#00b4bc",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Atikam Teal HT",
+      "diameter_mm": 1.75,
+      "external_ref": "8097a03b-eab0-48f1-813c-5a6df63fbc92",
+      "confidence": 1.0,
+      "color_hex": "#178b9f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Atomic Age Gray Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "d294fc7e-02bb-476a-a103-0070ef592cf8",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Autumn Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "e931d6a2-9f96-4ae8-ace2-c8a1c7a76062",
+      "confidence": 1.0,
+      "color_hex": "#c25542",
+      "weight_g": 500
+    },
+    {
+      "color_name": "Autumn Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "e931d6a2-9f96-4ae8-ace2-c8a1c7a76062",
+      "confidence": 1.0,
+      "color_hex": "#c25542",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Autumn Orange Thermochromic HT",
+      "diameter_mm": 1.75,
+      "external_ref": "d9ca393b-51ad-42e5-ab69-a34265e52ec4",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Beach Bum Beige HT",
+      "diameter_mm": 1.75,
+      "external_ref": "fe454c71-d350-414f-826e-d40cbe8c6e5d",
+      "confidence": 1.0,
+      "color_hex": "#dac7a0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Opaque HT",
+      "diameter_mm": 1.75,
+      "external_ref": "0cc9348e-9d7d-40d2-a523-2d8778aae7a2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Recycled",
+      "diameter_mm": 1.75,
+      "external_ref": "07384967-2c55-4ffb-99aa-745bd2348d17",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Ice Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "8230401b-8f28-4fd2-b002-1fc5fe8845c6",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Opaque HT",
+      "diameter_mm": 1.75,
+      "external_ref": "87d6b223-c4d4-4208-a4fa-36c766c11c82",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bluish Opaque Purple HT",
+      "diameter_mm": 1.75,
+      "external_ref": "3f77051d-0c44-42c1-a197-30289b165c00",
+      "confidence": 1.0,
+      "color_hex": "#2c3294",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bobbi's Purple Iris HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c9b22ede-2c32-4828-9b21-889691eda109",
+      "confidence": 1.0,
+      "color_hex": "#7142a3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bottle Brown Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "48b3a025-b533-4744-a759-851dc9589cb7",
+      "confidence": 1.0,
+      "color_hex": "#ab713e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brass-filled Metal Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "8c47d5f5-8854-4025-88cd-55cab77c965b",
+      "confidence": 1.0,
+      "color_hex": "#a6884c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze-filled Metal Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "02ee9f67-bfce-4d82-bad1-e7fbaca6edc2",
+      "confidence": 1.0,
+      "color_hex": "#8c7354",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candle Light White HT with Gold Glitter",
+      "diameter_mm": 1.75,
+      "external_ref": "46ec099e-d26a-478e-95de-2655666703ea",
+      "confidence": 1.0,
+      "color_hex": "#ead7b8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Rainbow Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "f7db3f48-5074-414e-a836-ff76b7335e35",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Caution Opaque Yellow HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c04e32c7-56f6-47f6-8539-0836500d48ef",
+      "confidence": 1.0,
+      "color_hex": "#ffc946",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chlorophylled Thermochromic HT",
+      "diameter_mm": 1.75,
+      "external_ref": "4bb251df-0ee9-4964-b250-10db6b5ccd02",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Citrus Sunrise Orange Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a381175f-8739-4fae-8a08-3f8e88976121",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cobalt Blue Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "96b239f3-b55b-4876-a0bd-fcfcb9d77825",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Copper-filled Metal Composite HT",
+      "diameter_mm": 1.75,
+      "external_ref": "4775cc46-d43b-42cb-a788-c769751f1873",
+      "confidence": 1.0,
+      "color_hex": "#c06341",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Derek's Good Old Gray HT",
+      "diameter_mm": 1.75,
+      "external_ref": "b13c20e4-fac1-4518-ad55-e94a1831d0fe",
+      "confidence": 1.0,
+      "color_hex": "#7a838e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Derek's Olive Drab HT",
+      "diameter_mm": 1.75,
+      "external_ref": "ff67d99f-a9b9-45c6-9832-5887f038056a",
+      "confidence": 1.0,
+      "color_hex": "#737254",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dragon Scale Purple HT",
+      "diameter_mm": 1.75,
+      "external_ref": "e4480b02-94b8-430f-97c5-57507d04a5e1",
+      "confidence": 1.0,
+      "color_hex": "#8873c7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dragonfruit Smoothie HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9632f30d-9a81-4906-b24d-8e78b59dce97",
+      "confidence": 1.0,
+      "color_hex": "#da445a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dusty Smoke HT",
+      "diameter_mm": 1.75,
+      "external_ref": "89b20fc3-bd93-4eff-9d4e-a96e7232afca",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ecto Ooze Green HT",
+      "diameter_mm": 1.75,
+      "external_ref": "19343193-1098-41c2-925d-00ee4b6c330a",
+      "confidence": 1.0,
+      "color_hex": "#95d05c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Empire Strikes Black HT",
+      "diameter_mm": 1.75,
+      "external_ref": "6153cbcf-d222-4a4c-b0a9-c0cffc2a4c6e",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Erratic Indigo Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "39b01f90-a210-4e4c-a1c9-17b9c4dbcb61",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fading Rainbow Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "889a2b8c-7dcb-4b0d-955f-b25d5b7cc3f8",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fiber HT - Mahogany Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "5aba7a30-8469-45ca-9490-2f08bf1c063b",
+      "confidence": 1.0,
+      "color_hex": "#a35a4b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Filafetti Confetti Frosting HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a6860986-a6f1-43f3-8dd5-997192a39c5c",
+      "confidence": 1.0,
+      "color_hex": "#e3e0d3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fleck 'n Fire Red Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9ea40f41-b00d-4521-aebf-eeb9471c41a7",
+      "confidence": 1.0,
+      "color_hex": "#d32e1a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fleck 'n Forest Green Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "bd176cf9-36d1-48fc-a0a1-754dc0ace5e6",
+      "confidence": 1.0,
+      "color_hex": "#1e5a4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fluorescent Yellow HT",
+      "diameter_mm": 1.75,
+      "external_ref": "888b983b-e1c2-4fb0-9214-1a8c441a0c48",
+      "confidence": 1.0,
+      "color_hex": "#ebff57",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Forest Fantasy Green Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "b06829d9-6a9a-4305-b5bd-78c23e416c52",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galactic Duel Thermochromic HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a8bb07a5-81cd-4f52-a8e7-5c83bf02e6dd",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glitter's Mane Teal HT",
+      "diameter_mm": 1.75,
+      "external_ref": "34c57937-cb81-46d9-ae94-4d84bf5e3f93",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gloop! Purple HT",
+      "diameter_mm": 1.75,
+      "external_ref": "5a29dedc-91d4-4ce5-b9d0-feaa03d2fae6",
+      "confidence": 1.0,
+      "color_hex": "#663d7e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold Dust HT",
+      "diameter_mm": 1.75,
+      "external_ref": "0baf81ea-d57b-49a6-96bc-63570d6c31b9",
+      "confidence": 1.0,
+      "color_hex": "#ddb95d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Holiday Pine HT 2023 Special Edition",
+      "diameter_mm": 1.75,
+      "external_ref": "b64533d2-a996-43ea-a2b2-03b729b0bde3",
+      "confidence": 1.0,
+      "color_hex": "#935c34",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iridescent Ice Clear Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "556fb14b-e5ef-49ee-9507-46113390b290",
+      "confidence": 1.0,
+      "color_hex": "#eaecf5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iron-filled Metal Composite",
+      "diameter_mm": 1.75,
+      "external_ref": "2c26600e-1961-4060-a999-777fb215c404",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Juliette's Raspberry Jam HT",
+      "diameter_mm": 1.75,
+      "external_ref": "6d809691-ffe3-4349-981f-913173116e5e",
+      "confidence": 1.0,
+      "color_hex": "#da445a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Just Peachy Thermochromic HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a22f12fa-8e83-4d33-9a94-9fc55ff61258",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Kermie Green Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "3f2a4b09-d087-4be4-99c6-b38e983b6398",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lab Coat White HT",
+      "diameter_mm": 1.75,
+      "external_ref": "bd5538ea-9fc2-4284-a5cf-d6c9a487e0a7",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lootsef Green HT",
+      "diameter_mm": 1.75,
+      "external_ref": "65ed5f83-966f-413e-aa9a-a57d2a749402",
+      "confidence": 1.0,
+      "color_hex": "#9aed51",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mango Medley Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "6357871f-d6c0-4b20-8e3b-8f065c629070",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marine Dream Blue Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "d580d50e-5ec9-4b66-a139-1b1c8abe0a4f",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Midnight Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "69f391d6-4e3f-4a77-9a9d-5cfe5a5ef985",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Moonstruck White Satin HT",
+      "diameter_mm": 1.75,
+      "external_ref": "005a63ef-3bc6-4a49-9225-ec9d6a81f099",
+      "confidence": 1.0,
+      "color_hex": "#f0ebe5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nerfed Translucent Orange HT",
+      "diameter_mm": 1.75,
+      "external_ref": "3d6a123d-1d3e-4375-ae3f-7fdd85171354",
+      "confidence": 1.0,
+      "color_hex": "#ff9a14",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Nice 'n Navy Blue HT",
+      "diameter_mm": 1.75,
+      "external_ref": "52de77eb-2e9c-4d79-a942-4813cce94607",
+      "confidence": 1.0,
+      "color_hex": "#062b4d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Night Before Blue HT with Silver Glitter",
+      "diameter_mm": 1.75,
+      "external_ref": "c4b0b086-3665-4268-9e1a-23611fcad687",
+      "confidence": 1.0,
+      "color_hex": "#1e2f5a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Obsidian HT",
+      "diameter_mm": 1.75,
+      "external_ref": "cd24028a-d5db-4355-aa2b-4f1eda57f39a",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Papaya Smoothie HT",
+      "diameter_mm": 1.75,
+      "external_ref": "efa83bed-c4b3-43cc-a725-2702155158d7",
+      "confidence": 1.0,
+      "color_hex": "#ff8e24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Out of Darts Orange HT",
+      "diameter_mm": 1.75,
+      "external_ref": "2d5022cb-0c74-4949-9538-f91aae939246",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Partly Cloudy Blue Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9b86a9ed-2ea9-4ab9-905d-a0e2958ec0b1",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Partly Sunny Yellow Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "bb51f66d-0d41-42bb-851e-20b7acff6ada",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pineapple Banana Smoothie HT",
+      "diameter_mm": 1.75,
+      "external_ref": "b92fd999-24d0-4a83-baf3-537ff144ec91",
+      "confidence": 1.0,
+      "color_hex": "#fad61b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pretty in Pink Pearl HT",
+      "diameter_mm": 1.75,
+      "external_ref": "fe4b222d-2bf5-4d13-8b96-ca779348d56d",
+      "confidence": 1.0,
+      "color_hex": "#f092b3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple Ice Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "4d094e81-b3ca-42c1-bc53-e4cd699d3553",
+      "confidence": 1.0,
+      "color_hex": "#8873c7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Hot Cinnamon HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9009596c-b6ff-43cc-8dfd-a56493fa104a",
+      "confidence": 1.0,
+      "color_hex": "#641501",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Opaque HT",
+      "diameter_mm": 1.75,
+      "external_ref": "cdd64ae1-d409-4d19-9a19-643488e985c8",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Scarlet Symphony Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "5cff497a-af07-440d-866c-5f2e37593672",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Seafoam Green Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9051769b-d1f3-4915-be53-8afcdedd4f09",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver Smoke Grey Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "090108ff-f8c7-4030-b46e-498dc8bd8373",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Soda Green Translucent HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c7e840e4-a052-4f79-9223-902467fa3782",
+      "confidence": 1.0,
+      "color_hex": "#3d9441",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sophy's Aqua Phresh HT",
+      "diameter_mm": 1.75,
+      "external_ref": "787a166e-01ce-40f2-befb-2aa37f1bbae8",
+      "confidence": 1.0,
+      "color_hex": "#a6ddd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sour Apple Thermochromic HT",
+      "diameter_mm": 1.75,
+      "external_ref": "ae6d721b-62ac-4ae6-ae28-db35d1e3570e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sparkling Spruce HT",
+      "diameter_mm": 1.75,
+      "external_ref": "dae90f51-fe4c-4b4e-b918-b32c1853c193",
+      "confidence": 1.0,
+      "color_hex": "#0b6a2f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stardust Silver Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "a5e56fe4-92d5-411a-ab44-bfc9b5c9509a",
+      "confidence": 1.0,
+      "color_hex": "#c9d0d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Steel-filled Metal Composite",
+      "diameter_mm": 1.75,
+      "external_ref": "573ece5a-6242-4286-a2ed-2b433c08f0c2",
+      "confidence": 1.0,
+      "color_hex": "#6f727e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stef's Rose Gold HT",
+      "diameter_mm": 1.75,
+      "external_ref": "7be6f58b-e58f-446c-b15b-1ae5e2acbf2a",
+      "confidence": 1.0,
+      "color_hex": "#e69e7a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stratocumulus Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "6e524e37-d240-4a41-ad5d-c2104976b81e",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Summertime Green HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c7ea890e-5a13-4590-91a2-90b9b4001e54",
+      "confidence": 1.0,
+      "color_hex": "#62e480",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Texas Tea Black with Gold Glitter",
+      "diameter_mm": 1.75,
+      "external_ref": "e4ad49d2-9df0-4f83-ba02-4330ad013ed6",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "The Original Nebula Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "9d5b8333-83b6-41c0-a043-f283e71b42e6",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tidal Turquoise Multicolor HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c650fd4e-4ddb-4147-a2e5-f20b32bed8c3",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Totally Translucent Yellow HT",
+      "diameter_mm": 1.75,
+      "external_ref": "1bbdcbe7-ef28-43eb-a360-118cc9b85669",
+      "confidence": 1.0,
+      "color_hex": "#ffd342",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tropical Palm Green HT",
+      "diameter_mm": 1.75,
+      "external_ref": "bfab3d8d-81e9-4030-ac61-9f49497a9467",
+      "confidence": 1.0,
+      "color_hex": "#317c2e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Unicorn Tears White Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "c79f129c-0ee3-498f-b7ea-326de442c766",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Watermelon Crush Red HT",
+      "diameter_mm": 1.75,
+      "external_ref": "cecaa8d6-3e23-45cf-a992-66e5cf4bee20",
+      "confidence": 1.0,
+      "color_hex": "#e24749",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "What Karat? Smooth Gold HT",
+      "diameter_mm": 1.75,
+      "external_ref": "b6db4393-5cae-4032-ae8f-56f4de02e60f",
+      "confidence": 1.0,
+      "color_hex": "#ce8d00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Marble HT",
+      "diameter_mm": 1.75,
+      "external_ref": "e23149bb-719a-4c61-80d6-c52953abfb5f",
+      "confidence": 1.0,
+      "color_hex": "#edf0f2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White Opaque HT",
+      "diameter_mm": 1.75,
+      "external_ref": "ac3bc7cd-9f2e-48a8-894d-a95f84dde8f5",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Winter Blue Glitter Flake HT",
+      "diameter_mm": 1.75,
+      "external_ref": "e4e58ce6-0f5c-4e47-8071-f03f1911a7f4",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Wonder Black Rainbow Glitter HT",
+      "diameter_mm": 1.75,
+      "external_ref": "cb837ac4-cd8b-4c41-8617-5e627b987f45",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/protopasta/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "eef35375-d4cc-4b91-8a5f-dabedc6ececc",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/protopasta/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

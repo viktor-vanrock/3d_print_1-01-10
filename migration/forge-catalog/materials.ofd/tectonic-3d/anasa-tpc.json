@@ -1,0 +1,127 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "tectonic-3d.anasa-tpc",
+  "vendor": {
+    "slug": "tectonic-3d",
+    "name": "Tectonic 3D",
+    "website": "https://tectonic3d.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "tpc",
+    "name": "TPC"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Anasa Tpc",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "95A (45D) Black",
+      "diameter_mm": 1.75,
+      "external_ref": "3c3021ba-0043-484e-9b62-a42a82d4331e",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "95A (45D) Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "5c17abaa-7a10-4098-867e-d39bb4f03c45",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "L80A (34D) Black",
+      "diameter_mm": 1.75,
+      "external_ref": "895e4ca8-2aec-493f-a97c-4f32f4d867d8",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "L80A (34D) Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "2e263cf4-5194-48fd-8c19-e795918463b5",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/TPC/anasa_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/TPC/anasa_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/TPC/anasa_tpc/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/TPC/anasa_tpc/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/TPC/anasa_tpc/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/tectonic_3d/TPC/anasa_tpc/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5d7ba268-2f1f-45da-a133-e343cc5a44ec",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/tectonic_3d/TPC/anasa_tpc/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

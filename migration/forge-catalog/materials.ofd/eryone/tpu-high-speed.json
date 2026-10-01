@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.tpu-high-speed",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU High-Speed",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "solid black",
+      "diameter_mm": 1.75,
+      "external_ref": "a314d0ec-57de-4188-91ce-8466405400c0",
+      "confidence": 1.0,
+      "color_hex": "#1e160d",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    },
+    {
+      "color_name": "solid gray",
+      "diameter_mm": 1.75,
+      "external_ref": "8006b5ba-82db-49d7-ab68-13fafb444b24",
+      "confidence": 1.0,
+      "color_hex": "#979da4",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    },
+    {
+      "color_name": "solid white",
+      "diameter_mm": 1.75,
+      "external_ref": "a23178ea-c4c8-4541-ad08-8456b0a56b00",
+      "confidence": 1.0,
+      "color_hex": "#d8d7ce",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    },
+    {
+      "color_name": "transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "3d37082c-98c3-4f8d-b8c8-57883ae322b6",
+      "confidence": 1.0,
+      "color_hex": "#d2d2d2",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    },
+    {
+      "color_name": "transparent blue",
+      "diameter_mm": 1.75,
+      "external_ref": "41633e86-c148-4f56-adf9-105264566cc7",
+      "confidence": 1.0,
+      "color_hex": "#3c93f3",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    },
+    {
+      "color_name": "transparent red",
+      "diameter_mm": 1.75,
+      "external_ref": "503deed7-2dce-4d6e-a24f-9440a47bea65",
+      "confidence": 1.0,
+      "color_hex": "#e92429",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/tpu-high-speed-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_high_speed/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_high_speed/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_high_speed/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/TPU/tpu_high_speed/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "8a578b46-49f9-43fc-8063-74402e687d50",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/TPU/tpu_high_speed/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

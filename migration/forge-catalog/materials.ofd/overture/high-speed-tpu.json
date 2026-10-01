@@ -1,0 +1,276 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "overture.high-speed-tpu",
+  "vendor": {
+    "slug": "overture",
+    "name": "Overture",
+    "website": "https://overture3d.com/",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "High Speed TPU",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "nozzle_temp_min_c": 210,
+      "nozzle_temp_max_c": 240,
+      "bed_temp_min_c": 30,
+      "bed_temp_max_c": 60,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "cc3383d8-09ac-4bb6-8c48-2c4c0147c116",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "7e03513a-7779-4349-bd1c-d179a91b84b1",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grass Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7d77d262-dc98-4eda-acf8-2f5a7aae6e1c",
+      "confidence": 1.0,
+      "color_hex": "#61c680",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "be94e639-ca15-4e61-b13d-d4e4b887c9a0",
+      "confidence": 1.0,
+      "color_hex": "#959fa1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Luminous Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "92fdb8fa-7bbf-4f02-9a0a-c708b633dda2",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Magenta",
+      "diameter_mm": 1.75,
+      "external_ref": "95888bb8-7758-4ea7-a8f3-d93484c8c499",
+      "confidence": 1.0,
+      "color_hex": "#fd3db5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "c3f746f2-3e5a-4727-8ba5-8a3d2840e466",
+      "confidence": 1.0,
+      "color_hex": "#e2ff4d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "7ceae015-289f-4bb9-9333-63f631637287",
+      "confidence": 1.0,
+      "color_hex": "#ff8b47",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Rose",
+      "diameter_mm": 1.75,
+      "external_ref": "c23f6be9-c1db-4c67-bdc4-98a14fcb0df0",
+      "confidence": 1.0,
+      "color_hex": "#cd9f8b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "7574088e-bd42-4dd4-b5cd-b0e1cc57c3e6",
+      "confidence": 1.0,
+      "color_hex": "#f092b3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "b842f985-d511-462e-8ae4-1d0b1745c1a8",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Green",
+      "diameter_mm": 1.75,
+      "external_ref": "28a68dff-a686-4a7d-9684-ea9c131d86e5",
+      "confidence": 1.0,
+      "color_hex": "#089a45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "35e0c9f3-ad0c-4f69-b96d-8b42a4282218",
+      "confidence": 1.0,
+      "color_hex": "#e0493e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "213a6d87-f117-46ac-b98e-c4f74cc77011",
+      "confidence": 1.0,
+      "color_hex": "#583061",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Red",
+      "diameter_mm": 1.75,
+      "external_ref": "21747d4a-8c8f-4809-9519-674e522d9bbc",
+      "confidence": 1.0,
+      "color_hex": "#c00000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7e0a4b0e-fd42-45e2-bf1c-e81ef63bcd4c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/overture/TPU/high_speed_tpu/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "faae7e18-0a23-4f24-a17f-16cec460b5a9",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/overture/TPU/high_speed_tpu/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

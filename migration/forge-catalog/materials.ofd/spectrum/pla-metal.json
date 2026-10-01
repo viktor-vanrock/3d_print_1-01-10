@@ -1,0 +1,233 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "spectrum.pla-metal",
+  "vendor": {
+    "slug": "spectrum",
+    "name": "Spectrum",
+    "website": "https://spectrumfilaments.com/en/brand/spectrum-filaments-en/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Metal",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "nozzle_temp_min_c": 195,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 40,
+      "bed_temp_max_c": 50,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "metal"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Brass",
+      "diameter_mm": 1.75,
+      "external_ref": "880eecb2-b6a5-4c79-8109-477aa8f09f8f",
+      "confidence": 1.0,
+      "color_hex": "#827a47",
+      "weight_g": 1500,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2640-Filament-Spectrum-PLA-Metal-1-75mm-BRASS-1-5kg.html"
+    },
+    {
+      "color_name": "Brass",
+      "diameter_mm": 1.75,
+      "external_ref": "880eecb2-b6a5-4c79-8109-477aa8f09f8f",
+      "confidence": 1.0,
+      "color_hex": "#827a47",
+      "weight_g": 750,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2638-Filament-Spectrum-PLA-Metal-1-75mm-BRASS-0-75kg.html"
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "749aa270-4c72-49f1-b9dd-094000beedcf",
+      "confidence": 1.0,
+      "color_hex": "#695d4f",
+      "weight_g": 1500,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2586-Filament-Spectrum-PLA-Metal-1-75mm-BRONZE-1-5kg.html"
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "749aa270-4c72-49f1-b9dd-094000beedcf",
+      "confidence": 1.0,
+      "color_hex": "#695d4f",
+      "weight_g": 750,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2585-Filament-Spectrum-PLA-Metal-1-75mm-BRONZE-0-75kg.html"
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "afc64f13-2cd0-4b13-a27e-701c9f2283b2",
+      "confidence": 1.0,
+      "color_hex": "#95593b",
+      "weight_g": 1500,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2639-Filament-Spectrum-PLA-Metal-1-75mm-COPPER-1-5kg.html"
+    },
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "afc64f13-2cd0-4b13-a27e-701c9f2283b2",
+      "confidence": 1.0,
+      "color_hex": "#95593b",
+      "weight_g": 750,
+      "purchase_url": "https://shop.spectrumfilaments.com/product-eng-2637-Filament-Spectrum-PLA-Metal-1-75mm-COPPER-0-75kg.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/spectrum/PLA/pla_metal/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "82c237d2-d83a-438e-82f5-57ec08b344d6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/spectrum/PLA/pla_metal/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

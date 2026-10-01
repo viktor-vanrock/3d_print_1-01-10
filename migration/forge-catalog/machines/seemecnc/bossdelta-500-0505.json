@@ -1,0 +1,376 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "seemecnc.bossdelta-500-0505",
+  "vendor": {
+    "slug": "seemecnc",
+    "name": "SeeMeCNC"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "BOSSdelta 500 0505",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 500,
+      "y": 500,
+      "z": 500
+    },
+    "kinematics": "delta",
+    "max_accel_mms2": 5000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2026-05-30",
+    "bed_surface": "borosilicate glass",
+    "auto_leveling": "automatic probing",
+    "screen_type": "7 inch touchscreen",
+    "summary": "BOSSdelta™ 500 — это крупноформатный 3D-принтер от SeeMeCNC, позиционируемый как решение для коммерческого использования благодаря надежности и производительности. Модель 0505 представляет собой настольный станок с диаметром платформы 500 мм и высотой печати 500 мм, в то время как другие модели серии являются напольными.",
+    "unique_features": [
+      "Система линейного движения eSlide™, разработанная SeeMeCNC",
+      "Уникальная система привода от троса к ремню для точного позиционирования",
+      "Горячий узел SE300 с интегрированным датчиком усилия (strain gauge) для автоматического зондирования",
+      "Двойное экструзионное оборудование (Dual Extrusion) как стандарт",
+      "Управляющая плата Duet с 32-битным процессором и Ethernet-подключением",
+      "Съемный 7-дюймовый сенсорный экран"
+    ],
+    "limitations": [
+      "Не поставляется международно (We do not ship this printer internationally)",
+      "Модель 0521 требует крепления к полу, стене или стойке",
+      "Доставка LTL Freight является дополнительной и не включена в цену"
+    ],
+    "max_nozzle_temp_c": 280,
+    "max_bed_temp_c": 100,
+    "filament_diameter_mm": 1.75,
+    "voltage_v": 120,
+    "connectivity": [
+      "Ethernet",
+      "SD card"
+    ],
+    "heated_bed": true,
+    "filament_runout_sensor": true,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "voltage_v": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The print surface (bed) is borosilicate glass",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The SE300 hotend contains an integrated strain gauge sensor for providing reliable and accurate automatic probing and calibration.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The 7 inch touchscreen controller is removable",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "SeeMeCNC large format 3D printers will meet your business needs for commercial 3D printing through price, performance, and reliability.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The BOSSdelta ™ features our eSlide ™ linear motion system.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "We do not ship this printer internationally.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The SE300 hotend is designed for 280C maximum operating temperature.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The print surface (bed) is borosilicate glass and can easily handles 100C temperatures maintained by the 800W industrial heater.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "1.75 mm Carbon Fiber Nuclear Nylon Atomic Filament 1kg Spool",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "voltage_v": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Power Requirements 120VAC Single Phase 10A",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "32 bit Control with Ethernet Network Connectivity",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Large 20.5\" (520mm) diameter AC powered heated bed.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament Runout Switch",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "One Year Warranty",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_BOSSdelta500_0505_0_4mm.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "seemecnc-official",
+      "url": "https://www.seemecnc.com/products/boss-printer-500-rtp",
+      "tier": "vendor",
+      "snapshot": "sha256:30a619ddfc4f78e02cf6cb471e02f60035b9063c65aea8e669ed276f45da2b92",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:18:23Z",
+      "publisher": "SeeMeCNC"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 2,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

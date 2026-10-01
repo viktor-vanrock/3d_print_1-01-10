@@ -1,0 +1,66 @@
+{
+ "slug": "history.user-gyronictonic-3dprintmi",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/3DPrintMi",
+ "snapshot": "sha256:c868935e418db15ecfdf2309c14105736413c98fcf643355b0d703d8ad86c922",
+ "page_chars": 3649,
+ "fields": {
+  "summary": "3DPrintMi — это RepRap-принтер с открытой рамой, сочетающий минималистичный стиль Printrbot/Wallace и фиксированную Y-раму системы Mendel. Он спроектирован для быстрой и эффективной печати деталей, что позволяет легко собирать станок и обеспечивает его самовоспроизводство.",
+  "unique_features": [
+   "Максимальное количество печатаемых деталей для самовоспроизводства",
+   "Фиксированная Y-рама системы Mendel",
+   "Полностью печатаемая платформа каретки оси Y",
+   "Регулируемая рама для увеличения объема печати",
+   "Автоматическое выравнивание (Auto-leveling)",
+   "Вентилятор охлаждения (Blower cooling fan)",
+   "Совместимость с экструдером Wade (Bowden) или Direct Drive (MakerBot)"
+  ],
+  "max_nozzle_temp_c": 240,
+  "max_bed_temp_c": 95,
+  "kinematics": "cartesian",
+  "price_usd": 315,
+  "enclosed": false,
+  "heated_bed": true,
+  "release_year": 2013
+ },
+ "evidence": {
+  "summary": "3DPrintMi combines the minimalistic, open frame style of the Printrbot / Wallace with the fixed Y Gantry system of the Mendel . The printed parts are designed to be produced rapidly, efficiently and assembled easily.",
+  "unique_features": "In compliance with Vertical X Axis Standard , compatible with Mendel style X gantry",
+  "max_nozzle_temp_c": "Hotend @ 240C",
+  "max_bed_temp_c": "Hotbed @ 95C",
+  "kinematics": "compatible with Mendel style X gantry",
+  "price_usd": "Total Cost: $315+",
+  "enclosed": "Open Frame Reprap",
+  "heated_bed": "Hotbed @ 95C",
+  "release_year": "In 2013, 3DPrintMi entered the \"Interim Personal Manufacturing Prize\" aka Gada Prize competition"
+ },
+ "unconfirmed": [
+  "kinematics"
+ ],
+ "unique_features": [
+  "Максимальное количество печатаемых деталей для самовоспроизводства",
+  "Фиксированная Y-рама системы Mendel",
+  "Полностью печатаемая платформа каретки оси Y",
+  "Регулируемая рама для увеличения объема печати",
+  "Автоматическое выравнивание (Auto-leveling)",
+  "Вентилятор охлаждения (Blower cooling fan)",
+  "Совместимость с экструдером Wade (Bowden) или Direct Drive (MakerBot)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:45:32Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "3DPrintMi",
+ "maker": "User:Gyronictonic",
+ "model": "3DPrintMi",
+ "first_year": 2013,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/3DPrintMi"
+}

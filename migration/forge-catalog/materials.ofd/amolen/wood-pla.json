@@ -1,0 +1,234 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "amolen.wood-pla",
+  "vendor": {
+    "slug": "amolen",
+    "name": "Amolen",
+    "website": "https://amolen.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Wood PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "wood"
+      ],
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Bamboo Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "8486aeda-ddc2-4685-947f-426cd4957676",
+      "confidence": 1.0,
+      "color_hex": "#baa679",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cherry Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "a7dcc373-e98d-41a3-b916-9b55b4f40e2c",
+      "confidence": 1.0,
+      "color_hex": "#ad7032",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ebony Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "54ca38e6-d2d0-444f-96b6-2d3181048031",
+      "confidence": 1.0,
+      "color_hex": "#5e6345",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grain Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "9580f9b2-0ba4-4fa4-8cec-de32a190d9ad",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red Cedar",
+      "diameter_mm": 1.75,
+      "external_ref": "83eedfe4-5e97-4b0a-a3ff-912bc98e3488",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "e11c1b2e-94bc-4ac6-a036-30be9ad5f45a",
+      "confidence": 1.0,
+      "color_hex": "#613b3a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tigerwood",
+      "diameter_mm": 1.75,
+      "external_ref": "cdb566ed-52be-4352-b190-2275c5bf9e0c",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Walnut Wood",
+      "diameter_mm": 1.75,
+      "external_ref": "ddd38bf2-d300-453b-b586-145220a4cf33",
+      "confidence": 1.0,
+      "color_hex": "#ad7032",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow Pearwood",
+      "diameter_mm": 1.75,
+      "external_ref": "7b8f511f-880e-4852-a4d1-7861dc8bba9d",
+      "confidence": 1.0,
+      "color_hex": "#a6662e",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PLA/wood_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "3ba492a1-46be-40f1-8f31-bb551e6fa5f4",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PLA/wood_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

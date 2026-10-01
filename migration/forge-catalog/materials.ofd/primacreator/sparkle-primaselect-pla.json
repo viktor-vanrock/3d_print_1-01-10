@@ -1,0 +1,205 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primacreator.sparkle-primaselect-pla",
+  "vendor": {
+    "slug": "primacreator",
+    "name": "PrimaCreator",
+    "website": "https://primacreator.com",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Sparkle PrimaSelect PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Burgundy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "4b8ee76b-bf02-4505-a0e0-a35309abc4a8",
+      "confidence": 1.0,
+      "color_hex": "#a54830",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Deep Space Black",
+      "diameter_mm": 1.75,
+      "external_ref": "4e2004f7-baff-4f12-9ffb-32df086b3e38",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Diamond Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "84c075d3-e297-4085-888c-8bdadff8015e",
+      "confidence": 1.0,
+      "color_hex": "#45444a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Emerald Green",
+      "diameter_mm": 1.75,
+      "external_ref": "74b38024-6073-4491-bc84-f4edde101270",
+      "confidence": 1.0,
+      "color_hex": "#1e5a4f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lemon Sprinkle Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "5041546f-47b1-4aee-8d76-bda272706cf2",
+      "confidence": 1.0,
+      "color_hex": "#e6b535",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mermaid Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "64779c01-dea5-4039-b460-6b974de1ce58",
+      "confidence": 1.0,
+      "color_hex": "#2d889e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Night Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "e82e48e8-ae25-474c-bb32-c96bef93f3e7",
+      "confidence": 1.0,
+      "color_hex": "#282d42",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primacreator/PLA/sparkle_primaselect_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "125c31b0-897f-410b-9fc7-fdd5036946e6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primacreator/PLA/sparkle_primaselect_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

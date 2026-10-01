@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polylite.galaxy-asa",
+  "vendor": {
+    "slug": "polylite",
+    "name": "PolyLite",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Galaxy ASA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.13,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6cb06bb6-d548-4b07-a3fa-15a4f934ea4e",
+      "confidence": 1.0,
+      "color_hex": "#474648",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-galaxy-asa"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "80e0c7a5-d9b1-4adb-bbc8-890573d440d7",
+      "confidence": 1.0,
+      "color_hex": "#012c61",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-galaxy-asa"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "752be280-256a-43b9-b5f3-5be9fba1b7c0",
+      "confidence": 1.0,
+      "color_hex": "#2e764c",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-galaxy-asa"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "102d26c6-aaf4-4e73-9c6a-32c519981930",
+      "confidence": 1.0,
+      "color_hex": "#bf1a11",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-galaxy-asa"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ASA/galaxy_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ASA/galaxy_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ASA/galaxy_asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ASA/galaxy_asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ASA/galaxy_asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ASA/galaxy_asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c91be1d5-f881-440e-bfed-3cbbeb0e4e13",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ASA/galaxy_asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "esun-3d.dark-twinkling-pla-magic",
+  "vendor": {
+    "slug": "esun-3d",
+    "name": "eSUN 3D",
+    "website": "https://esun3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Dark Twinkling PLA Magic",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "297a8585-67d4-4567-9127-fd215e79366c",
+      "confidence": 1.0,
+      "color_hex": "#323e4d",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-magic"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "4c2387a2-7679-4e23-97e0-33aee085fa4c",
+      "confidence": 1.0,
+      "color_hex": "#567575",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-magic"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "1ac69bb3-2f87-4bd1-8e1c-94c7ce969379",
+      "confidence": 1.0,
+      "color_hex": "#4b5356",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-magic"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "85ca1863-4e74-4b1e-a31c-a3cd19d4d18f",
+      "confidence": 1.0,
+      "color_hex": "#3a3a39",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-magic"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9d0a56ab-e9e5-4d18-acf0-8fdac0534909",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/dark_twinkling_pla_magic/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

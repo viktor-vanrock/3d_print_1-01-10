@@ -1,0 +1,93 @@
+{
+ "slug": "history.user-boylucky-kuba3d",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Kuba3D",
+ "snapshot": "sha256:55a95df1a8ba168329b8f39cf16d0696756b27c692186536a333cb6fd080b1d3",
+ "page_chars": 2354,
+ "fields": {
+  "bed_surface": "glass",
+  "summary": "Kuba3D — это компактный десктопный картезианский 3D-принтер, разработанный специально для любителей без опыта в 3D-печати. Он отличается небольшими габаритами, позволяющими разместить его на столе, и простотой сборки.",
+  "unique_features": [
+   "Картезианская конструкция",
+   "Линейные направляющие Hiwin MGNR09/MGWR09 для осей X и Y",
+   "Гладкие стержни 8 мм для оси Z",
+   "J-head Bowden хотенд",
+   "Полностью металлический экструдер Bowden",
+   "Стекло без подогрева",
+   "Конструкция из алюминиевых профилей 30x30 мм и напечатанных деталей"
+  ],
+  "target_use": [
+   "Десктопное использование",
+   "Любители без опыта в 3D-печати",
+   "Печать из PLA и ABS"
+  ],
+  "limitations": [
+   "Ненагретое стеклянное сопло (unheated glass bed)",
+   "Текущий объем печати ограничен 100x85x85 мм (планируется расширение до 100x100x100 мм)",
+   "Проект находится в стадии разработки (experimental)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 100,
+   "y": 85,
+   "z": 85,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 60,
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "bowden",
+  "dimensions_mm": {
+   "w": 230,
+   "d": 230,
+   "h": 300
+  },
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ],
+  "heated_bed": false
+ },
+ "evidence": {
+  "bed_surface": "with unheated glass bed",
+  "summary": "Kuba3D is a small dimension cartesian 3D printer designed for desktop use and intended for hobbyist without previous experience with 3D printing.",
+  "unique_features": "X and Y axes use linear guideways, Z axe uses 8mm smooth rods.",
+  "target_use": "designed for desktop use and intended for hobbyist without previous experience with 3D printing.",
+  "limitations": "with unheated glass bed.",
+  "kinematics": "Kuba3D is a small dimension cartesian 3D printer",
+  "build_volume": "The print volume is currently only 100x85x85",
+  "max_speed_mms": "Print speed 60mm/s",
+  "filament_diameter_mm": "Hot end is J-head Bowden Hotend for 1.75mm PLA or ABS filament",
+  "extruder_type": "Hot end is J-head Bowden Hotend",
+  "dimensions_mm": "The external dimensions of the printer is 230x230x300mm",
+  "materials_supported": "Print materials PLA and ABS",
+  "heated_bed": "Unheated glass bed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Картезианская конструкция",
+  "Линейные направляющие Hiwin MGNR09/MGWR09 для осей X и Y",
+  "Гладкие стержни 8 мм для оси Z",
+  "J-head Bowden хотенд",
+  "Полностью металлический экструдер Bowden",
+  "Стекло без подогрева",
+  "Конструкция из алюминиевых профилей 30x30 мм и напечатанных деталей"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:23:13Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Kuba3D",
+ "maker": "User:Boylucky",
+ "model": "Kuba3D",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Kuba3D"
+}

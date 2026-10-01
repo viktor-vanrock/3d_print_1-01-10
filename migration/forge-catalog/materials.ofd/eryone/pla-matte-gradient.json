@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.pla-matte-gradient",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Matte Gradient",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue Green & Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "7f73b7cc-7c86-41bd-9c1f-4cf944ed84ca",
+      "confidence": 1.0,
+      "color_hex": "#005487",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    },
+    {
+      "color_name": "Pink & Green & Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6613618f-bd61-44b7-a452-6d398eb53161",
+      "confidence": 1.0,
+      "color_hex": "#f4ead2",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    },
+    {
+      "color_name": "Pink & Yellow Green",
+      "diameter_mm": 1.75,
+      "external_ref": "8af858e3-7760-4091-bd3e-074916379a0f",
+      "confidence": 1.0,
+      "color_hex": "#fdca7e",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    },
+    {
+      "color_name": "Red & Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "52555947-a416-4b8f-82ee-e61a3a666c91",
+      "confidence": 1.0,
+      "color_hex": "#ff8408",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    },
+    {
+      "color_name": "Yellow & Green",
+      "diameter_mm": 1.75,
+      "external_ref": "979840d8-6770-4375-a4cc-b2004d1bf78a",
+      "confidence": 1.0,
+      "color_hex": "#73c80e",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    },
+    {
+      "color_name": "Yellow & Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "74e9c6ea-4b18-4c6a-82b9-7a9a12c1b60c",
+      "confidence": 1.0,
+      "color_hex": "#a99c97",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/collections/dual-color-matte-pla/products/pla-matte-dual-color-filament-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_gradient/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_gradient/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_gradient/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/PLA/pla_matte_gradient/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "09527ecc-d8a0-49a2-980b-20811d39df38",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/PLA/pla_matte_gradient/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

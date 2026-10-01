@@ -1,0 +1,91 @@
+{
+ "slug": "history.spatialone",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/SpatialOne",
+ "snapshot": "sha256:f36699517826a5be7fa9ad05d272fb51e909d4f55a2b77f08cfb73913233d935",
+ "page_chars": 3083,
+ "fields": {
+  "bed_surface": "Anodised aluminium",
+  "screen_type": "GLCD",
+  "firmware": "Smoothieware",
+  "summary": "SpatialOne — это 3D-принтер типа Delta, использующий технологию FFF, разработанный для обеспечения надежности и точности движущихся частей. Он поставляется в виде набора с изготовленными листовыми и механически обработанными деталями, управляемым платой Smoothie Board.",
+  "unique_features": [
+   "Сменная головка (interchangeable end effector) с 12-контактным разъемом для быстрой замены",
+   "Промышленные подшипники (Misumi) и шариковые направляющие с предварительным натягом",
+   "Автоматическая калибровка стола с использованием датчиков давления (FSR)",
+   "Поддержка различных типов экструдеров (двойной, для шоколада, керамики, лазера)"
+  ],
+  "limitations": [
+   "Гибкая филаментная нить (flexible filament) не поддерживается текущим экструдером (требуется новая платформа)",
+   "Страница находится в статусе 'work-in-progress' (в разработке)"
+  ],
+  "max_nozzle_temp_c": 300,
+  "kinematics": "delta",
+  "max_speed_mms": 300,
+  "max_travel_speed_mms": 500,
+  "layer_height_min_mm": 0.1,
+  "layer_height_max_mm": 0.4,
+  "filament_diameter_mm": 1.75,
+  "power_w": 500,
+  "voltage_v": 24,
+  "connectivity": [
+   "USB",
+   "Ethernet"
+  ],
+  "materials_supported": [
+   "PLA",
+   "ABS",
+   "Nylon"
+  ],
+  "heated_bed": true,
+  "release_year": 2016
+ },
+ "evidence": {
+  "bed_surface": "Materials: Anodised aluminium",
+  "screen_type": "with GLCD graphic controller",
+  "firmware": "Firmware: Smoothieware",
+  "summary": "SpatialOne is a fused filament fabrication 3D Delta printer designed for robustness and accuracy of the moving parts. A kit with manufactured sheetmetal and machined parts, powered by a smoothie board with industrial bearings.",
+  "unique_features": "One of its unique feature is to have an interchangeable end effector... 12 way plug and socket for easy swap between different end effectors.",
+  "limitations": "except flexible filament (new extruder and hot end platform to print such materials coming soon)",
+  "max_nozzle_temp_c": "any material with extrusion temperature up to 300C",
+  "kinematics": "SpatialOne is a fused filament fabrication 3D Delta printer",
+  "max_speed_mms": "print speeds up to 300mm/s",
+  "max_travel_speed_mms": "Travel speeds of 500mm/s",
+  "layer_height_min_mm": "Layer Resolution: 0.1mm to 0.4mm",
+  "layer_height_max_mm": "Layer Resolution: 0.1mm to 0.4mm",
+  "filament_diameter_mm": "Filament Diameter: 1.75mm",
+  "power_w": "Power Requirements: 24VDC @ 500w",
+  "voltage_v": "Power Requirements: 24VDC",
+  "connectivity": "Connectivity: USB and Ethernet.",
+  "materials_supported": "Print Media: PLA, ABS, Nylon",
+  "heated_bed": "Aluminium heated bed",
+  "release_year": "The lit is available on kickstarter until 1 june 2016"
+ },
+ "unconfirmed": [
+  "release_year"
+ ],
+ "unique_features": [
+  "Сменная головка (interchangeable end effector) с 12-контактным разъемом для быстрой замены",
+  "Промышленные подшипники (Misumi) и шариковые направляющие с предварительным натягом",
+  "Автоматическая калибровка стола с использованием датчиков давления (FSR)",
+  "Поддержка различных типов экструдеров (двойной, для шоколада, керамики, лазера)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "delta",
+  "высокотемпературный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:48:17Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "SpatialOne",
+ "maker": "",
+ "model": "SpatialOne",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/SpatialOne"
+}

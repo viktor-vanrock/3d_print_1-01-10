@@ -1,0 +1,383 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "flashforge.pla",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FLASHFORGE",
+    "website": "https://www.flashforge.com/"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0a850164-9e3f-40d6-b9a1-ea4c5185dc14",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "2712591a-ba59-42c1-8d25-19a7172586e8",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue to Pink Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "96412a5a-3de6-4ad8-973a-b6cf9b25f83b",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue to Yellow Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "3448f100-f24d-484f-85bd-2a9788d174e2",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "1b3e4ad1-1895-444a-9cc7-91cb3d75c632",
+      "confidence": 1.0,
+      "color_hex": "#a45b27",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Burnt Titanium",
+      "diameter_mm": 1.75,
+      "external_ref": "8837cdda-fef7-4443-9fbe-4456aee8cb96",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Green",
+      "diameter_mm": 1.75,
+      "external_ref": "e82c8a92-61c5-40c7-983f-ae42bd882fbe",
+      "confidence": 1.0,
+      "color_hex": "#7ab352",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "524a8258-05ea-4edc-ba72-34c89712a9a9",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "b77f34c0-5d39-48a2-92da-5b1349b72160",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "bd03d649-6dcd-4c99-92c1-3eb9d1cb9bf2",
+      "confidence": 1.0,
+      "color_hex": "#6000b0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Red",
+      "diameter_mm": 1.75,
+      "external_ref": "997cc129-cd38-4286-a9ec-c16d9a240dd8",
+      "confidence": 1.0,
+      "color_hex": "#c01616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Flexible Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "667f4921-1c3e-4d0b-9f31-9c6b74803eec",
+      "confidence": 1.0,
+      "color_hex": "#f3c102",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galaxy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "8e12d380-a415-45ab-9f56-c08f8505cd38",
+      "confidence": 1.0,
+      "color_hex": "#183681",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "1eea2516-c6e1-4dec-8b80-17f51e53a544",
+      "confidence": 1.0,
+      "color_hex": "#f6c500",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "fe99456a-2258-4eab-8a82-fed57779a137",
+      "confidence": 1.0,
+      "color_hex": "#41a840",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "1b6a2f8b-38d6-49fc-89bf-8dd50f76d15d",
+      "confidence": 1.0,
+      "color_hex": "#4d6383",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marsala",
+      "diameter_mm": 1.75,
+      "external_ref": "b48bb183-271c-4f8f-95e3-0955410152c3",
+      "confidence": 1.0,
+      "color_hex": "#6e485f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "dacbc07a-e929-4e29-8da0-ba42de29b878",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "76f37e74-fa33-4a3b-b3b4-b0d53aa4838c",
+      "confidence": 1.0,
+      "color_hex": "#fa8423",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange to Green Gradient",
+      "diameter_mm": 1.75,
+      "external_ref": "85e8fe71-a425-4419-a417-c3fe25f43938",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "26fb8dee-13a9-4afe-b6fe-16a21a7b4e15",
+      "confidence": 1.0,
+      "color_hex": "#6000b0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "15d87cd4-7431-405e-a9e2-afe15125e140",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0446cd18-1e30-46fc-96e8-ff53be66841a",
+      "confidence": 1.0,
+      "color_hex": "#e20010",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose",
+      "diameter_mm": 1.75,
+      "external_ref": "ce374015-a459-40c5-8e4e-567790fca1bf",
+      "confidence": 1.0,
+      "color_hex": "#c80181",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "f6c0d5a5-80be-4ef2-952b-b7ef6d3312ad",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin",
+      "diameter_mm": 1.75,
+      "external_ref": "1031a7c2-4598-4af5-b57c-c22d5b99a41a",
+      "confidence": 1.0,
+      "color_hex": "#e6ba83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skydiver Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6fe5a60d-67a6-4a74-9238-60a4cf7a36ea",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sparkle Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "134b9f86-3442-4511-8af3-2db6ed35a9ef",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tangerine",
+      "diameter_mm": 1.75,
+      "external_ref": "16a4ffc7-8fdc-484b-ba84-2733209b4152",
+      "confidence": 1.0,
+      "color_hex": "#f55928",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7d54a148-3bcf-4b1f-8435-704e2190279b",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/flashforge/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "f20fe582-2efd-4cc6-8f63-be8fd2d5e13a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/flashforge/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

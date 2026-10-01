@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "panchroma.galaxy-pla",
+  "vendor": {
+    "slug": "panchroma",
+    "name": "Panchroma",
+    "website": "https://polymaker.com/panchroma/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Galaxy PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "4eaaaaa8-fe9e-4634-ae66-5506925c5a90",
+      "confidence": 1.0,
+      "color_hex": "#020203",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    },
+    {
+      "color_name": "Galaxy Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "2a843019-fc5f-4fb7-a127-ba58ed0e0e90",
+      "confidence": 1.0,
+      "color_hex": "#090c23",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    },
+    {
+      "color_name": "Galaxy Dark Green",
+      "diameter_mm": 1.75,
+      "external_ref": "3c3fed30-4149-49c0-b792-a55b67e692d8",
+      "confidence": 1.0,
+      "color_hex": "#045c4d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    },
+    {
+      "color_name": "Galaxy Dark Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "51d438fc-a90d-4952-b45e-355d13f32ed1",
+      "confidence": 1.0,
+      "color_hex": "#4d5557",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    },
+    {
+      "color_name": "Galaxy Dark Red",
+      "diameter_mm": 1.75,
+      "external_ref": "8616d797-9725-4570-80d1-8a0ff1a76067",
+      "confidence": 1.0,
+      "color_hex": "#5e2d22",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    },
+    {
+      "color_name": "Intergalactic Chocolate",
+      "diameter_mm": 1.75,
+      "external_ref": "d4745834-522a-4081-a3ae-bb4fbef15cfc",
+      "confidence": 1.0,
+      "color_hex": "#090c23",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-galaxy"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/galaxy_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/galaxy_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/galaxy_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "48e71d00-6da1-4c29-b083-74c958c8e04e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/galaxy_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

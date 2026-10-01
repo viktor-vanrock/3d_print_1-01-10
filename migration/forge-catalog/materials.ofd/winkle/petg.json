@@ -1,0 +1,261 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "winkle.petg",
+  "vendor": {
+    "slug": "winkle",
+    "name": "Winkle",
+    "website": "https://winkle.com",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Ash Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "eb344d23-3711-4cc9-a285-5a35df36d200",
+      "confidence": 1.0,
+      "color_hex": "#9c9d9d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cristal Amber Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "c7b852bd-70e8-4796-98aa-9d2fb6389d88",
+      "confidence": 1.0,
+      "color_hex": "#f55928",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cristal Aquamarine Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ac059db9-0dbb-4779-a03e-6b79d99a6ee7",
+      "confidence": 1.0,
+      "color_hex": "#32cabd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cristal Dark Mauve",
+      "diameter_mm": 1.75,
+      "external_ref": "09b79fc9-c281-41e8-ad71-f38f234be185",
+      "confidence": 1.0,
+      "color_hex": "#916676",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cristal Lime Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f100585f-fd32-4722-89e5-d0c636133150",
+      "confidence": 1.0,
+      "color_hex": "#91db01",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Devil Red",
+      "diameter_mm": 1.75,
+      "external_ref": "3457de4c-ce12-41d1-a4a9-fd6cb33b4272",
+      "confidence": 1.0,
+      "color_hex": "#cc2616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glacier White",
+      "diameter_mm": 1.75,
+      "external_ref": "dd342e54-d2d1-4e20-afb7-7113142b4ac0",
+      "confidence": 1.0,
+      "color_hex": "#efefef",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "ba438e46-cdd7-4acb-b99f-b606081dd538",
+      "confidence": 1.0,
+      "color_hex": "#3e413f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lemon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "1093d8c3-c0d6-4c3a-a9ec-abe22b5014de",
+      "confidence": 1.0,
+      "color_hex": "#f6fb38",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pine Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c72ce2b5-bba8-4a08-a6aa-3dcf84721587",
+      "confidence": 1.0,
+      "color_hex": "#3d9441",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Prototype Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "783bf2d7-2e47-4b0e-95d2-e0dcabc3f7bb",
+      "confidence": 1.0,
+      "color_hex": "#f2ece9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "feabc5d3-f214-4735-b51e-f4fda5b0aa36",
+      "confidence": 1.0,
+      "color_hex": "#2c3294",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "b993c7ae-8a1c-4eaa-98cd-d1eedc42a1fb",
+      "confidence": 1.0,
+      "color_hex": "#aeb8c1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "b01bf4ab-e921-49ae-8866-1fa6c003bfd0",
+      "confidence": 1.0,
+      "color_hex": "#f2ece9",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/winkle/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "234ef789-1a26-4f1b-9fba-e85793577559",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/winkle/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

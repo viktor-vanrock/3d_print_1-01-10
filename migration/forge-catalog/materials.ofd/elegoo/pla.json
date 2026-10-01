@@ -1,0 +1,715 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "elegoo.pla",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "ELEGOO",
+    "website": "https://elegoo.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.26,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Apple Green",
+      "diameter_mm": 1.75,
+      "external_ref": "d80200ee-a804-489b-9df0-9c6d3983e00b",
+      "confidence": 1.0,
+      "color_hex": "#c2de31",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "750f6aa3-6f30-4ade-898f-bf4d5bba8258",
+      "confidence": 1.0,
+      "color_hex": "#f4e0b8",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fd96883a-5aa4-463d-87fe-cd7ca7830b9c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fd96883a-5aa4-463d-87fe-cd7ca7830b9c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "fd96883a-5aa4-463d-87fe-cd7ca7830b9c",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 3000,
+      "purchase_url": "https://eu.elegoo.com/products/orangestorm-giga-large-3kg-filament"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6008d2cd-3ae5-489f-af5a-c3f3b4f77914",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze filled",
+      "diameter_mm": 1.75,
+      "external_ref": "87590fc8-f5a7-4e48-87ea-4bf836355b2f",
+      "confidence": 1.0,
+      "color_hex": "#895837",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "5fabc676-5100-4536-b359-c88945cf1a1c",
+      "confidence": 1.0,
+      "color_hex": "#9e6a4b",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Burgundy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "3322675b-a80d-45b5-8f44-28d247c1adf8",
+      "confidence": 1.0,
+      "color_hex": "#98282f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "ad613810-bb93-473b-b0eb-74fbfefdb5e1",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cobalt Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4edf290e-d76a-43a0-899e-7a547297b7b1",
+      "confidence": 1.0,
+      "color_hex": "#1341d2",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Cocoa Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "93ab7447-a37c-4237-8b32-3cf3c30b7739",
+      "confidence": 1.0,
+      "color_hex": "#665345",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "160ed8b7-bee5-4a5e-8c7c-5e9361567116",
+      "confidence": 1.0,
+      "color_hex": "#3aa2ff",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "625e7178-f278-45a4-bf9c-18000cb69750",
+      "confidence": 1.0,
+      "color_hex": "#2240af",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "625e7178-f278-45a4-bf9c-18000cb69750",
+      "confidence": 1.0,
+      "color_hex": "#2240af",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "6a40c2d6-34d2-4726-b18f-2f2c5e9d5bd7",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galaxy Peacock Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "b9117963-3c3c-48b6-b59b-41d0f1ee834e",
+      "confidence": 1.0,
+      "color_hex": "#375680",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galaxy Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "4f3aca1a-bf5e-40ca-8800-d7bead029141",
+      "confidence": 1.0,
+      "color_hex": "#3a0a8c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f7651090-2f72-4aac-b608-dfc5023868d1",
+      "confidence": 1.0,
+      "color_hex": "#96eea3",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "d4e38d2a-ec80-4092-8899-5ccf42b9d02e",
+      "confidence": 1.0,
+      "color_hex": "#8f949b",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "d4e38d2a-ec80-4092-8899-5ccf42b9d02e",
+      "confidence": 1.0,
+      "color_hex": "#8f949b",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Hot Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "dee11fef-1ee5-4354-877e-a25571503a88",
+      "confidence": 1.0,
+      "color_hex": "#ff5d8e",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "697e7180-98ee-43ef-8d32-f502bfe38692",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "37bec360-d254-4336-8a57-1192a882fca4",
+      "confidence": 1.0,
+      "color_hex": "#acb1b1",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Marble Brick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "9fafd12d-a3c4-419d-be64-dde1b683ff7f",
+      "confidence": 1.0,
+      "color_hex": "#a5472c",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Marble Cement Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "9d8951b7-9381-4e82-ba5c-82d340778453",
+      "confidence": 1.0,
+      "color_hex": "#6c6c6c",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Neon Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7e0b9768-7a61-4500-a666-42e131324569",
+      "confidence": 1.0,
+      "color_hex": "#08e327",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Neon Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7e0b9768-7a61-4500-a666-42e131324569",
+      "confidence": 1.0,
+      "color_hex": "#08e327",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "0b126055-ed99-4e7e-b501-30a1aef98e46",
+      "confidence": 1.0,
+      "color_hex": "#fd7c18",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "0b126055-ed99-4e7e-b501-30a1aef98e46",
+      "confidence": 1.0,
+      "color_hex": "#fd7c18",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "2a713aa6-3b8f-4afd-9169-b9f0278993cc",
+      "confidence": 1.0,
+      "color_hex": "#f9b0bd",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "2a713aa6-3b8f-4afd-9169-b9f0278993cc",
+      "confidence": 1.0,
+      "color_hex": "#f9b0bd",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "41d69482-a73f-4279-b77c-a12633ca449a",
+      "confidence": 1.0,
+      "color_hex": "#603ba0",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "41d69482-a73f-4279-b77c-a12633ca449a",
+      "confidence": 1.0,
+      "color_hex": "#603ba0",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "RAPID Plus Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "c269923f-aa04-441a-ac98-918c292ada5d",
+      "confidence": 1.0,
+      "color_hex": "#dac7a0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Black",
+      "diameter_mm": 1.75,
+      "external_ref": "e0e9ffcc-120a-469e-a5bf-504474720cd1",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "f1782808-13b0-429e-9074-b983e2238cab",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "c361e17a-cfb4-4b96-bccf-be07f3ba5710",
+      "confidence": 1.0,
+      "color_hex": "#a45b27",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Green",
+      "diameter_mm": 1.75,
+      "external_ref": "0b9462f6-5f0d-47c3-a1ac-578eb97786b1",
+      "confidence": 1.0,
+      "color_hex": "#4dff64",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "ec3b68e9-2af9-44c4-8995-aa34e287ceb9",
+      "confidence": 1.0,
+      "color_hex": "#9f9f9f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "865126b2-3095-4a51-9abf-f67d7565199c",
+      "confidence": 1.0,
+      "color_hex": "#ff8e24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Red",
+      "diameter_mm": 1.75,
+      "external_ref": "2d004edb-203f-4c2b-b97a-0e45ca96fc93",
+      "confidence": 1.0,
+      "color_hex": "#de1619",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "7f33ea83-ad66-4708-acd1-7c0523d93c33",
+      "confidence": 1.0,
+      "color_hex": "#6f727e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus White",
+      "diameter_mm": 1.75,
+      "external_ref": "972fd358-0725-4721-8113-372c278d6021",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RAPID Plus Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "91653779-d1c2-4136-9ed4-f5182192021f",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "31f2f57a-cacd-4531-a073-e3e71f6e3052",
+      "confidence": 1.0,
+      "color_hex": "#ea140e",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "31f2f57a-cacd-4531-a073-e3e71f6e3052",
+      "confidence": 1.0,
+      "color_hex": "#ea140e",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "Sea Green",
+      "diameter_mm": 1.75,
+      "external_ref": "873990d3-0909-4c15-b58e-8d7b3e25fac5",
+      "confidence": 1.0,
+      "color_hex": "#08b690",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Sea Green",
+      "diameter_mm": 1.75,
+      "external_ref": "873990d3-0909-4c15-b58e-8d7b3e25fac5",
+      "confidence": 1.0,
+      "color_hex": "#08b690",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "eaaed424-cefc-48b1-9855-c19eab7bb191",
+      "confidence": 1.0,
+      "color_hex": "#949597",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "97293777-be45-41dc-a55d-ddfcd220d275",
+      "confidence": 1.0,
+      "color_hex": "#32d0ec",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "97293777-be45-41dc-a55d-ddfcd220d275",
+      "confidence": 1.0,
+      "color_hex": "#32d0ec",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "Space Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80102e39-6940-4c30-a73f-5f981e155793",
+      "confidence": 1.0,
+      "color_hex": "#7e7e7e",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Space Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80102e39-6940-4c30-a73f-5f981e155793",
+      "confidence": 1.0,
+      "color_hex": "#7e7e7e",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "Sunflower Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "bf4bdc66-8f77-4038-a963-f69f88784652",
+      "confidence": 1.0,
+      "color_hex": "#fbb404",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "5e1ebf91-0953-49c9-b34b-df6524af76ff",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "5e1ebf91-0953-49c9-b34b-df6524af76ff",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle?variant=51123687457044"
+    },
+    {
+      "color_name": "Turquoise Green",
+      "diameter_mm": 1.75,
+      "external_ref": "23a6c3ad-a7c1-4ced-b8fa-a5a2252c7409",
+      "confidence": 1.0,
+      "color_hex": "#23c5c5",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-basic-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7a58f7cb-e2f3-4a5f-b98b-647ae0c1c7b2",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7a58f7cb-e2f3-4a5f-b98b-647ae0c1c7b2",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "7a58f7cb-e2f3-4a5f-b98b-647ae0c1c7b2",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 3000,
+      "purchase_url": "https://eu.elegoo.com/products/orangestorm-giga-large-3kg-filament"
+    },
+    {
+      "color_name": "Wood Color",
+      "diameter_mm": 1.75,
+      "external_ref": "38a91892-6e17-488f-be64-b90e5d74d0c0",
+      "confidence": 1.0,
+      "color_hex": "#b19870",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Wood filled",
+      "diameter_mm": 1.75,
+      "external_ref": "7fa0f971-af69-4ad8-9702-07ceb74cb169",
+      "confidence": 1.0,
+      "color_hex": "#9d8058",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "66aa7579-b1eb-4f1f-845a-0a875332430c",
+      "confidence": 1.0,
+      "color_hex": "#fbec07",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "66aa7579-b1eb-4f1f-845a-0a875332430c",
+      "confidence": 1.0,
+      "color_hex": "#fbec07",
+      "weight_g": 250,
+      "purchase_url": "https://eu.elegoo.com/products/multi-color-250-g-filament-bundle"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0dc63d39-c92c-430c-a06d-3a4b088e1d55",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

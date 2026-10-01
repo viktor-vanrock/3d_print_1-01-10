@@ -1,0 +1,389 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sovb-3d.fil-pla",
+  "vendor": {
+    "slug": "sovb-3d",
+    "name": "SOVB 3D",
+    "website": "https://sovb3d.com",
+    "origin": "FR"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Fil PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Beige Nacré",
+      "diameter_mm": 1.75,
+      "external_ref": "91825758-4ab7-4f13-a2c1-656ef11f9941",
+      "confidence": 1.0,
+      "color_hex": "#e6ba83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Beige Nacré Alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "610dfea9-d7e1-4d66-97c2-f545d764e48c",
+      "confidence": 1.0,
+      "color_hex": "#e9cb9b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blanc",
+      "diameter_mm": 1.75,
+      "external_ref": "6b15a16f-cbac-4c64-8f5f-32c70ba5141e",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu ciel",
+      "diameter_mm": 1.75,
+      "external_ref": "5b8a6c18-fd14-4336-a3d7-c4bb6477956c",
+      "confidence": 1.0,
+      "color_hex": "#0378d0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Nacré",
+      "diameter_mm": 1.75,
+      "external_ref": "40f981bf-b288-4d68-aafe-5a7158a95ce8",
+      "confidence": 1.0,
+      "color_hex": "#0066d9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Nacré Alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "a0814e45-1c2c-473a-a659-e86760164e74",
+      "confidence": 1.0,
+      "color_hex": "#2941bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu nuit",
+      "diameter_mm": 1.75,
+      "external_ref": "25f8d3e9-2401-4141-9580-33559c413e61",
+      "confidence": 1.0,
+      "color_hex": "#1e2c73",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu nuit alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "84a5eedd-1d8b-42e1-a477-9b09d039688b",
+      "confidence": 1.0,
+      "color_hex": "#09048e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "e3d8abf8-b9ef-4cf2-917e-166bac132a98",
+      "confidence": 1.0,
+      "color_hex": "#39b9db",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "d6c68b05-e38a-4852-8295-bd9d0732c5c9",
+      "confidence": 1.0,
+      "color_hex": "#6b5f37",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gris aluminium",
+      "diameter_mm": 1.75,
+      "external_ref": "1452a781-2f49-43c3-988e-8cb09c2ff068",
+      "confidence": 1.0,
+      "color_hex": "#b1b3c5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gris argent",
+      "diameter_mm": 1.75,
+      "external_ref": "736f19c7-d816-4de8-b22b-27ba0bdf5ac3",
+      "confidence": 1.0,
+      "color_hex": "#737282",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jaune",
+      "diameter_mm": 1.75,
+      "external_ref": "63c4a060-16ce-48ea-a954-008cf6ed873a",
+      "confidence": 1.0,
+      "color_hex": "#fffb00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marron clair",
+      "diameter_mm": 1.75,
+      "external_ref": "ef6886bb-b5a3-4f2f-94f9-16b46e68afd6",
+      "confidence": 1.0,
+      "color_hex": "#ad7032",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marron foncé",
+      "diameter_mm": 1.75,
+      "external_ref": "2fd3b386-e596-470b-913e-bc63378e529a",
+      "confidence": 1.0,
+      "color_hex": "#a45b27",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Naturel",
+      "diameter_mm": 1.75,
+      "external_ref": "4fa4be9b-c259-4421-baed-ae77748aaf50",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noir",
+      "diameter_mm": 1.75,
+      "external_ref": "6291d7cb-ec37-4644-b228-59e8eae5feea",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noir alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "6991582f-9cc1-4fc0-a7fc-83d92fd82ea9",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noir Bleuté",
+      "diameter_mm": 1.75,
+      "external_ref": "4fb9da72-72bc-437c-9350-c7bfb83e0395",
+      "confidence": 1.0,
+      "color_hex": "#232834",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Fluo",
+      "diameter_mm": 1.75,
+      "external_ref": "70d65d06-c7db-4e60-8bfe-1478bff39587",
+      "confidence": 1.0,
+      "color_hex": "#eb5405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rouge",
+      "diameter_mm": 1.75,
+      "external_ref": "93401a95-8eac-4cda-846e-ee3285e30211",
+      "confidence": 1.0,
+      "color_hex": "#ab2614",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rouge alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "cce1f063-9c2e-4bee-b5d2-174a2d092db4",
+      "confidence": 1.0,
+      "color_hex": "#ab2614",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Fluo",
+      "diameter_mm": 1.75,
+      "external_ref": "361f1fae-c9bf-4714-8673-df00a557f1da",
+      "confidence": 1.0,
+      "color_hex": "#69ee00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert mai",
+      "diameter_mm": 1.75,
+      "external_ref": "7ed7f41d-4aa3-43d9-9a93-65b5912d3d1e",
+      "confidence": 1.0,
+      "color_hex": "#06b100",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert mai alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "fc76099e-7685-4f9b-a674-a05da177b552",
+      "confidence": 1.0,
+      "color_hex": "#509f45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert militaire",
+      "diameter_mm": 1.75,
+      "external_ref": "9d500940-3fa9-4452-8496-ffbf7570e540",
+      "confidence": 1.0,
+      "color_hex": "#6e8451",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Nacré",
+      "diameter_mm": 1.75,
+      "external_ref": "bdb51bfe-cfb1-4d6d-9678-a6de52c6e91f",
+      "confidence": 1.0,
+      "color_hex": "#23668c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Nacré Alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "1a71d563-0e3d-46b6-9d3d-fe41b3c7fcc0",
+      "confidence": 1.0,
+      "color_hex": "#23668c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "183b000e-0b47-4671-8374-a74c3dec17f3",
+      "confidence": 1.0,
+      "color_hex": "#963877",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "e612cf75-aefc-4334-bd67-c50079ccd690",
+      "confidence": 1.0,
+      "color_hex": "#7f068c",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/PLA/fil_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a5525a88-8015-4f99-aeed-402f103008cb",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/PLA/fil_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "eryone.asa-cf",
+  "vendor": {
+    "slug": "eryone",
+    "name": "Eryone",
+    "website": "https://eryone3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA-CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.05,
+      "diameter_tolerance_mm": 0.03,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "66292c95-6630-4395-ba81-88cde78f63d1",
+      "confidence": 1.0,
+      "color_hex": "#363636",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/asa-filament"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ac83ebef-9b48-448b-bc41-aa0e3e9f401a",
+      "confidence": 1.0,
+      "color_hex": "#3e6895",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/asa-filament"
+    },
+    {
+      "color_name": "Dark gray",
+      "diameter_mm": 1.75,
+      "external_ref": "9be811c3-c38b-4bf7-8ec8-57511774adc6",
+      "confidence": 1.0,
+      "color_hex": "#4f4f4f",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/asa-filament"
+    },
+    {
+      "color_name": "Olive green",
+      "diameter_mm": 1.75,
+      "external_ref": "640af9e0-bd71-4fef-b3ec-7d3b132025e0",
+      "confidence": 1.0,
+      "color_hex": "#657952",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/asa-filament"
+    },
+    {
+      "color_name": "Purple red",
+      "diameter_mm": 1.75,
+      "external_ref": "6e592bc7-1297-4a8e-a8f1-c728ed86b2b6",
+      "confidence": 1.0,
+      "color_hex": "#80464e",
+      "weight_g": 1000,
+      "purchase_url": "https://eryone3d.com/products/asa-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ASA/asa_cf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ASA/asa_cf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ASA/asa_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ASA/asa_cf/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/eryone/ASA/asa_cf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a197c19c-237d-4cca-be4a-5e81698b2d79",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/eryone/ASA/asa_cf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,85 @@
+{
+ "slug": "history.johann-kossel",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Kossel",
+ "snapshot": "sha256:c6874900231b52b6ae0cf7055404264b0f91d7170568c06cd9be5eca22ba0255",
+ "page_chars": 13951,
+ "fields": {
+  "bed_surface": "glass",
+  "screen_type": "LCD",
+  "firmware": "Marlin",
+  "summary": "Kossel — это параметрический дельта-принтер с экструзионной рамой, созданный в 2012 году в Сиэтле, США. Это устройство позиционируется как простое в сборке решение (менее 200 деталей) с высокой скоростью печати и автоматической калибровкой поверхности.",
+  "unique_features": [
+   "Параметрическая дельта-конструкция",
+   "Скорость печати 320 мм/с во всех направлениях",
+   "Повторяемость лучше 0.03 мм (30 микрон)",
+   "Полностью автоматическая калибровка поверхности печати (autoleveling)",
+   "Масса энд-эффектора с хотендом менее 50 граммов",
+   "Опциональная возможность сборки в портативную версию (Traveling RepRap) для ручной клади"
+  ],
+  "limitations": [
+   "Поверхность печати не нагревается (unheated round glass)",
+   "Поверхность печати не движется (doesn't move)"
+  ],
+  "kinematics": "delta",
+  "max_speed_mms": 320,
+  "nozzle_diameters": [
+   0.5
+  ],
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "bowden",
+  "extruder_count": 1,
+  "power_w": 60,
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ],
+  "release_year": 2012
+ },
+ "evidence": {
+  "bed_surface": "Print surface: unheated round glass",
+  "screen_type": "1x 12V 5A LCD screen power supply",
+  "firmware": "M119 for these should show... in Marlin/pins.h",
+  "summary": "Kossel is a parametric delta robot 3D printer, built in 2012 by Johann in Seattle, USA... Simplicity: fewer than 200 parts.",
+  "unique_features": "Speed: 320 mm/s in all 3 directions.",
+  "limitations": "Print surface: unheated round glass, doesn't move.",
+  "kinematics": "Delta robot 3D printer",
+  "max_speed_mms": "Speed: 320 mm/s in all 3 directions.",
+  "nozzle_diameters": "1x J-Head Hotend 0.5mm",
+  "filament_diameter_mm": "1x J-Head Hotend 0.5mm for 1.75mm filament",
+  "extruder_type": "Bowden",
+  "extruder_count": "1x hotend_fan.stl which also serves to attach the hotend.",
+  "power_w": "1x 12V 5A LCD screen power supply",
+  "materials_supported": "Note, a PLA End effector may bend... An ABS end effector is less likely to bend.",
+  "release_year": "Kossel is a parametric delta robot 3D printer, built in 2012 by Johann in Seattle, USA"
+ },
+ "unconfirmed": [
+  "materials_supported",
+  "power_w"
+ ],
+ "unique_features": [
+  "Параметрическая дельта-конструкция",
+  "Скорость печати 320 мм/с во всех направлениях",
+  "Повторяемость лучше 0.03 мм (30 микрон)",
+  "Полностью автоматическая калибровка поверхности печати (autoleveling)",
+  "Масса энд-эффектора с хотендом менее 50 граммов",
+  "Опциональная возможность сборки в портативную версию (Traveling RepRap) для ручной клади"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "delta"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T04:12:37Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Kossel",
+ "maker": "Johann",
+ "model": "Kossel",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Kossel"
+}

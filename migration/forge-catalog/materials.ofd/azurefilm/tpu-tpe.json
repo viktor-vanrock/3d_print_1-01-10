@@ -1,0 +1,175 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "azurefilm.tpu-tpe",
+  "vendor": {
+    "slug": "azurefilm",
+    "name": "AzureFilm",
+    "website": "https://www.azurefilm.com/",
+    "origin": "SL"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU/TPE",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.2,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black 85A",
+      "diameter_mm": 1.75,
+      "external_ref": "ae5516ba-cf6d-42d6-a4f7-216df660424d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Black 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "5fa01c2e-c873-498e-b801-e5f1e4c2f0c3",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Blue 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "ebd3bc68-0d65-4a7d-9a91-a84e4572310f",
+      "confidence": 1.0,
+      "color_hex": "#0e62d4",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Neon orange 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "9b8befb8-e723-4ca6-88b6-c237ff261178",
+      "confidence": 1.0,
+      "color_hex": "#ff9800",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Neon yellow 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "b743bbc2-01b8-4505-86e3-999d74aaafe3",
+      "confidence": 1.0,
+      "color_hex": "#cddc39",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Red 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "93bcfc64-13ae-4116-a9ba-866a801b1170",
+      "confidence": 1.0,
+      "color_hex": "#d50000",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Transparent 85A",
+      "diameter_mm": 1.75,
+      "external_ref": "bf08972f-b103-4cdf-a91d-9acf05a5344f",
+      "confidence": 1.0,
+      "color_hex": "#fcfde7",
+      "weight_g": 300
+    },
+    {
+      "color_name": "Transparent 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "f75de9f5-e97e-44a0-8071-29e40c9e563e",
+      "confidence": 1.0,
+      "color_hex": "#fcfde7",
+      "weight_g": 300
+    },
+    {
+      "color_name": "White 85A",
+      "diameter_mm": 1.75,
+      "external_ref": "7b7718de-1729-4adc-a6c2-560dd180a42a",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 300
+    },
+    {
+      "color_name": "White 98A",
+      "diameter_mm": 1.75,
+      "external_ref": "5407667b-a3dd-4349-b156-6ead7d5c320e",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 300
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/TPU/tpu_tpe/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/TPU/tpu_tpe/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/TPU/tpu_tpe/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/TPU/tpu_tpe/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/TPU/tpu_tpe/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/azurefilm/TPU/tpu_tpe/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "59fafa7c-229a-4a2f-be9e-95bbe88d08dc",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/azurefilm/TPU/tpu_tpe/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

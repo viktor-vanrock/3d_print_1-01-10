@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.pla-pro",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA PRO",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "5afe3fa8-839d-4993-8afd-fe80c16223f3",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5062-primaselect-pla-pro-filament-750-g-sort/"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "594f6020-7414-4131-818a-91828462827d",
+      "confidence": 1.0,
+      "color_hex": "#2196f3",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5064-primaselect-pla-pro-filament-750-g-blaa/"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "e87f71ab-47ec-433d-b46b-142ab3541bd5",
+      "confidence": 1.0,
+      "color_hex": "#9e9e9e",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5065-primaselect-pla-pro-filament-750-g-graa/"
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "1e26e111-f504-4d91-bfb3-af8d6f819cd3",
+      "confidence": 1.0,
+      "color_hex": "#c5c7c4",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5066-primaselect-pla-pro-filament-750-g-lysegraa/"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c9e872d9-80a1-45d4-8a58-887b0639e254",
+      "confidence": 1.0,
+      "color_hex": "#d50000",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5063-primaselect-pla-pro-filament-750-g-roed/"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "9d641ba6-5238-4220-a367-e4599743b7f6",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/392-pla-filament/5060-primaselect-pla-pro-filament-750-g-hvid/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/pla_pro/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/pla_pro/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PLA/pla_pro/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "86f840d8-3c31-4cc0-892a-ba45fa2a7b84",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PLA/pla_pro/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

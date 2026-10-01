@@ -1,0 +1,635 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.pla",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 205,
+      "nozzle_temp_max_c": 225,
+      "bed_temp_min_c": 40,
+      "bed_temp_max_c": 60,
+      "chamber_temp_c": 20,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Anthracite Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "141eb6dc-91a9-406c-ac9d-3caa4797620f",
+      "confidence": 1.0,
+      "color_hex": "#3f4647",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-anthracite-grey-1kg/"
+    },
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f6c90b9f-0a00-41b1-b9fb-b2503320af8e",
+      "confidence": 1.0,
+      "color_hex": "#5e6345",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-army-green-1kg/"
+    },
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f6c90b9f-0a00-41b1-b9fb-b2503320af8e",
+      "confidence": 1.0,
+      "color_hex": "#5e6345",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-army-green-2kg/"
+    },
+    {
+      "color_name": "Azure Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a9b7cfad-6d6e-4921-bce8-08ab03ab6831",
+      "confidence": 1.0,
+      "color_hex": "#0082ad",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-azure-blue-1kg/"
+    },
+    {
+      "color_name": "Azure Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "a9b7cfad-6d6e-4921-bce8-08ab03ab6831",
+      "confidence": 1.0,
+      "color_hex": "#0082ad",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-azure-blue-2kg/"
+    },
+    {
+      "color_name": "Blood Red",
+      "diameter_mm": 1.75,
+      "external_ref": "27d79021-1039-4108-aceb-8a65c78a2750",
+      "confidence": 1.0,
+      "color_hex": "#990303",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chalky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "e42ac896-a58d-4b77-a7dc-aea1ea9ce32e",
+      "confidence": 1.0,
+      "color_hex": "#6f9aaa",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-chalky-blue-1kg/"
+    },
+    {
+      "color_name": "Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bae0ad05-b570-422c-82d0-72d6a35e09e5",
+      "confidence": 1.0,
+      "color_hex": "#3d3e3d",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-prusa-galaxy-black-1kg/"
+    },
+    {
+      "color_name": "Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "bae0ad05-b570-422c-82d0-72d6a35e09e5",
+      "confidence": 1.0,
+      "color_hex": "#3d3e3d",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-prusa-galaxy-black-2kg/"
+    },
+    {
+      "color_name": "Galaxy Green",
+      "diameter_mm": 1.75,
+      "external_ref": "32df1bfd-59e2-4ba1-a2a7-357d679e9eb6",
+      "confidence": 1.0,
+      "color_hex": "#42663a",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-galaxy-green-1kg/"
+    },
+    {
+      "color_name": "Galaxy Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "0b34a1b8-ae79-4b64-a1be-7f611a7c2f6c",
+      "confidence": 1.0,
+      "color_hex": "#b5b6b8",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-gravity-grey-2kg/"
+    },
+    {
+      "color_name": "Galaxy Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "02e8825c-3f6f-4c87-a3fa-f9dc1c769f30",
+      "confidence": 1.0,
+      "color_hex": "#453a72",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-galaxy-purple-1kg/"
+    },
+    {
+      "color_name": "Galaxy Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "02e8825c-3f6f-4c87-a3fa-f9dc1c769f30",
+      "confidence": 1.0,
+      "color_hex": "#453a72",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-galaxy-purple-2kg/"
+    },
+    {
+      "color_name": "Galaxy Red",
+      "diameter_mm": 1.75,
+      "external_ref": "6a9bc934-837e-48d2-a0df-604ce3bc59ed",
+      "confidence": 1.0,
+      "color_hex": "#b13941",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-galaxy-red-1kg/"
+    },
+    {
+      "color_name": "Galaxy Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "a68ba861-aacc-4da2-a02f-987edbb60809",
+      "confidence": 1.0,
+      "color_hex": "#999aa0",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-galaxy-silver-1kg/"
+    },
+    {
+      "color_name": "Gentleman's Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "a3eb91f7-75bb-42df-814f-7f444f1aa8e7",
+      "confidence": 1.0,
+      "color_hex": "#354047",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-gentleman-s-grey-1kg/"
+    },
+    {
+      "color_name": "Gravity Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "e081978e-3854-4010-9310-e434be00a34f",
+      "confidence": 1.0,
+      "color_hex": "#9fa4a8",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-gravity-grey-1kg/"
+    },
+    {
+      "color_name": "Gravity Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "e081978e-3854-4010-9310-e434be00a34f",
+      "confidence": 1.0,
+      "color_hex": "#9fa4a8",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f681e0b3-1d83-446b-bf77-dd49ed1e0e25",
+      "confidence": 1.0,
+      "color_hex": "#393c3c",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-jet-black-1kg/"
+    },
+    {
+      "color_name": "Jet Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f681e0b3-1d83-446b-bf77-dd49ed1e0e25",
+      "confidence": 1.0,
+      "color_hex": "#393c3c",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-jet-black-2kg/"
+    },
+    {
+      "color_name": "Lime Green",
+      "diameter_mm": 1.75,
+      "external_ref": "79a526f2-ad36-4913-8675-bf4de58b8491",
+      "confidence": 1.0,
+      "color_hex": "#a7b853",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-lime-green-blend-970g/"
+    },
+    {
+      "color_name": "Lipstick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "8b8ffea6-2f6d-40a7-b035-60f48ac5e1f0",
+      "confidence": 1.0,
+      "color_hex": "#bf2b2b",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-lipstick-red-1kg/"
+    },
+    {
+      "color_name": "Lipstick Red",
+      "diameter_mm": 1.75,
+      "external_ref": "8b8ffea6-2f6d-40a7-b035-60f48ac5e1f0",
+      "confidence": 1.0,
+      "color_hex": "#bf2b2b",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-lipstick-red-2kg/"
+    },
+    {
+      "color_name": "Marble Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "ea30b811-d238-4621-b1e4-b8aa270453e1",
+      "confidence": 1.0,
+      "color_hex": "#b0b4b5",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-marble-grey-1kg/"
+    },
+    {
+      "color_name": "Ms. Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "c0f16157-5aeb-438e-b791-6d2308c49859",
+      "confidence": 1.0,
+      "color_hex": "#e34a94",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-ms-pink-blend-970g/"
+    },
+    {
+      "color_name": "My Silverness",
+      "diameter_mm": 1.75,
+      "external_ref": "404af889-729c-4f31-97d8-b6947817d12a",
+      "confidence": 1.0,
+      "color_hex": "#aeb8c1",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-my-silverness-blend-970g/"
+    },
+    {
+      "color_name": "Mystic Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "857ff4c5-ff11-4c91-b87f-35fbe79ca4cc",
+      "confidence": 1.0,
+      "color_hex": "#482e31",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mystic Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f35c3dd6-5da1-403e-846b-278154cb0303",
+      "confidence": 1.0,
+      "color_hex": "#555846",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "f0acf343-3497-417a-ab9f-719c98b28380",
+      "confidence": 1.0,
+      "color_hex": "#dee2da",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-natural-1kg/"
+    },
+    {
+      "color_name": "Noctua Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "a6032439-3bac-4dd2-ae13-1fcbab6ac2ba",
+      "confidence": 1.0,
+      "color_hex": "#e7ceb4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noctua Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "e287982f-3b3a-4452-b88c-34e4e54cfe91",
+      "confidence": 1.0,
+      "color_hex": "#653525",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Oh My Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "e2c64141-8292-4791-a988-288f3a3403a2",
+      "confidence": 1.0,
+      "color_hex": "#ce9f2e",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-oh-my-gold-blend-970g/"
+    },
+    {
+      "color_name": "Opal Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c2fc76f7-b15a-4611-8c4e-ce9bb69a5495",
+      "confidence": 1.0,
+      "color_hex": "#065b4a",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-opal-green-1kg/"
+    },
+    {
+      "color_name": "Pearl Mouse",
+      "diameter_mm": 1.75,
+      "external_ref": "a5b10dcf-4a4d-4201-a60c-0014e2ed24fe",
+      "confidence": 1.0,
+      "color_hex": "#a49d8e",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pearl-mouse-1kg/"
+    },
+    {
+      "color_name": "Pearl White",
+      "diameter_mm": 1.75,
+      "external_ref": "cd8df811-2f00-4ebc-aed5-8e1a0d434b3c",
+      "confidence": 1.0,
+      "color_hex": "#d0d7d8",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pearl-white-blend-970g/"
+    },
+    {
+      "color_name": "Pineapple Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "d66a9301-15a7-4092-bf5d-b0845148c167",
+      "confidence": 1.0,
+      "color_hex": "#efd00b",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pineapple-yellow-1kg/"
+    },
+    {
+      "color_name": "Pistachio Green",
+      "diameter_mm": 1.75,
+      "external_ref": "5eff0b3a-17c8-4fe8-b8d2-19c2442e0ab2",
+      "confidence": 1.0,
+      "color_hex": "#93a683",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pistachio-green-1kg/"
+    },
+    {
+      "color_name": "Pristine White",
+      "diameter_mm": 1.75,
+      "external_ref": "154a438e-dff1-418d-858f-5f2bfcc02318",
+      "confidence": 1.0,
+      "color_hex": "#e6eaef",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-1kg/"
+    },
+    {
+      "color_name": "Pristine White",
+      "diameter_mm": 1.75,
+      "external_ref": "154a438e-dff1-418d-858f-5f2bfcc02318",
+      "confidence": 1.0,
+      "color_hex": "#e6eaef",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-pristine-white-2kg-2/"
+    },
+    {
+      "color_name": "Prusa Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f78fe0bd-fa3b-4bc4-b1d6-63efaad96b12",
+      "confidence": 1.0,
+      "color_hex": "#3d3e3d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Prusa Galaxy Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f78fe0bd-fa3b-4bc4-b1d6-63efaad96b12",
+      "confidence": 1.0,
+      "color_hex": "#3d3e3d",
+      "weight_g": 2000
+    },
+    {
+      "color_name": "Prusa Green",
+      "diameter_mm": 1.75,
+      "external_ref": "fedc5e9e-5626-440f-a852-c1c316f33e43",
+      "confidence": 1.0,
+      "color_hex": "#00c389",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Prusa Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "a9472dfd-5182-4bca-a43d-682387ddb3d8",
+      "confidence": 1.0,
+      "color_hex": "#fe6e32",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-prusa-orange-1kg/"
+    },
+    {
+      "color_name": "Prusa Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "a9472dfd-5182-4bca-a43d-682387ddb3d8",
+      "confidence": 1.0,
+      "color_hex": "#fe6e32",
+      "weight_g": 2000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-prusa-orange-2kg/"
+    },
+    {
+      "color_name": "Prusa Pro Green",
+      "diameter_mm": 1.75,
+      "external_ref": "2ada9a2b-85d8-476a-92df-3a2c16204ffc",
+      "confidence": 1.0,
+      "color_hex": "#85e2c3",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-prusa-pro-green-1kg/"
+    },
+    {
+      "color_name": "r Algae Pigment",
+      "diameter_mm": 1.75,
+      "external_ref": "ca1116e0-2034-4442-91bb-dff530e2efe5",
+      "confidence": 1.0,
+      "color_hex": "#674b42",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "r Corn Pigment",
+      "diameter_mm": 1.75,
+      "external_ref": "8d859fef-651d-44fe-be60-9cf4c1c50110",
+      "confidence": 1.0,
+      "color_hex": "#b37b47",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "r Risotto Pigment",
+      "diameter_mm": 1.75,
+      "external_ref": "17c9ee92-a265-4be5-82fa-58421b6d762d",
+      "confidence": 1.0,
+      "color_hex": "#ccc9c0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "r Wine Pigment",
+      "diameter_mm": 1.75,
+      "external_ref": "2e252917-b3a1-48d6-bfac-d31dccb35cdf",
+      "confidence": 1.0,
+      "color_hex": "#5e4940",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled",
+      "diameter_mm": 1.75,
+      "external_ref": "4a996b21-aa54-4bca-b76f-71d4ff655f80",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "8c34b513-ab21-4c59-b4d7-b53ba9324b74",
+      "confidence": 1.0,
+      "color_hex": "#00518f",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-royal-blue-blend-970g/"
+    },
+    {
+      "color_name": "Simply Green",
+      "diameter_mm": 1.75,
+      "external_ref": "9e57ff1a-464e-4713-a01c-3affae7d3b35",
+      "confidence": 1.0,
+      "color_hex": "#70a641",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-simply-green-1kg/"
+    },
+    {
+      "color_name": "Vanilla White",
+      "diameter_mm": 1.75,
+      "external_ref": "7f857c89-1d56-4e8d-b475-5f5734798a4d",
+      "confidence": 1.0,
+      "color_hex": "#d9d4c6",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-vanilla-white-1kg/"
+    },
+    {
+      "color_name": "Viva La Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "dd2501cc-e7c0-4cc3-a96f-d25b8f302490",
+      "confidence": 1.0,
+      "color_hex": "#b38e3f",
+      "weight_g": 970,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-pla-viva-la-bronze-blend-970g/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "chamber_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "chamber_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#chamber_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "31c10e4c-3674-4940-b661-ca3a0e29be0d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

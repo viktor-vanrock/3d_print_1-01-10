@@ -1,0 +1,176 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "panchroma.starlight-pla",
+  "vendor": {
+    "slug": "panchroma",
+    "name": "Panchroma",
+    "website": "https://polymaker.com/panchroma/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Starlight PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.19,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aurora",
+      "diameter_mm": 1.75,
+      "external_ref": "434a44f0-ccbe-41d0-b7bb-c0a5a5e94800",
+      "confidence": 1.0,
+      "color_hex": "#d5ecc9",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Comet",
+      "diameter_mm": 1.75,
+      "external_ref": "cc13e4dc-4489-4d93-9399-26e12a63a418",
+      "confidence": 1.0,
+      "color_hex": "#89a5a6",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Jupiter",
+      "diameter_mm": 1.75,
+      "external_ref": "695ce00c-aab0-4ea1-af53-5a2b08b81620",
+      "confidence": 1.0,
+      "color_hex": "#e4a86e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Mars",
+      "diameter_mm": 1.75,
+      "external_ref": "d6a3b482-37fa-4a8f-a170-5941ad3c5b37",
+      "confidence": 1.0,
+      "color_hex": "#fb6a41",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Mercury",
+      "diameter_mm": 1.75,
+      "external_ref": "a4c177e5-bf5c-4c59-8b27-2232c55b5857",
+      "confidence": 1.0,
+      "color_hex": "#c5c3d5",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Meteor",
+      "diameter_mm": 1.75,
+      "external_ref": "49f6d069-e433-43b0-9946-70dc5a9cd6d1",
+      "confidence": 1.0,
+      "color_hex": "#9aa98a",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Nebula",
+      "diameter_mm": 1.75,
+      "external_ref": "5e5116cc-76da-4576-8879-6a25f6adccd2",
+      "confidence": 1.0,
+      "color_hex": "#cbb2bd",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Neptune",
+      "diameter_mm": 1.75,
+      "external_ref": "192b7719-a839-49cc-a00e-1fed0c32b8f9",
+      "confidence": 1.0,
+      "color_hex": "#4daac5",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    },
+    {
+      "color_name": "Twilight",
+      "diameter_mm": 1.75,
+      "external_ref": "b2705423-5a4e-44d6-a0ed-1b2be6dd2c1f",
+      "confidence": 1.0,
+      "color_hex": "#1e3445",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/panchroma-starlight"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/starlight_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/starlight_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/starlight_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/starlight_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/starlight_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/panchroma/PLA/starlight_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "451eee6e-b7ec-4155-a9cb-0e0c4b408a18",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/panchroma/PLA/starlight_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

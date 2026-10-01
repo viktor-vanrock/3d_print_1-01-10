@@ -1,0 +1,136 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "snapmaker.tpu-90a",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker",
+    "website": "https://snapmaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU 90A",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.12,
+      "diameter_tolerance_mm": 0.05,
+      "shore_a": 90,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f5162816-b16d-4e74-81f6-62197ebf8878",
+      "confidence": 1.0,
+      "color_hex": "#16161a",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/tpu-90a-filament-1kg"
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "a998bcf8-1e80-43b9-98bd-2e68b4670167",
+      "confidence": 1.0,
+      "color_hex": "#b2b4b2",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/tpu-90a-filament-1kg"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "ba290c46-0b97-40b1-a2da-dff11a9e8d92",
+      "confidence": 1.0,
+      "color_hex": "#f8f8f5",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/tpu-90a-filament-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "shore_a": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/TPU/tpu_90a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/TPU/tpu_90a/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/TPU/tpu_90a/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "shore_a": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/TPU/tpu_90a/filament.json#shore_hardness_a",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/TPU/tpu_90a/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6c1ff4a0-cbc3-4f57-bfb4-dd131bb8c344",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/TPU/tpu_90a/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

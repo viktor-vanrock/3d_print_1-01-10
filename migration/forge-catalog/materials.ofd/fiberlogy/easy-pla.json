@@ -1,0 +1,517 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "fiberlogy.easy-pla",
+  "vendor": {
+    "slug": "fiberlogy",
+    "name": "Fiberlogy",
+    "website": "https://fiberlogy.com/",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Easy PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 200,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Alien Green",
+      "diameter_mm": 1.75,
+      "external_ref": "2b40a8f1-ace1-4719-ae27-4c4eb12e5204",
+      "confidence": 1.0,
+      "color_hex": "#1a564b",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Aurora",
+      "diameter_mm": 1.75,
+      "external_ref": "6ced13dc-b27e-44d9-8f65-cd44167a4990",
+      "confidence": 1.0,
+      "color_hex": "#004149",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Beige",
+      "diameter_mm": 1.75,
+      "external_ref": "985ff761-b06f-4044-ae34-9848a2f6548a",
+      "confidence": 1.0,
+      "color_hex": "#e0c6ad",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f1c08dc7-1105-4b01-b042-880f27814f2d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "be2558a7-b00d-45dd-9917-0afd24e6c3e1",
+      "confidence": 1.0,
+      "color_hex": "#0092bc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Brick",
+      "diameter_mm": 1.75,
+      "external_ref": "86e7b06a-1aa5-4122-a060-12827e1b304b",
+      "confidence": 1.0,
+      "color_hex": "#bf4427",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "5a48692d-4cf0-41a7-b367-6278058efae1",
+      "confidence": 1.0,
+      "color_hex": "#915905",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Burgundy",
+      "diameter_mm": 1.75,
+      "external_ref": "2d61ff3b-3218-4bdf-8de8-150142ad5b56",
+      "confidence": 1.0,
+      "color_hex": "#971b2f",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Candy",
+      "diameter_mm": 1.75,
+      "external_ref": "7c902097-d43d-46b0-9572-44601aa0c9f0",
+      "confidence": 1.0,
+      "color_hex": "#ed1536",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Graphite",
+      "diameter_mm": 1.75,
+      "external_ref": "50ea9cb1-8314-4e72-aa4b-cbd87546f2f8",
+      "confidence": 1.0,
+      "color_hex": "#53565a",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "fcd2e479-ae57-40d9-8c55-40f6560d627e",
+      "confidence": 1.0,
+      "color_hex": "#bbbcbc",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "86b4405d-bbb4-4462-a2d6-8f394019c7db",
+      "confidence": 1.0,
+      "color_hex": "#6cbc3a",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "b3511e22-fe2c-41b4-a3be-cca76eab062b",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Inox",
+      "diameter_mm": 1.75,
+      "external_ref": "855faf06-e0ac-47c7-9a7a-d5c9886372dd",
+      "confidence": 1.0,
+      "color_hex": "#969aa3",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Inox Steel",
+      "diameter_mm": 1.75,
+      "external_ref": "7a7740ea-df7b-474c-b4f7-b70be84e8a11",
+      "confidence": 1.0,
+      "color_hex": "#b6b9bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Irish Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b5db0197-fc02-4b45-8c3c-272fd5c7936b",
+      "confidence": 1.0,
+      "color_hex": "#0b6a2f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Green",
+      "diameter_mm": 1.75,
+      "external_ref": "213d1d2a-2de5-424e-b1db-d635b3a88d3b",
+      "confidence": 1.0,
+      "color_hex": "#a7d500",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Midnight Sky",
+      "diameter_mm": 1.75,
+      "external_ref": "e09b7f73-0744-423c-adb7-85d6d1123ab0",
+      "confidence": 1.0,
+      "color_hex": "#212c78",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Navy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "92d1da40-895a-471e-a426-19617f2ebcc8",
+      "confidence": 1.0,
+      "color_hex": "#10069f",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Neon Green",
+      "diameter_mm": 1.75,
+      "external_ref": "6b48ef42-0b6e-4fba-a267-26c004f75d8c",
+      "confidence": 1.0,
+      "color_hex": "#7cef83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "ee73fb06-9af5-4420-acb9-846986aa1329",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "e7e5a8a9-5bc2-4ff6-b477-32a14087ef6e",
+      "confidence": 1.0,
+      "color_hex": "#ebff57",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Old Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "c1e2dfce-e8c1-42a0-8171-5a68345bb770",
+      "confidence": 1.0,
+      "color_hex": "#bc983f",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Onyx",
+      "diameter_mm": 1.75,
+      "external_ref": "9db6737d-6fe7-4db9-9c79-980fd1193c2c",
+      "confidence": 1.0,
+      "color_hex": "#262626",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Onyx Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "4b40bf77-5f47-490e-8d0f-24c660d19784",
+      "confidence": 1.0,
+      "color_hex": "#6e5e2f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "34d827d6-8762-46e1-90ce-6cdddc7dbc1a",
+      "confidence": 1.0,
+      "color_hex": "#ff6900",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Pastel Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "7073ef57-028e-4c2e-a898-9a6d126d837e",
+      "confidence": 1.0,
+      "color_hex": "#bed9eb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Lilac",
+      "diameter_mm": 1.75,
+      "external_ref": "7966f106-ddd9-416d-b6b2-fbaeb7e15867",
+      "confidence": 1.0,
+      "color_hex": "#d6abff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Mint",
+      "diameter_mm": 1.75,
+      "external_ref": "a3a9d229-67c4-4735-a233-424f7b31ed40",
+      "confidence": 1.0,
+      "color_hex": "#adebb3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "e2f0e999-d7a9-46c1-a97d-94fdf7e47449",
+      "confidence": 1.0,
+      "color_hex": "#ffcccd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "272f64ff-b293-4f29-b41c-bc3dd586947f",
+      "confidence": 1.0,
+      "color_hex": "#fce575",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "f80e8f52-c82d-4197-b1df-76edeb94632c",
+      "confidence": 1.0,
+      "color_hex": "#e80ba2",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "376ae002-7f02-4d7c-af48-91d40fbf0cae",
+      "confidence": 1.0,
+      "color_hex": "#6f1aaf",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "f834c49a-e3c2-4c30-9944-94bcc3e7b7df",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Red Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "c5859ac1-abdf-4712-a46a-830c1e0792de",
+      "confidence": 1.0,
+      "color_hex": "#f83f28",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Ruby Red",
+      "diameter_mm": 1.75,
+      "external_ref": "02a00f8a-e7c1-410b-bd08-391b4fb992aa",
+      "confidence": 1.0,
+      "color_hex": "#950b27",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Sandstone",
+      "diameter_mm": 1.75,
+      "external_ref": "5756fc6a-d70e-4e4d-9f7c-26731e46aae8",
+      "confidence": 1.0,
+      "color_hex": "#e2c077",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin",
+      "diameter_mm": 1.75,
+      "external_ref": "a47ecf51-4f91-4874-9e31-d264f669f32a",
+      "confidence": 1.0,
+      "color_hex": "#e5c7bb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin 2",
+      "diameter_mm": 1.75,
+      "external_ref": "570e3b46-6c83-44f1-be18-03d5678a675f",
+      "confidence": 1.0,
+      "color_hex": "#e6ba83",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Skin 3",
+      "diameter_mm": 1.75,
+      "external_ref": "239a3f7f-be07-404d-861a-c738fbbd8ede",
+      "confidence": 1.0,
+      "color_hex": "#b58971",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Spectra Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1c4ae439-cd7b-471e-ae4f-da222420979a",
+      "confidence": 1.0,
+      "color_hex": "#2c4f66",
+      "weight_g": 850
+    },
+    {
+      "color_name": "True Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "4cb2738f-9793-4ea4-83e4-56272d2b8927",
+      "confidence": 1.0,
+      "color_hex": "#016aaf",
+      "weight_g": 850
+    },
+    {
+      "color_name": "True Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "029a6f89-7ff6-4f89-85e1-caa3ef097e79",
+      "confidence": 1.0,
+      "color_hex": "#e5c100",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Vertigo",
+      "diameter_mm": 1.75,
+      "external_ref": "587a40ab-eb12-4bf5-a9e9-dae9decf1760",
+      "confidence": 1.0,
+      "color_hex": "#282828",
+      "weight_g": 850
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "d0795b29-4eae-45af-9ea2-7c1ec3adb89e",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 850
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "79152836-fa16-4c33-a996-b2c5edf9be83",
+      "confidence": 1.0,
+      "color_hex": "#ffd700",
+      "weight_g": 850
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/fiberlogy/PLA/easy_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a3c3406a-5d2d-4f73-a807-59bd2c2757a2",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/fiberlogy/PLA/easy_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

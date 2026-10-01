@@ -1,0 +1,447 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "ultimaker.method-xl",
+  "vendor": {
+    "slug": "ultimaker",
+    "name": "UltiMaker"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Method XL",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 410,
+      "y": 320,
+      "z": 319.9
+    },
+    "chamber_active": true,
+    "heated_bed": true,
+    "max_accel_mms2": 9000,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "profile_first_seen": "2023-10-31",
+    "bed_surface": "Flexible build plate",
+    "screen_type": "5\" full-color capacitive touchscreen",
+    "summary": "UltiMaker Method XL — это промышленный FDM-принтер с активным подогревом камеры до 100 °C, предназначенный для создания крупных прототипов из инженерного ABS и ASA. Устройство позиционируется как решение для инжиниринга и прототипирования, имитирующего литье под давлением, с возможностью печати сложных геометрий с использованием водорастворимых поддержек.",
+    "unique_features": [
+      "Активно нагреваемая камера до 100 °C (система VECT)",
+      "Двойная экструзия с поддержкой водорастворимых поддержек RapidRinse",
+      "Внешний герметичный кейс для материалов с контролем влажности",
+      "Интегрированные HEPA-фильтр и фильтр с активированным углем",
+      "Сменные экструдеры (1C, 2XA, 1XA) для разных материалов",
+      "Гибкая нагреваемая печатная платформа"
+    ],
+    "target_use": [
+      "Инженерные прототипы из ABS и ASA",
+      "Прототипирование, имитирующее литье под давлением",
+      "Производство крупных деталей с высокой точностью",
+      "Промышленное применение (автомобильная отрасль, оборона, производство)"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 105,
+    "max_chamber_temp_c": 100,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 655,
+      "d": 565,
+      "h": 815
+    },
+    "weight_kg": 56.5,
+    "connectivity": [
+      "Wi-Fi",
+      "Ethernet",
+      "USB"
+    ],
+    "enclosed": true,
+    "air_filter": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_methodxl.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "chamber_active": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_methodxl.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_methodxl.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/445/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/445/cura/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_methodxl.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_chamber_temp_c": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "air_filter": {
+      "source": "ultimaker-official",
+      "source_url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_methodxl.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "chamber_active": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_methodxl.def.json#overrides.machine_heated_build_volume",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_methodxl.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/445/cura/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "out/models/445/cura/machine_profiles.json#variants",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "resources/definitions/ultimaker_methodxl.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flexible build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "5\" (12.7 cm) full-color capacitive touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Method XL delivers precise, engineering-grade ABS prototypes, powered by its heated build plate and chamber. It guarantees strong layer adhesion, enables intricate geometries with water-soluble supports, and safeguards air quality with its built-in HEPA filter.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Actively heated chamber up to 100 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Injection-molding prototyping.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Maximum extruder temperature ... 300 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Maximum heated build plate temp ... 105 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Maximum heated chamber temperature ... 100 °C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "0.4 mm nozzle: 100 - 400 micron",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "0.4 mm nozzle: 100 - 400 micron",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Compatible filament diameter ... 1.75 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Direct drive extruders",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer: W 655 x D 565 x H 815 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer: 56.5 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Print with one click via Wi-Fi or Ethernet connection ... Or export your print job to a USB stick.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "safeguards air quality with its built-in HEPA filter",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Both a HEPA filter and an activated carbon filter are integrated into the machine",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/445/cura/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/445/cura/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s2",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/ultimaker_methodxl.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/ultimaker_methodxl.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s3",
+      "source": "ultimaker-official",
+      "url": "https://ultimaker.com/3d-printers/method-series/ultimaker-method-xl/",
+      "tier": "vendor",
+      "snapshot": "sha256:7b9a5ef5760ab41ff384357138cf6568050123401a594c7759d8cc8a3a87646f",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:08:09Z",
+      "publisher": "UltiMaker"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "kinematics",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "build_volume",
+      "class": "build_volume|vendor-vs-structural",
+      "values": [
+        {
+          "value": {
+            "shape": "rectangular",
+            "x": 410,
+            "y": 320,
+            "z": 319.9
+          },
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 305,
+            "y": 305,
+            "z": 320,
+            "shape": "rectangular"
+          },
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

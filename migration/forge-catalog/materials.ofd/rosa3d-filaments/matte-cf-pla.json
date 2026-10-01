@@ -1,0 +1,275 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "rosa3d-filaments.matte-cf-pla",
+  "vendor": {
+    "slug": "rosa3d-filaments",
+    "name": "ROSA3D Filaments",
+    "website": "https://rosa3d.pl",
+    "origin": "PL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Matte PLA CF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "fillers": [
+        "carbon-fiber"
+      ],
+      "needs_hardened_nozzle": true,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Avocado Guacamole",
+      "diameter_mm": 1.75,
+      "external_ref": "201bbf32-d586-4eeb-98ce-52e63887a16f",
+      "confidence": 1.0,
+      "color_hex": "#70a641",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue Jeans",
+      "diameter_mm": 1.75,
+      "external_ref": "52726346-6d24-45d1-81f6-89ebabb66ee8",
+      "confidence": 1.0,
+      "color_hex": "#9db6d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Carbon Black",
+      "diameter_mm": 1.75,
+      "external_ref": "843ce005-6a71-4fbc-86dc-72ebc1fcd54b",
+      "confidence": 1.0,
+      "color_hex": "#3e413f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fired Brick",
+      "diameter_mm": 1.75,
+      "external_ref": "b6a99e30-87c5-4fb3-be29-0bac7247bb0f",
+      "confidence": 1.0,
+      "color_hex": "#8b3a3a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grape Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "4051d999-b288-4bf5-b54f-a1da8b765691",
+      "confidence": 1.0,
+      "color_hex": "#8d5984",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Hibiscus Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "86f8cc73-8242-4a4e-8150-be0bee4e4187",
+      "confidence": 1.0,
+      "color_hex": "#bf5a6b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Lava Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "91e29a6e-fa12-4c23-871b-42dcb9dc3d6c",
+      "confidence": 1.0,
+      "color_hex": "#595959",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Matcha Green",
+      "diameter_mm": 1.75,
+      "external_ref": "27cd4dab-c50b-4bb9-b016-f511f7368f4e",
+      "confidence": 1.0,
+      "color_hex": "#3d9441",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Olive Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "b922a454-e10d-49af-9907-5f37fd1e3896",
+      "confidence": 1.0,
+      "color_hex": "#837e68",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Olive Green",
+      "diameter_mm": 1.75,
+      "external_ref": "c09fa703-497a-4b4c-8bb7-710b9b2694b8",
+      "confidence": 1.0,
+      "color_hex": "#748c45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stone Cold Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "c7dea480-8157-4cdc-a264-60d4ac420b9f",
+      "confidence": 1.0,
+      "color_hex": "#a2aaad",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stone warm gray",
+      "diameter_mm": 1.75,
+      "external_ref": "55deedae-e3d5-4410-bc5e-6f55115562f8",
+      "confidence": 1.0,
+      "color_hex": "#a8b39b",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "fillers": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "needs_hardened_nozzle": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "fillers": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "needs_hardened_nozzle": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#name",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/rosa3d_filaments/PLA/matte_cf_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "1c14a290-4722-4372-9d16-c450851b0c73",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/rosa3d_filaments/PLA/matte_cf_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polylite.neon-abs",
+  "vendor": {
+    "slug": "polylite",
+    "name": "PolyLite",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Neon ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.12,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "aa32ba7f-0750-461a-9dec-d616c69e4f02",
+      "confidence": 1.0,
+      "color_hex": "#90ed74",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-neon-abs"
+    },
+    {
+      "color_name": "Magenta",
+      "diameter_mm": 1.75,
+      "external_ref": "615c1664-ce3e-478c-a868-0fc3e1cd0a99",
+      "confidence": 1.0,
+      "color_hex": "#d7025d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-neon-abs"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "711b0d4b-e75e-459b-9d59-1b7cd1e3a85b",
+      "confidence": 1.0,
+      "color_hex": "#febd1d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-neon-abs"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "048722fe-1084-4a6c-bbe8-500c0fb9d91b",
+      "confidence": 1.0,
+      "color_hex": "#feda04",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-neon-abs"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ABS/neon_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ABS/neon_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ABS/neon_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ABS/neon_abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ABS/neon_abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/ABS/neon_abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "df3e8b3e-c379-4707-8762-084afa77b218",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/ABS/neon_abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

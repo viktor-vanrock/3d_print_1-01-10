@@ -1,0 +1,69 @@
+{
+ "slug": "history.spillski",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Spillski",
+ "snapshot": "sha256:04fc15b8e7d8bb150006797b484808b57b5620d8e1d40d286b2c2d26f5f60283",
+ "page_chars": 3339,
+ "fields": {
+  "summary": "Spillski — это abandonned-проект 3D-принтера с возможностью лазерной гравировки, основанный на конструкции AluXY. Устройство позиционируется как проект с целью достижения очень высокого качества печати, используя металлические детали и сменные головы для печати и гравировки.",
+  "unique_features": [
+   "Сменные головы для печати и/или гравировки",
+   "Корпус с поликарбонатными окнами с защитой от лазера",
+   "Двухприводной экструдер Bowden от Bondtech",
+   "Горячий конец E3D V6",
+   "Нагреваемое основание, перемещающееся по оси Z",
+   "Лазерный диод 2-3W 445nm",
+   "Контроллер Smoothieboard"
+  ],
+  "limitations": [
+   "Проект заброшен (Abandoned)",
+   "Сборка контроллера Smoothieboard сложна для новичков из-за мелких SMD-компонентов",
+   "Шаговые драйверы требуют печи для пайки (reflow oven) из-за радиатора под чипом",
+   "Этернет-порт имеет нестандартную распиновку",
+   "Смешанное использование дюймов и миллиметров в документации"
+  ],
+  "kinematics": "corexy",
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "bowden",
+  "enclosed": true,
+  "heated_bed": true
+ },
+ "evidence": {
+  "summary": "The Spillski will be a cartesian printer similar to the Eustathios , ProtoForge , and Herculien . ... Release status: Abandoned ... The ultimate goal of this project is to have a very high print quality.",
+  "unique_features": "It will have interchangeable heads to print and/or engrave",
+  "limitations": "Release status: Abandoned",
+  "kinematics": "It will be CoreXY",
+  "filament_diameter_mm": "Will use 1.75mm filament",
+  "extruder_type": "It will have a bowden tube dual drive extruder",
+  "enclosed": "It will be enclosed",
+  "heated_bed": "The base will be heated"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Сменные головы для печати и/или гравировки",
+  "Корпус с поликарбонатными окнами с защитой от лазера",
+  "Двухприводной экструдер Bowden от Bondtech",
+  "Горячий конец E3D V6",
+  "Нагреваемое основание, перемещающееся по оси Z",
+  "Лазерный диод 2-3W 445nm",
+  "Контроллер Smoothieboard"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "corexy",
+  "закрытый"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T01:01:03Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Spillski",
+ "maker": "",
+ "model": "Spillski",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Spillski"
+}

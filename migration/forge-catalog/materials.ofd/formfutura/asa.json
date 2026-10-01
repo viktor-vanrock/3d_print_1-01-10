@@ -1,0 +1,536 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "formfutura.asa",
+  "vendor": {
+    "slug": "formfutura",
+    "name": "FormFutura",
+    "website": "https://formfutura.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "asa",
+    "name": "ASA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ASA ApolloX",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.11,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 280,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "min_nozzle_diameter_mm": 0.2,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "ApolloX Kevlar",
+      "diameter_mm": 1.75,
+      "external_ref": "611ce715-7dce-4b3f-a1e1-bb7d93c64fd8",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "ApolloX Kevlar Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "3fbfbdfc-a3d0-40ae-b69d-4aa4c9b64bdd",
+      "confidence": 1.0,
+      "color_hex": "#dfdfd3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "758702ca-af96-4f51-b98a-4bacc4c6ade4",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "f55e6067-9c96-4c24-843a-2434e1e35d1d",
+      "confidence": 1.0,
+      "color_hex": "#0266bb",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "f55e6067-9c96-4c24-843a-2434e1e35d1d",
+      "confidence": 1.0,
+      "color_hex": "#0266bb",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80f59700-914f-4e6a-9a56-5f54e5694e08",
+      "confidence": 1.0,
+      "color_hex": "#727376",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80f59700-914f-4e6a-9a56-5f54e5694e08",
+      "confidence": 1.0,
+      "color_hex": "#727376",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80f59700-914f-4e6a-9a56-5f54e5694e08",
+      "confidence": 1.0,
+      "color_hex": "#727376",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "80f59700-914f-4e6a-9a56-5f54e5694e08",
+      "confidence": 1.0,
+      "color_hex": "#727376",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3297ddd6-ed62-4e38-b877-5ae313fb93aa",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3297ddd6-ed62-4e38-b877-5ae313fb93aa",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3297ddd6-ed62-4e38-b877-5ae313fb93aa",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Light Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "3297ddd6-ed62-4e38-b877-5ae313fb93aa",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 1.75,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 2.85,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 2.85,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Natural",
+      "diameter_mm": 2.85,
+      "external_ref": "c1fb9fcc-d774-4577-91e1-a6123c1008c1",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "f5203e32-d430-43a8-ba6a-8fb633e9d6fb",
+      "confidence": 1.0,
+      "color_hex": "#d33d3d",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "f5203e32-d430-43a8-ba6a-8fb633e9d6fb",
+      "confidence": 1.0,
+      "color_hex": "#d33d3d",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "ReForm – rApollo Black",
+      "diameter_mm": 1.75,
+      "external_ref": "e2731744-19c3-4e92-b692-0fcf124fa693",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "ReForm – rApollo Charcoal Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "e47d2a6a-5e8e-4dda-b221-6dbc4b143115",
+      "confidence": 1.0,
+      "color_hex": "#45444a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "ReForm – rApollo White",
+      "diameter_mm": 1.75,
+      "external_ref": "4565c0e9-53b4-43e6-9a9d-dd08d17cfcbe",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Traffic Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6acde796-f562-487a-8706-4bd9d2617911",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "Traffic Yellow",
+      "diameter_mm": 2.85,
+      "external_ref": "6acde796-f562-487a-8706-4bd9d2617911",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 8000,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 750,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 2300,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 2.85,
+      "external_ref": "8f84c8b8-36c4-42f3-a76e-003c1f04d29c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 4500,
+      "purchase_url": "https://www.formfutura.com/apollox"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "min_nozzle_diameter_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "min_nozzle_diameter_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#min_nozzle_diameter",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/formfutura/ASA/asa/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6cdedbe7-8e8e-4b7c-bbea-2e86b3bfec13",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/formfutura/ASA/asa/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

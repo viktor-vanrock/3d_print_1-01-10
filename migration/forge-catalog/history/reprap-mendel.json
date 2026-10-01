@@ -1,0 +1,85 @@
+{
+ "slug": "history.reprap-mendel",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Mendel",
+ "snapshot": "sha256:87edd10991e3f15931d6731f622ff09cd9b425e5465f731db350c669e44ca9b8",
+ "page_chars": 4015,
+ "fields": {
+  "summary": "Mendel — это второй, улучшенный вариант 3D-принтера RepRap, предназначенный для самостоятельной сборки из доступных компонентов. Устройство позиционируется как настольное решение, позволяющее пользователям создавать собственные детали и крупные объекты.",
+  "unique_features": [
+   "Открытый исходный код (GPL 2)",
+   "Возможность печати собственных структурных компонентов и запасных частей",
+   "Возможность смены инструмента (Capacity for tool changing)",
+   "Улучшенное ограничение оси Z для устранения заеданий",
+   "Упрощенная сборка по сравнению с предыдущей версией Darwin"
+  ],
+  "target_use": [
+   "Создание собственных деталей (parts which it can make for itself)",
+   "Изготовление крупных объектов (make big things)",
+   "Образовательные и исследовательские цели (упоминается связь с генетикой и студентами)"
+  ],
+  "limitations": [
+   "Требуется покупка стандартных компонентов (стоимостью около €400)",
+   "Необходимость самостоятельной сборки из деталей местных поставщиков",
+   "Качество поверхности оценивается как «Fair» (Среднее/Приемлемое)"
+  ],
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 140,
+   "shape": "rectangular"
+  },
+  "positioning_accuracy_mm": 0.1,
+  "nozzle_diameters": [
+   0.5
+  ],
+  "filament_diameter_mm": 3,
+  "dimensions_mm": {
+   "w": 500,
+   "d": 400,
+   "h": 360
+  },
+  "weight_kg": 7.0,
+  "materials_supported": [
+   "PLA",
+   "HDPE",
+   "ABS"
+  ]
+ },
+ "evidence": {
+  "summary": "It's the second, improved version of RepRap: small enough to fit on your desk, but with a print volume large enough for you to make big things",
+  "unique_features": "We give this, and the designs for the machine away, free - it's all open source ( GPL 2 )",
+  "target_use": "parts which it can make for itself",
+  "limitations": "you do have to buy in some standard components from... well, whoever you want... which cost about €400",
+  "build_volume": "Build Envelope | 200 mm (W) x 200 mm (D) x 140 mm (H)",
+  "positioning_accuracy_mm": "0.1 mm positioning accuracy",
+  "nozzle_diameters": "Diameter of nozzle 0.5 mm",
+  "filament_diameter_mm": "Uses ø 3 mm filament",
+  "dimensions_mm": "Size | 500 mm (W) x 400 mm (D) x 360 mm (H)",
+  "weight_kg": "Weight | 7.0 kg",
+  "materials_supported": "Materials | PLA , HDPE, ABS & more."
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Открытый исходный код (GPL 2)",
+  "Возможность печати собственных структурных компонентов и запасных частей",
+  "Возможность смены инструмента (Capacity for tool changing)",
+  "Улучшенное ограничение оси Z для устранения заеданий",
+  "Упрощенная сборка по сравнению с предыдущей версией Darwin"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T02:49:01Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Mendel",
+ "maker": "RepRap",
+ "model": "Mendel",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Mendel"
+}

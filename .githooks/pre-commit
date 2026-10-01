@@ -1,0 +1,20 @@
+#!/bin/sh
+set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+PATH="${HOME}/.local/opt/node22/bin:/opt/homebrew/opt/node@24/bin:${HOME}/.local/bin:/opt/homebrew/bin:/usr/local/bin:${PATH}"
+export PATH
+
+if command -v pnpm >/dev/null 2>&1; then
+  exec pnpm run check:pre-commit
+fi
+
+if command -v corepack >/dev/null 2>&1; then
+  exec corepack pnpm run check:pre-commit
+fi
+
+echo "pre-commit: pnpm not found. Install pnpm or enable corepack." >&2
+exit 1
+

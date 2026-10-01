@@ -1,0 +1,80 @@
+{
+ "slug": "history.yesrap-yesrap-p2f",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/P2f",
+ "snapshot": "sha256:867db51a641582137e363e5d7102a78740aeefbbb10ba73eb00943026b9fe659",
+ "page_chars": 3536,
+ "fields": {
+  "bed_surface": "Borosilicate Glass",
+  "summary": "YesRap P2F — это 3D-принтер, разработанный в Китае на основе концепций Prusa i3, MendelMax и Ultimaker. Конструкция использует лазерную резку для фанерных и стальных деталей, что обеспечивает легкий вес и простоту сборки.",
+  "unique_features": [
+   "Лазерная резка фанерных и стальных деталей",
+   "Система линейных направляющих YesRail (Open Rail)",
+   "Сменная экструзионная насадка (Replaceable extruder nozzle)",
+   "Высокая скорость печати (200 мм/с) и перемещения (300 мм/с)",
+   "Вес 6.5 кг",
+   "Почти не требует обслуживания (no need for lubricant)"
+  ],
+  "whats_in_box": [
+   "Подогреваемая платформа с LED и датчиком температуры",
+   "Экструдер и хотенд",
+   "Стекло из боросиликатного стекла (Borosilicate Glass)",
+   "Насадка BudaschNozzle V1.1",
+   "Детали из фанеры, стали и алюминия (включая 6 направляющих YesRail)"
+  ],
+  "max_speed_mms": 200,
+  "max_travel_speed_mms": 300,
+  "extruder_type": "bowden",
+  "weight_kg": 6.5,
+  "power_w": 350,
+  "connectivity": [
+   "USB",
+   "Bluetooth",
+   "SD Card"
+  ],
+  "materials_supported": [
+   "ABS"
+  ],
+  "heated_bed": true,
+  "release_year": 2013
+ },
+ "evidence": {
+  "bed_surface": "Borosilicate Glass",
+  "summary": "YesRap P2F is a completely redesigned 3D printer, based on concepts from Prusa i3 , MendelMax , Ultimaker , Open Rail , etc.",
+  "unique_features": "The linear bearing system, based on Open Rail and MakerSlide , is also completely redesigned using laser cut steel plates",
+  "whats_in_box": "Sanguinololu 1.3A with ATmega1284P + USB or Bluetooth",
+  "max_speed_mms": "print = 200mm/s",
+  "max_travel_speed_mms": "travel = 300mm/s",
+  "extruder_type": "Bowden",
+  "weight_kg": "Light weight -------- 6.5kg",
+  "power_w": "DC Power Supply 350W",
+  "connectivity": "Sanguinololu 1.3A with ATmega1284P + USB or Bluetooth",
+  "materials_supported": "printing using ABS",
+  "heated_bed": "Heated Bed with LED and Temperature Sensor",
+  "release_year": "The expected initial public release is March 15, 2013."
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Лазерная резка фанерных и стальных деталей",
+  "Система линейных направляющих YesRail (Open Rail)",
+  "Сменная экструзионная насадка (Replaceable extruder nozzle)",
+  "Высокая скорость печати (200 мм/с) и перемещения (300 мм/с)",
+  "Вес 6.5 кг",
+  "Почти не требует обслуживания (no need for lubricant)"
+ ],
+ "via_base_model": false,
+ "tags": [],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T05:07:39Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "P2f",
+ "maker": "YesRap",
+ "model": "YesRap P2F",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/P2f"
+}

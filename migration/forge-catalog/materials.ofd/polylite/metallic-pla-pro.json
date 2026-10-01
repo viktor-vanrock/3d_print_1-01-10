@@ -1,0 +1,175 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "polylite.metallic-pla-pro",
+  "vendor": {
+    "slug": "polylite",
+    "name": "PolyLite",
+    "website": "https://polymaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Metallic PLA Pro",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "863802fd-ca2d-4813-8239-052baafa9b20",
+      "confidence": 1.0,
+      "color_hex": "#1f2021",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "60699765-0514-4a7c-8a10-ca6cff341867",
+      "confidence": 1.0,
+      "color_hex": "#0d2441",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "396e96ec-1fd0-4c80-b9ff-95ddbf9df455",
+      "confidence": 1.0,
+      "color_hex": "#926043",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Chrome",
+      "diameter_mm": 1.75,
+      "external_ref": "545c60c6-2c98-4bfd-b049-2f363c135649",
+      "confidence": 1.0,
+      "color_hex": "#5c5d66",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Dark Red",
+      "diameter_mm": 1.75,
+      "external_ref": "b10a362b-47a8-4a4c-a8ce-a5fc6214b6e3",
+      "confidence": 1.0,
+      "color_hex": "#8d352c",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "1d697603-9c7a-4ed3-80fd-5d000a8c9db4",
+      "confidence": 1.0,
+      "color_hex": "#aa6500",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    },
+    {
+      "color_name": "Magenta",
+      "diameter_mm": 1.75,
+      "external_ref": "fb3b4499-e384-4ae6-92ef-dbe8aa4e236a",
+      "confidence": 1.0,
+      "color_hex": "#743063",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "433a868c-4af0-4a4f-894e-9bc807b9c12a",
+      "confidence": 1.0,
+      "color_hex": "#2d3449",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro?variant=41019989917753"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "30c942e3-511e-43d4-be05-67182215aa67",
+      "confidence": 1.0,
+      "color_hex": "#7a838e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.polymaker.com/products/polylite-metallic-pla-pro"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/metallic_pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/metallic_pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/metallic_pla_pro/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/metallic_pla_pro/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/metallic_pla_pro/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/polylite/PLA/metallic_pla_pro/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "2e0d2795-366b-45cc-91df-ed73aac650c6",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/polylite/PLA/metallic_pla_pro/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

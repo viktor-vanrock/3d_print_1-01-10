@@ -1,0 +1,229 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "colorfabb.pha-pla",
+  "vendor": {
+    "slug": "colorfabb",
+    "name": "colorFabb",
+    "website": "https://colorfabb.com",
+    "origin": "NL"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PHA PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue grey",
+      "diameter_mm": 1.75,
+      "external_ref": "1f50ee5b-b509-4d7d-8522-29d2e66874c9",
+      "confidence": 1.0,
+      "color_hex": "#4d6383",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blueish white",
+      "diameter_mm": 1.75,
+      "external_ref": "b775dc97-6b28-4798-b0d4-5db58430726a",
+      "confidence": 1.0,
+      "color_hex": "#ccd6e2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dutch orange",
+      "diameter_mm": 1.75,
+      "external_ref": "f3806a39-7839-40c2-b783-cb7de75923bb",
+      "confidence": 1.0,
+      "color_hex": "#ff9a14",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fluorescent pink",
+      "diameter_mm": 1.75,
+      "external_ref": "b13c8ec4-54f6-413d-ade2-efa87f8ad560",
+      "confidence": 1.0,
+      "color_hex": "#e23288",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Intense green",
+      "diameter_mm": 1.75,
+      "external_ref": "0775d8dd-d0d1-4206-9680-f8b12de7fda8",
+      "confidence": 1.0,
+      "color_hex": "#9fec41",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mint turqoise",
+      "diameter_mm": 1.75,
+      "external_ref": "012c5f19-e257-4215-877e-ccaa931db97b",
+      "confidence": 1.0,
+      "color_hex": "#00b4bc",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pale gold",
+      "diameter_mm": 1.75,
+      "external_ref": "b72e5398-1b55-44aa-ac8d-9fc5fdf84030",
+      "confidence": 1.0,
+      "color_hex": "#d0bd93",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Shinning Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "71bb066d-b533-4eb7-89d7-38de1142fe11",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Standard black",
+      "diameter_mm": 1.75,
+      "external_ref": "085edd44-1e16-40b1-9cb7-c550dfb8fa3d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Standard white",
+      "diameter_mm": 1.75,
+      "external_ref": "f2e4233e-fa46-4d72-b4a1-a7bad28f99a8",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/colorfabb/PLA/pha_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "d8c87e26-16dd-4fb8-b9bf-61c4eb594777",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/colorfabb/PLA/pha_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

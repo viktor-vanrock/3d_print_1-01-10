@@ -1,0 +1,85 @@
+{
+ "slug": "history.user-boylucky-start-up-3d-delta-printer",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Startup3D",
+ "snapshot": "sha256:5509e4a5c14662bcec90ffafac7f5418895f266b276faadc74c4a50f9ed65fa7",
+ "page_chars": 5068,
+ "fields": {
+  "bed_surface": "glass",
+  "summary": "Start-Up 3D Delta printer — это небольшая дельта-принтерная установка, предназначенная для использования на рабочем столе и ориентированная на любителей без предыдущего опыта в 3D-печати. Конструкция разработана как дешевая и простая в сборке альтернатива, позволяющая пользователям изучать устройство принтера и создавать собственные улучшения.",
+  "unique_features": [
+   "Дельта-конструкция с использованием углеродных стержней (200 мм) и соединений Traxxas",
+   "Управление через Raspberry Pi 3 вместо стандартного дисплея",
+   "Использование самых дешевых компонентов (Arduino Mega 2560, Ramps 1.4, A4988) как альтернативы",
+   "Открытая конструкция для обучения и самостоятельного улучшения"
+  ],
+  "target_use": [
+   "Обучение новичков в 3D-печати",
+   "Хобби для пользователей без опыта",
+   "Создание прототипов и уникальных продуктов малыми сериями"
+  ],
+  "limitations": [
+   "Неразогретое стеклянное основание (unheated glass bed)",
+   "Ручная регулировка уровня стола (manual bed leveling)",
+   "Объем печати ограничен 160 мм в диаметре и 150 мм в высоту",
+   "Поддерживается только материал PLA",
+   "Проект находится в стадии разработки (experimental)",
+   "Требуется вытяжка (не указано явно, но implied by 'hobbyist' context, однако строго по тексту: нет явного упоминания ограничения по материалам кроме PLA и отсутствия подогрева стола)"
+  ],
+  "kinematics": "delta",
+  "max_speed_mms": 60,
+  "filament_diameter_mm": 1.75,
+  "extruder_type": "bowden",
+  "extruder_count": 1,
+  "dimensions_mm": {
+   "w": 320,
+   "d": 320,
+   "h": 520
+  },
+  "power_w": 50,
+  "materials_supported": [
+   "PLA"
+  ],
+  "heated_bed": false
+ },
+ "evidence": {
+  "bed_surface": "Unheated glass bed with thin layer of a dry glue",
+  "summary": "Start-Up 3D delta printer is a small dimension delta 3D printer designed for desktop use and intended for hobbyist without previous experience with 3D printing.",
+  "unique_features": "carbon rods (200 mm length) and traxxas joins for effector motion",
+  "target_use": "intended for hobbyist without previous experience with 3D printing",
+  "limitations": "unheated glass bed",
+  "kinematics": "Start-Up 3D delta printer",
+  "max_speed_mms": "Print speed 60mm/s",
+  "filament_diameter_mm": "Hotend E3D V6 clone with bowden extruder for 1.75mm PLA filament.",
+  "extruder_type": "Hotend E3D V6 clone with bowden extruder",
+  "extruder_count": "3 x NEMA17 stepper motor with 0.3Nm torque and 1 x NEMA17 stepper motors with 0.52Nm torque (for extruder)",
+  "dimensions_mm": "The external dimensions of the printer is 320mm, height 520mm",
+  "power_w": "Average power consumption under 50 wats.",
+  "materials_supported": "Print material - PLA",
+  "heated_bed": "Unheated glass bed"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Дельта-конструкция с использованием углеродных стержней (200 мм) и соединений Traxxas",
+  "Управление через Raspberry Pi 3 вместо стандартного дисплея",
+  "Использование самых дешевых компонентов (Arduino Mega 2560, Ramps 1.4, A4988) как альтернативы",
+  "Открытая конструкция для обучения и самостоятельного улучшения"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "delta"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:48:56Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Startup3D",
+ "maker": "User:Boylucky",
+ "model": "Start-Up 3D Delta printer",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Startup3D"
+}

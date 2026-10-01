@@ -1,0 +1,325 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "ic3d.petg",
+  "vendor": {
+    "slug": "ic3d",
+    "name": "IC3D",
+    "website": "https://ic3d.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "12ed3915-abc7-4536-b946-84267e8b13ba",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "c4676444-b02b-443e-bc24-383ae46196c2",
+      "confidence": 1.0,
+      "color_hex": "#0353ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green (Bright)",
+      "diameter_mm": 1.75,
+      "external_ref": "da4fc442-53b7-491e-a46f-13e61e6900c9",
+      "confidence": 1.0,
+      "color_hex": "#a8c600",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "783d642d-f520-4d23-adb6-733b53ae79a3",
+      "confidence": 1.0,
+      "color_hex": "#45444a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Natural (Clear)",
+      "diameter_mm": 1.75,
+      "external_ref": "eb798083-a6dd-4d98-87e5-28b6600504a1",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "PolyHex™ (Hi-Temp ) Black",
+      "diameter_mm": 1.75,
+      "external_ref": "8fc4ece8-4e29-46a5-b2ac-d5e0555f53ba",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Black",
+      "diameter_mm": 1.75,
+      "external_ref": "b8d3d501-c36f-461e-adc1-904baa9f98c1",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Natural (Clear)",
+      "diameter_mm": 1.75,
+      "external_ref": "04919b29-23af-4d57-a4e4-0f7d9d9c7bb3",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Red",
+      "diameter_mm": 1.75,
+      "external_ref": "6004f2a4-47ce-4f84-8633-e08c5cc43234",
+      "confidence": 1.0,
+      "color_hex": "#e60000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Translucent Blue Razz",
+      "diameter_mm": 1.75,
+      "external_ref": "f23d09a7-64e9-44da-b7e9-65107530b805",
+      "confidence": 1.0,
+      "color_hex": "#40719a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Translucent Cherry",
+      "diameter_mm": 1.75,
+      "external_ref": "ae8edf27-2073-46f5-b573-5e850e41bf60",
+      "confidence": 1.0,
+      "color_hex": "#c00000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Translucent Grape",
+      "diameter_mm": 1.75,
+      "external_ref": "dc3a6130-7e01-4a6f-8887-7fc61182c567",
+      "confidence": 1.0,
+      "color_hex": "#663d7e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Translucent Honey",
+      "diameter_mm": 1.75,
+      "external_ref": "dff64e23-b928-4bf9-8f98-4327bffc6cd1",
+      "confidence": 1.0,
+      "color_hex": "#ff9a14",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled Translucent Watermelon",
+      "diameter_mm": 1.75,
+      "external_ref": "b455b76e-1d06-4356-9ddf-984494f28cfa",
+      "confidence": 1.0,
+      "color_hex": "#e24749",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Recycled White",
+      "diameter_mm": 1.75,
+      "external_ref": "b62e98e5-55a4-4869-96ac-b5e73433f48c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "cb5adf33-c573-4cde-8476-9f79a0c9d222",
+      "confidence": 1.0,
+      "color_hex": "#e60000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "UV- Black",
+      "diameter_mm": 1.75,
+      "external_ref": "d716f6a9-18ae-4117-835f-7f0bb2da91ce",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "UV- Charcoal",
+      "diameter_mm": 1.75,
+      "external_ref": "9431fe93-4d82-4dab-8610-9c779dbf2e16",
+      "confidence": 1.0,
+      "color_hex": "#a49d8e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "UV- Natural (Clear)",
+      "diameter_mm": 1.75,
+      "external_ref": "d57d4cc3-7e90-4a0f-8acf-5de911a318a2",
+      "confidence": 1.0,
+      "color_hex": "#d9d8de",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "UV- White",
+      "diameter_mm": 1.75,
+      "external_ref": "74b94134-e39c-4cab-a2c3-c162d8b361d6",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "1c6a3a74-d63c-4b5d-a7c9-e05cf9821fdf",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "5ea693e8-0923-4eca-b5a4-c93e2e2958c3",
+      "confidence": 1.0,
+      "color_hex": "#ffc946",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/ic3d/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "85c7db34-e594-4f6a-9757-413c6580715f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/ic3d/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

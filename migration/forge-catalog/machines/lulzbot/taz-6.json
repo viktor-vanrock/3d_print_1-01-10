@@ -1,0 +1,335 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "lulzbot.taz-6",
+  "vendor": {
+    "slug": "lulzbot",
+    "name": "LulzBot"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Taz 6",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 280,
+      "y": 280,
+      "z": 250
+    },
+    "max_accel_mms2": 500,
+    "max_speed_mms": 500,
+    "nozzle_diameters": [
+      0.5
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2025-02-26",
+    "bed_surface": "heated PEI",
+    "auto_leveling": "Automatic Z-Axis Compensation",
+    "summary": "LulzBot TAZ 6 — это настольный 3D-принтер, позиционируемый как надежное и простое в использовании устройство для инженеров, дизайнеров, преподавателей и любителей. Он оснащен модульной системой смены экструдеров, автоматической калибровкой стола и большим рабочим объемом.",
+    "unique_features": [
+      "Модульная конструкция сменных головок (modular tool head design)",
+      "Система автоматической калибровки стола (integrated automatic bed leveling system)",
+      "Функция самоочистки сопла (self-cleaning)",
+      "Металлический хотенд LulzBot v2 (all metal LulzBot v2 HotEnd)",
+      "Подогреваемая поверхность печати из PEI (heated PEI print surface)",
+      "Открытый формат филамента (open filament format)"
+    ],
+    "whats_in_box": [
+      "Набор инструментов для печати (print tool kit)"
+    ],
+    "target_use": [
+      "Инженерия (Engineers)",
+      "Дизайн (designers)",
+      "Образование (educators)",
+      "Создание прототипов и деталей (makers, create small pieces or one large part)",
+      "Печать гибкими материалами (flexible filaments)",
+      "Многоцветная и многокомпонентная печать (two-color or multi-material 3D printing)"
+    ],
+    "max_nozzle_temp_c": 290,
+    "layer_height_min_mm": 0.05,
+    "layer_height_max_mm": 0.4,
+    "filament_diameter_mm": 2.85,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "lulzbot-official",
+      "source_url": "https://lulzbot.com/store/taz-6-product-page",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "heated PEI print surface",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Level Automatic Z-Axis Compensation",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Engineers, designers, educatiors, and makers agree: The LulzBot TAZ 6 was the most reliable, easiest to use desktop 3D printer of its day, featuring innovative self-leveling and self-cleaning, and a modular tool head design for flexible and multi-material upgrades.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "modular tool head design",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "everything you need to set up and use the LulzBot TAZ 6 is in the box, from print tool kit to printed guides.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Engineers, designers, educatiors, and makers",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Hot End Temperature 290° C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Resolution 0.05 mm - 0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Resolution 0.05 mm - 0.4 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "2.85 PolyLite PLA",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "One Year of Support and Warranty Included",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Lulzbot/machine/Lulzbot Taz 6 0.5 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/31/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/31/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "lulzbot-official",
+      "url": "https://lulzbot.com/store/taz-6-product-page",
+      "tier": "vendor",
+      "snapshot": "sha256:4b32a430ea2f3ef4d74379d60efa39db22b0134e511c4e0f9d521ccc4e23a465",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "LulzBot"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "heated_bed",
+      "kinematics",
+      "max_bed_temp_c",
+      "power_w",
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 3,
+    "quality_score": 10,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

@@ -1,0 +1,506 @@
+import { Global, Inject, Injectable, Module } from "@nestjs/common";
+import { ConfigModule } from "@nestjs/config";
+import { APP_FILTER, APP_GUARD, APP_INTERCEPTOR, APP_PIPE } from "@nestjs/core";
+import type { NestExpressApplication } from "@nestjs/platform-express";
+import { SignJWT } from "jose";
+import { randomUUID } from "node:crypto";
+import type { Pool } from "pg";
+import { afterAll, beforeAll, describe, expect, it } from "vitest";
+import { UserId, type UserId as UserIdType } from "../../_kernel/brandedIds.ts";
+import { ANALYTICS_PORT } from "../../analytics/public/index.ts";
+import { PROFILE_AUTH_PORT, type NewUserSeed, type ProfileAuthPort, type SessionProfile } from "../../profile/public/index.ts";
+import { SANCTIONS_READ_PORT } from "../../sanctions/public/index.ts";
+import { createNestApp } from "../../../nest/bootstrap.ts";
+import { SessionVerifierModule } from "../../../nest/auth/session-verifier.module.ts";
+import { AuthGuard } from "../../../nest/auth/auth.guard.ts";
+import { DATABASE_POOL } from "../../../nest/database/database.constants.ts";
+import { DatabaseModule } from "../../../nest/database/database.module.ts";
+import { ApiExceptionFilter } from "../../../nest/errors/api-exception.filter.ts";
+import { CorrelationInterceptor } from "../../../nest/observability/correlation.interceptor.ts";
+import { RequestContext } from "../../../nest/observability/request-context.ts";
+import { RuntimeLogger } from "../../../nest/observability/runtime-logger.ts";
+import { MetricsModule } from "../../../nest/observability/metrics.module.ts";
+import { createApiValidationPipe } from "../../../nest/validation/api-validation.pipe.ts";
+import { AuthModule } from "../auth.module.ts";
+import { identifierHash } from "../infrastructure/auth-crypto.ts";
+import { hashPassword } from "../infrastructure/password-hash.ts";
+import { Permissions } from "../../permissions/public/index.ts";
+import { FEED_AGENT_AUTH_PORT } from "../../feed/public/index.ts";
+
+@Injectable()
+class TestProfileAuthPort implements ProfileAuthPort {
+  constructor(@Inject(DATABASE_POOL) private readonly pool: Pool) {}
+
+  async findSessionUser(userId: UserIdType): Promise<SessionProfile | null> {
+    const result = await this.pool.query<{
+      id: string;
+      username: string;
+      display_name: string | null;
+      avatar_url: string | null;
+      handle_confirmed: boolean;
+      role: "user" | "researcher";
+    }>(
+      `select id, username, display_name, avatar_url, handle_confirmed, role
+       from users where id = $1 and status = 'active'`,
+      [userId],
+    );
+    const row = result.rows[0];
+    return row === undefined
+      ? null
+      : {
+          id: UserId(row.id),
+          username: row.username,
+          displayName: row.display_name,
+          gender: null,
+          birthYear: null,
+          avatarUrl: row.avatar_url,
+          handleConfirmed: row.handle_confirmed,
+          role: row.role,
+      };
+  }
+
+  async loadOwnerAuthState(userId: UserIdType): Promise<{ readonly status: "active" | "restricted" | "deleted"; readonly administrativeState: "active" | "suspended" | "blocked"; readonly sessionVersion: number } | null> {
+    const result = await this.pool.query<{ status: "active" | "restricted" | "deleted"; administrative_state: "active" | "suspended" | "blocked"; session_version: number }>(`select status, administrative_state, session_version from users where id = $1`, [userId]);
+    const row = result.rows[0];
+    return row === undefined ? null : { status: row.status, administrativeState: row.administrative_state, sessionVersion: row.session_version };
+  }
+
+  async bumpSessionVersion(userId: UserIdType): Promise<boolean> {
+    return (await this.pool.query(`update users set session_version = session_version + 1 where id = $1`, [userId])).rowCount !== 0;
+  }
+
+  async createUserWithFreeHandle(seed: NewUserSeed): Promise<UserIdType> {
+    const result = await this.pool.query<{ id: string }>(`insert into users (username, display_name, avatar_url) values ($1, $2, $3) returning id`, [
+      seed.handle,
+      seed.displayName,
+      seed.avatarUrl,
+    ]);
+    return UserId(result.rows[0]!.id);
+  }
+
+  async upsertDevUser(): Promise<SessionProfile | null> {
+    const result = await this.pool.query<{ id: string }>(
+      `insert into users (username, display_name, handle_confirmed)
+       values ('devuser', 'DEV Reviewer', true)
+       on conflict (username) do update set display_name = excluded.display_name
+       returning id`,
+    );
+    return this.findSessionUser(UserId(result.rows[0]!.id));
+  }
+}
+
+@Global()
+@Module({
+  imports: [DatabaseModule],
+  providers: [
+    TestProfileAuthPort,
+    { provide: PROFILE_AUTH_PORT, useExisting: TestProfileAuthPort },
+    { provide: SANCTIONS_READ_PORT, useValue: { findActiveForUser: async (): Promise<null> => null, findActiveForUserTx: async (): Promise<null> => null } },
+    { provide: ANALYTICS_PORT, useValue: { emitEvent: (): Promise<void> => Promise.resolve() } },
+    { provide: FEED_AGENT_AUTH_PORT, useValue: { verifyAgentContentToken: (): Promise<null> => Promise.resolve(null) } },
+  ],
+  exports: [PROFILE_AUTH_PORT, ANALYTICS_PORT, FEED_AGENT_AUTH_PORT],
+})
+class AuthTestPortsModule {}
+
+@Module({
+  imports: [ConfigModule.forRoot({ isGlobal: true, ignoreEnvFile: true }), MetricsModule, SessionVerifierModule, DatabaseModule, AuthTestPortsModule, AuthModule],
+  providers: [
+    RequestContext,
+    RuntimeLogger,
+    { provide: APP_GUARD, useClass: AuthGuard },
+    { provide: APP_INTERCEPTOR, useClass: CorrelationInterceptor },
+    { provide: APP_FILTER, useClass: ApiExceptionFilter },
+    { provide: APP_PIPE, useFactory: createApiValidationPipe },
+  ],
+})
+class AuthTestModule {}
+
+const JWT_SECRET = "nest-auth-domain-test-secret";
+const HMAC_KEY = "nest-auth-hmac-test-secret";
+const ENCRYPTION_KEY = Buffer.alloc(32, 7).toString("base64");
+let app: NestExpressApplication;
+let baseUrl: string;
+const originalEnvironment = {
+  JWT_SECRET: process.env.JWT_SECRET,
+  AUTH_HMAC_KEY: process.env.AUTH_HMAC_KEY,
+  AUTH_ENCRYPTION_KEY: process.env.AUTH_ENCRYPTION_KEY,
+  AUTH_DEV_BYPASS: process.env.AUTH_DEV_BYPASS,
+  NODE_ENV: process.env.NODE_ENV,
+};
+
+function restoreEnvironment(name: keyof typeof originalEnvironment): void {
+  const value = originalEnvironment[name];
+  if (value === undefined) delete process.env[name];
+  else process.env[name] = value;
+}
+
+describe("Nest auth domain migration", () => {
+  beforeAll(async () => {
+    process.env.JWT_SECRET = JWT_SECRET;
+    process.env.AUTH_HMAC_KEY = HMAC_KEY;
+    process.env.AUTH_ENCRYPTION_KEY = ENCRYPTION_KEY;
+    process.env.NODE_ENV = "test";
+    delete process.env.AUTH_DEV_BYPASS;
+    app = await createNestApp(AuthTestModule);
+    await app.listen(0, "127.0.0.1");
+    const address = (app.getHttpServer() as { address(): string | { port: number } | null }).address();
+    if (address === null || typeof address === "string") throw new Error("Nest auth test server did not bind");
+    baseUrl = `http://127.0.0.1:${address.port}`;
+  });
+
+  afterAll(async () => {
+    await app?.close();
+    restoreEnvironment("JWT_SECRET");
+    restoreEnvironment("AUTH_HMAC_KEY");
+    restoreEnvironment("AUTH_ENCRYPTION_KEY");
+    restoreEnvironment("AUTH_DEV_BYPASS");
+    restoreEnvironment("NODE_ENV");
+  });
+
+  it("uses the versioned unauthorized envelope for an absent session", async () => {
+    const response = await fetch(`${baseUrl}/auth/session`);
+    expect(response.status).toBe(401);
+    const body = (await response.json()) as { error: { code: string; requestId: string } };
+    expect(body.error.code).toBe("auth.unauthorized.v1");
+    expect(body.error.requestId).toBe(response.headers.get("x-request-id"));
+  });
+
+  it("returns data capabilities derived from active permission grants", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const username = `capabilities.${Date.now()}`;
+    const user = await database.query<{ id: string }>(`insert into users (username) values ($1) returning id`, [username]);
+    const userId = user.rows[0]?.id;
+    if (userId === undefined) throw new Error("test user was not created");
+    await database.query(
+      `insert into permission_grants (user_id, permission, granted_by, reason) values ($1, $2, $1, $3)`,
+      [userId, Permissions.CATALOG_EDIT_ANY, "integration test"],
+    );
+    const sessionId = randomUUID();
+    await database.query(`insert into browser_sessions(id,user_id,expires_at) values($1,$2,now()+interval '5 minutes')`, [sessionId, userId]);
+    const token = await new SignJWT({ username, sv: 1 })
+      .setProtectedHeader({ alg: "HS256" })
+      .setSubject(userId)
+      .setJti(sessionId)
+      .setExpirationTime("5m")
+      .sign(new TextEncoder().encode(JWT_SECRET));
+
+    try {
+      const response = await fetch(`${baseUrl}/auth/session`, { headers: { authorization: `Bearer ${token}` } });
+      expect(response.status).toBe(200);
+      await expect(response.json()).resolves.toMatchObject({
+        user: { id: userId, capabilities: ["data.materials.manage"] },
+      });
+    } finally {
+      await database.query(`delete from permission_grants where user_id = $1`, [userId]);
+      await database.query(`delete from users where id = $1`, [userId]);
+    }
+  });
+
+  it("preserves logout status and clears the production-shaped session cookie", async () => {
+    const response = await fetch(`${baseUrl}/auth/logout`, { method: "POST" });
+    expect(response.status).toBe(200);
+    await expect(response.json()).resolves.toEqual({ ok: true });
+    expect(response.headers.get("set-cookie")).toContain("portal_session=");
+  });
+
+  it("revokes only the current browser session on logout", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const username = `logout.${Date.now()}`;
+    const password = "logout-current-password";
+    const user = await database.query<{ id: string }>(`insert into users (username) values ($1) returning id`, [username]);
+    try {
+      await database.query(`insert into user_password_credentials (user_id, password_hash) values ($1, $2)`, [user.rows[0]!.id, await hashPassword(password)]);
+      const login = async () => fetch(`${baseUrl}/auth/password`, { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ username, password }) });
+      const first = await login();
+      const second = await login();
+      const firstCookie = first.headers.get("set-cookie");
+      const secondCookie = second.headers.get("set-cookie");
+      expect(firstCookie === null || secondCookie === null).toBe(false);
+
+      const logout = await fetch(`${baseUrl}/auth/logout`, { method: "POST", headers: { cookie: firstCookie ?? "" } });
+      expect(logout.status).toBe(200);
+      expect((await fetch(`${baseUrl}/auth/session`, { headers: { cookie: firstCookie ?? "" } })).status).toBe(401);
+      expect((await fetch(`${baseUrl}/auth/session`, { headers: { cookie: secondCookie ?? "" } })).status).toBe(200);
+    } finally {
+      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+    }
+  });
+
+  it("removes revoked and expired admin portal grants from the next session projection", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const username = `admin-capability.${Date.now()}`;
+    const user = await database.query<{ id: string }>(`insert into users (username) values ($1) returning id`, [username]);
+    const userId = user.rows[0]?.id;
+    if (userId === undefined) throw new Error("test user was not created");
+    const grant = await database.query<{ id: string }>(
+      `insert into permission_grants (user_id, permission, granted_by, reason) values ($1,$2,$1,$3) returning id`,
+      [userId, Permissions.ADMIN_PORTAL_ACCESS, "integration test"],
+    );
+    const grantId = grant.rows[0]?.id;
+    if (grantId === undefined) throw new Error("test grant was not created");
+    const sessionId = randomUUID();
+    await database.query(`insert into browser_sessions(id,user_id,expires_at) values($1,$2,now()+interval '5 minutes')`, [sessionId, userId]);
+    const token = await new SignJWT({ username, sv: 1 })
+      .setProtectedHeader({ alg: "HS256" })
+      .setSubject(userId)
+      .setJti(sessionId)
+      .setExpirationTime("5m")
+      .sign(new TextEncoder().encode(JWT_SECRET));
+    const readCapabilities = async (): Promise<readonly string[]> => {
+      const response = await fetch(`${baseUrl}/auth/session`, { headers: { authorization: `Bearer ${token}` } });
+      expect(response.status).toBe(200);
+      const body = (await response.json()) as { user: { capabilities: readonly string[] } };
+      return body.user.capabilities;
+    };
+
+    try {
+      await expect(readCapabilities()).resolves.toContain("admin.portal.access");
+      await database.query(`update permission_grants set revoked_at=now(),revoked_by=$1,revoke_reason='integration test' where id=$2`, [userId, grantId]);
+      await expect(readCapabilities()).resolves.not.toContain("admin.portal.access");
+      await database.query(
+        `update permission_grants set revoked_at=null,revoked_by=null,revoke_reason=null,granted_at=now()-interval '2 minutes',expires_at=now()-interval '1 minute' where id=$1`,
+        [grantId],
+      );
+      await expect(readCapabilities()).resolves.not.toContain("admin.portal.access");
+    } finally {
+      await database.query(`delete from permission_grants where user_id=$1`, [userId]);
+      await database.query(`delete from users where id=$1`, [userId]);
+    }
+  });
+
+  it("requires a session, clears the cookie, and revokes the current token on logout-all", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const username = `logoutall.${Date.now()}`;
+    const password = "logout-all-password";
+    const passwordHash = await hashPassword(password);
+    const user = await database.query<{ id: string }>(`insert into users (username) values ($1) returning id`, [username]);
+    try {
+      await database.query(`insert into user_password_credentials (user_id, password_hash) values ($1, $2)`, [user.rows[0]!.id, passwordHash]);
+
+      const unauthenticated = await fetch(`${baseUrl}/auth/logout-all`, { method: "POST" });
+      expect(unauthenticated.status).toBe(401);
+
+      const login = await fetch(`${baseUrl}/auth/password`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+      expect(login.status).toBe(200);
+      const cookie = login.headers.get("set-cookie");
+      expect(cookie).toContain("portal_session=");
+
+      const logoutAll = await fetch(`${baseUrl}/auth/logout-all`, { method: "POST", headers: { cookie: cookie! } });
+      expect(logoutAll.status).toBe(200);
+      await expect(logoutAll.json()).resolves.toEqual({ ok: true });
+      expect(logoutAll.headers.get("set-cookie")).toContain("portal_session=;");
+
+      const session = await fetch(`${baseUrl}/auth/session`, { headers: { cookie: cookie! } });
+      expect(session.status).toBe(401);
+    } finally {
+      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+    }
+  });
+
+  it("preserves PlagID redirects and native-app intent cookie", async () => {
+    const start = await fetch(`${baseUrl}/auth/plagid/start?app=1`, { redirect: "manual" });
+    expect(start.status).toBe(302);
+    expect(start.headers.get("location")).toContain("https://auth.plag.space/login?redirect=");
+    expect(start.headers.get("set-cookie")).toContain("plagid_app=1");
+
+    const callback = await fetch(`${baseUrl}/auth/plagid/callback?reason=access_denied`, {
+      headers: { cookie: "plagid_app=1" },
+      redirect: "manual",
+    });
+    expect(callback.status).toBe(302);
+    expect(callback.headers.get("location")).toBe("ultradevice://auth?error=access_denied");
+  });
+
+  it("preserves PlagID invalid-token 401 with the versioned auth envelope", async () => {
+    const originalSecret = process.env.PLAGID_EXTERNAL_TOKEN_SECRET;
+    process.env.PLAGID_EXTERNAL_TOKEN_SECRET = "plagid-test-secret";
+    try {
+      const response = await fetch(`${baseUrl}/auth/plagid/callback?token=not-a-jwt`);
+      expect(response.status).toBe(401);
+      await expect(response.json()).resolves.toMatchObject({ error: { code: "auth.unauthorized.v1" } });
+    } finally {
+      if (originalSecret === undefined) delete process.env.PLAGID_EXTERNAL_TOKEN_SECRET;
+      else process.env.PLAGID_EXTERNAL_TOKEN_SECRET = originalSecret;
+    }
+  });
+
+  it.each(["start", "callback"])("keeps SberID %s at 501 with the versioned error envelope", async (route) => {
+    const response = await fetch(`${baseUrl}/auth/sberid/${route}`);
+    expect(response.status).toBe(501);
+    const body = (await response.json()) as { error: { code: string; requestId: string } };
+    expect(body.error.code).toBe("auth.sberid_not_implemented.v1");
+    expect(body.error.requestId).toBe(response.headers.get("x-request-id"));
+  });
+
+  it("keeps the dev bypass invisible unless both safety conditions pass", async () => {
+    const response = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
+    expect(response.status).toBe(404);
+    await expect(response.json()).resolves.toMatchObject({ error: { code: "http.not_found.v1" } });
+  });
+
+  it("issues the idempotent developer session only when the non-production bypass is explicit", async () => {
+    process.env.NODE_ENV = "development";
+    process.env.AUTH_DEV_BYPASS = "true";
+    const database = app.get<Pool>(DATABASE_POOL);
+    try {
+      const first = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
+      const second = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
+      expect(first.status).toBe(200);
+      expect(second.status).toBe(200);
+      const firstBody = (await first.json()) as { user: { id: string } };
+      const secondBody = (await second.json()) as { user: { id: string } };
+      expect(firstBody.user.id).toBe(secondBody.user.id);
+      expect(first.headers.get("set-cookie")).toContain("portal_session=");
+    } finally {
+      await database.query(`delete from users where username = 'devuser'`);
+      process.env.NODE_ENV = "test";
+      delete process.env.AUTH_DEV_BYPASS;
+    }
+  });
+
+  it("issues a session only for a matching local password credential", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const username = `admin.${Date.now()}`;
+    const password = "integration-admin-password";
+    const passwordHash = await hashPassword(password);
+    const user = await database.query<{ id: string }>(`insert into users (username) values ($1) returning id`, [username]);
+    try {
+      await database.query(`insert into user_password_credentials (user_id, password_hash) values ($1, $2)`, [user.rows[0]!.id, passwordHash]);
+
+      const denied = await fetch(`${baseUrl}/auth/password`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ username, password: "wrong-password" }),
+      });
+      expect(denied.status).toBe(401);
+
+      const allowed = await fetch(`${baseUrl}/auth/password`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ username, password }),
+      });
+      expect(allowed.status).toBe(200);
+      await expect(allowed.json()).resolves.toMatchObject({ ok: true, user: { username } });
+      expect(allowed.headers.get("set-cookie")).toContain("portal_session=");
+    } finally {
+      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+    }
+  });
+
+  it("rate-limits repeated password guesses for the same username", async () => {
+    const originalLimit = process.env.RATE_LIMIT_AUTH_PASSWORD_USERNAME_PER_MIN;
+    process.env.RATE_LIMIT_AUTH_PASSWORD_USERNAME_PER_MIN = "1";
+    const username = `missing.${Date.now()}`;
+    try {
+      const request = () =>
+        fetch(`${baseUrl}/auth/password`, {
+          method: "POST",
+          headers: { "content-type": "application/json" },
+          body: JSON.stringify({ username, password: "wrong-password" }),
+        });
+      expect((await request()).status).toBe(401);
+      expect((await request()).status).toBe(429);
+    } finally {
+      if (originalLimit === undefined) delete process.env.RATE_LIMIT_AUTH_PASSWORD_USERNAME_PER_MIN;
+      else process.env.RATE_LIMIT_AUTH_PASSWORD_USERNAME_PER_MIN = originalLimit;
+    }
+  });
+
+  it("does not share the password fingerprint bucket across usernames", async () => {
+    const originalLimit = process.env.RATE_LIMIT_AUTH_PASSWORD_FINGERPRINT_PER_MIN;
+    process.env.RATE_LIMIT_AUTH_PASSWORD_FINGERPRINT_PER_MIN = "1";
+    const suffix = Date.now();
+    try {
+      const request = (username: string) =>
+        fetch(`${baseUrl}/auth/password`, {
+          method: "POST",
+          headers: { "content-type": "application/json", "user-agent": "shared-browser-fingerprint" },
+          body: JSON.stringify({ username, password: "wrong-password" }),
+        });
+      expect((await request(`missing.one.${suffix}`)).status).toBe(401);
+      expect((await request(`missing.two.${suffix}`)).status).toBe(401);
+    } finally {
+      if (originalLimit === undefined) delete process.env.RATE_LIMIT_AUTH_PASSWORD_FINGERPRINT_PER_MIN;
+      else process.env.RATE_LIMIT_AUTH_PASSWORD_FINGERPRINT_PER_MIN = originalLimit;
+    }
+  });
+
+  it("completes a valid PlagID callback, links the identity, and redirects with a session cookie", async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    const secret = "plagid-positive-test-secret";
+    const telegramId = Date.now();
+    const username = `plag${telegramId}`.slice(0, 32);
+    const hash = identifierHash(String(telegramId));
+    const token = await new SignJWT({ telegramId, username, firstName: "Test", lastName: null, photoUrl: null })
+      .setProtectedHeader({ alg: "HS256" })
+      .setExpirationTime("5m")
+      .sign(new TextEncoder().encode(secret));
+    const originalSecret = process.env.PLAGID_EXTERNAL_TOKEN_SECRET;
+    process.env.PLAGID_EXTERNAL_TOKEN_SECRET = secret;
+    let userId: string | undefined;
+    try {
+      const response = await fetch(`${baseUrl}/auth/plagid/callback?token=${encodeURIComponent(token)}`, { redirect: "manual" });
+      expect(response.status).toBe(302);
+      expect(response.headers.get("location")).toBe("https://3mf.tech");
+      expect(response.headers.get("set-cookie")).toContain("portal_session=");
+      const identity = await database.query<{ user_id: string }>(`select user_id from user_identities where provider = 'plag_id' and identifier_hash = $1`, [hash]);
+      userId = identity.rows[0]?.user_id;
+      expect(userId).toBeTruthy();
+    } finally {
+      if (originalSecret === undefined) delete process.env.PLAGID_EXTERNAL_TOKEN_SECRET;
+      else process.env.PLAGID_EXTERNAL_TOKEN_SECRET = originalSecret;
+      await database.query(`delete from user_identities where provider = 'plag_id' and identifier_hash = $1`, [hash]);
+      if (userId !== undefined) await database.query(`delete from users where id = $1`, [userId]);
+    }
+  });
+
+  it("preserves email validation statuses and completes a valid OTP login through the profile port", async () => {
+    const invalid = await fetch(`${baseUrl}/auth/email/start`, {
+      method: "POST",
+      headers: { "content-type": "application/json" },
+      body: JSON.stringify({ localPart: "not allowed!", domain: "example.com" }),
+    });
+    expect(invalid.status).toBe(400);
+    await expect(invalid.json()).resolves.toMatchObject({ error: { code: "http.bad_request.v1" } });
+
+    const localPart = `nestauth${Date.now()}`;
+    const email = `${localPart}@sberdevices.ru`;
+    const code = "123456";
+    const emailHash = identifierHash(email);
+    const database = app.get<Pool>(DATABASE_POOL);
+    await database.query(`insert into email_otp (email_hash, otp_hash, expires_at) values ($1, $2, now() + interval '10 minutes')`, [
+      emailHash,
+      identifierHash(`${email}:${code}`),
+    ]);
+    let userId: string | undefined;
+    try {
+      const response = await fetch(`${baseUrl}/auth/email/verify`, {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({ localPart, domain: "sberdevices.ru", code }),
+      });
+      expect(response.status).toBe(200);
+      await expect(response.json()).resolves.toEqual({ ok: true });
+      const loginCookie = response.headers.get("set-cookie");
+      expect(loginCookie).toContain("portal_session=");
+      const sessionToken = /(?:^|,\s*)portal_session=([^;]+)/.exec(loginCookie ?? "")?.[1];
+      expect(typeof sessionToken === "string" && sessionToken.length > 0).toBe(true);
+      const identity = await database.query<{ user_id: string }>(`select user_id from user_identities where provider = 'email_corp' and identifier_hash = $1`, [emailHash]);
+      userId = identity.rows[0]?.user_id;
+      expect(userId).toBeTruthy();
+
+      const session = await fetch(`${baseUrl}/auth/session`, { headers: { authorization: `Bearer ${sessionToken ?? ""}` } });
+      expect(session.status).toBe(200);
+      await expect(session.json()).resolves.toMatchObject({ user: { id: userId, username: localPart } });
+    } finally {
+      await database.query(`delete from email_otp where email_hash = $1`, [emailHash]);
+      await database.query(`delete from user_identities where identifier_hash = $1`, [emailHash]);
+      if (userId !== undefined) await database.query(`delete from users where id = $1`, [userId]);
+    }
+  });
+});

@@ -1,0 +1,78 @@
+{
+ "slug": "history.mondrian",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/FoldaRap2",
+ "snapshot": "sha256:e7395f2348398862e60118fb071ab2b2be173b4ea95b2b6eda9a4c76d675b0e0",
+ "page_chars": 14036,
+ "fields": {
+  "summary": "Mondrian — это компактный и модульный картриджный 3D-принтер типа RepRap, разработанный как складная версия FoldaRap. Он позиционируется как проект с открытым исходным кодом (GPL), ориентированный на энтузиастов, желающих собрать печатающую машину из стандартных компонентов с возможностью масштабирования.",
+  "unique_features": [
+   "Модульная конструкция на основе стандартных алюминиевых профилей 20x20 мм",
+   "Складная архитектура (foldable)",
+   "Двойная головка экструдера (Dual-head) с прямым приводом и Bowden-шлангом",
+   "Возможность масштабирования размеров (Small, Medium, XL)",
+   "Использование рамы в качестве линейных направляющих для осей X, Y, Z"
+  ],
+  "target_use": [
+   "Прототипирование",
+   "Образование и хобби (DIY сборка)",
+   "Легкие приложения, такие как мини-лазерный гравер или плоттер (упоминается в контексте XY-платформы)"
+  ],
+  "limitations": [
+   "Складная версия на момент описания еще не была полностью реализована ('not foldable yet')",
+   "Масштабирование по осям X и Y затруднено по сравнению с Z",
+   "Требует настройки и тестирования различных итераций (например, привода Z, натяжения ремней)",
+   "Ограничения по скорости и точности зависят от используемых компонентов (например, стержней M5 или направляющих)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 200,
+   "shape": "rectangular"
+  },
+  "max_travel_speed_mms": 500,
+  "positioning_accuracy_mm": 0.1,
+  "filament_diameter_mm": 1.75,
+  "release_year": 2013
+ },
+ "evidence": {
+  "summary": "a compact/modular cartesian RepRap",
+  "unique_features": "Modular design, with standard components, easy to reuse/recycle",
+  "target_use": "the xy platform may serve for other light application (mini laser engraver?)",
+  "limitations": "not foldable yet, but still easy to carry",
+  "kinematics": "a compact/modular cartesian RepRap",
+  "build_volume": "Printing Size: 200 x 200 x 200 mm",
+  "max_travel_speed_mms": "Speed: 150 - 500 mm/s (print-travel, max speed tested yet)",
+  "positioning_accuracy_mm": "Accuracy : 0.1 mm",
+  "filament_diameter_mm": "1.75mm Direct Driven Bowden Extruders",
+  "release_year": "First print !! (30-jun-2013)"
+ },
+ "unconfirmed": [
+  "release_year"
+ ],
+ "unique_features": [
+  "Модульная конструкция на основе стандартных алюминиевых профилей 20x20 мм",
+  "Складная архитектура (foldable)",
+  "Двойная головка экструдера (Dual-head) с прямым приводом и Bowden-шлангом",
+  "Возможность масштабирования размеров (Small, Medium, XL)",
+  "Использование рамы в качестве линейных направляющих для осей X, Y, Z"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T03:44:15Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "FoldaRap2",
+ "maker": "",
+ "model": "Mondrian",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/FoldaRap2"
+}

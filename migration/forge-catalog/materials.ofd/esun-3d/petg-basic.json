@@ -1,0 +1,185 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "esun-3d.petg-basic",
+  "vendor": {
+    "slug": "esun-3d",
+    "name": "eSUN 3D",
+    "website": "https://esun3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG-Basic",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "9cdf05c4-609c-4941-b9a3-4b068c8de5a5",
+      "confidence": 1.0,
+      "color_hex": "#1d1d1f",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "7ed1023b-b33f-47c3-bae6-0017672f0eba",
+      "confidence": 1.0,
+      "color_hex": "#1e1e6d",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Clear",
+      "diameter_mm": 1.75,
+      "external_ref": "7c6f1b2d-f60b-4829-88d4-bed9c6339a72",
+      "confidence": 1.0,
+      "color_hex": "#e2e2e4",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "47732cf3-b4a0-4a5e-ba84-f1dc5617182c",
+      "confidence": 1.0,
+      "color_hex": "#35404e",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "89834d19-3ab9-4891-bd43-4024ff783508",
+      "confidence": 1.0,
+      "color_hex": "#eb1003",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "56601096-8d7c-4bd2-bebd-e97caf7c4584",
+      "confidence": 1.0,
+      "color_hex": "#84827e",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Translucent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "adae3cf9-c638-4695-8062-8524609bb3c7",
+      "confidence": 1.0,
+      "color_hex": "#2c2088",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Translucent Green",
+      "diameter_mm": 1.75,
+      "external_ref": "354275c9-db05-4347-8c6f-389ca9bc3679",
+      "confidence": 1.0,
+      "color_hex": "#124d2d",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "Translucent Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "c2266f13-27ca-49a7-bd4d-775635ecd088",
+      "confidence": 1.0,
+      "color_hex": "#fd5f00",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "36cb1180-67ec-4875-b66a-43fdc0a26639",
+      "confidence": 1.0,
+      "color_hex": "#d7d6da",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/petg-basic"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PETG/petg_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PETG/petg_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PETG/petg_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PETG/petg_basic/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PETG/petg_basic/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PETG/petg_basic/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "644bca46-0925-498d-a541-e789281ea4c2",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PETG/petg_basic/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

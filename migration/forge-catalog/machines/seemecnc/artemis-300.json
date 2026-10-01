@@ -1,0 +1,521 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "seemecnc.artemis-300",
+  "vendor": {
+    "slug": "seemecnc",
+    "name": "SeeMeCNC"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "Artemis 300",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 290,
+      "y": 290,
+      "z": 500
+    },
+    "kinematics": "delta",
+    "max_accel_mms2": 5000,
+    "max_speed_mms": 150,
+    "nozzle_diameters": [
+      0.4,
+      0.5,
+      0.7,
+      1
+    ],
+    "nozzle_hardened": false,
+    "profile_first_seen": "2026-05-30",
+    "bed_surface": "310mm Borosilicate Glass Build Plate",
+    "auto_leveling": "Probe Auto Leveling / Auto Calibration",
+    "screen_type": "Touchscreen",
+    "firmware": "SeeMeCNC supplied firmware",
+    "summary": "Artemis 300 RTP™ — это профессиональный настольный 3D-принтер (prosumer desktop 3D printer), поставляемый полностью собранным, откалиброванным и протестированным. Он позиционируется как устройство, наиболее подходящее для бизнес-пользователей, корпораций, государственных учреждений и образовательных учреждений.",
+    "unique_features": [
+      "Система линейного движения eSlide с металлической рамкой каретки и прецизионными пружинными кулачками",
+      "Зонд автовыравнивания SE300 с встроенным тензодатчиком",
+      "Двойная экструзия (Dual Extrusion)",
+      "Тройные вентиляторы охлаждения детали (Triple part cooling blowers)",
+      "Промышленная нагреваемая платформа мощностью 350 Вт с алюминиевым теплопроводящим слоем"
+    ],
+    "limitations": [
+      "Не совместим с напряжением 220V (not 220V compatible)",
+      "Международная доставка недоступна (International shipping is not available)",
+      "Доставка только в 48 штатов США (We only ship to 48 States)",
+      "Отсутствие печатных руководств (There are no printed manuals)",
+      "Поддержка только прошивки и ПО от SeeMeCNC (We support only SeeMeCNC supplied firmware and software)"
+    ],
+    "whats_in_box": [
+      "Полностью собранный, откалиброванный и протестированный принтер",
+      "Высококачественная SD-карта с правильными конфигурационными файлами"
+    ],
+    "target_use": [
+      "Бизнес-пользователи (business users)",
+      "Корпоративные покупки (Corporate)",
+      "Государственные учреждения (Government)",
+      "Образовательные учреждения (Educational)",
+      "Профессиональная среда (professional environment)"
+    ],
+    "max_nozzle_temp_c": 280,
+    "max_bed_temp_c": 120,
+    "firmware_max_speed_mms": 300,
+    "max_travel_speed_mms": 400,
+    "filament_diameter_mm": 1.75,
+    "power_w": 350,
+    "voltage_v": 110,
+    "connectivity": [
+      "Wi-Fi",
+      "Ethernet"
+    ],
+    "materials_supported": [
+      "PLA",
+      "ABS",
+      "PETG",
+      "HIPS",
+      "Semi-Flexible TPUs"
+    ],
+    "enclosed": true,
+    "heated_bed": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "kinematics": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_speed_mms": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_travel_speed_mms": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "voltage_v": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "seemecnc-official",
+      "source_url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Maximum Usable Printing Speed @.2mm Layer Height 150mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "310mm Borosilicate Glass Build Plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Probe Auto Leveling / Auto Calibration",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The standard included touch screen with SD card reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "We support only SeeMeCNC supplied firmware and software.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "This is a prosumer desktop 3D printer which best suited for business users.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The new eSlide linear motion provides an accurate and smooth, nearly maintenance free design... The new eSlide design has a metal carriage frame, precision spring tensioned cams, and bearing mounts for rigidity.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Requirements 110VAC @ 350 watts (not 220V compatible)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Your assembled printer includes a high quality SD card loaded with the proper configuration files.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "This is a prosumer desktop 3D printer which best suited for business users.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Hotend Temp 280C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Heated Bed Temp 120C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Travel Speed 400mm/s**",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament: 1.75mm PLA, ABS, PETG, HIPS, Semi-Flexible TPUs",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Requirements 110VAC @ 350 watts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "voltage_v": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Requirements 110VAC @ 350 watts",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament: 1.75mm PLA, ABS, PETG, HIPS, Semi-Flexible TPUs",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Powder-Coated Sheet Metal Enclosure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "AC 350W Industrial Heated Bed",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/SeeMeCNC/machine/SeeMeCNC_Artemis_0_4mm.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/575/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/575/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "seemecnc-official",
+      "url": "https://www.seemecnc.com/products/artemis-300-rtp-eslide-motion",
+      "tier": "vendor",
+      "snapshot": "sha256:802cd612d7cb3752843d179c08abdcc31c39275170d1e12b02d9bc6e31fdaf31",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "SeeMeCNC"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "price_rub",
+      "weight_kg"
+    ],
+    "sources_count": 3,
+    "quality_score": 13,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 150,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "nozzle_diameters",
+      "class": "nozzle_diameters|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            0.4,
+            0.5,
+            0.7,
+            1
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            0.5
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

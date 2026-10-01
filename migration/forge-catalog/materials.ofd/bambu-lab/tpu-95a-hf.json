@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.tpu-95a-hf",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU 95A HF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "3aaa4bf9-4559-4f17-b1f9-8bc64365adf5",
+      "confidence": 1.0,
+      "color_hex": "#101820",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410377864"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "ecf482e4-9cbf-4f02-80fa-11806a4ed049",
+      "confidence": 1.0,
+      "color_hex": "#0072ce",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410607240"
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "9d4b6f21-b322-4fa2-bb09-3c5693929577",
+      "confidence": 1.0,
+      "color_hex": "#898d8d",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410541704"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0c72e459-0338-4a45-aaa2-62538d2e4bf2",
+      "confidence": 1.0,
+      "color_hex": "#c8102e",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410640008"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "24cdb014-47a1-4896-95e5-7be5d1927276",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410508936"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6c3a47e9-efd5-4b02-b20d-7b83d8aad32f",
+      "confidence": 1.0,
+      "color_hex": "#f3e600",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pc-tpu/products/tpu-95a-hf?variant=41469410574472"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/TPU/95a_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/TPU/95a_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/TPU/95a_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/TPU/95a_hf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/TPU/95a_hf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/TPU/95a_hf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "10f2a7f1-c97e-434b-8d44-9315b026d111",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/TPU/95a_hf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

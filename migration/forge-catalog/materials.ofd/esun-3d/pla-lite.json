@@ -1,0 +1,185 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "esun-3d.pla-lite",
+  "vendor": {
+    "slug": "esun-3d",
+    "name": "eSUN 3D",
+    "website": "https://esun3d.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA-Lite",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.23,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "912e9d12-6457-4778-b608-2a84cfd0b293",
+      "confidence": 1.0,
+      "color_hex": "#101211",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "05cd0f7d-a509-4400-a779-38d67ceb727f",
+      "confidence": 1.0,
+      "color_hex": "#0d2c7c",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Cold White",
+      "diameter_mm": 1.75,
+      "external_ref": "bb1c5344-ad99-4b23-a180-727ae3a91d98",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Fire Engine Red",
+      "diameter_mm": 1.75,
+      "external_ref": "94f63a7e-7d4e-43b4-b0ea-b63a6e9ff9ed",
+      "confidence": 1.0,
+      "color_hex": "#8b282d",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "b97910bf-87fd-4ce0-8d60-689dbb218d70",
+      "confidence": 1.0,
+      "color_hex": "#3e484a",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "44a05d27-5667-452c-8bb8-eae7c5f41357",
+      "confidence": 1.0,
+      "color_hex": "#1a3059",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "a520df79-5dc8-433e-87f3-76332bdd4c68",
+      "confidence": 1.0,
+      "color_hex": "#fc6401",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Very Peri",
+      "diameter_mm": 1.75,
+      "external_ref": "fc40ef2e-3b94-4b5e-9222-a712e5e5f1ad",
+      "confidence": 1.0,
+      "color_hex": "#675df1",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "217f1391-1498-4469-a933-94fbccf7b05a",
+      "confidence": 1.0,
+      "color_hex": "#c2c1bd",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "f02c35d0-5977-45e7-82eb-1830efa42a8c",
+      "confidence": 1.0,
+      "color_hex": "#f6dc01",
+      "weight_g": 1000,
+      "purchase_url": "https://esun3dstore.com/products/epla-lite"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/pla_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/pla_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/pla_lite/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/pla_lite/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/pla_lite/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/esun_3d/PLA/pla_lite/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "b5b0923a-b1ca-412e-a8b0-9745deeeccc7",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/esun_3d/PLA/pla_lite/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

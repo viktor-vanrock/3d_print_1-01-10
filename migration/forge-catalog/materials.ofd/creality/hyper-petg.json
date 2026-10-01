@@ -1,0 +1,167 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "creality.hyper-petg",
+  "vendor": {
+    "slug": "creality",
+    "name": "Creality",
+    "website": "https://www.creality.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Hyper PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "af49e866-5bf6-4803-9d68-4baa1f84d2e2",
+      "confidence": 1.0,
+      "color_hex": "#030304",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "68579fca-c8d2-4934-980e-15de98f5a6e0",
+      "confidence": 1.0,
+      "color_hex": "#09176e",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "7ae49e98-6c45-4179-84d8-0712f19d1fa7",
+      "confidence": 1.0,
+      "color_hex": "#52a66e",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "f28d4a8b-7f70-4713-9eea-3d996c770286",
+      "confidence": 1.0,
+      "color_hex": "#c9c6be",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "2a0c2294-0daf-4409-8f0c-f60b0043f263",
+      "confidence": 1.0,
+      "color_hex": "#e70a10",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "58071fa4-1d8c-421f-ad00-84108618e86d",
+      "confidence": 1.0,
+      "color_hex": "#dcd6d3",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "08fc0189-6b68-41e7-acc3-da56ec5c055d",
+      "confidence": 1.0,
+      "color_hex": "#eae5e3",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "a52109ba-a643-4658-abae-7b730c4b17f9",
+      "confidence": 1.0,
+      "color_hex": "#fdeb64",
+      "weight_g": 1000,
+      "purchase_url": "https://store.creality.com/products/hyper-series-petg-3d-printing-filament-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PETG/hyper_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PETG/hyper_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PETG/hyper_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PETG/hyper_petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PETG/hyper_petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/creality/PETG/hyper_petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a5fb826d-def2-45e3-8044-855afa9cbeb0",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/creality/PETG/hyper_petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

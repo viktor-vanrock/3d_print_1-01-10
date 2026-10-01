@@ -1,0 +1,167 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-tough-plus",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Tough+",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.22,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "cac85c56-4684-444a-8916-1f147ccc4492",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088048"
+    },
+    {
+      "color_name": "Cyan",
+      "diameter_mm": 1.75,
+      "external_ref": "de10f8c8-df0a-4f80-b2dc-b77a98a0548a",
+      "confidence": 1.0,
+      "color_hex": "#009bd8",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088042"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "a3cef55e-93e9-4ce7-bba8-5578ce8c37b7",
+      "confidence": 1.0,
+      "color_hex": "#dda52f",
+      "weight_g": 1000,
+      "purchase_url": "https://3deksperten.dk/products/bambu-lab-pla-silk-gold-1-75mm-1kg-1"
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "473ab975-bf4f-40f9-b7f1-0ef859d7cf31",
+      "confidence": 1.0,
+      "color_hex": "#afb1ae",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088030"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "cb277b85-5721-4c86-a366-47c70cb3bf65",
+      "confidence": 1.0,
+      "color_hex": "#dc3a27",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088024"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "ddd64dad-7dff-42b3-8c93-ab45ee273017",
+      "confidence": 1.0,
+      "color_hex": "#959698",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088036"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "491beba6-fd3a-411f-8301-065f27b28a4c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088012"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6ce3a6b2-fe81-4bcb-87e1-b6f78d4d3ae6",
+      "confidence": 1.0,
+      "color_hex": "#f4d53f",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.store.bambulab.com/products/pla-tough-upgrade?id=624496486489088018"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/tough+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/tough+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/tough+/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/tough+/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/tough+/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/tough+/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "6ad3d77b-0d9f-46c7-8955-139740c874cd",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/tough+/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

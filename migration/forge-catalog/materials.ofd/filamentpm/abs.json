@@ -1,0 +1,389 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "filamentpm.abs",
+  "vendor": {
+    "slug": "filamentpm",
+    "name": "FilamentPM",
+    "website": "https://filamentpm.com",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "e06e6a62-2a59-4596-91e7-1000f717cd8b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "71e05e38-e3a2-4fe2-aa28-2edafb4685c4",
+      "confidence": 1.0,
+      "color_hex": "#0378d0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Cobalt Blue\"",
+      "diameter_mm": 1.75,
+      "external_ref": "32d12d86-8e2a-405b-a91a-a96509d93f1b",
+      "confidence": 1.0,
+      "color_hex": "#1f2761",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Concrete Grey\"",
+      "diameter_mm": 1.75,
+      "external_ref": "c8b53753-9ebc-4a35-b903-5a8ca6636e3f",
+      "confidence": 1.0,
+      "color_hex": "#c5c5bf",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Luminous Orange\"",
+      "diameter_mm": 1.75,
+      "external_ref": "80c7d03b-4789-4948-b226-5d572be64fd3",
+      "confidence": 1.0,
+      "color_hex": "#f47d59",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Metallic Grey\"",
+      "diameter_mm": 1.75,
+      "external_ref": "bff36678-1c70-42e0-bb2e-cf007df9e213",
+      "confidence": 1.0,
+      "color_hex": "#acb1ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Natural\"",
+      "diameter_mm": 1.75,
+      "external_ref": "894db362-0cfe-43c3-af95-ef98d16e8ac7",
+      "confidence": 1.0,
+      "color_hex": "#eadac2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Signal Brown\"",
+      "diameter_mm": 1.75,
+      "external_ref": "8a9c1f1d-063f-46e9-b3b6-532b572a6947",
+      "confidence": 1.0,
+      "color_hex": "#a6662e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Sky Blue\"",
+      "diameter_mm": 1.75,
+      "external_ref": "b362e49b-9528-477c-8021-1c8e2e4fe169",
+      "confidence": 1.0,
+      "color_hex": "#40b6e4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Traffic Black\"",
+      "diameter_mm": 1.75,
+      "external_ref": "2cf40803-5e4d-4ddc-86d1-50c2057d19af",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Traffic Red\"",
+      "diameter_mm": 1.75,
+      "external_ref": "6a077a50-50cb-4234-ad03-f1ed4ecd3f9f",
+      "confidence": 1.0,
+      "color_hex": "#df3303",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Traffic White\"",
+      "diameter_mm": 1.75,
+      "external_ref": "e1a2be07-9f73-43f5-b235-0c92ca2d275c",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Traffic Yellow\"",
+      "diameter_mm": 1.75,
+      "external_ref": "44aad328-99c9-4fec-9e52-136649a69250",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Transparent\"",
+      "diameter_mm": 1.75,
+      "external_ref": "a0cc92d1-320f-4431-ab70-21dd131a7c9e",
+      "confidence": 1.0,
+      "color_hex": "#f2efe9",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extrafill \"Turquoise Green\"",
+      "diameter_mm": 1.75,
+      "external_ref": "507b6197-e9be-4d3b-adb3-80271f271e34",
+      "confidence": 1.0,
+      "color_hex": "#267f67",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Glittering Sahara",
+      "diameter_mm": 1.75,
+      "external_ref": "d9da36e0-059c-4ca3-9104-a3f5704de35a",
+      "confidence": 1.0,
+      "color_hex": "#ba8960",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "26563c99-da9e-484b-a920-c9354028302e",
+      "confidence": 1.0,
+      "color_hex": "#26a648",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble Dark",
+      "diameter_mm": 1.75,
+      "external_ref": "cce9ece8-9e91-44b9-a442-4cdc33f5cecd",
+      "confidence": 1.0,
+      "color_hex": "#c3ccd5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "ab163d3d-fda3-4904-b67a-b5056a71c010",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Petrol Green",
+      "diameter_mm": 1.75,
+      "external_ref": "786b5431-0beb-4410-b4cb-d23eea52ae90",
+      "confidence": 1.0,
+      "color_hex": "#178b9f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Scarlet Stardust",
+      "diameter_mm": 1.75,
+      "external_ref": "cdf5f983-4545-441f-90da-07dc50de4ed4",
+      "confidence": 1.0,
+      "color_hex": "#c00000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "47f43706-29b6-4f68-9441-42c035779582",
+      "confidence": 1.0,
+      "color_hex": "#818184",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Sparkling Jungle",
+      "diameter_mm": 1.75,
+      "external_ref": "f4e0d0fe-8980-4cdb-b42a-c82972164a23",
+      "confidence": 1.0,
+      "color_hex": "#06924d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "T - Black",
+      "diameter_mm": 1.75,
+      "external_ref": "1801fbfe-19de-4f26-ad96-765a2f8d1ccd",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "T - Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "1082e0fa-1ab9-4981-a3cb-ecd96259e432",
+      "confidence": 1.0,
+      "color_hex": "#ff8e24",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "T - Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "146eebab-859d-448f-95b3-53108b0782e8",
+      "confidence": 1.0,
+      "color_hex": "#999aa0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "T - White",
+      "diameter_mm": 1.75,
+      "external_ref": "e785a4be-73b8-4ae7-835e-988c2725e4a6",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "T - Yellowgreen",
+      "diameter_mm": 1.75,
+      "external_ref": "2c02d3b4-7867-48ae-ad1f-3492e908f53b",
+      "confidence": 1.0,
+      "color_hex": "#9aed51",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "840ff6b1-3ed1-47a0-a8af-2a1671e1b031",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "6afb55ee-67d5-4d31-acd1-b5eeb4cb1606",
+      "confidence": 1.0,
+      "color_hex": "#ffd342",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/filamentpm/ABS/abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "deb06384-3b48-43d1-854b-550aed7f5d65",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/filamentpm/ABS/abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

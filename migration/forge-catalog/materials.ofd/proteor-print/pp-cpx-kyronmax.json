@@ -1,0 +1,159 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "proteor-print.pp-cpx-kyronmax",
+  "vendor": {
+    "slug": "proteor-print",
+    "name": "Proteor Print",
+    "website": "https://www.proteordigital.com/category/all-products",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pp",
+    "name": "PP"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "CPX-KyronMax",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 0.99,
+      "nozzle_temp_max_c": 310,
+      "bed_temp_max_c": 80,
+      "dry_temp_c": 65,
+      "min_nozzle_diameter_mm": 0.8,
+      "diameter_tolerance_mm": 0.15,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 2.85,
+      "external_ref": "b7afd37e-e2a5-4e96-8161-e0063b307945",
+      "confidence": 1.0,
+      "weight_g": 4010,
+      "purchase_url": "https://www.proteordigital.com/product-page/cpx-km"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "min_nozzle_diameter_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "min_nozzle_diameter_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#min_nozzle_diameter",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/proteor_print/PP/cpx_kyronmax/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "20e74583-e1e8-4018-ab5c-6dc82be70ec8",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/proteor_print/PP/cpx_kyronmax/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

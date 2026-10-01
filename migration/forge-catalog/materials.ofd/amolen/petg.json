@@ -1,0 +1,243 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "amolen.petg",
+  "vendor": {
+    "slug": "amolen",
+    "name": "Amolen",
+    "website": "https://amolen.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "nozzle_temp_min_c": 220,
+      "nozzle_temp_max_c": 250,
+      "bed_temp_min_c": 70,
+      "bed_temp_max_c": 90,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Basic Black",
+      "diameter_mm": 1.75,
+      "external_ref": "8a59c897-871b-4069-bf80-2afe6b4121cb",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Basic Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "b5fa84e2-25fc-4c92-be49-eac8607b13c9",
+      "confidence": 1.0,
+      "color_hex": "#0095ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Basic Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "60214d5a-6341-428a-b064-9e8e042c6208",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Basic Multicolor Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "3783de48-7ddc-459b-9dff-c98e3b62d376",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Basic Red",
+      "diameter_mm": 1.75,
+      "external_ref": "80fd80e0-35be-4bdd-93f7-17026bf17407",
+      "confidence": 1.0,
+      "color_hex": "#ed2602",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Basic White",
+      "diameter_mm": 1.75,
+      "external_ref": "8f3d415f-ee2d-49ff-ab67-ae116c0e38a1",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent",
+      "diameter_mm": 1.75,
+      "external_ref": "0a4ff32d-c456-40c4-92e3-10312e952f1d",
+      "confidence": 1.0,
+      "color_hex": "#9a9ba0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Green",
+      "diameter_mm": 1.75,
+      "external_ref": "61f68837-6228-4ba8-855f-d5e7f191bb44",
+      "confidence": 1.0,
+      "color_hex": "#11784f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Multicolor Rainbow",
+      "diameter_mm": 1.75,
+      "external_ref": "0913e31d-7527-48d2-a0dd-b3341dd410eb",
+      "confidence": 1.0,
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "7f46c6e6-3bb2-4301-926e-6fce26b7ccb5",
+      "confidence": 1.0,
+      "color_hex": "#ff8400",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "fd82e9e5-f8a2-4956-8085-bf27e3131f7f",
+      "confidence": 1.0,
+      "color_hex": "#f2a3b7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Transparent Sky Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "20821dcb-41e0-4957-ad35-f97d4edbaf1e",
+      "confidence": 1.0,
+      "color_hex": "#99b2de",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/amolen/PETG/petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "da30254a-9254-4a67-83f2-91057907c84e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/amolen/PETG/petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

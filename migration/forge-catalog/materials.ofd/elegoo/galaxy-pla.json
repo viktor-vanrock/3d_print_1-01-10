@@ -1,0 +1,122 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "elegoo.galaxy-pla",
+  "vendor": {
+    "slug": "elegoo",
+    "name": "ELEGOO",
+    "website": "https://elegoo.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Galaxy PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.21,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "e84aaf41-dffa-46eb-ade6-5cf2510f2cbb",
+      "confidence": 1.0,
+      "color_hex": "#0d162c",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/galaxy-pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Peacock Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "b2f71472-795e-458d-9b09-1ccde04bb920",
+      "confidence": 1.0,
+      "color_hex": "#1c506d",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/galaxy-pla-filament-1-75mm-colored-1kg"
+    },
+    {
+      "color_name": "Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "71c06b04-e78b-4250-b48e-eee66a166f1f",
+      "confidence": 1.0,
+      "color_hex": "#34276e",
+      "weight_g": 1000,
+      "purchase_url": "https://eu.elegoo.com/products/galaxy-pla-filament-1-75mm-colored-1kg"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/galaxy_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/galaxy_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/galaxy_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/elegoo/PLA/galaxy_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ffbc91ee-1c0e-48eb-bbf6-9a2311a88ccc",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/elegoo/PLA/galaxy_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

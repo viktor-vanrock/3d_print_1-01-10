@@ -1,0 +1,341 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "sovb-3d.fil-abs",
+  "vendor": {
+    "slug": "sovb-3d",
+    "name": "SOVB 3D",
+    "website": "https://sovb3d.com",
+    "origin": "FR"
+  },
+  "material_type": {
+    "slug": "abs",
+    "name": "ABS"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Fil ABS",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.04,
+      "nozzle_temp_min_c": 230,
+      "nozzle_temp_max_c": 260,
+      "bed_temp_min_c": 90,
+      "bed_temp_max_c": 110,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aluminium",
+      "diameter_mm": 1.75,
+      "external_ref": "c74513e9-b711-48e0-9da5-982c2be6eefe",
+      "confidence": 1.0,
+      "color_hex": "#acb1ba",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blanc",
+      "diameter_mm": 1.75,
+      "external_ref": "2f515ae2-b12c-47d4-a910-11eefebd475f",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blanc Crème",
+      "diameter_mm": 1.75,
+      "external_ref": "a17f7a94-9dd3-4b38-b773-258692f00c18",
+      "confidence": 1.0,
+      "color_hex": "#e2dedb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Blanc Gris",
+      "diameter_mm": 1.75,
+      "external_ref": "a7679e38-f0c3-47fa-a11f-5dedf356dfdd",
+      "confidence": 1.0,
+      "color_hex": "#d6d7d8",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Ciel",
+      "diameter_mm": 1.75,
+      "external_ref": "c7cddf6a-34a3-42da-9d20-cd006a46b8bb",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Clair",
+      "diameter_mm": 1.75,
+      "external_ref": "02b7cc34-d8a8-4641-a5f0-0068df344dbf",
+      "confidence": 1.0,
+      "color_hex": "#0099e6",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Nuit",
+      "diameter_mm": 1.75,
+      "external_ref": "d90efdc5-7237-4a82-b218-a51673e0217e",
+      "confidence": 1.0,
+      "color_hex": "#2941bd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bleu Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "8ef6c913-ff40-4da9-990e-677ee0e9112d",
+      "confidence": 1.0,
+      "color_hex": "#40b6e4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gris",
+      "diameter_mm": 1.75,
+      "external_ref": "2c6829ee-87a7-46f6-b822-53f26e01b08f",
+      "confidence": 1.0,
+      "color_hex": "#818fa0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jaune",
+      "diameter_mm": 1.75,
+      "external_ref": "af06ad4f-7730-4a3c-89c8-b55f4037dd67",
+      "confidence": 1.0,
+      "color_hex": "#f5e457",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Jaune Fluo",
+      "diameter_mm": 1.75,
+      "external_ref": "abfe9802-6c75-4857-a68d-38e43bffb2d8",
+      "confidence": 1.0,
+      "color_hex": "#e4ff33",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Naturel",
+      "diameter_mm": 1.75,
+      "external_ref": "d51b2b4d-39ee-452b-b109-228bede60144",
+      "confidence": 1.0,
+      "color_hex": "#f9f3e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noir",
+      "diameter_mm": 1.75,
+      "external_ref": "723d0cf0-dac9-48e2-ba6b-21aeec294ed2",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Noir Alumine",
+      "diameter_mm": 1.75,
+      "external_ref": "da25ee36-c181-49ed-a37c-4d12137a3aa8",
+      "confidence": 1.0,
+      "color_hex": "#2a3940",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "73878ec6-1630-44e6-a691-6ae21be51ef4",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange Fluo",
+      "diameter_mm": 1.75,
+      "external_ref": "3589468a-efe1-421f-a064-cb2568168b8d",
+      "confidence": 1.0,
+      "color_hex": "#ffb031",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "PC Blanc",
+      "diameter_mm": 1.75,
+      "external_ref": "6b147bc6-f3fc-4971-9a34-256dc20eed30",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "PC Noir",
+      "diameter_mm": 1.75,
+      "external_ref": "856c1c82-0911-4b84-a069-f76efc57b0f1",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose",
+      "diameter_mm": 1.75,
+      "external_ref": "67ba2339-b72f-4ea9-be71-be5dbc709951",
+      "confidence": 1.0,
+      "color_hex": "#d85165",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rouge",
+      "diameter_mm": 1.75,
+      "external_ref": "58ad9208-f1d8-4e68-9c55-9885aae286ec",
+      "confidence": 1.0,
+      "color_hex": "#ec0000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Clair",
+      "diameter_mm": 1.75,
+      "external_ref": "278e7972-80c5-4b0d-a0fe-33001ea78a3d",
+      "confidence": 1.0,
+      "color_hex": "#58c91b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Foncé",
+      "diameter_mm": 1.75,
+      "external_ref": "fbde654c-db78-4def-ae86-eebb0a3b3cf1",
+      "confidence": 1.0,
+      "color_hex": "#15817b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Vert Mai",
+      "diameter_mm": 1.75,
+      "external_ref": "09869f8d-1273-4527-9c16-0bca7630be2b",
+      "confidence": 1.0,
+      "color_hex": "#00cc00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "9eb4ebee-f6e6-411d-8786-a4ecf2c95afd",
+      "confidence": 1.0,
+      "color_hex": "#9d00b1",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/sovb_3d/ABS/fil_abs/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "4ed60c5f-704e-4683-8271-f6fad184d93f",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/sovb_3d/ABS/fil_abs/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

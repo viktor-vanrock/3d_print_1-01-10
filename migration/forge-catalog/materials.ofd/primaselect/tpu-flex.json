@@ -1,0 +1,131 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.tpu-flex",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU Flex",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.14,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "438623fe-3ef6-4de5-9e88-dd4556d6fc48",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/394-flex-filament/5184--primaselect-flex-filament-500-g-sort/"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "8098232c-82b0-4e2b-9cf5-2a9e78026526",
+      "confidence": 1.0,
+      "color_hex": "#2196f3",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/394-flex-filament/5185-primaselect-flex-filament-500-g-blaa/"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "659791c4-00ad-461a-8365-d5b18f7b1d22",
+      "confidence": 1.0,
+      "color_hex": "#d50000",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/394-flex-filament/5186-primaselect-flex-filament-500-g-roed/"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "744c85b4-aa2b-47b4-8519-12d3606e29ff",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 500,
+      "purchase_url": "https://www.gadgethuset.dk/shop/394-flex-filament/5187-primaselect-flex-filament-500-g-hvid/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/TPU/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/TPU/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/TPU/flex/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/TPU/flex/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/TPU/flex/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/TPU/flex/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "a7be6085-0cb1-4cc2-8bf9-b33bad4e7f58",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/TPU/flex/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

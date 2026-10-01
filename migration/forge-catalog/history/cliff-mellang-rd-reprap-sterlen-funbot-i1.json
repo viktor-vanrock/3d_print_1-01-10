@@ -1,0 +1,79 @@
+{
+ "slug": "history.cliff-mellang-rd-reprap-sterlen-funbot-i1",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Funbot_i1",
+ "snapshot": "sha256:555aa9f0f5bdd69f94c155c41951fcc69cacc20c95b6895e3a5de2c466cafe7d",
+ "page_chars": 7567,
+ "fields": {
+  "bed_surface": "acrylic plastic laminated with brushed aluminum",
+  "screen_type": "RepRapDiscount Full Graphic Smart Controller",
+  "firmware": "Marlin",
+  "summary": "Funbot i1 — это 3D-принтер с архитектурой Cartesian-XZ-head, созданный с упором на простоту, дешевизну и легкость сборки. Он позиционируется как «игрушечный принтер» для привлечения интереса к 3D-печати, особенно в условиях ограниченного пространства, например, в квартирах.",
+  "unique_features": [
+   "Использование хромированных водопроводных труб вместо стержней",
+   "Архитектура Cartesian-XZ-head",
+   "Низкий уровень шума при печати"
+  ],
+  "target_use": [
+   "Обучение и привлечение интереса к 3D-печати",
+   "Печать в условиях ограниченного пространства (квартиры)"
+  ],
+  "limitations": [
+   "Рабочая область около 155mm x 170mm x 120mm",
+   "Требуется самостоятельная сборка и использование MDF доски",
+   "Стабильность зависит от толщины акриловой пластины (рекомендуется 4-6 мм, но используется 3 мм)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 155,
+   "y": 170,
+   "z": 120,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 450,
+  "extruder_type": "direct_drive",
+  "release_year": 2015
+ },
+ "evidence": {
+  "bed_surface": "Bed material is 3mm thick acrylic plastic (available at most hardware stores, such as Home Depot) that is laminated with brushed aluminum on both sides.",
+  "screen_type": "RepRaper Wayne Friedt has allowed the use of his case for the RepRapDiscount Full Graphic Smart Controller .",
+  "firmware": "Marlin Firmware",
+  "summary": "The main goal of this printer design is simplicity; cheap and easy to build. It might even be called a toy printer to help people to get interested in the wonders of 3D printing.",
+  "unique_features": "This printer uses printed LM10UU and chromed water pipes instead of rods.",
+  "target_use": "It might even be called a toy printer to help people to get interested in the wonders of 3D printing.",
+  "limitations": "Printing Size: build area of about 6.1\" x 6.7\" x 4.7\" or 155mm x 170mm x 120mm",
+  "kinematics": "Cartesian-XZ-head",
+  "build_volume": "build area of about 6.1\" x 6.7\" x 4.7\" or 155mm x 170mm x 120mm",
+  "max_speed_mms": "#define DEFAULT_MAX_FEEDRATE {450, 450, 2.5, 32} // (mm/sec)",
+  "extruder_type": "for direct drive extruder v9 set to true",
+  "release_year": "(Updated 2015-01-17)"
+ },
+ "unconfirmed": [
+  "extruder_type",
+  "release_year"
+ ],
+ "unique_features": [
+  "Использование хромированных водопроводных труб вместо стержней",
+  "Архитектура Cartesian-XZ-head",
+  "Низкий уровень шума при печати"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный",
+  "скоростной"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-03T23:08:42Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Funbot i1",
+ "maker": "Cliff Mellangård / Reprap österlen",
+ "model": "Funbot i1",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Funbot_i1"
+}

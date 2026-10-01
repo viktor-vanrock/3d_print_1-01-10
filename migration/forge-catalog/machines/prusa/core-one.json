@@ -1,0 +1,532 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "prusa.core-one",
+  "vendor": {
+    "slug": "prusa",
+    "name": "Prusa"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "CORE One",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 250,
+      "y": 220,
+      "z": 270
+    },
+    "kinematics": "corexy",
+    "max_accel_mms2": 10000,
+    "max_speed_mms": 350,
+    "nozzle_diameters": [
+      0.25,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.8
+    ],
+    "profile_first_seen": "2025-05-02",
+    "bed_surface": "Smooth PEI Print Sheet",
+    "auto_leveling": "Fully automatic (Load Cell sensor)",
+    "screen_type": "3.5″ graphic 65k color screen",
+    "firmware": "Open-source",
+    "unique_features": [
+      "Активная камера с умной вентиляцией (до 55 °C)",
+      "Система Nextruder с датчиком нагрузки (Load Cell)",
+      "360-градусное охлаждение",
+      "Архитектура CoreXY с фиксированными двигателями",
+      "Стальной экзоскелет",
+      "Открытое исходное ПО и аппаратное обеспечение"
+    ],
+    "whats_in_box": [
+      "Принтер (полностью собранный или набор для сборки)",
+      "1 кг филамента Prusament PLA (или 2x 25 г образцов для Kit)",
+      "Гладкий PEI лист для печати",
+      "Руководство по 3D-печати",
+      "USB-накопитель с образцами отпечатков",
+      "Салфетки, пропитанные спиртом, и игла для очистки сопла",
+      "Инструменты для сборки (в комплекте Kit: ключи, пассатижи и т.д.)"
+    ],
+    "target_use": [
+      "Прототипирование",
+      "Создание функциональных деталей и запчастей",
+      "Инженерные пластики (ABS, ASA, PC, Nylon)",
+      "Образование",
+      "Мелкая серия и производство"
+    ],
+    "limitations": [
+      "Внутренняя камера не подогревается (макс. 55 °C)",
+      "Камера не подогревается для низкотемпературных материалов (PLA, PETG) благодаря умной вентиляции",
+      "Необходима вытяжка для абразивных материалов (опциональная система фильтрации)"
+    ],
+    "max_nozzle_temp_c": 290,
+    "max_bed_temp_c": 120,
+    "max_chamber_temp_c": 55,
+    "layer_height_min_mm": 0.05,
+    "filament_diameter_mm": 1.75,
+    "extruder_type": "direct_drive",
+    "dimensions_mm": {
+      "w": 415,
+      "d": 444,
+      "h": 555
+    },
+    "weight_kg": 22.5,
+    "power_w": 240,
+    "connectivity": [
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "enclosed": true,
+    "chamber_active": true,
+    "heated_bed": true,
+    "multimaterial_supported": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/554/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "kinematics": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/554/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/554/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "slicer-profiles-db",
+      "source_url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/554/orcaslicer/machine_profiles.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "screen_type": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_bed_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_chamber_temp_c": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_min_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "extruder_type": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "dimensions_mm": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_w": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "enclosed": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "chamber_active": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "multimaterial_supported": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "prusa-official",
+      "source_url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/554/orcaslicer/machine_profiles.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "kinematics": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/554/orcaslicer/machine_profiles.json#printer_structure",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/554/orcaslicer/machine_profiles.json#machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "structured",
+      "source_id": "s2",
+      "found_by": "host",
+      "ref": "out/models/554/orcaslicer/machine_profiles.json#machine_max_speed_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Print surface Magnetic heatbed with removable PEI spring steel sheets",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "First layer calibration Fully automatic (Load Cell sensor)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "LCD screen 3.5″ graphic 65k color screen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Open‑Source Hardware & Firmware",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Nextruder is our next-gen print head featuring a precise Load Cell sensor... Plus, 360-degree cooling means steep overhangs print cleanly... All-steel exoskeleton — the enclosure is structural... Open‑Source Hardware & Firmware... Active Chamber with Smart Ventilation",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "1kg of Prusament PLA... Included, Smooth PEI Print Sheet... 3D Printing Handbook... USB Drive with sample prints... Alcohol-saturated wipes, acupuncture needle (for nozzle cleaning)... Toolset: Uni-wrench, 13-16 wrench, nose pliers, Allen and Torx keys",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "ready to print anything from replacement parts and creative projects to professional prototypes... Engineering materials warp when they cool unevenly... The strongest printable thermoplastics... Outstanding mechanical properties for gears, hinges, and load-bearing parts.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The printer's enclosed chamber heats up to 55 °C... While other printers need you to open the door for printing low-temp materials (like PLA), you can keep the CORE One+ door closed thanks to smart chamber ventilation... Optional HEPA filtration integrates directly into the enclosure",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max nozzle temperature 290 °C / 554 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max heatbed temperature 120 °C / 248 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_chamber_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max chamber temperature 55 °C / 131 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer height 0.05-0.30 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament diameter 1.75 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Nextruder, Direct Drive",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer dimensions 22.5 kg, 415 × 444 × 555 mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Printer dimensions 22.5 kg",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_w": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PSU 240W with Power Panic HW",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Connectivity Ethernet, Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The CORE One+ is a fully enclosed CoreXY 3D printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Active Chamber with Smart Ventilation",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max heatbed temperature 120 °C / 248 °F",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Multi-Material Support Yes",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Sensor Yes (2 sensors)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "PSU 240W with Power Panic HW",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Prusa/machine/Prusa CORE One 0.25 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/554/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/554/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "prusa-official",
+      "url": "https://www.prusa3d.com/product/prusa-core-one/",
+      "tier": "vendor",
+      "snapshot": "sha256:2e1b99f2ccceb5c67a6402a42efbfdded565b6ca551b0573797c71c535367293",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "Prusa"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "price_rub"
+    ],
+    "sources_count": 3,
+    "quality_score": 12,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

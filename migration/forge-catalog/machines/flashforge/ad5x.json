@@ -1,0 +1,1027 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "flashforge.ad5x",
+  "vendor": {
+    "slug": "flashforge",
+    "name": "FlashForge"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "AD5X",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 220,
+      "y": 220,
+      "z": 220
+    },
+    "connectivity": [
+      "klipper",
+      "moonraker",
+      "USB",
+      "Ethernet",
+      "Wi-Fi"
+    ],
+    "max_accel_mms2": 20000,
+    "max_speed_mms": 300,
+    "nozzle_diameters": [
+      0.25,
+      0.4,
+      0.6,
+      0.8
+    ],
+    "nozzle_hardened": true,
+    "profile_first_seen": "2025-02-19",
+    "bed_surface": "PEI flexible steel sheet",
+    "screen_type": "4.3-inch Color Touchscreen",
+    "summary": "Flashforge AD5X — это многоцветный 3D-принтер начального уровня с интегрированной системой IFS для печати в 4 цвета, позиционируемый как бестселлер для энтузиастов и образовательных целей. Устройство оснащено стабильной Core-XY кинематикой, быстрым автовыравниванием и поддержкой инженерных пластиков, таких как TPU и композиты.",
+    "unique_features": [
+      "Интегрированная система IFS (Intelligent Filament System) без внешних бобин",
+      "Печать в 4 цвета с автоматическим переключением филамента",
+      "Core-XY кинематика для стабильности при высоких скоростях",
+      "Поддержка печати гибким TPU (64D-75D) в многоцветном режиме",
+      "Скорость печати до 600 мм/с и ускорение 20 000 мм/с²",
+      "Восстановление печати после отключения питания (99% успеха)",
+      "Автоматическая дозаправка филамента (Auto 4kg filament refill)"
+    ],
+    "target_use": [
+      "Образовательные инструменты",
+      "Персональные модели и фигурки",
+      "Гибкие изделия (носимые предметы, мягкие фигурки)",
+      "Инженерные пластики (PLA-CF, PETG-CF)"
+    ],
+    "limitations": [
+      "IFS система не совместима со старыми моделями AD5M/AD5MP",
+      "Материнские платы и сопла AD5M и AD5X не взаимозаменяемы",
+      "Отсутствует автоматическое отключение (Auto Shutdown)",
+      "Отсутствует фильтрация воздуха (Air Filtration /)",
+      "Освещение камеры и удаленный мониторинг являются расширяемыми (Expandable), а не встроенными"
+    ],
+    "max_nozzle_temp_c": 300,
+    "max_bed_temp_c": 110,
+    "kinematics": "corexy",
+    "firmware_max_speed_mms": 600,
+    "max_travel_speed_mms": 600,
+    "firmware_max_accel_mms2": 20000,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "extruder_count": 1,
+    "price_usd": 315.0,
+    "multimaterial_channels": 4,
+    "materials_supported": [
+      "PETG",
+      "PLA",
+      "TPU95A",
+      "TPU64D-75D",
+      "PLA-CF",
+      "PETG-CF"
+    ],
+    "heated_bed": true,
+    "multimaterial_supported": true,
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "air_filter": false,
+    "warranty_months": 12,
+    "filament_diameter_mm": 1.75,
+    "dimensions_mm": {
+      "w": 402,
+      "d": 363,
+      "h": 448
+    },
+    "weight_kg": 11,
+    "price_rub": 33990,
+    "enclosed": false,
+    "chamber_active": false,
+    "camera": true,
+    "firmware": "Orca-flashforge"
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "connectivity": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_accel_mms2": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "nozzle_hardened": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "profile_first_seen": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "screen_type": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "summary": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "max_nozzle_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "max_bed_temp_c": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "kinematics": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "restated"
+        }
+      ]
+    },
+    "firmware_max_speed_mms": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "max_travel_speed_mms": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_accel_mms2": {
+      "source": "orcaslicer-profiles",
+      "source_url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.95
+    },
+    "layer_height_min_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "extruder_count": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "multimaterial_channels": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "materials_supported": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "heated_bed": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "multimaterial_supported": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "filament_runout_sensor": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "power_loss_recovery": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.95,
+      "confirmed_by": [
+        {
+          "source": "3d-diy-catalog",
+          "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+          "quote_source_id": "s4",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        },
+        {
+          "source": "3dvision-catalog",
+          "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+          "quote_source_id": "s5",
+          "ts": "2026-09-04T14:59:52Z",
+          "how": "same value"
+        }
+      ]
+    },
+    "air_filter": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "flashforge-official",
+      "source_url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "dimensions_mm": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "weight_kg": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "price_rub": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "enclosed": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "chamber_active": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "camera": {
+      "source": "3d-diy-catalog",
+      "source_url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    },
+    "firmware": {
+      "source": "3dvision-catalog",
+      "source_url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.7
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json#printable_area",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "connectivity": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json#gcode_flavor",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Acceleration Max 20,000mm/s²",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Print Speed Max 300mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json#nozzle_diameter",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "nozzle_hardened": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json#nozzle_type",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Build Plate PEI flexible steel sheet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "screen_type": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "4.3-inch Color Touchscreen",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "The Best-Selling Entry-Level Multi-color 3D Printer",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "AD5X includes the Intelligent Filament System (IFS) as a standard feature—fully integrated into the printer with no need for an external feeder box or add-on.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "from character models to educational tools",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "No, the new IFS system is not compatible with the older models AD5M/AD5MP.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Extruder Temp 300°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Bed Temp 110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "kinematics": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Stable Core-XY Motion System",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_travel_speed_mms": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Travel Speed Max 600mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Thickness 0.1~0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Layer Thickness 0.1~0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "extruder_count": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Extruder Quantity 1",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flashforge AD5X Refurbished 3D Printer $315.00 USD",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_channels": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Smart Multi-Color Printing : Print in 4 colors",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "materials_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Supported Filaments PETG/PLA/TPU95A (recommended for single-color printing)/TPU64D-75D/PLA-CF/PETG-CF",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Max Bed Temp 110°C",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Smart Multi-Color Printing : Print in 4 colors",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Filament Detection ✓",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Power Outage Recovery ✓",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "air_filter": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Air Filtration /",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s3",
+      "quote": "Flashforge offers a 1-year limited warranty for its 3D printers",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Максимальная температура платформы, °С 110",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Способ отправки файлов на печать USB (Флешка), Ethernet (LAN), Wi-Fi",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Подогреваемый стол Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "AD5X поддерживает многоматериальную и многоцветную печать",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Контроль окончания пластика Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s4": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Система возобновления печати при потере питания Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Диаметр нити 1.75 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "dimensions_mm": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Габариты товара ДxШxВ (см) 36,3х40,2х44,8",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Вес нетто (кг) 11",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_rub": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "AD5X 33 990 ₽",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "enclosed": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Тип корпуса Открытый",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "chamber_active": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Активная термокамера Нет",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "camera": {
+      "kind": "text",
+      "source_id": "s4",
+      "quote": "Видеокамера Да",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_nozzle_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура экструдера, °C | 300℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "max_bed_temp_c@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура стола | 110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "build_volume@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Область печати, мм | 220x220x220 мм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Толщина слоя, мкм | 50-400 мкм",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Диаметр сопла | 0,4 мм (по умолчанию) 0,6 мм/0,8 мм/0,25 мм (опционально)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Интерфейсы | USB-диск / WIFl / Ethernet",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "heated_bed@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Температура стола | 110℃",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "multimaterial_supported@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Настоящая многоцветная печать",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "обнаружение",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery@s5": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Возобновление печати после отключения электроэнергии",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "firmware": {
+      "kind": "text",
+      "source_id": "s5",
+      "quote": "Программное обеспечение | Orca-flashforge",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "orcaslicer-profiles",
+      "external_ref": "resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "url": "https://github.com/SoftFever/OrcaSlicer/blob/main/resources/profiles/Flashforge/machine/FlashForge AD5X 0.25 nozzle.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "orcaslicer-profiles"
+    },
+    {
+      "source_id": "s2",
+      "source": "slicer-profiles-db",
+      "external_ref": "out/models/630/orcaslicer/machine_profiles.json",
+      "url": "https://github.com/SimplyPrint/slicer-profiles-db/blob/main/out/models/630/orcaslicer/machine_profiles.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "slicer-profiles-db"
+    },
+    {
+      "source_id": "s3",
+      "source": "flashforge-official",
+      "url": "https://www.flashforge.com/products/flashforge-ad5x-multicolor-3d-printer-for-high-speed-full-color-printing-copy-1",
+      "tier": "vendor",
+      "snapshot": "sha256:16752c99bb624c7b506f0a857b6ba0874044f2b481858e39c17cacb17d4c9ad2",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:19:08Z",
+      "publisher": "FlashForge"
+    },
+    {
+      "source_id": "s4",
+      "source": "3d-diy-catalog",
+      "url": "https://3d-diy.ru/product/3d-printer-mnogotsvetnyy-flashforge-adventurer-ad5x",
+      "tier": "catalog",
+      "snapshot": "sha256:3f4298fa13f0a7ed4a63342f2bd17ce0b37c7cceaed839c52664a7c630774494",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:14:17Z",
+      "publisher": "3D-DIY"
+    },
+    {
+      "source_id": "s5",
+      "source": "3dvision-catalog",
+      "url": "https://3dvision.su/product/3d-printer-flashforge-ad5x/",
+      "tier": "catalog",
+      "snapshot": "sha256:5d76937cf608c231504d59c62f7ecd2a7792c068fe688c915a80d0479fd2d2eb",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T13:39:59Z",
+      "publisher": "3DVision"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "power_w"
+    ],
+    "sources_count": 5,
+    "quality_score": 11,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  },
+  "conflicts": [
+    {
+      "field": "max_speed_mms",
+      "class": "max_speed_mms|vendor-vs-structural",
+      "values": [
+        {
+          "value": 600,
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": 300,
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "connectivity",
+      "class": "connectivity|vendor-vs-structural",
+      "values": [
+        {
+          "value": [
+            "klipper",
+            "moonraker"
+          ],
+          "source_id": "s1",
+          "kind": "spec"
+        },
+        {
+          "value": [
+            "USB",
+            "Ethernet",
+            "Wi-Fi"
+          ],
+          "source_id": "s3",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "max_nozzle_temp_c",
+      "class": "max_nozzle_temp_c|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": 300,
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": 280,
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    },
+    {
+      "field": "build_volume",
+      "class": "build_volume|flashforge-official-vs-catalog",
+      "values": [
+        {
+          "value": {
+            "x": 220,
+            "y": 220,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "known",
+          "kind": "spec"
+        },
+        {
+          "value": {
+            "x": 220,
+            "y": 200,
+            "z": 220,
+            "shape": "rectangular"
+          },
+          "source_id": "s4",
+          "kind": "spec"
+        }
+      ]
+    }
+  ]
+}

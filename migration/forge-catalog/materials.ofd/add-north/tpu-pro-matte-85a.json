@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "add-north.tpu-pro-matte-85a",
+  "vendor": {
+    "slug": "add-north",
+    "name": "Add-North",
+    "website": "https://addnorth.com/",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "tpu",
+    "name": "TPU"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "TPU Pro Matte 85A",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.1,
+      "dry_temp_c": 55,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "7dda0850-3015-4a34-a58f-05233b0c9907",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%20500g%20-%20Black"
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "7dda0850-3015-4a34-a58f-05233b0c9907",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000,
+      "purchase_url": "https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%201000g%20-%20Black"
+    },
+    {
+      "color_name": "Brown Leather",
+      "diameter_mm": 1.75,
+      "external_ref": "8e518c86-deff-40ec-bebe-3a4d6ec17936",
+      "confidence": 1.0,
+      "color_hex": "#624a2e",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%20500g%20-%20Brown%20Leather"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "56c2a83d-ba3e-4852-ad7f-8ad6133c4da3",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%201000g%20-%20White"
+    },
+    {
+      "color_name": "Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "81dac391-d0f3-4185-a986-56c2f6c35ae6",
+      "confidence": 1.0,
+      "color_hex": "#ffea00",
+      "weight_g": 500,
+      "purchase_url": "https://addnorth.com/product/TPU%20Pro%20Matte%2085A/TPU%20Pro%20Matte%2085A%20-%201.75mm%20-%20500g%20-%20Yellow"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/TPU/tpu_pro_matte_85a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/TPU/tpu_pro_matte_85a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/TPU/tpu_pro_matte_85a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/TPU/tpu_pro_matte_85a/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/TPU/tpu_pro_matte_85a/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/TPU/tpu_pro_matte_85a/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/TPU/tpu_pro_matte_85a/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/TPU/tpu_pro_matte_85a/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9a9995fe-951d-4d18-9401-1d0bb22d859e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/TPU/tpu_pro_matte_85a/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

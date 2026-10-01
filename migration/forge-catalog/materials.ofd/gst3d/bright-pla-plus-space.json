@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "gst3d.bright-pla-plus-space",
+  "vendor": {
+    "slug": "gst3d",
+    "name": "GST3D",
+    "website": "https://gst3d.eu/",
+    "origin": "ES"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Bright Pla+ Space",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.25,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "black",
+      "diameter_mm": 1.75,
+      "external_ref": "c9561f98-2754-454c-848a-07901f8a13ef",
+      "confidence": 1.0,
+      "color_hex": "#2c2d2e",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "387517cc-59a0-4c4c-955d-cb1ecf1a9967",
+      "confidence": 1.0,
+      "color_hex": "#2c5ad6",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    },
+    {
+      "color_name": "gold",
+      "diameter_mm": 1.75,
+      "external_ref": "ca2d4418-cb39-4fa8-96cc-f1c9200a95bc",
+      "confidence": 1.0,
+      "color_hex": "#db9234",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    },
+    {
+      "color_name": "green",
+      "diameter_mm": 1.75,
+      "external_ref": "09b57a7f-76f6-47aa-9144-cfc7affd074b",
+      "confidence": 1.0,
+      "color_hex": "#567338",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    },
+    {
+      "color_name": "red",
+      "diameter_mm": 1.75,
+      "external_ref": "acc1361b-e23d-4d63-9337-538a5458c0e3",
+      "confidence": 1.0,
+      "color_hex": "#f0534a",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "21e79d4b-45ce-42b8-a7ec-867d3884ff5b",
+      "confidence": 1.0,
+      "color_hex": "#c7c7c9",
+      "weight_g": 1000,
+      "purchase_url": "https://gst3d.eu/products/pla-space-10"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/bright_pla+_space/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/bright_pla+_space/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/bright_pla+_space/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/bright_pla+_space/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/bright_pla+_space/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/gst3d/PLA/bright_pla+_space/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ec54c653-e5a4-4de6-b072-aca6cf83cd39",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/gst3d/PLA/bright_pla+_space/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

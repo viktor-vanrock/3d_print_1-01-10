@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "bambu-lab.pla-sparkle",
+  "vendor": {
+    "slug": "bambu-lab",
+    "name": "Bambu Lab",
+    "website": "bambulab.com",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Sparkle",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.26,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Alpine Green Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "38113921-abe4-4a2b-8544-b834b061a36e",
+      "confidence": 1.0,
+      "color_hex": "#3f5443",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=41002885349512"
+    },
+    {
+      "color_name": "Classic Gold Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "45364f0d-5dc0-474a-94bd-0d53d7389bca",
+      "confidence": 1.0,
+      "color_hex": "#cea629",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=42259081789576"
+    },
+    {
+      "color_name": "Crimson Red Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "4b383d1e-3c6c-4215-8666-a6a2612a03d1",
+      "confidence": 1.0,
+      "color_hex": "#792b36",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=41002885382280"
+    },
+    {
+      "color_name": "Onyx Black Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "c02043c1-6761-48cf-87e4-810191879979",
+      "confidence": 1.0,
+      "color_hex": "#2d2b28",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=41002885415048"
+    },
+    {
+      "color_name": "Royal Purple Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "468f71ca-d44e-4353-adcc-5acc2806b868",
+      "confidence": 1.0,
+      "color_hex": "#483d8b",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=41158137577608"
+    },
+    {
+      "color_name": "Slate Gray Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "2ec7088d-4ce5-4cb5-88e0-79ad495b26c3",
+      "confidence": 1.0,
+      "color_hex": "#8e9089",
+      "weight_g": 1000,
+      "purchase_url": "https://us.store.bambulab.com/collections/pla/products/pla-sparkle?variant=41158137544840"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/sparkle/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/sparkle/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/sparkle/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/sparkle/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/sparkle/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/bambu_lab/PLA/sparkle/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "9526a623-ee2a-4c99-8088-7b8d282bf4d4",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/bambu_lab/PLA/sparkle/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "3do.pla",
+  "vendor": {
+    "slug": "3do",
+    "name": "3DO",
+    "website": "https://3do.dk/",
+    "origin": "EU"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Anthracite",
+      "diameter_mm": 1.75,
+      "external_ref": "681a597b-442b-408c-a3e8-b9720ca1d15e",
+      "confidence": 1.0,
+      "color_hex": "#373f43",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Army Green",
+      "diameter_mm": 1.75,
+      "external_ref": "797958b3-239a-498a-a680-d241e921d6cc",
+      "confidence": 1.0,
+      "color_hex": "#4b573e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "70f7387c-0ca5-4748-958e-711a67a21af4",
+      "confidence": 1.0,
+      "color_hex": "#0a0a0a",
+      "weight_g": 1000,
+      "purchase_url": "https://3do.dk/filament/328-filament-3do-asa-1kg-hvid.html"
+    },
+    {
+      "color_name": "Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "a447816e-4431-4675-893f-92285bf65bde",
+      "confidence": 1.0,
+      "color_hex": "#6f4a2f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "ec394b41-2ccb-47f4-8f65-80ba4adfbcc6",
+      "confidence": 1.0,
+      "color_hex": "#ff2300",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "d8a2a04d-5a78-4aec-83ed-db706255449a",
+      "confidence": 1.0,
+      "color_hex": "#a02128",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "cce8330e-2f50-4527-9f55-8ccea2d4c8d1",
+      "confidence": 1.0,
+      "color_hex": "#8f999f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Steel Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "0f0b4082-12fb-464b-8b90-71d2f240917a",
+      "confidence": 1.0,
+      "color_hex": "#232d53",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Stone Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "96eed058-e108-424c-983b-6f63b42420bb",
+      "confidence": 1.0,
+      "color_hex": "#939388",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "26f44b77-2877-4883-b590-2030dd0babb8",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000,
+      "purchase_url": "https://3do.dk/filament/328-filament-3do-asa-1kg-hvid.html"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3do/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3do/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3do/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3do/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3do/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/3do/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "0e93717b-0bd2-4803-9dd1-d8946a390e56",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/3do/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

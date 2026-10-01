@@ -1,0 +1,147 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "inland.pla-basic",
+  "vendor": {
+    "slug": "inland",
+    "name": "Inland",
+    "website": "https://www.microcenter.com/search/search_results.aspx?fq=category:Filaments+%26+Resins|754,brand:Inland,Diameter:1.75mm&rpp=96&sortby=pricelow&myStore=true",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Basic",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "50df9f0f-091e-4ee7-af76-4616073600fa",
+      "confidence": 1.0,
+      "color_hex": "#2f2f33",
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/692935/inland-175mm-pla-basic-3d-printer-filament-1kg-(22lbs)-cardboard-spool-black"
+    },
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "143db403-3aba-46c1-8936-fb2854717ec1",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/512932/inland-175mm-pla-3d-printer-filament-1kg-(22-lbs)-cardboard-spool-blue"
+    },
+    {
+      "color_name": "Grey",
+      "diameter_mm": 1.75,
+      "external_ref": "f93a7619-187c-43fd-b5cf-acd5462582ad",
+      "confidence": 1.0,
+      "color_hex": "#585b69",
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/692937/inland-175mm-pla-basic-3d-printer-filament-1kg-(22lbs)-cardboard-spool-gray"
+    },
+    {
+      "color_name": "True Green",
+      "diameter_mm": 1.75,
+      "external_ref": "338e4f83-adb4-4dfc-9539-f230138118b9",
+      "confidence": 1.0,
+      "color_hex": "#2ac66d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "True Red",
+      "diameter_mm": 1.75,
+      "external_ref": "0eba64bf-85e4-4516-a64e-e2990f283731",
+      "confidence": 1.0,
+      "color_hex": "#791f2b",
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/692940/inland-175mm-pla-basic-3d-printer-filament-1kg-(22lbs)-cardboard-spool-true-red"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "9027f181-2f94-48fc-a370-0ba6f68de05c",
+      "confidence": 1.0,
+      "color_hex": "#b8c1c8",
+      "weight_g": 1000,
+      "purchase_url": "https://www.microcenter.com/product/692936/inland-175mm-pla-basic-3d-printer-filament-1kg-(22lbs)-cardboard-spool-white"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_basic/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_basic/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_basic/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/inland/PLA/pla_basic/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "ef4da29d-71cd-468c-820e-4be3997ca54d",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/inland/PLA/pla_basic/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

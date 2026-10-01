@@ -1,0 +1,432 @@
+{
+  "schema_version": "forge.machine.v1",
+  "slug": "entina.tina2s",
+  "vendor": {
+    "slug": "entina",
+    "name": "ENTINA"
+  },
+  "machine": {
+    "craft": "3d_printing",
+    "kind": "fdm_printer",
+    "model": "TINA2S",
+    "aliases": [],
+    "integration": "none",
+    "source": "community",
+    "verified": false,
+    "status": "active"
+  },
+  "specs": {
+    "build_volume": {
+      "shape": "rectangular",
+      "x": 100,
+      "y": 110,
+      "z": 100
+    },
+    "heated_bed": true,
+    "max_accel_mms2": 3000,
+    "max_speed_mms": 200,
+    "profile_first_seen": "2023-07-07",
+    "bed_surface": "spring-steel",
+    "summary": "Entina Tina2S — это компактный FDM 3D-принтер начального уровня, предназначенный для начинающих, семей, студентов и образовательных целей (STEM). Устройство отличается легким весом (3 кг), автоматической калибровкой стола и поддержкой облачного управления через приложение.",
+    "unique_features": [
+      "9-point auto bed leveling",
+      "Filament-break detection",
+      "Wi‑Fi connectivity with PoloPrint Cloud app",
+      "Optional power-loss recovery",
+      "Flexible spring-steel build plate",
+      "50dB Ultra-Quiet Printing",
+      "Built-in Led Light",
+      "Quickchange Test nozzle",
+      "Upgraded high-position cooling fan",
+      "TMC2208 silent driver and ESP32 Wi-Fi module"
+    ],
+    "target_use": [
+      "Entry-Level For Stem Education",
+      "beginners, families, students",
+      "guided STEM learning",
+      "everyday creative projects",
+      "first projects, family creativity",
+      "educational demonstrations or proofs of concept"
+    ],
+    "auto_leveling": "9-point auto bed leveling",
+    "whats_in_box": [
+      "1×8mm Wrech",
+      "Hex Wrech",
+      "1xACPower Adapter/Cord",
+      "1xSolid Glues",
+      "1×100g PLA+ Filament",
+      "1xAdapter Type-C USB 3.0",
+      "1xMicro SDCard Reader"
+    ],
+    "limitations": [
+      "The TINA2S has a print height limit of ★10cm",
+      "For younger users, adult supervision is recommended during operation"
+    ],
+    "firmware_max_speed_mms": 200,
+    "layer_height_min_mm": 0.1,
+    "layer_height_max_mm": 0.4,
+    "nozzle_diameters": [
+      0.4
+    ],
+    "filament_diameter_mm": 1.75,
+    "weight_kg": 3,
+    "noise_db": 50,
+    "price_usd": 209,
+    "connectivity": [
+      "Wi-Fi",
+      "USB",
+      "TF Card"
+    ],
+    "filament_runout_sensor": true,
+    "power_loss_recovery": true,
+    "warranty_months": 12
+  },
+  "field_provenance": {
+    "build_volume": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "heated_bed": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_accel_mms2": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "max_speed_mms": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "profile_first_seen": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "bed_surface": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "summary": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "unique_features": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "target_use": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "auto_leveling": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "whats_in_box": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "limitations": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "firmware_max_speed_mms": {
+      "source": "cura-definitions",
+      "source_url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "ts": "2026-09-01T21:40:36Z",
+      "confidence": 0.8
+    },
+    "layer_height_min_mm": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "layer_height_max_mm": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "nozzle_diameters": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_diameter_mm": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "weight_kg": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "noise_db": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "price_usd": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "connectivity": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "filament_runout_sensor": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "power_loss_recovery": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    },
+    "warranty_months": {
+      "source": "entina-official",
+      "source_url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "ts": "2026-09-04T14:59:52Z",
+      "confidence": 0.9
+    }
+  },
+  "evidence": {
+    "build_volume": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2s.def.json#overrides.machine_width",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "heated_bed": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2s.def.json#overrides.machine_heated_bed",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_accel_mms2": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2s.def.json#overrides.machine_max_acceleration_x",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "max_speed_mms": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Print Speed Up to 200 mm/s",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "profile_first_seen": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "resources/definitions/entina_tina2s.def.json#git:первый коммит файла",
+      "verified_at": "2026-09-01T21:40:36Z"
+    },
+    "bed_surface": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Flexible spring-steel build plate",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "summary": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The Entina Tina2S combines 9-point auto bed leveling with filament-break detection, Wi‑Fi connectivity, and PoloPrint Cloud app support. It is suited to beginners, families, students, and guided STEM learning.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "unique_features": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "FDM 3D Printer Built-in Auto Leveling System",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "target_use": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Entry-Level For Stem Education",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "auto_leveling": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "9-point auto bed leveling",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "whats_in_box": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Include in the box 1×8mm Wrech 1xPhillips Screwdriver Hex Wrech 1xACPower Adapter/Cord 1xSolid Glues 1×100g PLA+ Filament 1xAdapter Type-C USB 3.0 1xMicro SDCard Reader",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "limitations": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The TINA2S has a print height limit of ★10cm.",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_min_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "supports layer thickness settings ranging from ★0.1mm to ★0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "layer_height_max_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "supports layer thickness settings ranging from ★0.1mm to ★0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "nozzle_diameters": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "The standard nozzle is ★0.4mm",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_diameter_mm": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "It supports ★1.75mm standard diameter filament",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "weight_kg": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "★Weighing 3 kg (6.6 lbs)",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "noise_db": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "50dB Ultra-Quiet Printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "price_usd": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "$209.00",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "connectivity": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "WiFi | TF Card | USB",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "filament_runout_sensor": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Filament-break detection alerts you when filament is not loaded or runs out during printing",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "power_loss_recovery": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "Optional power-loss recovery can prompt you to resume a print after an unexpected outage when enabled",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    },
+    "warranty_months": {
+      "kind": "text",
+      "source_id": "s2",
+      "quote": "1-Year Warranty for Quality Issues",
+      "found_by": "model",
+      "verified_at": "2026-09-04T14:59:52Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "cura-definitions",
+      "external_ref": "resources/definitions/entina_tina2s.def.json",
+      "url": "https://github.com/Ultimaker/Cura/blob/main/resources/definitions/entina_tina2s.def.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-01T21:40:36Z",
+      "publisher": "cura-definitions"
+    },
+    {
+      "source_id": "s2",
+      "source": "entina-official",
+      "url": "https://entina3d.com/products/entina-tina2s-3d-printer",
+      "tier": "vendor",
+      "snapshot": "sha256:b07156b801738b15bff6c853f750caa50596043771dba33e9ce824f1d02f1098",
+      "transport": "https",
+      "retrieved_at": "2026-09-04T12:00:00Z",
+      "publisher": "ENTINA"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-04T14:59:52Z",
+    "pipeline_version": "forge-import-machines/0.2",
+    "gaps": [
+      "enclosed",
+      "kinematics",
+      "max_bed_temp_c",
+      "max_nozzle_temp_c",
+      "power_w",
+      "price_rub"
+    ],
+    "sources_count": 2,
+    "quality_score": 7,
+    "ready_for_catalog": true,
+    "extractor_model": "chat",
+    "verifier_model": "q38"
+  }
+}

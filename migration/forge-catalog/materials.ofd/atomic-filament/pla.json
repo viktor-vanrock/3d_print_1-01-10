@@ -1,0 +1,781 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "atomic-filament.pla",
+  "vendor": {
+    "slug": "atomic-filament",
+    "name": "Atomic Filament",
+    "website": "https://atomicfilament.com",
+    "origin": "US"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "nozzle_temp_min_c": 190,
+      "nozzle_temp_max_c": 230,
+      "bed_temp_min_c": 50,
+      "bed_temp_max_c": 70,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Amethyst Violet Gemstone Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "9135fb07-f783-46a0-8689-2f9b0d8d114b",
+      "confidence": 1.0,
+      "color_hex": "#c80181",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Aqua Gemstone Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "2710ff65-2074-4db8-a431-019b6a6409e4",
+      "confidence": 1.0,
+      "color_hex": "#36dbe7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Baby Blue v2",
+      "diameter_mm": 1.75,
+      "external_ref": "100a76ba-1fc5-40e1-b937-a863ec417475",
+      "confidence": 1.0,
+      "color_hex": "#5fbcdd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "7cadbbc4-fa6f-456c-9c2c-f073e556679d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Hi-Flow",
+      "diameter_mm": 1.75,
+      "external_ref": "11f3e0a4-f3cf-49db-aca5-c1ac1d6cdf33",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Black Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "2f25f5cd-cd21-4ca4-8c67-38e8833dbff8",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bright White",
+      "diameter_mm": 1.75,
+      "external_ref": "6985f477-0488-4300-a8b2-b7daf70cc53a",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bronze Metallic",
+      "diameter_mm": 1.75,
+      "external_ref": "b16ef32a-83e0-4e3d-ba5b-aaebcf9db52b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Bug Eyes Shade-Shifting",
+      "diameter_mm": 1.75,
+      "external_ref": "5766bf27-1576-4225-ac8c-209f97dfc1bf",
+      "confidence": 1.0,
+      "color_hex": "#144f3b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Candy Apple Golden Pearl",
+      "diameter_mm": 1.75,
+      "external_ref": "20f4b1b5-a128-44a5-9e82-37b17f5828dd",
+      "confidence": 1.0,
+      "color_hex": "#98282f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Chameleon Coastline Shade-Shifting",
+      "diameter_mm": 1.75,
+      "external_ref": "c8c79ec7-ae8e-4007-b55b-b1301f5331d0",
+      "confidence": 1.0,
+      "color_hex": "#488d94",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Clear / Natural Filament \"NO YELLOW HUE\"",
+      "diameter_mm": 1.75,
+      "external_ref": "9ad79c4a-71c6-4a97-8b59-905906caf62b",
+      "confidence": 1.0,
+      "color_hex": "#e4e7e5",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Cosmic Graphite v2",
+      "diameter_mm": 1.75,
+      "external_ref": "6c2e519f-c4d3-4c62-9bd3-58bd514cea3d",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Dark Cherry Red",
+      "diameter_mm": 1.75,
+      "external_ref": "c5134831-fc21-46f6-8d67-76800f839415",
+      "confidence": 1.0,
+      "color_hex": "#520b0f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Emerald Green Gemstone Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "930577db-5567-44fc-8965-1c900c64b763",
+      "confidence": 1.0,
+      "color_hex": "#267f67",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extreme Impact Gun Metal Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "2a017bd5-f586-45fa-a9df-6de09f315b8d",
+      "confidence": 1.0,
+      "color_hex": "#26272b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extreme Impact Gun Metal Gray v2",
+      "diameter_mm": 1.75,
+      "external_ref": "1ddd2335-756a-40b9-a6d2-5393702c7e7b",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extreme Impact Modified Black",
+      "diameter_mm": 1.75,
+      "external_ref": "72a9610b-b613-48c6-8034-4de571262596",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Extreme JET Black",
+      "diameter_mm": 1.75,
+      "external_ref": "17d6b5b0-56d9-4194-8109-46751ae7f116",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Fluorescent Translucent Neon Hot Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "f939d870-e4fe-4599-ae04-a2472e131f05",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galactic Blue Translucent Iridescent",
+      "diameter_mm": 1.75,
+      "external_ref": "2c67f89c-b8f5-4af4-93d7-f1783ff6c92f",
+      "confidence": 1.0,
+      "color_hex": "#565670",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Galactic Purple Translucent Iridescent",
+      "diameter_mm": 1.75,
+      "external_ref": "af0d41b1-fa3c-4436-aee2-d6949b7a93b3",
+      "confidence": 1.0,
+      "color_hex": "#a2918d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gemstone Ruby Red Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "7c485033-c3c7-43b5-8d8d-5e51ece3eff7",
+      "confidence": 1.0,
+      "color_hex": "#e20010",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Golden Blood Diamond Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "6884ea37-3f31-47f0-b671-ebe5fb8b67a6",
+      "confidence": 1.0,
+      "color_hex": "#c01616",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "6f883d11-1526-4278-830f-3f6817007eb9",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Groovy Purple Shade-Shifting",
+      "diameter_mm": 1.75,
+      "external_ref": "e2a9f2bc-0839-4e06-8ba2-bb4ab37a2725",
+      "confidence": 1.0,
+      "color_hex": "#cc00e3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gun Metal Gray v2",
+      "diameter_mm": 1.75,
+      "external_ref": "95a65b14-f331-4f0a-8401-2cb8f1ba28dd",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Gun Metal Gray v2 Filament",
+      "diameter_mm": 1.75,
+      "external_ref": "de98f5bc-ca65-4f99-9419-4ecc90e90df5",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Hot Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "8a7b08ae-4bcb-486f-a9d0-d4edb76af986",
+      "confidence": 1.0,
+      "color_hex": "#f06e92",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Illusion Cherry Iridescent",
+      "diameter_mm": 1.75,
+      "external_ref": "9cb55a77-d882-4f0b-9054-dd5b07f83264",
+      "confidence": 1.0,
+      "color_hex": "#df3303",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Indigo Golden Sparkle v3 Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "1919ebc4-930b-444b-bbf6-ab36d7e3a334",
+      "confidence": 1.0,
+      "color_hex": "#6c47b2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iridescent Bubblegum",
+      "diameter_mm": 1.75,
+      "external_ref": "3e13206b-499f-4ae9-b5ed-cfb77e6ae467",
+      "confidence": 1.0,
+      "color_hex": "#ff5786",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Iridescent Orange Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "a00f1c15-f5f4-48b4-a2ae-de8e496960fb",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Kandy Blast",
+      "diameter_mm": 1.75,
+      "external_ref": "368dc6dc-6f10-41b7-b66a-92c41fd03061",
+      "confidence": 1.0,
+      "color_hex": "#f14147",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Khaki",
+      "diameter_mm": 1.75,
+      "external_ref": "a11840e6-7916-46c3-afb7-34ca074c7c98",
+      "confidence": 1.0,
+      "color_hex": "#b8af99",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Gray Hi-Flow",
+      "diameter_mm": 1.75,
+      "external_ref": "ed304bd6-b95f-4bce-803b-0de8e4d8aaca",
+      "confidence": 1.0,
+      "color_hex": "#afaeab",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Light Gray v2",
+      "diameter_mm": 1.75,
+      "external_ref": "b2499488-bcc8-4e6f-8d2c-b409be27aee5",
+      "confidence": 1.0,
+      "color_hex": "#afaeab",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Majestic Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "3620cdd3-aa69-4e08-a56e-29c2a8194316",
+      "confidence": 1.0,
+      "color_hex": "#55331a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Marble",
+      "diameter_mm": 1.75,
+      "external_ref": "55193da1-9de5-4ed8-a237-af4f2b0b333d",
+      "confidence": 1.0,
+      "color_hex": "#edf0f2",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MeltMiser Black",
+      "diameter_mm": 1.75,
+      "external_ref": "830c46d4-8da9-4e9f-bd92-3883cd1202b8",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "MeltMiser White",
+      "diameter_mm": 1.75,
+      "external_ref": "d1349ab5-e413-4c8e-adc8-5e65e04f8c45",
+      "confidence": 1.0,
+      "color_hex": "#f5f5f4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Metallic Silver V2",
+      "diameter_mm": 1.75,
+      "external_ref": "65b95635-2220-4c83-a875-4277c5cdbca6",
+      "confidence": 1.0,
+      "color_hex": "#abacb0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Minty Green",
+      "diameter_mm": 1.75,
+      "external_ref": "980123af-5bc7-49d3-a9fb-8898c4a03013",
+      "confidence": 1.0,
+      "color_hex": "#adebb3",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Mysterious Abyss v2 Pearl",
+      "diameter_mm": 1.75,
+      "external_ref": "87510ad1-6f24-47b2-8d1a-7c7e2f094df9",
+      "confidence": 1.0,
+      "color_hex": "#224c5d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Navy Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "b59d005d-086e-4a30-88c5-c88470193d07",
+      "confidence": 1.0,
+      "color_hex": "#480199",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Green UV Reactive v2",
+      "diameter_mm": 1.75,
+      "external_ref": "e4d6141f-df25-461e-97c7-6490c8ad071d",
+      "confidence": 1.0,
+      "color_hex": "#83e665",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Orange UV Reactive",
+      "diameter_mm": 1.75,
+      "external_ref": "75e402f7-f642-4f41-a589-cbb17cb79977",
+      "confidence": 1.0,
+      "color_hex": "#ff5f2e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Neon Yellow UV Reactive",
+      "diameter_mm": 1.75,
+      "external_ref": "8c81433b-af98-44f6-814f-f08efad79543",
+      "confidence": 1.0,
+      "color_hex": "#ebff57",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Olive Drab Green",
+      "diameter_mm": 1.75,
+      "external_ref": "949afcca-0323-4e0c-9f35-48de0374471d",
+      "confidence": 1.0,
+      "color_hex": "#606935",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pastel Lilac",
+      "diameter_mm": 1.75,
+      "external_ref": "e6536e7d-ebe1-435c-bb21-15155e471704",
+      "confidence": 1.0,
+      "color_hex": "#ae96d4",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearlescent Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1e34788b-1578-4b97-bcd4-0ed5d94584ec",
+      "confidence": 1.0,
+      "color_hex": "#6d8dfd",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearlescent Translucent Neon Green V2",
+      "diameter_mm": 1.75,
+      "external_ref": "fc70546e-fb39-4dfb-88d5-ae6bd31d8509",
+      "confidence": 1.0,
+      "color_hex": "#83e665",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearlescent Translucent Neon Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "385a2570-d034-4b28-8c90-ba9b6a8cb541",
+      "confidence": 1.0,
+      "color_hex": "#ebff57",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pearly Peach",
+      "diameter_mm": 1.75,
+      "external_ref": "3715e27d-abe2-4eae-b804-5b59667cb4c9",
+      "confidence": 1.0,
+      "color_hex": "#e2dedb",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "2336e8b4-4ecd-43b9-89f9-0573919268d1",
+      "confidence": 1.0,
+      "color_hex": "#5c50e0",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "885dc6bc-cac3-4009-ae97-77084d96b883",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "696888c0-4131-4282-9753-d7b26413919e",
+      "confidence": 1.0,
+      "color_hex": "#7f068c",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Red",
+      "diameter_mm": 1.75,
+      "external_ref": "16c5f7a6-073f-4f83-af16-32abbef37b0e",
+      "confidence": 1.0,
+      "color_hex": "#e72f1d",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Perfect Yellow",
+      "diameter_mm": 1.75,
+      "external_ref": "ef7a0eef-da88-4205-8f4d-df137e1eb546",
+      "confidence": 1.0,
+      "color_hex": "#fbe200",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Pine Green v2",
+      "diameter_mm": 1.75,
+      "external_ref": "d96fdf68-2691-42c8-b592-0834834ff1a5",
+      "confidence": 1.0,
+      "color_hex": "#206233",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "RepRap Green",
+      "diameter_mm": 1.75,
+      "external_ref": "f1e5c054-f563-4ace-a23f-e730ed080ebb",
+      "confidence": 1.0,
+      "color_hex": "#089a45",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Rose Gold Metallic Translucent",
+      "diameter_mm": 1.75,
+      "external_ref": "65ca1a80-2762-4919-b9b4-cfef455a5431",
+      "confidence": 1.0,
+      "color_hex": "#bf7473",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Royal Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "817c3274-85b5-45d6-85f7-acbb9167564c",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Shamrock Sparkle",
+      "diameter_mm": 1.75,
+      "external_ref": "48b8d7cf-3c0f-4a46-af8f-3f469246f6db",
+      "confidence": 1.0,
+      "color_hex": "#1d7c6a",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Starlight Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "a85b4d4a-710c-4786-99d8-7f56c4e2e6da",
+      "confidence": 1.0,
+      "color_hex": "#55555e",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Starry Night Translucent v3",
+      "diameter_mm": 1.75,
+      "external_ref": "a86d397b-a042-4a45-87b5-4a0200361462",
+      "confidence": 1.0,
+      "color_hex": "#5e1490",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Too Good to be Blue Shade-Shifting",
+      "diameter_mm": 1.75,
+      "external_ref": "704a94e2-01b2-41be-a90e-e9cdde86b048",
+      "confidence": 1.0,
+      "color_hex": "#0e21ae",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Bright Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "d6f908a1-4cfe-4317-a9d8-5b6854861a39",
+      "confidence": 1.0,
+      "color_hex": "#f67405",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Cosmic Ray Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "9ff546d0-4268-4d9f-b540-3013aeb1b025",
+      "confidence": 1.0,
+      "color_hex": "#2e56f1",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Flamingo Sunset",
+      "diameter_mm": 1.75,
+      "external_ref": "3dca9c2a-26f2-4fbb-96e4-6845149e0bab",
+      "confidence": 1.0,
+      "color_hex": "#fd4e6f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Midnight Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "6997bcd0-4c30-462f-9380-386f612f922a",
+      "confidence": 1.0,
+      "color_hex": "#3f017f",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Neon Green v2 - UV REACTIVE",
+      "diameter_mm": 1.75,
+      "external_ref": "6c32306a-262e-4c13-9e3b-9187b07b4d27",
+      "confidence": 1.0,
+      "color_hex": "#0bd10b",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Neon Yellow - UV REACTIVE",
+      "diameter_mm": 1.75,
+      "external_ref": "e7fbf1a6-222f-41e4-86a7-a104dc1d92ca",
+      "confidence": 1.0,
+      "color_hex": "#ebff57",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Sapphire Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "2595dca1-f907-4b59-9506-1843ce32e6f1",
+      "confidence": 1.0,
+      "color_hex": "#0022ff",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Translucent Smoke Black",
+      "diameter_mm": 1.75,
+      "external_ref": "3856d21b-e48c-437a-b403-f2f59508317b",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Tropical Sea Iridescent Translucent v2",
+      "diameter_mm": 1.75,
+      "external_ref": "00925034-78ae-4859-a5c0-9b54ce076f5b",
+      "confidence": 1.0,
+      "color_hex": "#36dbe7",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "True Gold v2",
+      "diameter_mm": 1.75,
+      "external_ref": "6e31eaa1-1dcc-4f66-b49e-5036de3c516f",
+      "confidence": 1.0,
+      "color_hex": "#ce8d00",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "df51422b-3a64-4dc2-96d7-9d72229dd9c6",
+      "confidence": 1.0,
+      "color_hex": "#00a594",
+      "weight_g": 1000
+    },
+    {
+      "color_name": "Ultra Impact Modified White v2",
+      "diameter_mm": 1.75,
+      "external_ref": "b3895baf-d580-461c-94c5-89227f1d38dc",
+      "confidence": 1.0,
+      "color_hex": "#ffffff",
+      "weight_g": 1000
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "nozzle_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_min_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "bed_temp_max_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#min_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "nozzle_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#max_print_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_min_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#min_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "bed_temp_max_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#max_bed_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/atomic_filament/PLA/pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "40a87c69-fb91-484e-8b14-c5d3a8e5432e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/atomic_filament/PLA/pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": true
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "add-north.pla-premium-silk",
+  "vendor": {
+    "slug": "add-north",
+    "name": "Add-North",
+    "website": "https://addnorth.com/",
+    "origin": "SE"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Premium Silk",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "dry_temp_c": 50,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "f8cb5d8f-7e93-4d9c-8e39-6207cbb433a8",
+      "confidence": 1.0,
+      "color_hex": "#0000ff",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PLA%20Premium%20Silk/PLA%20Premium%20Silk%20-%201.75mm%20-%20750g%20-%20Blue"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "6c3dba8d-b63c-4501-a3d4-74b6e6c2ecf0",
+      "confidence": 1.0,
+      "color_hex": "#d4af37",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PLA%20Premium%20Silk/PLA%20Premium%20Silk%20-%201.75mm%20-%20750g%20-%20Gold"
+    },
+    {
+      "color_name": "Green",
+      "diameter_mm": 1.75,
+      "external_ref": "205fc0e6-6f02-43c4-9f91-bb9977d4e408",
+      "confidence": 1.0,
+      "color_hex": "#008000",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PLA%20Premium%20Silk/PLA%20Premium%20Silk%20-%201.75mm%20-%20750g%20-%20Green"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "2ad6f42e-185e-46ed-bc9c-532336859fa0",
+      "confidence": 1.0,
+      "color_hex": "#ff0000",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PLA%20Premium%20Silk/PLA%20Premium%20Silk%20-%201.75mm%20-%20750g%20-%20Red"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "03bbaef0-e512-4c84-a278-048542771d70",
+      "confidence": 1.0,
+      "color_hex": "#c0c0c0",
+      "weight_g": 750,
+      "purchase_url": "https://addnorth.com/product/PLA%20Premium%20Silk/PLA%20Premium%20Silk%20-%201.75mm%20-%20750g%20-%20Silver"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/pla_premium_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/pla_premium_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/pla_premium_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/pla_premium_silk/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/pla_premium_silk/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/pla_premium_silk/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/pla_premium_silk/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/add_north/PLA/pla_premium_silk/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "5274d23e-d86d-4724-9b2b-bc370f8ee753",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/add_north/PLA/pla_premium_silk/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

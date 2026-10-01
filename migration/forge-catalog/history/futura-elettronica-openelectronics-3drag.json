@@ -1,0 +1,90 @@
+{
+ "slug": "history.futura-elettronica-openelectronics-3drag",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/3drag",
+ "snapshot": "sha256:4a55fc5092cd723dc1b9c330708bc8279b55161d83c9d3db65897c2d58b63b1f",
+ "page_chars": 41296,
+ "fields": {
+  "firmware": "Marlin",
+  "summary": "3Drag — это 3D-принтер на базе конструкции Mendel, производимый компаниями Futura Elettronica и OpenElectronics. Он предназначен для печати из термопластов (PLA, ABS) и совместим с программным обеспечением RepRap, включая прошивку Marlin.",
+  "unique_features": [
+   "Совместимость электроники (3Drag_controller) с прошивкой и ПО из мира RepRap",
+   "Возможность перепрограммирования платы через Arduino IDE или Visual Studio",
+   "Ручная юстировка нулевых позиций с помощью винтов и микропереключателей",
+   "Использование линейных шарикоподшипников (8 и 10 мм)",
+   "Продавался как комплект Velleman K8200"
+  ],
+  "limitations": [
+   "Ручная настройка нулевых позиций (не автоматическая)",
+   "Требуется периодическая смазка (Occasional oiling)",
+   "Отсутствие контроллера в базовой комплектации (No controller)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 200,
+   "y": 200,
+   "z": 200,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 200,
+  "nozzle_diameters": [
+   0.5
+  ],
+  "filament_diameter_mm": 3,
+  "dimensions_mm": {
+   "w": 600,
+   "d": 430,
+   "h": 590
+  },
+  "weight_kg": 9.0,
+  "voltage_v": 15,
+  "connectivity": [
+   "USB"
+  ],
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ]
+ },
+ "evidence": {
+  "firmware": "The Marlin firmware is provided configured to reflect: the mechanical characteristics",
+  "summary": "We can finally release our mechanical interpretation of a RepRap.",
+  "unique_features": "The electronics( 3Drag_controller ) are fully compatible with the firmware and software from RepRap world.",
+  "limitations": "This is not an automatic adjustment",
+  "kinematics": "Cartesian-Z-head",
+  "build_volume": "Build Envelope | 200 mm (W) x 200 mm (D) x 200 mm (H)",
+  "max_speed_mms": "Max Speed | 200 mm/s (depending on the object to be printed)",
+  "nozzle_diameters": "Accuracy | Diameter of nozzle 0.5 mm",
+  "filament_diameter_mm": "Materials | PLA , ABS & more. Uses ø 3 mm filament.",
+  "dimensions_mm": "Size | 600 mm (W) x 430 mm (D) x 590 mm (H)",
+  "weight_kg": "Weight | 9.0 kg",
+  "voltage_v": "Power supply: | 15 V / 3 A max",
+  "connectivity": "Comunication | FTDI USB 2.0 to Serial",
+  "materials_supported": "Materials | PLA , ABS & more."
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Совместимость электроники (3Drag_controller) с прошивкой и ПО из мира RepRap",
+  "Возможность перепрограммирования платы через Arduino IDE или Visual Studio",
+  "Ручная юстировка нулевых позиций с помощью винтов и микропереключателей",
+  "Использование линейных шарикоподшипников (8 и 10 мм)",
+  "Продавался как комплект Velleman K8200"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-03T22:59:58Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "3drag",
+ "maker": "Futura Elettronica / OpenElectronics",
+ "model": "3Drag",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/3drag"
+}

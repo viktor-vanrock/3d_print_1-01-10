@@ -1,0 +1,151 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "snapmaker.silk-dual-color-pla",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker",
+    "website": "https://snapmaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk Dual-Color PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Aurora Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "0f6160f3-e6d9-4793-ad86-b49dd8adf3fb",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "City Billboard",
+      "diameter_mm": 1.75,
+      "external_ref": "e07d602b-fa6d-46d9-9ffb-3bdfcffbfb60",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "Ice Lake",
+      "diameter_mm": 1.75,
+      "external_ref": "eece1609-8771-4660-bf47-e92eb2581c7e",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "Mint Lemonade",
+      "diameter_mm": 1.75,
+      "external_ref": "2e34113e-1086-444f-90a5-ef93908833c1",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "Sea Glass",
+      "diameter_mm": 1.75,
+      "external_ref": "07c12e11-6358-49da-98e5-4027d18acca1",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "Solar Alloy",
+      "diameter_mm": 1.75,
+      "external_ref": "106c2906-d794-4590-ba1d-f0f5b126b906",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    },
+    {
+      "color_name": "Sunset Ember",
+      "diameter_mm": 1.75,
+      "external_ref": "779a8ed9-25e4-45f8-8e80-f76f9ca2dba3",
+      "confidence": 1.0,
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-dual-color-pla-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_dual_color_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_dual_color_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_dual_color_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_dual_color_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_dual_color_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_dual_color_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "53d38ad2-54a1-40dd-83fd-35749b7ee5af",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_dual_color_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

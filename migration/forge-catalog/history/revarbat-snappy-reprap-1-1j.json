@@ -1,0 +1,89 @@
+{
+ "slug": "history.revarbat-snappy-reprap-1-1j",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/Snappy",
+ "snapshot": "sha256:28230fd498132b27706dac776ac1900a05d5d163337ffb44060bcc600781095c",
+ "page_chars": 3803,
+ "fields": {
+  "bed_surface": "Glass",
+  "summary": "Snappy RepRap v1.1j — это дешевый 3D-принтер с открытым исходным кодом, который собирается практически без винтов, стержней, ремней или нитей, используя только один подшипник. Он позиционируется как устройство, которое можно собрать самостоятельно менее чем за 300 долларов, включая стоимость пластика для печати деталей.",
+  "unique_features": [
+   "Сборка без использования винтов, стержней, ремней или нитей",
+   "Использование только одного подшипника (686)",
+   "Отсутствие ремней, шкивов и металлических направляющих",
+   "Оригинальный дизайн, созданный в OpenSCAD, позволяющий изменять параметры",
+   "Высокая степень самовоспроизводимости: 72% деталей печатаются без кабельных цепей и 79% с ними"
+  ],
+  "limitations": [
+   "Требуется использование не печатаемых деталей (моторы, электроника, стекло, резьбовые стержни)",
+   "Требуется вытяжка/охлаждение (упоминаются вентиляторы охлаждения)",
+   "Материалы: PLA, ABS (с опциональной нагретой печатной платформой HBP)"
+  ],
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 185,
+   "y": 185,
+   "z": 180,
+   "shape": "rectangular"
+  },
+  "max_speed_mms": 60,
+  "max_travel_speed_mms": 100,
+  "extruder_count": 1,
+  "dimensions_mm": {
+   "w": 530,
+   "d": 480,
+   "h": 550
+  },
+  "power_w": 120,
+  "voltage_v": 12,
+  "price_usd": 292,
+  "materials_supported": [
+   "PLA",
+   "ABS"
+  ]
+ },
+ "evidence": {
+  "bed_surface": "Non-Printed Parts: Motors. Electronics. Glass build plate.",
+  "summary": "A cheap, printable 3d printer that snaps together with almost no screws, rods, belts, or strings, and uses only one bearing.",
+  "unique_features": "This design needs no belts, pulleys, metal rails, and almost no screws outside of the motors or extruder hot-end.",
+  "limitations": "Non-Printed Parts: Motors. Electronics. Glass build plate. 2 ACME threaded rods. One 686 bearing.",
+  "kinematics": "This design needs no belts, pulleys, metal rails... 2 ACME threaded rods. One 686 bearing.",
+  "build_volume": "Build Envelope | Length: 185mm [7.3\"] Width: 185mm [7.3\"] Height: 180mm [7.0\"]",
+  "max_speed_mms": "Speed: 100mm/sec (position), 60mm/sec (printing)",
+  "max_travel_speed_mms": "Speed: 100mm/sec (position), 60mm/sec (printing)",
+  "extruder_count": "1 Standard J-Head MkV extruder hot end",
+  "dimensions_mm": "Dimensions | Length: 480mm [18.9\"] Width: 530mm [20.9\"] Height: 550mm [21.7\"]",
+  "power_w": "1 Power supply (12V, 120W)",
+  "voltage_v": "1 Power supply (12V, 120W)",
+  "price_usd": "Build Cost (≈) | US$292",
+  "materials_supported": "Materials Printed | PLA , ABS with optional HBP"
+ },
+ "unconfirmed": [
+  "kinematics"
+ ],
+ "unique_features": [
+  "Сборка без использования винтов, стержней, ремней или нитей",
+  "Использование только одного подшипника (686)",
+  "Отсутствие ремней, шкивов и металлических направляющих",
+  "Оригинальный дизайн, созданный в OpenSCAD, позволяющий изменять параметры",
+  "Высокая степень самовоспроизводимости: 72% деталей печатаются без кабельных цепей и 79% с ними"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-04T00:58:06Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "Snappy",
+ "maker": "RevarBat",
+ "model": "Snappy RepRap 1.1j",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/Snappy"
+}

@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "snapmaker.silk-pla",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker",
+    "website": "https://snapmaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Silk PLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Copper",
+      "diameter_mm": 1.75,
+      "external_ref": "f96ea875-59be-4bd5-aa68-43b6d20829bd",
+      "confidence": 1.0,
+      "color_hex": "#af6b4c",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    },
+    {
+      "color_name": "Garnet Red",
+      "diameter_mm": 1.75,
+      "external_ref": "7d012b9b-ba39-4e64-8f49-70c98f9c39fd",
+      "confidence": 1.0,
+      "color_hex": "#c1443f",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    },
+    {
+      "color_name": "Gold",
+      "diameter_mm": 1.75,
+      "external_ref": "eb235530-596f-4fbe-9789-f9319e43c44d",
+      "confidence": 1.0,
+      "color_hex": "#f6ce1b",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    },
+    {
+      "color_name": "Pearl Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "347d792f-12fa-4ea8-a8b8-06ff33df6ca4",
+      "confidence": 1.0,
+      "color_hex": "#efc2ca",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    },
+    {
+      "color_name": "Sapphire Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "da1a0233-7af8-48ff-99fb-432318c7e597",
+      "confidence": 1.0,
+      "color_hex": "#768ec7",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "b3041538-ff6f-4cdd-8e6a-87200d6e4002",
+      "confidence": 1.0,
+      "color_hex": "#bcc2c8",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/silk-pla-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_pla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_pla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_pla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PLA/silk_pla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "34c742bd-5cd8-4938-8a9e-6eb74e5de29a",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PLA/silk_pla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

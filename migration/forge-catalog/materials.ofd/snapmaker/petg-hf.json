@@ -1,0 +1,185 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "snapmaker.petg-hf",
+  "vendor": {
+    "slug": "snapmaker",
+    "name": "Snapmaker",
+    "website": "https://snapmaker.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PETG HF",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.3,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "0d54977e-e15e-4b15-a5b6-d21e76208bf9",
+      "confidence": 1.0,
+      "color_hex": "#16171b",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Cobalt Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "40307323-1d2a-42de-afd2-b3628ac180d3",
+      "confidence": 1.0,
+      "color_hex": "#0049b8",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Cocoa Brown",
+      "diameter_mm": 1.75,
+      "external_ref": "4a70322e-0ed9-420e-88a9-45b4d7cce9ef",
+      "confidence": 1.0,
+      "color_hex": "#6b504c",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Deep Purple",
+      "diameter_mm": 1.75,
+      "external_ref": "d3381518-ddce-4aee-916b-99c130efba15",
+      "confidence": 1.0,
+      "color_hex": "#473378",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Light Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "8e669aa9-7002-4943-a9df-382d4135ac58",
+      "confidence": 1.0,
+      "color_hex": "#acb8c5",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Orange",
+      "diameter_mm": 1.75,
+      "external_ref": "4147d482-6e4b-41c7-a297-e5d755e55d71",
+      "confidence": 1.0,
+      "color_hex": "#fb7e1b",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Red",
+      "diameter_mm": 1.75,
+      "external_ref": "87ebcdcc-fa37-453b-9178-3e1b13e6d45a",
+      "confidence": 1.0,
+      "color_hex": "#ff1523",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Silver Gray",
+      "diameter_mm": 1.75,
+      "external_ref": "cff2dbaa-973c-4703-9a54-b7266ca7a43e",
+      "confidence": 1.0,
+      "color_hex": "#7c818e",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "645489fe-d3ed-4a2f-9177-055720f95591",
+      "confidence": 1.0,
+      "color_hex": "#493ab2",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "00e7fd11-1bbc-4165-ac36-7ccc86f5e871",
+      "confidence": 1.0,
+      "color_hex": "#f4f9ff",
+      "weight_g": 1000,
+      "purchase_url": "https://shop.snapmaker.com/products/petg-hf-filament"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PETG/petg_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PETG/petg_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PETG/petg_hf/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PETG/petg_hf/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PETG/petg_hf/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/snapmaker/PETG/petg_hf/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "bb6d7c6c-06c7-4a4e-8be5-91f33af8b155",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/snapmaker/PETG/petg_hf/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

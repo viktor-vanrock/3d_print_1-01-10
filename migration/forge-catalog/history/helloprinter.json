@@ -1,0 +1,89 @@
+{
+ "slug": "history.helloprinter",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/HELLOPRINTER",
+ "snapshot": "sha256:2c1d83519cd7960deea07e89135ea6e01accb799ccd8924e823fff0e7536f10b",
+ "page_chars": 1901,
+ "fields": {
+  "screen_type": "LCD",
+  "summary": "HelloPrinter — это 3D-принтер, CNC-станок и лазерный гравер/резак с открытым исходным кодом, основанный на конструкции Prusa I3. Устройство предназначено для пользователей, желающих выполнять печать из различных пластиков, а также фрезерование и гравировку благодаря прочной конструкции из нержавеющей стали.",
+  "unique_features": [
+   "Совместимость с экструдером Monkey Extruder (сверхлегкий двойной экструдер)",
+   "Возможность разделения сопел на половину длины стола для одновременной печати двух объектов",
+   "Подготовка к бесконтактному автоматическому выравниванию стола",
+   "Структура из нержавеющей стали для обеспечения веса, необходимого для функции CNC",
+   "Индуктивные концевые выключатели (Hall endstops)"
+  ],
+  "target_use": [
+   "3D-печать (ABS, PLA, нейлон и др.)",
+   "CNC-обработка",
+   "Лазерная резка и гравировка"
+  ],
+  "kinematics": "delta",
+  "max_speed_mms": 100,
+  "power_w": 360,
+  "voltage_v": 12,
+  "connectivity": [
+   "SD card"
+  ],
+  "materials_supported": [
+   "ABS",
+   "ABS-PC",
+   "ABS-Carborn",
+   "Glow In The Dark ABS",
+   "PLA",
+   "HIPS",
+   "Laywoo",
+   "Claywoo",
+   "BronzeFill",
+   "CopperFill",
+   "Nylon",
+   "PVA"
+  ],
+  "heated_bed": true,
+  "multimaterial_supported": true
+ },
+ "evidence": {
+  "screen_type": "LCD: With controls and SD card Reader",
+  "summary": "Open Source Multi-Maker (3D printer, CNC, Laser cutter/engraver)",
+  "unique_features": "Monkey Extruder Compatible - Super lightweight Dual extruder",
+  "target_use": "Open Source Multi-Maker (3D printer, CNC, Laser cutter/engraver)",
+  "kinematics": "Based on the work of josef prusa, model prusa I3",
+  "max_speed_mms": "Speed: Up to 100mm/s",
+  "power_w": "PSU: 12v 30A",
+  "voltage_v": "PSU: 12v 30A",
+  "connectivity": "SD card Reader",
+  "materials_supported": "Materials: ABS, ABS-PC,ABS-Carborn, Glow In The Dark ABS and PLA, PLA, HIPS, Laywoo, Claywoo,BronzeFill, CopperFill, Nylon, PVA and others",
+  "heated_bed": "Heated bed: Yes",
+  "multimaterial_supported": "making possible the print of 2 objects in diferent materials or colors at the same time"
+ },
+ "unconfirmed": [
+  "kinematics",
+  "power_w"
+ ],
+ "unique_features": [
+  "Совместимость с экструдером Monkey Extruder (сверхлегкий двойной экструдер)",
+  "Возможность разделения сопел на половину длины стола для одновременной печати двух объектов",
+  "Подготовка к бесконтактному автоматическому выравниванию стола",
+  "Структура из нержавеющей стали для обеспечения веса, необходимого для функции CNC",
+  "Индуктивные концевые выключатели (Hall endstops)"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "delta",
+  "мультиматериал"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-03T23:11:24Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "HELLOPRINTER",
+ "maker": "",
+ "model": "HELLOPRINTER",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/HELLOPRINTER"
+}

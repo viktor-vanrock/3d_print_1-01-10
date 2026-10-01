@@ -1,0 +1,145 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "anycubic.pla-special",
+  "vendor": {
+    "slug": "anycubic",
+    "name": "Anycubic",
+    "website": "https://www.anycubic.com/",
+    "origin": "CN"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "PLA Special",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "dry_temp_c": 50,
+      "diameter_tolerance_mm": 0.02,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Intersellar Violet",
+      "diameter_mm": 1.75,
+      "external_ref": "0dd81730-b89f-49ec-8b44-6ea08838d421",
+      "confidence": 1.0,
+      "color_hex": "#5b618f",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/pla-basic-special-color-filament?variant=44831261262013"
+    },
+    {
+      "color_name": "Peach Pink",
+      "diameter_mm": 1.75,
+      "external_ref": "a19feb9b-2934-4936-ab65-9705202f6e33",
+      "confidence": 1.0,
+      "color_hex": "#ffc196",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/pla-basic-special-color-filament?variant=44831261196477"
+    },
+    {
+      "color_name": "Spring Leaf",
+      "diameter_mm": 1.75,
+      "external_ref": "2c09a29d-2ebb-4316-a423-a1bafefb5982",
+      "confidence": 1.0,
+      "color_hex": "#89a84f",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/pla-basic-special-color-filament?variant=44831261294781"
+    },
+    {
+      "color_name": "Tropical Turquoise",
+      "diameter_mm": 1.75,
+      "external_ref": "a549340c-935f-465e-b31e-0293e04deded",
+      "confidence": 1.0,
+      "color_hex": "#009cbd",
+      "weight_g": 1000,
+      "purchase_url": "https://store.anycubic.com/products/pla-basic-special-color-filament?variant=44831261229245"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/PLA/pla_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "dry_temp_c": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/PLA/pla_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/PLA/pla_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/PLA/pla_special/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/PLA/pla_special/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "dry_temp_c": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/PLA/pla_special/filament.json#max_dry_temperature",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/PLA/pla_special/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/anycubic/PLA/pla_special/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "53cd09ee-cb6c-40b6-a0b5-85c0b33d1a3e",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/anycubic/PLA/pla_special/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

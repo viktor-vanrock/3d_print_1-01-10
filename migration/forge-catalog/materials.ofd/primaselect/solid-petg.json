@@ -1,0 +1,149 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "primaselect.solid-petg",
+  "vendor": {
+    "slug": "primaselect",
+    "name": "PrimaSelect",
+    "website": "https://primacreator.com/",
+    "origin": "SW"
+  },
+  "material_type": {
+    "slug": "petg",
+    "name": "PETG"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "Solid PETG",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.27,
+      "diameter_tolerance_mm": 0.05,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Black",
+      "diameter_mm": 1.75,
+      "external_ref": "f578ad17-844b-491a-ab71-c569be21ed46",
+      "confidence": 1.0,
+      "color_hex": "#000000",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5491-primaselect-petg-filament-750-g-sort/"
+    },
+    {
+      "color_name": "Bronze",
+      "diameter_mm": 1.75,
+      "external_ref": "62226412-595a-4d77-ba56-df1d820b2f22",
+      "confidence": 1.0,
+      "color_hex": "#665d1e",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6221-primaselect-petg-filament-750-g-bronzefarvet/"
+    },
+    {
+      "color_name": "Dark Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "60697073-7c7c-44f6-a977-d88a33d9d5bb",
+      "confidence": 1.0,
+      "color_hex": "#0b0b60",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6037-primaselect-petg-filament-750-g-moerkeblaa/"
+    },
+    {
+      "color_name": "Light Blue",
+      "diameter_mm": 1.75,
+      "external_ref": "1dee49a5-a290-411a-8c52-6096ee96f21f",
+      "confidence": 1.0,
+      "color_hex": "#2e88b6",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6005-primaselect-petg-filament-750-g-lyseblaa/"
+    },
+    {
+      "color_name": "Silver",
+      "diameter_mm": 1.75,
+      "external_ref": "8eedb7ab-bdf2-43bb-b1d4-5f85aebf8370",
+      "confidence": 1.0,
+      "color_hex": "#b0bbc0",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/5675-primaselect-petg-filament-750-g-soelvfarvet/"
+    },
+    {
+      "color_name": "White",
+      "diameter_mm": 1.75,
+      "external_ref": "78532cb7-31d9-4b8a-ab2f-c7753d2bdd2c",
+      "confidence": 1.0,
+      "color_hex": "#fdfeff",
+      "weight_g": 750,
+      "purchase_url": "https://www.gadgethuset.dk/shop/397-petg-filament/6247-primaselect-petg-filament-750-g-hvid/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/solid_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/solid_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/solid_petg/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/solid_petg/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/solid_petg/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/primaselect/PETG/solid_petg/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "c66bedc6-4082-4d42-b16d-931e7eac10a9",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/primaselect/PETG/solid_petg/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}

@@ -1,0 +1,91 @@
+{
+ "slug": "history.foldarap",
+ "outcome": "staged",
+ "url": "https://reprap.org/wiki/FoldaRap",
+ "snapshot": "sha256:43ac59a75ac4a81dffa285c8b2323298f66f20b33a3888b75e633b62eea8de8e",
+ "page_chars": 37247,
+ "fields": {
+  "summary": "FoldaRap4.0 — это складной 3D-принтер типа RepRap, разработанный для удобной транспортировки и использования в путешествиях. Он позиционируется как компактное устройство с минимальным занимаемым местом, которое можно собрать или разобрать за несколько секунд.",
+  "unique_features": [
+   "Складная конструкция (Foldable)",
+   "Быстрое складывание/раскладывание (от 5 минут до 5 секунд)",
+   "Минимальный footprint: 21 x 35 см",
+   "Легкий вес: 3-4 кг",
+   "Прямой привод Bowden экструдера (1.75mm Direct Driven Bowden Extruder)",
+   "Низкое энергопотребление (40-110W)",
+   "Ось Z, управляемая гравитацией (Z homing by gravity), не требующая концевых выключателей",
+   "Использование стандартных деталей для простоты повторения и переработки"
+  ],
+  "limitations": [
+   "При температуре ниже 15°C слайдеры требуют большего усилия для перемещения",
+   "Ограничение скорости печати для качественных углов: 40 мм/с",
+   "Требуется источник питания (внешний или внутренний)",
+   "Необходимость калибровки и настройки (упоминаются проблемы с выравниванием, натяжением ремней/рейки)"
+  ],
+  "max_flow_mm3s": 12,
+  "kinematics": "cartesian",
+  "build_volume": {
+   "x": 140,
+   "y": 140,
+   "z": 140,
+   "shape": "rectangular"
+  },
+  "layer_height_min_mm": 0.05,
+  "positioning_accuracy_mm": 0.05,
+  "filament_diameter_mm": 1.75,
+  "extruder_count": 1,
+  "dimensions_mm": {
+   "w": 340,
+   "d": 350,
+   "h": 360
+  },
+  "voltage_v": 12,
+  "heated_bed": true,
+  "release_year": 2012
+ },
+ "evidence": {
+  "summary": "first folding reprap",
+  "unique_features": "Foldable !",
+  "limitations": "below 15°C the sliders seems to require a little more force to move",
+  "max_flow_mm3s": "Volumetric speed : 0,4mm = 4mm3/s ; 0,5mm = 8mm3/s ; 0,8mm = 10-12mm3/s (usually)",
+  "kinematics": "Cartesian-XZ-head",
+  "build_volume": "Printing Size: 140x140x140 mm",
+  "layer_height_min_mm": "Accuracy : 0.05mm (50 microns is the lowest layer height tested yet)",
+  "positioning_accuracy_mm": "Tolerance : 40mm = 40mm +/- 0.05 mm",
+  "filament_diameter_mm": "1.75mm Direct Driven Bowden Extruder",
+  "extruder_count": "1.75mm Direct Driven Bowden Extruder",
+  "dimensions_mm": "Total volume : 34 x 35 x 36 cm",
+  "voltage_v": "rear-plate version for external power supply ( 12V / 24V )",
+  "heated_bed": "the peltier bed work like a charm",
+  "release_year": "since 2012, I'm able to travel with it"
+ },
+ "unconfirmed": [],
+ "unique_features": [
+  "Складная конструкция (Foldable)",
+  "Быстрое складывание/раскладывание (от 5 минут до 5 секунд)",
+  "Минимальный footprint: 21 x 35 см",
+  "Легкий вес: 3-4 кг",
+  "Прямой привод Bowden экструдера (1.75mm Direct Driven Bowden Extruder)",
+  "Низкое энергопотребление (40-110W)",
+  "Ось Z, управляемая гравитацией (Z homing by gravity), не требующая концевых выключателей",
+  "Использование стандартных деталей для простоты повторения и переработки"
+ ],
+ "via_base_model": false,
+ "tags": [
+  "cartesian",
+  "компактный"
+ ],
+ "conflicts": [],
+ "extractor": "chat",
+ "verifier": "verify",
+ "ts": "2026-09-03T23:07:07Z",
+ "kind": "history",
+ "source": "RepRap wiki",
+ "title": "FoldaRap",
+ "maker": "",
+ "model": "FoldaRap",
+ "first_year": null,
+ "license": "GFDL 1.2",
+ "tier": "community",
+ "key": "history:https://reprap.org/wiki/FoldaRap"
+}

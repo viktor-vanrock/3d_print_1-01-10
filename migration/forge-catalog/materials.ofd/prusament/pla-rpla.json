@@ -1,0 +1,122 @@
+{
+  "schema_version": "forge.filament.v1",
+  "slug": "prusament.pla-rpla",
+  "vendor": {
+    "slug": "prusament",
+    "name": "Prusament",
+    "website": "https://prusament.com/",
+    "origin": "CZ"
+  },
+  "material_type": {
+    "slug": "pla",
+    "name": "PLA"
+  },
+  "material": {
+    "craft": "3d_printing",
+    "kind": "filament",
+    "name": "rPLA",
+    "source": "import",
+    "specs": {
+      "density_g_cm3": 1.24,
+      "diameter_tolerance_mm": 0.03,
+      "ru_market": false
+    }
+  },
+  "variants": [
+    {
+      "color_name": "Algae",
+      "diameter_mm": 1.75,
+      "external_ref": "ae9b377b-6926-4825-96a3-bd246a891342",
+      "confidence": 1.0,
+      "color_hex": "#674b42",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-rpla-algae-pigment-1kg/"
+    },
+    {
+      "color_name": "Corn",
+      "diameter_mm": 1.75,
+      "external_ref": "375a18c2-a80e-4aac-904c-89b88a24dfa2",
+      "confidence": 1.0,
+      "color_hex": "#ccc9c0",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-rpla-corn-pigment-1kg/"
+    },
+    {
+      "color_name": "Wine",
+      "diameter_mm": 1.75,
+      "external_ref": "6a515b65-63be-40b3-84ce-27756c96f169",
+      "confidence": 1.0,
+      "color_hex": "#5e4940",
+      "weight_g": 1000,
+      "purchase_url": "https://www.prusa3d.com/product/prusament-rpla-wine-pigment-1kg/"
+    }
+  ],
+  "field_provenance": {
+    "density_g_cm3": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/rpla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "diameter_tolerance_mm": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/rpla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    },
+    "ru_market": {
+      "source": "open-filament-database-profiles",
+      "source_url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/rpla/filament.json",
+      "ts": "2026-09-03T13:37:34Z",
+      "confidence": 1.0
+    }
+  },
+  "evidence": {
+    "density_g_cm3": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/rpla/filament.json#density",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "diameter_tolerance_mm": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/rpla/filament.json#diameter_tolerance",
+      "verified_at": "2026-09-03T13:37:34Z"
+    },
+    "ru_market": {
+      "kind": "structured",
+      "source_id": "s1",
+      "found_by": "host",
+      "ref": "data/prusament/PLA/rpla/filament.json#brand",
+      "verified_at": "2026-09-03T13:37:34Z"
+    }
+  },
+  "sources": [
+    {
+      "source_id": "s1",
+      "source": "open-filament-database-profiles",
+      "external_ref": "974f64a9-5744-49b1-a0af-1d32401e5914",
+      "url": "https://github.com/OpenFilamentCollective/open-filament-database/blob/main/data/prusament/PLA/rpla/filament.json",
+      "tier": "structural",
+      "transport": "https",
+      "retrieved_at": "2026-09-03T13:37:34Z",
+      "publisher": "Open Filament Database (MIT)"
+    }
+  ],
+  "_meta": {
+    "updated_at": "2026-09-03T13:37:34Z",
+    "pipeline_version": "forge-import-ofd/0.1",
+    "temps_reviewed_by_human": false,
+    "gaps": [
+      "bed_temp_min_c",
+      "max_volumetric_speed_mm3s",
+      "needs_enclosure",
+      "nozzle_temp_min_c",
+      "shrinkage_pct"
+    ],
+    "ready_for_catalog": false
+  }
+}
