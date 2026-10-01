@@ -1,5 +1,6 @@
 import { Global, Module } from "@nestjs/common";
 import { DatabaseModule } from "../../nest/database/database.module.ts";
+import { AuditModule } from "../audit/audit.module.ts";
 import { RuntimeLogger } from "../../nest/observability/runtime-logger.ts";
 import { AuthController } from "./api/auth.controller.ts";
 import { AuthService } from "./application/auth.service.ts";
@@ -15,7 +16,7 @@ import { AUTH_SESSION_REGISTRY_PORT } from "./application/session.service.ts";
 
 @Global()
 @Module({
-  imports: [DatabaseModule, PermissionsModule],
+  imports: [DatabaseModule, PermissionsModule, AuditModule],
   controllers: [AuthController],
   providers: [
     RuntimeLogger,
