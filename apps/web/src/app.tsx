@@ -313,7 +313,7 @@ export function App() {
               screen = <MaterialDetailScreen user={user} section={section} onSectionChange={onSectionChange} id={route.id} />;
             } else if (route.screen === "data") {
               screen = <DataShell user={protectedUser} section={section} onSectionChange={onSectionChange}>
-                <ProfileData capabilities={protectedUser.capabilities ?? []} />
+                <ProfileData capabilities={(protectedUser.capabilities ?? []).filter((capability): capability is import("@shared/types").DataCapability => capability.startsWith("data."))} />
               </DataShell>;
             } else if (route.screen === "data-materials") {
               screen = <DataMaterialsScreen user={protectedUser} section={section} onSectionChange={onSectionChange} />;

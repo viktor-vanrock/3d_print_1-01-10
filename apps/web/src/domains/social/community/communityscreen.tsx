@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useCallback, useEffect, useRef, useState } from "react";
 import type { SessionUser } from "@shared/types";
 import { listCommunityFeed, type FeedPost } from "../feed/api.ts";
 import { FeedPostCard, FeedPostCardSkeleton } from "../feed/postcard.tsx";

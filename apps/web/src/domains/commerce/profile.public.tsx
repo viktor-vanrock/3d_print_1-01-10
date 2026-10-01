@@ -124,7 +124,7 @@ export function ProfileTabs({
     { value: "posts", label: "Посты" },
   ];
   if (own) options.push({ value: "workshop", label: "Мастерская" });
-  if (own && capabilities.some((capability) => capability.startsWith("data."))) options.push({ value: "data", label: "Данные" });Add a comment on  line L127Add diff commentMarkdown input:  edit mode selected.WritePreviewHeadingBold(control b) control⌃ bBItalic(control i) control⌃ iIQuote(control shift right angle bracket) control⌃ shift⇧ right angle bracket>Code(control e) control⌃ eELink(control k) control⌃ kKUnordered list(control 8) control⌃ 88Numbered list(control shift ampersand) control⌃ shift⇧ ampersand&Task list(control shift l) control⌃ shift⇧ lLMentionReferenceSlash commandsMore itemsSaved repliesAdd FilesPaste, drop, or click to add filesCancelCommentStart a review
+  if (own && capabilities.some((capability) => capability.startsWith("data."))) options.push({ value: "data", label: "Данные" });
   if (own && capabilities.includes("admin.portal.access")) options.push({ value: "administration", label: "Администрирование" });
   if (own && capabilities.length > 0) options.push({ value: "data", label: "Данные" });
   return (

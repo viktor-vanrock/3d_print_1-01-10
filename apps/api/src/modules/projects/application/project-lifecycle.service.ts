@@ -25,7 +25,6 @@ export class ProjectLifecycleService {
   constructor(
     @Inject(PostgresProjectRepository) repository: PostgresProjectRepository,
     @Inject(PublicationEventsService) private readonly events: PublicationEventsService,
-    @Inject(CONTENT_RESTRICTIONS_PORT) private readonly contentRestrictions: ContentRestrictionsPort,
     @Optional() @Inject(RuntimeLogger) private readonly logger: RuntimeLogger = new RuntimeLogger(),
   ) {
     this.repository = repository;

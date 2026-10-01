@@ -74,6 +74,7 @@ export function GenerateScreen({
   const [branch, setBranch] = useState<CreatableGenerationBranch>("rudalle");
   const [prompt, setPrompt] = useState("");
   const [kandiMode, setKandiMode] = useState<"text" | "image">("text");
+  const isKandinsky = branch === "rudalle" || branch === "rudalle_image";
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imagePreviewUrl, setImagePreviewUrl] = useState<string | undefined>(undefined);
   const [s3Key, setS3Key] = useState("");
