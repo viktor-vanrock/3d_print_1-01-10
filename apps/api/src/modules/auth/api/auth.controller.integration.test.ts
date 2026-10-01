@@ -135,6 +135,14 @@ function restoreEnvironment(name: keyof typeof originalEnvironment): void {
   else process.env[name] = value;
 }
 
+async function cleanupTestUser(database: Pool, userId: string): Promise<void> {
+  await database.query(`update users set status = 'deleted' where id = $1`, [userId]);
+  await database.query(
+    `delete from users where id = $1 and not exists (select 1 from audit_log where actor_user_id = $1)`,
+    [userId],
+  );
+}
+
 describe("Nest auth domain migration", () => {
   beforeAll(async () => {
     process.env.JWT_SECRET = JWT_SECRET;
@@ -193,7 +201,7 @@ describe("Nest auth domain migration", () => {
       });
     } finally {
       await database.query(`delete from permission_grants where user_id = $1`, [userId]);
-      await database.query(`delete from users where id = $1`, [userId]);
+      await cleanupTestUser(database, userId);
     }
   });
 
@@ -223,7 +231,7 @@ describe("Nest auth domain migration", () => {
       expect((await fetch(`${baseUrl}/auth/session`, { headers: { cookie: firstCookie ?? "" } })).status).toBe(401);
       expect((await fetch(`${baseUrl}/auth/session`, { headers: { cookie: secondCookie ?? "" } })).status).toBe(200);
     } finally {
-      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+      await cleanupTestUser(database, user.rows[0]!.id);
     }
   });
 
@@ -265,7 +273,7 @@ describe("Nest auth domain migration", () => {
       await expect(readCapabilities()).resolves.not.toContain("admin.portal.access");
     } finally {
       await database.query(`delete from permission_grants where user_id=$1`, [userId]);
-      await database.query(`delete from users where id=$1`, [userId]);
+      await cleanupTestUser(database, userId);
     }
   });
 
@@ -298,7 +306,7 @@ describe("Nest auth domain migration", () => {
       const session = await fetch(`${baseUrl}/auth/session`, { headers: { cookie: cookie! } });
       expect(session.status).toBe(401);
     } finally {
-      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+      await cleanupTestUser(database, user.rows[0]!.id);
     }
   });
 
@@ -357,7 +365,8 @@ describe("Nest auth domain migration", () => {
       expect(firstBody.user.id).toBe(secondBody.user.id);
       expect(first.headers.get("set-cookie")).toContain("portal_session=");
     } finally {
-      await database.query(`delete from users where username = 'devuser'`);
+      const devUser = await database.query<{ id: string }>(`select id from users where username = 'devuser'`);
+      if (devUser.rows[0] !== undefined) await cleanupTestUser(database, devUser.rows[0].id);
       process.env.NODE_ENV = "test";
       delete process.env.AUTH_DEV_BYPASS;
     }
@@ -388,7 +397,7 @@ describe("Nest auth domain migration", () => {
       await expect(allowed.json()).resolves.toMatchObject({ ok: true, user: { username } });
       expect(allowed.headers.get("set-cookie")).toContain("portal_session=");
     } finally {
-      await database.query(`delete from users where id = $1`, [user.rows[0]!.id]);
+      await cleanupTestUser(database, user.rows[0]!.id);
     }
   });
 
@@ -446,7 +455,8 @@ describe("Nest auth domain migration", () => {
     try {
       const response = await fetch(`${baseUrl}/auth/plagid/callback?token=${encodeURIComponent(token)}`, { redirect: "manual" });
       expect(response.status).toBe(302);
-      expect(response.headers.get("location")).toBe("https://3mf.tech");
+      const expectedRedirect = process.env.WEB_APP_URL ?? "https://3mf.tech";
+      expect(response.headers.get("location")).toBe(expectedRedirect);
       expect(response.headers.get("set-cookie")).toContain("portal_session=");
       const identity = await database.query<{ user_id: string }>(`select user_id from user_identities where provider = 'plag_id' and identifier_hash = $1`, [hash]);
       userId = identity.rows[0]?.user_id;
@@ -455,7 +465,7 @@ describe("Nest auth domain migration", () => {
       if (originalSecret === undefined) delete process.env.PLAGID_EXTERNAL_TOKEN_SECRET;
       else process.env.PLAGID_EXTERNAL_TOKEN_SECRET = originalSecret;
       await database.query(`delete from user_identities where provider = 'plag_id' and identifier_hash = $1`, [hash]);
-      if (userId !== undefined) await database.query(`delete from users where id = $1`, [userId]);
+      if (userId !== undefined) await cleanupTestUser(database, userId);
     }
   });
 
@@ -470,7 +480,7 @@ describe("Nest auth domain migration", () => {
 
     const localPart = `nestauth${Date.now()}`;
     const email = `${localPart}@sberdevices.ru`;
-    const code = "123456";
+    const code = "1234";
     const emailHash = identifierHash(email);
     const database = app.get<Pool>(DATABASE_POOL);
     await database.query(`insert into email_otp (email_hash, otp_hash, expires_at) values ($1, $2, now() + interval '10 minutes')`, [
@@ -500,7 +510,7 @@ describe("Nest auth domain migration", () => {
     } finally {
       await database.query(`delete from email_otp where email_hash = $1`, [emailHash]);
       await database.query(`delete from user_identities where identifier_hash = $1`, [emailHash]);
-      if (userId !== undefined) await database.query(`delete from users where id = $1`, [userId]);
+      if (userId !== undefined) await cleanupTestUser(database, userId);
     }
   });
 });
