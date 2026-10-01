@@ -62,14 +62,12 @@ async function existingCandidate(input: { readonly withEvidence: boolean }): Pro
 afterEach(async () => {
   if (isolatedPool !== null && isolatedUsers.length > 0) {
     await isolatedPool.query(`delete from platform_superadmin_identity where user_id=any($1::uuid[])`, [isolatedUsers]);
-    await isolatedPool.query(`delete from audit_log where actor_user_id=any($1::uuid[]) or target_id=any($1::uuid[])`, [isolatedUsers]);
     await isolatedPool.query(`delete from permission_grants where user_id=any($1::uuid[]) or granted_by=any($1::uuid[])`, [isolatedUsers]);
     await isolatedPool.query(`delete from user_password_credentials where user_id=any($1::uuid[])`, [isolatedUsers]);
     await isolatedPool.query(`delete from users where id=any($1::uuid[])`, [isolatedUsers.splice(0)]);
   }
   if (users.length === 0) return;
   await pool.query(`delete from platform_superadmin_identity where user_id=any($1::uuid[])`, [users]);
-  await pool.query(`delete from audit_log where actor_user_id=any($1::uuid[]) or target_id=any($1::uuid[])`, [users]);
   await pool.query(`delete from permission_grants where user_id=any($1::uuid[]) or granted_by=any($1::uuid[])`, [users]);
   await pool.query(`delete from user_password_credentials where user_id=any($1::uuid[])`, [users]);
   await pool.query(`delete from users where id=any($1::uuid[])`, [users.splice(0)]);
