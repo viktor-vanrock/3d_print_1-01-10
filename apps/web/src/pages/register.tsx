@@ -30,6 +30,7 @@ export function RegisterPage() {
     setBusy(false);
     if (!result.ok) return setError(result.error ?? { message: "Не удалось начать регистрацию. Проверьте данные." });
     sessionStorage.setItem("portal.registration.email", email);
+    sessionStorage.setItem("portal.registration.displayName", displayName);
     navigate("/register/verify");
   }
   return <main className={`loginPage ${styles.page}`}>

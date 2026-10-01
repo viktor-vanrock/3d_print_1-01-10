@@ -237,7 +237,7 @@ export class AdminController {
   @ApiAdminPermissionChangeExecuteOperation("Execute atomic role and direct-permission configuration", AdminConfigureAccessExecuteDto)
   async executeConfigureAccess(@Req() request:RequestWithSession & Request,@Param("id",new ParseUUIDPipe()) id:string,@Body() body:AdminConfigureAccessExecuteDto) {
     const actor=permissionChangeActor(request);await assertNestRateLimit(request,"admin_permission_step_up",actor.actorId);
-const result=await this.access.execute({...actor,targetId:UserId(id),action:"configure_access",reason:body.reason,confirmationId:body.confirmation_id,directPermissions:body.permissions});
+const result=await this.access.execute({...actor,targetId:UserId(id),action:"configure_access",reason:body.reason,confirmationId:body.confirmation_id,currentPassword:body.currentPassword,directPermissions:body.permissions});
     return {action:result.action,created_grant_ids:result.createdGrantIds,revoked_grant_ids:result.revokedGrantIds,remaining_direct_permissions:result.remainingDirectPermissions};
   }
 

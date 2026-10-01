@@ -27,6 +27,8 @@ export interface PendingRegistrationInput {
   readonly passwordHash: string;
 }
 
+type OtpPurpose = "login" | "registration" | "recovery";
+
 interface OtpRow {
   readonly id: string;
   readonly otp_hash: Buffer;
@@ -51,27 +53,30 @@ export class AuthRepository implements AuthIdentityReadPort, AuthIdentityLookupP
     return result.rows[0]?.password_hash ?? null;
   }
 
-  async latestOtpCreatedAt(emailHash: Buffer): Promise<Date | null> {
-    const result = await this.pool.query<{ created_at: Date | string }>(`select created_at from email_otp where email_hash = $1 order by created_at desc limit 1`, [emailHash]);
+  async latestOtpCreatedAt(emailHash: Buffer, purpose: OtpPurpose): Promise<Date | null> {
+    const result = await this.pool.query<{ created_at: Date | string }>(`select created_at from email_otp where email_hash = $1 and purpose = $2 order by created_at desc limit 1`, [emailHash, purpose]);
     const value = result.rows[0]?.created_at;
     return value === undefined ? null : new Date(value);
   }
 
-  async createOtp(emailHash: Buffer, otpHash: Buffer, expiresAt: Date): Promise<void> {
-    await this.pool.query(`insert into email_otp (email_hash, otp_hash, expires_at) values ($1, $2, $3)`, [emailHash, otpHash, expiresAt]);
+  async createOtp(emailHash: Buffer, otpHash: Buffer, expiresAt: Date, purpose: OtpPurpose): Promise<void> {
+    await this.pool.query(`insert into email_otp (email_hash, otp_hash, expires_at, purpose) values ($1, $2, $3, $4)`, [emailHash, otpHash, expiresAt, purpose]);
   }
 
-  async latestOtp(emailHash: Buffer): Promise<OtpRow | null> {
-    const result = await this.pool.query<OtpRow>(`select id, otp_hash, attempts, expires_at, created_at, block_until from email_otp where email_hash = $1 order by created_at desc limit 1`, [emailHash]);
+  async latestOtp(emailHash: Buffer, purpose: OtpPurpose): Promise<OtpRow | null> {
+    const result = await this.pool.query<OtpRow>(`select id, otp_hash, attempts, expires_at, created_at, block_until from email_otp where email_hash = $1 and purpose = $2 order by created_at desc limit 1`, [emailHash, purpose]);
     return result.rows[0] ?? null;
   }
 
-  async incrementOtpAttempts(id: string, blockUntil: Date | null): Promise<void> {
-    await this.pool.query(`update email_otp set attempts = attempts + 1, block_until = coalesce($2, block_until) where id = $1`, [id, blockUntil]);
+  async incrementOtpAttempts(id: string): Promise<{ attempts: number; block_until: Date | null }> {
+    const result = await this.pool.query<{ attempts: number; block_until: Date | null }>(`update email_otp set attempts = attempts + 1, block_until = case when attempts + 1 >= 3 then now() + interval '60 minutes' else block_until end where id = $1 returning attempts, block_until`, [id]);
+    const row = result.rows[0];
+    if (row === undefined) throw new Error("OTP record disappeared during attempt update");
+    return row;
   }
 
-  async consumeOtp(id: string): Promise<void> {
-    await this.pool.query(`delete from email_otp where id = $1`, [id]);
+  async consumeOtp(emailHash: Buffer, purpose: OtpPurpose): Promise<void> {
+    await this.pool.query(`delete from email_otp where email_hash = $1 and purpose = $2`, [emailHash, purpose]);
   }
 
   async findIdentity(provider: "email_corp" | "plag_id", hash: Buffer): Promise<UserIdType | null> {

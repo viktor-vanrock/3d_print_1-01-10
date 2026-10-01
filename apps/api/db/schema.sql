@@ -1364,7 +1364,8 @@ CREATE TABLE public.email_otp (
     expires_at timestamp with time zone NOT NULL,
     attempts integer DEFAULT 0 NOT NULL,
     created_at timestamp with time zone DEFAULT now() NOT NULL,
-    block_until timestamp with time zone
+    block_until timestamp with time zone,
+    purpose text DEFAULT 'login'::text NOT NULL
 );
 
 
@@ -6551,6 +6552,9 @@ CREATE INDEX device_transfers_pending_idx ON public.device_transfers USING btree
 --
 
 CREATE INDEX email_otp_email_hash_idx ON public.email_otp USING btree (email_hash, created_at DESC);
+
+-- Name: email_otp_email_purpose_idx; Type: INDEX; Schema: public; Owner: -
+CREATE INDEX email_otp_email_purpose_idx ON public.email_otp USING btree (email_hash, purpose);
 
 
 --

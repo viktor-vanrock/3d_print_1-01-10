@@ -288,6 +288,8 @@ export class AdminConfigureAccessExecuteDto extends AdminConfigureAccessPreviewD
   declare readonly confirmation_id: string;
   @ApiProperty({ enum: ALL_PERMISSIONS, isArray: true }) @IsArray() @ArrayUnique() @IsIn(ALL_PERMISSIONS, { each: true })
   declare readonly permissions: readonly Permissions[];
+  @ApiProperty({ type: String, format: "password" }) @IsString() @MinLength(1) @MaxLength(1024)
+  declare readonly currentPassword: string;
 }
 
 export class AdminPermissionChangeEffectDto {

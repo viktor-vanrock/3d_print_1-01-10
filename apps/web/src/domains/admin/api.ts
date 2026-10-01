@@ -139,6 +139,6 @@ export function executePermissionChange(
 export function previewAccessConfiguration(userId:string,input:{readonly permissions:readonly AdminPermission[];readonly reason:string}):Promise<PermissionChangePreview>{
   return post(`/v1/admin/users/${encodeURIComponent(userId)}/access/configure/preview`,input);
 }
-export function executeAccessConfiguration(userId:string,input:{readonly permissions:readonly AdminPermission[];readonly reason:string;readonly confirmation_id:string}):Promise<PermissionChangeResult>{
+export function executeAccessConfiguration(userId:string,input:{readonly permissions:readonly AdminPermission[];readonly reason:string;readonly confirmation_id:string;readonly currentPassword:string}):Promise<PermissionChangeResult>{
   return post(`/v1/admin/users/${encodeURIComponent(userId)}/access/configure/execute`,input);
 }
