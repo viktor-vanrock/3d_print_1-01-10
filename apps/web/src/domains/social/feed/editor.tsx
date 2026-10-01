@@ -1,3 +1,4 @@
+import { Select, AuroraBackground, Card, Eyebrow, Heading } from "@shared/ui";
 import { useEffect, useRef, useState } from "react";
 import type { SessionUser } from "@shared/types";
 import { AvatarBubble, DEFAULT_AVATAR, deterministicAvatarConfig } from "@shared/avatar";
@@ -9,7 +10,6 @@ import { getModel } from "@domains/commerce";
 import { apiAssetUrl } from "@shared/api";
 import { useOverlay } from "@platform/overlay";
 import { feedPath, feedPostPath, headerModeFor, navigate } from "../../../router.ts";
-import { AuroraBackground, Card, Eyebrow, Heading } from "@shared/ui";
 import {
   createFeedPost,
   listMyCommunities,
@@ -230,7 +230,7 @@ export function FeedEditorScreen({
             </div>
             <label className="feedEditorCommunity" htmlFor="feed-editor-community">
               <span>Куда публикуем</span>
-              <select
+              <Select
                 id="feed-editor-community"
                 className="marketInput"
                 value={communityId ?? ""}
@@ -242,7 +242,7 @@ export function FeedEditorScreen({
                     {community.name}
                   </option>
                 ))}
-              </select>
+              </Select>
             </label>
           </div>
 

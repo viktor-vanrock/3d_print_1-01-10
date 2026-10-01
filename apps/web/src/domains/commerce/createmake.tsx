@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { Button, Eyebrow } from "@shared/ui";
+import { Select, Button, Eyebrow } from "@shared/ui";
+import { useEffect, useMemo, useState } from "react";
 import {
   createMake,
   ISSUE_TAG_LABELS,
@@ -57,7 +57,6 @@ export function CreateMakeFlow({
   const [issues, setIssues] = useState<IssueTag[]>([]);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
-  const [previews, setPreviews] = useState<ReadonlyArray<{ photo: File; url: string }>>([]);
 
   useEffect(() => {
     void Promise.all([listMachineOptions(), listMaterialOptions()]).then(([nextMachines, nextMaterials]) => {
@@ -66,13 +65,13 @@ export function CreateMakeFlow({
     });
   }, []);
 
-  useEffect(() => {
-    const nextPreviews = photos.map((photo) => ({ photo, url: URL.createObjectURL(photo) }));
-    setPreviews(nextPreviews);
-    return () => {
-      for (const preview of nextPreviews) URL.revokeObjectURL(preview.url);
-    };
-  }, [photos]);
+  const previews = useMemo(() => photos.map((photo) => ({ photo, url: URL.createObjectURL(photo) })), [photos]);
+  useEffect(
+    () => () => {
+      for (const preview of previews) URL.revokeObjectURL(preview.url);
+    },
+    [previews],
+  );
 
   function addPhotos(files: FileList | null) {
     if (!files) return;
@@ -135,9 +134,6 @@ export function CreateMakeFlow({
           <h2>Покажите, как получилось</h2>
           <p>{modelTitle}</p>
         </div>
-        <button type="button" className="createMakeClose pressable" onClick={onClose} aria-label="Закрыть">
-          ×
-        </button>
       </header>
 
       <ol className="createMakeProgress" aria-label="Шаги публикации">
@@ -195,14 +191,14 @@ export function CreateMakeFlow({
           </div>
           <label className="createMakeField">
             <span>Принтер</span>
-            <select value={machineId} onChange={(event) => setMachineId(event.target.value)}>
+            <Select value={machineId} onChange={(event) => setMachineId(event.target.value)}>
               <option value="">Выберите свой принтер</option>
               {machines.map((machine) => (
                 <option key={machine.id} value={machine.id}>
                   {machine.label}
                 </option>
               ))}
-            </select>
+            </Select>
           </label>
           <fieldset className="createMakeMaterials">
             <legend>Материалы</legend>

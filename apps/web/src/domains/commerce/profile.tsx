@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { DataCapability, SessionUser } from "@shared/types";
+import type { SessionUser } from "@shared/types";
 // eslint-disable-next-line boundaries/element-types -- легатное междоменное ребро (микроэтап 7.6): рантайм-зависимость, не тип/utility; развязка отложена до pages/DI-этапа. См. apps/web/MIGRATION.md.
 import { listAuthorFeed, type FeedPost } from "@domains/social";
 import { HomeHeader, type Section } from "@platform/nav";
@@ -159,12 +159,13 @@ export function ProfileScreen({
 
   function openEditProfile() {
     if (!profile || !own) return;
-    overlay.modal({
+    const handle = overlay.modal({
       title: "Публичный профиль",
       size: "wide",
       content: (
         <AccountEditor
           profile={profile}
+          onClose={() => handle.close()}
           onSaved={(updated) => setProfile((previous) => previous ? { ...previous, ...updated } : previous)}
         />
       ),

@@ -1,5 +1,6 @@
 import { Global, Module } from "@nestjs/common";
 import { DatabaseModule } from "../../nest/database/database.module.ts";
+import { RuntimeLogger } from "../../nest/observability/runtime-logger.ts";
 import { ProjectsController } from "./api/projects.controller.ts";
 import { ProjectCommandService } from "./application/project-command.service.ts";
 import { ProjectLifecycleService } from "./application/project-lifecycle.service.ts";
@@ -20,6 +21,7 @@ import { OUTBOX_PORT, PROJECT_COMMAND_SERVICE, PROJECT_PROCESSING_SERVICE, PROJE
   imports: [DatabaseModule],
   controllers: [ProjectsController],
   providers: [
+    RuntimeLogger,
     PostgresProjectRepository,
     ProjectsOutboxRepository,
     ProjectCommandService,

@@ -81,7 +81,9 @@ export class AuthService {
 
   private audit(provider: "email_corp" | "plag_id" | "sber_id" | "password" | "dev_bypass", outcome: "success" | "failure", reason?: string): void {
     this.logger.info({ event: "auth.login_attempt", provider, outcome, reason }, "Auth attempt");
-    if (outcome === "failure") void this.auditLog?.record({ schema_version: 1, id: randomUUID(), actor_user_id: null, actor_type: "system", subject_type: "login_attempt", subject_id: randomUUID(), action: "auth.login.failed", before_state: null, after_state: { provider, outcome }, reason: reason ?? null, correlation_id: randomUUID(), causation_id: null, idempotency_key: `auth.failed:${provider}:${randomUUID()}`, occurred_at: new Date(), legal_hold: false });
+    if (outcome === "failure") void this.auditLog?.record({ schema_version: 1, id: randomUUID(), actor_user_id: null, actor_type: "system", subject_type: "login_attempt", subject_id: randomUUID(), action: "auth.login.failed", before_state: null, after_state: { provider, outcome }, reason: reason ?? null, correlation_id: randomUUID(), causation_id: null, idempotency_key: `auth.failed:${provider}:${randomUUID()}`, occurred_at: new Date(), legal_hold: false }).catch(() => {
+      this.logger.error({ event: "auth.audit_write_failed" }, "Failed to persist authentication audit event");
+    });
   }
 
   private recordAuthAudit(userId: UserIdType, action: Extract<SensitiveCommand, "auth.register" | "auth.activate" | "auth.login" | "auth.recovery_requested" | "auth.recovery_completed">, afterState: Record<string, unknown> | null = null): void {
@@ -101,6 +103,8 @@ export class AuthService {
       idempotency_key: `${action}:${userId}:${randomUUID()}`,
       occurred_at: new Date(),
       legal_hold: false,
+    }).catch(() => {
+      this.logger.error({ event: "auth.audit_write_failed" }, "Failed to persist authentication audit event");
     });
   }
 
@@ -178,22 +182,22 @@ export class AuthService {
     return { user, created };
   }
 
-  async registerWithPassword(input: { readonly email?: unknown; readonly password?: unknown; readonly displayName?: unknown; readonly gender?: unknown; readonly birthYear?: unknown }): Promise<void> {
+  async registerWithPassword(input: { readonly email?: unknown; readonly password?: unknown; readonly displayName?: unknown; readonly gender?: unknown; readonly birthYear?: unknown }): Promise<void> {    
     const parsed = parseEmail(input.email);
     if (!validPassword(input.password)) {
       throw new BadRequestException("password must contain 12 to 20 characters");
-    }
+    }    
     const displayName = typeof input.displayName === "string" ? input.displayName.trim().slice(0, 64) : "";
 
     if (displayName === "") {
       throw new BadRequestException("display name is required");
     }
-
+    
     const gender = typeof input.gender === "string" && input.gender.trim() !== "" ? input.gender.trim().slice(0, 32) : null;
     const birthYear = typeof input.birthYear === "number" && Number.isInteger(input.birthYear) && input.birthYear >= 1900 && input.birthYear <= new Date().getFullYear() ? input.birthYear : null;
-
+    
     const emailHash = identifierHash(parsed.email);
-
+    
     const created = await this.repository.createPendingRegistration({
       emailHash,
       identityKey: `identities/pending/${emailHash.toString("hex")}.json.enc`,
@@ -203,9 +207,9 @@ export class AuthService {
       birthYear,
       passwordHash: await hashPassword(input.password),
     });
-
+    
     const hasPending = created || await this.repository.hasPendingRegistration(emailHash);
-
+    
     if (hasPending) {
       await this.issueOtp(parsed.email, emailHash);
     }
@@ -304,21 +308,20 @@ export class AuthService {
     return { id: credential.id, username: credential.username };
   }
 
-  async listSessions(userId: UserIdType, currentSessionId: string): Promise<readonly { readonly id: string; readonly created_at: Date | string; readonly isCurrent: boolean }[]> {
-    const rows = await this.repository.list(userId, 100);
-    return rows.filter((row) => row.revokedAt === null && row.expiresAt.getTime() > Date.now())
-      .map((row) => ({ id: row.id, created_at: row.createdAt, isCurrent: row.id === currentSessionId }));
+  async listSessions(userId: UserIdType, currentSessionId: string | undefined): Promise<readonly { readonly id: string; readonly created_at: Date | string; readonly isCurrent: boolean }[]> {
+    const rows = await this.repository.getSessionsByUserId(userId);
+    return rows.map((row) => ({ id: row.id, created_at: row.created_at, isCurrent: row.id === currentSessionId }));
   }
 
   async deleteSession(userId: UserIdType, sessionId: string): Promise<void> {
-    const target = await this.repository.findBrowserSession(sessionId);
+    const target = await this.repository.getSessionById(sessionId);
     if (target === null) throw createAuthError(AUTH_ERRORS.SESSION_NOT_FOUND, "Сеанс не найден.", false, HttpStatus.NOT_FOUND);
-    if (target.userId !== userId) throw createAuthError(AUTH_ERRORS.FORBIDDEN, "Нет доступа к этому сеансу.", false, HttpStatus.FORBIDDEN);
-    await this.repository.revoke(userId, sessionId, userId, "user_logout");
+    if (target.user_id !== userId) throw createAuthError(AUTH_ERRORS.FORBIDDEN, "Нет доступа к этому сеансу.", false, HttpStatus.FORBIDDEN);
+    await this.repository.deleteSessionById(sessionId);
   }
 
-  async deleteOtherSessions(userId: UserIdType, currentSessionId: string): Promise<void> {
-    await this.repository.revokeOtherSessions(userId, currentSessionId);
+  async deleteOtherSessions(userId: UserIdType, currentSessionId: string | undefined): Promise<void> {
+    await this.repository.deleteAllSessionsByUserId(userId, currentSessionId);
   }
 
   auditFailure(provider: "plag_id" | "sber_id", reason: string): void {

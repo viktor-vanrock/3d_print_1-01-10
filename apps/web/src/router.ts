@@ -73,6 +73,7 @@ export type Route =
   | { screen: "material"; id: string }
   | { screen: "data-materials" }
   | { screen: "data-material"; id?: string }
+  | { screen: "data" }
   | { screen: "data-printers"; scope?: ResearchScope }
   | { screen: "data-printer"; slug?: string; draft?: string }
   | { screen: "data-news" }
@@ -128,6 +129,8 @@ export function clearAuthReturnUrl(): void {
 // Экспортируется для юнит-тестов (router.test.tsx) — чистая функция без побочных эффектов.
 export function parseLocation(pathname: string, search: string): Route {
   const parts = pathname.split("/").filter(Boolean);
+
+  if (parts[0] === "data" && !parts[1]) return { screen: "data" };
 
   if (parts[0] === "admin" && parts[1] === "users" && parts[2]) return { screen: "admin-user-access", id: decodeURIComponent(parts[2]) };
   if (parts[0] === "admin" && parts[1] === "audit" && !parts[2]) return { screen: "admin-audit" };
@@ -779,6 +782,10 @@ export function feedPostPath(id: string): string {
 // и `/community/:slug`/`/thread/:id` разобраны в parseLocation выше.
 export function communitiesPath(): string {
   return "/community";
+}
+
+export function communitiesListPath(): string {
+  return "/communities";
 }
 
 export function communityPath(slug: string): string {

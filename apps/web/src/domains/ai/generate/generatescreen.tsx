@@ -1,3 +1,4 @@
+import { Select, AuroraBackground, Eyebrow, Heading, Input, SelectionTile, StatusPill } from "@shared/ui";
 import { useEffect, useRef, useState, type DragEvent } from "react";
 import type { SessionUser } from "@shared/types";
 import { HomeHeader, type Section, useSectionSwipeNav } from "@platform/nav";
@@ -9,20 +10,16 @@ import "../../commerce/model.css";
 import { ModelViewer } from "@domains/commerce";
 import { useOverlay } from "@platform/overlay";
 import { modelPath, navigate } from "../../../router.ts";
-import { AuroraBackground, Eyebrow, Heading, Input, SelectionTile, StatusPill } from "@shared/ui";
 import { relativeDate, trackActivation } from "@shared/lib";
 import {
   apiAssetUrl,
-  createGenerationErrorMessage,
   createCatalogDraft,
   createGeneration,
-  GENERATION_PROMPT_MAX_LENGTH,
   getGeneration,
   GENERATION_BRANCHES,
-  isTerminalGeneration,
   listGenerations,
-  subscribeGenerationEvents,
   uploadRudalleImage,
+  type CreateGenerationError,
   type CreatableGenerationBranch,
   type Generation,
   type GenerationBranch,
@@ -31,12 +28,17 @@ import "./generate.css";
 
 /*
   Экран «Генерация по тексту» (docs/design/generation.md, MF-353 Фаза 3, MF-659): выбор ветки,
-  промпт, поток статуса job'а с прогресс-кольцом на send-кнопке, предпросмотр результата
+  промпт, поллинг статуса job'а с прогресс-кольцом на send-кнопке, предпросмотр результата
   (3D для openscad/STL — GAP-STL решён переиспользованием ModelViewer с STLLoader, см.
   market/modelscene.ts; картинка для kzd/hueforge), история генераций пользователя.
 */
 
+const POLL_INTERVAL_MS = 2500;
 const HISTORY_PAGE_SIZE = 10;
+// apps/api/src/generations/contract.ts PROMPT_MAX_LENGTH — сервер источник истины, здесь только
+// для maxLength инпута и текста ошибки, если сервер не прислал limit явно.
+const PROMPT_MAX_LENGTH = 2000;
+
 const BRANCH_META: Record<CreatableGenerationBranch, { label: string; placeholder: string; icon: () => React.JSX.Element }> = {
   openscad: { label: "3D-модель", placeholder: "Что напечатаем?", icon: CubeIcon },
   kzd: { label: "Чертёж КЗД", placeholder: "Что начертить?", icon: DraftIcon },
@@ -50,6 +52,28 @@ function branchMeta(branch: GenerationBranch) {
   return branch === "concepts"
     ? { label: "Ракурсы идеи", placeholder: "Что показать?", icon: ScanIcon }
     : BRANCH_META[branch];
+}
+
+function createErrorMessage(error: CreateGenerationError): string {
+  switch (error.code) {
+    case "PROMPT_REQUIRED":
+      return "Опишите, что сгенерировать";
+    case "PROMPT_TOO_LONG":
+      return `Слишком длинный запрос (максимум ${error.limit ?? PROMPT_MAX_LENGTH} символов)`;
+    case "PROMPT_NOT_ALLOWED":
+      return "Запрос отклонён модерацией — попробуйте переформулировать";
+    case "INVALID_PARAMS":
+    case "PARAMS_TOO_LARGE":
+      return "Некорректные дополнительные параметры";
+    case "RATE_LIMITED":
+      return `Лимит генераций ${error.scope === "hour" ? "в час" : "в сутки"} исчерпан${
+        error.limit ? ` (${error.limit})` : ""
+      } — попробуйте позже`;
+    case "INVALID_BRANCH":
+      return "Неизвестная ветка генерации";
+    default:
+      return "Не удалось отправить. Проверьте связь и попробуйте снова.";
+  }
 }
 
 function jobErrorText(generation: Generation): string {
@@ -74,7 +98,6 @@ export function GenerateScreen({
   const [prompt, setPrompt] = useState("");
   const [kandiMode, setKandiMode] = useState<"text" | "image">("text");
   const [imageFile, setImageFile] = useState<File | null>(null);
-  const [imagePreviewUrl, setImagePreviewUrl] = useState<string | undefined>(undefined);
   const [s3Key, setS3Key] = useState("");
   const [imageError, setImageError] = useState("");
   const [uploading, setUploading] = useState(false);
@@ -91,19 +114,11 @@ export function GenerateScreen({
   const [active, setActive] = useState<Generation | null>(null);
   const [history, setHistory] = useState<Generation[] | null>(null);
   const [historyPage, setHistoryPage] = useState(0);
+  const activeRef = useRef<Generation | null>(null);
   const generationOutcomeIds = useRef(new Set<string>());
   const fileInputRef = useRef<HTMLInputElement>(null);
+  activeRef.current = active;
   const swipe = useSectionSwipeNav(section, onSectionChange);
-
-  useEffect(() => {
-    if (!imageFile) {
-      setImagePreviewUrl(undefined);
-      return;
-    }
-    const url = URL.createObjectURL(imageFile);
-    setImagePreviewUrl(url);
-    return () => URL.revokeObjectURL(url);
-  }, [imageFile]);
 
   useEffect(() => {
     void listGenerations().then((generations) => {
@@ -130,28 +145,32 @@ export function GenerateScreen({
     };
   }, [genId]);
 
-  // Статус job'а приходит по SSE; браузер автоматически переподключает поток при обрыве.
+  // Поллинг статуса job'а, пока не done/error (паттерн market/model.tsx для конвертации моделей).
   useEffect(() => {
-    if (!active || isTerminalGeneration(active)) return;
-    return subscribeGenerationEvents(active.id, { onGeneration: setActive });
-    // active.id — единственное, что должно перезапускать SSE-подписку.
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [active?.id]);
+    const current = activeRef.current;
+    if (!current || current.status === "done" || current.status === "error") return;
+    const interval = setInterval(() => {
+      void getGeneration(current.id).then((result) => {
+        if (result) setActive(result);
+      });
+    }, POLL_INTERVAL_MS);
+    return () => clearInterval(interval);
+  }, [active?.id, active?.status]);
 
   // Новая запись в истории по завершении job'а.
   useEffect(() => {
-    if (active && isTerminalGeneration(active)) {
+    if (active?.status === "done" || active?.status === "error") {
       void listGenerations().then((generations) => {
         setHistory(generations);
         setHistoryPage(0);
       });
     }
-  }, [active]);
+  }, [active?.status]);
 
-  // Завершение фиксируем ровно раз для каждой генерации на этом экране: snapshot и updated
-  // могут содержать один terminal-статус, но воронке нужен первый наблюдаемый исход.
+  // Завершение фиксируем ровно раз для каждой генерации на этом экране: polling может
+  // отдать тот же terminal-статус несколько раз, но воронке нужен первый наблюдаемый исход.
   useEffect(() => {
-    if (!active || !isTerminalGeneration(active) || generationOutcomeIds.current.has(active.id)) return;
+    if (!active || (active.status !== "done" && active.status !== "error") || generationOutcomeIds.current.has(active.id)) return;
     generationOutcomeIds.current.add(active.id);
     trackActivation("generation_outcome", {
       generation_id: active.id,
@@ -164,7 +183,7 @@ export function GenerateScreen({
   const busy = submitting || active?.status === "queued" || active?.status === "running";
   const collapsed = active?.status === "done";
   const SelectedBranchIcon = BRANCH_META[branch].icon;
-  const submitLabel = active?.status === "error" || active?.status === "timed_out" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";
+  const submitLabel = active?.status === "error" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";
   const isKandinsky = branch === "rudalle" || branch === "rudalle_image";
   const historyPageCount = history ? Math.ceil(history.length / HISTORY_PAGE_SIZE) : 0;
   const visibleHistory = history?.slice(
@@ -265,7 +284,7 @@ export function GenerateScreen({
         });
         return;
       }
-      setInlineError(createGenerationErrorMessage(result.error));
+      setInlineError(createErrorMessage(result.error));
       return;
     }
     setActive(result.generation);
@@ -350,7 +369,7 @@ export function GenerateScreen({
                   <div className="generateImageLoading" role="status">Загружаем изображение…</div>
                 ) : imageFile ? (
                   <div className="generateImagePreview">
-                    <img src={imagePreviewUrl} alt="Выбранное изображение" />
+                    <img src={URL.createObjectURL(imageFile)} alt="Выбранное изображение" />
                     <div>
                       <strong>{imageFile.name}</strong>
                       <span>{(imageFile.size / (1_024 * 1_024)).toFixed(1)} МБ</span>
@@ -395,7 +414,7 @@ export function GenerateScreen({
                     onChange={(event) => setHint(event.target.value)}
                     placeholder="Необязательно: «сделай красным», «добавь крылья»..."
                     rows={2}
-                    maxLength={GENERATION_PROMPT_MAX_LENGTH}
+                    maxLength={PROMPT_MAX_LENGTH}
                     disabled={busy}
                   />
                 ) : null}
@@ -411,7 +430,7 @@ export function GenerateScreen({
                   placeholder={BRANCH_META[branch].placeholder}
                   aria-label={BRANCH_META[branch].placeholder}
                   readOnly={busy}
-                  maxLength={GENERATION_PROMPT_MAX_LENGTH}
+                  maxLength={PROMPT_MAX_LENGTH}
                 />
               ) : null}
               <button
@@ -436,7 +455,7 @@ export function GenerateScreen({
               </div>
             ) : null}
 
-            {active?.status === "error" || active?.status === "timed_out" ? (
+            {active?.status === "error" ? (
               <div className="generateStatusRow">
                 <StatusPill tone="danger">Не удалось</StatusPill>
                 <span className="generateErrorText">{jobErrorText(active)}</span>
@@ -465,12 +484,12 @@ export function GenerateScreen({
                   <>
                     <label className="generateParamField">
                       Детализация модели
-                      <select value={numTargetFaces} onChange={(event) => setNumTargetFaces(Number(event.target.value))} disabled={busy}>
+                      <Select value={numTargetFaces} onChange={(event) => setNumTargetFaces(Number(event.target.value))} disabled={busy}>
                         <option value={10_000}>Низкая — 10 000 полигонов</option>
                         <option value={50_000}>Стандарт — 50 000 полигонов</option>
                         <option value={100_000}>Высокая — 100 000 полигонов</option>
                         <option value={200_000}>Максимум — 200 000 полигонов</option>
-                      </select>
+                      </Select>
                     </label>
                     <label className="generateParamField">
                       <span>
@@ -486,11 +505,11 @@ export function GenerateScreen({
                     </label>
                     <label className="generateParamField">
                       LOD копии
-                      <select value={createLod} onChange={(event) => setCreateLod(Number(event.target.value))} disabled={busy}>
+                      <Select value={createLod} onChange={(event) => setCreateLod(Number(event.target.value))} disabled={busy}>
                         <option value={0}>Не создавать</option>
                         <option value={1}>1 копия</option>
                         <option value={2}>2 копии</option>
-                      </select>
+                      </Select>
                       <small>Упрощённые копии для разных дистанций</small>
                     </label>
                   </>
@@ -545,8 +564,8 @@ export function GenerateScreen({
                 >
                   <HistoryThumb generation={row} />
                   <span className="generateHistoryPrompt">{row.prompt}</span>
-                  <StatusPill tone={row.status === "done" ? "ok" : row.status === "error" || row.status === "timed_out" ? "danger" : "dim"} pulse={row.status === "running"}>
-                    {row.status === "done" ? "Готово" : row.status === "error" ? "Ошибка" : row.status === "timed_out" ? "Истекло время" : row.status === "running" ? "Идёт" : "В очереди"}
+                  <StatusPill tone={row.status === "done" ? "ok" : row.status === "error" ? "danger" : "dim"} pulse={row.status === "running"}>
+                    {row.status === "done" ? "Готово" : row.status === "error" ? "Ошибка" : row.status === "running" ? "Идёт" : "В очереди"}
                   </StatusPill>
                   <span className="generateHistoryTime">{relativeDate(row.created_at)}</span>
                 </button>
