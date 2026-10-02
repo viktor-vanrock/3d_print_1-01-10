@@ -1,10 +1,13 @@
 import { Inject, Injectable } from "@nestjs/common";
 import nodemailer, { type Transporter } from "nodemailer";
 import { RuntimeLogger } from "../../../nest/observability/runtime-logger.ts";
+
 @Injectable()
 export class OtpEmailAdapter {
   private transporter: Transporter | null | undefined;
+
   constructor(@Inject(RuntimeLogger) private readonly logger: RuntimeLogger) {}
+
   private getTransporter(): Transporter | null {
     if (this.transporter !== undefined) return this.transporter;
     const { SMTP_HOST: host, SMTP_PORT: port, SMTP_USER: user, SMTP_PASS: pass } = process.env;
@@ -26,6 +29,7 @@ export class OtpEmailAdapter {
     });
     return this.transporter;
   }
+
   async send(to: string, code: string): Promise<void> {
     this.logger.info({ event: "auth.otp.email.attempt", provider: "email" }, "OTP email attempt");
     const transporter = this.getTransporter();

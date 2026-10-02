@@ -1,3 +1,4 @@
+import { Select, AuroraBackground, Eyebrow, Heading, Input, SelectionTile, StatusPill } from "@shared/ui";
 import { useEffect, useRef, useState, type DragEvent } from "react";
 import type { SessionUser } from "@shared/types";
 import { HomeHeader, type Section, useSectionSwipeNav } from "@platform/nav";
@@ -9,7 +10,6 @@ import "../../commerce/model.css";
 import { ModelViewer } from "@domains/commerce";
 import { useOverlay } from "@platform/overlay";
 import { modelPath, navigate } from "../../../router.ts";
-import { AuroraBackground, Eyebrow, Heading, Input, SelectionTile, StatusPill } from "@shared/ui";
 import { relativeDate, trackActivation } from "@shared/lib";
 import {
   apiAssetUrl,
@@ -31,12 +31,13 @@ import "./generate.css";
 
 /*
   Экран «Генерация по тексту» (docs/design/generation.md, MF-353 Фаза 3, MF-659): выбор ветки,
-  промпт, поток статуса job'а с прогресс-кольцом на send-кнопке, предпросмотр результата
+  промпт, поллинг статуса job'а с прогресс-кольцом на send-кнопке, предпросмотр результата
   (3D для openscad/STL — GAP-STL решён переиспользованием ModelViewer с STLLoader, см.
   market/modelscene.ts; картинка для kzd/hueforge), история генераций пользователя.
 */
 
 const HISTORY_PAGE_SIZE = 10;
+
 const BRANCH_META: Record<CreatableGenerationBranch, { label: string; placeholder: string; icon: () => React.JSX.Element }> = {
   openscad: { label: "3D-модель", placeholder: "Что напечатаем?", icon: CubeIcon },
   kzd: { label: "Чертёж КЗД", placeholder: "Что начертить?", icon: DraftIcon },
@@ -73,6 +74,7 @@ export function GenerateScreen({
   const [branch, setBranch] = useState<CreatableGenerationBranch>("rudalle");
   const [prompt, setPrompt] = useState("");
   const [kandiMode, setKandiMode] = useState<"text" | "image">("text");
+  const isKandinsky = branch === "rudalle" || branch === "rudalle_image";
   const [imageFile, setImageFile] = useState<File | null>(null);
   const [imagePreviewUrl, setImagePreviewUrl] = useState<string | undefined>(undefined);
   const [s3Key, setS3Key] = useState("");
@@ -130,7 +132,7 @@ export function GenerateScreen({
     };
   }, [genId]);
 
-  // Статус job'а приходит по SSE; браузер автоматически переподключает поток при обрыве.
+  // Поллинг статуса job'а, пока не done/error (паттерн market/model.tsx для конвертации моделей).
   useEffect(() => {
     if (!active || isTerminalGeneration(active)) return;
     return subscribeGenerationEvents(active.id, { onGeneration: setActive });
@@ -148,11 +150,10 @@ export function GenerateScreen({
     }
   }, [active]);
 
-  // Завершение фиксируем ровно раз для каждой генерации на этом экране: snapshot и updated
-  // могут содержать один terminal-статус, но воронке нужен первый наблюдаемый исход.
+  // Завершение фиксируем ровно раз для каждой генерации на этом экране: polling может
+  // отдать тот же terminal-статус несколько раз, но воронке нужен первый наблюдаемый исход.
   useEffect(() => {
-    if (!active || !isTerminalGeneration(active) || generationOutcomeIds.current.has(active.id)) return;
-    generationOutcomeIds.current.add(active.id);
+    if (!active || (active.status !== "done" && active.status !== "error") || generationOutcomeIds.current.has(active.id)) return;    generationOutcomeIds.current.add(active.id);
     trackActivation("generation_outcome", {
       generation_id: active.id,
       branch: active.branch,
@@ -164,9 +165,7 @@ export function GenerateScreen({
   const busy = submitting || active?.status === "queued" || active?.status === "running";
   const collapsed = active?.status === "done";
   const SelectedBranchIcon = BRANCH_META[branch].icon;
-  const submitLabel = active?.status === "error" || active?.status === "timed_out" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";
-  const isKandinsky = branch === "rudalle" || branch === "rudalle_image";
-  const historyPageCount = history ? Math.ceil(history.length / HISTORY_PAGE_SIZE) : 0;
+  const submitLabel = active?.status === "error" || active?.status === "timed_out" ? "Повторить" : busy ? "Генерация…" : "Сгенерировать";  const historyPageCount = history ? Math.ceil(history.length / HISTORY_PAGE_SIZE) : 0;
   const visibleHistory = history?.slice(
     historyPage * HISTORY_PAGE_SIZE,
     (historyPage + 1) * HISTORY_PAGE_SIZE,
@@ -350,7 +349,7 @@ export function GenerateScreen({
                   <div className="generateImageLoading" role="status">Загружаем изображение…</div>
                 ) : imageFile ? (
                   <div className="generateImagePreview">
-                    <img src={imagePreviewUrl} alt="Выбранное изображение" />
+                  <img src={imagePreviewUrl} alt="Выбранное изображение" />
                     <div>
                       <strong>{imageFile.name}</strong>
                       <span>{(imageFile.size / (1_024 * 1_024)).toFixed(1)} МБ</span>
@@ -465,12 +464,12 @@ export function GenerateScreen({
                   <>
                     <label className="generateParamField">
                       Детализация модели
-                      <select value={numTargetFaces} onChange={(event) => setNumTargetFaces(Number(event.target.value))} disabled={busy}>
+                      <Select value={numTargetFaces} onChange={(event) => setNumTargetFaces(Number(event.target.value))} disabled={busy}>
                         <option value={10_000}>Низкая — 10 000 полигонов</option>
                         <option value={50_000}>Стандарт — 50 000 полигонов</option>
                         <option value={100_000}>Высокая — 100 000 полигонов</option>
                         <option value={200_000}>Максимум — 200 000 полигонов</option>
-                      </select>
+                      </Select>
                     </label>
                     <label className="generateParamField">
                       <span>
@@ -486,11 +485,11 @@ export function GenerateScreen({
                     </label>
                     <label className="generateParamField">
                       LOD копии
-                      <select value={createLod} onChange={(event) => setCreateLod(Number(event.target.value))} disabled={busy}>
+                      <Select value={createLod} onChange={(event) => setCreateLod(Number(event.target.value))} disabled={busy}>
                         <option value={0}>Не создавать</option>
                         <option value={1}>1 копия</option>
                         <option value={2}>2 копии</option>
-                      </select>
+                      </Select>
                       <small>Упрощённые копии для разных дистанций</small>
                     </label>
                   </>

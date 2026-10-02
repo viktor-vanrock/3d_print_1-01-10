@@ -3,6 +3,7 @@ import { randomBytes } from "node:crypto";
 import type { Pool, PoolClient } from "pg";
 import { DATABASE_POOL } from "../../../nest/database/database.constants.ts";
 import { SYSTEM_USER_ID, UserId, type UserId as UserIdType } from "../../_kernel/brandedIds.ts";
+import { Permissions } from "../../permissions/public/index.ts";
 import {
   avatarSnapshotUrl,
   deterministicAvatarConfig,
@@ -201,6 +202,37 @@ export class ProfileRepository implements ProfileReadPort, ProfileAdminDirectory
     return (await this.pool.query(`update users set session_version = session_version + 1, updated_at = now() where id = $1`, [userId])).rowCount !== 0;
   }
 
+  async loadSanctionActor(tx: PoolClient, input: { readonly actorId: UserIdType }): Promise<{ readonly isStaff: boolean } | null> {
+    const row = (await tx.query<{ id: string; staff_granted: boolean }>(
+      `select u.id,
+              exists (
+                select 1 from permission_grants pg
+                where pg.user_id = u.id
+                  and pg.permission in ('${Permissions.MODERATION_DELETE_CONTENT}', '${Permissions.MODERATION_MANAGE_SANCTIONS}', '${Permissions.MODERATION_VIEW_REPORTS}')
+                  and pg.revoked_at is null
+                  and (pg.expires_at is null or pg.expires_at > now())
+              ) as staff_granted
+       from users u
+       where u.id = $1 and u.status = 'active'
+       for update of u`,
+      [input.actorId],
+    )).rows[0];
+    return row === undefined ? null : { isStaff: row.staff_granted };
+  }
+
+  async isStaff(userId: UserIdType): Promise<boolean> {
+    const result = await this.pool.query<{ granted: boolean }>(
+      `select exists(
+         select 1 from permission_grants
+         where user_id = $1
+           and permission in ('${Permissions.MODERATION_DELETE_CONTENT}', '${Permissions.MODERATION_MANAGE_SANCTIONS}', '${Permissions.MODERATION_MANAGE_COMMUNITY_MEMBERS}', '${Permissions.CATALOG_REVIEW_VENDOR_CLAIMS}')
+           and revoked_at is null
+           and (expires_at is null or expires_at > now())
+       ) as granted`,
+      [userId],
+    );
+    return result.rows[0]?.granted === true;
+  }
 
   async loadSanctionTargetForUpdate(
     tx: PoolClient,
@@ -316,7 +348,7 @@ export class ProfileRepository implements ProfileReadPort, ProfileAdminDirectory
     if (userId === SYSTEM_USER_ID) return true;
     return (await tx.query(`select 1 from platform_superadmin_identity where identity_key='superadmin' and user_id=$1`, [userId])).rowCount === 1;
   }
-
+  
   async createUserWithFreeHandle(seed: NewUserSeed): Promise<UserIdType> {
     const base = /^[a-z0-9](?:[a-z0-9.]{1,30}[a-z0-9])?$/.test(seed.handle) ? seed.handle : `user${Date.now()}`;
     for (let attempt = 0; attempt < 20; attempt += 1) {
@@ -326,7 +358,7 @@ export class ProfileRepository implements ProfileReadPort, ProfileAdminDirectory
          values ($1, $2, $3, false)
          on conflict (username) do nothing
          returning id`,
-        [candidate, seed.displayName, seed.avatarUrl],
+        [candidate, seed.displayName ?? "", seed.avatarUrl],
       );
       if (result.rows[0] !== undefined) return UserId(result.rows[0].id);
     }

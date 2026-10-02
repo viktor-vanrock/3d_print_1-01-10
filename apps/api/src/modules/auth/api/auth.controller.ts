@@ -24,7 +24,12 @@ import {
   ApiPasswordLoginOperation,
   ApiPlagIdCallbackOperation,
   ApiPlagIdStartOperation,
+  ApiRecoveryStartOperation,
+  ApiRecoveryVerifyOperation,
+  ApiRegisterOperation,
+  ApiRegisterVerifyOperation,
   ApiSberIdStubOperation,
+  ApiSessionsOperation,
   ApiSessionOperation,
 } from "./openapi.ts";
 import { Internal, PermissionsService, Public, User } from "../../permissions/public/index.ts";
@@ -108,6 +113,7 @@ export class AuthController {
 
   @Get("sessions")
   @User()
+  @ApiSessionsOperation()
   async listSessions(@Req() request: RequestWithSession) {
     const session = request[SESSION_USER]!;
     return { sessions: await this.auth.listSessions(UserId(session.id), session.sessionId) };
@@ -155,6 +161,7 @@ export class AuthController {
   @Post("register")
   @Public()
   @HttpCode(200)
+  @ApiRegisterOperation()
   async register(@Body() body: RegisterDto): Promise<{ readonly ok: true; readonly message: string }> {
     await this.auth.registerWithPassword(body);
     return { ok: true, message: "Если домен поддерживается, письмо отправлено" };
@@ -163,6 +170,7 @@ export class AuthController {
   @Post("register/verify")
   @Public()
   @HttpCode(200)
+  @ApiRegisterVerifyOperation()
   async registerVerify(@Res({ passthrough: true }) response: Response, @Body() body: RegisterVerifyDto): Promise<{ readonly ok: true }> {
     await this.sessions.issue(response, await this.auth.activateWithCode(body.email, body.code));
     return { ok: true };
@@ -171,6 +179,7 @@ export class AuthController {
   @Post("recovery/start")
   @Public()
   @HttpCode(200)
+  @ApiRecoveryStartOperation()
   async recoveryStart(@Body() body: RecoveryStartDto): Promise<{ readonly ok: true; readonly message: string }> {
     await this.auth.startRecovery(body.email);
     return { ok: true, message: "Если адрес зарегистрирован, письмо придёт" };
@@ -179,6 +188,7 @@ export class AuthController {
   @Post("recovery/verify")
   @Public()
   @HttpCode(200)
+  @ApiRecoveryVerifyOperation()
   async recoveryVerify(@Body() body: RecoveryVerifyDto): Promise<{ readonly ok: true }> {
     await this.auth.recoverPassword(body.email, body.code, body.newPassword);
     return { ok: true };

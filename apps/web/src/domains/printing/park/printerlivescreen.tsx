@@ -1,7 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import type { SessionUser } from "@shared/types";
 import { HomeHeader, type Section } from "@platform/nav";
-// eslint-disable-next-line boundaries/element-types, boundaries/entry-point -- легатное ребро (Этап 4.5): CSS side-effect, не index.ts; home.css остаётся общим "рабочим хромом" для доменных экранов, развязка отложена до pages/DI (Этап 10). См. MIGRATION.md.
+// eslint-disable-next-line boundaries/element-types, boundaries/entry-point -- Общая оболочка страниц; существующее CSS-ребро описано в MIGRATION.md.
 import "@pages/home/home.css";
 import { useOverlay } from "@platform/overlay";
 import { navigate, parkAddPath, printerHistoryPath, printersPath } from "../../../router.ts";

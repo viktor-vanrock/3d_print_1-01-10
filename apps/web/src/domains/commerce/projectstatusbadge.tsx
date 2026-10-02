@@ -1,4 +1,4 @@
-import { STATUS_META, type ProjectStatus } from "./project-lifecycle.ts";
+import { type ProjectStatus, STATUS_META } from "./project-lifecycle.ts";
 import "./projectlifecycle.css";
 
 export function ProjectStatusBadge({ status, showHint = false }: { readonly status: ProjectStatus; readonly showHint?: boolean }) {
