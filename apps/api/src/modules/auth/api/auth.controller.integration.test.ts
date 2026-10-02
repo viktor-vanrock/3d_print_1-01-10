@@ -366,10 +366,11 @@ describe("Nest auth domain migration", () => {
     process.env.AUTH_DEV_BYPASS = "true";
     const database = app.get<Pool>(DATABASE_POOL);
     try {
-      const devuserBefore = await database.query(
-        "SELECT id, username, status FROM users WHERE username = 'devuser'",
+      await database.query(
+        `insert into users (username, display_name, handle_confirmed)
+         values ('devuser', 'DEV Reviewer', true)
+         on conflict (username) do update set status = 'active'`
       );
-      console.log("DEVUSER BEFORE:", JSON.stringify(devuserBefore.rows));
       const first = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
       const second = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
       console.log("FIRST STATUS:", first.status);
@@ -382,12 +383,9 @@ describe("Nest auth domain migration", () => {
       expect(firstBody.user.id).toBe(secondBody.user.id);
       expect(first.headers.get("set-cookie")).toContain("portal_session=");
     } finally {
-      try {
-        await database.query("update users set status = 'active' where username = 'devuser'");
-      } finally {
-        restoreEnvironment("NODE_ENV");
-        restoreEnvironment("AUTH_DEV_BYPASS");
-      }
+      await database.query(`update users set status = 'active' where username = 'devuser'`).catch(() => undefined);
+      process.env.NODE_ENV = "test";
+      delete process.env.AUTH_DEV_BYPASS;
     }
   });
 
