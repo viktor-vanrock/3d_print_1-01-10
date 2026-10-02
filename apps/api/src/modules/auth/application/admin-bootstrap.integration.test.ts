@@ -60,6 +60,7 @@ async function existingCandidate(input: { readonly withEvidence: boolean }): Pro
 }
 
 afterEach(async () => {
+  await pool.query(`delete from platform_superadmin_identity`);
   if (isolatedPool !== null && isolatedUsers.length > 0) {
     await isolatedPool.query(`delete from platform_superadmin_identity where user_id=any($1::uuid[])`, [isolatedUsers]);
     await isolatedPool.query(`delete from permission_grants where user_id=any($1::uuid[]) or granted_by=any($1::uuid[])`, [isolatedUsers]);
