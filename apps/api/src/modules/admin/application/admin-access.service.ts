@@ -30,6 +30,7 @@ export interface PreviewPermissionChangeInput extends BaseInput {
 
 export interface ExecutePermissionChangeInput extends BaseInput {
   readonly confirmationId: string;
+  readonly currentPassword?: string;
   readonly password?: string;
   readonly permission?: Permissions;
   readonly grantId?: string;
@@ -96,7 +97,8 @@ export class AdminAccessService {
   }
 
   async execute(input: ExecutePermissionChangeInput): Promise<PermissionChangeResult> {
-    if (input.action !== "configure_access" && (input.password === undefined || !(await this.stepUp.verifyPassword(input.actorId, input.password)))) throw new ForbiddenException("Подтверждение не прошло");
+    const password = input.currentPassword ?? input.password;
+    if (password === undefined || !(await this.stepUp.verifyPassword(input.actorId, password))) throw new ForbiddenException("Подтверждение не прошло");
     return this.permissions.executePermissionChange({
       actorId: input.actorId,
       targetId: input.targetId,

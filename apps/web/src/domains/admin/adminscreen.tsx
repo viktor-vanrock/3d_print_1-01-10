@@ -52,22 +52,23 @@ const PERMISSION_CATEGORY_LABELS:Readonly<Record<string,string>>={admin:"Адм�
 function permissionCategory(permission:AdminPermission):string{if(permission.startsWith("catalog.")&&!permission.includes("printer"))return "materials";if(permission==="research.manage_printers"||permission==="catalog.review_printer_reports")return "printers";if(permission==="feed.manage_news")return "news";return permission.split(".",1)[0]??"other";}
 function groupPermissions(values:readonly AdminPermission[]):readonly (readonly [string,readonly AdminPermission[]])[]{const groups=new Map<string,AdminPermission[]>();for(const permission of values){const category=permissionCategory(permission);const items=groups.get(category)??[];items.push(permission);groups.set(category,items);}return [...groups.entries()];}
 
-function AccessEditor({access,targetId,catalog,readOnly,onClose,onSaved}:{readonly access:AdminUserAccess;readonly targetId:string;readonly catalog:readonly AdminPermission[];readonly readOnly:boolean;readonly onClose:()=>void;readonly onSaved:()=>Promise<void>}){
+function AccessEditor({access,targetId,catalog,readOnly,isLoadError,catalogLoaded,onClose,onSaved}:{readonly access:AdminUserAccess;readonly targetId:string;readonly catalog:readonly AdminPermission[];readonly readOnly:boolean;readonly isLoadError:boolean;readonly catalogLoaded:boolean;readonly onClose:()=>void;readonly onSaved:()=>Promise<void>}){
   const [selected,setSelected]=useState<ReadonlySet<AdminPermission>>(()=>new Set(access.grants.filter((grant)=>grant.permission!=="feed.news_editor"&&(readOnly||catalog.includes(grant.permission))).map((grant)=>grant.permission)));
 const role: ConfigurableRole = access.admin_preset.permissions.every((permission)=>selected.has(permission)) ? "admin" : "user";
 const applyRole=(value:ConfigurableRole)=>{setSelected((current)=>{const next=new Set(current);for(const permission of access.admin_preset.permissions){if(value==="admin")next.add(permission);else next.delete(permission);}return next;});setPreview(null);};
-const [preview,setPreview]=useState<PermissionChangePreview|null>(null);const [error,setError]=useState<string|null>(null);
+const [preview,setPreview]=useState<PermissionChangePreview|null>(null);const [error,setError]=useState<string|null>(null);const [currentPassword,setCurrentPassword]=useState("");
   const groups=readOnly?groupPermissions([...new Set(access.grants.map((grant)=>grant.permission))]):groupPermissions(catalog);
 const toggle=(permission:AdminPermission)=>setSelected((current)=>{const next=new Set(current);if(next.has(permission))next.delete(permission);else next.add(permission);setPreview(null);return next;});
   const reason="Изменение роли и разрешений через интерфейс администрирования";
-  const prepare=async()=>{try{setError(null);setPreview(await previewAccessConfiguration(targetId,{permissions:[...selected],reason}));}catch{setError("Не удалось подготовить изменение доступа.");}};
-const save=async()=>{if(preview===null)return;try{await executeAccessConfiguration(targetId,{permissions:[...selected],reason,confirmation_id:preview.confirmation_id});await onSaved();}catch{setError("Доступ не изменён: состояние или подтверждение устарело.");}};
+  const prepare=async()=>{if(isLoadError||!catalogLoaded)return;try{setError(null);setPreview(await previewAccessConfiguration(targetId,{permissions:[...selected],reason}));}catch{setError("Не удалось подготовить изменение доступа.");}};
+const save=async()=>{if(preview===null||isLoadError||!catalogLoaded||!currentPassword)return;try{await executeAccessConfiguration(targetId,{permissions:[...selected],reason,confirmation_id:preview.confirmation_id,currentPassword});await onSaved();}catch{setError("Доступ не изменён: состояние, пароль или подтверждение неверны.");}};
   return <div className="adminAccessEditor">
+    {isLoadError&&<p role="alert">Не удалось загрузить каталог разрешений. Изменение доступа заблокировано.</p>}{!readOnly&&<label>Текущий пароль администратора<input type="password" value={currentPassword} onChange={(event)=>setCurrentPassword(event.target.value)}/></label>}
     {readOnly?<div className="adminReadonlyRole"><strong>Суперадминистратор</strong><p>Роль и разрешения управляются при запуске платформы и недоступны для изменения здесь.</p></div>:<fieldset><legend>Роль</legend><label><input type="radio" name="admin-role" checked={role==="user"} onChange={()=>{applyRole("user");}}/>Пользователь</label><label><input type="radio" name="admin-role" checked={role==="admin"} onChange={()=>{applyRole("admin");}}/>Администратор</label></fieldset>}
     <div className="adminPermissionPicker"><h3>Разрешения</h3>{groups.map(([category,permissions])=><section key={category}><h4>{PERMISSION_CATEGORY_LABELS[category]??category}</h4>{permissions.map((permission)=>{const included=readOnly;const checked=included||selected.has(permission);return <label key={permission}><input type="checkbox" checked={checked} disabled={included} onChange={()=>toggle(permission)}/><span><strong>{permissionLabel(permission)}</strong><small>{permission}{readOnly?" · Системное разрешение":included?" · Входит в роль":""}</small></span></label>;})}</section>)}</div>
 {readOnly||preview===null?null:<><div className="adminEffects"><p>Будет добавлено: {permissionList(preview.effects.added)}</p><p>Будет отозвано: {permissionList(preview.effects.revoked)}</p></div></>}
     {error===null?null:<p role="alert">{error}</p>}
-<footer><button type="button" onClick={onClose}>{readOnly?"Закрыть":"Отмена"}</button>{readOnly?null:preview===null?<button type="button" onClick={()=>void prepare()}>Сохранить</button>:<button type="button" onClick={()=>void save()}>Подтвердить и сохранить</button>}</footer>
+<footer><button type="button" onClick={onClose}>{readOnly?"Закрыть":"Отмена"}</button>{readOnly?null:preview===null?<button type="button" disabled={isLoadError||!catalogLoaded} onClick={()=>void prepare()}>Сохранить</button>:<button type="button" disabled={isLoadError||!catalogLoaded||!currentPassword} onClick={()=>void save()}>Подтвердить и сохранить</button>}</footer>
   </div>;
 }
 
@@ -78,6 +79,8 @@ export function AdminScreen({ user, section, onSectionChange, targetId, view = "
   const [query, setQuery] = useState("");
   const [userState, setUserState] = useState<UserState>({ kind: "loading" });
   const [catalog, setCatalog] = useState<readonly AdminPermission[]>([]);
+  const [isLoadError, setIsLoadError] = useState(false);
+  const [catalogLoaded, setCatalogLoaded] = useState(false);
   const [password, setPassword] = useState("");
   const [mutationError, setMutationError] = useState<string | null>(null);
   const [sessions, setSessions] = useState<AdminBrowserSessions | null>(null);
@@ -153,8 +156,8 @@ export function AdminScreen({ user, section, onSectionChange, targetId, view = "
     if (!canViewCatalog || !canConfigureAccess) return;
     let active = true;
     void getAdminPermissionCatalog().then((result) => {
-      if (active) setCatalog(result.items.filter((item) => item.admin_assignable).map((item) => item.key));
-    }).catch(() => { if (active) setCatalog([]); });
+      if (active) { setCatalog(result.items.filter((item) => item.admin_assignable).map((item) => item.key)); setIsLoadError(false); setCatalogLoaded(true); }
+    }).catch(() => { if (active) { setCatalog([]); setIsLoadError(true); setCatalogLoaded(true); } });
     return () => { active = false; };
   }, [canConfigureAccess, canViewCatalog]);
 
@@ -173,7 +176,7 @@ export function AdminScreen({ user, section, onSectionChange, targetId, view = "
   function beginOperation(value: PendingOperation): void {
     setOperation(value); setPassword(""); setOperationBusy(false); setMutationError(null);
   }
-  function openAccessEditor(access:AdminUserAccess,readOnly:boolean):void{if(targetId===undefined)return;let handle:ReturnType<typeof overlay.modal>|null=null;handle=overlay.modal({size:"wide",title:"Роль и разрешения",content:<AccessEditor access={access} targetId={targetId} catalog={catalog} readOnly={readOnly} onClose={()=>handle?.close()} onSaved={async()=>{await reloadUser();handle?.close();}}/>});}
+  function openAccessEditor(access:AdminUserAccess,readOnly:boolean):void{if(targetId===undefined)return;let handle:ReturnType<typeof overlay.modal>|null=null;handle=overlay.modal({size:"wide",title:"Роль и разрешения",content:<AccessEditor access={access} targetId={targetId} catalog={catalog} readOnly={readOnly} isLoadError={isLoadError} catalogLoaded={catalogLoaded} onClose={()=>handle?.close()} onSaved={async()=>{await reloadUser();handle?.close();}}/>});}
   async function confirmOperation(): Promise<void> {
     if (operation === null || targetId === undefined || password === "") return;
     setOperationBusy(true);

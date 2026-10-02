@@ -36638,12 +36638,19 @@
           "confirmation_id": {
             "type": "string",
             "format": "uuid"
+          },
+          "currentPassword": {
+            "type": "string",
+            "format": "password",
+            "minLength": 1,
+            "maxLength": 1024
           }
         },
         "required": [
           "reason",
           "permissions",
-          "confirmation_id"
+          "confirmation_id",
+          "currentPassword"
         ]
       },
       "AdminPermissionChangeResultDto": {

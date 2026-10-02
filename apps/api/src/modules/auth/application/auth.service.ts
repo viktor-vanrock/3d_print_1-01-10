@@ -24,7 +24,6 @@ const OTP_LENGTH = 4;
 const OTP_RE = /^\d{4}$/;
 const MAX_ATTEMPTS = 3;
 const OTP_ATTEMPT_WINDOW_MS = 30 * 60 * 1000;
-const OTP_BLOCK_MS = 60 * 60 * 1000;
 const DUMMY_PASSWORD_HASH = "scrypt$32768$8$1$EREREREREREREREREREREQ$tky9M9JZ7spc_B4Lg88Rf_OlbLDRkMFJAy0grGIhDmzWaCRUn6ubG-QseT7Q70-y476KLnZ_pq6MTEO4ZPtiIA";
 
 export interface LoginResult {
@@ -113,7 +112,7 @@ export class AuthService {
       throw error;
     }
     const emailHash = identifierHash(parsed.email);
-    const otp = await this.repository.latestOtp(emailHash);
+    const otp = await this.repository.latestOtp(emailHash, "login");
     if (otp?.block_until !== null && otp?.block_until !== undefined && new Date(otp.block_until).getTime() > Date.now()) {
       this.audit("email_corp", "failure", "blocked");
       throw new HttpException({ code: AUTH_ERRORS.ACCOUNT_BLOCKED, message: "Слишком много попыток. Повторите позже.", retryAt: new Date(otp.block_until).toISOString() }, HttpStatus.TOO_MANY_REQUESTS);
@@ -123,7 +122,7 @@ export class AuthService {
       throw new HttpException("too many requests", HttpStatus.TOO_MANY_REQUESTS);
     }
     const code = randomInt(0, 10 ** OTP_LENGTH).toString().padStart(OTP_LENGTH, "0");
-    await this.repository.createOtp(emailHash, identifierHash(`${parsed.email}:${code}`), new Date(Date.now() + OTP_TTL_MS));
+    await this.repository.createOtp(emailHash, identifierHash(`${parsed.email}:${code}`), new Date(Date.now() + OTP_TTL_MS), "login");
     await this.email.send(parsed.email, code);
   }
 
@@ -135,7 +134,7 @@ export class AuthService {
       throw new BadRequestException("invalid code");
     }
     const emailHash = identifierHash(parsed.email);
-    const otp = await this.repository.latestOtp(emailHash);
+    const otp = await this.repository.latestOtp(emailHash, "login");
     if (otp === null || new Date(otp.expires_at).getTime() < Date.now()) {
       this.audit("email_corp", "failure", "code_expired_or_missing");
       throw new UnauthorizedException();
@@ -153,12 +152,12 @@ export class AuthService {
       throw new HttpException("too many attempts", HttpStatus.TOO_MANY_REQUESTS);
     }
     if (!otp.otp_hash.equals(identifierHash(`${parsed.email}:${code}`))) {
-      const attempts = otp.attempts + 1;
-      await this.repository.incrementOtpAttempts(otp.id, attempts >= MAX_ATTEMPTS ? new Date(Date.now() + OTP_BLOCK_MS) : null);
+      const updated = await this.repository.incrementOtpAttempts(otp.id);
       this.audit("email_corp", "failure", "wrong_code");
+      if (updated.attempts >= MAX_ATTEMPTS) throw new HttpException({ code: AUTH_ERRORS.ACCOUNT_BLOCKED, message: "Слишком много попыток. Повторите позже.", retryAt: updated.block_until?.toISOString() ?? null }, HttpStatus.TOO_MANY_REQUESTS);
       throw new UnauthorizedException();
     }
-    await this.repository.consumeOtp(otp.id);
+    await this.repository.consumeOtp(emailHash, "login");
 
     const existing = await this.repository.findIdentity("email_corp", emailHash);
     const userId =
@@ -207,7 +206,7 @@ export class AuthService {
     const hasPending = created || await this.repository.hasPendingRegistration(emailHash);
 
     if (hasPending) {
-      await this.issueOtp(parsed.email, emailHash);
+      await this.issueOtp(parsed.email, emailHash, "registration");
     }
     if (created) {
       const userId = await this.repository.findIdentity("email_corp", emailHash);
@@ -218,7 +217,7 @@ export class AuthService {
   async activateWithCode(emailValue: unknown, codeValue: unknown): Promise<AuthenticatedUser> {
     const parsed = parseEmail(emailValue);
     const emailHash = identifierHash(parsed.email);
-    await this.verifyOtp(parsed.email, emailHash, codeValue);
+    await this.verifyOtp(parsed.email, emailHash, codeValue, "registration");
     const credential = await this.repository.activatePendingRegistration(emailHash);
     if (credential === null) throw new UnauthorizedException();
     this.recordAuthAudit(credential.id, "auth.activate");
@@ -231,7 +230,7 @@ export class AuthService {
     const emailHash = identifierHash(parsed.email);
     const user = await this.repository.findUserByEmail(emailHash);
     if (user !== null) {
-      await this.issueOtp(parsed.email, emailHash);
+      await this.issueOtp(parsed.email, emailHash, "recovery");
       this.recordAuthAudit(user.id, "auth.recovery_requested", { provider: "password" });
     }
   }
@@ -240,7 +239,7 @@ export class AuthService {
     if (!validPassword(passwordValue)) throw new BadRequestException("password must contain 12 to 20 characters");
     const parsed = parseEmail(emailValue);
     const emailHash = identifierHash(parsed.email);
-    await this.verifyOtp(parsed.email, emailHash, codeValue);
+    await this.verifyOtp(parsed.email, emailHash, codeValue, "recovery");
     const user = await this.repository.findUserByEmail(emailHash);
     if (user === null) throw new UnauthorizedException();
     await this.repository.replacePassword(user.id, await hashPassword(passwordValue));
@@ -325,20 +324,24 @@ export class AuthService {
     this.audit(provider, "failure", reason);
   }
 
-  private async issueOtp(email: string, emailHash: Buffer): Promise<void> {
-    const latest = await this.repository.latestOtpCreatedAt(emailHash);
+  private async issueOtp(email: string, emailHash: Buffer, purpose: "registration" | "recovery"): Promise<void> {
+    const otp = await this.repository.latestOtp(emailHash, purpose);
+    if (otp?.block_until !== null && otp?.block_until !== undefined && new Date(otp.block_until).getTime() > Date.now()) {
+      throw new HttpException({ code: AUTH_ERRORS.ACCOUNT_BLOCKED, message: "Слишком много попыток. Повторите позже.", retryAt: new Date(otp.block_until).toISOString() }, HttpStatus.TOO_MANY_REQUESTS);
+    }
+    const latest = await this.repository.latestOtpCreatedAt(emailHash, purpose);
     if (latest !== null && Date.now() - latest.getTime() < RESEND_COOLDOWN_MS) return;
     const code = randomInt(0, 10 ** OTP_LENGTH).toString().padStart(OTP_LENGTH, "0");
-    await this.repository.createOtp(emailHash, identifierHash(`${email}:${code}`), new Date(Date.now() + OTP_TTL_MS));
+    await this.repository.createOtp(emailHash, identifierHash(`${email}:${code}`), new Date(Date.now() + OTP_TTL_MS), purpose);
     await this.email.send(email, code);
   }
 
-  private async verifyOtp(email: string, emailHash: Buffer, codeValue: unknown): Promise<void> {
+  private async verifyOtp(email: string, emailHash: Buffer, codeValue: unknown, purpose: "registration" | "recovery"): Promise<void> {
     const code = typeof codeValue === "string" ? codeValue.trim() : "";
     if (!OTP_RE.test(code)) {
       throw createAuthError(AUTH_ERRORS.INVALID_CODE, "Неверный код.", false);
     }
-    const otp = await this.repository.latestOtp(emailHash);
+    const otp = await this.repository.latestOtp(emailHash, purpose);
     if (otp === null || new Date(otp.expires_at).getTime() < Date.now()) {
       throw createAuthError(AUTH_ERRORS.CODE_EXPIRED, "Код неверный или истёк.", false, HttpStatus.UNAUTHORIZED);
     }
@@ -349,11 +352,11 @@ export class AuthService {
       throw createAuthError(AUTH_ERRORS.TOO_MANY_ATTEMPTS, "Слишком много попыток. Повторите позже.", true, HttpStatus.TOO_MANY_REQUESTS);
     }
     if (!otp.otp_hash.equals(identifierHash(`${email}:${code}`))) {
-      const attempts = otp.attempts + 1;
-      await this.repository.incrementOtpAttempts(otp.id, attempts >= MAX_ATTEMPTS ? new Date(Date.now() + OTP_BLOCK_MS) : null);
+      const updated = await this.repository.incrementOtpAttempts(otp.id);
+      if (updated.attempts >= MAX_ATTEMPTS) throw createAuthError(AUTH_ERRORS.ACCOUNT_BLOCKED, "Слишком много попыток. Повторите позже.", true, HttpStatus.TOO_MANY_REQUESTS);
       throw createAuthError(AUTH_ERRORS.INVALID_CODE, "Неверный код.", true, HttpStatus.UNAUTHORIZED);
     }
-    await this.repository.consumeOtp(otp.id);
+    await this.repository.consumeOtp(emailHash, purpose);
   }
 
   private async sessionUser(userId: UserIdType): Promise<AuthenticatedUser> {
