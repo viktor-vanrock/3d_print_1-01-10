@@ -366,8 +366,15 @@ describe("Nest auth domain migration", () => {
     process.env.AUTH_DEV_BYPASS = "true";
     const database = app.get<Pool>(DATABASE_POOL);
     try {
+      const devuserBefore = await database.query(
+        "SELECT id, username, status FROM users WHERE username = 'devuser'",
+      );
+      console.log("DEVUSER BEFORE:", JSON.stringify(devuserBefore.rows));
       const first = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
       const second = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
+      console.log("FIRST STATUS:", first.status);
+      const firstJson = await first.clone().json().catch(() => "parse error");
+      console.log("FIRST BODY:", JSON.stringify(firstJson));
       expect(first.status).toBe(200);
       expect(second.status).toBe(200);
       const firstBody = (await first.json()) as { user: { id: string } };
