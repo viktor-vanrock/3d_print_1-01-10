@@ -24,8 +24,8 @@ function fixture(passwordValid = true) {
 describe("AdminAccessService", () => {
   it("configures access without password verification", async () => {
     const { service, permissions, stepUp } = fixture();
-    await service.execute({ actorId, targetId, sessionFingerprint: "d".repeat(64), sessionVersion: 3, action: "configure_access", reason: "approved", confirmationId: "intent", desiredRole: "admin", directPermissions: [] });
-    expect(stepUp.verifyPassword).not.toHaveBeenCalled();
+    await service.execute({ actorId, targetId, sessionFingerprint: "d".repeat(64), sessionVersion: 3, action: "configure_access", reason: "approved", confirmationId: "intent", desiredRole: "admin", directPermissions: [], currentPassword: "correct" });
+    expect(stepUp.verifyPassword).toHaveBeenCalledWith(actorId, "correct");
     expect(permissions.executePermissionChange).toHaveBeenCalled();
   });
   it("creates a server-calculated preview before asking for the password", async () => {
