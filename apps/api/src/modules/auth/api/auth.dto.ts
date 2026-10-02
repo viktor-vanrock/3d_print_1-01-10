@@ -97,6 +97,27 @@ export class OkResponseDto {
   declare readonly ok: true;
 }
 
+export class OkMessageResponseDto extends OkResponseDto {
+  @ApiProperty({ type: String })
+  declare readonly message: string;
+}
+
+export class AuthBrowserSessionDto {
+  @ApiProperty({ type: String, format: "uuid" })
+  declare readonly id: string;
+
+  @ApiProperty({ type: String, format: "date-time" })
+  declare readonly created_at: string;
+
+  @ApiProperty({ type: Boolean })
+  declare readonly isCurrent: boolean;
+}
+
+export class AuthSessionsResponseDto {
+  @ApiProperty({ type: () => AuthBrowserSessionDto, isArray: true })
+  declare readonly sessions: readonly AuthBrowserSessionDto[];
+}
+
 export class AuthUserDto {
   @ApiProperty({ type: String, format: "uuid" })
   declare readonly id: string;

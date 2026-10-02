@@ -11,7 +11,7 @@ import {
   ApiUnauthorizedResponse,
 } from "@nestjs/swagger";
 import { ApiErrorEnvelopeDto } from "../../../nest/openapi/error-envelope.dto.ts";
-import { DevAvailabilityResponseDto, DevLoginResponseDto, OkResponseDto, PasswordLoginResponseDto, SessionResponseDto } from "./auth.dto.ts";
+import { AuthSessionsResponseDto, DevAvailabilityResponseDto, DevLoginResponseDto, OkMessageResponseDto, OkResponseDto, PasswordLoginResponseDto, SessionResponseDto } from "./auth.dto.ts";
 
 const errors = [
   ApiBadRequestResponse({ type: ApiErrorEnvelopeDto }),
@@ -27,6 +27,31 @@ export function ApiSessionOperation(): MethodDecorator {
     ApiOkResponse({ type: SessionResponseDto }),
     ApiUnauthorizedResponse({ type: ApiErrorEnvelopeDto }),
   );
+}
+
+export function ApiSessionsOperation(): MethodDecorator {
+  return applyDecorators(
+    ApiTags("auth"),
+    ApiOperation({ summary: "List active browser sessions" }),
+    ApiOkResponse({ type: AuthSessionsResponseDto }),
+    ApiUnauthorizedResponse({ type: ApiErrorEnvelopeDto }),
+  );
+}
+
+export function ApiRegisterOperation(): MethodDecorator {
+  return applyDecorators(ApiTags("auth"), ApiOperation({ summary: "Register with a password" }), ApiOkResponse({ type: OkMessageResponseDto }), ...errors);
+}
+
+export function ApiRegisterVerifyOperation(): MethodDecorator {
+  return applyDecorators(ApiTags("auth"), ApiOperation({ summary: "Verify registration email" }), ApiOkResponse({ type: OkResponseDto }), ...errors);
+}
+
+export function ApiRecoveryStartOperation(): MethodDecorator {
+  return applyDecorators(ApiTags("auth"), ApiOperation({ summary: "Start password recovery" }), ApiOkResponse({ type: OkMessageResponseDto }), ...errors);
+}
+
+export function ApiRecoveryVerifyOperation(): MethodDecorator {
+  return applyDecorators(ApiTags("auth"), ApiOperation({ summary: "Verify password recovery code" }), ApiOkResponse({ type: OkResponseDto }), ...errors);
 }
 
 export function ApiLogoutOperation(): MethodDecorator {
