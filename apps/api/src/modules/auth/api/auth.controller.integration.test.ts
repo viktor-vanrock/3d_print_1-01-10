@@ -5,7 +5,7 @@ import type { NestExpressApplication } from "@nestjs/platform-express";
 import { SignJWT } from "jose";
 import { randomUUID } from "node:crypto";
 import type { Pool } from "pg";
-import { afterAll, beforeAll, describe, expect, it } from "vitest";
+import { afterAll, beforeAll, beforeEach, describe, expect, it } from "vitest";
 import { UserId, type UserId as UserIdType } from "../../_kernel/brandedIds.ts";
 import { ANALYTICS_PORT } from "../../analytics/public/index.ts";
 import { PROFILE_AUTH_PORT, type NewUserSeed, type ProfileAuthPort, type SessionProfile } from "../../profile/public/index.ts";
@@ -164,6 +164,16 @@ describe("Nest auth domain migration", () => {
     restoreEnvironment("AUTH_ENCRYPTION_KEY");
     restoreEnvironment("AUTH_DEV_BYPASS");
     restoreEnvironment("NODE_ENV");
+  });
+
+  beforeEach(async () => {
+    const database = app.get<Pool>(DATABASE_POOL);
+    await database.query(
+      `insert into users (username, display_name, handle_confirmed, status)
+       values ('devuser', 'DEV Reviewer', true, 'active')
+       on conflict (username)
+       do update set status = 'active', display_name = 'DEV Reviewer'`,
+    );
   });
 
   it("uses the versioned unauthorized envelope for an absent session", async () => {
