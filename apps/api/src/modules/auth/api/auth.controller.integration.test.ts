@@ -354,6 +354,7 @@ describe("Nest auth domain migration", () => {
   it("issues the idempotent developer session only when the non-production bypass is explicit", async () => {
     process.env.NODE_ENV = "development";
     process.env.AUTH_DEV_BYPASS = "true";
+    const database = app.get<Pool>(DATABASE_POOL);
     try {
       const first = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
       const second = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
@@ -364,8 +365,12 @@ describe("Nest auth domain migration", () => {
       expect(firstBody.user.id).toBe(secondBody.user.id);
       expect(first.headers.get("set-cookie")).toContain("portal_session=");
     } finally {
-      restoreEnvironment("NODE_ENV");
-      restoreEnvironment("AUTH_DEV_BYPASS");
+      try {
+        await database.query("update users set status = 'active' where username = 'devuser'");
+      } finally {
+        restoreEnvironment("NODE_ENV");
+        restoreEnvironment("AUTH_DEV_BYPASS");
+      }
     }
   });
 
