@@ -23,7 +23,7 @@ export function BrandSelect({ value, vendors, onChange, field = "brand" }: {
     `${vendor.name} ${vendor.slug}`.toLocaleLowerCase("ru-RU").includes(query));
   const activeOption = options[active];
   function choose(vendor: MaterialVendor) {
-    onChange(field === "color" ? vendor.slug : vendor.name);
+    onChange(vendor.slug);
     setOpen(false);
     setActive(-1);
   }

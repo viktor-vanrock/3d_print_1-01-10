@@ -126,7 +126,6 @@ export function ProfileTabs({
   if (own) options.push({ value: "workshop", label: "Мастерская" });
   if (own && capabilities.some((capability) => capability.startsWith("data."))) options.push({ value: "data", label: "Данные" });
   if (own && capabilities.includes("admin.portal.access")) options.push({ value: "administration", label: "Администрирование" });
-  if (own && capabilities.length > 0) options.push({ value: "data", label: "Данные" });
   return (
     <>
       <SegmentToggle className="profileTabs" ariaLabel="Разделы профиля" options={options} value={value} onChange={onChange} />

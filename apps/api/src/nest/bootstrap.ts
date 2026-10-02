@@ -5,7 +5,7 @@ import { ConfigService } from "@nestjs/config";
 import { NestFactory } from "@nestjs/core";
 import type { NestExpressApplication } from "@nestjs/platform-express";
 import { AppModule } from "./app.module.ts";
-import { DEFAULT_NEST_PORT, getAllowedOrigins } from "./config/runtime-config.ts";
+import { DEFAULT_NEST_PORT, getAllowedOrigins, runtimeIntegrationWarnings } from "./config/runtime-config.ts";
 import { configureOpenApi, createOpenApiDocument, shouldWriteOpenApiContract, writeOpenApiContract } from "./openapi/setup-openapi.ts";
 
 export const DEFAULT_NEST_HOST = "0.0.0.0";
@@ -32,6 +32,10 @@ export async function startNestApp(): Promise<NestExpressApplication> {
   const app = await createNestApp();
   const config = app.get(ConfigService);
   const port = config.get<number>("PORT") ?? DEFAULT_NEST_PORT;
+
+  for (const warning of runtimeIntegrationWarnings(process.env)) {
+    console.warn(`api startup warning: ${warning}`);
+  }
 
   app.enableShutdownHooks();
   await app.init();
