@@ -82,7 +82,7 @@ class TestProfileAuthPort implements ProfileAuthPort {
     const result = await this.pool.query<{ id: string }>(
       `insert into users (username, display_name, handle_confirmed)
        values ('devuser', 'DEV Reviewer', true)
-       on conflict (username) do update set display_name = excluded.display_name
+       on conflict (username) do update set display_name = excluded.display_name, status = 'active'
        returning id`,
     );
     return this.findSessionUser(UserId(result.rows[0]!.id));
@@ -354,7 +354,6 @@ describe("Nest auth domain migration", () => {
   it("issues the idempotent developer session only when the non-production bypass is explicit", async () => {
     process.env.NODE_ENV = "development";
     process.env.AUTH_DEV_BYPASS = "true";
-    const database = app.get<Pool>(DATABASE_POOL);
     try {
       const first = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
       const second = await fetch(`${baseUrl}/auth/dev`, { method: "POST" });
@@ -365,10 +364,8 @@ describe("Nest auth domain migration", () => {
       expect(firstBody.user.id).toBe(secondBody.user.id);
       expect(first.headers.get("set-cookie")).toContain("portal_session=");
     } finally {
-      const devUser = await database.query<{ id: string }>(`select id from users where username = 'devuser'`);
-      if (devUser.rows[0] !== undefined) await cleanupTestUser(database, devUser.rows[0].id);
-      process.env.NODE_ENV = "test";
-      delete process.env.AUTH_DEV_BYPASS;
+      restoreEnvironment("NODE_ENV");
+      restoreEnvironment("AUTH_DEV_BYPASS");
     }
   });
 
