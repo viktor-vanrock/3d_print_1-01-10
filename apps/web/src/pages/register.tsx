@@ -29,8 +29,9 @@ export function RegisterPage() {
     const result = await registerAccount({ email, password, displayName, ...(gender ? { gender } : {}), ...(birthYear ? { birthYear: Number(birthYear) } : {}) });
     setBusy(false);
     if (!result.ok) return setError(result.error ?? { message: "Не удалось начать регистрацию. Проверьте данные." });
-    sessionStorage.setItem("portal.registration.email", email);
-    sessionStorage.setItem("portal.registration.displayName", displayName);
+    sessionStorage.setItem("pending_reg_password", password);
+    sessionStorage.setItem("pending_reg_email", email);
+    sessionStorage.setItem("pending_reg_display_name", displayName);
     navigate("/register/verify");
   }
   return <main className={`loginPage ${styles.page}`}>
